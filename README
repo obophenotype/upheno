@@ -1,0 +1,20 @@
+
+See the Makefile to see how each of the individual files are constructed.
+
+See ../../tools/upheno_maker/uberpheno.tex for detailed descriptions of the methods.
+
+Files:
+
+* mp_hp-align-equiv.owl
+
+  automatically generated equivalence axioms between MP and HP. See methods
+
+  the underlying assumptions is that each member of the matching class
+  pair can be generalized to mammalia.
+
+* mp_hp-disjoint_from.obo
+
+  manually asserted disjoint_from axioms. These are used to override
+  automated class pair matches.
+
+
