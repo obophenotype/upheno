@@ -7552,15 +7552,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0007419 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007419">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001189"/>
-        <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0007419</obo:IAO_id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0007543 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007543">
@@ -10389,14 +10380,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001178">
         <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0001178</obo:IAO_id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0001189 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001189">
-        <obo:IAO_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0001189</obo:IAO_id>
     </owl:Class>
     
 
