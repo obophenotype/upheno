@@ -26,6 +26,17 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -57,6 +68,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000013">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001121"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000013</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000016">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003622"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000016</oboInOwl:id>
     </owl:Class>
     
 
@@ -235,15 +255,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000077">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002135"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000077</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000083">
@@ -281,20 +292,20 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000091 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000091">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002703"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000091</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000093">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005160"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000093</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000095">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005325"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000095</oboInOwl:id>
     </owl:Class>
     
 
@@ -362,6 +373,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000108">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011308"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000108</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000110">
@@ -398,11 +418,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000122">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003604"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000122</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000123">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001859"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000123</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000125">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011361"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000125</oboInOwl:id>
     </owl:Class>
     
 
@@ -732,15 +770,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000277 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000277">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000458"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000277</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000278">
@@ -764,15 +793,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000316">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001300"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000316</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000326 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000326">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000455"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000326</oboInOwl:id>
     </owl:Class>
     
 
@@ -848,15 +868,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000365">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0006325"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000365</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000366 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000366">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002233"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000366</oboInOwl:id>
     </owl:Class>
     
 
@@ -943,6 +954,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000411">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000024"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000411</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000412">
@@ -961,38 +981,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000415 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000415">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002236"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000415</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000419 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000419">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002239"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000419</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000431">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000449"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000431</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000433 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000433">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002238"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000433</oboInOwl:id>
     </owl:Class>
     
 
@@ -1020,15 +1013,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000478">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002092"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000478</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000479 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000479">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001325"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000479</oboInOwl:id>
     </owl:Class>
     
 
@@ -1285,15 +1269,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000553 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000553">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005197"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000553</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000554">
@@ -1375,15 +1350,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000587 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000587">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001330"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000587</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000588 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000588">
@@ -1402,15 +1368,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000591 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000591">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002698"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000591</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000592 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000592">
@@ -1425,15 +1382,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000597">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003688"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000597</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000600 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000600">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002234"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000600</oboInOwl:id>
     </owl:Class>
     
 
@@ -1461,15 +1409,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000609">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0006221"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000609</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000610 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000610">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005098"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000610</oboInOwl:id>
     </owl:Class>
     
 
@@ -1627,24 +1566,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000676 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000676">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005358"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000676</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000682 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000682">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002576"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000682</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000684 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000684">
@@ -1727,15 +1648,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000766 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000766">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000157"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000766</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000772 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000772">
@@ -1773,15 +1685,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000782 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000782">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000149"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000782</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000787 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000787">
@@ -1809,6 +1712,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000792">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002135"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000792</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000795 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000795">
@@ -1823,6 +1735,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000798">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002687"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000798</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000803">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000522"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000803</oboInOwl:id>
     </owl:Class>
     
 
@@ -2035,15 +1956,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000889 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000889">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005298"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000889</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000898 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000898">
@@ -2082,11 +1994,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000925 -->
+    <!-- http://purl.obolibrary.org/obo/HP_0000926 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000925">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004703"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000925</oboInOwl:id>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000926">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011175"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000926</oboInOwl:id>
     </owl:Class>
     
 
@@ -2326,11 +2238,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0001080 -->
+    <!-- http://purl.obolibrary.org/obo/HP_0001059 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001080">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005083"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001080</oboInOwl:id>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001059">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003664"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001059</oboInOwl:id>
     </owl:Class>
     
 
@@ -2569,15 +2481,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0001273 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001273">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000780"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001273</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0001274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001274">
@@ -2619,15 +2522,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001310">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003314"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001310</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001317 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001317">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000849"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001317</oboInOwl:id>
     </owl:Class>
     
 
@@ -2956,15 +2850,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0001549 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001549">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002581"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001549</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0001552 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001552">
@@ -2988,15 +2873,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001596">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000414"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001596</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001597 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001597">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000579"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001597</oboInOwl:id>
     </owl:Class>
     
 
@@ -3033,15 +2909,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001629">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0010402"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001629</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001630 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001630">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000282"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001630</oboInOwl:id>
     </owl:Class>
     
 
@@ -3091,15 +2958,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0001641 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001641">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002748"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001641</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0001642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001642">
@@ -3123,15 +2981,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001644">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002795"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001644</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001646 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001646">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002747"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001646</oboInOwl:id>
     </owl:Class>
     
 
@@ -3372,15 +3221,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0001697 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001697">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000288"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001697</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0001698 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001698">
@@ -3462,15 +3302,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0001732 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001732">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001944"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001732</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0001733 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001733">
@@ -3503,15 +3334,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001738">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003335"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001738</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001739 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001739">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002251"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001739</oboInOwl:id>
     </owl:Class>
     
 
@@ -3606,39 +3428,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0001850 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001850">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005104"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001850</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001872 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001872">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000228"/>
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004720"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001872</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0001873 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001873">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003179"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001873</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0001874 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001874">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002415"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001874</oboInOwl:id>
     </owl:Class>
     
 
@@ -3790,7 +3584,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001911 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001911">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002415"/>
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002441"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001911</oboInOwl:id>
     </owl:Class>
@@ -3811,6 +3604,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001913">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000334"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001913</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001920 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001920">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011356"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001920</oboInOwl:id>
     </owl:Class>
     
 
@@ -3929,6 +3731,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001961">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002740"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001961</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001970">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011405"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001970</oboInOwl:id>
     </owl:Class>
     
 
@@ -4150,15 +3961,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0002060 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002060">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000787"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002060</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0002067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002067">
@@ -4191,15 +3993,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002084">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0010083"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002084</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002086 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002086">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002132"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002086</oboInOwl:id>
     </owl:Class>
     
 
@@ -4290,15 +4083,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002107">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0010822"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002107</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002109">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002264"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002109</oboInOwl:id>
     </owl:Class>
     
 
@@ -4647,15 +4431,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0002363 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002363">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005277"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002363</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0002375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002375">
@@ -4706,24 +4481,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002414">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003054"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002414</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002418 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002418">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000897"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002418</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002443 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002443">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000837"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002443</oboInOwl:id>
     </owl:Class>
     
 
@@ -4787,15 +4544,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002533">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001504"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002533</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002538 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002538">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000788"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002538</oboInOwl:id>
     </owl:Class>
     
 
@@ -4990,15 +4738,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0002620 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002620">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002191"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002620</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0002621 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002621">
@@ -5080,6 +4819,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0002659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002659">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000061"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002659</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0002666 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002666">
@@ -5103,24 +4851,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002671">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004208"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002671</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002693 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002693">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0010029"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002693</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002696 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002696">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000109"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002696</oboInOwl:id>
     </owl:Class>
     
 
@@ -5243,15 +4973,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0002763 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002763">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000163"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002763</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0002773 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002773">
@@ -5317,24 +5038,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0002818 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002818">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000552"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002818</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002823 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002823">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000559"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002823</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0002835 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002835">
@@ -5394,15 +5097,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002860">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004207"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002860</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002867 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002867">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005354"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002867</oboInOwl:id>
     </owl:Class>
     
 
@@ -5670,33 +5364,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0002991 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002991">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002187"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002991</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002992 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002992">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000558"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002992</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0002997 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002997">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005108"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002997</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0003006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003006">
@@ -5733,15 +5400,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0003019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003019">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000554"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003019</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0003022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003022">
@@ -5774,24 +5432,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003038">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002765"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003038</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0003045 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003045">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005353"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003045</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0003063 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003063">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005296"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003063</oboInOwl:id>
     </owl:Class>
     
 
@@ -6076,15 +5716,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0003310 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003310">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004659"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003310</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0003323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003323">
@@ -6116,6 +5747,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003363">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002766"/>
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011249"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003363</oboInOwl:id>
     </owl:Class>
     
@@ -6126,15 +5758,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003381">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000921"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003381</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0003398 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003398">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001053"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0003398</oboInOwl:id>
     </owl:Class>
     
 
@@ -6411,15 +6034,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0004329 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004329">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005195"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0004329</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0004332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004332">
@@ -6479,15 +6093,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004378">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005034"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0004378</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0004379 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004379">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000202"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0004379</oboInOwl:id>
     </owl:Class>
     
 
@@ -7024,15 +6629,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0005288 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005288">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002235"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0005288</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0005303 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005303">
@@ -7204,15 +6800,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0005918 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005918">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005306"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0005918</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0005922 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005922">
@@ -7254,6 +6841,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006277">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0009110"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0006277</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006297">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002576"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0006297</oboInOwl:id>
     </owl:Class>
     
 
@@ -7357,33 +6953,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0006704 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006704">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004111"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0006704</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0006705 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006705">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002745"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0006705</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0006707 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006707">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0009820"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0006707</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0006739 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006739">
@@ -7417,15 +6986,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007268">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0006291"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0007268</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0007376 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007376">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000820"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0007376</oboInOwl:id>
     </owl:Class>
     
 
@@ -7655,20 +7215,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0008365 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008365">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005109"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0008365</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0008372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008372">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003639"/>
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005444"/>
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011233"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0008372</oboInOwl:id>
     </owl:Class>
     
@@ -7697,15 +7247,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008479">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004667"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0008479</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0008516 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008516">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004601"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0008516</oboInOwl:id>
     </owl:Class>
     
 
@@ -7797,6 +7338,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009124">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000003"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0009124</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009125">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011174"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0009125</oboInOwl:id>
     </owl:Class>
     
 
@@ -7932,15 +7482,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009900">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004699"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0009900</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0009911 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009911">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005272"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0009911</oboInOwl:id>
     </owl:Class>
     
 
@@ -8172,47 +7713,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0010640 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010640">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002237"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010640</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0010650 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010650">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0004871"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010650</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0010662 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010662">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000830"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010662</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0010663 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010663">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000832"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010663</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0010668 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010668">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005270"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010668</oboInOwl:id>
     </owl:Class>
     
 
@@ -8452,29 +7957,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0010939 -->
+    <!-- http://purl.obolibrary.org/obo/HP_0010958 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010939">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000102"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010939</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0010950 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010950">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000828"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010950</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0010951 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010951">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000826"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010951</oboInOwl:id>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010958">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000520"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0010958</oboInOwl:id>
     </owl:Class>
     
 
@@ -8620,15 +8107,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011034">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000604"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011034</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0011035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011035">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000521"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0011035</oboInOwl:id>
     </owl:Class>
     
 
@@ -8934,7 +8412,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100508">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003639"/>
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005444"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100508</oboInOwl:id>
     </owl:Class>
     
@@ -8954,6 +8431,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100519">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003624"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100519</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100520">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0003620"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100520</oboInOwl:id>
     </owl:Class>
     
 
@@ -8999,15 +8485,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100545">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0006135"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100545</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0100547 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100547">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000783"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100547</oboInOwl:id>
     </owl:Class>
     
 
@@ -9125,15 +8602,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100706">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0000953"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100706</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0100707 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100707">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002182"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100707</oboInOwl:id>
     </owl:Class>
     
 
@@ -9291,6 +8759,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0100852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100852">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0002065"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100852</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0200007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200007">
@@ -9367,10 +8844,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MP_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000024">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000024</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MP_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000032">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000032</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000061">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000061</oboInOwl:id>
     </owl:Class>
     
 
@@ -9431,14 +8924,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000102 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000102">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000102</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000103">
@@ -9451,14 +8936,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000108">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000108</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000109">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000109</oboInOwl:id>
     </owl:Class>
     
 
@@ -9503,14 +8980,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000149">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000149</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000150">
@@ -9535,14 +9004,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000157 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000157">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000157</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000160">
@@ -9563,14 +9024,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000162">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000162</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000163 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000163">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000163</oboInOwl:id>
     </owl:Class>
     
 
@@ -9607,14 +9060,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000202 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000202">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000202</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000218">
@@ -9635,14 +9080,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000222">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000222</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000228 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000228">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000228</oboInOwl:id>
     </owl:Class>
     
 
@@ -9711,26 +9148,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000282 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000282">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000282</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000284">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000284</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000288 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000288">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000288</oboInOwl:id>
     </owl:Class>
     
 
@@ -9887,26 +9308,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000455 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000455">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000455</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000457 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000457">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000457</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000458 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000458">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000458</oboInOwl:id>
     </owl:Class>
     
 
@@ -10007,10 +9412,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000521 -->
+    <!-- http://purl.obolibrary.org/obo/MP_0000522 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000521">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000521</oboInOwl:id>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000522">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000522</oboInOwl:id>
     </owl:Class>
     
 
@@ -10063,14 +9468,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000552 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000552">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000552</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000553">
@@ -10091,22 +9488,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000555">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000555</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000558 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000558">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000558</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000559 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000559">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000559</oboInOwl:id>
     </owl:Class>
     
 
@@ -10447,66 +9828,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000780 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000780">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000780</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000783 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000783">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000783</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000787 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000787">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000787</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000788 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000788">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000788</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000820 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000820">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000820</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000825 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000825">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000825</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000826 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000826">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000826</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000828 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000828">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000828</oboInOwl:id>
     </owl:Class>
     
 
@@ -10519,50 +9844,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0000830 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000830">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000830</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000832 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000832">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000832</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000837 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000837">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000837</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000849 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000849">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000849</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0000851 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000851">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000851</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0000897 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0000897">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0000897</oboInOwl:id>
     </owl:Class>
     
 
@@ -10611,14 +9896,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001045">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0001045</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0001053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0001053">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0001053</oboInOwl:id>
     </owl:Class>
     
 
@@ -11743,6 +11020,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MP_0002065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002065">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002065</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MP_0002074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002074">
@@ -11855,14 +11140,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0002132 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002132">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002132</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0002135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002135">
@@ -11887,14 +11164,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0002182 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002182">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002182</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0002183 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002183">
@@ -11907,22 +11176,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002185">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002185</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002187 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002187">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002187</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002191 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002191">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002191</oboInOwl:id>
     </owl:Class>
     
 
@@ -11955,78 +11208,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002229">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002229</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002233 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002233">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002233</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002234 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002234">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002234</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002235 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002235">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002235</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002236 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002236">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002236</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002237 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002237">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002237</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002238 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002238">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002238</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002239 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002239">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002239</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002251 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002251">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002251</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002264 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002264">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002264</oboInOwl:id>
     </owl:Class>
     
 
@@ -12091,14 +11272,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002406">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002406</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002415 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002415">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002415</oboInOwl:id>
     </owl:Class>
     
 
@@ -12279,14 +11452,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0002581 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002581">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002581</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0002590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002590">
@@ -12431,22 +11596,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0002698 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002698">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002698</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002703 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002703">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002703</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0002708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002708">
@@ -12491,30 +11640,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002743">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002743</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002745 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002745">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002745</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002747 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002747">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002747</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002748 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0002748">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0002748</oboInOwl:id>
     </owl:Class>
     
 
@@ -13847,6 +12972,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MP_0003604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0003604">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0003604</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MP_0003605 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0003605">
@@ -13887,6 +13020,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MP_0003622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0003622">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0003622</oboInOwl:id>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MP_0003624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0003624">
@@ -13923,6 +13064,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0003660">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0003660</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0003664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0003664">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0003664</oboInOwl:id>
     </owl:Class>
     
 
@@ -14263,14 +13412,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0004111 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004111">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0004111</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0004119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004119">
@@ -14543,14 +13684,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0004601 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004601">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0004601</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0004609 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004609">
@@ -14595,14 +13728,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004644">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0004644</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0004659 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004659">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0004659</oboInOwl:id>
     </owl:Class>
     
 
@@ -14675,22 +13800,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004699">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0004699</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0004703 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004703">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0004703</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0004720 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0004720">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0004720</oboInOwl:id>
     </owl:Class>
     
 
@@ -14855,26 +13964,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0005083 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005083">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005083</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0005084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005084">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005084</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005098 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005098">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005098</oboInOwl:id>
     </owl:Class>
     
 
@@ -14891,30 +13984,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005103">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005103</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005104 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005104">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005104</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005108">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005108</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005109">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005109</oboInOwl:id>
     </owl:Class>
     
 
@@ -15031,22 +14100,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0005195 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005195">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005195</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005197 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005197">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005197</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0005202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005202">
@@ -15159,30 +14212,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0005270 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005270">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005270</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005272 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005272">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005272</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005277 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005277">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005277</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0005278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005278">
@@ -15215,14 +14244,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0005296 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005296">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005296</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0005297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005297">
@@ -15231,26 +14252,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0005298 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005298">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005298</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0005302 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005302">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005302</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005306 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005306">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005306</oboInOwl:id>
     </owl:Class>
     
 
@@ -15283,6 +14288,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005324">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005324</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0005325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005325">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005325</oboInOwl:id>
     </owl:Class>
     
 
@@ -15323,22 +14336,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005344">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005344</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005353 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005353">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005353</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005354 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005354">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005354</oboInOwl:id>
     </owl:Class>
     
 
@@ -15459,14 +14456,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005441">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005441</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0005444 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0005444">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0005444</oboInOwl:id>
     </owl:Class>
     
 
@@ -16671,14 +15660,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0009820 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0009820">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0009820</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0009825 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0009825">
@@ -16787,14 +15768,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0010016">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0010016</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0010029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0010029">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0010029</oboInOwl:id>
     </owl:Class>
     
 
@@ -17484,9 +16457,73 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011012">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011012</oboInOwl:id>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0011174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011174">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011174</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0011175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011175">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011175</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0011233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011233">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011233</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0011249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011249">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011249</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0011308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011308">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011308</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0011356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011356">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011356</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0011361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011361">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011361</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MP_0011405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011405">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011405</oboInOwl:id>
+    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.0.1502) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 0.5.2-SNAPSHOT) http://owlapi.sourceforge.net -->
 
