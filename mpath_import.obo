@@ -1,0 +1,969 @@
+format-version: 1.2
+ontology: upheno/imports/imports/mpath_import
+
+[Term]
+id: MPATH:0
+name: pathological entity
+
+[Term]
+id: MPATH:1
+name: cell and tissue damage
+is_a: MPATH:603 ! pathological anatomical entity
+
+[Term]
+id: MPATH:105
+name: circulatory disorder
+is_a: MPATH:603 ! pathological anatomical entity
+
+[Term]
+id: MPATH:119
+name: hemorrhage and non-specified extravasation
+is_a: MPATH:105 ! circulatory disorder
+
+[Term]
+id: MPATH:120
+name: ecchymosis
+is_a: MPATH:119 ! hemorrhage and non-specified extravasation
+
+[Term]
+id: MPATH:121
+name: hematoma
+is_a: MPATH:119 ! hemorrhage and non-specified extravasation
+
+[Term]
+id: MPATH:124
+name: infarct
+is_a: MPATH:105 ! circulatory disorder
+
+[Term]
+id: MPATH:126
+name: growth and differentiation defect
+is_a: MPATH:603 ! pathological anatomical entity
+
+[Term]
+id: MPATH:127
+name: atrophy
+is_a: MPATH:604 ! defective growth and differentiation process
+
+[Term]
+id: MPATH:14
+name: process of degenerative change
+is_a: MPATH:597 ! cell and tissue damage process
+
+[Term]
+id: MPATH:149
+name: squamous hyperplasia
+is_a: MPATH:602 ! hyperplastic tissue
+
+[Term]
+id: MPATH:150
+name: acanthosis
+is_a: MPATH:149 ! squamous hyperplasia
+
+[Term]
+id: MPATH:154
+name: hyperkeratosis
+is_a: MPATH:149 ! squamous hyperplasia
+
+[Term]
+id: MPATH:156
+name: parakeratosis
+is_a: MPATH:154 ! hyperkeratosis
+
+[Term]
+id: MPATH:160
+name: metaplasia
+is_a: MPATH:604 ! defective growth and differentiation process
+
+[Term]
+id: MPATH:162
+name: epithelial metaplasia
+is_a: MPATH:605 ! metaplastic tissue
+
+[Term]
+id: MPATH:164
+name: gastric metaplasia
+is_a: MPATH:162 ! epithelial metaplasia
+
+[Term]
+id: MPATH:175
+name: healing and repair process
+is_a: MPATH:596 ! pathological process
+
+[Term]
+id: MPATH:176
+name: connective tissue replacement
+is_a: MPATH:175 ! healing and repair process
+
+[Term]
+id: MPATH:181
+name: fibrosis
+is_a: MPATH:176 ! connective tissue replacement
+
+[Term]
+id: MPATH:184
+name: sclerosis
+is_a: MPATH:176 ! connective tissue replacement
+
+[Term]
+id: MPATH:188
+name: immunopathological process
+is_a: MPATH:596 ! pathological process
+
+[Term]
+id: MPATH:194
+name: immune mediated disease
+is_a: MPATH:188 ! immunopathological process
+
+[Term]
+id: MPATH:195
+name: arthritis
+is_a: MPATH:212 ! inflammation
+
+[Term]
+id: MPATH:196
+name: dermatitis
+is_a: MPATH:212 ! inflammation
+
+[Term]
+id: MPATH:197
+name: glomerulonephritis
+is_a: MPATH:212 ! inflammation
+
+[Term]
+id: MPATH:198
+name: immune mediated hemolytic anaemia
+is_a: MPATH:212 ! inflammation
+
+[Term]
+id: MPATH:2
+name: cell death
+is_a: MPATH:597 ! cell and tissue damage process
+
+[Term]
+id: MPATH:200
+name: myositis
+is_a: MPATH:212 ! inflammation
+
+[Term]
+id: MPATH:201
+name: vasculitis
+is_a: MPATH:212 ! inflammation
+
+[Term]
+id: MPATH:212
+name: inflammation
+is_a: MPATH:194 ! immune mediated disease
+
+[Term]
+id: MPATH:213
+name: acute inflammation
+is_a: MPATH:212 ! inflammation
+
+[Term]
+id: MPATH:214
+name: chronic inflammation
+is_a: MPATH:212 ! inflammation
+
+[Term]
+id: MPATH:217
+name: ulcerative inflammation
+
+[Term]
+id: MPATH:218
+name: neoplasm
+is_a: MPATH:603 ! pathological anatomical entity
+
+[Term]
+id: MPATH:219
+name: adnexal and skin appendage tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:232
+name: trichoepithelioma
+is_a: MPATH:575 ! basaloid follicular neoplasms
+
+[Term]
+id: MPATH:234
+name: basal cell carcinoma
+is_a: MPATH:549 ! carcinoma
+is_a: MPATH:575 ! basaloid follicular neoplasms
+
+[Term]
+id: MPATH:235
+name: blood vessel tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:236
+name: angiofibroma
+is_a: MPATH:235 ! blood vessel tumor
+
+[Term]
+id: MPATH:238
+name: hemangioblastoma
+is_a: MPATH:235 ! blood vessel tumor
+
+[Term]
+id: MPATH:240
+name: hemangioma
+is_a: MPATH:235 ! blood vessel tumor
+
+[Term]
+id: MPATH:243
+name: central nervous system tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:244
+name: astrocytoma
+is_a: MPATH:249 ! glioma
+
+[Term]
+id: MPATH:246
+name: choroid plexus papilloma
+is_a: MPATH:264 ! fibroepithelial tumor
+is_a: MPATH:565 ! tumors of neurepithelial tissue
+
+[Term]
+id: MPATH:247
+name: ependymoma
+is_a: MPATH:249 ! glioma
+
+[Term]
+id: MPATH:249
+name: glioma
+is_a: MPATH:565 ! tumors of neurepithelial tissue
+
+[Term]
+id: MPATH:25
+name: tissue specific degenerative process
+is_a: MPATH:14 ! process of degenerative change
+
+[Term]
+id: MPATH:250
+name: medulloblastoma
+is_a: MPATH:373 ! CNS progenitor tumor
+
+[Term]
+id: MPATH:251
+name: meningioma
+is_a: MPATH:566 ! tumors of the meninges
+
+[Term]
+id: MPATH:252
+name: oligodendroglioma
+is_a: MPATH:249 ! glioma
+
+[Term]
+id: MPATH:254
+name: complex tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:261
+name: nephroblastoma
+is_a: MPATH:254 ! complex tumor
+
+[Term]
+id: MPATH:262
+name: pulmonary blastoma
+is_a: MPATH:254 ! complex tumor
+
+[Term]
+id: MPATH:264
+name: fibroepithelial tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:266
+name: fibroadenoma
+is_a: MPATH:264 ! fibroepithelial tumor
+
+[Term]
+id: MPATH:267
+name: glandular tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:268
+name: adenocarcinoma
+is_a: MPATH:267 ! glandular tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:27
+name: arthrosis
+is_a: MPATH:25 ! tissue specific degenerative process
+
+[Term]
+id: MPATH:270
+name: adenoma
+is_a: MPATH:267 ! glandular tumor
+is_a: MPATH:556 ! potentially cancerous lesions
+
+[Term]
+id: MPATH:277
+name: cystadenoma
+is_a: MPATH:270 ! adenoma
+
+[Term]
+id: MPATH:278
+name: follicular adenocarcinoma
+is_a: MPATH:268 ! adenocarcinoma
+
+[Term]
+id: MPATH:28
+name: atherosclerosis
+is_a: MPATH:25 ! tissue specific degenerative process
+
+[Term]
+id: MPATH:287
+name: islet cell adenoma
+is_a: MPATH:270 ! adenoma
+
+[Term]
+id: MPATH:291
+name: medullary carcinoma
+is_a: MPATH:267 ! glandular tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:295
+name: papillary adenocarcinoma
+is_a: MPATH:268 ! adenocarcinoma
+
+[Term]
+id: MPATH:298
+name: papillary cystadenoma
+is_a: MPATH:270 ! adenoma
+
+[Term]
+id: MPATH:299
+name: pinealoma
+is_a: MPATH:267 ! glandular tumor
+
+[Term]
+id: MPATH:308
+name: thyroid C-cell carcinoma
+is_a: MPATH:267 ! glandular tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:309
+name: gonadal tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:31
+name: emphysema
+is_a: MPATH:25 ! tissue specific degenerative process
+
+[Term]
+id: MPATH:310
+name: germ cell tumor
+is_a: MPATH:309 ! gonadal tumor
+
+[Term]
+id: MPATH:312
+name: dysgerminoma
+is_a: MPATH:310 ! germ cell tumor
+
+[Term]
+id: MPATH:315
+name: gonadoblastoma
+is_a: MPATH:310 ! germ cell tumor
+
+[Term]
+id: MPATH:317
+name: seminoma
+is_a: MPATH:310 ! germ cell tumor
+
+[Term]
+id: MPATH:321
+name: teratocarcinoma
+is_a: MPATH:254 ! complex tumor
+is_a: MPATH:310 ! germ cell tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:322
+name: teratoma
+is_a: MPATH:254 ! complex tumor
+is_a: MPATH:310 ! germ cell tumor
+
+[Term]
+id: MPATH:323
+name: gonadal somatic cell tumor
+is_a: MPATH:309 ! gonadal tumor
+
+[Term]
+id: MPATH:328
+name: leydig cell tumor
+is_a: MPATH:323 ! gonadal somatic cell tumor
+
+[Term]
+id: MPATH:33
+name: intracellular and extracellular accumulation
+is_a: MPATH:1 ! cell and tissue damage
+
+[Term]
+id: MPATH:331
+name: sertoli cell tumor
+is_a: MPATH:323 ! gonadal somatic cell tumor
+
+[Term]
+id: MPATH:335
+name: hematopoietic/lymphoid malignancies/disorder
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:336
+name: leukaemia
+
+[Term]
+id: MPATH:34
+name: amyloid deposition
+is_a: MPATH:33 ! intracellular and extracellular accumulation
+
+[Term]
+id: MPATH:343
+name: lymphoma
+
+[Term]
+id: MPATH:346
+name: autoimmune mediated disease
+is_a: MPATH:194 ! immune mediated disease
+
+[Term]
+id: MPATH:351
+name: thymoma
+is_a: MPATH:556 ! potentially cancerous lesions
+
+[Term]
+id: MPATH:352
+name: hepatic tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:354
+name: cholangiocarcinoma
+is_a: MPATH:352 ! hepatic tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:356
+name: hepatoblastoma
+is_a: MPATH:352 ! hepatic tumor
+
+[Term]
+id: MPATH:357
+name: hepatocellular carcinoma
+is_a: MPATH:352 ! hepatic tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:358
+name: melanocytic tumor
+is_a: MPATH:219 ! adnexal and skin appendage tumor
+
+[Term]
+id: MPATH:359
+name: melanoma
+is_a: MPATH:358 ! melanocytic tumor
+
+[Term]
+id: MPATH:36
+name: calcium deposition
+is_a: MPATH:555 ! mineralisation
+
+[Term]
+id: MPATH:365
+name: mesothelioma
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:366
+name: neuroendocrine tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:373
+name: CNS progenitor tumor
+is_a: MPATH:565 ! tumors of neurepithelial tissue
+
+[Term]
+id: MPATH:375
+name: ganglioneuroma
+is_a: MPATH:570 ! peripheral nervous system tumors
+
+[Term]
+id: MPATH:376
+name: neuroblastoma
+is_a: MPATH:373 ! CNS progenitor tumor
+
+[Term]
+id: MPATH:377
+name: pheochromocytoma
+is_a: MPATH:366 ! neuroendocrine tumor
+
+[Term]
+id: MPATH:378
+name: retinoblastoma
+is_a: MPATH:373 ! CNS progenitor tumor
+
+[Term]
+id: MPATH:379
+name: odontogenic tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:387
+name: odontoma
+is_a: MPATH:254 ! complex tumor
+is_a: MPATH:379 ! odontogenic tumor
+is_a: MPATH:74 ! hamartoma
+
+[Term]
+id: MPATH:388
+name: osseous and chondromatous tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:392
+name: chondrosarcoma
+is_a: MPATH:388 ! osseous and chondromatous tumor
+
+[Term]
+id: MPATH:396
+name: osteoma
+is_a: MPATH:388 ! osseous and chondromatous tumor
+
+[Term]
+id: MPATH:397
+name: osteosarcoma
+is_a: MPATH:388 ! osseous and chondromatous tumor
+
+[Term]
+id: MPATH:398
+name: paragangliomas and glomus tumor
+is_a: MPATH:366 ! neuroendocrine tumor
+
+[Term]
+id: MPATH:4
+name: necrosis
+is_a: MPATH:2 ! cell death
+
+[Term]
+id: MPATH:403
+name: paraganglioma
+is_a: MPATH:398 ! paragangliomas and glomus tumor
+
+[Term]
+id: MPATH:404
+name: soft tissue tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:405
+name: chordoma
+is_a: MPATH:404 ! soft tissue tumor
+
+[Term]
+id: MPATH:407
+name: fibroma
+is_a: MPATH:404 ! soft tissue tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:408
+name: soft tissue fibrosarcoma
+is_a: MPATH:404 ! soft tissue tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:415
+name: lipomatous tumor
+is_a: MPATH:404 ! soft tissue tumor
+
+[Term]
+id: MPATH:416
+name: angiomyolipoma
+is_a: MPATH:254 ! complex tumor
+is_a: MPATH:415 ! lipomatous tumor
+
+[Term]
+id: MPATH:417
+name: lipoma
+is_a: MPATH:415 ! lipomatous tumor
+
+[Term]
+id: MPATH:419
+name: lymphatic vessel tumor
+is_a: MPATH:404 ! soft tissue tumor
+
+[Term]
+id: MPATH:420
+name: lymphangioma
+is_a: MPATH:419 ! lymphatic vessel tumor
+is_a: MPATH:74 ! hamartoma
+
+[Term]
+id: MPATH:423
+name: myomatous tumor
+is_a: MPATH:404 ! soft tissue tumor
+
+[Term]
+id: MPATH:425
+name: leiomyoma
+is_a: MPATH:423 ! myomatous tumor
+
+[Term]
+id: MPATH:426
+name: leiomyosarcoma
+is_a: MPATH:423 ! myomatous tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:428
+name: rhabdomyosarcoma
+is_a: MPATH:423 ! myomatous tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:429
+name: myxomatous tumor
+is_a: MPATH:404 ! soft tissue tumor
+
+[Term]
+id: MPATH:431
+name: myxoma
+is_a: MPATH:429 ! myxomatous tumor
+
+[Term]
+id: MPATH:433
+name: nerve sheath tumor
+is_a: MPATH:404 ! soft tissue tumor
+is_a: MPATH:570 ! peripheral nervous system tumors
+
+[Term]
+id: MPATH:434
+name: neurilemmoma
+
+[Term]
+id: MPATH:435
+name: neurofibroma
+is_a: MPATH:433 ! nerve sheath tumor
+
+[Term]
+id: MPATH:437
+name: neurofibrosarcoma
+is_a: MPATH:433 ! nerve sheath tumor
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:438
+name: schwannoma
+is_a: MPATH:433 ! nerve sheath tumor
+
+[Term]
+id: MPATH:442
+name: squamous cell tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:445
+name: papilloma
+is_a: MPATH:264 ! fibroepithelial tumor
+is_a: MPATH:556 ! potentially cancerous lesions
+
+[Term]
+id: MPATH:446
+name: squamous cell carcinoma
+is_a: MPATH:219 ! adnexal and skin appendage tumor
+is_a: MPATH:442 ! squamous cell tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:450
+name: transitional cell tumor
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:451
+name: transitional cell carcinoma
+is_a: MPATH:450 ! transitional cell tumor
+is_a: MPATH:549 ! carcinoma
+
+[Term]
+id: MPATH:474
+name: ectasia
+is_a: MPATH:66 ! dilatation
+
+[Term]
+id: MPATH:476
+name: telangiectasia
+is_a: MPATH:474 ! ectasia
+
+[Term]
+id: MPATH:504
+name: non-lymphoid hematopoietic sarcomas
+is_a: MPATH:335 ! hematopoietic/lymphoid malignancies/disorder
+is_a: MPATH:551 ! sarcoma
+
+[Term]
+id: MPATH:506
+name: histiocytic sarcoma
+is_a: MPATH:504 ! non-lymphoid hematopoietic sarcomas
+
+[Term]
+id: MPATH:513
+name: Lymphoid neoplasms
+is_a: MPATH:335 ! hematopoietic/lymphoid malignancies/disorder
+
+[Term]
+id: MPATH:516
+name: B-cell neoplasms
+is_a: MPATH:513 ! Lymphoid neoplasms
+
+[Term]
+id: MPATH:530
+name: Plasma cell neoplasms
+is_a: MPATH:516 ! B-cell neoplasms
+
+[Term]
+id: MPATH:532
+name: plasmacytoma
+is_a: MPATH:530 ! Plasma cell neoplasms
+
+[Term]
+id: MPATH:535
+name: T-cell neoplasms
+is_a: MPATH:513 ! Lymphoid neoplasms
+
+[Term]
+id: MPATH:549
+name: carcinoma
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:55
+name: developmental and structural abnormality
+is_a: MPATH:603 ! pathological anatomical entity
+
+[Term]
+id: MPATH:551
+name: sarcoma
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:555
+name: mineralisation
+is_a: MPATH:33 ! intracellular and extracellular accumulation
+
+[Term]
+id: MPATH:556
+name: potentially cancerous lesions
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:56
+name: developmental or adult structural  defect
+is_a: MPATH:55 ! developmental and structural abnormality
+
+[Term]
+id: MPATH:564
+name: glioblastoma
+is_a: MPATH:249 ! glioma
+
+[Term]
+id: MPATH:565
+name: tumors of neurepithelial tissue
+is_a: MPATH:243 ! central nervous system tumor
+
+[Term]
+id: MPATH:566
+name: tumors of the meninges
+is_a: MPATH:243 ! central nervous system tumor
+
+[Term]
+id: MPATH:570
+name: peripheral nervous system tumors
+is_a: MPATH:218 ! neoplasm
+
+[Term]
+id: MPATH:571
+name: pilomatricoma
+is_a: MPATH:575 ! basaloid follicular neoplasms
+
+[Term]
+id: MPATH:574
+name: nephroblastomatosis
+is_a: MPATH:64 ! developmental dysplasia
+
+[Term]
+id: MPATH:575
+name: basaloid follicular neoplasms
+is_a: MPATH:219 ! adnexal and skin appendage tumor
+
+[Term]
+id: MPATH:576
+name: trichofolliculoma
+
+[Term]
+id: MPATH:579
+name: ulcer
+is_a: MPATH:1 ! cell and tissue damage
+
+[Term]
+id: MPATH:596
+name: pathological process
+is_a: MPATH:0 ! pathological entity
+
+[Term]
+id: MPATH:597
+name: cell and tissue damage process
+is_a: MPATH:596 ! pathological process
+
+[Term]
+id: MPATH:599
+name: developmental process abnormalities
+is_a: MPATH:596 ! pathological process
+
+[Term]
+id: MPATH:602
+name: hyperplastic tissue
+is_a: MPATH:126 ! growth and differentiation defect
+
+[Term]
+id: MPATH:603
+name: pathological anatomical entity
+is_a: MPATH:0 ! pathological entity
+
+[Term]
+id: MPATH:604
+name: defective growth and differentiation process
+is_a: MPATH:596 ! pathological process
+
+[Term]
+id: MPATH:605
+name: metaplastic tissue
+is_a: MPATH:126 ! growth and differentiation defect
+
+[Term]
+id: MPATH:607
+name: healing and repair structure
+is_a: MPATH:603 ! pathological anatomical entity
+
+[Term]
+id: MPATH:608
+name: abscess
+is_a: MPATH:607 ! healing and repair structure
+
+[Term]
+id: MPATH:615
+name: cardiomyopathy
+is_a: MPATH:25 ! tissue specific degenerative process
+
+[Term]
+id: MPATH:62
+name: cyst
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:622
+name: steatosis
+is_a: MPATH:33 ! intracellular and extracellular accumulation
+
+[Term]
+id: MPATH:629
+name: cavernous hemangioma
+is_a: MPATH:240 ! hemangioma
+
+[Term]
+id: MPATH:64
+name: developmental dysplasia
+is_a: MPATH:599 ! developmental process abnormalities
+
+[Term]
+id: MPATH:66
+name: dilatation
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:675
+name: psoriasiform dermatitis
+is_a: MPATH:196 ! dermatitis
+
+[Term]
+id: MPATH:68
+name: diverticulum
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:70
+name: fistula
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:707
+name: angiolipoma
+is_a: MPATH:415 ! lipomatous tumor
+
+[Term]
+id: MPATH:709
+name: alveolar rhabdomyosarcoma
+is_a: MPATH:428 ! rhabdomyosarcoma
+
+[Term]
+id: MPATH:710
+name: embryonal rhabdomyosarcoma
+is_a: MPATH:428 ! rhabdomyosarcoma
+
+[Term]
+id: MPATH:718
+name: pre-sacral teratoma
+is_a: MPATH:322 ! teratoma
+
+[Term]
+id: MPATH:722
+name: rhabdomyoma
+is_a: MPATH:423 ! myomatous tumor
+
+[Term]
+id: MPATH:723
+name: fibromatosis
+is_a: MPATH:407 ! fibroma
+
+[Term]
+id: MPATH:74
+name: hamartoma
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:86
+name: organ specific developmental defect
+is_a: MPATH:55 ! developmental and structural abnormality
+
+[Term]
+id: MPATH:89
+name: cardiovascular developmental defect
+is_a: MPATH:86 ! organ specific developmental defect
+
+[Term]
+id: MPATH:90
+name: aneurysm
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:97
+name: dissecting aneurysm
+is_a: MPATH:90 ! aneurysm
+
+[Term]
+id: MPATH:98
+name: lymphangiectasis
+is_a: MPATH:474 ! ectasia
+is_a: MPATH:89 ! cardiovascular developmental defect
+
