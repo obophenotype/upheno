@@ -186,6 +186,10 @@ id: HP:0001734
 equivalent_to: MP:0006261
 
 [Term]
+id: MP:0012052
+equivalent_to: HP:0001276
+
+[Term]
 id: HP:0005145
 equivalent_to: MP:0003024
 
@@ -300,6 +304,10 @@ equivalent_to: HP:0010719
 [Term]
 id: HP:0002143
 equivalent_to: MP:0000955
+
+[Term]
+id: HP:0012338
+equivalent_to: MP:0005450
 
 [Term]
 id: MP:0001148
@@ -429,6 +437,10 @@ equivalent_to: MP:0002708
 [Term]
 id: MP:0008736
 equivalent_to: HP:0002983
+
+[Term]
+id: MP:0004113
+equivalent_to: HP:0012303
 
 [Term]
 id: MP:0001389
@@ -606,6 +618,11 @@ equivalent_to: MP:0003683
 [Term]
 id: HP:0008683
 equivalent_to: MP:0003522
+
+[Term]
+id: HP:0012303
+equivalent_to: MP:0002672
+equivalent_to: MP:0004113
 
 [Term]
 id: HP:0012253
@@ -864,6 +881,10 @@ id: MP:0001873
 equivalent_to: HP:0005263
 
 [Term]
+id: HP:0007994
+equivalent_to: MP:0006152
+
+[Term]
 id: MP:0008941
 equivalent_to: HP:0001896
 
@@ -894,6 +915,10 @@ equivalent_to: MP:0000160
 [Term]
 id: HP:0000498
 equivalent_to: MP:0005251
+
+[Term]
+id: MP:0012085
+equivalent_to: HP:0000272
 
 [Term]
 id: HP:0011400
@@ -1221,6 +1246,10 @@ id: MP:0003378
 equivalent_to: HP:0000826
 
 [Term]
+id: MP:0000220
+equivalent_to: HP:0012311
+
+[Term]
 id: HP:0100769
 equivalent_to: MP:0002933
 
@@ -1287,6 +1316,10 @@ equivalent_to: HP:0003808
 [Term]
 id: HP:0000413
 equivalent_to: MP:0009707
+
+[Term]
+id: HP:0012331
+equivalent_to: MP:0002751
 
 [Term]
 id: HP:0000095
@@ -1368,6 +1401,10 @@ equivalent_to: HP:0002208
 [Term]
 id: MP:0002151
 equivalent_to: HP:0010301
+
+[Term]
+id: MP:0005450
+equivalent_to: HP:0012338
 
 [Term]
 id: MP:0005345
@@ -1513,10 +1550,6 @@ equivalent_to: HP:0004378
 [Term]
 id: HP:0002155
 equivalent_to: MP:0001552
-
-[Term]
-id: HP:0002270
-equivalent_to: MP:0002751
 
 [Term]
 id: MP:0009792
@@ -2016,6 +2049,10 @@ id: MP:0000069
 equivalent_to: HP:0002751
 
 [Term]
+id: MP:0005414
+equivalent_to: HP:0012334
+
+[Term]
 id: MP:0001566
 equivalent_to: HP:0002905
 
@@ -2054,6 +2091,10 @@ equivalent_to: MP:0010208
 [Term]
 id: HP:0001402
 equivalent_to: MP:0003331
+
+[Term]
+id: MP:0012121
+equivalent_to: HP:0000647
 
 [Term]
 id: MP:0004343
@@ -2141,10 +2182,6 @@ id: HP:0002450
 equivalent_to: MP:0000937
 
 [Term]
-id: MP:0004624
-equivalent_to: HP:0001547
-
-[Term]
 id: MP:0002035
 equivalent_to: HP:0100243
 
@@ -2183,6 +2220,10 @@ equivalent_to: MP:0009699
 [Term]
 id: MP:0009250
 equivalent_to: HP:0011844
+
+[Term]
+id: HP:0012311
+equivalent_to: MP:0000220
 
 [Term]
 id: MP:0010717
@@ -2420,6 +2461,10 @@ id: HP:0012285
 equivalent_to: MP:0005645
 
 [Term]
+id: HP:0012379
+equivalent_to: MP:0005584
+
+[Term]
 id: HP:0000248
 equivalent_to: MP:0000435
 
@@ -2517,6 +2562,10 @@ id: HP:0010826
 equivalent_to: MP:0001076
 
 [Term]
+id: MP:0000223
+equivalent_to: HP:0012312
+
+[Term]
 id: HP:0000060
 equivalent_to: MP:0003530
 equivalent_to: MP:0009101
@@ -2528,6 +2577,10 @@ equivalent_to: HP:0011456
 [Term]
 id: MP:0001859
 equivalent_to: HP:0000123
+
+[Term]
+id: HP:0012330
+equivalent_to: MP:0011403
 
 [Term]
 id: HP:0002763
@@ -2707,6 +2760,10 @@ id: MP:0010530
 equivalent_to: HP:0002408
 
 [Term]
+id: HP:0012337
+equivalent_to: MP:0001764
+
+[Term]
 id: HP:0004370
 equivalent_to: MP:0001777
 
@@ -2817,6 +2874,10 @@ equivalent_to: HP:0003189
 [Term]
 id: MP:0005542
 equivalent_to: HP:0011496
+
+[Term]
+id: MP:0012051
+equivalent_to: HP:0001257
 
 [Term]
 id: HP:0001019
@@ -3050,12 +3111,16 @@ id: HP:0001631
 equivalent_to: MP:0010403
 
 [Term]
-id: HP:0002894
-equivalent_to: MP:0009153
-
-[Term]
 id: HP:0011840
 equivalent_to: MP:0002444
+
+[Term]
+id: HP:0002373
+equivalent_to: MP:0012011
+
+[Term]
+id: HP:0002894
+equivalent_to: MP:0009153
 
 [Term]
 id: MP:0003331
@@ -3080,6 +3145,10 @@ equivalent_to: MP:0003311
 [Term]
 id: MP:0006125
 equivalent_to: HP:0001704
+
+[Term]
+id: MP:0005253
+equivalent_to: HP:0012373
 
 [Term]
 id: MP:0003571
@@ -3611,8 +3680,12 @@ id: MP:0002495
 equivalent_to: HP:0003261
 
 [Term]
+id: MP:0001764
+equivalent_to: HP:0012337
+
+[Term]
 id: MP:0001314
-equivalent_to: HP:0007759
+equivalent_to: HP:0007957
 
 [Term]
 id: MP:0000561
@@ -3701,6 +3774,10 @@ id: MP:0002641
 equivalent_to: HP:0004823
 
 [Term]
+id: HP:0008368
+equivalent_to: MP:0008919
+
+[Term]
 id: HP:0000360
 equivalent_to: MP:0003741
 
@@ -3767,6 +3844,10 @@ equivalent_to: MP:0003604
 [Term]
 id: HP:0003826
 equivalent_to: MP:0002081
+
+[Term]
+id: MP:0011403
+equivalent_to: HP:0012330
 
 [Term]
 id: HP:0000458
@@ -4210,6 +4291,10 @@ id: HP:0000086
 equivalent_to: MP:0003600
 
 [Term]
+id: HP:0000465
+equivalent_to: MP:0012077
+
+[Term]
 id: MP:0010766
 equivalent_to: HP:0012177
 
@@ -4279,10 +4364,6 @@ id: HP:0002748
 equivalent_to: MP:0003116
 
 [Term]
-id: HP:0007759
-equivalent_to: MP:0001314
-
-[Term]
 id: HP:0000843
 equivalent_to: MP:0003432
 
@@ -4347,8 +4428,13 @@ id: HP:0002244
 equivalent_to: MP:0000496
 
 [Term]
+id: HP:0002509
+equivalent_to: MP:0012053
+
+[Term]
 id: HP:0001257
 equivalent_to: MP:0004143
+equivalent_to: MP:0012051
 
 [Term]
 id: MP:0001805
@@ -4419,6 +4505,14 @@ equivalent_to: HP:0001912
 id: MP:0000520
 equivalent_to: HP:0000104
 equivalent_to: HP:0010958
+
+[Term]
+id: HP:0007957
+equivalent_to: MP:0001314
+
+[Term]
+id: HP:0012312
+equivalent_to: MP:0000223
 
 [Term]
 id: HP:0006958
@@ -4526,7 +4620,7 @@ equivalent_to: HP:0011567
 
 [Term]
 id: MP:0002751
-equivalent_to: HP:0002270
+equivalent_to: HP:0012331
 
 [Term]
 id: MP:0010511
@@ -4625,7 +4719,6 @@ equivalent_to: HP:0002904
 [Term]
 id: MP:0004143
 equivalent_to: HP:0001257
-equivalent_to: HP:0001276
 
 [Term]
 id: MP:0000432
@@ -4940,6 +5033,10 @@ id: HP:0001882
 equivalent_to: MP:0000221
 
 [Term]
+id: MP:0005584
+equivalent_to: HP:0012379
+
+[Term]
 id: MP:0003376
 equivalent_to: HP:0000141
 
@@ -5242,6 +5339,10 @@ id: HP:0002240
 equivalent_to: MP:0000599
 
 [Term]
+id: MP:0012087
+equivalent_to: HP:0007265
+
+[Term]
 id: HP:0000053
 equivalent_to: MP:0001148
 
@@ -5300,10 +5401,6 @@ equivalent_to: HP:0004646
 [Term]
 id: HP:0005466
 equivalent_to: MP:0004869
-
-[Term]
-id: HP:0000478
-equivalent_to: MP:0002092
 
 [Term]
 id: HP:0011390
@@ -5404,6 +5501,10 @@ equivalent_to: HP:0002577
 [Term]
 id: MP:0008079
 equivalent_to: HP:0005415
+
+[Term]
+id: MP:0002899
+equivalent_to: HP:0012378
 
 [Term]
 id: HP:0009918
@@ -5533,7 +5634,7 @@ equivalent_to: MP:0010427
 
 [Term]
 id: MP:0002092
-equivalent_to: HP:0000478
+equivalent_to: HP:0012372
 
 [Term]
 id: HP:0001397
@@ -5550,6 +5651,10 @@ equivalent_to: HP:0010459
 [Term]
 id: MP:0010094
 equivalent_to: HP:0003220
+
+[Term]
+id: MP:0012011
+equivalent_to: HP:0002373
 
 [Term]
 id: MP:0011423
@@ -6083,10 +6188,6 @@ id: HP:0012232
 equivalent_to: MP:0003900
 
 [Term]
-id: HP:0000663
-equivalent_to: MP:0006198
-
-[Term]
 id: HP:0006739
 equivalent_to: MP:0009704
 
@@ -6105,6 +6206,10 @@ equivalent_to: HP:0010700
 [Term]
 id: HP:0001967
 equivalent_to: MP:0011353
+
+[Term]
+id: MP:0008919
+equivalent_to: HP:0008368
 
 [Term]
 id: HP:0001342
@@ -6209,6 +6314,7 @@ equivalent_to: HP:0100257
 
 [Term]
 id: MP:0008915
+equivalent_to: HP:0005048
 equivalent_to: HP:0009702
 
 [Term]
@@ -6433,6 +6539,10 @@ id: HP:0012117
 equivalent_to: MP:0002965
 
 [Term]
+id: HP:0012281
+equivalent_to: MP:0012080
+
+[Term]
 id: HP:0200098
 equivalent_to: MP:0001189
 
@@ -6634,6 +6744,10 @@ id: MP:0003268
 equivalent_to: HP:0002019
 
 [Term]
+id: HP:0000272
+equivalent_to: MP:0012085
+
+[Term]
 id: MP:0000920
 equivalent_to: HP:0011400
 
@@ -6794,16 +6908,16 @@ id: HP:0005273
 equivalent_to: MP:0004872
 
 [Term]
+id: MP:0006240
+equivalent_to: HP:0009916
+
+[Term]
 id: HP:0100645
 equivalent_to: MP:0003614
 
 [Term]
 id: MP:0002428
 equivalent_to: HP:0011380
-
-[Term]
-id: MP:0006240
-equivalent_to: HP:0009916
 
 [Term]
 id: HP:0010772
@@ -6952,6 +7066,10 @@ id: HP:0100258
 equivalent_to: MP:0009743
 
 [Term]
+id: MP:0012053
+equivalent_to: HP:0002509
+
+[Term]
 id: HP:0200007
 equivalent_to: MP:0003671
 
@@ -7016,12 +7134,12 @@ id: MP:0001957
 equivalent_to: HP:0002104
 
 [Term]
-id: HP:0100878
-equivalent_to: MP:0004906
-
-[Term]
 id: MP:0006188
 equivalent_to: HP:0007862
+
+[Term]
+id: HP:0100878
+equivalent_to: MP:0004906
 
 [Term]
 id: HP:0000835
@@ -7197,12 +7315,12 @@ id: HP:0003429
 equivalent_to: MP:0000921
 
 [Term]
-id: HP:0012234
-equivalent_to: MP:0000334
-
-[Term]
 id: MP:0006232
 equivalent_to: HP:0009737
+
+[Term]
+id: HP:0012234
+equivalent_to: MP:0000334
 
 [Term]
 id: HP:0002883
@@ -7373,6 +7491,10 @@ id: HP:0002650
 equivalent_to: MP:0000161
 
 [Term]
+id: MP:0002672
+equivalent_to: HP:0012303
+
+[Term]
 id: HP:0011849
 equivalent_to: MP:0008271
 
@@ -7527,6 +7649,10 @@ equivalent_to: HP:0000792
 equivalent_to: HP:0012210
 
 [Term]
+id: HP:0012365
+equivalent_to: MP:0002902
+
+[Term]
 id: MP:0002754
 equivalent_to: HP:0005133
 
@@ -7634,12 +7760,12 @@ id: MP:0000218
 equivalent_to: HP:0001974
 
 [Term]
-id: MP:0000438
-equivalent_to: HP:0000929
-
-[Term]
 id: MP:0006226
 equivalent_to: HP:0007676
+
+[Term]
+id: MP:0000438
+equivalent_to: HP:0000929
 
 [Term]
 id: HP:0001406
@@ -7755,13 +7881,17 @@ id: MP:0005577
 equivalent_to: HP:0000139
 
 [Term]
-id: HP:0000792
-equivalent_to: MP:0002135
+id: HP:0005048
+equivalent_to: MP:0008915
 
 [Term]
 id: MP:0006223
 equivalent_to: HP:0000538
 equivalent_to: HP:0001085
+
+[Term]
+id: HP:0000792
+equivalent_to: MP:0002135
 
 [Term]
 id: MP:0009153
@@ -7955,6 +8085,10 @@ id: HP:0001363
 equivalent_to: MP:0000081
 
 [Term]
+id: HP:0012373
+equivalent_to: MP:0005253
+
+[Term]
 id: MP:0009515
 equivalent_to: HP:0100723
 
@@ -7977,6 +8111,10 @@ equivalent_to: HP:0002718
 [Term]
 id: MP:0002026
 equivalent_to: HP:0001909
+
+[Term]
+id: HP:0012372
+equivalent_to: MP:0002092
 
 [Term]
 id: HP:0100889
@@ -8100,6 +8238,10 @@ equivalent_to: MP:0008071
 id: MP:0002444
 equivalent_to: HP:0005435
 equivalent_to: HP:0011840
+
+[Term]
+id: MP:0006152
+equivalent_to: HP:0007994
 
 [Term]
 id: MP:0000452
@@ -8694,6 +8836,10 @@ id: MP:0005503
 equivalent_to: HP:0100261
 
 [Term]
+id: MP:0012080
+equivalent_to: HP:0012281
+
+[Term]
 id: HP:0003117
 equivalent_to: MP:0005418
 
@@ -8704,6 +8850,10 @@ equivalent_to: MP:0001577
 [Term]
 id: HP:0100771
 equivalent_to: MP:0003290
+
+[Term]
+id: MP:0002902
+equivalent_to: HP:0012365
 
 [Term]
 id: HP:0010824
@@ -8765,7 +8915,6 @@ equivalent_to: HP:0000213
 [Term]
 id: MP:0006198
 equivalent_to: HP:0000490
-equivalent_to: HP:0000663
 
 [Term]
 id: HP:0002716
@@ -8830,16 +8979,16 @@ id: MP:0005084
 equivalent_to: HP:0005264
 
 [Term]
-id: HP:0001547
-equivalent_to: MP:0004624
-
-[Term]
 id: MP:0002962
 equivalent_to: HP:0000093
 
 [Term]
 id: HP:0005753
 equivalent_to: MP:0000547
+
+[Term]
+id: MP:0012077
+equivalent_to: HP:0000465
 
 [Term]
 id: HP:0000405
@@ -8985,6 +9134,10 @@ id: HP:0001036
 equivalent_to: MP:0003427
 
 [Term]
+id: HP:0000647
+equivalent_to: MP:0012121
+
+[Term]
 id: MP:0003009
 equivalent_to: HP:0011113
 
@@ -8993,8 +9146,16 @@ id: HP:0000622
 equivalent_to: MP:0006149
 
 [Term]
+id: HP:0012332
+equivalent_to: MP:0006276
+
+[Term]
 id: MP:0002108
 equivalent_to: HP:0011805
+
+[Term]
+id: MP:0006276
+equivalent_to: HP:0012332
 
 [Term]
 id: HP:0100494
@@ -9156,6 +9317,10 @@ equivalent_to: MP:0002024
 [Term]
 id: HP:0008697
 equivalent_to: MP:0003576
+
+[Term]
+id: HP:0012378
+equivalent_to: MP:0002899
 
 [Term]
 id: HP:0100890
@@ -9320,7 +9485,7 @@ equivalent_to: MP:0003326
 
 [Term]
 id: HP:0001276
-equivalent_to: MP:0004143
+equivalent_to: MP:0012052
 
 [Term]
 id: MP:0003795
@@ -9341,6 +9506,10 @@ equivalent_to: HP:0002914
 [Term]
 id: MP:0008945
 equivalent_to: HP:0004857
+
+[Term]
+id: HP:0012334
+equivalent_to: MP:0005414
 
 [Term]
 id: HP:0011839
@@ -9435,6 +9604,10 @@ equivalent_to: MP:0001268
 [Term]
 id: HP:0010773
 equivalent_to: MP:0010442
+
+[Term]
+id: HP:0007265
+equivalent_to: MP:0012087
 
 [Term]
 id: HP:0002597

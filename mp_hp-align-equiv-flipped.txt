@@ -1,0 +1,6 @@
+class_quad_flip	HP:0001257 ! Spasticity	HP:0001276 ! Hypertonia	MP:0012051 ! spasticity	MP:0012052 ! hypertonicity
+class_quad_flip	HP:0001999 ! Abnormal facial shape	HP:0000234 ! Abnormality of the head	MP:0000428 ! abnormal craniofacial morphology	MP:0000432 ! abnormal head morphology
+class_quad_flip	HP:0002773 ! Small vertebral bodies	HP:0008479 ! Hypoplastic vertebral bodies	MP:0004670 ! small vertebral body	MP:0004667 ! vertebral body hypoplasia
+class_quad_flip	MP:0000432 ! abnormal head morphology	MP:0000428 ! abnormal craniofacial morphology	HP:0000234 ! Abnormality of the head	HP:0001999 ! Abnormal facial shape
+class_quad_flip	MP:0004667 ! vertebral body hypoplasia	MP:0004670 ! small vertebral body	HP:0008479 ! Hypoplastic vertebral bodies	HP:0002773 ! Small vertebral bodies
+class_quad_flip	MP:0012052 ! hypertonicity	MP:0012051 ! spasticity	HP:0001276 ! Hypertonia	HP:0001257 ! Spasticity
