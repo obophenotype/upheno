@@ -94,6 +94,19 @@ name: oocyte
 is_a: CL:0000021 ! female germ cell
 
 [Term]
+id: CL:0000024
+name: oogonial cell
+is_a: CL:0000021 ! female germ cell
+relationship: develops_from CL:0000670 ! primordial germ cell
+
+[Term]
+id: CL:0000025
+name: egg
+is_a: CL:0000023 ! oocyte
+is_a: CL:0000675 ! female gamete
+relationship: develops_from CL:0000655 ! secondary oocyte
+
+[Term]
 id: CL:0000027
 name: smooth muscle cell neural crest derived
 is_a: CL:0000192 ! smooth muscle cell
@@ -814,6 +827,11 @@ name: mechanoreceptor cell
 is_a: CL:0000006 ! neuronal receptor cell
 
 [Term]
+id: CL:0000200
+name: touch receptor cell
+is_a: CL:0000199 ! mechanoreceptor cell
+
+[Term]
 id: CL:0000202
 name: auditory hair cell
 is_a: CL:0000068 ! duct epithelial cell
@@ -1304,6 +1322,13 @@ is_a: CL:0000015 ! male germ cell
 is_a: CL:0000300 ! gamete
 
 [Term]
+id: CL:0000411
+name: flatworm hypodermal cell
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0000228 ! multinucleate cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
 id: CL:0000412
 name: polyploid cell
 is_a: CL:0000003 ! native cell
@@ -1317,6 +1342,11 @@ is_a: CL:0000003 ! native cell
 id: CL:0000417
 name: endopolyploid cell
 is_a: CL:0000412 ! polyploid cell
+
+[Term]
+id: CL:0000422
+name: mitogenic signaling cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000424
@@ -1944,6 +1974,18 @@ is_a: CL:1000451 ! epithelial cell of visceral layer of glomerular capsule
 relationship: part_of UBERON:0005751 ! visceral layer of glomerular capsule
 
 [Term]
+id: CL:0000654
+name: primary oocyte
+is_a: CL:0000023 ! oocyte
+relationship: develops_from CL:0000024 ! oogonial cell
+
+[Term]
+id: CL:0000655
+name: secondary oocyte
+is_a: CL:0000023 ! oocyte
+relationship: develops_from CL:0000654 ! primary oocyte
+
+[Term]
 id: CL:0000656
 name: primary spermatocyte
 is_a: CL:0000017 ! spermatocyte
@@ -1954,6 +1996,11 @@ name: secondary spermatocyte
 is_a: CL:0000017 ! spermatocyte
 is_a: CL:0000413 ! haploid cell
 relationship: develops_from CL:0000656 ! primary spermatocyte
+
+[Term]
+id: CL:0000661
+name: distal tip cell (sensu Nematoda)
+is_a: CL:0000422 ! mitogenic signaling cell
 
 [Term]
 id: CL:0000666
@@ -1979,6 +2026,12 @@ name: primordial germ cell
 is_a: CL:0000039 ! germ line cell
 is_a: CL:0000219 ! motile cell
 relationship: part_of UBERON:0000922 ! embryo
+
+[Term]
+id: CL:0000675
+name: female gamete
+is_a: CL:0000021 ! female germ cell
+is_a: CL:0000300 ! gamete
 
 [Term]
 id: CL:0000677
@@ -17448,6 +17501,11 @@ name: lumbar dorsal root ganglion
 is_a: UBERON:0000044 ! dorsal root ganglion
 
 [Term]
+id: UBERON:0002859
+name: fifth lumbar dorsal root ganglion
+is_a: UBERON:0002836 ! lumbar dorsal root ganglion
+
+[Term]
 id: UBERON:0002871
 name: hypoglossal nucleus
 is_a: UBERON:0000126 ! cranial nerve nucleus
@@ -17712,6 +17770,15 @@ name: blood island
 is_a: UBERON:0005423 ! developing anatomical structure
 relationship: develops_from UBERON:0003081 ! lateral plate mesoderm
 relationship: part_of UBERON:0000922 ! embryo
+
+[Term]
+id: UBERON:0003062
+name: primitive knot
+is_a: UBERON:0002050 ! embryonic structure
+is_a: UBERON:0010188 ! protuberance
+relationship: develops_from UBERON:0007283 ! presumptive shield
+relationship: part_of UBERON:0002541 ! germ ring
+relationship: part_of UBERON:0004341 ! primitive streak
 
 [Term]
 id: UBERON:0003063
@@ -34381,6 +34448,11 @@ is_a: UBERON:0006598 ! presumptive structure
 relationship: develops_from UBERON:0009618 ! trunk paraxial mesoderm
 
 [Term]
+id: UBERON:0007283
+name: presumptive shield
+is_a: UBERON:0006598 ! presumptive structure
+
+[Term]
 id: UBERON:0007284
 name: presumptive neural plate
 is_a: UBERON:0006598 ! presumptive structure
@@ -35660,6 +35732,13 @@ is_a: UBERON:0004388 ! epiphysis of fibula
 intersection_of: UBERON:0004380 ! proximal epiphysis
 intersection_of: part_of UBERON:0001446 ! fibula
 relationship: part_of UBERON:0001446 ! fibula
+
+[Term]
+id: UBERON:0008776
+name: inner cell mass derived hypoblast
+is_a: UBERON:0000089 ! hypoblast (generic)
+relationship: develops_from UBERON:0000087 ! inner cell mass
+relationship: part_of UBERON:0000091 ! bilaminar disc
 
 [Term]
 id: UBERON:0008777
@@ -43882,6 +43961,12 @@ id: UBERON:0014643
 name: spinoocerebellum
 is_a: UBERON:0002946 ! regional part of cerebellum
 relationship: part_of UBERON:0002037 ! cerebellum
+
+[Term]
+id: UBERON:0014644
+name: cerebrocerebellum
+is_a: UBERON:0002749 ! regional part of cerebellar cortex
+relationship: part_of UBERON:0002245 ! cerebellar hemisphere
 
 [Term]
 id: UBERON:0014647

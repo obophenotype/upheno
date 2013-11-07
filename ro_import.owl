@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;upheno/imports/upheno/imports/ro_import.owl#"
+     xml:base="&obo;upheno/imports/upheno/imports/ro_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="&obo;upheno/imports/upheno/imports/ro_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000424 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000424"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;RO_0001900"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="&dc;source"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;shorthand"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000050">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">part of</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">BFO:0000050</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BFO:0000050</oboInOwl:hasDbXref>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">Intended meaning:
+Ambiguous between continuant-parthood and occurrent-parthood.
+
+domain: continuant
+range: continuant
+time: at some time
+
+domain: occurrent
+range: occurrent
+time: atemporal</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">Parthood as a relation between instances: The primitive instance-level relation p part_of p1 is illustrated in assertions such as: this instance of rhodopsin mediated phototransduction part_of this instance of visual perception.    This relation satisfies at least the following standard axioms of mereology: reflexivity (for all p, p part_of p); anti-symmetry (for all p, p1, if p part_of p1 and p1 part_of p then p and p1 are identical); and transitivity (for all p, p1, p2, if p part_of p1 and p1 part_of p2, then p part_of p2). Analogous axioms hold also for parthood as a relation between spatial regions.    For parthood as a relation between continuants, these axioms need to be modified to take account of the incorporation of a temporal argument. Thus for example the axiom of transitivity for continuants will assert that if c part_of c1 at t and c1 part_of c2 at t, then also c part_of c2 at t.    Parthood as a relation between classes: To define part_of as a relation between classes we again need to distinguish the two cases of continuants and processes, even though the explicit reference to instants of time now falls away. For continuants, we have C part_of C1 if and only if any instance of C at any time is an instance-level part of some instance of C1 at that time, as for example in: cell nucleus part_ of cell.</obo:IAO_0000116>
+        <dc:source rdf:datatype="&xsd;string">http://www.obofoundry.org/ro/#OBO_REL:part_of</dc:source>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">part of</obo:IAO_0000111>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">part_of</obo:IAO_0000118>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">part_of</oboInOwl:shorthand>
+        <owl:inverseOf rdf:resource="&obo;BFO_0000051"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002131"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000051">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">has part</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">BFO:0000051</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BFO:0000051</oboInOwl:hasDbXref>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">Intended meaning:
+Ambiguous between continuant-parthood and occurrent-parthood.
+
+domain: continuant
+range: continuant
+time: at some time
+
+domain: occurrent
+range: occurrent
+time: atemporal</obo:IAO_0000116>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">has part</obo:IAO_0000111>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">has_part</oboInOwl:shorthand>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">has_part</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002131"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000070 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000070"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000052">
+        <rdfs:label rdf:datatype="&xsd;string">inheres in</rdfs:label>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">Intended meaning:
+domain: specifically dependent continuant
+range: independent continuant
+time: at all times
+
+A specifically dependent continuant A inheres in its independent continuant B at all times during which A exists.</obo:IAO_0000116>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0000052</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0000052</oboInOwl:hasDbXref>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">inheres in</obo:IAO_0000111>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">inheres_in</oboInOwl:shorthand>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">inheres_in</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000053">
+        <rdfs:label rdf:datatype="&xsd;string">bearer of</rdfs:label>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">Intended meaning:
+domain: independent continuant
+range: specifically dependent continuant
+time: at some time</obo:IAO_0000116>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0000053</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0000053</oboInOwl:hasDbXref>
+        <obo:IAO_0000111 rdf:datatype="&xsd;string">bearer of</obo:IAO_0000111>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">bearer_of</oboInOwl:shorthand>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">bearer_of</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">is bearer of</obo:IAO_0000118>
+        <owl:inverseOf rdf:resource="&obo;RO_0000052"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002131 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002131">
+        <rdfs:label rdf:datatype="&xsd;string">overlaps</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002131</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002131</oboInOwl:hasDbXref>
+        <obo:IAO_0000424 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)</obo:IAO_0000424>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">overlaps</oboInOwl:shorthand>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002323"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002180">
+        <rdfs:label rdf:datatype="&xsd;string">has component</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">For use in recording has_part with a cardinality constraint.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002180</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002180</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">has_component</oboInOwl:shorthand>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000051"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002202 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002202">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">develops from</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">David Osumi-Sutherland</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Melissa Haendel</obo:IAO_0000117>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002202</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002202</oboInOwl:hasDbXref>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Terry Meehan</obo:IAO_0000117>
+        <rdfs:comment rdf:datatype="&xsd;string">This is the transitive form of the develops from relation</rdfs:comment>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">develops_from</oboInOwl:shorthand>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y</obo:IAO_0000115>
+        <rdfs:range rdf:resource="&obo;BFO_0000004"/>
+        <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002258"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002203 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002203">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">develops into</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">David Osumi-Sutherland</obo:IAO_0000117>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002203</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002203</oboInOwl:hasDbXref>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Terry Meehan</obo:IAO_0000117>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">develops_into</oboInOwl:shorthand>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0002202"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002286"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002387"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002388"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002258 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002258">
+        <rdfs:label rdf:datatype="&xsd;string">developmentally preceded by</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p</obo:IAO_0000115>
+        <obo:IAO_0000232 rdf:datatype="&xsd;string">In general you should not use this relation to make assertions - use one of the more specific relations below this one</obo:IAO_0000232>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002258</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002258</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">This relation groups together various other developmental relations. It is fairly generic, encompassing induction, developmental contribution and direct and transitive develops from</rdfs:comment>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">developmentally_preceded_by</oboInOwl:shorthand>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002324"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002286 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002286">
+        <rdfs:label rdf:datatype="&xsd;string">developmentally succeeded by</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Inverse of developmentally preceded by</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002286</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002286</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">developmentally_succeeded_by</oboInOwl:shorthand>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0002258"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002384"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002314 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002314">
+        <rdfs:label rdf:datatype="&xsd;string">inheres in part of</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002314</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002314</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">inheres_in_part_of</oboInOwl:shorthand>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002323 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002323">
+        <rdfs:label rdf:datatype="&xsd;string">mereotopologically related to</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A mereological relationship or a topological relationship</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Chris Mungall</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002323</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002323</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">mereotopologically_related_to</oboInOwl:shorthand>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002324 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002324">
+        <rdfs:label rdf:datatype="&xsd;string">developmentally related to</rdfs:label>
+        <obo:IAO_0000232 rdf:datatype="&xsd;string">A relationship that holds via some developmental process (GO:0032502)</obo:IAO_0000232>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Chris Mungall</obo:IAO_0000117>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002324</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002324</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">developmentally_related_to</oboInOwl:shorthand>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002384 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002384">
+        <rdfs:label rdf:datatype="&xsd;string">has developmental potential involving</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002384</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002384</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">has_developmental_potential_involving</oboInOwl:shorthand>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002324"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002387 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002387">
+        <rdfs:label rdf:datatype="&xsd;string">has potential to develop into</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002387</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002387</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">has_potential_to_develop_into</oboInOwl:shorthand>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">x has the potential to develop into y iff x develops into y or if x is capable of developing into y</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002384"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002388 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002388">
+        <rdfs:label rdf:datatype="&xsd;string">has potential to directly develop into</rdfs:label>
+        <oboInOwl:id rdf:datatype="&xsd;string">RO:0002388</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RO:0002388</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="&xsd;string">has_potential_to_directly_develop_into</oboInOwl:shorthand>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002387"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#after -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#after"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#contained_in -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#contained_in"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#during -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#during"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#exists_during -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#exists_during"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#has_central_participant -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#has_central_participant"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#has_output -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#has_output"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#has_quality -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#has_quality"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#increases_population_size_of -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#increases_population_size_of"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#occurs_in -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#occurs_in"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#preceded_by -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#preceded_by"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#results_from -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#results_from"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#results_in_change_to -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#results_in_change_to"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#results_in_complete_development_of -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#results_in_complete_development_of"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#results_in_death_of -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#results_in_death_of"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mp/mp-equivalent-axioms-subq#results_in_directed_movement_of -->
+
+    <owl:ObjectProperty rdf:about="&obo;mp/mp-equivalent-axioms-subq#results_in_directed_movement_of"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000658 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000658"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000004"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
