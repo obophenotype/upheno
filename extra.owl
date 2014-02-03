@@ -28,6 +28,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000589"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -98,6 +115,23 @@
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UPHENO_0001001 -->
+
+    <owl:Class rdf:about="&obo;UPHENO_0001001">
+        <obo:IAO_0000589 xml:lang="en">Phenotype</obo:IAO_0000589>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UPHENO_0001002 -->
+
+    <owl:Class rdf:about="&obo;UPHENO_0001002">
+        <rdfs:subClassOf rdf:resource="&obo;UPHENO_0001001"/>
+        <obo:IAO_0000589 xml:lang="en">abnormal phenotype</obo:IAO_0000589>
+    </owl:Class>
 </rdf:RDF>
 
 
