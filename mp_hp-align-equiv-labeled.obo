@@ -85,10 +85,6 @@ id: HP:0007670 ! Abnormal vestibulo-ocular reflex
 equivalent_to: MP:0004844 ! abnormal vestibuloocular reflex
 
 [Term]
-id: MP:0000547 ! short limbs
-equivalent_to: HP:0005753 ! Limb shortening
-
-[Term]
 id: HP:0012093 ! Abnormality of endocrine pancreas physiology
 equivalent_to: MP:0010147 ! abnormal endocrine pancreas physiology
 
@@ -107,6 +103,10 @@ equivalent_to: MP:0005503 ! abnormal tendon morphology
 [Term]
 id: MP:0005333 ! decreased heart rate
 equivalent_to: HP:0001662 ! Bradycardia
+
+[Term]
+id: MP:0011421 ! cylindruria
+equivalent_to: HP:0012615 ! Cylindruria
 
 [Term]
 id: MP:0002443 ! abnormal eosinophil differentiation
@@ -154,10 +154,6 @@ id: HP:0004378 ! Abnormality of the anus
 equivalent_to: MP:0005034 ! abnormal anus morphology
 
 [Term]
-id: MP:0005325 ! abnormal renal glomerulus morphology
-equivalent_to: HP:0000095 ! Morphological abnormalities of the glomeruli
-
-[Term]
 id: HP:0005372 ! Abnormality of B cell physiology
 equivalent_to: MP:0002459 ! abnormal B cell physiology
 
@@ -166,8 +162,12 @@ id: HP:0011499 ! Mydriasis
 equivalent_to: MP:0002546 ! mydriasis
 
 [Term]
-id: HP:0001177 ! Preaxial polydactyly (hands)
+id: HP:0001177 ! Preaxial hand polydactyly
 equivalent_to: MP:0009743 ! preaxial polydactyly
+
+[Term]
+id: HP:0012443 ! Abnormality of the brain
+equivalent_to: MP:0002152 ! abnormal brain morphology
 
 [Term]
 id: HP:0003109 ! Hyperphosphaturia
@@ -233,7 +233,7 @@ equivalent_to: HP:0002385 ! Paraparesis
 equivalent_to: HP:0007340 ! Lower limb muscle weakness
 
 [Term]
-id: HP:0002914 ! Increased urinary chloride
+id: HP:0002914 ! Hyperchloridura
 equivalent_to: MP:0011459 ! increased urine chloride ion level
 
 [Term]
@@ -279,7 +279,7 @@ equivalent_to: HP:0000248 ! Brachycephaly
 
 [Term]
 id: HP:0009594 ! Retinal hamartoma
-equivalent_to: MP:0006183 ! retinal hamartoma
+equivalent_to: MP:0006183 ! increased retina hamartoma incidence
 
 [Term]
 id: HP:0002414 ! Spina bifida
@@ -346,6 +346,10 @@ id: MP:0010450 ! atrial septal aneurysm
 equivalent_to: HP:0011995 ! Atrial septal aneurysm
 
 [Term]
+id: HP:0012585 ! Renal atrophy
+equivalent_to: MP:0004970 ! kidney atrophy
+
+[Term]
 id: MP:0001634 ! internal hemorrhage
 equivalent_to: HP:0011029 ! Internal hemorrhage
 
@@ -405,6 +409,14 @@ equivalent_to: MP:0000017 ! big ears
 [Term]
 id: HP:0001085 ! Papilledema
 equivalent_to: MP:0006223 ! optic nerve swelling
+
+[Term]
+id: MP:0005257 ! abnormal intraocular pressure
+equivalent_to: HP:0012632 ! Abnormal intraocular pressure
+
+[Term]
+id: HP:0012647 ! Abnormal inflammatory response
+equivalent_to: MP:0001845 ! abnormal inflammatory response
 
 [Term]
 id: HP:0000842 ! Hyperinsulinemia
@@ -543,10 +555,6 @@ id: MP:0001926 ! female infertility
 equivalent_to: HP:0008222 ! Female infertility
 
 [Term]
-id: HP:0000179 ! Thick lower lip vermilion
-equivalent_to: MP:0003774 ! fleshy lip
-
-[Term]
 id: MP:0001858 ! intestinal inflammation
 equivalent_to: HP:0004386 ! Gastrointestinal inflammation
 
@@ -595,8 +603,16 @@ id: HP:0011025 ! Abnormality of cardiovascular system physiology
 equivalent_to: MP:0001544 ! abnormal cardiovascular system physiology
 
 [Term]
+id: MP:0012357 ! abnormal partial thromboplastin time
+equivalent_to: HP:0003645 ! Prolonged partial thromboplastin time
+
+[Term]
 id: HP:0006487 ! Bowing of the long bones
 equivalent_to: MP:0011505 ! camptomelia
+
+[Term]
+id: MP:0012545 ! syringomyelia
+equivalent_to: HP:0003396 ! Syringomyelia
 
 [Term]
 id: MP:0003216 ! absence seizures
@@ -661,6 +677,10 @@ id: HP:0011273 ! Anisocytosis
 equivalent_to: MP:0002642 ! anisocytosis
 
 [Term]
+id: HP:0001942 ! Metabolic acidosis
+equivalent_to: MP:0012551 ! metabolic acidosis
+
+[Term]
 id: HP:0010633 ! Partial anosmia
 equivalent_to: MP:0008544 ! impaired olfaction
 
@@ -671,6 +691,10 @@ equivalent_to: MP:0002090 ! abnormal vision
 [Term]
 id: MP:0006203 ! eye hemorrhage
 equivalent_to: HP:0011885 ! Hemorrhage of the eye
+
+[Term]
+id: MP:0000636 ! enlarged pituitary gland
+equivalent_to: HP:0012505 ! Enlarged pituitary gland
 
 [Term]
 id: HP:0004315 ! IgG deficiency
@@ -730,6 +754,10 @@ id: HP:0000047 ! Hypospadias
 equivalent_to: MP:0003124 ! hypospadia
 
 [Term]
+id: MP:0000482 ! long fibula
+equivalent_to: HP:0003085 ! Long fibula
+
+[Term]
 id: MP:0005418 ! abnormal circulating hormone level
 equivalent_to: HP:0003117 ! Abnormality of circulating hormone level
 
@@ -750,6 +778,10 @@ id: HP:0002570 ! Steatorrhea
 equivalent_to: MP:0002791 ! steatorrhea
 
 [Term]
+id: HP:0003085 ! Long fibula
+equivalent_to: MP:0000482 ! long fibula
+
+[Term]
 id: HP:0008734 ! Decreased testicular size
 equivalent_to: MP:0001147 ! small testis
 equivalent_to: MP:0001940 ! testis hypoplasia
@@ -768,7 +800,7 @@ equivalent_to: MP:0002788 ! female pseudohermaphroditism
 
 [Term]
 id: HP:0002859 ! Rhabdomyosarcoma
-equivalent_to: MP:0002036 ! rhabdomyosarcoma
+equivalent_to: MP:0002036 ! increased rhabdomyosarcoma incidence
 
 [Term]
 id: HP:0001952 ! Abnormal glucose tolerance
@@ -861,7 +893,7 @@ equivalent_to: MP:0004373 ! bowed humerus
 
 [Term]
 id: HP:0009792 ! Teratoma
-equivalent_to: MP:0002627 ! teratoma
+equivalent_to: MP:0002627 ! increased teratoma incidence
 
 [Term]
 id: HP:0002198 ! Dilated fourth ventricle
@@ -919,10 +951,6 @@ equivalent_to: MP:0005251 ! blepharitis
 [Term]
 id: MP:0012085 ! midface hypoplasia
 equivalent_to: HP:0000272 ! Malar flattening
-
-[Term]
-id: HP:0011400 ! Abnormal CNS myelination
-equivalent_to: MP:0000920 ! abnormal myelination
 
 [Term]
 id: HP:0000175 ! Cleft palate
@@ -1020,6 +1048,10 @@ equivalent_to: MP:0006009 ! abnormal neuronal migration
 [Term]
 id: HP:0010310 ! Chylothorax
 equivalent_to: MP:0003660 ! chylothorax
+
+[Term]
+id: MP:0001867 ! rhinitis
+equivalent_to: HP:0012384 ! Rhinitis
 
 [Term]
 id: HP:0200023 ! Priapism
@@ -1206,6 +1238,10 @@ id: HP:0011611 ! Interrupted aortic arch
 equivalent_to: MP:0004157 ! interrupted aortic arch
 
 [Term]
+id: MP:0011164 ! panniculitis
+equivalent_to: HP:0012490 ! Panniculitis
+
+[Term]
 id: HP:0011536 ! Right atrial isomerism
 equivalent_to: MP:0006061 ! right atrial isomerism
 
@@ -1215,7 +1251,7 @@ equivalent_to: HP:0006574 ! Hepatic arteriovenous malformation
 
 [Term]
 id: HP:0200058 ! Angiosarcoma
-equivalent_to: MP:0003667 ! hemangiosarcoma
+equivalent_to: MP:0003667 ! increased hemangiosarcoma incidence
 
 [Term]
 id: HP:0011893 ! Abnormal leukocyte count
@@ -1244,6 +1280,7 @@ equivalent_to: MP:0005159 ! azoospermia
 [Term]
 id: MP:0003378 ! early sexual maturation
 equivalent_to: HP:0000826 ! Precocious puberty
+equivalent_to: HP:0100000 ! Early onset of sexual maturation
 
 [Term]
 id: MP:0000220 ! increased monocyte cell number
@@ -1279,7 +1316,7 @@ equivalent_to: MP:0006149 ! decreased visual acuity
 
 [Term]
 id: MP:0004635 ! short metatarsal bones
-equivalent_to: HP:0010743 ! Short metatarsal bone
+equivalent_to: HP:0010743 ! Short metatarsal
 
 [Term]
 id: MP:0003614 ! urinary bladder prolapse
@@ -1288,6 +1325,10 @@ equivalent_to: HP:0100645 ! Cystocele
 [Term]
 id: MP:0001056 ! abnormal cranial nerve morphology
 equivalent_to: HP:0001291 ! Abnormality of the cranial nerves
+
+[Term]
+id: MP:0003129 ! persistent cloaca
+equivalent_to: HP:0012621 ! Persistent cloaca
 
 [Term]
 id: MP:0005464 ! abnormal platelet physiology
@@ -1320,10 +1361,6 @@ equivalent_to: MP:0009707 ! absent external auditory canal
 [Term]
 id: HP:0012331 ! Abnormal autonomic nervous system morphology
 equivalent_to: MP:0002751 ! abnormal autonomic nervous system morphology
-
-[Term]
-id: HP:0000095 ! Morphological abnormalities of the glomeruli
-equivalent_to: MP:0005325 ! abnormal renal glomerulus morphology
 
 [Term]
 id: HP:0000486 ! Strabismus
@@ -1415,16 +1452,12 @@ id: MP:0003046 ! liver cirrhosis
 equivalent_to: HP:0001394 ! Cirrhosis
 
 [Term]
-id: MP:0010083 ! encephalocele
-equivalent_to: HP:0002084 ! Encephalocele
-
-[Term]
 id: MP:0002460 ! decreased immunoglobulin level
 equivalent_to: HP:0004313 ! Hypogammaglobulinemia
 
 [Term]
 id: MP:0002764 ! short tibia
-equivalent_to: HP:0005736 ! Hypoplastic tibia
+equivalent_to: HP:0005736 ! Short tibia
 
 [Term]
 id: HP:0012068 ! Aspartylglucosaminuria
@@ -1436,7 +1469,15 @@ equivalent_to: MP:0006050 ! pulmonary fibrosis
 
 [Term]
 id: MP:0009001 ! absent hallux
-equivalent_to: HP:0010760 ! Absent toe
+equivalent_to: HP:0012386 ! Absent hallux
+
+[Term]
+id: HP:0012447 ! Abnormal myelination
+equivalent_to: MP:0000920 ! abnormal myelination
+
+[Term]
+id: HP:0000531 ! Corneal crystals
+equivalent_to: MP:0005544 ! corneal deposits
 
 [Term]
 id: HP:0100806 ! Sepsis
@@ -1445,6 +1486,10 @@ equivalent_to: MP:0005044 ! sepsis
 [Term]
 id: MP:0001263 ! weight loss
 equivalent_to: HP:0001824 ! Weight loss
+
+[Term]
+id: HP:0012416 ! Hypercapnia
+equivalent_to: MP:0002318 ! hypercapnia
 
 [Term]
 id: MP:0010093 ! decreased circulating magnesium level
@@ -1492,7 +1537,7 @@ equivalent_to: HP:0004409 ! Hyposmia
 equivalent_to: HP:0010633 ! Partial anosmia
 
 [Term]
-id: MP:0002039 ! neuroblastoma
+id: MP:0002039 ! increased neuroblastoma incidence
 equivalent_to: HP:0003006 ! Neuroblastoma
 
 [Term]
@@ -1506,10 +1551,6 @@ equivalent_to: MP:0002128 ! abnormal blood circulation
 [Term]
 id: MP:0004699 ! unilateral deafness
 equivalent_to: HP:0009900 ! Unilateral deafness
-
-[Term]
-id: HP:0200060 ! Increased urine output
-equivalent_to: MP:0001762 ! polyuria
 
 [Term]
 id: HP:0002840 ! Lymphadenitis
@@ -1532,6 +1573,10 @@ id: HP:0002715 ! Abnormality of the immune system
 equivalent_to: MP:0000685 ! abnormal immune system morphology
 
 [Term]
+id: MP:0005083 ! abnormal biliary tract morphology
+equivalent_to: HP:0012440 ! Abnormal biliary tract morphology
+
+[Term]
 id: HP:0001879 ! Abnormality of eosinophils
 equivalent_to: MP:0002443 ! abnormal eosinophil differentiation
 
@@ -1542,6 +1587,14 @@ equivalent_to: MP:0011361 ! pelvic kidney
 [Term]
 id: HP:0002983 ! Micromelia
 equivalent_to: MP:0008736 ! micromelia
+
+[Term]
+id: HP:0002524 ! Cataplexy
+equivalent_to: MP:0005279 ! narcolepsy
+
+[Term]
+id: MP:0012258 ! philtrum hypoplasia
+equivalent_to: HP:0005326 ! Hypoplastic philtrum
 
 [Term]
 id: MP:0005034 ! abnormal anus morphology
@@ -1587,6 +1640,10 @@ equivalent_to: HP:0000412 ! Prominent ears
 [Term]
 id: HP:0005317 ! Increased pulmonary vascular resistance
 equivalent_to: MP:0003034 ! increased pulmonary vascular resistance
+
+[Term]
+id: MP:0012494 ! dilated branchial arch arteries
+equivalent_to: HP:0005113 ! Dilatation of the aortic arch
 
 [Term]
 id: HP:0004382 ! Mitral valve calcification
@@ -1774,6 +1831,10 @@ equivalent_to: MP:0002989 ! small kidney
 equivalent_to: MP:0003446 ! renal hypoplasia
 
 [Term]
+id: MP:0012304 ! short umbilical cord
+equivalent_to: HP:0001196 ! Short umbilical cord
+
+[Term]
 id: MP:0004154 ! renal tubular necrosis
 equivalent_to: HP:0008682 ! Acute tubular necrosis
 
@@ -1796,6 +1857,10 @@ equivalent_to: HP:0000074 ! Ureteropelvic junction obstruction
 [Term]
 id: HP:0009887 ! Abnormality of hair pigmentation
 equivalent_to: MP:0002075 ! abnormal coat/hair pigmentation
+
+[Term]
+id: HP:0012648 ! Decreased inflammatory response
+equivalent_to: MP:0001876 ! decreased inflammatory response
 
 [Term]
 id: HP:0002707 ! Palate telangiectasia
@@ -1895,6 +1960,10 @@ id: HP:0006681 ! Absent atrioventricular node
 equivalent_to: MP:0010532 ! absent atrioventricular node
 
 [Term]
+id: MP:0000040 ! absent middle ear ossicles
+equivalent_to: HP:0009910 ! Aplasia of the middle ear ossicles
+
+[Term]
 id: HP:0011031 ! Abnormality of iron homeostasis
 equivalent_to: MP:0005637 ! abnormal iron homeostasis
 
@@ -1956,16 +2025,16 @@ equivalent_to: HP:0001684 ! Secundum atrial septal defect
 equivalent_to: HP:0200131 ! Ostium secundum atrial septal defect
 
 [Term]
-id: HP:0000759 ! Abnormality of the peripheral nervous system
-equivalent_to: MP:0003632 ! abnormal nervous system morphology
-
-[Term]
 id: HP:0004348 ! Abnormality of bone mineral density
 equivalent_to: MP:0010119 ! abnormal bone mineral density
 
 [Term]
 id: HP:0001655 ! Patent foramen ovale
 equivalent_to: MP:0004225 ! patent foramen ovale
+
+[Term]
+id: HP:0012524 ! Abnormal platelet shape
+equivalent_to: MP:0003405 ! abnormal platelet shape
 
 [Term]
 id: HP:0012176 ! Abnormality of natural killer cells
@@ -2005,8 +2074,7 @@ equivalent_to: HP:0000958 ! Dry skin
 
 [Term]
 id: MP:0003774 ! fleshy lip
-equivalent_to: HP:0000179 ! Thick lower lip vermilion
-equivalent_to: HP:0000215 ! Thick upper lip vermilion
+equivalent_to: HP:0012471 ! Thick vermilion border
 
 [Term]
 id: MP:0002936 ! joint swelling
@@ -2081,6 +2149,10 @@ id: MP:0003250 ! absent gallbladder
 equivalent_to: HP:0011467 ! Absent gallbladder
 
 [Term]
+id: MP:0012602 ! increased alpha-fetoprotein level
+equivalent_to: HP:0006254 ! Elevated alpha-fetoprotein
+
+[Term]
 id: MP:0005403 ! abnormal nerve conduction
 equivalent_to: HP:0000762 ! Decreased nerve conduction velocity
 
@@ -2090,7 +2162,7 @@ equivalent_to: MP:0010208 ! prognathia
 
 [Term]
 id: HP:0001402 ! Hepatocellular carcinoma
-equivalent_to: MP:0003331 ! hepatocellular carcinoma
+equivalent_to: MP:0003331 ! increased hepatocellular carcinoma incidence
 
 [Term]
 id: MP:0012121 ! sclerocornea
@@ -2182,7 +2254,7 @@ id: HP:0002450 ! Abnormality of the motor neurons
 equivalent_to: MP:0000937 ! abnormal motor neuron morphology
 
 [Term]
-id: MP:0002035 ! leiomyosarcoma
+id: MP:0002035 ! increased leiomyosarcoma incidence
 equivalent_to: HP:0100243 ! Leiomyosarcoma
 
 [Term]
@@ -2203,11 +2275,11 @@ equivalent_to: MP:0003506 ! acromegaly
 
 [Term]
 id: HP:0003006 ! Neuroblastoma
-equivalent_to: MP:0002039 ! neuroblastoma
+equivalent_to: MP:0002039 ! increased neuroblastoma incidence
 
 [Term]
 id: MP:0005558 ! decreased creatinine clearance
-equivalent_to: HP:0000120 ! Reduced creatinine clearance
+equivalent_to: HP:0012213 ! Decreased glomerular filtration rate
 
 [Term]
 id: MP:0010536 ! Ebstein's malformation of tricuspid valve
@@ -2230,8 +2302,16 @@ id: MP:0010717 ! optic nerve coloboma
 equivalent_to: HP:0000588 ! Optic nerve coloboma
 
 [Term]
+id: MP:0002329 ! abnormal blood gas level
+equivalent_to: HP:0012415 ! Abnormal blood gas level
+
+[Term]
 id: HP:0003038 ! Fibular hypoplasia
 equivalent_to: MP:0002765 ! short fibula
+
+[Term]
+id: HP:0003560 ! Muscular dystrophy
+equivalent_to: MP:0000752 ! dystrophic muscle
 
 [Term]
 id: HP:0011018 ! Abnormality of the cell cycle
@@ -2250,7 +2330,7 @@ id: MP:0001310 ! abnormal conjunctiva morphology
 equivalent_to: HP:0000502 ! Abnormality of the conjunctiva
 
 [Term]
-id: MP:0002024 ! T cell derived lymphoma
+id: MP:0002024 ! increased T cell derived lymphoma incidence
 equivalent_to: HP:0100522 ! Thymoma
 
 [Term]
@@ -2294,6 +2374,10 @@ id: MP:0010942 ! abnormal respiratory epithelium morphology
 equivalent_to: HP:0012253 ! Abnormal respiratory epithelium morphology
 
 [Term]
+id: MP:0012514 ! pectus excavatum
+equivalent_to: HP:0000767 ! Pectus excavatum
+
+[Term]
 id: MP:0000026 ! abnormal inner ear morphology
 equivalent_to: HP:0011390 ! Morphological abnormality of the inner ear
 
@@ -2325,6 +2409,10 @@ equivalent_to: HP:0005303 ! Aortic arch calcification
 [Term]
 id: MP:0001984 ! abnormal olfaction
 equivalent_to: HP:0004408 ! Abnormality of the sense of smell
+
+[Term]
+id: HP:0012615 ! Cylindruria
+equivalent_to: MP:0011421 ! cylindruria
 
 [Term]
 id: HP:0002089 ! Pulmonary hypoplasia
@@ -2365,7 +2453,6 @@ equivalent_to: HP:0006270 ! Hypoplastic spleen
 [Term]
 id: MP:0001762 ! polyuria
 equivalent_to: HP:0000103 ! Polyuria
-equivalent_to: HP:0200060 ! Increased urine output
 
 [Term]
 id: MP:0004244 ! abnormal spontaneous abortion rate
@@ -2377,7 +2464,7 @@ equivalent_to: HP:0001701 ! Pericarditis
 
 [Term]
 id: HP:0009737 ! Lisch nodules
-equivalent_to: MP:0006232 ! Lisch nodule
+equivalent_to: MP:0006232 ! increased Lisch nodule incidence
 
 [Term]
 id: MP:0009881 ! macrostomia
@@ -2429,12 +2516,8 @@ id: HP:0001142 ! Lenticonus
 equivalent_to: MP:0002794 ! lenticonus
 
 [Term]
-id: HP:0000082 ! Abnormality of renal physiology
-equivalent_to: MP:0002136 ! abnormal kidney physiology
-
-[Term]
 id: HP:0001028 ! Hemangioma
-equivalent_to: MP:0002947 ! hemangioma
+equivalent_to: MP:0002947 ! increased hemangioma incidence
 
 [Term]
 id: HP:0001396 ! Cholestasis
@@ -2498,10 +2581,6 @@ id: MP:0000266 ! abnormal heart morphology
 equivalent_to: HP:0001627 ! Abnormality of the heart
 
 [Term]
-id: HP:0000215 ! Thick upper lip vermilion
-equivalent_to: MP:0003774 ! fleshy lip
-
-[Term]
 id: MP:0006159 ! ocular albinism
 equivalent_to: HP:0001107 ! Ocular albinism
 
@@ -2526,7 +2605,7 @@ id: HP:0008034 ! Abnormal iris pigmentation
 equivalent_to: MP:0005102 ! abnormal iris pigmentation
 
 [Term]
-id: MP:0002036 ! rhabdomyosarcoma
+id: MP:0002036 ! increased rhabdomyosarcoma incidence
 equivalent_to: HP:0002859 ! Rhabdomyosarcoma
 
 [Term]
@@ -2539,7 +2618,7 @@ equivalent_to: MP:0002659 ! pituitary gland hypoplasia
 
 [Term]
 id: HP:0002860 ! Squamous cell carcinoma
-equivalent_to: MP:0004207 ! squamous cell carcinoma
+equivalent_to: MP:0004207 ! increased squamous cell carcinoma incidence
 
 [Term]
 id: MP:0001211 ! wrinkled skin
@@ -2560,6 +2639,10 @@ equivalent_to: MP:0008950 ! ventricular tachycardia
 [Term]
 id: HP:0010826 ! Abnormality of the twelfth cranial nerve
 equivalent_to: MP:0001076 ! abnormal hypoglossal nerve morphology
+
+[Term]
+id: MP:0005361 ! small pituitary gland
+equivalent_to: HP:0012506 ! Small pituitary gland
 
 [Term]
 id: MP:0000223 ! decreased monocyte cell number
@@ -2600,7 +2683,7 @@ equivalent_to: MP:0002229 ! neurodegeneration
 
 [Term]
 id: MP:0010522 ! calcified aorta
-equivalent_to: HP:0004963 ! Calcifications of the aorta
+equivalent_to: HP:0004963 ! Calcification of the aorta
 
 [Term]
 id: HP:0000171 ! Microglossia
@@ -2626,6 +2709,7 @@ equivalent_to: HP:0011538 ! Atrial situs inversus
 [Term]
 id: MP:0000579 ! abnormal nail morphology
 equivalent_to: HP:0002164 ! Nail dysplasia
+equivalent_to: HP:0008404 ! Nail dystrophy
 
 [Term]
 id: HP:0012252 ! Abnormal respiratory system morphology
@@ -2676,7 +2760,7 @@ id: MP:0002406 ! increased susceptibility to infection
 equivalent_to: HP:0002719 ! Recurrent infections
 
 [Term]
-id: MP:0006183 ! retinal hamartoma
+id: MP:0006183 ! increased retina hamartoma incidence
 equivalent_to: HP:0009594 ! Retinal hamartoma
 
 [Term]
@@ -2706,6 +2790,10 @@ equivalent_to: MP:0001242 ! hyperkeratosis
 [Term]
 id: HP:0011660 ! Anomalous origin of one pulmonary artery from ascending aorta
 equivalent_to: MP:0010456 ! hemitruncus
+
+[Term]
+id: MP:0002557 ! abnormal social/conspecific interaction
+equivalent_to: HP:0012433 ! Abnormal social behavior
 
 [Term]
 id: MP:0002725 ! abnormal vein morphology
@@ -2738,6 +2826,10 @@ equivalent_to: MP:0010466 ! vascular ring
 [Term]
 id: MP:0000163 ! abnormal cartilage morphology
 equivalent_to: HP:0002763 ! Abnormal cartilage morphology
+
+[Term]
+id: MP:0002959 ! increased urine microalbumin level
+equivalent_to: HP:0012594 ! Microalbuminuria
 
 [Term]
 id: HP:0001324 ! Muscle weakness
@@ -2788,6 +2880,10 @@ id: HP:0001360 ! Holoprosencephaly
 equivalent_to: MP:0005157 ! holoprosencephaly
 
 [Term]
+id: HP:0009910 ! Aplasia of the middle ear ossicles
+equivalent_to: MP:0000040 ! absent middle ear ossicles
+
+[Term]
 id: MP:0011658 ! interrupted aortic arch, type a
 equivalent_to: HP:0011612 ! Interrupted aortic arch type A
 
@@ -2832,7 +2928,7 @@ id: HP:0000260 ! Wide anterior fontanel
 equivalent_to: MP:0000085 ! large anterior fontanelle
 
 [Term]
-id: HP:0010743 ! Short metatarsal bone
+id: HP:0010743 ! Short metatarsal
 equivalent_to: MP:0004635 ! short metatarsal bones
 
 [Term]
@@ -2842,10 +2938,6 @@ equivalent_to: HP:0000787 ! Nephrolithiasis
 [Term]
 id: MP:0003772 ! lip pits
 equivalent_to: HP:0100267 ! Lip pit
-
-[Term]
-id: HP:0000864 ! Abnormality of the hypothalamus-pituitary axis
-equivalent_to: MP:0000633 ! abnormal pituitary gland morphology
 
 [Term]
 id: MP:0006156 ! abnormal visual pursuit
@@ -3056,7 +3148,7 @@ equivalent_to: HP:0000315 ! Abnormality of the orbital region
 
 [Term]
 id: HP:0012114 ! Endometrial carcinoma
-equivalent_to: MP:0004868 ! endometrial carcinoma
+equivalent_to: MP:0004868 ! increased endometrial carcinoma incidence
 
 [Term]
 id: MP:0001325 ! abnormal retina morphology
@@ -3123,8 +3215,9 @@ id: HP:0002894 ! Neoplasm of the pancreas
 equivalent_to: MP:0009153 ! increased pancreas tumor incidence
 
 [Term]
-id: MP:0003331 ! hepatocellular carcinoma
+id: MP:0003331 ! increased hepatocellular carcinoma incidence
 equivalent_to: HP:0001402 ! Hepatocellular carcinoma
+equivalent_to: HP:0002896 ! Neoplasm of the liver
 
 [Term]
 id: HP:0100539 ! Periorbital edema
@@ -3167,10 +3260,6 @@ id: MP:0008863 ! craniofacial asymmetry
 equivalent_to: HP:0004484 ! Craniofacial asymmetry
 
 [Term]
-id: MP:0003030 ! acidemia
-equivalent_to: HP:0001941 ! Acidosis
-
-[Term]
 id: HP:0003115 ! Abnormal EKG
 equivalent_to: MP:0010508 ! abnormal heart electrocardiography waveform feature
 
@@ -3199,8 +3288,12 @@ id: HP:0001970 ! Tubulointerstitial nephritis
 equivalent_to: MP:0011405 ! tubulointerstitial nephritis
 
 [Term]
-id: MP:0003602 ! renal hamartoma
+id: MP:0003602 ! increased renal hamartoma incidence
 equivalent_to: HP:0008696 ! Renal hamartoma
+
+[Term]
+id: HP:0012444 ! Brain atrophy
+equivalent_to: MP:0012506 ! brain atrophy
 
 [Term]
 id: HP:0100770 ! Hyperperistalsis
@@ -3229,6 +3322,10 @@ equivalent_to: HP:0001683 ! Ectopia cordis
 [Term]
 id: MP:0001045 ! abnormal enteric ganglia morphology
 equivalent_to: HP:0004362 ! Abnormality of the enteric ganglia
+
+[Term]
+id: HP:0012608 ! Hypermagnesiuria
+equivalent_to: MP:0011435 ! increased urine magnesium level
 
 [Term]
 id: MP:0008984 ! vagina hypoplasia
@@ -3261,6 +3358,10 @@ equivalent_to: MP:0003282 ! gastric ulcer
 [Term]
 id: HP:0002789 ! Tachypnea
 equivalent_to: MP:0005426 ! tachypnea
+
+[Term]
+id: HP:0000233 ! Thin vermilion border
+equivalent_to: MP:0003775 ! thin lip
 
 [Term]
 id: MP:0002830 ! gallstones
@@ -3320,6 +3421,10 @@ id: MP:0003688 ! ophthalmoparesis
 equivalent_to: HP:0000597 ! Ophthalmoparesis
 
 [Term]
+id: HP:0001799 ! Short nail
+equivalent_to: MP:0012399 ! short nails
+
+[Term]
 id: HP:0000588 ! Optic nerve coloboma
 equivalent_to: MP:0010717 ! optic nerve coloboma
 
@@ -3367,7 +3472,7 @@ equivalent_to: MP:0008101 ! lymph node hypoplasia
 
 [Term]
 id: MP:0000633 ! abnormal pituitary gland morphology
-equivalent_to: HP:0000864 ! Abnormality of the hypothalamus-pituitary axis
+equivalent_to: HP:0012503 ! Abnormality of the pituitary gland
 
 [Term]
 id: MP:0011852 ! patent urachus
@@ -3388,6 +3493,10 @@ equivalent_to: HP:0005225 ! Intestinal edema
 [Term]
 id: HP:0000024 ! Prostatitis
 equivalent_to: MP:0003608 ! prostate gland inflammation
+
+[Term]
+id: HP:0012505 ! Enlarged pituitary gland
+equivalent_to: MP:0000636 ! enlarged pituitary gland
 
 [Term]
 id: HP:0002910 ! Elevated hepatic transaminases
@@ -3422,7 +3531,7 @@ id: HP:0003641 ! Hemoglobinuria
 equivalent_to: MP:0000315 ! hemoglobinuria
 
 [Term]
-id: MP:0002032 ! sarcoma
+id: MP:0002032 ! increased sarcoma incidence
 equivalent_to: HP:0100242 ! Sarcoma
 
 [Term]
@@ -3430,7 +3539,7 @@ id: MP:0002788 ! female pseudohermaphroditism
 equivalent_to: HP:0010458 ! Female pseudohermaphroditism
 
 [Term]
-id: MP:0009442 ! ovarian teratoma
+id: MP:0009442 ! increased ovarian teratoma incidence
 equivalent_to: HP:0012226 ! Ovarian teratoma
 
 [Term]
@@ -3448,6 +3557,7 @@ equivalent_to: HP:0100508 ! Abnormality of vitamin metabolism
 [Term]
 id: HP:0005113 ! Dilatation of the aortic arch
 equivalent_to: MP:0010575 ! aortic arch dilation
+equivalent_to: MP:0012494 ! dilated branchial arch arteries
 
 [Term]
 id: MP:0002183 ! gliosis
@@ -3460,10 +3570,6 @@ equivalent_to: MP:0008915 ! fused carpal bones
 [Term]
 id: HP:0001696 ! Situs inversus totalis
 equivalent_to: MP:0011252 ! situs inversus totalis
-
-[Term]
-id: HP:0002671 ! Basal cell carcinoma
-equivalent_to: MP:0004208 ! basal cell carcinoma
 
 [Term]
 id: HP:0001943 ! Hypoglycemia
@@ -3490,6 +3596,10 @@ id: HP:0002247 ! Duodenal atresia
 equivalent_to: MP:0003272 ! duodenal atresia
 
 [Term]
+id: MP:0003807 ! camptodactyly
+equivalent_to: HP:0012385 ! Camptodactyly
+
+[Term]
 id: HP:0000431 ! Wide nasal bridge
 equivalent_to: MP:0000449 ! broad nasal bridge
 
@@ -3499,15 +3609,11 @@ equivalent_to: MP:0003746 ! stomatitis
 
 [Term]
 id: HP:0004836 ! Acute promyelocytic leukemia
-equivalent_to: MP:0004049 ! acute promyelocytic leukemia
+equivalent_to: MP:0004049 ! increased acute promyelocytic leukemia incidence
 
 [Term]
 id: MP:0001261 ! obese
 equivalent_to: HP:0001513 ! Obesity
-
-[Term]
-id: HP:0010956 ! Fetal megacystis
-equivalent_to: MP:0000539 ! distended urinary bladder
 
 [Term]
 id: MP:0002926 ! aganglionic megacolon
@@ -3528,7 +3634,7 @@ equivalent_to: HP:0012081 ! Enlarged cerebellum
 
 [Term]
 id: MP:0009743 ! preaxial polydactyly
-equivalent_to: HP:0001177 ! Preaxial polydactyly (hands)
+equivalent_to: HP:0001177 ! Preaxial hand polydactyly
 equivalent_to: HP:0100258 ! Preaxial polydactyly
 
 [Term]
@@ -3570,6 +3676,10 @@ equivalent_to: MP:0003286 ! gastroesophageal reflux
 [Term]
 id: MP:0003116 ! rickets
 equivalent_to: HP:0002748 ! Rickets
+
+[Term]
+id: MP:0002878 ! abnormal corticospinal tract morphology
+equivalent_to: HP:0012445 ! Morphological abnormality of the pyramidal tracts
 
 [Term]
 id: MP:0000598 ! abnormal liver morphology
@@ -3656,6 +3766,10 @@ id: HP:0001126 ! Cryptophthalmos
 equivalent_to: MP:0005242 ! cryptophthalmos
 
 [Term]
+id: HP:0002435 ! Meningocele
+equivalent_to: MP:0012259 ! meningocele
+
+[Term]
 id: MP:0003737 ! ossification of pinnae
 equivalent_to: HP:0005103 ! Cartilaginous ossification of pinnae
 
@@ -3717,6 +3831,10 @@ id: MP:0003664 ! ocular pterygium
 equivalent_to: HP:0001059 ! Pterygium
 
 [Term]
+id: MP:0012400 ! nail dystrophy
+equivalent_to: HP:0008404 ! Nail dystrophy
+
+[Term]
 id: MP:0004225 ! patent foramen ovale
 equivalent_to: HP:0001655 ! Patent foramen ovale
 
@@ -3751,6 +3869,10 @@ equivalent_to: MP:0011801 ! urethra obstruction
 [Term]
 id: HP:0010882 ! Pulmonary valve atresia
 equivalent_to: MP:0006130 ! pulmonary valve atresia
+
+[Term]
+id: MP:0012339 ! hyperkalemia
+equivalent_to: HP:0002153 ! Hyperkalemia
 
 [Term]
 id: MP:0003197 ! nephrocalcinosis
@@ -3788,6 +3910,10 @@ equivalent_to: MP:0002490 ! abnormal immunoglobulin level
 [Term]
 id: HP:0011555 ! Double inlet left ventricle
 equivalent_to: MP:0010433 ! double inlet heart left ventricle
+
+[Term]
+id: MP:0012260 ! encephalomeningocele
+equivalent_to: HP:0002084 ! Encephalocele
 
 [Term]
 id: HP:0000778 ! Hypoplasia of the thymus
@@ -3910,6 +4036,10 @@ id: HP:0005303 ! Aortic arch calcification
 equivalent_to: MP:0010524 ! calcified aortic arch
 
 [Term]
+id: HP:0012535 ! Abnormal synaptic transmission
+equivalent_to: MP:0003635 ! abnormal synaptic transmission
+
+[Term]
 id: MP:0005534 ! decreased body temperature
 equivalent_to: HP:0002045 ! Hypothermia
 
@@ -3936,6 +4066,10 @@ equivalent_to: HP:0001653 ! Mitral regurgitation
 [Term]
 id: MP:0005278 ! abnormal cholesterol homeostasis
 equivalent_to: HP:0003464 ! Abnormal cholesterol homeostasis
+
+[Term]
+id: MP:0012549 ! hypoxemia
+equivalent_to: HP:0012418 ! Hypoxemia
 
 [Term]
 id: HP:0100961 ! Enlarged hippocampus
@@ -3965,6 +4099,10 @@ equivalent_to: MP:0005338 ! atherosclerotic lesions
 [Term]
 id: MP:0006221 ! optic nerve hypoplasia
 equivalent_to: HP:0000609 ! Optic nerve hypoplasia
+
+[Term]
+id: MP:0002318 ! hypercapnia
+equivalent_to: HP:0012416 ! Hypercapnia
 
 [Term]
 id: HP:0011483 ! Anterior synechiae of the anterior chamber
@@ -4055,7 +4193,7 @@ id: MP:0002296 ! aspiration
 equivalent_to: HP:0002835 ! Aspiration
 
 [Term]
-id: HP:0004963 ! Calcifications of the aorta
+id: HP:0004963 ! Calcification of the aorta
 equivalent_to: MP:0010522 ! calcified aorta
 
 [Term]
@@ -4135,7 +4273,7 @@ id: HP:0003761 ! Calcinosis
 equivalent_to: MP:0003195 ! calcinosis
 
 [Term]
-id: MP:0010054 ! hepatoblastoma
+id: MP:0010054 ! increased hepatoblastoma incidence
 equivalent_to: HP:0002884 ! Hepatoblastoma
 
 [Term]
@@ -4149,6 +4287,10 @@ equivalent_to: HP:0000316 ! Hypertelorism
 [Term]
 id: MP:0005161 ! hematuria
 equivalent_to: HP:0000790 ! Hematuria
+
+[Term]
+id: HP:0002896 ! Neoplasm of the liver
+equivalent_to: MP:0003331 ! increased hepatocellular carcinoma incidence
 
 [Term]
 id: HP:0004952 ! Pulmonary arteriovenous fistulas
@@ -4185,6 +4327,10 @@ equivalent_to: MP:0010258 ! polar cataracts
 [Term]
 id: MP:0010092 ! increased circulating magnesium level
 equivalent_to: HP:0002918 ! Hypermagnesemia
+
+[Term]
+id: HP:0001196 ! Short umbilical cord
+equivalent_to: MP:0012304 ! short umbilical cord
 
 [Term]
 id: MP:0010612 ! muscular subaortic stenosis
@@ -4255,12 +4401,24 @@ id: MP:0004740 ! sensorineural hearing loss
 equivalent_to: HP:0000407 ! Sensorineural hearing impairment
 
 [Term]
+id: MP:0011290 ! decreased nephron number
+equivalent_to: HP:0005563 ! Decreased numbers of nephrons
+
+[Term]
+id: MP:0012259 ! meningocele
+equivalent_to: HP:0002435 ! Meningocele
+
+[Term]
 id: HP:0000829 ! Hypoparathyroidism
 equivalent_to: MP:0003433 ! decreased activity of parathyroid
 
 [Term]
 id: MP:0004321 ! short sternum
 equivalent_to: HP:0000879 ! Short sternum
+
+[Term]
+id: HP:0012504 ! Abnormal size of pituitary gland
+equivalent_to: MP:0008936 ! abnormal pituitary gland size
 
 [Term]
 id: MP:0006112 ! angina
@@ -4273,6 +4431,10 @@ equivalent_to: HP:0005407 ! Decreased number of CD4+ T cells
 [Term]
 id: HP:0003470 ! Paralysis
 equivalent_to: MP:0000753 ! paralysis
+
+[Term]
+id: MP:0001845 ! abnormal inflammatory response
+equivalent_to: HP:0012647 ! Abnormal inflammatory response
 
 [Term]
 id: HP:0011029 ! Internal hemorrhage
@@ -4299,12 +4461,20 @@ id: MP:0010766 ! abnormal NK cell physiology
 equivalent_to: HP:0012177 ! Abnormal natural killer cell physiology
 
 [Term]
+id: HP:0012415 ! Abnormal blood gas level
+equivalent_to: MP:0002329 ! abnormal blood gas level
+
+[Term]
 id: HP:0000136 ! Bifid uterus
 equivalent_to: MP:0003559 ! bifid uterus
 
 [Term]
 id: MP:0008075 ! decreased CD4-positive T cell number
 equivalent_to: HP:0005407 ! Decreased number of CD4+ T cells
+
+[Term]
+id: HP:0012368 ! Flat face
+equivalent_to: MP:0012175 ! flat face
 
 [Term]
 id: HP:0004857 ! Hyperchromic macrocytic anemia
@@ -4336,16 +4506,20 @@ id: MP:0010444 ! total anomalous pulmonary venous connection, infracardiac
 equivalent_to: HP:0011721 ! Infracardiac total anomalous pulmonary venous connection
 
 [Term]
-id: HP:0007945 ! Choroidal degeneration
-equivalent_to: MP:0006176 ! choroid degeneration
-
-[Term]
 id: HP:0011742 ! Ectopic adrenal gland
 equivalent_to: MP:0011362 ! ectopic adrenal gland
 
 [Term]
+id: HP:0007945 ! Choroidal degeneration
+equivalent_to: MP:0006176 ! choroid degeneration
+
+[Term]
 id: HP:0005263 ! Gastritis
 equivalent_to: MP:0001873 ! stomach inflammation
+
+[Term]
+id: HP:0006254 ! Elevated alpha-fetoprotein
+equivalent_to: MP:0012602 ! increased alpha-fetoprotein level
 
 [Term]
 id: HP:0100792 ! Acantholysis
@@ -4356,6 +4530,10 @@ id: MP:0003605 ! fused kidneys
 equivalent_to: HP:0000085 ! Horseshoe kidney
 
 [Term]
+id: MP:0002871 ! albuminuria
+equivalent_to: HP:0012592 ! Albuminuria
+
+[Term]
 id: HP:0012091 ! Abnormality of pancreas physiology
 equivalent_to: MP:0002693 ! abnormal pancreas physiology
 
@@ -4364,16 +4542,20 @@ id: HP:0002748 ! Rickets
 equivalent_to: MP:0003116 ! rickets
 
 [Term]
+id: MP:0003633 ! abnormal nervous system physiology
+equivalent_to: HP:0012638 ! Abnormality of nervous system physiology
+
+[Term]
 id: HP:0000843 ! Hyperparathyroidism
 equivalent_to: MP:0003432 ! increased activity of parathyroid
 
 [Term]
-id: MP:0004207 ! squamous cell carcinoma
+id: MP:0004207 ! increased squamous cell carcinoma incidence
 equivalent_to: HP:0002860 ! Squamous cell carcinoma
 
 [Term]
 id: HP:0002084 ! Encephalocele
-equivalent_to: MP:0010083 ! encephalocele
+equivalent_to: MP:0012260 ! encephalomeningocele
 
 [Term]
 id: MP:0011633 ! abnormal mitochondrial shape
@@ -4386,6 +4568,10 @@ equivalent_to: MP:0003086 ! hydromyelia
 [Term]
 id: HP:0000023 ! Inguinal hernia
 equivalent_to: MP:0006077 ! inguinal hernia
+
+[Term]
+id: HP:0003645 ! Prolonged partial thromboplastin time
+equivalent_to: MP:0012357 ! abnormal partial thromboplastin time
 
 [Term]
 id: HP:0100257 ! Ectrodactyly
@@ -4406,6 +4592,10 @@ equivalent_to: MP:0002667 ! decreased circulating aldosterone level
 [Term]
 id: HP:0006270 ! Hypoplastic spleen
 equivalent_to: MP:0000694 ! spleen hypoplasia
+
+[Term]
+id: HP:0010648 ! Dermal translucency
+equivalent_to: MP:0001201 ! translucent skin
 
 [Term]
 id: MP:0011615 ! submucous cleft palate
@@ -4440,6 +4630,10 @@ equivalent_to: MP:0012051 ! spasticity
 id: MP:0001805 ! decreased IgG level
 equivalent_to: HP:0004313 ! Hypogammaglobulinemia
 equivalent_to: HP:0004315 ! IgG deficiency
+
+[Term]
+id: HP:0100643 ! Abnormality of nail color
+equivalent_to: MP:0012404 ! abnormal nail color
 
 [Term]
 id: HP:0008609 ! Morphological abnormality of the middle ear
@@ -4603,6 +4797,10 @@ id: HP:0000822 ! Hypertension
 equivalent_to: MP:0000231 ! hypertension
 
 [Term]
+id: MP:0012552 ! lactic acidosis
+equivalent_to: HP:0003128 ! Lactic acidosis
+
+[Term]
 id: MP:0003291 ! interstinal hyperperistalsis
 equivalent_to: HP:0100770 ! Hyperperistalsis
 
@@ -4645,6 +4843,10 @@ equivalent_to: MP:0006120 ! mitral valve prolapse
 [Term]
 id: HP:0011599 ! Mesocardia
 equivalent_to: MP:0000650 ! mesocardia
+
+[Term]
+id: MP:0003177 ! allodynia
+equivalent_to: HP:0012533 ! Allodynia
 
 [Term]
 id: HP:0000140 ! Abnormality of the menstrual cycle
@@ -4745,7 +4947,11 @@ id: MP:0003100 ! myopia
 equivalent_to: HP:0000545 ! Myopia
 
 [Term]
-id: MP:0006283 ! medulloblastoma
+id: HP:0012571 ! Ureter fissus
+equivalent_to: MP:0003584 ! bifid ureter
+
+[Term]
+id: MP:0006283 ! increased medulloblastoma incidence
 equivalent_to: HP:0002885 ! Medulloblastoma
 
 [Term]
@@ -4763,6 +4969,10 @@ equivalent_to: MP:0001924 ! infertility
 [Term]
 id: MP:0005044 ! sepsis
 equivalent_to: HP:0100806 ! Sepsis
+
+[Term]
+id: HP:0001562 ! Oligohydramnios
+equivalent_to: MP:0012171 ! oligohydramnios
 
 [Term]
 id: HP:0007807 ! Optic nerve compression
@@ -4840,6 +5050,10 @@ equivalent_to: MP:0010766 ! abnormal NK cell physiology
 [Term]
 id: MP:0000745 ! tremors
 equivalent_to: HP:0001337 ! Tremor
+
+[Term]
+id: HP:0012384 ! Rhinitis
+equivalent_to: MP:0001867 ! rhinitis
 
 [Term]
 id: MP:0010822 ! pneumothorax
@@ -4937,6 +5151,7 @@ equivalent_to: MP:0002115 ! abnormal limb bone morphology
 [Term]
 id: HP:0002475 ! Meningomyelocele
 equivalent_to: MP:0009929 ! meningomyelocele
+equivalent_to: MP:0012547 ! spina bifida cystica
 
 [Term]
 id: HP:0004446 ! Stomatocytosis
@@ -4972,7 +5187,11 @@ equivalent_to: MP:0010262 ! lamellar cataracts
 
 [Term]
 id: HP:0100243 ! Leiomyosarcoma
-equivalent_to: MP:0002035 ! leiomyosarcoma
+equivalent_to: MP:0002035 ! increased leiomyosarcoma incidence
+
+[Term]
+id: MP:0012491 ! larynx stenosis
+equivalent_to: HP:0001602 ! Laryngeal stenosis
 
 [Term]
 id: MP:0003387 ! aorta coarctation
@@ -5029,12 +5248,12 @@ id: HP:0000836 ! Hyperthyroidism
 equivalent_to: MP:0003502 ! increased activity of thyroid
 
 [Term]
-id: HP:0001882 ! Leukopenia
-equivalent_to: MP:0000221 ! decreased leukocyte cell number
-
-[Term]
 id: MP:0005584 ! abnormal enzyme/coenzyme activity
 equivalent_to: HP:0012379 ! Abnormal enzyme/coenzyme activity
+
+[Term]
+id: HP:0001882 ! Leukopenia
+equivalent_to: MP:0000221 ! decreased leukocyte cell number
 
 [Term]
 id: MP:0003376 ! amenorrhea
@@ -5065,8 +5284,16 @@ id: HP:0006000 ! Ureteral obstruction
 equivalent_to: MP:0003587 ! ureter obstruction
 
 [Term]
+id: MP:0004339 ! absent clavicle
+equivalent_to: HP:0006660 ! Aplastic clavicles
+
+[Term]
 id: MP:0004195 ! abnormal kidney calyx morphology
 equivalent_to: HP:0011130 ! Abnormality of renal calyx morphology
+
+[Term]
+id: HP:0012506 ! Small pituitary gland
+equivalent_to: MP:0005361 ! small pituitary gland
 
 [Term]
 id: MP:0003314 ! dysmetria
@@ -5074,7 +5301,7 @@ equivalent_to: HP:0001310 ! Dysmetria
 
 [Term]
 id: HP:0100723 ! Gastrointestinal stroma tumor
-equivalent_to: MP:0009515 ! gastrointestinal stromal tumor
+equivalent_to: MP:0009515 ! increased gastrointestinal stromal tumor incidence
 
 [Term]
 id: MP:0011747 ! myelofibrosis
@@ -5121,12 +5348,20 @@ id: HP:0003074 ! Hyperglycemia
 equivalent_to: MP:0001559 ! hyperglycemia
 
 [Term]
+id: MP:0000752 ! dystrophic muscle
+equivalent_to: HP:0003560 ! Muscular dystrophy
+
+[Term]
 id: MP:0000522 ! kidney cortex cysts
 equivalent_to: HP:0000803 ! Renal cortical cysts
 
 [Term]
 id: HP:0001543 ! Gastroschisis
 equivalent_to: MP:0000757 ! herniated abdominal wall
+
+[Term]
+id: MP:0008936 ! abnormal pituitary gland size
+equivalent_to: HP:0012504 ! Abnormal size of pituitary gland
 
 [Term]
 id: MP:0000022 ! abnormal ear shape
@@ -5193,6 +5428,10 @@ id: MP:0005256 ! esotropia
 equivalent_to: HP:0000565 ! Esotropia
 
 [Term]
+id: HP:0012572 ! Ureter duplex
+equivalent_to: MP:0011493 ! double ureter
+
+[Term]
 id: MP:0000061 ! fragile skeleton
 equivalent_to: HP:0002659 ! Increased susceptibility to fractures
 
@@ -5219,6 +5458,10 @@ equivalent_to: HP:0012232 ! Shortened QT interval
 [Term]
 id: HP:0002902 ! Hyponatremia
 equivalent_to: MP:0005634 ! decreased circulating sodium level
+
+[Term]
+id: MP:0002152 ! abnormal brain morphology
+equivalent_to: HP:0012443 ! Abnormality of the brain
 
 [Term]
 id: MP:0003375 ! abnormal menstrual cycle
@@ -5277,7 +5520,7 @@ id: HP:0005473 ! Fusion of middle ear ossicles
 equivalent_to: MP:0003740 ! fusion of middle ear ossicles
 
 [Term]
-id: MP:0003789 ! osteosarcoma
+id: MP:0003789 ! increased osteosarcoma incidence
 equivalent_to: HP:0002669 ! Osteosarcoma
 
 [Term]
@@ -5289,8 +5532,8 @@ id: MP:0002835 ! abnormal cranial suture morphology
 equivalent_to: HP:0011329 ! Abnormality of cranial sutures
 
 [Term]
-id: HP:0000213 ! Thin lips
-equivalent_to: MP:0003775 ! thin lip
+id: MP:0004970 ! kidney atrophy
+equivalent_to: HP:0012585 ! Renal atrophy
 
 [Term]
 id: MP:0009643 ! abnormal urine homeostasis
@@ -5393,6 +5636,10 @@ equivalent_to: HP:0000525 ! Abnormality of the iris
 [Term]
 id: MP:0001429 ! dehydration
 equivalent_to: HP:0001944 ! Dehydration
+
+[Term]
+id: HP:0012433 ! Abnormal social behavior
+equivalent_to: MP:0002557 ! abnormal social/conspecific interaction
 
 [Term]
 id: MP:0000103 ! nasal bone hypoplasia
@@ -5511,6 +5758,10 @@ id: HP:0009918 ! Ectopia pupillae
 equivalent_to: MP:0006241 ! abnormal placement of pupils
 
 [Term]
+id: MP:0012551 ! metabolic acidosis
+equivalent_to: HP:0001942 ! Metabolic acidosis
+
+[Term]
 id: MP:0001293 ! anophthalmia
 equivalent_to: HP:0000528 ! Anophthalmia
 
@@ -5527,12 +5778,16 @@ id: MP:0001116 ! small gonad
 equivalent_to: HP:0000135 ! Hypogonadism
 
 [Term]
+id: MP:0001876 ! decreased inflammatory response
+equivalent_to: HP:0012648 ! Decreased inflammatory response
+
+[Term]
 id: MP:0002667 ! decreased circulating aldosterone level
 equivalent_to: HP:0002924 ! Decreased circulating aldosterone level
 equivalent_to: HP:0004319 ! Hypoaldosteronism
 
 [Term]
-id: MP:0004478 ! testicular teratoma
+id: MP:0004478 ! increased testicular teratoma incidence
 equivalent_to: HP:0100616 ! Testicular teratoma
 
 [Term]
@@ -5589,6 +5844,10 @@ equivalent_to: HP:0002414 ! Spina bifida
 equivalent_to: HP:0010301 ! Spinal dysraphism
 
 [Term]
+id: HP:0012533 ! Allodynia
+equivalent_to: MP:0003177 ! allodynia
+
+[Term]
 id: HP:0000358 ! Posteriorly rotated ears
 equivalent_to: MP:0003715 ! posteriorly rotated ears
 
@@ -5626,7 +5885,7 @@ equivalent_to: MP:0011491 ! ureteropelvic junction obstruction
 
 [Term]
 id: HP:0002666 ! Pheochromocytoma
-equivalent_to: MP:0002050 ! pheochromocytoma
+equivalent_to: MP:0002050 ! increased pheochromocytoma incidence
 
 [Term]
 id: HP:0011581 ! Double outlet left ventricle
@@ -5693,6 +5952,10 @@ id: HP:0000483 ! Astigmatism
 equivalent_to: MP:0006151 ! astigmatism
 
 [Term]
+id: MP:0001846 ! increased inflammatory response
+equivalent_to: HP:0012649 ! Increased inflammatory response
+
+[Term]
 id: MP:0003446 ! renal hypoplasia
 equivalent_to: HP:0000089 ! Renal hypoplasia
 
@@ -5723,10 +5986,6 @@ equivalent_to: HP:0001913 ! Granulocytopenia
 equivalent_to: HP:0012234 ! Agranulocytosis
 
 [Term]
-id: HP:0002011 ! Abnormality of the central nervous system
-equivalent_to: MP:0003632 ! abnormal nervous system morphology
-
-[Term]
 id: MP:0003195 ! calcinosis
 equivalent_to: HP:0003761 ! Calcinosis
 
@@ -5747,7 +6006,7 @@ id: MP:0003280 ! urinary incontinence
 equivalent_to: HP:0000020 ! Urinary incontinence
 
 [Term]
-id: MP:0002050 ! pheochromocytoma
+id: MP:0002050 ! increased pheochromocytoma incidence
 equivalent_to: HP:0002666 ! Pheochromocytoma
 
 [Term]
@@ -5784,11 +6043,11 @@ equivalent_to: HP:0002267 ! Exaggerated startle response
 
 [Term]
 id: HP:0005506 ! Chronic myelogenous leukemia
-equivalent_to: MP:0005481 ! chronic myelocytic leukemia
+equivalent_to: MP:0005481 ! increased chronic myelocytic leukemia incidence
 
 [Term]
 id: MP:0003675 ! kidney cysts
-equivalent_to: HP:0000107 ! Renal cysts
+equivalent_to: HP:0000107 ! Renal cyst
 
 [Term]
 id: HP:0010516 ! Thymus hyperplasia
@@ -5855,12 +6114,12 @@ id: HP:0003097 ! Short femur
 equivalent_to: MP:0003109 ! short femur
 
 [Term]
-id: MP:0003327 ! liver cysts
-equivalent_to: HP:0001407 ! Hepatic cysts
-
-[Term]
 id: MP:0006117 ! aortic valve stenosis
 equivalent_to: HP:0001650 ! Aortic valve stenosis
+
+[Term]
+id: MP:0003327 ! liver cysts
+equivalent_to: HP:0001407 ! Hepatic cysts
 
 [Term]
 id: MP:0005421 ! loose skin
@@ -5879,6 +6138,10 @@ id: HP:0100731 ! Transverse facial cleft
 equivalent_to: MP:0008798 ! lateral facial cleft
 
 [Term]
+id: MP:0012404 ! abnormal nail color
+equivalent_to: HP:0100643 ! Abnormality of nail color
+
+[Term]
 id: MP:0008108 ! abnormal small intestinal villus morphology
 equivalent_to: HP:0011472 ! Abnormality of small intestinal villus morphology
 
@@ -5889,10 +6152,19 @@ equivalent_to: MP:0000272 ! abnormal aorta morphology
 [Term]
 id: MP:0011493 ! double ureter
 equivalent_to: HP:0000073 ! Ureteral duplication
+equivalent_to: HP:0012572 ! Ureter duplex
+
+[Term]
+id: HP:0012649 ! Increased inflammatory response
+equivalent_to: MP:0001846 ! increased inflammatory response
 
 [Term]
 id: MP:0009531 ! increased parotid gland size
 equivalent_to: HP:0011801 ! Enlargement of parotid gland
+
+[Term]
+id: HP:0000767 ! Pectus excavatum
+equivalent_to: MP:0012514 ! pectus excavatum
 
 [Term]
 id: HP:0000518 ! Cataract
@@ -5963,12 +6235,20 @@ id: HP:0005232 ! Pancreatic dysplasia
 equivalent_to: MP:0001944 ! abnormal pancreas morphology
 
 [Term]
+id: HP:0012438 ! Abnormal gallbladder physiology
+equivalent_to: MP:0005085 ! abnormal gallbladder physiology
+
+[Term]
 id: HP:0006690 ! Myocardial calcification
 equivalent_to: MP:0010534 ! calcified myocardium
 
 [Term]
 id: MP:0003723 ! abnormal long bone morphology
 equivalent_to: HP:0011314 ! Abnormality of long bone morphology
+
+[Term]
+id: HP:0012445 ! Morphological abnormality of the pyramidal tracts
+equivalent_to: MP:0002878 ! abnormal corticospinal tract morphology
 
 [Term]
 id: MP:0000114 ! cleft chin
@@ -5988,6 +6268,10 @@ equivalent_to: HP:0001747 ! Accessory spleen
 equivalent_to: HP:0001748 ! Polysplenia
 
 [Term]
+id: MP:0003405 ! abnormal platelet shape
+equivalent_to: HP:0012524 ! Abnormal platelet shape
+
+[Term]
 id: MP:0003390 ! lymphedema
 equivalent_to: HP:0001004 ! Lymphedema
 
@@ -6000,12 +6284,28 @@ id: HP:0100022 ! Abnormality of movement
 equivalent_to: MP:0001388 ! abnormal stationary movement
 
 [Term]
+id: HP:0005972 ! Respiratory acidosis
+equivalent_to: MP:0012550 ! respiratory acidosis
+
+[Term]
 id: MP:0000195 ! decreased circulating calcium level
 equivalent_to: HP:0002901 ! Hypocalcemia
 
 [Term]
+id: MP:0012538 ! persistent hyaloid artery
+equivalent_to: HP:0009922 ! Persistence of the hyaloid artery
+
+[Term]
 id: MP:0010441 ! total anomalous pulmonary venous connection
 equivalent_to: HP:0005160 ! Total anomalous pulmonary venous return
+
+[Term]
+id: MP:0012547 ! spina bifida cystica
+equivalent_to: HP:0002475 ! Meningomyelocele
+
+[Term]
+id: HP:0012418 ! Hypoxemia
+equivalent_to: MP:0012549 ! hypoxemia
 
 [Term]
 id: HP:0011537 ! Left atrial isomerism
@@ -6013,7 +6313,7 @@ equivalent_to: MP:0008461 ! left atrial isomerism
 
 [Term]
 id: HP:0002885 ! Medulloblastoma
-equivalent_to: MP:0006283 ! medulloblastoma
+equivalent_to: MP:0006283 ! increased medulloblastoma incidence
 
 [Term]
 id: HP:0011457 ! Loss of eyelashes
@@ -6136,12 +6436,12 @@ id: HP:0002149 ! Hyperuricemia
 equivalent_to: MP:0008821 ! increased blood uric acid level
 
 [Term]
-id: MP:0002933 ! joint inflammation
-equivalent_to: HP:0100769 ! Synovitis
-
-[Term]
 id: MP:0005408 ! hypopigmentation
 equivalent_to: HP:0001010 ! Hypopigmentation of the skin
+
+[Term]
+id: MP:0002933 ! joint inflammation
+equivalent_to: HP:0100769 ! Synovitis
 
 [Term]
 id: MP:0010792 ! abnormal stomach mucosa morphology
@@ -6189,7 +6489,7 @@ equivalent_to: MP:0003900 ! shortened QT interval
 
 [Term]
 id: HP:0006739 ! Squamous cell carcinoma of the skin
-equivalent_to: MP:0009704 ! skin squamous cell carcinoma
+equivalent_to: MP:0009704 ! increased skin squamous cell carcinoma incidence
 
 [Term]
 id: MP:0006261 ! annular pancreas
@@ -6208,6 +6508,10 @@ id: HP:0001967 ! Diffuse mesangial sclerosis
 equivalent_to: MP:0011353 ! expanded mesangial matrix
 
 [Term]
+id: MP:0012399 ! short nails
+equivalent_to: HP:0001799 ! Short nail
+
+[Term]
 id: MP:0008919 ! fused tarsal bones
 equivalent_to: HP:0008368 ! Tarsal synostosis
 
@@ -6221,7 +6525,7 @@ equivalent_to: HP:0000498 ! Blepharitis
 
 [Term]
 id: HP:0100616 ! Testicular teratoma
-equivalent_to: MP:0004478 ! testicular teratoma
+equivalent_to: MP:0004478 ! increased testicular teratoma incidence
 
 [Term]
 id: MP:0000067 ! osteopetrosis
@@ -6256,6 +6560,10 @@ id: HP:0012243 ! Abnormal genital system morphology
 equivalent_to: MP:0002160 ! abnormal reproductive system morphology
 
 [Term]
+id: HP:0012385 ! Camptodactyly
+equivalent_to: MP:0003807 ! camptodactyly
+
+[Term]
 id: HP:0001944 ! Dehydration
 equivalent_to: MP:0001429 ! dehydration
 
@@ -6283,6 +6591,10 @@ equivalent_to: HP:0012205 ! Globozoospermia
 [Term]
 id: HP:0002720 ! IgA deficiency
 equivalent_to: MP:0001807 ! decreased IgA level
+
+[Term]
+id: MP:0011435 ! increased urine magnesium level
+equivalent_to: HP:0012608 ! Hypermagnesiuria
 
 [Term]
 id: MP:0010534 ! calcified myocardium
@@ -6330,12 +6642,20 @@ id: MP:0010557 ! dilated pulmonary artery
 equivalent_to: HP:0004927 ! Pulmonary artery dilatation
 
 [Term]
+id: HP:0012417 ! Hypocapnia
+equivalent_to: MP:0003032 ! hypocapnia
+
+[Term]
 id: HP:0001875 ! Neutropenia
 equivalent_to: MP:0000222 ! decreased neutrophil cell number
 
 [Term]
 id: MP:0005065 ! abnormal neutrophil morphology
 equivalent_to: HP:0011992 ! Abnormality of neutrophil morphology
+
+[Term]
+id: MP:0006077 ! inguinal hernia
+equivalent_to: HP:0000023 ! Inguinal hernia
 
 [Term]
 id: HP:0001878 ! Hemolytic anemia
@@ -6347,10 +6667,6 @@ id: HP:0100788 ! Fused lips
 equivalent_to: MP:0009553 ! fused lips
 
 [Term]
-id: MP:0006077 ! inguinal hernia
-equivalent_to: HP:0000023 ! Inguinal hernia
-
-[Term]
 id: MP:0003554 ! phimosis
 equivalent_to: HP:0001741 ! Phimosis
 
@@ -6359,20 +6675,24 @@ id: HP:0004414 ! Abnormality of the pulmonary artery
 equivalent_to: MP:0000484 ! abnormal pulmonary artery morphology
 
 [Term]
-id: HP:0005922 ! Abnormal hand morphology
-equivalent_to: MP:0000572 ! abnormal autopod morphology
+id: MP:0012506 ! brain atrophy
+equivalent_to: HP:0012444 ! Brain atrophy
 
 [Term]
 id: MP:0005634 ! decreased circulating sodium level
 equivalent_to: HP:0002902 ! Hyponatremia
 
 [Term]
+id: HP:0005922 ! Abnormal hand morphology
+equivalent_to: MP:0000572 ! abnormal autopod morphology
+
+[Term]
 id: HP:0001701 ! Pericarditis
 equivalent_to: MP:0001857 ! pericarditis
 
 [Term]
-id: MP:0004208 ! basal cell carcinoma
-equivalent_to: HP:0002671 ! Basal cell carcinoma
+id: MP:0004371 ! bowed femur
+equivalent_to: HP:0002980 ! Femoral bowing
 
 [Term]
 id: HP:0006695 ! Atrioventricular canal defect
@@ -6417,12 +6737,12 @@ id: MP:0003622 ! ischuria
 equivalent_to: HP:0000016 ! Urinary retention
 
 [Term]
-id: HP:0002299 ! Brittle hair
-equivalent_to: MP:0003848 ! brittle hair
-
-[Term]
 id: MP:0005323 ! dystonia
 equivalent_to: HP:0001332 ! Dystonia
+
+[Term]
+id: HP:0002299 ! Brittle hair
+equivalent_to: MP:0003848 ! brittle hair
 
 [Term]
 id: MP:0001516 ! abnormal motor coordination/ balance
@@ -6441,24 +6761,32 @@ id: MP:0006326 ! conductive hearing impairment
 equivalent_to: HP:0000405 ! Conductive hearing impairment
 
 [Term]
-id: HP:0100678 ! Premature skin wrinkling
-equivalent_to: MP:0001211 ! wrinkled skin
-
-[Term]
 id: MP:0005441 ! increased urine calcium level
 equivalent_to: HP:0002150 ! Hypercalciuria
 
 [Term]
-id: HP:0009004 ! Hypoplasia of the musculature
-equivalent_to: MP:0000734 ! muscle hypoplasia
+id: HP:0100678 ! Premature skin wrinkling
+equivalent_to: MP:0001211 ! wrinkled skin
+
+[Term]
+id: HP:0012561 ! Unicuspid aortic valve
+equivalent_to: MP:0010596 ! unicuspid aortic valve
 
 [Term]
 id: MP:0005416 ! abnormal circulating protein level
 equivalent_to: HP:0010876 ! Abnormality of circulating protein level
 
 [Term]
+id: HP:0009004 ! Hypoplasia of the musculature
+equivalent_to: MP:0000734 ! muscle hypoplasia
+
+[Term]
 id: MP:0002079 ! increased circulating insulin level
 equivalent_to: HP:0000842 ! Hyperinsulinemia
+
+[Term]
+id: HP:0011991 ! Abnormal neutrophil cell number
+equivalent_to: MP:0012440 ! abnormal neutrophil cell number
 
 [Term]
 id: HP:0001370 ! Rheumatoid arthritis
@@ -6519,7 +6847,7 @@ equivalent_to: MP:0004340 ! short scapula
 equivalent_to: MP:0004343 ! small scapula
 
 [Term]
-id: MP:0004868 ! endometrial carcinoma
+id: MP:0004868 ! increased endometrial carcinoma incidence
 equivalent_to: HP:0012114 ! Endometrial carcinoma
 
 [Term]
@@ -6551,12 +6879,12 @@ id: MP:0002818 ! abnormal dentin morphology
 equivalent_to: HP:0010299 ! Abnormality of dentin
 
 [Term]
-id: HP:0005264 ! Abnormality of the gallbladder
-equivalent_to: MP:0005084 ! abnormal gallbladder morphology
-
-[Term]
 id: MP:0009825 ! cornea ulcer
 equivalent_to: HP:0000495 ! Recurrent corneal erosions
+
+[Term]
+id: HP:0012592 ! Albuminuria
+equivalent_to: MP:0002871 ! albuminuria
 
 [Term]
 id: MP:0002640 ! reticulocytosis
@@ -6565,6 +6893,10 @@ equivalent_to: HP:0001923 ! Reticulocytosis
 [Term]
 id: MP:0003034 ! increased pulmonary vascular resistance
 equivalent_to: HP:0005317 ! Increased pulmonary vascular resistance
+
+[Term]
+id: HP:0012490 ! Panniculitis
+equivalent_to: MP:0011164 ! panniculitis
 
 [Term]
 id: MP:0010256 ! anterior cortical cataracts
@@ -6624,6 +6956,10 @@ id: MP:0010163 ! hemolysis
 equivalent_to: HP:0001878 ! Hemolytic anemia
 
 [Term]
+id: HP:0012440 ! Abnormal biliary tract morphology
+equivalent_to: MP:0005083 ! abnormal biliary tract morphology
+
+[Term]
 id: MP:0006151 ! astigmatism
 equivalent_to: HP:0000483 ! Astigmatism
 
@@ -6656,6 +6992,10 @@ id: MP:0001126 ! abnormal ovary morphology
 equivalent_to: HP:0000137 ! Abnormality of the ovary
 
 [Term]
+id: MP:0001201 ! translucent skin
+equivalent_to: HP:0010648 ! Dermal translucency
+
+[Term]
 id: HP:0002919 ! Ketonuria
 equivalent_to: MP:0002893 ! ketoaciduria
 
@@ -6670,6 +7010,10 @@ equivalent_to: HP:0004311 ! Abnormality of macrophages
 [Term]
 id: HP:0000041 ! Chordee
 equivalent_to: MP:0003555 ! chordee
+
+[Term]
+id: HP:0012609 ! Hypomagnesiuria
+equivalent_to: MP:0011436 ! decreased urine magnesium level
 
 [Term]
 id: MP:0003768 ! palatal telangiectases
@@ -6720,7 +7064,7 @@ id: MP:0003278 ! esophageal inflammation
 equivalent_to: HP:0100633 ! Esophagitis
 
 [Term]
-id: HP:0001162 ! Postaxial polydactyly (hands)
+id: HP:0001162 ! Postaxial hand polydactyly
 equivalent_to: MP:0009744 ! postaxial polydactyly
 
 [Term]
@@ -6733,7 +7077,7 @@ equivalent_to: MP:0003828 ! pulmonary edema
 
 [Term]
 id: HP:0008696 ! Renal hamartoma
-equivalent_to: MP:0003602 ! renal hamartoma
+equivalent_to: MP:0003602 ! increased renal hamartoma incidence
 
 [Term]
 id: MP:0003294 ! intussusception
@@ -6741,7 +7085,7 @@ equivalent_to: HP:0002576 ! Intussusception
 
 [Term]
 id: MP:0003268 ! chronic constipation
-equivalent_to: HP:0002019 ! Constipation
+equivalent_to: HP:0012450 ! Chronic constipation
 
 [Term]
 id: HP:0000272 ! Malar flattening
@@ -6749,11 +7093,15 @@ equivalent_to: MP:0012085 ! midface hypoplasia
 
 [Term]
 id: MP:0000920 ! abnormal myelination
-equivalent_to: HP:0011400 ! Abnormal CNS myelination
+equivalent_to: HP:0012447 ! Abnormal myelination
 
 [Term]
 id: HP:0003351 ! Decreased circulating renin level
 equivalent_to: MP:0003353 ! decreased circulating renin level
+
+[Term]
+id: MP:0012171 ! oligohydramnios
+equivalent_to: HP:0001562 ! Oligohydramnios
 
 [Term]
 id: HP:0001166 ! Arachnodactyly
@@ -6796,12 +7144,12 @@ id: MP:0003432 ! increased activity of parathyroid
 equivalent_to: HP:0000843 ! Hyperparathyroidism
 
 [Term]
-id: MP:0004634 ! short metacarpal bones
-equivalent_to: HP:0010049 ! Short metacarpal
-
-[Term]
 id: MP:0005515 ! uveitis
 equivalent_to: HP:0000554 ! Uveitis
+
+[Term]
+id: MP:0004634 ! short metacarpal bones
+equivalent_to: HP:0010049 ! Short metacarpal
 
 [Term]
 id: HP:0002032 ! Esophageal atresia
@@ -6844,6 +7192,10 @@ id: HP:0001974 ! Leukocytosis
 equivalent_to: MP:0000218 ! increased leukocyte cell number
 
 [Term]
+id: HP:0012638 ! Abnormality of nervous system physiology
+equivalent_to: MP:0003633 ! abnormal nervous system physiology
+
+[Term]
 id: MP:0003347 ! hyperpituitarism
 equivalent_to: HP:0010514 ! Hyperpituitarism
 
@@ -6860,7 +7212,7 @@ id: MP:0000536 ! hydroureter
 equivalent_to: HP:0000072 ! Hydroureter
 
 [Term]
-id: MP:0003667 ! hemangiosarcoma
+id: MP:0003667 ! increased hemangiosarcoma incidence
 equivalent_to: HP:0200058 ! Angiosarcoma
 
 [Term]
@@ -6869,7 +7221,7 @@ equivalent_to: HP:0001674 ! Complete atrioventricular canal defect
 
 [Term]
 id: HP:0100242 ! Sarcoma
-equivalent_to: MP:0002032 ! sarcoma
+equivalent_to: MP:0002032 ! increased sarcoma incidence
 
 [Term]
 id: HP:0009914 ! Cyclopia
@@ -6878,6 +7230,10 @@ equivalent_to: MP:0005163 ! cyclopia
 [Term]
 id: HP:0001888 ! Lymphopenia
 equivalent_to: MP:0005016 ! decreased lymphocyte cell number
+
+[Term]
+id: HP:0003396 ! Syringomyelia
+equivalent_to: MP:0012545 ! syringomyelia
 
 [Term]
 id: HP:0011376 ! Morphological abnormality of the vestibule of the inner ear
@@ -6896,12 +7252,16 @@ id: HP:0100689 ! Decreased corneal thickness
 equivalent_to: MP:0005543 ! decreased cornea thickness
 
 [Term]
+id: HP:0012543 ! Hemosiderinuria
+equivalent_to: MP:0000327 ! hemosiderinuria
+
+[Term]
 id: MP:0010138 ! arteritis
 equivalent_to: HP:0012089 ! Arteritis
 
 [Term]
 id: HP:0002153 ! Hyperkalemia
-equivalent_to: MP:0005627 ! increased circulating potassium level
+equivalent_to: MP:0012339 ! hyperkalemia
 
 [Term]
 id: HP:0005273 ! Absent nasal septal cartilage
@@ -6964,10 +7324,6 @@ id: HP:0001662 ! Bradycardia
 equivalent_to: MP:0005333 ! decreased heart rate
 
 [Term]
-id: HP:0007319 ! Morphological abnormality of the central nervous system
-equivalent_to: MP:0003632 ! abnormal nervous system morphology
-
-[Term]
 id: MP:0004284 ! abnormal Descemet membrane
 equivalent_to: HP:0011490 ! Abnormality of Descemet's membrane
 
@@ -6978,6 +7334,10 @@ equivalent_to: HP:0012100 ! Abnormal circulating creatinine level
 [Term]
 id: MP:0010575 ! aortic arch dilation
 equivalent_to: HP:0005113 ! Dilatation of the aortic arch
+
+[Term]
+id: HP:0009922 ! Persistence of the hyaloid artery
+equivalent_to: MP:0012538 ! persistent hyaloid artery
 
 [Term]
 id: MP:0010519 ! atrioventricular block
@@ -7045,12 +7405,16 @@ id: MP:0000032 ! cochlear degeneration
 equivalent_to: HP:0005102 ! Cochlear degeneration
 
 [Term]
-id: HP:0005736 ! Hypoplastic tibia
+id: HP:0005736 ! Short tibia
 equivalent_to: MP:0002764 ! short tibia
 
 [Term]
-id: HP:0000107 ! Renal cysts
+id: HP:0000107 ! Renal cyst
 equivalent_to: MP:0003675 ! kidney cysts
+
+[Term]
+id: MP:0000327 ! hemosiderinuria
+equivalent_to: HP:0012543 ! Hemosiderinuria
 
 [Term]
 id: MP:0002795 ! dilated cardiomyopathy
@@ -7134,6 +7498,10 @@ id: MP:0001957 ! apnea
 equivalent_to: HP:0002104 ! Apnea
 
 [Term]
+id: HP:0005563 ! Decreased numbers of nephrons
+equivalent_to: MP:0011290 ! decreased nephron number
+
+[Term]
 id: MP:0006188 ! calcified retina
 equivalent_to: HP:0007862 ! Retinal calcification
 
@@ -7149,6 +7517,10 @@ equivalent_to: MP:0002768 ! small adrenal glands
 [Term]
 id: HP:0008216 ! Adrenal gland dysgenesis
 equivalent_to: MP:0000639 ! abnormal adrenal gland morphology
+
+[Term]
+id: MP:0010596 ! unicuspid aortic valve
+equivalent_to: HP:0012561 ! Unicuspid aortic valve
 
 [Term]
 id: MP:0002625 ! heart left ventricle hypertrophy
@@ -7315,7 +7687,7 @@ id: HP:0003429 ! Hypomyelination
 equivalent_to: MP:0000921 ! demyelination
 
 [Term]
-id: MP:0006232 ! Lisch nodule
+id: MP:0006232 ! increased Lisch nodule incidence
 equivalent_to: HP:0009737 ! Lisch nodules
 
 [Term]
@@ -7357,6 +7729,10 @@ equivalent_to: HP:0003826 ! Stillbirth
 [Term]
 id: HP:0010049 ! Short metacarpal
 equivalent_to: MP:0004634 ! short metacarpal bones
+
+[Term]
+id: HP:0000325 ! Triangular face
+equivalent_to: MP:0012546 ! triangular face
 
 [Term]
 id: HP:0003540 ! Impaired platelet aggregation
@@ -7463,7 +7839,7 @@ equivalent_to: MP:0002667 ! decreased circulating aldosterone level
 
 [Term]
 id: HP:0009919 ! Retinoblastoma
-equivalent_to: MP:0006310 ! retinoblastoma
+equivalent_to: MP:0006310 ! increased retinoblastoma incidence
 
 [Term]
 id: HP:0003207 ! Arterial calcification
@@ -7476,6 +7852,10 @@ equivalent_to: MP:0003735 ! cup-shaped ears
 [Term]
 id: MP:0010958 ! abnormal tricarboxylic acid cycle
 equivalent_to: HP:0000816 ! Abnormality of Krebs cycle metabolism
+
+[Term]
+id: MP:0003032 ! hypocapnia
+equivalent_to: HP:0012417 ! Hypocapnia
 
 [Term]
 id: MP:0006149 ! decreased visual acuity
@@ -7645,7 +8025,6 @@ equivalent_to: MP:0002065 ! abnormal fear/anxiety-related behavior
 [Term]
 id: MP:0002135 ! abnormal kidney morphology
 equivalent_to: HP:0000110 ! Renal dysplasia
-equivalent_to: HP:0000792 ! Kidney malformation
 equivalent_to: HP:0012210 ! Abnormal renal morphology
 
 [Term]
@@ -7683,6 +8062,10 @@ equivalent_to: MP:0011538 ! abnormal urine hormone level
 [Term]
 id: MP:0004906 ! enlarged uterus
 equivalent_to: HP:0100878 ! Enlarged uterus
+
+[Term]
+id: MP:0012440 ! abnormal neutrophil cell number
+equivalent_to: HP:0011991 ! Abnormal neutrophil cell number
 
 [Term]
 id: MP:0000937 ! abnormal motor neuron morphology
@@ -7740,7 +8123,6 @@ equivalent_to: HP:0000039 ! Epispadias
 
 [Term]
 id: HP:0001941 ! Acidosis
-equivalent_to: MP:0003030 ! acidemia
 equivalent_to: MP:0003031 ! acidosis
 
 [Term]
@@ -7800,7 +8182,7 @@ id: HP:0000860 ! Parathyroid hypoplasia
 equivalent_to: MP:0003494 ! parathyroid hypoplasia
 
 [Term]
-id: MP:0005481 ! chronic myelocytic leukemia
+id: MP:0005481 ! increased chronic myelocytic leukemia incidence
 equivalent_to: HP:0005506 ! Chronic myelogenous leukemia
 
 [Term]
@@ -7810,14 +8192,17 @@ equivalent_to: HP:0100545 ! Arterial stenosis
 [Term]
 id: HP:0002019 ! Constipation
 equivalent_to: MP:0003267 ! constipation
-equivalent_to: MP:0003268 ! chronic constipation
 
 [Term]
 id: MP:0000273 ! overriding aortic valve
 equivalent_to: HP:0002623 ! Overriding aorta
 
 [Term]
-id: MP:0002627 ! teratoma
+id: HP:0100000 ! Early onset of sexual maturation
+equivalent_to: MP:0003378 ! early sexual maturation
+
+[Term]
+id: MP:0002627 ! increased teratoma incidence
 equivalent_to: HP:0009792 ! Teratoma
 
 [Term]
@@ -7839,6 +8224,10 @@ equivalent_to: MP:0003664 ! ocular pterygium
 [Term]
 id: MP:0002494 ! increased IgM level
 equivalent_to: HP:0003496 ! Increased IgM level
+
+[Term]
+id: MP:0005279 ! narcolepsy
+equivalent_to: HP:0002524 ! Cataplexy
 
 [Term]
 id: MP:0008101 ! lymph node hypoplasia
@@ -7873,12 +8262,12 @@ id: HP:0200057 ! Marcus Gunn pupil
 equivalent_to: MP:0006243 ! impaired pupillary reflex
 
 [Term]
-id: HP:0001927 ! Acanthocytosis
-equivalent_to: MP:0010177 ! acanthocytosis
-
-[Term]
 id: MP:0005577 ! uterus prolapse
 equivalent_to: HP:0000139 ! Uterine prolapse
+
+[Term]
+id: HP:0001927 ! Acanthocytosis
+equivalent_to: MP:0010177 ! acanthocytosis
 
 [Term]
 id: HP:0005048 ! Synostosis of carpal bones
@@ -7888,10 +8277,6 @@ equivalent_to: MP:0008915 ! fused carpal bones
 id: MP:0006223 ! optic nerve swelling
 equivalent_to: HP:0000538 ! Pseudopapilledema
 equivalent_to: HP:0001085 ! Papilledema
-
-[Term]
-id: HP:0000792 ! Kidney malformation
-equivalent_to: MP:0002135 ! abnormal kidney morphology
 
 [Term]
 id: MP:0009153 ! increased pancreas tumor incidence
@@ -7908,8 +8293,16 @@ equivalent_to: HP:0007712 ! Choroidal dystrophy
 equivalent_to: HP:0007945 ! Choroidal degeneration
 
 [Term]
+id: MP:0005085 ! abnormal gallbladder physiology
+equivalent_to: HP:0012438 ! Abnormal gallbladder physiology
+
+[Term]
 id: MP:0011405 ! tubulointerstitial nephritis
 equivalent_to: HP:0001970 ! Tubulointerstitial nephritis
+
+[Term]
+id: HP:0012437 ! Abnormal gallbladder morphology
+equivalent_to: MP:0005084 ! abnormal gallbladder morphology
 
 [Term]
 id: MP:0002030 ! increased neurofibrosarcoma incidence
@@ -7936,12 +8329,12 @@ id: HP:0002754 ! Osteomyelitis
 equivalent_to: MP:0005190 ! osteomyelitis
 
 [Term]
-id: HP:0000517 ! Abnormality of the lens
-equivalent_to: MP:0001303 ! abnormal lens morphology
-
-[Term]
 id: MP:0006009 ! abnormal neuronal migration
 equivalent_to: HP:0002269 ! Abnormality of neuronal migration
+
+[Term]
+id: HP:0000517 ! Abnormality of the lens
+equivalent_to: MP:0001303 ! abnormal lens morphology
 
 [Term]
 id: HP:0001251 ! Ataxia
@@ -7956,6 +8349,10 @@ id: MP:0003124 ! hypospadia
 equivalent_to: HP:0000047 ! Hypospadias
 
 [Term]
+id: HP:0012213 ! Decreased glomerular filtration rate
+equivalent_to: MP:0005558 ! decreased creatinine clearance
+
+[Term]
 id: MP:0000702 ! enlarged lymph nodes
 equivalent_to: HP:0002716 ! Lymphadenopathy
 
@@ -7965,8 +8362,12 @@ equivalent_to: MP:0001967 ! deafness
 equivalent_to: MP:0006325 ! impaired hearing
 
 [Term]
-id: MP:0004049 ! acute promyelocytic leukemia
+id: MP:0004049 ! increased acute promyelocytic leukemia incidence
 equivalent_to: HP:0004836 ! Acute promyelocytic leukemia
+
+[Term]
+id: MP:0012175 ! flat face
+equivalent_to: HP:0012368 ! Flat face
 
 [Term]
 id: MP:0003328 ! portal hypertension
@@ -8041,6 +8442,10 @@ id: MP:0011175 ! platyspondylia
 equivalent_to: HP:0000926 ! Platyspondyly
 
 [Term]
+id: HP:0012450 ! Chronic constipation
+equivalent_to: MP:0003268 ! chronic constipation
+
+[Term]
 id: MP:0001268 ! barrel chest
 equivalent_to: HP:0001552 ! Barrel-shaped chest
 
@@ -8089,7 +8494,7 @@ id: HP:0012373 ! Abnormal eye physiology
 equivalent_to: MP:0005253 ! abnormal eye physiology
 
 [Term]
-id: MP:0009515 ! gastrointestinal stromal tumor
+id: MP:0009515 ! increased gastrointestinal stromal tumor incidence
 equivalent_to: HP:0100723 ! Gastrointestinal stroma tumor
 
 [Term]
@@ -8109,7 +8514,7 @@ id: MP:0002412 ! increased susceptibility to bacterial infection
 equivalent_to: HP:0002718 ! Recurrent bacterial infections
 
 [Term]
-id: MP:0002026 ! leukemia
+id: MP:0002026 ! increased leukemia incidence
 equivalent_to: HP:0001909 ! Leukemia
 
 [Term]
@@ -8210,6 +8615,10 @@ id: HP:0004311 ! Abnormality of macrophages
 equivalent_to: MP:0002446 ! abnormal macrophage morphology
 
 [Term]
+id: HP:0012632 ! Abnormal intraocular pressure
+equivalent_to: MP:0005257 ! abnormal intraocular pressure
+
+[Term]
 id: MP:0004610 ! small vertebrae
 equivalent_to: HP:0002773 ! Small vertebral bodies
 
@@ -8231,6 +8640,10 @@ id: HP:0001321 ! Cerebellar hypoplasia
 equivalent_to: MP:0000851 ! cerebellum hypoplasia
 
 [Term]
+id: MP:0006152 ! tunnel vision
+equivalent_to: HP:0007994 ! Peripheral visual field loss
+
+[Term]
 id: HP:0005365 ! Severe B lymphocytopenia
 equivalent_to: MP:0008071 ! absent B cells
 
@@ -8240,16 +8653,12 @@ equivalent_to: HP:0005435 ! Impaired T cell function
 equivalent_to: HP:0011840 ! Abnormality of T cell physiology
 
 [Term]
-id: MP:0006152 ! tunnel vision
-equivalent_to: HP:0007994 ! Peripheral visual field loss
+id: MP:0005568 ! increased circulating total protein level
+equivalent_to: HP:0002152 ! Hyperproteinemia
 
 [Term]
 id: MP:0000452 ! abnormal mouth morphology
 equivalent_to: HP:0000153 ! Abnormality of the mouth
-
-[Term]
-id: MP:0005568 ! increased circulating total protein level
-equivalent_to: HP:0002152 ! Hyperproteinemia
 
 [Term]
 id: MP:0003576 ! oviduct hypoplasia
@@ -8258,6 +8667,11 @@ equivalent_to: HP:0008697 ! Hypoplasia of the fallopian tube
 [Term]
 id: MP:0000333 ! decreased bone marrow cell number
 equivalent_to: HP:0005528 ! Bone marrow hypocellularity
+
+[Term]
+id: HP:0008404 ! Nail dystrophy
+equivalent_to: MP:0000579 ! abnormal nail morphology
+equivalent_to: MP:0012400 ! nail dystrophy
 
 [Term]
 id: MP:0000623 ! decreased salivation
@@ -8277,7 +8691,7 @@ equivalent_to: HP:0001254 ! Lethargy
 
 [Term]
 id: HP:0012226 ! Ovarian teratoma
-equivalent_to: MP:0009442 ! ovarian teratoma
+equivalent_to: MP:0009442 ! increased ovarian teratoma incidence
 
 [Term]
 id: MP:0004020 ! polyhydramnios
@@ -8316,8 +8730,16 @@ id: HP:0000612 ! Iris coloboma
 equivalent_to: MP:0010714 ! iris coloboma
 
 [Term]
+id: HP:0012471 ! Thick vermilion border
+equivalent_to: MP:0003774 ! fleshy lip
+
+[Term]
 id: HP:0001369 ! Arthritis
 equivalent_to: MP:0002993 ! arthritis
+
+[Term]
+id: MP:0005544 ! corneal deposits
+equivalent_to: HP:0000531 ! Corneal crystals
 
 [Term]
 id: MP:0003296 ! microcolon
@@ -8325,9 +8747,7 @@ equivalent_to: HP:0004388 ! Microcolon
 
 [Term]
 id: MP:0003632 ! abnormal nervous system morphology
-equivalent_to: HP:0000759 ! Abnormality of the peripheral nervous system
-equivalent_to: HP:0002011 ! Abnormality of the central nervous system
-equivalent_to: HP:0007319 ! Morphological abnormality of the central nervous system
+equivalent_to: HP:0012639 ! Abnormality of nervous system morphology
 
 [Term]
 id: HP:0000057 ! Clitoromegaly
@@ -8379,12 +8799,12 @@ equivalent_to: HP:0004935 ! Pulmonary artery atresia
 equivalent_to: HP:0004960 ! Absent pulmonary artery
 
 [Term]
-id: MP:0004012 ! increased pulmonary artery pressure
-equivalent_to: HP:0004890 ! Elevated pulmonary artery pressure
-
-[Term]
 id: MP:0005567 ! decreased circulating total protein level
 equivalent_to: HP:0003075 ! Hypoproteinemia
+
+[Term]
+id: MP:0004012 ! increased pulmonary artery pressure
+equivalent_to: HP:0004890 ! Elevated pulmonary artery pressure
 
 [Term]
 id: HP:0000961 ! Cyanosis
@@ -8405,6 +8825,10 @@ equivalent_to: MP:0001297 ! microphthalmia
 [Term]
 id: HP:0002594 ! Pancreatic hypoplasia
 equivalent_to: MP:0009111 ! pancreas hypoplasia
+
+[Term]
+id: HP:0012594 ! Microalbuminuria
+equivalent_to: MP:0002959 ! increased urine microalbumin level
 
 [Term]
 id: HP:0000879 ! Short sternum
@@ -8545,12 +8969,16 @@ id: MP:0008797 ! facial cleft
 equivalent_to: HP:0002006 ! Facial cleft
 
 [Term]
+id: MP:0012550 ! respiratory acidosis
+equivalent_to: HP:0005972 ! Respiratory acidosis
+
+[Term]
 id: HP:0012084 ! Abnormality of skeletal muscle fiber size
 equivalent_to: MP:0009398 ! abnormal skeletal muscle fiber size
 
 [Term]
 id: HP:0002884 ! Hepatoblastoma
-equivalent_to: MP:0010054 ! hepatoblastoma
+equivalent_to: MP:0010054 ! increased hepatoblastoma incidence
 
 [Term]
 id: HP:0011990 ! Abnormality of neutrophil physiology
@@ -8566,7 +8994,7 @@ equivalent_to: MP:0006193 ! conjunctival telangiectasia
 
 [Term]
 id: MP:0009744 ! postaxial polydactyly
-equivalent_to: HP:0001162 ! Postaxial polydactyly (hands)
+equivalent_to: HP:0001162 ! Postaxial hand polydactyly
 equivalent_to: HP:0100259 ! Postaxial polydactyly
 
 [Term]
@@ -8582,16 +9010,16 @@ id: MP:0001891 ! hydroencephaly
 equivalent_to: HP:0000238 ! Hydrocephalus
 
 [Term]
-id: HP:0011681 ! Subarterial ventricular septal defect
-equivalent_to: MP:0010417 ! subarterial ventricular septal defect
-
-[Term]
 id: HP:0003110 ! Abnormality of urine homeostasis
 equivalent_to: MP:0009643 ! abnormal urine homeostasis
 
 [Term]
 id: HP:0000525 ! Abnormality of the iris
 equivalent_to: MP:0001322 ! abnormal iris morphology
+
+[Term]
+id: HP:0011681 ! Subarterial ventricular septal defect
+equivalent_to: MP:0010417 ! subarterial ventricular septal defect
 
 [Term]
 id: MP:0005667 ! abnormal circulating leptin level
@@ -8642,12 +9070,16 @@ id: HP:0011718 ! Abnormality of the pulmonary veins
 equivalent_to: MP:0002726 ! abnormal pulmonary vein morphology
 
 [Term]
+id: MP:0003635 ! abnormal synaptic transmission
+equivalent_to: HP:0012535 ! Abnormal synaptic transmission
+
+[Term]
 id: MP:0009880 ! microstomia
 equivalent_to: HP:0000160 ! Narrow mouth
 
 [Term]
 id: MP:0000539 ! distended urinary bladder
-equivalent_to: HP:0010956 ! Fetal megacystis
+equivalent_to: HP:0000021 ! Megacystis
 
 [Term]
 id: HP:0004791 ! Esophageal ulceration
@@ -8689,6 +9121,10 @@ equivalent_to: HP:0002617 ! Aneurysm
 [Term]
 id: HP:0000859 ! Hyperaldosteronism
 equivalent_to: MP:0002666 ! increased circulating aldosterone level
+
+[Term]
+id: HP:0012386 ! Absent hallux
+equivalent_to: MP:0009001 ! absent hallux
 
 [Term]
 id: MP:0003282 ! gastric ulcer
@@ -8755,12 +9191,12 @@ id: HP:0000509 ! Conjunctivitis
 equivalent_to: MP:0001852 ! conjunctivitis
 
 [Term]
-id: HP:0001096 ! Keratoconjunctivitis
-equivalent_to: MP:0006194 ! keratoconjunctivitis
-
-[Term]
 id: MP:0005633 ! increased circulating sodium level
 equivalent_to: HP:0003228 ! Hypernatremia
+
+[Term]
+id: HP:0001096 ! Keratoconjunctivitis
+equivalent_to: MP:0006194 ! keratoconjunctivitis
 
 [Term]
 id: MP:0010711 ! persistent hyperplastic primary vitreous
@@ -8773,6 +9209,10 @@ equivalent_to: MP:0008011 ! intestine polyps
 [Term]
 id: MP:0002812 ! spherocytosis
 equivalent_to: HP:0004444 ! Spherocytosis
+
+[Term]
+id: HP:0000021 ! Megacystis
+equivalent_to: MP:0000539 ! distended urinary bladder
 
 [Term]
 id: MP:0003334 ! pancreas fibrosis
@@ -8793,6 +9233,10 @@ equivalent_to: MP:0003314 ! dysmetria
 [Term]
 id: MP:0004360 ! absent ulna
 equivalent_to: HP:0003982 ! Absent ulna
+
+[Term]
+id: HP:0006660 ! Aplastic clavicles
+equivalent_to: MP:0004339 ! absent clavicle
 
 [Term]
 id: HP:0000278 ! Retrognathia
@@ -8876,6 +9320,10 @@ id: MP:0004044 ! aortic dissection
 equivalent_to: HP:0002647 ! Aortic dissection
 
 [Term]
+id: MP:0011436 ! decreased urine magnesium level
+equivalent_to: HP:0012609 ! Hypomagnesiuria
+
+[Term]
 id: HP:0001931 ! Hypochromic anemia
 equivalent_to: MP:0008387 ! hypochromic anemia
 
@@ -8888,17 +9336,12 @@ id: MP:0011515 ! purpura
 equivalent_to: HP:0000979 ! Purpura
 
 [Term]
-id: MP:0005627 ! increased circulating potassium level
-equivalent_to: HP:0002153 ! Hyperkalemia
-
-[Term]
 id: MP:0002136 ! abnormal kidney physiology
-equivalent_to: HP:0000082 ! Abnormality of renal physiology
 equivalent_to: HP:0012211 ! Abnormal renal physiology
 
 [Term]
 id: HP:0001909 ! Leukemia
-equivalent_to: MP:0002026 ! leukemia
+equivalent_to: MP:0002026 ! increased leukemia incidence
 
 [Term]
 id: MP:0001967 ! deafness
@@ -8910,7 +9353,7 @@ equivalent_to: HP:0004783 ! Duodenal polyposis
 
 [Term]
 id: MP:0003775 ! thin lip
-equivalent_to: HP:0000213 ! Thin lips
+equivalent_to: HP:0000233 ! Thin vermilion border
 
 [Term]
 id: MP:0006198 ! enophthalmos
@@ -8926,7 +9369,7 @@ id: MP:0005244 ! hemopericardium
 equivalent_to: HP:0011851 ! Hemopericardium
 
 [Term]
-id: MP:0009704 ! skin squamous cell carcinoma
+id: MP:0009704 ! increased skin squamous cell carcinoma incidence
 equivalent_to: HP:0006739 ! Squamous cell carcinoma of the skin
 
 [Term]
@@ -8941,6 +9384,10 @@ equivalent_to: MP:0010402 ! ventricular septal defect
 id: HP:0011001 ! Increased bone mineral density
 equivalent_to: MP:0000062 ! increased bone mineral density
 equivalent_to: MP:0005422 ! osteosclerosis
+
+[Term]
+id: HP:0012503 ! Abnormality of the pituitary gland
+equivalent_to: MP:0000633 ! abnormal pituitary gland morphology
 
 [Term]
 id: MP:0008388 ! hypochromic microcytic anemia
@@ -8976,15 +9423,11 @@ equivalent_to: HP:0012116 ! Abnormal albumin level
 
 [Term]
 id: MP:0005084 ! abnormal gallbladder morphology
-equivalent_to: HP:0005264 ! Abnormality of the gallbladder
+equivalent_to: HP:0012437 ! Abnormal gallbladder morphology
 
 [Term]
 id: MP:0002962 ! increased urine protein level
 equivalent_to: HP:0000093 ! Proteinuria
-
-[Term]
-id: HP:0005753 ! Limb shortening
-equivalent_to: MP:0000547 ! short limbs
 
 [Term]
 id: MP:0012077 ! webbed neck
@@ -9000,6 +9443,10 @@ id: MP:0003304 ! large intestinal inflammation
 equivalent_to: HP:0002037 ! Inflammation of the large intestine
 
 [Term]
+id: HP:0001602 ! Laryngeal stenosis
+equivalent_to: MP:0012491 ! larynx stenosis
+
+[Term]
 id: MP:0000496 ! abnormal small intestine morphology
 equivalent_to: HP:0002244 ! Abnormality of the small intestine
 
@@ -9010,6 +9457,10 @@ equivalent_to: HP:0002910 ! Elevated hepatic transaminases
 [Term]
 id: HP:0012249 ! Abnormal ST segment
 equivalent_to: MP:0003897 ! abnormal ST segment
+
+[Term]
+id: MP:0012546 ! triangular face
+equivalent_to: HP:0000325 ! Triangular face
 
 [Term]
 id: HP:0003808 ! Abnormal muscle tone
@@ -9203,16 +9654,16 @@ id: HP:0100508 ! Abnormality of vitamin metabolism
 equivalent_to: MP:0003639 ! abnormal response to vitamins
 
 [Term]
-id: HP:0000120 ! Reduced creatinine clearance
-equivalent_to: MP:0005558 ! decreased creatinine clearance
-
-[Term]
 id: MP:0010484 ! bicuspid aortic valve
 equivalent_to: HP:0001647 ! Bicuspid aortic valve
 
 [Term]
 id: HP:0002588 ! Duodenal ulcer
 equivalent_to: MP:0003273 ! duodenal ulcer
+
+[Term]
+id: HP:0012621 ! Persistent cloaca
+equivalent_to: MP:0003129 ! persistent cloaca
 
 [Term]
 id: HP:0008479 ! Hypoplastic vertebral bodies
@@ -9223,7 +9674,7 @@ id: MP:0004592 ! small mandible
 equivalent_to: HP:0000347 ! Micrognathia
 
 [Term]
-id: MP:0006310 ! retinoblastoma
+id: MP:0006310 ! increased retinoblastoma incidence
 equivalent_to: HP:0009919 ! Retinoblastoma
 
 [Term]
@@ -9259,6 +9710,10 @@ id: HP:0004303 ! Abnormality of muscle fibers
 equivalent_to: MP:0003084 ! abnormal skeletal muscle fiber morphology
 
 [Term]
+id: HP:0002980 ! Femoral bowing
+equivalent_to: MP:0004371 ! bowed femur
+
+[Term]
 id: HP:0002006 ! Facial cleft
 equivalent_to: MP:0008797 ! facial cleft
 
@@ -9267,12 +9722,16 @@ id: MP:0001790 ! abnormal immune system physiology
 equivalent_to: HP:0010978 ! Abnormality of immune system physiology
 
 [Term]
-id: HP:0005102 ! Cochlear degeneration
-equivalent_to: MP:0000032 ! cochlear degeneration
+id: MP:0003584 ! bifid ureter
+equivalent_to: HP:0012571 ! Ureter fissus
 
 [Term]
 id: MP:0005426 ! tachypnea
 equivalent_to: HP:0002789 ! Tachypnea
+
+[Term]
+id: HP:0005102 ! Cochlear degeneration
+equivalent_to: MP:0000032 ! cochlear degeneration
 
 [Term]
 id: MP:0002497 ! increased IgE level
@@ -9303,16 +9762,16 @@ id: MP:0005262 ! coloboma
 equivalent_to: HP:0000589 ! Coloboma
 
 [Term]
-id: HP:0010760 ! Absent toe
-equivalent_to: MP:0009001 ! absent hallux
-
-[Term]
 id: HP:0002913 ! Myoglobinuria
 equivalent_to: MP:0006034 ! myoglobinuria
 
 [Term]
 id: HP:0100522 ! Thymoma
-equivalent_to: MP:0002024 ! T cell derived lymphoma
+equivalent_to: MP:0002024 ! increased T cell derived lymphoma incidence
+
+[Term]
+id: MP:0002728 ! absent tibia
+equivalent_to: HP:0009556 ! Absent tibia
 
 [Term]
 id: HP:0008697 ! Hypoplasia of the fallopian tube
@@ -9335,6 +9794,10 @@ id: HP:0005225 ! Intestinal edema
 equivalent_to: MP:0003288 ! intestinal edema
 
 [Term]
+id: HP:0003128 ! Lactic acidosis
+equivalent_to: MP:0012552 ! lactic acidosis
+
+[Term]
 id: MP:0011356 ! renal artery stenosis
 equivalent_to: HP:0001920 ! Renal artery stenosis
 
@@ -9348,7 +9811,7 @@ equivalent_to: MP:0003256 ! biliary cirrhosis
 
 [Term]
 id: HP:0002669 ! Osteosarcoma
-equivalent_to: MP:0003789 ! osteosarcoma
+equivalent_to: MP:0003789 ! increased osteosarcoma incidence
 
 [Term]
 id: HP:0000453 ! Choanal atresia
@@ -9357,6 +9820,10 @@ equivalent_to: MP:0008970 ! choanal atresia
 [Term]
 id: HP:0004937 ! Pulmonary artery aneurysm
 equivalent_to: MP:0010462 ! pulmonary artery aneurysm
+
+[Term]
+id: HP:0012639 ! Abnormality of nervous system morphology
+equivalent_to: MP:0003632 ! abnormal nervous system morphology
 
 [Term]
 id: HP:0007787 ! Posterior subcapsular cataract
@@ -9371,7 +9838,7 @@ id: HP:0001733 ! Pancreatitis
 equivalent_to: MP:0001869 ! pancreas inflammation
 
 [Term]
-id: MP:0002947 ! hemangioma
+id: MP:0002947 ! increased hemangioma incidence
 equivalent_to: HP:0001028 ! Hemangioma
 
 [Term]
@@ -9428,6 +9895,10 @@ id: HP:0100019 ! Cortical cataract
 equivalent_to: MP:0010255 ! cortical cataracts
 
 [Term]
+id: HP:0009556 ! Absent tibia
+equivalent_to: MP:0002728 ! absent tibia
+
+[Term]
 id: MP:0002909 ! abnormal adrenal gland physiology
 equivalent_to: HP:0011733 ! Abnormality of adrenal physiology
 
@@ -9472,12 +9943,16 @@ id: MP:0006243 ! impaired pupillary reflex
 equivalent_to: HP:0200057 ! Marcus Gunn pupil
 
 [Term]
-id: HP:0001913 ! Granulocytopenia
-equivalent_to: MP:0000334 ! decreased granulocyte number
-
-[Term]
 id: MP:0006138 ! congestive heart failure
 equivalent_to: HP:0001635 ! Congestive heart failure
+
+[Term]
+id: HP:0005326 ! Hypoplastic philtrum
+equivalent_to: MP:0012258 ! philtrum hypoplasia
+
+[Term]
+id: HP:0001913 ! Granulocytopenia
+equivalent_to: MP:0000334 ! decreased granulocyte number
 
 [Term]
 id: HP:0001399 ! Hepatic failure
@@ -9501,7 +9976,7 @@ equivalent_to: HP:0003127 ! Hypocalciuria
 
 [Term]
 id: MP:0011459 ! increased urine chloride ion level
-equivalent_to: HP:0002914 ! Increased urinary chloride
+equivalent_to: HP:0002914 ! Hyperchloridura
 
 [Term]
 id: MP:0008945 ! hyperchromic macrocytic anemia

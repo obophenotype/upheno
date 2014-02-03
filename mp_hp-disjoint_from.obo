@@ -11,4 +11,9 @@ disjoint_from: HP:0010750 ! Dermatochalasis
 [Term]
 id: MP:0002185 ! ectopia
 disjoint_from: HP:0002282 ! Heterotopia
+
+! http://code.google.com/p/phenotype-ontologies/issues/detail?id=7
+[Term]
+id: MP:0003030 ! acidemia
+disjoint_from: HP:0001941 ! Acidosis
  
