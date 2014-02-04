@@ -38,7 +38,9 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000589"/>
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000589">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obo foundry unique label</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
