@@ -1,0 +1,2497 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/upheno/imports/wbbt_phenotype.owl#"
+     xml:base="http://purl.obolibrary.org/obo/upheno/imports/wbbt_phenotype.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/imports/wbbt_phenotype.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/upheno/imports/ro_extra.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/upheno/imports/imports/wbbt_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UPHENO_0000001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/UPHENO_0000001">
+        <rdfs:label>has phenotype affecting</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0000100PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0000100PHENOTYPE">
+        <rdfs:label>C. elegans Cell and Anatomy Ontology phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0000100"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0000101PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0000101PHENOTYPE">
+        <rdfs:label>Lineage phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0000101"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003670PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003670PHENOTYPE">
+        <rdfs:label>gland cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003670"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003672PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003672PHENOTYPE">
+        <rdfs:label>epithelial cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003672"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003673PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003673PHENOTYPE">
+        <rdfs:label>marginal cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003673"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003675PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003675PHENOTYPE">
+        <rdfs:label>muscle cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003675"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003679PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003679PHENOTYPE">
+        <rdfs:label>neuron phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003679"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003681PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003681PHENOTYPE">
+        <rdfs:label>pharynx phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003681"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003711PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003711PHENOTYPE">
+        <rdfs:label>metacorpus phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003711"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003732PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003732PHENOTYPE">
+        <rdfs:label>terminal bulb phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003732"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003733PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003733PHENOTYPE">
+        <rdfs:label>corpus phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003733"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003734PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003734PHENOTYPE">
+        <rdfs:label>isthmus phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003734"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003760PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003760PHENOTYPE">
+        <rdfs:label>organ phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003760"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003810PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003810PHENOTYPE">
+        <rdfs:label>C phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003810"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0003825PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0003825PHENOTYPE">
+        <rdfs:label>B cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0003825"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004015PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004015PHENOTYPE">
+        <rdfs:label>AB phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004015"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004017PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004017PHENOTYPE">
+        <rdfs:label>Cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004017"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004112PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004112PHENOTYPE">
+        <rdfs:label>PHso1L phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004112"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004421PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004421PHENOTYPE">
+        <rdfs:label>Psub4 phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004421"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004422PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004422PHENOTYPE">
+        <rdfs:label>P0 phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004422"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004432PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004432PHENOTYPE">
+        <rdfs:label>vulval cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004432"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004458PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004458PHENOTYPE">
+        <rdfs:label>MS phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004458"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004489PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004489PHENOTYPE">
+        <rdfs:label>M cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004489"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004499PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004499PHENOTYPE">
+        <rdfs:label>K cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004499"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004522PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004522PHENOTYPE">
+        <rdfs:label>anchor cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004522"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004534PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004534PHENOTYPE">
+        <rdfs:label>excretory socket cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004534"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004540PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004540PHENOTYPE">
+        <rdfs:label>excretory duct cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004540"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004578PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004578PHENOTYPE">
+        <rdfs:label>Y cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004578"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004583PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004583PHENOTYPE">
+        <rdfs:label>W phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004583"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004778PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004778PHENOTYPE">
+        <rdfs:label>H0L phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004778"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004780PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004780PHENOTYPE">
+        <rdfs:label>G1 phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004780"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004799PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004799PHENOTYPE">
+        <rdfs:label>F cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004799"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004804PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004804PHENOTYPE">
+        <rdfs:label>E phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004804"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004873PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004873PHENOTYPE">
+        <rdfs:label>D phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004873"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004942PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004942PHENOTYPE">
+        <rdfs:label>U cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004942"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0004946PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0004946PHENOTYPE">
+        <rdfs:label>TL phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0004946"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005022PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005022PHENOTYPE">
+        <rdfs:label>Z1.paapp male phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005022"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005024PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005024PHENOTYPE">
+        <rdfs:label>gon_male_sves phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005024"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005098PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005098PHENOTYPE">
+        <rdfs:label>lumbar ganglion left phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005098"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005107PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005107PHENOTYPE">
+        <rdfs:label>labial sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005107"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005116PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005116PHENOTYPE">
+        <rdfs:label>inner labial sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005116"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005147PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005147PHENOTYPE">
+        <rdfs:label>gut phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005147"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005175PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005175PHENOTYPE">
+        <rdfs:label>gonad phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005175"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005178PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005178PHENOTYPE">
+        <rdfs:label>hermaphrodite gonad phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005178"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005189PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005189PHENOTYPE">
+        <rdfs:label>ganglion phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005189"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005196PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005196PHENOTYPE">
+        <rdfs:label>excretory gland phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005196"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005208PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005208PHENOTYPE">
+        <rdfs:label>E lineage cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005208"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005255PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005255PHENOTYPE">
+        <rdfs:label>buccal cavity phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005255"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005312PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005312PHENOTYPE">
+        <rdfs:label>copulatory spicule phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005312"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005319PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005319PHENOTYPE">
+        <rdfs:label>spermatheca phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005319"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005340PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005340PHENOTYPE">
+        <rdfs:label>V lineage phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005340"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005342PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005342PHENOTYPE">
+        <rdfs:label>uterine muscle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005342"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005347PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005347PHENOTYPE">
+        <rdfs:label>somatic gonad phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005347"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005364PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005364PHENOTYPE">
+        <rdfs:label>anus phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005364"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005391PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005391PHENOTYPE">
+        <rdfs:label>amphid sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005391"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005394PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005394PHENOTYPE">
+        <rdfs:label>amphid neuron phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005394"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005407PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005407PHENOTYPE">
+        <rdfs:label>somatic cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005407"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005409PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005409PHENOTYPE">
+        <rdfs:label>motor neuron phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005409"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005425PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005425PHENOTYPE">
+        <rdfs:label>phasmid sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005425"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005426PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005426PHENOTYPE">
+        <rdfs:label>Q lineage phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005426"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005431PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005431PHENOTYPE">
+        <rdfs:label>phasmid left sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005431"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005451PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005451PHENOTYPE">
+        <rdfs:label>pharyngeal muscle cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005451"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005460PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005460PHENOTYPE">
+        <rdfs:label>pharyngeal cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005460"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005494PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005494PHENOTYPE">
+        <rdfs:label>P lineage phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005494"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005501PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005501PHENOTYPE">
+        <rdfs:label>outer labial sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005501"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005671PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005671PHENOTYPE">
+        <rdfs:label>AWB phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005671"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005729PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005729PHENOTYPE">
+        <rdfs:label>Tissue phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005729"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005730PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005730PHENOTYPE">
+        <rdfs:label>epithelial system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005730"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005732PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005732PHENOTYPE">
+        <rdfs:label>extracellular component phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005732"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005733PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005733PHENOTYPE">
+        <rdfs:label>hypodermis phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005733"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005735PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005735PHENOTYPE">
+        <rdfs:label>nervous system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005735"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005736PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005736PHENOTYPE">
+        <rdfs:label>excretory system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005736"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005737PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005737PHENOTYPE">
+        <rdfs:label>muscular system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005737"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005738PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005738PHENOTYPE">
+        <rdfs:label>body region phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005738"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005739PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005739PHENOTYPE">
+        <rdfs:label>head phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005739"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005740PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005740PHENOTYPE">
+        <rdfs:label>midbody phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005740"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005741PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005741PHENOTYPE">
+        <rdfs:label>tail phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005741"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005743PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005743PHENOTYPE">
+        <rdfs:label>digestive tract phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005743"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005744PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005744PHENOTYPE">
+        <rdfs:label>reproductive tract phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005744"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005745PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005745PHENOTYPE">
+        <rdfs:label>pseudocoelom phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005745"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005746PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005746PHENOTYPE">
+        <rdfs:label>Organ system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005746"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005747PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005747PHENOTYPE">
+        <rdfs:label>reproductive system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005747"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005748PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005748PHENOTYPE">
+        <rdfs:label>alimentary system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005748"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005749PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005749PHENOTYPE">
+        <rdfs:label>coelomic system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005749"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005750PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005750PHENOTYPE">
+        <rdfs:label>socket cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005750"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005751PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005751PHENOTYPE">
+        <rdfs:label>coelomocyte phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005751"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005752PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005752PHENOTYPE">
+        <rdfs:label>Sex specific entity phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005752"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005753PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005753PHENOTYPE">
+        <rdfs:label>seam cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005753"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005754PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005754PHENOTYPE">
+        <rdfs:label>interfacial epithelial cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005754"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005755PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005755PHENOTYPE">
+        <rdfs:label>cuticle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005755"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005756PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005756PHENOTYPE">
+        <rdfs:label>basal lamina phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005756"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005757PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005757PHENOTYPE">
+        <rdfs:label>male-specific phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005757"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005758PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005758PHENOTYPE">
+        <rdfs:label>hermaphrodite-specific phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005758"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005759PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005759PHENOTYPE">
+        <rdfs:label>sensory neuron phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005759"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005760PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005760PHENOTYPE">
+        <rdfs:label>somatic nervous system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005760"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005762PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005762PHENOTYPE">
+        <rdfs:label>accessory cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005762"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005763PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005763PHENOTYPE">
+        <rdfs:label>Functional system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005763"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005766PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005766PHENOTYPE">
+        <rdfs:label>Anatomy phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005766"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005767PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005767PHENOTYPE">
+        <rdfs:label>pharyngeal-intestinal valve phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005767"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005768PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005768PHENOTYPE">
+        <rdfs:label>axis phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005768"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005772PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005772PHENOTYPE">
+        <rdfs:label>intestine phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005772"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005773PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005773PHENOTYPE">
+        <rdfs:label>rectum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005773"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005774PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005774PHENOTYPE">
+        <rdfs:label>cloaca phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005774"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005775PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005775PHENOTYPE">
+        <rdfs:label>excretory canal phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005775"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005776PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005776PHENOTYPE">
+        <rdfs:label>excretory gland cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005776"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005779PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005779PHENOTYPE">
+        <rdfs:label>striated muscle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005779"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005780PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005780PHENOTYPE">
+        <rdfs:label>non-striated muscle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005780"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005781PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005781PHENOTYPE">
+        <rdfs:label>smooth muscle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005781"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005784PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005784PHENOTYPE">
+        <rdfs:label>germ line phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005784"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005785PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005785PHENOTYPE">
+        <rdfs:label>somatic gonad phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005785"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005786PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005786PHENOTYPE">
+        <rdfs:label>muscle of the reproductive system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005786"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005789PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005789PHENOTYPE">
+        <rdfs:label>pharyngeal segment phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005789"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005792PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005792PHENOTYPE">
+        <rdfs:label>intestinal cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005792"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005800PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005800PHENOTYPE">
+        <rdfs:label>rectal epithelium phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005800"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005811PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005811PHENOTYPE">
+        <rdfs:label>neuronal sheath cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005811"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005812PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005812PHENOTYPE">
+        <rdfs:label>excretory cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005812"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005813PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005813PHENOTYPE">
+        <rdfs:label>body wall musculature phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005813"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005820PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005820PHENOTYPE">
+        <rdfs:label>alimentary muscle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005820"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005821PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005821PHENOTYPE">
+        <rdfs:label>vulval muscle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005821"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005828PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005828PHENOTYPE">
+        <rdfs:label>gonadal sheath cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005828"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005829PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005829PHENOTYPE">
+        <rdfs:label>ventral nerve cord phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005829"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005830PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005830PHENOTYPE">
+        <rdfs:label>lumbar ganglion phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005830"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005839PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005839PHENOTYPE">
+        <rdfs:label>odorsensory neuron phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005839"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0005843PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0005843PHENOTYPE">
+        <rdfs:label>eggshell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0005843"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006748PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006748PHENOTYPE">
+        <rdfs:label>vulva phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006748"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006754PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006754PHENOTYPE">
+        <rdfs:label>amphid sheath cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006754"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006760PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006760PHENOTYPE">
+        <rdfs:label>uterus phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006760"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006761PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006761PHENOTYPE">
+        <rdfs:label>head muscle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006761"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006770PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006770PHENOTYPE">
+        <rdfs:label>P1 phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006770"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006783PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006783PHENOTYPE">
+        <rdfs:label>blast cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006783"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006794PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006794PHENOTYPE">
+        <rdfs:label>male gonad phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006794"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006795PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006795PHENOTYPE">
+        <rdfs:label>proctodeum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006795"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006796PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006796PHENOTYPE">
+        <rdfs:label>germ cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006796"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006797PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006797PHENOTYPE">
+        <rdfs:label>oocyte phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006797"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006798PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006798PHENOTYPE">
+        <rdfs:label>sperm phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006798"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006804PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006804PHENOTYPE">
+        <rdfs:label>body wall muscle cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006804"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006816PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006816PHENOTYPE">
+        <rdfs:label>ciliated neuron phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006816"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006830PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006830PHENOTYPE">
+        <rdfs:label>HSN phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006830"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006837PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006837PHENOTYPE">
+        <rdfs:label>serotonergic neuron phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006837"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006840PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006840PHENOTYPE">
+        <rdfs:label>cholinergic neuron phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006840"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006850PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006850PHENOTYPE">
+        <rdfs:label>excretory secretory system phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006850"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006870PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006870PHENOTYPE">
+        <rdfs:label>seminal vesicle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006870"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006908PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006908PHENOTYPE">
+        <rdfs:label>gubernacular muscle phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006908"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006920PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006920PHENOTYPE">
+        <rdfs:label>cephalic sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006920"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006926PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006926PHENOTYPE">
+        <rdfs:label>deirid sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006926"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006929PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006929PHENOTYPE">
+        <rdfs:label>sensillum phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006929"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006941PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006941PHENOTYPE">
+        <rdfs:label>ray phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006941"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006977PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006977PHENOTYPE">
+        <rdfs:label>tail ganglion phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006977"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0006979PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0006979PHENOTYPE">
+        <rdfs:label>tail spike phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0006979"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007028PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007028PHENOTYPE">
+        <rdfs:label>embryonic cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007028"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007030PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007030PHENOTYPE">
+        <rdfs:label>post-embryonic cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007030"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007809PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007809PHENOTYPE">
+        <rdfs:label>vulval precursor cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007809"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007810PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007810PHENOTYPE">
+        <rdfs:label>body muscle cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007810"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007815PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007815PHENOTYPE">
+        <rdfs:label>hermaphrodite somatic gonadal cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007815"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007816PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007816PHENOTYPE">
+        <rdfs:label>spermathecal cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007816"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007832PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007832PHENOTYPE">
+        <rdfs:label>cuticular ala phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007832"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007833PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007833PHENOTYPE">
+        <rdfs:label>organism phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007833"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007846PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007846PHENOTYPE">
+        <rdfs:label>hypodermal cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007846"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007849PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007849PHENOTYPE">
+        <rdfs:label>hermaphrodite phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007849"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0007850PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0007850PHENOTYPE">
+        <rdfs:label>male phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0007850"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008073PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008073PHENOTYPE">
+        <rdfs:label>syncytium precursor phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008073"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008074PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008074PHENOTYPE">
+        <rdfs:label>syncytium phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008074"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008115PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008115PHENOTYPE">
+        <rdfs:label>ventral cord blast cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008115"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008182PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008182PHENOTYPE">
+        <rdfs:label>rectal epithelial cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008182"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008189PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008189PHENOTYPE">
+        <rdfs:label>gon male sves phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008189"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008209PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008209PHENOTYPE">
+        <rdfs:label>male gonadal cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008209"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008249PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008249PHENOTYPE">
+        <rdfs:label>gon_male_sves Z1 or Z4 phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008249"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008289PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008289PHENOTYPE">
+        <rdfs:label>vulval syncytia precursor phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008289"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008374PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008374PHENOTYPE">
+        <rdfs:label>stoma phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008374"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008409PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008409PHENOTYPE">
+        <rdfs:label>tail precursor cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008409"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008410PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008410PHENOTYPE">
+        <rdfs:label>phasmid socket cell phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008410"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008422PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008422PHENOTYPE">
+        <rdfs:label>sex organ phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008422"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008447PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008447PHENOTYPE">
+        <rdfs:label>somatic blastomere phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008447"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008448PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008448PHENOTYPE">
+        <rdfs:label>germline blastomere phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008448"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBbt_0008587PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBbt_0008587PHENOTYPE">
+        <rdfs:label>egg-laying apparatus phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBbt_0008587"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+

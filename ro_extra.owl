@@ -69,6 +69,43 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002424 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002424">
+        <rdfs:label xml:lang="en">differs in</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">https://code.google.com/p/phenotype-ontologies/w/edit/PhenotypeModelCompetencyQuestions</rdfs:seeAlso>
+        <rdfs:comment>This is an exploratory relation</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002425 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002425">
+        <rdfs:label xml:lang="en">differs in attribute of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002424"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000004"/>
+                    <rdf:Description rdf:about="&obo;BFO_0000015"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002426 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002426">
+        <rdfs:label xml:lang="en">differs in attribute</rdfs:label>
+        <rdfs:range rdf:resource="&obo;BFO_0000005"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002424"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UPHENO_0000001 -->
 
     <owl:ObjectProperty rdf:about="&obo;UPHENO_0000001">
@@ -77,7 +114,34 @@
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
             <rdf:Description rdf:about="&obo;BFO_0000070"/>
         </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;UPHENO_0000001"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000005 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000015"/>
 </rdf:RDF>
 
 
