@@ -16,4 +16,9 @@ disjoint_from: HP:0002282 ! Heterotopia
 [Term]
 id: MP:0003030 ! acidemia
 disjoint_from: HP:0001941 ! Acidosis
+
+! http://code.google.com/p/phenotype-ontologies/issues/detail?id=10
+[Term]
+id: MP:0011617 ! abnormal habituation
+disjoint_from: HP:0004323 ! Abnormality of body weight
  

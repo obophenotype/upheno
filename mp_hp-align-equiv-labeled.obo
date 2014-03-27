@@ -1698,10 +1698,6 @@ id: MP:0003302 ! perirectal abscess
 equivalent_to: HP:0005224 ! Rectal abscess
 
 [Term]
-id: MP:0011617 ! abnormal habituation
-equivalent_to: HP:0004323 ! Abnormality of body weight
-
-[Term]
 id: HP:0005103 ! Cartilaginous ossification of pinnae
 equivalent_to: MP:0003737 ! ossification of pinnae
 
@@ -5571,7 +5567,6 @@ equivalent_to: MP:0000467 ! abnormal esophagus morphology
 [Term]
 id: HP:0004323 ! Abnormality of body weight
 equivalent_to: MP:0001259 ! abnormal body weight
-equivalent_to: MP:0011617 ! abnormal habituation
 
 [Term]
 id: MP:0004512 ! anosmia

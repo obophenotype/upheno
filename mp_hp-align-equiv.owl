@@ -6211,7 +6211,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004323">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0001259"/>
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0011617"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0004323</oboInOwl:id>
     </owl:Class>
     
@@ -20887,14 +20886,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011615">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011615</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0011617 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0011617">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0011617</oboInOwl:id>
     </owl:Class>
     
 
