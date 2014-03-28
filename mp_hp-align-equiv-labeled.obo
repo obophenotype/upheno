@@ -3139,10 +3139,6 @@ id: HP:0006515 ! Interstitial pneumonitis
 equivalent_to: MP:0001862 ! interstitial pneumonia
 
 [Term]
-id: MP:0010030 ! abnormal orbit morphology
-equivalent_to: HP:0000315 ! Abnormality of the orbital region
-
-[Term]
 id: HP:0012114 ! Endometrial carcinoma
 equivalent_to: MP:0004868 ! increased endometrial carcinoma incidence
 
@@ -7371,10 +7367,6 @@ id: HP:0001336 ! Myoclonus
 equivalent_to: MP:0000243 ! myoclonus
 
 [Term]
-id: HP:0000315 ! Abnormality of the orbital region
-equivalent_to: MP:0010030 ! abnormal orbit morphology
-
-[Term]
 id: MP:0010456 ! hemitruncus
 equivalent_to: HP:0011660 ! Anomalous origin of one pulmonary artery from ascending aorta
 
@@ -8385,10 +8377,6 @@ id: HP:0003218 ! Oroticaciduria
 equivalent_to: MP:0011765 ! oroticaciduria
 
 [Term]
-id: HP:0000586 ! Shallow orbits
-equivalent_to: MP:0006213 ! shallow orbits
-
-[Term]
 id: HP:0002777 ! Tracheal stenosis
 equivalent_to: MP:0010883 ! trachea stenosis
 
@@ -8806,10 +8794,6 @@ id: HP:0000961 ! Cyanosis
 equivalent_to: MP:0001575 ! cyanosis
 
 [Term]
-id: MP:0006213 ! shallow orbits
-equivalent_to: HP:0000586 ! Shallow orbits
-
-[Term]
 id: HP:0002578 ! Gastroparesis
 equivalent_to: MP:0009854 ! impaired gastric peristalsis
 
@@ -9005,16 +8989,16 @@ id: MP:0001891 ! hydroencephaly
 equivalent_to: HP:0000238 ! Hydrocephalus
 
 [Term]
+id: HP:0011681 ! Subarterial ventricular septal defect
+equivalent_to: MP:0010417 ! subarterial ventricular septal defect
+
+[Term]
 id: HP:0003110 ! Abnormality of urine homeostasis
 equivalent_to: MP:0009643 ! abnormal urine homeostasis
 
 [Term]
 id: HP:0000525 ! Abnormality of the iris
 equivalent_to: MP:0001322 ! abnormal iris morphology
-
-[Term]
-id: HP:0011681 ! Subarterial ventricular septal defect
-equivalent_to: MP:0010417 ! subarterial ventricular septal defect
 
 [Term]
 id: MP:0005667 ! abnormal circulating leptin level

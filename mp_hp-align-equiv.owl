@@ -809,15 +809,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000315 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000315">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0010030"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000315</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000316 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000316">
@@ -1353,15 +1344,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000581">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0005287"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000581</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000586 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000586">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/MP_0006213"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000586</oboInOwl:id>
     </owl:Class>
     
 
@@ -18562,14 +18544,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MP_0006213 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0006213">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0006213</oboInOwl:id>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MP_0006219 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0006219">
@@ -19646,14 +19620,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0010028">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0010028</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0010030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MP_0010030">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MP:0010030</oboInOwl:id>
     </owl:Class>
     
 
