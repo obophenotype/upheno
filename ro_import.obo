@@ -1,0 +1,139 @@
+format-version: 1.2
+ontology: temporary/5140a674-088d-4b48-83e3-761a078507e3
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002258> \"RO:0002258\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002314> \"RO:0002314\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002180> \"RO:0002180\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002131> \"RO:0002131\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000051> \"BFO:0000051\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002384> \"RO:0002384\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002286> \"RO:0002286\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000050> \"BFO:0000050\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002203> \"RO:0002203\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002323> \"RO:0002323\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002202> \"RO:0002202\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002387> \"RO:0002387\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002388> \"RO:0002388\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002324> \"RO:0002324\"^^xsd:string)\n)
+
+[Typedef]
+id: developmentally_preceded_by
+name: developmentally preceded by
+def: "Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p" []
+comment: This relation groups together various other developmental relations. It is fairly generic, encompassing induction, developmental contribution and direct and transitive develops from
+xref: RO:0002258
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000232 "In general you should not use this relation to make assertions - use one of the more specific relations below this one" xsd:string
+is_a: developmentally_related_to ! developmentally related to
+
+[Typedef]
+id: developmentally_related_to
+name: developmentally related to
+xref: RO:0002324
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "A relationship that holds via some developmental process (GO:0032502)" xsd:string
+
+[Typedef]
+id: developmentally_succeeded_by
+name: developmentally succeeded by
+def: "Inverse of developmentally preceded by" []
+xref: RO:0002286
+property_value: IAO:0000114 IAO:0000125
+is_a: has_developmental_potential_involving ! has developmental potential involving
+inverse_of: developmentally_preceded_by ! developmentally preceded by
+
+[Typedef]
+id: develops_from
+name: develops from
+def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
+comment: This is the transitive form of the develops from relation
+xref: RO:0002202
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 "Melissa Haendel" xsd:string
+property_value: IAO:0000117 "Terry Meehan" xsd:string
+domain: BFO:0000004
+range: BFO:0000004
+is_transitive: true
+is_a: developmentally_preceded_by ! developmentally preceded by
+
+[Typedef]
+id: develops_into
+name: develops into
+xref: RO:0002203
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 "Terry Meehan" xsd:string
+is_transitive: true
+is_a: developmentally_succeeded_by ! developmentally succeeded by
+is_a: has_potential_to_develop_into ! has potential to develop into
+is_a: has_potential_to_directly_develop_into ! has potential to directly develop into
+inverse_of: develops_from ! develops from
+
+[Typedef]
+id: has_component
+name: has component
+comment: For use in recording has_part with a cardinality constraint.
+xref: RO:0002180
+property_value: IAO:0000114 IAO:0000125
+property_value: RO:0001900 RO:0001901
+is_a: has_part ! has part
+
+[Typedef]
+id: has_developmental_potential_involving
+name: has developmental potential involving
+def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
+xref: RO:0002384
+is_a: developmentally_related_to ! developmentally related to
+
+[Typedef]
+id: has_part
+name: has part
+xref: BFO:0000051
+property_value: IAO:0000111 "has part" xsd:string
+property_value: IAO:0000116 "Intended meaning:\nAmbiguous between continuant-parthood and occurrent-parthood.\n\ndomain: continuant\nrange: continuant\ntime: at some time\n\ndomain: occurrent\nrange: occurrent\ntime: atemporal" xsd:string
+property_value: IAO:0000118 "has_part" xsd:string
+property_value: RO:0001900 RO:0001901
+is_transitive: true
+is_a: overlaps ! overlaps
+
+[Typedef]
+id: has_potential_to_develop_into
+name: has potential to develop into
+def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y" []
+xref: RO:0002387
+is_a: has_developmental_potential_involving ! has developmental potential involving
+
+[Typedef]
+id: has_potential_to_directly_develop_into
+name: has potential to directly develop into
+def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
+xref: RO:0002388
+is_a: has_potential_to_develop_into ! has potential to develop into
+
+[Typedef]
+id: inheres_in_part_of
+name: inheres in part of
+xref: RO:0002314
+property_value: RO:0001900 RO:0001901
+
+[Typedef]
+id: mereotopologically_related_to
+name: mereotopologically related to
+def: "A mereological relationship or a topological relationship" []
+xref: RO:0002323
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: RO:0001900 RO:0001901
+
+[Typedef]
+id: overlaps
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+xref: RO:0002131
+property_value: IAO:0000114 IAO:0000125
+property_value: RO:0001900 RO:0001901
+is_a: mereotopologically_related_to ! mereotopologically related to
+expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: part_of
+name: part of
+xref: BFO:0000050
+property_value: http://purl.org/dc/elements/1.1/source http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
+property_value: IAO:0000111 "part of" xsd:string
+property_value: IAO:0000116 "Intended meaning:\nAmbiguous between continuant-parthood and occurrent-parthood.\n\ndomain: continuant\nrange: continuant\ntime: at some time\n\ndomain: occurrent\nrange: occurrent\ntime: atemporal" xsd:string
+property_value: IAO:0000116 "Parthood as a relation between instances: The primitive instance-level relation p part_of p1 is illustrated in assertions such as: this instance of rhodopsin mediated phototransduction part_of this instance of visual perception.    This relation satisfies at least the following standard axioms of mereology: reflexivity (for all p, p part_of p); anti-symmetry (for all p, p1, if p part_of p1 and p1 part_of p then p and p1 are identical); and transitivity (for all p, p1, p2, if p part_of p1 and p1 part_of p2, then p part_of p2). Analogous axioms hold also for parthood as a relation between spatial regions.    For parthood as a relation between continuants, these axioms need to be modified to take account of the incorporation of a temporal argument. Thus for example the axiom of transitivity for continuants will assert that if c part_of c1 at t and c1 part_of c2 at t, then also c part_of c2 at t.    Parthood as a relation between classes: To define part_of as a relation between classes we again need to distinguish the two cases of continuants and processes, even though the explicit reference to instants of time now falls away. For continuants, we have C part_of C1 if and only if any instance of C at any time is an instance-level part of some instance of C1 at that time, as for example in: cell nucleus part_ of cell." xsd:string
+property_value: IAO:0000118 "part_of" xsd:string
+property_value: RO:0001900 RO:0001901
+is_transitive: true
+is_a: overlaps ! overlaps
+inverse_of: has_part ! has part
+
