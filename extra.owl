@@ -39,7 +39,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
 
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000589">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obo foundry unique label</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">obo foundry unique label</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -55,10 +55,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
+    <!-- http://purl.obolibrary.org/obo/UPHENO_0000001 -->
 
-    <owl:ObjectProperty rdf:about="&obo;RO_0002180"/>
-
+    <owl:ObjectProperty rdf:about="&obo;UPHENO_0000001"/>
     
 
 
@@ -78,7 +77,7 @@
     <rdf:Description rdf:about="&obo;PATO_0001236">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
+                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -89,7 +88,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
+                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -102,7 +101,7 @@
     <rdf:Description rdf:about="&obo;PATO_0001241">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
+                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -113,7 +112,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
+                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -124,6 +123,12 @@
     <!-- http://purl.obolibrary.org/obo/UPHENO_0001001 -->
 
     <owl:Class rdf:about="&obo;UPHENO_0001001">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="&owl;Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <obo:IAO_0000589 xml:lang="en">Phenotype</obo:IAO_0000589>
     </owl:Class>
     
