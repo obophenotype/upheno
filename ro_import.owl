@@ -265,8 +265,6 @@ time: at some time</obo:IAO_0000116>
         <rdfs:comment rdf:datatype="&xsd;string">This is the transitive form of the develops from relation</rdfs:comment>
         <oboInOwl:shorthand rdf:datatype="&xsd;string">develops_from</oboInOwl:shorthand>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y</obo:IAO_0000115>
-        <rdfs:range rdf:resource="&obo;BFO_0000004"/>
-        <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002258"/>
     </owl:ObjectProperty>
@@ -495,23 +493,6 @@ time: at some time</obo:IAO_0000116>
     <!-- http://semanticscience.org/resource/SIO_000658 -->
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000658"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
-
-    <owl:Class rdf:about="&obo;BFO_0000004"/>
 </rdf:RDF>
 
 

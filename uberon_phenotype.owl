@@ -31976,6 +31976,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003035PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003035PHENOTYPE">
+        <rdfs:label>regional part of cerebellar white matter phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003035"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003037PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003037PHENOTYPE">
@@ -82348,20 +82362,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0014764PHENOTYPE -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014764PHENOTYPE">
-        <rdfs:label>anatomical line along groove phenotype</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014764"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0014775PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014775PHENOTYPE">
@@ -84302,20 +84302,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015203"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0015212PHENOTYPE -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015212PHENOTYPE">
-        <rdfs:label>lateral structure phenotype</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Class>
