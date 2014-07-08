@@ -38,9 +38,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000070 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0002502 -->
 
-    <owl:ObjectProperty rdf:about="&obo;BFO_0000070">
+    <owl:ObjectProperty rdf:about="&obo;RO_0002502">
         <rdfs:label>depends_on</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="&obo;UPHENO_0000001"/>
     </owl:ObjectProperty>
@@ -50,7 +50,7 @@
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <rdf:Description rdf:about="&obo;RO_0000052">
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000070"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002502"/>
         <rdfs:subPropertyOf rdf:resource="&obo;UPHENO_0000001"/>
     </rdf:Description>
     
@@ -59,7 +59,7 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002314 -->
 
     <rdf:Description rdf:about="&obo;RO_0002314">
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000070"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002502"/>
         <rdfs:subPropertyOf rdf:resource="&obo;UPHENO_0000001"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0000052"/>
@@ -107,7 +107,7 @@
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;BFO_0000051"/>
-            <rdf:Description rdf:about="&obo;BFO_0000070"/>
+            <rdf:Description rdf:about="&obo;RO_0002502"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
 </rdf:RDF>
