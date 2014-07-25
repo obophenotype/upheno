@@ -55,6 +55,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002180"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UPHENO_0000001 -->
 
     <owl:ObjectProperty rdf:about="&obo;UPHENO_0000001"/>
@@ -123,13 +129,13 @@
     <!-- http://purl.obolibrary.org/obo/UPHENO_0001001 -->
 
     <owl:Class rdf:about="&obo;UPHENO_0001001">
+        <rdfs:label xml:lang="en">Phenotype</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="&owl;Thing"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000589 xml:lang="en">Phenotype</obo:IAO_0000589>
     </owl:Class>
     
 
@@ -137,6 +143,7 @@
     <!-- http://purl.obolibrary.org/obo/UPHENO_0001002 -->
 
     <owl:Class rdf:about="&obo;UPHENO_0001002">
+        <rdfs:label xml:lang="en">abnormal phenotype</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -154,7 +161,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;UPHENO_0001001"/>
-        <obo:IAO_0000589 xml:lang="en">abnormal phenotype</obo:IAO_0000589>
     </owl:Class>
 </rdf:RDF>
 
