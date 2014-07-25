@@ -78,6 +78,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000069 -->
+
+    <rdf:Description rdf:about="&obo;PATO_0000069">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;PATO_0000068"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0002180"/>
+                        <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001236 -->
 
     <rdf:Description rdf:about="&obo;PATO_0001236">
