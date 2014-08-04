@@ -1,0 +1,8 @@
+! This is a fake ontology used to include external ontology classes in the relevant imort file
+
+[Term]
+id: FAKE:1
+relationship: fake GO:1903131 ! mononuclear cell differentiation
+
+[Typedef]
+id: fake
