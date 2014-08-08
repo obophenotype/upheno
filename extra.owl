@@ -125,7 +125,7 @@
     <rdf:Description rdf:about="&obo;PATO_0001241">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
                 <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -136,7 +136,7 @@
         <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
+                <owl:onProperty rdf:resource="&obo;RO_0002180"/>
                 <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
             </owl:Restriction>
         </owl:annotatedTarget>
