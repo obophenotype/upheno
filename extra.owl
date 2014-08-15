@@ -122,7 +122,7 @@
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
-    <rdf:Description rdf:about="&obo;PATO_0001241">
+    <rdf:Description rdf:about="&obo;PATO_0000001">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0002180"/>
