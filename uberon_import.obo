@@ -10349,7 +10349,6 @@ id: UBERON:0000002
 name: uterine cervix
 is_a: UBERON:0001560 ! neck of organ
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000995 ! uterus
 
 [Term]
@@ -10772,7 +10771,6 @@ relationship: RO:0002202 UBERON:0000926 ! mesoderm
 id: UBERON:0000079
 name: male reproductive system
 is_a: UBERON:0000990 ! reproductive system
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000990 ! reproductive system
 intersection_of: BFO:0000050 UBERON:0003101 ! male organism
 relationship: BFO:0000050 UBERON:0003101 ! male organism
@@ -10824,7 +10822,6 @@ name: zona pellucida
 is_a: UBERON:0000470 ! cell part
 is_a: UBERON:0000476 ! acellular anatomical structure
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000051 CHEBI:17089 ! glycoprotein
 
@@ -11018,7 +11015,6 @@ id: UBERON:0000155
 name: theca cell layer
 is_a: UBERON:0000481 ! multi-tissue structure
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001305 ! ovarian follicle
 relationship: BFO:0000051 CL:0000503 ! theca cell
 
@@ -11027,7 +11023,6 @@ id: UBERON:0000156
 name: theca externa
 is_a: UBERON:0000158 ! membranous layer
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000051 GO:0005581 ! collagen trimer
 
 [Term]
@@ -11035,7 +11030,6 @@ id: UBERON:0000157
 name: theca interna
 is_a: UBERON:0000158 ! membranous layer
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000155 ! theca cell layer
 
 [Term]
@@ -11680,7 +11674,6 @@ is_a: UBERON:0000485 ! simple columnar epithelium
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0005911 ! endo-epithelium
 is_a: UBERON:0012275 ! meso-epithelium
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0002367 ! prostate gland
 relationship: BFO:0000050 UBERON:0002367 ! prostate gland
@@ -11735,7 +11728,6 @@ name: decidua basalis
 is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0002450 ! decidua
 
 [Term]
@@ -11755,7 +11747,6 @@ id: UBERON:0000459
 name: uterine wall
 is_a: UBERON:0000060 ! anatomical wall
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000060 ! anatomical wall
 intersection_of: BFO:0000050 UBERON:0000995 ! uterus
 relationship: BFO:0000050 UBERON:0000995 ! uterus
@@ -11836,7 +11827,6 @@ relationship: RO:0002202 UBERON:0009117 ! indifferent gonad
 id: UBERON:0000474
 name: female reproductive system
 is_a: UBERON:0000990 ! reproductive system
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000990 ! reproductive system
 intersection_of: BFO:0000050 UBERON:0003100 ! female organism
 relationship: BFO:0000050 UBERON:0003100 ! female organism
@@ -12365,7 +12355,6 @@ id: UBERON:0000993
 name: oviduct
 is_a: UBERON:0000025 ! tube
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
 
 [Term]
@@ -12393,7 +12382,6 @@ id: UBERON:0000997
 name: mammalian vulva
 is_a: UBERON:0000062 ! organ
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0005056 ! external female genitalia
 
 [Term]
@@ -14035,7 +14023,6 @@ id: UBERON:0001295
 name: endometrium
 is_a: UBERON:0004923 ! organ component layer
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000459 ! uterine wall
 
 [Term]
@@ -14044,7 +14031,6 @@ name: myometrium
 is_a: UBERON:0001135 ! smooth muscle tissue
 is_a: UBERON:0004923 ! organ component layer
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000459 ! uterine wall
 
 [Term]
@@ -14052,7 +14038,6 @@ id: UBERON:0001297
 name: serosa of uterus
 is_a: UBERON:0000042 ! serous membrane
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000042 ! serous membrane
 intersection_of: BFO:0000050 UBERON:0000995 ! uterus
 relationship: BFO:0000050 UBERON:0000459 ! uterine wall
@@ -14063,7 +14048,6 @@ id: UBERON:0001299
 name: glans penis
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0000989 ! penis
 
 [Term]
@@ -14071,7 +14055,6 @@ id: UBERON:0001300
 name: scrotum
 is_a: UBERON:0000475 ! organism subdivision
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0004053 ! external male genitalia
 relationship: RO:0002202 UBERON:0011756 ! male genital swelling
 
@@ -14097,7 +14080,6 @@ id: UBERON:0001305
 name: ovarian follicle
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000051 CL:0000023 ! oocyte
 relationship: BFO:0000051 CL:0002174 ! follicular cell of ovary
@@ -14109,7 +14091,6 @@ id: UBERON:0001306
 name: cumulus oophorus
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001305 ! ovarian follicle
 relationship: BFO:0000050 UBERON:0005170 ! ovary stratum granulosum
 
@@ -14130,7 +14111,6 @@ id: UBERON:0001319
 name: vaginal vein
 is_a: UBERON:0001638 ! vein
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001638 ! vein
 intersection_of: BFO:0000050 UBERON:0000996 ! vagina
 relationship: BFO:0000050 UBERON:0000996 ! vagina
@@ -14162,7 +14142,6 @@ id: UBERON:0001328
 name: lobe of prostate
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0009912 ! anatomical lobe
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0009912 ! anatomical lobe
 intersection_of: BFO:0000050 UBERON:0002367 ! prostate gland
 relationship: BFO:0000050 UBERON:0002367 ! prostate gland
@@ -14177,7 +14156,6 @@ id: UBERON:0001331
 name: skin of penis
 is_a: UBERON:0000014 ! zone of skin
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000014 ! zone of skin
 intersection_of: BFO:0000050 UBERON:0000989 ! penis
 relationship: BFO:0000050 UBERON:0000989 ! penis
@@ -14186,7 +14164,6 @@ relationship: BFO:0000050 UBERON:0000989 ! penis
 id: UBERON:0001332
 name: prepuce of penis
 is_a: UBERON:0011374 ! prepuce
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0000989 ! penis
 relationship: RO:0002202 UBERON:0004876 ! urogenital ridge
 
@@ -14194,7 +14171,6 @@ relationship: RO:0002202 UBERON:0004876 ! urogenital ridge
 id: UBERON:0001333
 name: male urethra
 is_a: UBERON:0000057 ! urethra
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000057 ! urethra
 intersection_of: BFO:0000050 UBERON:0003101 ! male organism
 relationship: BFO:0000050 UBERON:0003101 ! male organism
@@ -14203,7 +14179,6 @@ relationship: BFO:0000050 UBERON:0003101 ! male organism
 id: UBERON:0001334
 name: female urethra
 is_a: UBERON:0000057 ! urethra
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000057 ! urethra
 intersection_of: BFO:0000050 UBERON:0003100 ! female organism
 relationship: BFO:0000050 UBERON:0003100 ! female organism
@@ -14214,7 +14189,6 @@ name: prostatic urethra
 is_a: UBERON:0000063 ! organ segment
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006554 ! urinary system structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0001333 ! male urethra
 relationship: BFO:0000050 UBERON:0002367 ! prostate gland
 
@@ -14232,7 +14206,6 @@ name: spongiose part of urethra
 is_a: UBERON:0000063 ! organ segment
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006554 ! urinary system structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0000989 ! penis
 relationship: BFO:0000050 UBERON:0001333 ! male urethra
 
@@ -14252,7 +14225,6 @@ id: UBERON:0001342
 name: mesovarium
 is_a: UBERON:0002095 ! mesentery
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000050 UBERON:0002095 ! mesentery
 relationship: BFO:0000050 UBERON:0012332 ! broad ligament of uterus
@@ -14278,7 +14250,6 @@ id: UBERON:0001346
 name: vaginal hymen
 is_a: UBERON:0000063 ! organ segment
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000996 ! vagina
 
 [Term]
@@ -17605,7 +17576,6 @@ is_a: UBERON:0000062 ! organ
 is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
 relationship: BFO:0000050 UBERON:0016887 ! entire extraembryonic component
 relationship: RO:0002202 UBERON:0000995 ! uterus
@@ -19164,7 +19134,6 @@ id: UBERON:0002247
 name: uterine horn
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 is_a: UBERON:0015212 ! lateral structure
 relationship: BFO:0000050 UBERON:0000995 ! uterus
 
@@ -20235,7 +20204,6 @@ id: UBERON:0002411
 name: clitoris
 is_a: UBERON:0000062 ! organ
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000997 ! mammalian vulva
 relationship: RO:0002202 UBERON:0005876 ! undifferentiated genital tubercle
 
@@ -20492,7 +20460,6 @@ name: decidua
 is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001987 ! placenta
 relationship: RO:0002202 UBERON:0000459 ! uterine wall
 
@@ -20698,7 +20665,6 @@ id: UBERON:0002493
 name: uterine artery
 is_a: UBERON:0001637 ! artery
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 is_a: UBERON:0015212 ! lateral structure
 intersection_of: UBERON:0001637 ! artery
 intersection_of: BFO:0000050 UBERON:0000995 ! uterus
@@ -20996,7 +20962,6 @@ relationship: BFO:0000050 UBERON:0001016 ! nervous system
 id: UBERON:0002537
 name: hermaphrodite gonad
 is_a: UBERON:0000991 ! gonad
-is_a: UBERON:0007198 ! hermaphrodite anatomical structure
 relationship: BFO:0000050 UBERON:0007197 ! hermaphroditic organism
 
 [Term]
@@ -21152,7 +21117,7 @@ name: lateral corticospinal tract
 is_a: UBERON:0007702 ! tract of brain
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: BFO:0000050 UBERON:0001896 ! medulla oblongata
-relationship: BFO:0000050 UBERON:0002707 ! pyramidal tract
+relationship: BFO:0000050 UBERON:0002707 ! corticospinal tract
 
 [Term]
 id: UBERON:0002600
@@ -21351,7 +21316,7 @@ relationship: BFO:0000050 UBERON:0004703 ! dorsal thalamus
 
 [Term]
 id: UBERON:0002707
-name: pyramidal tract
+name: corticospinal tract
 is_a: UBERON:0001018 ! axon tract
 relationship: BFO:0000050 UBERON:0002316 ! white matter
 
@@ -21418,7 +21383,7 @@ id: UBERON:0002755
 name: pyramidal decussation
 is_a: UBERON:0007418 ! decussation of neuraxis
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
-relationship: BFO:0000050 UBERON:0002707 ! pyramidal tract
+relationship: BFO:0000050 UBERON:0002707 ! corticospinal tract
 relationship: BFO:0000050 UBERON:0014649 ! white matter of medulla oblongata
 
 [Term]
@@ -21433,7 +21398,7 @@ relationship: BFO:0000050 UBERON:0001899 ! epithalamus
 id: UBERON:0002760
 name: ventral corticospinal tract
 is_a: UBERON:0001018 ! axon tract
-relationship: BFO:0000050 UBERON:0002707 ! pyramidal tract
+relationship: BFO:0000050 UBERON:0002707 ! corticospinal tract
 
 [Term]
 id: UBERON:0002768
@@ -22448,7 +22413,6 @@ relationship: BFO:0000050 UBERON:0000990 ! reproductive system
 id: UBERON:0003134
 name: female reproductive organ
 is_a: UBERON:0003133 ! reproductive organ
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0003133 ! reproductive organ
 intersection_of: BFO:0000050 UBERON:0003100 ! female organism
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
@@ -22458,7 +22422,6 @@ relationship: BFO:0000050 UBERON:0003100 ! female organism
 id: UBERON:0003135
 name: male reproductive organ
 is_a: UBERON:0003133 ! reproductive organ
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0003133 ! reproductive organ
 intersection_of: BFO:0000050 UBERON:0003101 ! male organism
 relationship: BFO:0000050 UBERON:0000079 ! male reproductive system
@@ -22570,7 +22533,6 @@ id: UBERON:0003218
 name: ovary septum
 is_a: UBERON:0003037 ! septum
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0003037 ! septum
 intersection_of: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
@@ -23228,7 +23190,6 @@ relationship: BFO:0000050 UBERON:0003079 ! floor plate
 id: UBERON:0003312
 name: mesenchyme of testis
 is_a: UBERON:0003855 ! gonad mesenchyme
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: BFO:0000050 UBERON:0000473 ! testis
 relationship: BFO:0000050 UBERON:0000473 ! testis
@@ -23248,7 +23209,6 @@ relationship: RO:0002202 UBERON:0009920 ! optic neural crest
 id: UBERON:0003315
 name: mesenchyme of ovary
 is_a: UBERON:0003855 ! gonad mesenchyme
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
@@ -24400,7 +24360,6 @@ id: UBERON:0003480
 name: vein of clitoris
 is_a: UBERON:0001638 ! vein
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001638 ! vein
 intersection_of: BFO:0000050 UBERON:0002411 ! clitoris
 relationship: BFO:0000050 UBERON:0002411 ! clitoris
@@ -26609,7 +26568,6 @@ id: UBERON:0003889
 name: fallopian tube
 is_a: UBERON:0000025 ! tube
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 is_a: UBERON:0015212 ! lateral structure
 intersection_of: UBERON:0000025 ! tube
 intersection_of: BFO:0000050 UBERON:0000993 ! oviduct
@@ -26939,7 +26897,6 @@ is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0010000 ! multicellular anatomical structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001987 ! placenta
 
 [Term]
@@ -27030,7 +26987,6 @@ name: rete testis
 is_a: UBERON:0002050 ! embryonic structure
 is_a: UBERON:0004111 ! anatomical conduit
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0005051 ! mediastinum testis
 relationship: RO:0002202 UBERON:0005297 ! testis sex cord
 
@@ -27102,7 +27058,6 @@ is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006876 ! vasculature of organ
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0002049 ! vasculature
 intersection_of: BFO:0000050 UBERON:0001987 ! placenta
 relationship: BFO:0000050 UBERON:0001987 ! placenta
@@ -27120,7 +27075,6 @@ is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0010000 ! multicellular anatomical structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001987 ! placenta
 
 [Term]
@@ -27424,7 +27378,6 @@ is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000119 ! cell layer
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0005292 ! extraembryonic tissue
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001987 ! placenta
 
 [Term]
@@ -27794,7 +27747,6 @@ id: UBERON:0004084
 name: genital labium
 is_a: UBERON:0000014 ! zone of skin
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 is_a: UBERON:0015212 ! lateral structure
 relationship: BFO:0000050 UBERON:0000997 ! mammalian vulva
 
@@ -28239,7 +28191,6 @@ is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0001981 ! blood vessel
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001981 ! blood vessel
 intersection_of: BFO:0000050 UBERON:0003946 ! placenta labyrinth
 relationship: BFO:0000050 UBERON:0003946 ! placenta labyrinth
@@ -28249,7 +28200,6 @@ id: UBERON:0004184
 name: prostate gland stroma
 is_a: UBERON:0003891 ! stroma
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0003891 ! stroma
 intersection_of: BFO:0000050 UBERON:0002367 ! prostate gland
 relationship: BFO:0000050 UBERON:0002367 ! prostate gland
@@ -28469,7 +28419,6 @@ id: UBERON:0004223
 name: vagina smooth muscle
 is_a: UBERON:0001135 ! smooth muscle tissue
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0000996 ! vagina
 relationship: BFO:0000050 UBERON:0000996 ! vagina
@@ -28479,7 +28428,6 @@ id: UBERON:0004224
 name: muscular coat of vas deferens
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006660 ! muscular coat
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0001000 ! vas deferens
 relationship: BFO:0000050 UBERON:0001000 ! vas deferens
@@ -28650,7 +28598,6 @@ id: UBERON:0004245
 name: oviduct smooth muscle
 is_a: UBERON:0001135 ! smooth muscle tissue
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0003889 ! fallopian tube
 relationship: BFO:0000050 UBERON:0003889 ! fallopian tube
@@ -29383,7 +29330,6 @@ id: UBERON:0004353
 name: female inguinal canal
 is_a: UBERON:0003702 ! inguinal canal
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0003702 ! inguinal canal
 intersection_of: BFO:0000050 UBERON:0000474 ! female reproductive system
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
@@ -29393,7 +29339,6 @@ id: UBERON:0004354
 name: male inguinal canal
 is_a: UBERON:0003702 ! inguinal canal
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0003702 ! inguinal canal
 intersection_of: BFO:0000050 UBERON:0000079 ! male reproductive system
 relationship: BFO:0000050 UBERON:0000079 ! male reproductive system
@@ -29426,7 +29371,6 @@ id: UBERON:0004358
 name: caput epididymis
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0001301 ! epididymis
 
 [Term]
@@ -29434,7 +29378,6 @@ id: UBERON:0004359
 name: corpus epididymis
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0001301 ! epididymis
 
 [Term]
@@ -29442,7 +29385,6 @@ id: UBERON:0004360
 name: cauda epididymis
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0001301 ! epididymis
 
 [Term]
@@ -30737,7 +30679,6 @@ name: epididymis epithelium
 is_a: UBERON:0000485 ! simple columnar epithelium
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0012275 ! meso-epithelium
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000485 ! simple columnar epithelium
 intersection_of: BFO:0000050 UBERON:0001301 ! epididymis
 relationship: BFO:0000050 UBERON:0001301 ! epididymis
@@ -31037,7 +30978,6 @@ id: UBERON:0004665
 name: muscular coat of seminal vesicle
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006660 ! muscular coat
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0000998 ! seminal vesicle
 relationship: BFO:0000050 UBERON:0000998 ! seminal vesicle
@@ -31266,7 +31206,6 @@ id: UBERON:0004713
 name: corpus cavernosum penis
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006609 ! corpus cavernosum
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0006609 ! corpus cavernosum
 intersection_of: BFO:0000050 UBERON:0000989 ! penis
 relationship: BFO:0000050 UBERON:0000989 ! penis
@@ -31881,7 +31820,6 @@ id: UBERON:0004803
 name: penis epithelium
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0012275 ! meso-epithelium
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0000989 ! penis
 relationship: BFO:0000050 UBERON:0000989 ! penis
@@ -31891,7 +31829,6 @@ id: UBERON:0004804
 name: oviduct epithelium
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0012275 ! meso-epithelium
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0000993 ! oviduct
 relationship: BFO:0000050 UBERON:0000993 ! oviduct
@@ -31910,7 +31847,6 @@ id: UBERON:0004806
 name: vas deferens epithelium
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0012275 ! meso-epithelium
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0001000 ! vas deferens
 relationship: BFO:0000050 UBERON:0001000 ! vas deferens
@@ -32120,7 +32056,6 @@ id: UBERON:0004835
 name: epididymis smooth muscle
 is_a: UBERON:0001135 ! smooth muscle tissue
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0001301 ! epididymis
 relationship: BFO:0000050 UBERON:0001301 ! epididymis
@@ -32489,7 +32424,6 @@ relationship: BFO:0000050 UBERON:0000991 ! gonad
 id: UBERON:0004910
 name: epithelium of male gonad
 is_a: UBERON:0004909 ! epithelium of gonad
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0000473 ! testis
 relationship: BFO:0000050 UBERON:0000473 ! testis
@@ -32498,7 +32432,6 @@ relationship: BFO:0000050 UBERON:0000473 ! testis
 id: UBERON:0004911
 name: epithelium of female gonad
 is_a: UBERON:0004909 ! epithelium of gonad
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
@@ -32831,7 +32764,6 @@ id: UBERON:0004983
 name: mucosa of vagina
 is_a: UBERON:0000344 ! mucosa
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0000996 ! vagina
 relationship: BFO:0000050 UBERON:0000996 ! vagina
@@ -32841,7 +32773,6 @@ id: UBERON:0004984
 name: mucosa of seminal vesicle
 is_a: UBERON:0000344 ! mucosa
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0000998 ! seminal vesicle
 relationship: BFO:0000050 UBERON:0000998 ! seminal vesicle
@@ -32851,7 +32782,6 @@ id: UBERON:0004985
 name: mucosa of ejaculatory duct
 is_a: UBERON:0000344 ! mucosa
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0000999 ! ejaculatory duct
 relationship: BFO:0000050 UBERON:0000999 ! ejaculatory duct
@@ -32861,7 +32791,6 @@ id: UBERON:0004986
 name: mucosa of deferent duct
 is_a: UBERON:0000344 ! mucosa
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0001000 ! vas deferens
 relationship: BFO:0000050 UBERON:0001000 ! vas deferens
@@ -33064,7 +32993,6 @@ relationship: BFO:0000050 UBERON:0001303 ! left uterine tube
 id: UBERON:0005013
 name: mucosa of male urethra
 is_a: UBERON:0012299 ! mucosa of urethra
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0001333 ! male urethra
 relationship: BFO:0000050 UBERON:0001333 ! male urethra
@@ -33073,7 +33001,6 @@ relationship: BFO:0000050 UBERON:0001333 ! male urethra
 id: UBERON:0005014
 name: mucosa of female urethra
 is_a: UBERON:0012299 ! mucosa of urethra
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0001334 ! female urethra
 relationship: BFO:0000050 UBERON:0001334 ! female urethra
@@ -33301,7 +33228,6 @@ id: UBERON:0005048
 name: mucosa of uterine tube
 is_a: UBERON:0000344 ! mucosa
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0003889 ! fallopian tube
 relationship: BFO:0000050 UBERON:0003889 ! fallopian tube
@@ -33311,7 +33237,6 @@ id: UBERON:0005049
 name: mucosa of infundibulum of uterine tube
 is_a: UBERON:0000344 ! mucosa
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0003984 ! uterine tube infundibulum
 relationship: BFO:0000050 UBERON:0003984 ! uterine tube infundibulum
@@ -33887,7 +33812,6 @@ id: UBERON:0005170
 name: ovary stratum granulosum
 is_a: UBERON:0000158 ! membranous layer
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001305 ! ovarian follicle
 relationship: BFO:0000051 CL:0000501 ! granulosa cell
 
@@ -34016,7 +33940,6 @@ id: UBERON:0005195
 name: deferent duct vein
 is_a: UBERON:0001638 ! vein
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0001638 ! vein
 intersection_of: BFO:0000050 UBERON:0001000 ! vas deferens
 relationship: BFO:0000050 UBERON:0001000 ! vas deferens
@@ -34081,7 +34004,6 @@ id: UBERON:0005205
 name: vagina stroma
 is_a: UBERON:0003891 ! stroma
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0003891 ! stroma
 intersection_of: BFO:0000050 UBERON:0000996 ! vagina
 relationship: BFO:0000050 UBERON:0000996 ! vagina
@@ -34127,7 +34049,6 @@ id: UBERON:0005212
 name: Leydig cell region of testis
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0005169 ! interstitial tissue
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 NCBITaxon:7742 ! Vertebrata <Metazoa>
 relationship: BFO:0000050 UBERON:0000473 ! testis
 
@@ -34652,7 +34573,6 @@ id: UBERON:0005298
 name: skin of clitoris
 is_a: UBERON:0000014 ! zone of skin
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000014 ! zone of skin
 intersection_of: BFO:0000050 UBERON:0002411 ! clitoris
 relationship: BFO:0000050 UBERON:0002411 ! clitoris
@@ -34978,7 +34898,6 @@ id: UBERON:0005352
 name: spermatic cord
 is_a: UBERON:0000477 ! anatomical cluster
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0004054 ! internal male genitalia
 relationship: BFO:0000051 UBERON:0001000 ! vas deferens
 
@@ -35219,7 +35138,6 @@ is_a: UBERON:0004573 ! systemic artery
 id: UBERON:0005398
 name: female reproductive gland
 is_a: UBERON:0003937 ! sex gland
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0003937 ! sex gland
 intersection_of: BFO:0000050 UBERON:0000474 ! female reproductive system
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
@@ -35229,7 +35147,6 @@ relationship: BFO:0000050 UBERON:0003134 ! female reproductive organ
 id: UBERON:0005399
 name: male reproductive gland
 is_a: UBERON:0003937 ! sex gland
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0003937 ! sex gland
 intersection_of: BFO:0000050 UBERON:0000079 ! male reproductive system
 relationship: BFO:0000050 UBERON:0000079 ! male reproductive system
@@ -37222,7 +37139,6 @@ id: UBERON:0005904
 name: duct of male reproductive system
 is_a: UBERON:0000058 ! duct
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000058 ! duct
 intersection_of: BFO:0000050 UBERON:0000079 ! male reproductive system
 relationship: BFO:0000050 UBERON:0000079 ! male reproductive system
@@ -38689,7 +38605,6 @@ relationship: BFO:0000050 UBERON:0002207 ! xiphoid process
 id: UBERON:0006435
 name: os penis
 is_a: UBERON:0007719 ! bone of reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: BFO:0000050 UBERON:0000989 ! penis
 relationship: BFO:0000050 UBERON:0000989 ! penis
@@ -38698,7 +38613,6 @@ relationship: BFO:0000050 UBERON:0000989 ! penis
 id: UBERON:0006440
 name: os clitoris
 is_a: UBERON:0007719 ! bone of reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: BFO:0000050 UBERON:0002411 ! clitoris
 relationship: BFO:0000050 UBERON:0002411 ! clitoris
@@ -38889,7 +38803,6 @@ relationship: BFO:0000050 UBERON:0002333 ! pulmonary trunk
 id: UBERON:0006565
 name: female urethral meatus
 is_a: UBERON:0012240 ! urethral meatus
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0012240 ! urethral meatus
 intersection_of: BFO:0000050 UBERON:0003100 ! female organism
 relationship: BFO:0000050 UBERON:0001334 ! female urethra
@@ -39054,7 +38967,6 @@ id: UBERON:0006608
 name: corpus cavernosum clitoridis
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006609 ! corpus cavernosum
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0006609 ! corpus cavernosum
 intersection_of: BFO:0000050 UBERON:0002411 ! clitoris
 relationship: BFO:0000050 UBERON:0002411 ! clitoris
@@ -39127,7 +39039,6 @@ id: UBERON:0006642
 name: muscle layer of oviduct
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006660 ! muscular coat
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0003889 ! fallopian tube
 relationship: BFO:0000050 UBERON:0003889 ! fallopian tube
@@ -39137,7 +39048,6 @@ id: UBERON:0006645
 name: adventitia of epididymis
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0005742 ! adventitia
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0005742 ! adventitia
 intersection_of: BFO:0000050 UBERON:0001301 ! epididymis
 relationship: BFO:0000050 UBERON:0001301 ! epididymis
@@ -39147,7 +39057,6 @@ id: UBERON:0006646
 name: muscle layer of epididymis
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006660 ! muscular coat
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0001301 ! epididymis
 relationship: BFO:0000050 UBERON:0001301 ! epididymis
@@ -39157,7 +39066,6 @@ id: UBERON:0006647
 name: adventitia of ductus deferens
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0005742 ! adventitia
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0005742 ! adventitia
 intersection_of: BFO:0000050 UBERON:0001000 ! vas deferens
 relationship: BFO:0000050 UBERON:0001000 ! vas deferens
@@ -39167,7 +39075,6 @@ id: UBERON:0006648
 name: adventitia of seminal vesicle
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0005742 ! adventitia
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0005742 ! adventitia
 intersection_of: BFO:0000050 UBERON:0000998 ! seminal vesicle
 relationship: BFO:0000050 UBERON:0000998 ! seminal vesicle
@@ -39177,7 +39084,6 @@ id: UBERON:0006652
 name: muscular layer of vagina
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006660 ! muscular coat
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0000996 ! vagina
 relationship: BFO:0000050 UBERON:0000996 ! vagina
@@ -39602,7 +39508,6 @@ id: UBERON:0006834
 name: uterus or analog
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0013522 ! subdivision of tube
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
 
 [Term]
@@ -40094,7 +39999,6 @@ id: UBERON:0006948
 name: efferent duct epithelium
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0012275 ! meso-epithelium
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0006946 ! efferent duct
 relationship: BFO:0000050 UBERON:0006946 ! efferent duct
@@ -40117,7 +40021,6 @@ id: UBERON:0006953
 name: ejaculatory duct epithelium
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0012275 ! meso-epithelium
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0000999 ! ejaculatory duct
 relationship: BFO:0000050 UBERON:0000999 ! ejaculatory duct
@@ -40170,7 +40073,6 @@ id: UBERON:0006960
 name: ovary stroma
 is_a: UBERON:0003891 ! stroma
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0003891 ! stroma
 intersection_of: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
@@ -40404,7 +40306,6 @@ name: serosa of infundibulum of uterine tube
 is_a: UBERON:0000042 ! serous membrane
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0005983 ! heart layer
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000042 ! serous membrane
 intersection_of: BFO:0000050 UBERON:0003984 ! uterine tube infundibulum
 relationship: BFO:0000050 UBERON:0003983 ! conus arteriosus
@@ -40416,7 +40317,6 @@ name: muscle layer of infundibulum of uterine tube
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0005983 ! heart layer
 is_a: UBERON:0006660 ! muscular coat
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0003984 ! uterine tube infundibulum
 relationship: BFO:0000050 UBERON:0003983 ! conus arteriosus
@@ -40448,8 +40348,8 @@ is_a: UBERON:0000468 ! multicellular organism
 [Term]
 id: UBERON:0007198
 name: hermaphrodite anatomical structure
-is_a: UBERON:0000061 ! anatomical structure
-intersection_of: UBERON:0000061 ! anatomical structure
+is_a: UBERON:0014402 ! sex-specific anatomical structure
+intersection_of: UBERON:0014402 ! sex-specific anatomical structure
 intersection_of: BFO:0000050 UBERON:0007197 ! hermaphroditic organism
 relationship: BFO:0000050 UBERON:0007197 ! hermaphroditic organism
 
@@ -41986,7 +41886,6 @@ id: UBERON:0008331
 name: clitoral smooth muscle
 is_a: UBERON:0001135 ! smooth muscle tissue
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0002411 ! clitoris
 relationship: BFO:0000050 UBERON:0002411 ! clitoris
@@ -42217,7 +42116,6 @@ id: UBERON:0008488
 name: cremaster muscle
 is_a: UBERON:0001630 ! muscle organ
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0003135 ! male reproductive organ
 
 [Term]
@@ -42240,7 +42138,6 @@ id: UBERON:0008715
 name: muscle tissue of prostate
 is_a: UBERON:0002385 ! muscle tissue
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0002385 ! muscle tissue
 intersection_of: BFO:0000050 UBERON:0002367 ! prostate gland
 relationship: BFO:0000050 UBERON:0002367 ! prostate gland
@@ -42360,7 +42257,6 @@ id: UBERON:0008798
 name: rugal fold of vagina
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0008790 ! rugal fold
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0008790 ! rugal fold
 intersection_of: BFO:0000050 UBERON:0000996 ! vagina
 relationship: BFO:0000050 UBERON:0000996 ! vagina
@@ -42581,7 +42477,6 @@ is_a: UBERON:0008845 ! nonskeletal ligament
 id: UBERON:0008843
 name: gubernaculum testis
 is_a: UBERON:0004346 ! gubernaculum (male or female)
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0004346 ! gubernaculum (male or female)
 intersection_of: BFO:0000050 UBERON:0000079 ! male reproductive system
 relationship: BFO:0000050 UBERON:0000079 ! male reproductive system
@@ -42590,7 +42485,6 @@ relationship: BFO:0000050 UBERON:0000079 ! male reproductive system
 id: UBERON:0008844
 name: gubernaculum (female)
 is_a: UBERON:0004346 ! gubernaculum (male or female)
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0004346 ! gubernaculum (male or female)
 intersection_of: BFO:0000050 UBERON:0000474 ! female reproductive system
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
@@ -43005,7 +42899,6 @@ name: placental membrane
 is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001987 ! placenta
 
 [Term]
@@ -43030,7 +42923,6 @@ relationship: BFO:0000050 UBERON:0008231 ! dorsal thoracic segment of trunk
 id: UBERON:0009024
 name: adrenal gland X zone
 is_a: UBERON:0009753 ! adrenal gland cortex zone
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0001235 ! adrenal cortex
 relationship: BFO:0000050 UBERON:0003100 ! female organism
 
@@ -44558,7 +44450,6 @@ name: placental labyrinth villous
 is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0003946 ! placenta labyrinth
 
 [Term]
@@ -44908,7 +44799,6 @@ id: UBERON:0010146
 name: paraurethral duct
 is_a: UBERON:0000058 ! duct
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000058 ! duct
 intersection_of: BFO:0000050 UBERON:0010145 ! paraurethral gland
 relationship: BFO:0000050 UBERON:0010145 ! paraurethral gland
@@ -45012,7 +44902,6 @@ relationship: BFO:0000050 UBERON:0002107 ! liver
 id: UBERON:0010186
 name: male urethral gland
 is_a: UBERON:0001338 ! urethral gland
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0001338 ! urethral gland
 intersection_of: BFO:0000050 UBERON:0001333 ! male urethra
 relationship: BFO:0000050 UBERON:0001333 ! male urethra
@@ -45021,7 +44910,6 @@ relationship: BFO:0000050 UBERON:0001333 ! male urethra
 id: UBERON:0010187
 name: female urethral gland
 is_a: UBERON:0001338 ! urethral gland
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001338 ! urethral gland
 intersection_of: BFO:0000050 UBERON:0001334 ! female urethra
 relationship: BFO:0000050 UBERON:0001334 ! female urethra
@@ -46068,7 +45956,6 @@ id: UBERON:0010412
 name: epididymal fat pad
 is_a: UBERON:0003916 ! fat pad
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0003916 ! fat pad
 intersection_of: BFO:0000050 UBERON:0001301 ! epididymis
 relationship: BFO:0000050 UBERON:0001301 ! epididymis
@@ -48045,7 +47932,6 @@ id: UBERON:0011298
 name: submucosa of uterine tube
 is_a: UBERON:0000009 ! submucosa
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000009 ! submucosa
 intersection_of: BFO:0000050 UBERON:0003889 ! fallopian tube
 relationship: BFO:0000050 UBERON:0003889 ! fallopian tube
@@ -48548,7 +48434,6 @@ relationship: RO:0002202 UBERON:0005876 ! undifferentiated genital tubercle
 id: UBERON:0011755
 name: female labial swelling
 is_a: UBERON:0011754 ! genital swelling
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0011754 ! genital swelling
 intersection_of: BFO:0000050 UBERON:0000474 ! female reproductive system
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
@@ -48558,7 +48443,6 @@ relationship: RO:0002202 UBERON:0006233 ! female genital tubercle
 id: UBERON:0011756
 name: male genital swelling
 is_a: UBERON:0011754 ! genital swelling
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0011754 ! genital swelling
 intersection_of: BFO:0000050 UBERON:0003135 ! male reproductive organ
 relationship: BFO:0000050 UBERON:0003135 ! male reproductive organ
@@ -48688,7 +48572,6 @@ id: UBERON:0011831
 name: duct of vestibular gland
 is_a: UBERON:0000058 ! duct
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000058 ! duct
 intersection_of: BFO:0000050 UBERON:0011826 ! vestibular gland
 relationship: BFO:0000050 UBERON:0011826 ! vestibular gland
@@ -49006,7 +48889,6 @@ id: UBERON:0011949
 name: endometrium luminal epithelium
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0011945 ! luminal layer of epithelium
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0011945 ! luminal layer of epithelium
 intersection_of: BFO:0000050 UBERON:0004811 ! endometrium epithelium
 relationship: BFO:0000050 UBERON:0004811 ! endometrium epithelium
@@ -49027,7 +48909,6 @@ name: prostate luminal epithelium
 is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0011945 ! luminal layer of epithelium
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0011945 ! luminal layer of epithelium
 intersection_of: BFO:0000050 UBERON:0002367 ! prostate gland
 relationship: BFO:0000050 UBERON:0000428 ! prostate epithelium
@@ -49388,7 +49269,6 @@ relationship: BFO:0000050 UBERON:0000057 ! urethra
 id: UBERON:0012241
 name: male urethral meatus
 is_a: UBERON:0012240 ! urethral meatus
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0012240 ! urethral meatus
 intersection_of: BFO:0000050 UBERON:0003101 ! male organism
 relationship: BFO:0000050 UBERON:0001333 ! male urethra
@@ -49416,7 +49296,6 @@ id: UBERON:0012248
 name: cervical mucosa
 is_a: UBERON:0000344 ! mucosa
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: BFO:0000050 UBERON:0000002 ! uterine cervix
 relationship: BFO:0000050 UBERON:0000002 ! uterine cervix
@@ -49517,7 +49396,6 @@ name: navicular fossa of spongiose part of urethra
 is_a: UBERON:0000063 ! organ segment
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006554 ! urinary system structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0001337 ! spongiose part of urethra
 relationship: BFO:0000051 UBERON:0010304 ! non-keratinized stratified squamous epithelium
 
@@ -49527,7 +49405,6 @@ name: Guérin's valve
 is_a: UBERON:0000063 ! organ segment
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006554 ! urinary system structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0012294 ! navicular fossa of spongiose part of urethra
 relationship: BFO:0000050 UBERON:0012299 ! mucosa of urethra
 
@@ -49544,7 +49421,6 @@ id: UBERON:0012297
 name: male urethral crest
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0012296 ! urethral crest
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0012296 ! urethral crest
 intersection_of: BFO:0000050 UBERON:0003101 ! male organism
 relationship: BFO:0000050 UBERON:0001335 ! prostatic urethra
@@ -49555,7 +49431,6 @@ relationship: BFO:0000050 UBERON:0005015 ! mucosa of prostatic urethra
 id: UBERON:0012298
 name: female urethral crest
 is_a: UBERON:0012296 ! urethral crest
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0012296 ! urethral crest
 intersection_of: BFO:0000050 UBERON:0003100 ! female organism
 relationship: BFO:0000050 UBERON:0003100 ! female organism
@@ -49581,7 +49456,6 @@ relationship: RO:0002202 UBERON:0004347 ! limb bud
 id: UBERON:0012301
 name: female membranous urethra
 is_a: UBERON:0001336 ! membranous urethra of male or female
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001336 ! membranous urethra of male or female
 intersection_of: BFO:0000050 UBERON:0001334 ! female urethra
 relationship: BFO:0000050 UBERON:0001334 ! female urethra
@@ -49590,7 +49464,6 @@ relationship: BFO:0000050 UBERON:0001334 ! female urethra
 id: UBERON:0012302
 name: male membranous urethra
 is_a: UBERON:0001336 ! membranous urethra of male or female
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0001336 ! membranous urethra of male or female
 intersection_of: BFO:0000050 UBERON:0001333 ! male urethra
 relationship: BFO:0000050 UBERON:0001333 ! male urethra
@@ -49641,7 +49514,6 @@ id: UBERON:0012317
 name: vagina orifice
 is_a: UBERON:0000161 ! orifice
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000161 ! orifice
 intersection_of: BFO:0000050 UBERON:0000996 ! vagina
 relationship: BFO:0000050 UBERON:0000996 ! vagina
@@ -50112,7 +49984,6 @@ id: UBERON:0012487
 name: vaginal sphincter
 is_a: UBERON:0004590 ! sphincter muscle
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0004590 ! sphincter muscle
 intersection_of: BFO:0000050 UBERON:0000996 ! vagina
 relationship: BFO:0000050 UBERON:0000996 ! vagina
@@ -50174,7 +50045,6 @@ id: UBERON:0012499
 name: serosa of uterine tube
 is_a: UBERON:0000042 ! serous membrane
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000042 ! serous membrane
 intersection_of: BFO:0000050 UBERON:0003889 ! fallopian tube
 relationship: BFO:0000050 UBERON:0003889 ! fallopian tube
@@ -50293,7 +50163,6 @@ id: UBERON:0013191
 name: ovarian cortex
 is_a: UBERON:0001851 ! cortex
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001851 ! cortex
 intersection_of: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
@@ -50303,7 +50172,6 @@ id: UBERON:0013192
 name: ovarian medulla
 is_a: UBERON:0000958 ! medulla of organ
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000958 ! medulla of organ
 intersection_of: BFO:0000050 UBERON:0000992 ! female gonad
 relationship: BFO:0000050 UBERON:0000992 ! female gonad
@@ -50395,7 +50263,6 @@ name: male paramesonephric duct
 is_a: UBERON:0003914 ! epithelial tube
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0012275 ! meso-epithelium
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0003914 ! epithelial tube
 intersection_of: BFO:0000050 UBERON:0000079 ! male reproductive system
 intersection_of: RO:0002202 UBERON:0003890 ! Mullerian duct
@@ -50586,7 +50453,6 @@ id: UBERON:0013515
 name: subdivision of uterine tube
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0013522 ! subdivision of tube
-is_a: UBERON:0014404 ! female anatomical structure
 relationship: BFO:0000050 UBERON:0000993 ! oviduct
 
 [Term]
@@ -50666,6 +50532,7 @@ id: UBERON:0013617
 name: upper primary molar tooth
 is_a: UBERON:0003666 ! upper jaw molar
 is_a: UBERON:0013616 ! primary molar tooth
+is_a: UBERON:0018616 ! primary upper tooth
 intersection_of: UBERON:0013616 ! primary molar tooth
 intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
@@ -50684,6 +50551,7 @@ id: UBERON:0013619
 name: upper secondary molar tooth
 is_a: UBERON:0003666 ! upper jaw molar
 is_a: UBERON:0013618 ! secondary molar tooth
+is_a: UBERON:0018613 ! secondary upper tooth
 intersection_of: UBERON:0013618 ! secondary molar tooth
 intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
@@ -50693,6 +50561,7 @@ id: UBERON:0013620
 name: lower primary molar tooth
 is_a: UBERON:0003667 ! lower jaw molar
 is_a: UBERON:0013616 ! primary molar tooth
+is_a: UBERON:0018617 ! primary lower tooth
 intersection_of: UBERON:0013616 ! primary molar tooth
 intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
 relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
@@ -50702,6 +50571,7 @@ id: UBERON:0013621
 name: lower secondary molar tooth
 is_a: UBERON:0003667 ! lower jaw molar
 is_a: UBERON:0013618 ! secondary molar tooth
+is_a: UBERON:0018614 ! permanent lower tooth
 intersection_of: UBERON:0013618 ! secondary molar tooth
 intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
 relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
@@ -50998,7 +50868,6 @@ id: UBERON:0013758
 name: cervical os
 is_a: UBERON:0000161 ! orifice
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000161 ! orifice
 intersection_of: BFO:0000050 UBERON:0000002 ! uterine cervix
 relationship: BFO:0000050 UBERON:0000002 ! uterine cervix
@@ -51187,7 +51056,6 @@ id: UBERON:0014394
 name: uterine fat pad
 is_a: UBERON:0003916 ! fat pad
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0003916 ! fat pad
 intersection_of: BFO:0000050 UBERON:0000995 ! uterus
 relationship: BFO:0000050 UBERON:0000995 ! uterus
@@ -51224,7 +51092,7 @@ is_a: UBERON:0000061 ! anatomical structure
 id: UBERON:0014403
 name: male anatomical structure
 is_a: UBERON:0014402 ! sex-specific anatomical structure
-intersection_of: UBERON:0000061 ! anatomical structure
+intersection_of: UBERON:0014402 ! sex-specific anatomical structure
 intersection_of: BFO:0000050 UBERON:0003101 ! male organism
 relationship: BFO:0000050 UBERON:0003101 ! male organism
 
@@ -51232,7 +51100,7 @@ relationship: BFO:0000050 UBERON:0003101 ! male organism
 id: UBERON:0014404
 name: female anatomical structure
 is_a: UBERON:0014402 ! sex-specific anatomical structure
-intersection_of: UBERON:0000061 ! anatomical structure
+intersection_of: UBERON:0014402 ! sex-specific anatomical structure
 intersection_of: BFO:0000050 UBERON:0003100 ! female organism
 relationship: BFO:0000050 UBERON:0003100 ! female organism
 
@@ -52928,7 +52796,6 @@ id: UBERON:0015130
 name: connective tissue of prostate
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0011822 ! dense irregular connective tissue
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0002384 ! connective tissue
 intersection_of: BFO:0000050 UBERON:0002367 ! prostate gland
 relationship: BFO:0000050 UBERON:0002367 ! prostate gland
@@ -53056,7 +52923,6 @@ id: UBERON:0015172
 name: endometrial blood vessel
 is_a: UBERON:0001981 ! blood vessel
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0001981 ! blood vessel
 intersection_of: BFO:0000050 UBERON:0001295 ! endometrium
 relationship: BFO:0000050 UBERON:0001295 ! endometrium
@@ -53293,7 +53159,6 @@ id: UBERON:0015479
 name: scrotum skin
 is_a: UBERON:0000014 ! zone of skin
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000014 ! zone of skin
 intersection_of: BFO:0000050 UBERON:0001300 ! scrotum
 relationship: BFO:0000050 UBERON:0001300 ! scrotum
@@ -53346,7 +53211,6 @@ id: UBERON:0015717
 name: smooth muscle tissue layer of ejaculatory duct
 is_a: UBERON:0001135 ! smooth muscle tissue
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: BFO:0000050 UBERON:0000999 ! ejaculatory duct
 relationship: BFO:0000050 UBERON:0000999 ! ejaculatory duct
@@ -53631,7 +53495,6 @@ id: UBERON:0016408
 name: corona of glans penis
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0001299 ! glans penis
 
 [Term]
@@ -53639,14 +53502,12 @@ id: UBERON:0016409
 name: base of glans penis
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0001299 ! glans penis
 
 [Term]
 id: UBERON:0016410
 name: male breast
 is_a: UBERON:0000310 ! breast
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000310 ! breast
 intersection_of: BFO:0000050 UBERON:0003101 ! male organism
 relationship: BFO:0000050 UBERON:0003101 ! male organism
@@ -53774,6 +53635,7 @@ id: UBERON:0016452
 name: upper secondary premolar tooth
 is_a: UBERON:0016944 ! upper premolar tooth
 is_a: UBERON:0017270 ! secondary premolar tooth
+is_a: UBERON:0018613 ! secondary upper tooth
 intersection_of: UBERON:0017270 ! secondary premolar tooth
 intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
@@ -53783,6 +53645,7 @@ id: UBERON:0016453
 name: lower secondary premolar tooth
 is_a: UBERON:0016943 ! lower premolar tooth
 is_a: UBERON:0017270 ! secondary premolar tooth
+is_a: UBERON:0018614 ! permanent lower tooth
 intersection_of: UBERON:0017270 ! secondary premolar tooth
 intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
 relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
@@ -53792,6 +53655,7 @@ id: UBERON:0016454
 name: upper central secondary incisor tooth
 is_a: UBERON:0018550 ! secondary incisor tooth
 is_a: UBERON:0018603 ! upper central incisor tooth
+is_a: UBERON:0018613 ! secondary upper tooth
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
 relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
 
@@ -53800,6 +53664,7 @@ id: UBERON:0016455
 name: upper lateral secondary incisor tooth
 is_a: UBERON:0018550 ! secondary incisor tooth
 is_a: UBERON:0018604 ! upper lateral incisor tooth
+is_a: UBERON:0018613 ! secondary upper tooth
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
 relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
 
@@ -53939,7 +53804,6 @@ relationship: BFO:0000050 UBERON:0004994 ! mucosa of fundus of stomach
 id: UBERON:0016510
 name: epithelium of male urethra
 is_a: UBERON:0002325 ! epithelium of urethra
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0001333 ! male urethra
 relationship: BFO:0000050 UBERON:0001333 ! male urethra
@@ -53983,7 +53847,6 @@ name: muscular layer of prostatic urethra
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006554 ! urinary system structure
 is_a: UBERON:0006660 ! muscular coat
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0001335 ! prostatic urethra
 relationship: BFO:0000050 UBERON:0001335 ! prostatic urethra
@@ -53993,7 +53856,6 @@ id: UBERON:0016516
 name: lamina propria of prostatic urethra
 is_a: UBERON:0002326 ! lamina propria of urethra
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: BFO:0000050 UBERON:0001335 ! prostatic urethra
 relationship: BFO:0000050 UBERON:0001335 ! prostatic urethra
@@ -54019,7 +53881,6 @@ relationship: BFO:0000050 UBERON:0002115 ! jejunum
 id: UBERON:0016520
 name: epithelium of female urethra
 is_a: UBERON:0002325 ! epithelium of urethra
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0001334 ! female urethra
 relationship: BFO:0000050 UBERON:0001334 ! female urethra
@@ -54038,7 +53899,6 @@ name: muscle layer of spongiose part of urethra
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006554 ! urinary system structure
 is_a: UBERON:0006660 ! muscular coat
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0006660 ! muscular coat
 intersection_of: BFO:0000050 UBERON:0001337 ! spongiose part of urethra
 relationship: BFO:0000050 UBERON:0001337 ! spongiose part of urethra
@@ -54410,6 +54270,7 @@ id: UBERON:0017271
 name: upper primary premolar tooth
 is_a: UBERON:0016944 ! upper premolar tooth
 is_a: UBERON:0017269 ! primary premolar tooth
+is_a: UBERON:0018616 ! primary upper tooth
 intersection_of: UBERON:0007120 ! premolar tooth
 intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
 intersection_of: BFO:0000050 UBERON:0007116 ! primary dentition
@@ -54421,6 +54282,7 @@ id: UBERON:0017272
 name: lower primary premolar tooth
 is_a: UBERON:0016943 ! lower premolar tooth
 is_a: UBERON:0017269 ! primary premolar tooth
+is_a: UBERON:0018617 ! primary lower tooth
 intersection_of: UBERON:0007120 ! premolar tooth
 intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
 intersection_of: BFO:0000050 UBERON:0007116 ! primary dentition
@@ -54461,7 +54323,6 @@ id: UBERON:0017659
 name: ventral surface of penis
 is_a: UBERON:0000475 ! organism subdivision
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 relationship: BFO:0000050 UBERON:0000989 ! penis
 
 [Term]
@@ -54522,7 +54383,6 @@ id: UBERON:0017732
 name: raphe of scrotum
 is_a: UBERON:0003037 ! septum
 is_a: UBERON:0005156 ! reproductive structure
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0003037 ! septum
 intersection_of: BFO:0000050 UBERON:0001300 ! scrotum
 relationship: BFO:0000050 UBERON:0001300 ! scrotum
@@ -54532,6 +54392,7 @@ id: UBERON:0017748
 name: lower primary incisor tooth
 is_a: UBERON:0003451 ! lower jaw incisor
 is_a: UBERON:0016476 ! primary incisor tooth
+is_a: UBERON:0018617 ! primary lower tooth
 intersection_of: UBERON:0016476 ! primary incisor tooth
 intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
 relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
@@ -54813,6 +54674,15 @@ intersection_of: BFO:0000050 UBERON:0001555 ! digestive tract
 relationship: BFO:0000050 UBERON:0001555 ! digestive tract
 
 [Term]
+id: UBERON:0018302
+name: upper molar 1
+is_a: UBERON:0003666 ! upper jaw molar
+is_a: UBERON:0018376 ! molar 1
+intersection_of: UBERON:0018376 ! molar 1
+intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
+relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+
+[Term]
 id: UBERON:0018303
 name: adrenal tissue
 is_a: UBERON:0000479 ! tissue
@@ -54846,6 +54716,11 @@ is_a: UBERON:0008915 ! pore
 intersection_of: UBERON:0008915 ! pore
 intersection_of: BFO:0000050 UBERON:0001032 ! sensory system
 relationship: BFO:0000050 UBERON:0001032 ! sensory system
+
+[Term]
+id: UBERON:0018376
+name: molar 1
+is_a: UBERON:0003655 ! molar tooth
 
 [Term]
 id: UBERON:0018382
@@ -54891,7 +54766,6 @@ id: UBERON:0018529
 name: female inguinal ring
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006674 ! inguinal ring
-is_a: UBERON:0014404 ! female anatomical structure
 intersection_of: UBERON:0006674 ! inguinal ring
 intersection_of: BFO:0000050 UBERON:0000474 ! female reproductive system
 relationship: BFO:0000050 UBERON:0000474 ! female reproductive system
@@ -54902,7 +54776,6 @@ id: UBERON:0018530
 name: male inguinal ring
 is_a: UBERON:0005156 ! reproductive structure
 is_a: UBERON:0006674 ! inguinal ring
-is_a: UBERON:0014403 ! male anatomical structure
 intersection_of: UBERON:0006674 ! inguinal ring
 intersection_of: BFO:0000050 UBERON:0000079 ! male reproductive system
 relationship: BFO:0000050 UBERON:0000079 ! male reproductive system
@@ -54958,8 +54831,9 @@ is_a: UBERON:0018552 ! lateral incisor tooth
 [Term]
 id: UBERON:0018561
 name: upper secondary canine tooth
-is_a: UBERON:0003267 ! tooth of upper jaw
 is_a: UBERON:0018584 ! secondary canine tooth
+is_a: UBERON:0018613 ! secondary upper tooth
+is_a: UBERON:0018621 ! upper canine tooth
 intersection_of: UBERON:0018584 ! secondary canine tooth
 intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
@@ -54967,8 +54841,9 @@ relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
 [Term]
 id: UBERON:0018562
 name: lower secondary canine tooth
-is_a: UBERON:0003268 ! tooth of lower jaw
 is_a: UBERON:0018584 ! secondary canine tooth
+is_a: UBERON:0018614 ! permanent lower tooth
+is_a: UBERON:0018622 ! lower canine tooth
 intersection_of: UBERON:0018584 ! secondary canine tooth
 intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
 relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
@@ -54976,15 +54851,60 @@ relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
 [Term]
 id: UBERON:0018568
 name: lower central secondary incisor tooth
-is_a: UBERON:0018550 ! secondary incisor tooth
 is_a: UBERON:0018601 ! lower central incisor tooth
+is_a: UBERON:0018623 ! lower secondary incisor tooth
 relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
 
 [Term]
 id: UBERON:0018570
 name: lower lateral secondary incisor tooth
-is_a: UBERON:0018550 ! secondary incisor tooth
 is_a: UBERON:0018602 ! lower lateral incisor tooth
+is_a: UBERON:0018623 ! lower secondary incisor tooth
+relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
+
+[Term]
+id: UBERON:0018575
+name: upper first secondary molar tooth
+is_a: UBERON:0013619 ! upper secondary molar tooth
+is_a: UBERON:0018302 ! upper molar 1
+is_a: UBERON:0018608 ! permanent molar tooth 1
+intersection_of: UBERON:0018376 ! molar 1
+intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
+intersection_of: BFO:0000050 UBERON:0007774 ! secondary dentition
+relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
+
+[Term]
+id: UBERON:0018576
+name: upper second secondary molar tooth
+is_a: UBERON:0013619 ! upper secondary molar tooth
+is_a: UBERON:0018607 ! permanent molar tooth 2
+intersection_of: UBERON:0018606 ! molar 2
+intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
+intersection_of: BFO:0000050 UBERON:0007774 ! secondary dentition
+relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
+
+[Term]
+id: UBERON:0018578
+name: lower first secondary molar tooth
+is_a: UBERON:0013621 ! lower secondary molar tooth
+is_a: UBERON:0018608 ! permanent molar tooth 1
+intersection_of: UBERON:0018376 ! molar 1
+intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
+intersection_of: BFO:0000050 UBERON:0007774 ! secondary dentition
+relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
+relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
+
+[Term]
+id: UBERON:0018579
+name: lower second secondary molar tooth
+is_a: UBERON:0013621 ! lower secondary molar tooth
+is_a: UBERON:0018607 ! permanent molar tooth 2
+intersection_of: UBERON:0018606 ! molar 2
+intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
+intersection_of: BFO:0000050 UBERON:0007774 ! secondary dentition
+relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
 relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
 
 [Term]
@@ -55006,10 +54926,34 @@ intersection_of: BFO:0000050 UBERON:0007774 ! secondary dentition
 relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
 
 [Term]
+id: UBERON:0018588
+name: upper first primary molar tooth
+is_a: UBERON:0013617 ! upper primary molar tooth
+is_a: UBERON:0018302 ! upper molar 1
+is_a: UBERON:0018644 ! deciduous molar 1
+intersection_of: UBERON:0018376 ! molar 1
+intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
+intersection_of: BFO:0000050 UBERON:0007116 ! primary dentition
+relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+relationship: BFO:0000050 UBERON:0007116 ! primary dentition
+
+[Term]
+id: UBERON:0018589
+name: lower first primary molar tooth
+is_a: UBERON:0013620 ! lower primary molar tooth
+is_a: UBERON:0018644 ! deciduous molar 1
+intersection_of: UBERON:0018376 ! molar 1
+intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
+intersection_of: BFO:0000050 UBERON:0007116 ! primary dentition
+relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
+relationship: BFO:0000050 UBERON:0007116 ! primary dentition
+
+[Term]
 id: UBERON:0018591
 name: upper primary incisor tooth
 is_a: UBERON:0003450 ! upper jaw incisor
 is_a: UBERON:0016476 ! primary incisor tooth
+is_a: UBERON:0018616 ! primary upper tooth
 intersection_of: UBERON:0016476 ! primary incisor tooth
 intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
@@ -55024,8 +54968,9 @@ is_a: UBERON:0018602 ! lower lateral incisor tooth
 [Term]
 id: UBERON:0018597
 name: upper primary canine tooth
-is_a: UBERON:0003267 ! tooth of upper jaw
 is_a: UBERON:0018583 ! primary canine tooth
+is_a: UBERON:0018616 ! primary upper tooth
+is_a: UBERON:0018621 ! upper canine tooth
 intersection_of: UBERON:0018583 ! primary canine tooth
 intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
@@ -55033,11 +54978,34 @@ relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
 [Term]
 id: UBERON:0018598
 name: lower primary canine tooth
-is_a: UBERON:0003268 ! tooth of lower jaw
 is_a: UBERON:0018583 ! primary canine tooth
+is_a: UBERON:0018617 ! primary lower tooth
+is_a: UBERON:0018622 ! lower canine tooth
 intersection_of: UBERON:0018583 ! primary canine tooth
 intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
 relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
+
+[Term]
+id: UBERON:0018599
+name: upper second primary molar tooth
+is_a: UBERON:0013617 ! upper primary molar tooth
+is_a: UBERON:0018643 ! deciduous molar tooth 2
+intersection_of: UBERON:0018606 ! molar 2
+intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
+intersection_of: BFO:0000050 UBERON:0007116 ! primary dentition
+relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+relationship: BFO:0000050 UBERON:0007116 ! primary dentition
+
+[Term]
+id: UBERON:0018600
+name: lower second primary molar tooth
+is_a: UBERON:0013620 ! lower primary molar tooth
+is_a: UBERON:0018643 ! deciduous molar tooth 2
+intersection_of: UBERON:0018606 ! molar 2
+intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
+intersection_of: BFO:0000050 UBERON:0007116 ! primary dentition
+relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
+relationship: BFO:0000050 UBERON:0007116 ! primary dentition
 
 [Term]
 id: UBERON:0018601
@@ -55066,6 +55034,111 @@ name: upper lateral incisor tooth
 is_a: UBERON:0003450 ! upper jaw incisor
 is_a: UBERON:0018552 ! lateral incisor tooth
 relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+
+[Term]
+id: UBERON:0018606
+name: molar 2
+is_a: UBERON:0003655 ! molar tooth
+
+[Term]
+id: UBERON:0018607
+name: permanent molar tooth 2
+is_a: UBERON:0013618 ! secondary molar tooth
+is_a: UBERON:0018606 ! molar 2
+intersection_of: UBERON:0018606 ! molar 2
+intersection_of: BFO:0000050 UBERON:0007774 ! secondary dentition
+relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
+
+[Term]
+id: UBERON:0018608
+name: permanent molar tooth 1
+is_a: UBERON:0013618 ! secondary molar tooth
+is_a: UBERON:0018376 ! molar 1
+intersection_of: UBERON:0018376 ! molar 1
+intersection_of: BFO:0000050 UBERON:0007774 ! secondary dentition
+relationship: BFO:0000050 UBERON:0007774 ! secondary dentition
+
+[Term]
+id: UBERON:0018613
+name: secondary upper tooth
+is_a: UBERON:0003267 ! tooth of upper jaw
+is_a: UBERON:0007775 ! secondary tooth
+intersection_of: UBERON:0007775 ! secondary tooth
+intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
+relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+
+[Term]
+id: UBERON:0018614
+name: permanent lower tooth
+is_a: UBERON:0003268 ! tooth of lower jaw
+is_a: UBERON:0007775 ! secondary tooth
+intersection_of: UBERON:0007775 ! secondary tooth
+intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
+relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
+
+[Term]
+id: UBERON:0018616
+name: primary upper tooth
+is_a: UBERON:0003267 ! tooth of upper jaw
+is_a: UBERON:0007115 ! deciduous tooth
+intersection_of: UBERON:0007115 ! deciduous tooth
+intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
+relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+
+[Term]
+id: UBERON:0018617
+name: primary lower tooth
+is_a: UBERON:0003268 ! tooth of lower jaw
+is_a: UBERON:0007115 ! deciduous tooth
+intersection_of: UBERON:0007115 ! deciduous tooth
+intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
+relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
+
+[Term]
+id: UBERON:0018621
+name: upper canine tooth
+is_a: UBERON:0003267 ! tooth of upper jaw
+is_a: UBERON:0003674 ! cuspid
+intersection_of: UBERON:0003674 ! cuspid
+intersection_of: BFO:0000050 UBERON:0001709 ! upper jaw region
+relationship: BFO:0000050 UBERON:0001709 ! upper jaw region
+
+[Term]
+id: UBERON:0018622
+name: lower canine tooth
+is_a: UBERON:0003268 ! tooth of lower jaw
+is_a: UBERON:0003674 ! cuspid
+intersection_of: UBERON:0003674 ! cuspid
+intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
+relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
+
+[Term]
+id: UBERON:0018623
+name: lower secondary incisor tooth
+is_a: UBERON:0003451 ! lower jaw incisor
+is_a: UBERON:0018550 ! secondary incisor tooth
+is_a: UBERON:0018614 ! permanent lower tooth
+intersection_of: UBERON:0018550 ! secondary incisor tooth
+intersection_of: BFO:0000050 UBERON:0001710 ! lower jaw region
+relationship: BFO:0000050 UBERON:0001710 ! lower jaw region
+
+[Term]
+id: UBERON:0018643
+name: deciduous molar tooth 2
+is_a: UBERON:0013616 ! primary molar tooth
+is_a: UBERON:0018606 ! molar 2
+intersection_of: UBERON:0018606 ! molar 2
+intersection_of: BFO:0000050 UBERON:0007116 ! primary dentition
+relationship: BFO:0000050 UBERON:0007116 ! primary dentition
+
+[Term]
+id: UBERON:0018644
+name: deciduous molar 1
+is_a: UBERON:0013616 ! primary molar tooth
+is_a: UBERON:0018376 ! molar 1
+intersection_of: UBERON:0018376 ! molar 1
+intersection_of: BFO:0000050 UBERON:0007116 ! primary dentition
+relationship: BFO:0000050 UBERON:0007116 ! primary dentition
 
 [Term]
 id: UBERON:1000004
