@@ -319,14 +319,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MPATH_217 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_217">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulcerative inflammation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MPATH_218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_218">
@@ -768,27 +760,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MPATH_336 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_336">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukaemia</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MPATH_34 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_34">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid deposition</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_33"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MPATH_343 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_343">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoma</rdfs:label>
     </owl:Class>
     
 
@@ -1173,14 +1149,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MPATH_434 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_434">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurilemmoma</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MPATH_435 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_435">
@@ -1272,6 +1240,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_476">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telangiectasia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_474"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_490">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenomatous polyp</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_270"/>
     </owl:Class>
     
 
@@ -1778,6 +1755,26 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_474"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_89"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MPATH_217">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulcerative inflammation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MPATH_343">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoma</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MPATH_336">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukaemia</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
