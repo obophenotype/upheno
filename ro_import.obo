@@ -597,6 +597,20 @@ property_value: IAO:0000114 IAO:0000428
 is_a: RO:0002387 ! has potential to develop into
 
 [Typedef]
+id: RO:0002410
+name: causally related to
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+
+[Typedef]
+id: RO:0002418
+name: causally upstream of or within
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
 id: RO:0002424
 name: differs in
 comment: This is an exploratory relation
@@ -612,6 +626,12 @@ id: RO:0002426
 name: differs in attribute
 range: BFO:0000005 ! dependent continuant
 is_a: RO:0002424 ! differs in
+
+[Typedef]
+id: RO:0002427
+name: causally downstream of or within
+is_a: RO:0002410 ! causally related to
+inverse_of: RO:0002418 ! causally upstream of or within
 
 [Typedef]
 id: RO:0002464

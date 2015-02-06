@@ -1,5 +1,6 @@
 format-version: 1.2
-ontology: upheno/imports/imports/mpath_import
+ontology: upheno/imports/mpath_import
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/mpath.owl
 
 [Term]
 id: MPATH:0
@@ -164,10 +165,6 @@ is_a: MPATH:212 ! inflammation
 id: MPATH:214
 name: chronic inflammation
 is_a: MPATH:212 ! inflammation
-
-[Term]
-id: MPATH:217
-name: ulcerative inflammation
 
 [Term]
 id: MPATH:218
@@ -419,17 +416,9 @@ name: hematopoietic/lymphoid malignancies/disorder
 is_a: MPATH:218 ! neoplasm
 
 [Term]
-id: MPATH:336
-name: leukaemia
-
-[Term]
 id: MPATH:34
 name: amyloid deposition
 is_a: MPATH:33 ! intracellular and extracellular accumulation
-
-[Term]
-id: MPATH:343
-name: lymphoma
 
 [Term]
 id: MPATH:346
@@ -648,10 +637,6 @@ is_a: MPATH:404 ! soft tissue tumor
 is_a: MPATH:570 ! peripheral nervous system tumors
 
 [Term]
-id: MPATH:434
-name: neurilemmoma
-
-[Term]
 id: MPATH:435
 name: neurofibroma
 is_a: MPATH:433 ! nerve sheath tumor
@@ -707,6 +692,16 @@ name: telangiectasia
 is_a: MPATH:474 ! ectasia
 
 [Term]
+id: MPATH:490
+name: adenomatous polyp
+is_a: MPATH:270 ! adenoma
+
+[Term]
+id: MPATH:496
+name: Non-Lymphoid leukaemias
+is_a: MPATH:515 ! Non-Lymphoid neoplasias
+
+[Term]
 id: MPATH:504
 name: non-lymphoid hematopoietic sarcomas
 is_a: MPATH:335 ! hematopoietic/lymphoid malignancies/disorder
@@ -720,6 +715,11 @@ is_a: MPATH:504 ! non-lymphoid hematopoietic sarcomas
 [Term]
 id: MPATH:513
 name: Lymphoid neoplasms
+is_a: MPATH:335 ! hematopoietic/lymphoid malignancies/disorder
+
+[Term]
+id: MPATH:515
+name: Non-Lymphoid neoplasias
 is_a: MPATH:335 ! hematopoietic/lymphoid malignancies/disorder
 
 [Term]
@@ -877,6 +877,11 @@ name: steatosis
 is_a: MPATH:33 ! intracellular and extracellular accumulation
 
 [Term]
+id: MPATH:625
+name: avulsion
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
 id: MPATH:629
 name: cavernous hemangioma
 is_a: MPATH:240 ! hemangioma
@@ -940,6 +945,21 @@ is_a: MPATH:407 ! fibroma
 id: MPATH:74
 name: hamartoma
 is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:81
+name: perforation
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:850
+name: post-traumatic structural abnormality
+is_a: MPATH:56 ! developmental or adult structural  defect
+
+[Term]
+id: MPATH:851
+name: auricular deformation
+is_a: MPATH:850 ! post-traumatic structural abnormality
 
 [Term]
 id: MPATH:86
