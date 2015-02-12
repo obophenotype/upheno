@@ -1,6 +1,6 @@
 format-version: 1.2
-ontology: upheno/ro
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/ro/releases/2014-06-26/ro.owl
+ontology: upheno/imports/ro_import
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/ro/releases/2015-02-11/ro.owl
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0016301> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002481>))\nObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002207> ObjectUnionOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/CARO_0010000>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002207> ObjectUnionOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/CARO_0010000>))\nObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002425> ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000004>))\n)
 
 [Term]
@@ -21,9 +21,10 @@ is_a: BFO:0000002 ! continuant
 
 [Term]
 id: BFO:0000005
-name: dependent continuant
+name: obsolete dependent continuant
 def: "A continuant  that is either dependent on one or other independent continuant  bearers or inheres in or is borne by other entities." []
-is_a: BFO:0000002 ! continuant
+is_a: ObsoleteClass ! Obsolete Class
+is_obsolete: true
 
 [Term]
 id: BFO:0000015
@@ -39,8 +40,8 @@ is_a: BFO:0000020 ! specifically dependent continuant
 [Term]
 id: BFO:0000020
 name: specifically dependent continuant
-def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
-is_a: BFO:0000005 ! dependent continuant
+def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+is_a: BFO:0000002 ! continuant
 
 [Term]
 id: BFO:0000040
@@ -213,6 +214,10 @@ is_a: GO:0007610 ! behavior
 is_a: GO:0051704 ! multi-organism process
 
 [Term]
+id: ObsoleteClass
+name: Obsolete Class
+
+[Term]
 id: PATO:0000001
 name: quality
 is_a: BFO:0000020 ! specifically dependent continuant
@@ -252,8 +257,14 @@ is_a: PATO:0000141 ! structure
 [Typedef]
 id: BFO:0000050
 name: part of
+def: "a core relation that holds between a part and its whole" []
 property_value: IAO:0000111 "is part of" xsd:string
-property_value: IAO:0000116 "Ambiguous between continuant-parthood and occurrent-parthood" xsd:string
+property_value: IAO:0000112 "my brain is part of my body (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)" xsd:string
+property_value: IAO:0000112 "this day is part of this year (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
 property_value: IAO:0000118 "part_of" xsd:string
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
@@ -264,8 +275,14 @@ inverse_of: BFO:0000051 ! has part
 [Typedef]
 id: BFO:0000051
 name: has part
+def: "a core relation that holds between a whole and its part" []
 property_value: IAO:0000111 "has part" xsd:string
-property_value: IAO:0000116 "Ambiguous between continuant-parthood and occurrent-parthood" xsd:string
+property_value: IAO:0000112 "my body has part my brain (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string
+property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
 property_value: IAO:0000118 "has_part" xsd:string
 property_value: RO:0001900 RO:0001901
 is_transitive: true
@@ -297,11 +314,13 @@ is_a: RO:0002222 ! temporally related to
 [Typedef]
 id: BFO:0000066
 name: occurs in
+def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+comment: Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant
 property_value: IAO:0000111 "occurs in" xsd:string
-property_value: IAO:0000118 "Intended meaning:\ndomain: occurrent\nrange: independent continuant\ntime: atemporal" xsd:string
 property_value: IAO:0000118 "occurs_in" xsd:string
 property_value: IAO:0000118 "unfolds in" xsd:string
 property_value: IAO:0000118 "unfolds_in" xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 domain: BFO:0000003 ! occurrent
 range: BFO:0000004 ! independent continuant
 holds_over_chain: BFO:0000050 BFO:0000066
@@ -311,13 +330,19 @@ transitive_over: BFO:0000050 ! part of
 [Typedef]
 id: BFO:0000067
 name: contains process
+def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+comment: Paraphrase of definition: a relation between an independent continuant and a process, in which the process takes place entirely within the independent continuant
 property_value: IAO:0000111 "site of" xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Typedef]
 id: RO:0000052
 name: inheres in
+def: "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence" []
 property_value: IAO:0000111 "inheres in" xsd:string
-property_value: IAO:0000116 "Intended meaning:\ndomain: specifically dependent continuant\nrange: independent continuant\ntime: at all times\n\nA specifically dependent continuant A inheres in its independent continuant B at all times during which A exists." xsd:string
+property_value: IAO:0000112 "this fragility inheres in this vase" xsd:string
+property_value: IAO:0000112 "this red color inheres in this apple" xsd:string
+property_value: IAO:0000116 "A dependent inheres in its bearer at all times for which the dependent exists." xsd:string
 property_value: IAO:0000118 "inheres_in" xsd:string
 property_value: RO:0001900 RO:0001901
 is_a: RO:0002314 ! inheres in part of
@@ -325,7 +350,11 @@ is_a: RO:0002314 ! inheres in part of
 [Typedef]
 id: RO:0000053
 name: bearer of
+def: "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence" []
 property_value: IAO:0000111 "bearer of" xsd:string
+property_value: IAO:0000112 "this apple is bearer of this red color" xsd:string
+property_value: IAO:0000112 "this vase is bearer of this fragility" xsd:string
+property_value: IAO:0000116 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist." xsd:string
 property_value: IAO:0000118 "bearer_of" xsd:string
 property_value: IAO:0000118 "is bearer of" xsd:string
 property_value: RO:0001900 RO:0001901
@@ -335,7 +364,11 @@ inverse_of: RO:0000052 ! inheres in
 [Typedef]
 id: RO:0000056
 name: participates in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
 property_value: IAO:0000111 "participates in" xsd:string
+property_value: IAO:0000112 "this blood clot participates in this blood coagulation" xsd:string
+property_value: IAO:0000112 "this input material (or this output material) participates in this process" xsd:string
+property_value: IAO:0000112 "this investigator participates in this investigation" xsd:string
 property_value: IAO:0000118 "participates_in" xsd:string
 domain: BFO:0000002 ! continuant
 range: BFO:0000003 ! occurrent
@@ -343,8 +376,12 @@ range: BFO:0000003 ! occurrent
 [Typedef]
 id: RO:0000057
 name: has participant
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
 property_value: http://purl.org/dc/elements/1.1/source http://www.obofoundry.org/ro/#OBO_REL:has_participant xsd:string
 property_value: IAO:0000111 "has participant" xsd:string
+property_value: IAO:0000112 "this blood coagulation has participant this blood clot" xsd:string
+property_value: IAO:0000112 "this investigation has participant this investigator" xsd:string
+property_value: IAO:0000112 "this process has participant this input material (or this output material)" xsd:string
 property_value: IAO:0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time." xsd:string
 property_value: IAO:0000118 "has_participant" xsd:string
 domain: BFO:0000003 ! occurrent
@@ -608,6 +645,7 @@ range: BFO:0000015 ! process
 [Typedef]
 id: RO:0002418
 name: causally upstream of or within
+is_transitive: true
 is_a: RO:0002410 ! causally related to
 
 [Typedef]
@@ -624,12 +662,13 @@ is_a: RO:0002424 ! differs in
 [Typedef]
 id: RO:0002426
 name: differs in attribute
-range: BFO:0000005 ! dependent continuant
+range: BFO:0000020 ! specifically dependent continuant
 is_a: RO:0002424 ! differs in
 
 [Typedef]
 id: RO:0002427
 name: causally downstream of or within
+is_transitive: true
 is_a: RO:0002410 ! causally related to
 inverse_of: RO:0002418 ! causally upstream of or within
 
@@ -647,7 +686,7 @@ holds_over_chain: BFO:0000051 BFO:0000066
 [Typedef]
 id: RO:0002481
 name: is kinase activity
-is_a: RO:0002464 ! helper property
+is_a: RO:0002564 ! molecular interaction relation helper property
 
 [Typedef]
 id: RO:0002487
@@ -700,4 +739,21 @@ id: RO:0002503
 name: towards
 property_value: IAO:0000116 "This relation is provided in order to support the use of relational qualities such as 'concentration of'; for example, the concentration of C in V is a quality that inheres in V, but pertains to C." xsd:string
 is_a: RO:0002502 ! depends on
+
+[Typedef]
+id: RO:0002563
+name: interaction relation helper property
+property_value: http://xmlns.com/foaf/0.1/page https://code.google.com/p/obo-relations/wiki/InteractionRelations xsd:anyURI
+is_a: RO:0002464 ! helper property
+
+[Typedef]
+id: RO:0002564
+name: molecular interaction relation helper property
+is_a: RO:0002563 ! interaction relation helper property
+
+[Typedef]
+id: RO:0002573
+name: has modifier
+def: "A relation that holds between an attribute or a qualifier and another attribute." []
+property_value: IAO:0000232 "This relation is intended to be used in combination with PATO, to be able to refine PATO quality classes using modifiers such as 'abnormal' and 'normal'. It has yet to be formally aligned into an ontological framework; it's not clear what the ontological status of the \"modifiers\" are." xsd:string
 
