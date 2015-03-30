@@ -654,7 +654,15 @@ relationship: fake UBERON:4300034 ! antorbital cartilage
 relationship: fake UBERON:4300106 ! ventral limb of posttemporal
 relationship: fake UBERON:4300127 ! nuchal crest
 relationship: fake CL:0011001
+relationship: fake PATO:0015002
+relationship: fake PATO:0015003
+relationship: fake PATO:0015004
 
 
 [Typedef]
 id: fake
+
+
+[Typedef]
+id: RO:0002573
+name: has modifier

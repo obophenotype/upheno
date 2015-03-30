@@ -38,15 +38,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002502 -->
-
-    <owl:ObjectProperty rdf:about="&obo;RO_0002502">
-        <rdfs:label>depends_on</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&obo;UPHENO_0000001"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <rdf:Description rdf:about="&obo;RO_0000052">
@@ -97,6 +88,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002502 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002502">
+        <rdfs:label>depends_on</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;UPHENO_0000001"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UPHENO_0000001 -->
 
     <owl:ObjectProperty rdf:about="&obo;UPHENO_0000001">
@@ -110,6 +110,25 @@
             <rdf:Description rdf:about="&obo;RO_0002502"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000465">
+        <rdfs:subClassOf rdf:resource="&obo;CARO_0000006"/>
+    </owl:Class>
 </rdf:RDF>
 
 
