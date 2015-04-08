@@ -8463,6 +8463,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_60311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60311">
+        <rdfs:label>thyroid hormone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24621"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_60525 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60525">
