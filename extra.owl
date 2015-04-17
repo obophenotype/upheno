@@ -55,7 +55,6 @@
     
 
 
-
     <!-- http://purl.obolibrary.org/obo/RO_0002573 -->
 
     <owl:ObjectProperty rdf:about="&obo;RO_0002573"/>
@@ -79,19 +78,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
-
-    <rdf:Description rdf:about="&obo;PATO_0000001">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002573"/>
-                <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATO_0000069 -->
 
     <rdf:Description rdf:about="&obo;PATO_0000069">
@@ -107,54 +93,6 @@
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001236 -->
-
-    <rdf:Description rdf:about="&obo;PATO_0001236">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
-                <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    <owl:Axiom>
-        <rdfs:comment>In future this should be removed and all MP/HP assertions should be explicitly marked as abnormal</rdfs:comment>
-        <owl:annotatedSource rdf:resource="&obo;PATO_0001236"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;UPHENO_0000001"/>
-                <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
-
-    <rdf:Description rdf:about="&obo;PATO_0001241">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002573"/>
-                <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    <owl:Axiom>
-        <rdfs:comment>In future this should be removed and all MP/HP assertions should be explicitly marked as abnormal</rdfs:comment>
-        <owl:annotatedSource rdf:resource="&obo;PATO_0001241"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0002573"/>
-                <owl:someValuesFrom rdf:resource="&obo;PATO_0000460"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-    </owl:Axiom>
     
 
 
