@@ -132,6 +132,13 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;UPHENO_0001001"/>
     </owl:Class>
+
+
+    <owl:Class rdf:about="&obo;MPATH_576">
+        <rdfs:subClassOf rdf:resource="&obo;MPATH_575"/>
+    </owl:Class>
+
+
 </rdf:RDF>
 
 
