@@ -1,3 +1,5 @@
+ontology: upheno/imports/imports_requests.obo
+
 ! This is a fake ontology used to include external ontology classes in the relevant imort file
 
 [Term]
@@ -653,6 +655,7 @@ relationship: fake UBERON:4300017 ! rostrodermethmoid
 relationship: fake UBERON:4300034 ! antorbital cartilage
 relationship: fake UBERON:4300106 ! ventral limb of posttemporal
 relationship: fake UBERON:4300127 ! nuchal crest
+relationship: fake UBERON:0006003 ! integumentary adnexa
 relationship: fake CL:0011001
 relationship: fake PATO:0015002
 relationship: fake PATO:0015003
