@@ -23,9 +23,8 @@
         <owl:imports rdf:resource="&obo;uberon/bridge/cl-bridge-to-zfa.owl"/>
         <owl:imports rdf:resource="&obo;uberon/bridge/uberon-bridge-to-zfa.owl"/>
         <owl:imports rdf:resource="&obo;upheno/mammal.owl"/>
-        <owl:imports rdf:resource="&obo;upheno/vertebrate-curated.owl"/>
         <owl:imports rdf:resource="&obo;upheno/imports/uberon_import.owl"/>
-        <owl:imports rdf:resource="&obo;upheno/zp/zp-importer.owl"/>
+        <owl:imports rdf:resource="&obo;upheno/zp.owl"/>
     </owl:Ontology>
     
 
