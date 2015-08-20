@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl" uri="../imports/chebi_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl" uri="../imports/uberon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/imports/wbbt_import.owl" uri="../imports/wbbt_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl" uri="../imports/pato_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/imports/go_import.owl" uri="../imports/go_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/imports/wbphenotypeath_import.owl" uri="../imports/wbphenotypeath_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/wbphenotype.owl" uri="../wbphenotype.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-to-mp-match-best.owl" uri="wbphenotype-to-mp-match-best.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-equivalence-axioms.owl" uri="wbphenotype-equivalence-axioms.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-equivalence-axioms-subq.owl" uri="wbphenotype-equivalence-axioms-subq.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-equivalence-axioms-subq-ubr.owl" uri="wbphenotype-equivalence-axioms-subq-ubr.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
+    </group>
+</catalog>

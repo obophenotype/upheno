@@ -19,17 +19,26 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="&obo;upheno/metazoa.owl">
-        <owl:imports rdf:resource="&obo;uberon/bridge/cl-bridge-to-wbbt.owl"/>
-        <owl:imports rdf:resource="&obo;uberon/bridge/uberon-bridge-to-wbbt.owl"/>
-        <owl:imports rdf:resource="&obo;uberon/bridge/cl-bridge-to-fbbt.owl"/>
-        <owl:imports rdf:resource="&obo;uberon/bridge/uberon-bridge-to-fbbt.owl"/>
-        <owl:imports rdf:resource="&obo;upheno/vertebrate.owl"/>
-        <owl:imports rdf:resource="&obo;wbphenotype/wbphenotype-importer.owl"/>
-        <owl:imports rdf:resource="&obo;fbcv/dpo.owl"/>
-        <owl:imports rdf:resource="&obo;upheno/dpo/dpo-bridge.owl"/>
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/2014-12-17/metazoa.owl"/>
+    <owl:Ontology rdf:about="&obo;upheno/dpo/dpo-bridge.owl">
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+
+    <rdf:Description rdf:about="&obo;FBcv_0001347">
+        <rdfs:subClassOf rdf:resource="&obo;UPHENO_0001001"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
