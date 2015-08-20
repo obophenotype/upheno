@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl"
+<rdf:RDF xmlns="/imports/pr_import.owl#"
+     xml:base="/imports/pr_import.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl">
+    <owl:Ontology rdf:about="/imports/pr_import.owl">
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Ontology>
     
@@ -28,6 +28,18 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
     
 
 
@@ -96,7 +108,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000008">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGF-beta-like cystine-knot cytokine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain composition consisting of a signal peptide, a variable propeptide region and a Transforming growth factor beta like domain (PF00019), which is a cystine-knot domain containing four conserved beta strands, S1-S4, which form two antiparallel beta sheets (SI-S2 and S3-S4) interconnected by three disulfide bridges in a knot-like topology. Cystines [II-V] and [III-VI] form a ring through which the remaining disulfide bond (Cys[I-IV]) penetrates. Insertion of different variable regions into this common motif has given rise to various subclasses of the growth factor cystine-knot domain.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain composition consisting of a signal peptide, a variable propeptide region and a Transforming growth factor beta like domain (Pfam:PF00019), which is a cystine-knot domain containing four conserved beta strands, S1-S4, which form two antiparallel beta sheets (SI-S2 and S3-S4) interconnected by three disulfide bridges in a knot-like topology. Cystines [II-V] and [III-VI] form a ring through which the remaining disulfide bond (Cys[I-IV]) penetrates. Insertion of different variable regions into this common motif has given rise to various subclasses of the growth factor cystine-knot domain.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIRSF:PIRSF800009</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000000008</oboInOwl:id>
@@ -111,7 +123,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000017">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon gamma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000024990"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IFNG gene or a 1:1 ortholog thereof. The core domain structure consists of an Interferon gamma domain (PF00714) that is four-helical cytokine domain with an additional helix in one of the crossover connections. It is a cytokine produced by lymphocytes activated by specific antigens or mitogens that has important immunoregulatory functions.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IFNG gene or a 1:1 ortholog thereof. The core domain structure consists of an Interferon gamma domain (Pfam:PF00714) that is four-helical cytokine domain with an additional helix in one of the crossover connections. It is a cytokine produced by lymphocytes activated by specific antigens or mitogens that has important immunoregulatory functions.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFN-gamma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFNG</oboInOwl:hasExactSynonym>
@@ -128,7 +140,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000033">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor, TNF-like</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain composition consisting of an N-terminal cytosolic domain, a type II transmembrane domain and a C-terminal TNF domain (PF00229).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain composition consisting of an N-terminal cytosolic domain, a type II transmembrane domain and a C-terminal TNF domain (Pfam:PF00229).</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIRSF:PIRSF001873</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000000033</oboInOwl:id>
@@ -182,7 +194,6 @@
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIRSF:PIRSF001937</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001091</oboInOwl:id>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -260,7 +271,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001335">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class 2 cytokine, IL-10 type</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain architecture consisting of an N-terminal Interleukin 10 (PF00726) domain.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with a core domain architecture consisting of an N-terminal Interleukin 10 (Pfam:PF00726) domain.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIRSF:PIRSF003542</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001335</oboInOwl:id>
@@ -883,8 +894,18 @@
     <!-- http://purl.obolibrary.org/obo/PR_000007785 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007785">
-        <rdfs:label>glutamate decarboxylase 1</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate decarboxylase 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67 kDa glutamic acid decarboxylase</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GAD1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD-67</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD67</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000007785</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate decarboxylase 67 kDa isoform</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
     </owl:Class>
     
 
@@ -939,8 +960,15 @@
     <!-- http://purl.obolibrary.org/obo/PR_000008056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008056">
-        <rdfs:label>glutamate dehydrogenase 1, mitochondrial</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate dehydrogenase 1, mitochondrial</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GLUD1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDH 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLUD</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLUD1</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000008056</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
     </owl:Class>
     
 
@@ -957,7 +985,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GS</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000008058</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate decarboxylase</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate--ammonia ligase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate--ammonia ligase</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -966,8 +994,25 @@
     <!-- http://purl.obolibrary.org/obo/PR_000008153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008153">
-        <rdfs:label>aspartate aminotransferase, cytoplasmic</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspartate aminotransferase, cytoplasmic</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GOT1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASAT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AST</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AspAT</oboInOwl:hasBroadSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Note: This form is predominantly found in red blood cells and heart in humans.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOT1</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000008153</oboInOwl:id>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SGO-T</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SGOT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspartate aminotransferase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspartate transaminase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cAST</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate oxaloacetate transaminase 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum glutamic oxaloacetic transaminase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transaminase A</oboInOwl:hasBroadSynonym>
     </owl:Class>
     
 
@@ -975,8 +1020,26 @@
     <!-- http://purl.obolibrary.org/obo/PR_000008208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008208">
-        <rdfs:label>alanine aminotransferase 1</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alanine aminotransferase 1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GPT gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAT1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALAT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT1</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPT 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPT1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000008208</oboInOwl:id>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SGPT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alanine transaminase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate pyruvate transaminase 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamic--alanine transaminase 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamic--pyruvic transaminase 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum glutamate-pyruvate transaminase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum glutamic-pyruvic transaminase</oboInOwl:hasBroadSynonym>
     </owl:Class>
     
 
@@ -1020,12 +1083,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the mouse Igf1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGF-I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGF-I</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Igf-1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Igf1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGF</oboInOwl:hasBroadSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000009182</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000031792</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechano growth factor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatomedin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatomedin-C</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -1138,8 +1205,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013246">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prolactin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PRL gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000029968"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A somatotropin hormone family member that is a translation product of the human PRL gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000013246</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRL</oboInOwl:hasExactSynonym>
@@ -1205,7 +1272,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLPI</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUSI-1</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPI</oboInOwl:hasBroadSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000015248</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLPI</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAP four-disulfide core domain protein 4</oboInOwl:hasExactSynonym>
@@ -1353,7 +1420,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018271">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon gamma proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from interferon gamma.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFNG/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1367,7 +1433,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018285">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor alpha proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from tumor necrosis factor alpha.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000018285</oboInOwl:id>
@@ -1381,7 +1446,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018344">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 alpha proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from interleukin-1 alpha.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL1A/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1395,7 +1459,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018345">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 beta proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from interleukin-1 beta.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL1B/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1409,7 +1472,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018435">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-16 proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from interleukin-16.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL16/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1423,7 +1485,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018438">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-18 proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from interleukin-18.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL18/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1437,7 +1498,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018461">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-8 proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from interleukin-8.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL8/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1451,7 +1511,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018931">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiotensinogen, signal peptide removed form</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000003847"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGT/SigPep-</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An angiotensinogen that has had the signal peptide removed.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
@@ -1466,7 +1525,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018932">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiotensinogen proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from angiotensinogen, signal peptide removed form.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGT/ClvPrd</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
@@ -1480,7 +1538,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018950">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum albumin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from serum albumin.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALB/ClvPrd</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
@@ -1494,7 +1551,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018969">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaline phosphatase, placental type proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from alkaline phosphatase, placental type.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALPP/ClvPrd</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
@@ -1508,7 +1564,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019093">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vasopressin-neurophysin 2-copeptin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from vasopressin-neurophysin 2-copeptin.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVP/ClvPrd</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
@@ -1522,7 +1577,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019483">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corticoliberin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from corticoliberin.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRH/ClvPrd</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
@@ -1536,7 +1590,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019500">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-reactive protein proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from C-reactive protein.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRP/ClvPrd</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
@@ -1550,7 +1603,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019798">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythropoietin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from erythropoietin.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPO/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1564,7 +1616,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019973">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from gastrin.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAST/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1578,7 +1629,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019980">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucagon proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from glucagon.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCG/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1592,7 +1642,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000020311">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from insulin.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INS/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1606,7 +1655,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000020357">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin-like growth factor I proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from insulin-like growth factor I.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Igf1/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1620,7 +1668,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000020497">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactotransferrin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from lactotransferrin.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LTF/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1634,7 +1681,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000020775">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atrial natriuretic factor proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from atrial natriuretic factor.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPPA/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1648,7 +1694,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021066">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic prohormone proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from pancreatic prohormone.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPY/ClvPrd</oboInOwl:hasExactSynonym>
@@ -1662,7 +1707,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021170">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parathyroid hormone proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from parathyroid hormone.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000021170</oboInOwl:id>
@@ -1676,7 +1720,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021260">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from renin.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000021260</oboInOwl:id>
@@ -1690,7 +1733,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021468">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sonic hedgehog protein proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from sonic hedgehog protein.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000021468</oboInOwl:id>
@@ -1704,7 +1746,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021578">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatostatin proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from somatostatin.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000021578</oboInOwl:id>
@@ -1718,7 +1759,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021841">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">von Willebrand factor proteolytic cleavage product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proteolytic cleavage product that is derived from von Willebrand factor.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=modification.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000021841</oboInOwl:id>
@@ -1745,9 +1785,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000024990">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II interferon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that binds to a specific cell surface receptor complex known as the IFN-gamma receptor (IFNGR).</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family. The IFNGR consists of IFNGR1 and IFNGR2 chains.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that binds to a specific cell surface receptor complex known as the IFN-gamma receptor (IFNGR), a complex of two IFNGR1 and two IFNGR2 chains.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family. Note= Some references consider &apos;gamma&apos; and &apos;type II&apos; to be synonyms. This is likely because gamma is the only type II interferon identified. However, the classification criteria for each nomenclature system differ.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFN type II</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000024990</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon gamma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon type II</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -1758,9 +1801,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025848">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I interferon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that consists solely of an Interferon alpha/beta domain (PF00143).</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family. Type I interferons bind to a specific cell surface receptor complex known as the IFN-alpha receptor (IFNAR), which consists of IFNAR1 and IFNAR2 chains [PRO:MSY,PMID:15233997].</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that consists solely of an Interferon alpha/beta domain (Pfam:PF00143) and which binds to a specific cell surface receptor complex known as the IFN-alpha receptor (IFNAR), a heterodimer of IFNAR1 and IFNAR2 chains.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFN type I</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000025848</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon type I</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -1769,12 +1814,12 @@
     <!-- http://purl.obolibrary.org/obo/PR_000025853 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025853">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum amyloid A-2 protein</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primate-type serum amyloid A-2 protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SAA2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000025853</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAA2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
     </owl:Class>
@@ -1786,7 +1831,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025875">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serpin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is primarily known as an irreversible serine protease inhibitor active against S1, S8 and C14 peptidases. There are both extra- and intra-cellular serpins, which are found in all groups of organisms with the notable exception of fungi. Serpin contains a copy of the Serpin (PF00079) domain.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is primarily known as an irreversible serine protease inhibitor active against S1, S8 and C14 peptidases. There are both extra- and intra-cellular serpins, which are found in all groups of organisms with the notable exception of fungi. Serpin contains a copy of the Serpin (Pfam:PF00079) domain.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PANTHER:PTHR11461</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIRSF:PIRSF001630</oboInOwl:hasDbXref>
@@ -1815,10 +1860,23 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029067">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens protein</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is encoded in the genome of Homo sapiens.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000029067</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029968">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatotropin hormone family member</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a standalone version of the Hormone_1 domain (Pfam:PF00103). In the immature form, the domain is preceded by a signal peptide.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000029968</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fam:GH1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -1860,8 +1918,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P00450">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ceruloplasmin (human)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000005794"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000029067"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ceruloplasmin that is encoded in the genome of human.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene.</rdfs:comment>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:P00450</oboInOwl:id>
@@ -1873,5 +1929,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 0.2.2-SNAPSHOT) http://owlapi.sourceforge.net -->
 

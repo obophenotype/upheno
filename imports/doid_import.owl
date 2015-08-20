@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl"
+<rdf:RDF xmlns="/imports/doid_import.owl#"
+     xml:base="/imports/doid_import.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/imports/doid_import.owl">
+    <owl:Ontology rdf:about="/imports/doid_import.owl">
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Ontology>
     
@@ -135,7 +135,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1040">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic lymphocytic leukemia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1036"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1037"/>
     </owl:Class>
     
@@ -172,7 +171,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_169">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroendocrine tumor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
     </owl:Class>
     
 
@@ -190,7 +189,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_171">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuroectodermal tumor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3095"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3093"/>
     </owl:Class>
     
 
@@ -263,6 +262,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_305">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carcinoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050687"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3093">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous system cancer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
     </owl:Class>
     
 
@@ -397,7 +405,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5394">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prolactinoma</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_169"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5395"/>
     </owl:Class>
     

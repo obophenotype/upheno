@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: upheno/imports/mpath_import
+ontology: file:/imports/mpath_import.owl
 property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/mpath.owl
 
 [Term]
@@ -421,6 +421,11 @@ name: amyloid deposition
 is_a: MPATH:33 ! intracellular and extracellular accumulation
 
 [Term]
+id: MPATH:342
+name: myeloid leukaemia
+is_a: MPATH:496 ! Non-Lymphoid leukaemias
+
+[Term]
 id: MPATH:346
 name: autoimmune mediated disease
 is_a: MPATH:194 ! immune mediated disease
@@ -700,6 +705,11 @@ is_a: MPATH:270 ! adenoma
 id: MPATH:496
 name: Non-Lymphoid leukaemias
 is_a: MPATH:515 ! Non-Lymphoid neoplasias
+
+[Term]
+id: MPATH:502
+name: monocytic leukaemia
+is_a: MPATH:342 ! myeloid leukaemia
 
 [Term]
 id: MPATH:504
