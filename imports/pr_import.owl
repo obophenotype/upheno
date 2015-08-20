@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="/imports/pr_import.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl">
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Ontology>
     

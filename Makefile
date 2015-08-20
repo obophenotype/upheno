@@ -51,7 +51,7 @@ KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of
 #	owltools  $(USECAT) --map-ontology-iri $(UPHENO)/wbbt_import.owl mirror/wbbt.owl $< --merge-imports-closure mirror/$*.owl --add-imports-from-support  --extract-module -s $(OBO)/$*.owl -c --remove-axiom-annotations --make-subset-by-properties $(KEEPRELS) --set-ontology-id $(UPHENO)/$@ -o $@
 
 
-IMPORT_REQUESTS = imports/imports_requests.obo
+IMPORT_REQUESTS = imports/imports_requests.owl
 
 # GENERIC:
 imports/%_import.owl: imports/upheno-preimporter.owl $(IMPORT_REQUESTS) mirror/%.owl mp-edit.owl
@@ -108,3 +108,5 @@ external/uberon/%.owl:
 
 external/mirror/%.owl:
 	$(WGET) $(OBO)/$*.owl -O $@
+
+
