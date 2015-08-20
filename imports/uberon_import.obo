@@ -10612,6 +10612,11 @@ is_a: GO:0043229 ! intracellular organelle
 is_a: GO:0044444 ! cytoplasmic part
 
 [Term]
+id: GO:0031413
+name: regulation of buoyancy
+is_a: GO:0065008 ! regulation of biological quality
+
+[Term]
 id: GO:0031424
 name: keratinization
 is_a: GO:0044707 ! single-multicellular organism process
@@ -10912,6 +10917,12 @@ id: GO:0034111
 name: negative regulation of homotypic cell-cell adhesion
 is_a: GO:0022408 ! negative regulation of cell-cell adhesion
 is_a: GO:0034110 ! regulation of homotypic cell-cell adhesion
+
+[Term]
+id: GO:0034248
+name: regulation of cellular amide metabolic process
+is_a: GO:0031323 ! regulation of cellular metabolic process
+is_a: GO:0051171 ! regulation of nitrogen compound metabolic process
 
 [Term]
 id: GO:0034613
@@ -11859,6 +11870,12 @@ is_a: GO:0022603 ! regulation of anatomical structure morphogenesis
 is_a: GO:1901342 ! regulation of vasculature development
 
 [Term]
+id: GO:0045766
+name: positive regulation of angiogenesis
+is_a: GO:0045765 ! regulation of angiogenesis
+is_a: GO:1904018 ! positive regulation of vasculature development
+
+[Term]
 id: GO:0045786
 name: negative regulation of cell cycle
 is_a: GO:0048523 ! negative regulation of cellular process
@@ -12740,6 +12757,12 @@ is_a: GO:0046890 ! regulation of lipid biosynthetic process
 id: GO:0051093
 name: negative regulation of developmental process
 is_a: GO:0048519 ! negative regulation of biological process
+is_a: GO:0050793 ! regulation of developmental process
+
+[Term]
+id: GO:0051094
+name: positive regulation of developmental process
+is_a: GO:0048518 ! positive regulation of biological process
 is_a: GO:0050793 ! regulation of developmental process
 
 [Term]
@@ -14041,6 +14064,13 @@ is_a: GO:0048519 ! negative regulation of biological process
 is_a: GO:1903827 ! regulation of cellular protein localization
 
 [Term]
+id: GO:1904018
+name: positive regulation of vasculature development
+is_a: GO:0051094 ! positive regulation of developmental process
+is_a: GO:0051240 ! positive regulation of multicellular organismal process
+is_a: GO:1901342 ! regulation of vasculature development
+
+[Term]
 id: GO:1904115
 name: axon cytoplasm
 is_a: GO:0005737 ! cytoplasm
@@ -15274,6 +15304,11 @@ is_a: PATO:0000025 ! composition
 [Term]
 id: PATO:0002519
 name: cancellous
+is_a: PATO:0000141 ! structure
+
+[Term]
+id: PATO:0010001
+name: disconnected
 is_a: PATO:0000141 ! structure
 
 [Term]
