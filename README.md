@@ -1,60 +1,40 @@
 This repository contains common files ontologies and workflows shared
 between multiple phenotype ontologies.
 
-See (docs/)[docs] for details
+See [docs/](docs/) for details
 
-For more background, please see:
+## Imports
 
- * Sebastian Köhler, Sandra C Doelken, Barbara J Ruef, Sebastian Bauer, Nicole Washington, Monte Westerfield, George Gkoutos, Paul Schofield, Damian Smedley, Suzanna E Lewis, Peter N Robinson, Christopher J Mungall (2013) [Construction and accessibility of a cross-species phenotype ontology along with gene annotations for biomedical research](http://f1000research.com/articles/2-30/v1) F1000Research
- * C J Mungall, Georgios Gkoutos, Cynthia Smith, Melissa Haendel, Suzanna Lewis, Michael Ashburner (2010) [Integrating phenotype ontologies across multiple species](http://genomebiology.com/2010/11/1/R2) Genome Biology 11 (1)
+Currently import modules are shared between MP and HP.
 
-Getting Started
-===============
+The import modules are created here in the import directory.
 
-Please see [GettingStarted] for details on how to work with the OWL
-files
+A redirect at OCLC maps
 
-OWL axiomatization
-==================
+ * http://purl.obolibrary.org/obo/upheno ==> this repository on github
 
-The [OWLAxiomatization] page describes how we represent phenotypes in
-OWL, and how we reason with the resulting structures
+HP and MP import modules with this prefix
 
-Applications
-============
+The modules are created using the [Makefile](Makefile) which runs the
+OWLAPI SLME via OWLTools.
 
-The [Applications] page describes how the OWL axiomatization is used in
-applications such as [OWLSim](http://owlsim.org). This also describes
-the [CrossSpeciesPhenotypeOntology].
+The mp-edit and hp-edit files are used as seeds.
 
-Diseases
-========
+## History
 
-The primary focus of this repository is on phenotypes, which we consider
-distinct from diseases. However the [DiseaseIntegration] page contains
-preliminary information on integrating and axiomatization of disease
-ontologies.
+Previously we had various things on:
 
-Traits
-======
+ * https://code.google.com/p/phenotype-ontologies
 
-See [TraitsAndPhenotypes].
+This was split across multiple github repos
 
-Automated builds and QC
-=======================
+ * {data,server} ==> https://github.com/monarch-initiative/monarch-owlsim-data
+ * src/ontology
+    * mp ==> https://github.com/obophenotype/mammalian-phenotype-ontology/
+    * hp ==> https://github.com/obophenotype/human-phenotype-ontology/ (may change)
+    * imports/ ==> https://github.com/obophenotype/upheno
+    * monarch.owl ==> https://github.com/monarch-initiative/monarch-ontology
+    * zp.owl ==> TODO
+ * wiki ==> https://github.com/obophenotype/upheno ([docs/](docs/) directory)
 
-See the
-[build-pheno-ontologies](http://build.berkeleybop.org/job/build-pheno-ontologies)
-job on the Berkeley jenkins server
-
-Getting phenotype data
-======================
-
-Note that this repository is *not* intended to aggregate data - just
-the ontologies themselves. For the data, please see the respected
-sources, including:
-
- * [http://human-phenotype-ontology.org/](http://human-phenotype-ontology.org/) (human)
- * [http://informatics.jax.org/](http://informatics.jax.org/) (mouse)
- * [http://wormbase.org](http://wormbase.org) (worm)
- * [http://monarchinitiative.org](http://monarchinitiative.org) (aggregated)
+Issues: TODO
