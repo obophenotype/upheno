@@ -1,7 +1,7 @@
 This repository contains common files ontologies and workflows shared
 between multiple phenotype ontologies.
 
-See [docs/](docs/) for details
+See [docs/](docs/) for more about phenotype ontologies
 
 ## Imports
 
@@ -11,7 +11,7 @@ The import modules are created here in the import directory.
 
 A redirect at OCLC maps
 
- * http://purl.obolibrary.org/obo/upheno ==> this repository on github
+ * http://purl.obolibrary.org/obo/upheno/ ==> this repository on github
 
 HP and MP import modules with this prefix
 
