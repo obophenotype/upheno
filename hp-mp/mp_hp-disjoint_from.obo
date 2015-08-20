@@ -1,0 +1,33 @@
+! Use to override the results of text matches
+
+[Term]
+id: MP:0001189 ! absent skin pigmentation
+disjoint_from: HP:0007419 ! Pale pigmentation
+
+[Term]
+id: MP:0005421 ! loose skin
+disjoint_from: HP:0010750 ! Dermatochalasis
+
+[Term]
+id: MP:0002185 ! ectopia
+disjoint_from: HP:0002282 ! Heterotopia
+
+! http://code.google.com/p/phenotype-ontologies/issues/detail?id=7
+[Term]
+id: MP:0003030 ! acidemia
+disjoint_from: HP:0001941 ! Acidosis
+
+! http://code.google.com/p/phenotype-ontologies/issues/detail?id=10
+[Term]
+id: MP:0011617 ! abnormal habituation
+disjoint_from: HP:0004323 ! Abnormality of body weight
+
+! http://code.google.com/p/phenotype-ontologies/issues/detail?id=12
+[Term]
+id: MP:0010030 ! abnormal orbit morphology
+disjoint_from: HP:0000315 ! Abnormality of the orbital region
+
+[Term]
+id: MP:0000428 ! abnormal craniofacial morphology
+disjoint_from: HP:0001999 ! Abnormal facial shape
+ 
