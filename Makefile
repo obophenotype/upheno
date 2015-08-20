@@ -1,11 +1,13 @@
 OBO=http://purl.obolibrary.org/obo
+WGET= wget --no-check-certificate
 all: all_imports
+
 
 # local copies, for seeding
 mp-edit.owl:
-	wget --no-check-certificate $(OBO)/mp/mp-edit.owl -O $@
+	$(WGET) $(OBO)/mp/mp-edit.owl -O $@
 hp-edit.owl:
-	wget --no-check-certificate $(OBO)/hp/hp-edit.owl -O $@
+	$(WGET)  $(OBO)/hp/hp-edit.owl -O $@
 
 # ----------------------------------------
 # Module extraction / Imports generation
@@ -68,13 +70,13 @@ mirror/%.owl:
 mirror/uberon-ext.owl: external/uberon/ext.owl
 	owltools $(OBO)/uberon/ext.owl --merge-imports-closure -o $@
 #mirror/fma-orig.owl: 
-#	wget $(OBO)/fma.owl -O $@
+#	$(WGET) $(OBO)/fma.owl -O $@
 
 ## ANNOYING: this needs built periodically to avoid stale imports
 mirror/fma.owl:
 	owltools mirror/composite-fma.owl --extract-mingraph --set-ontology-id $(OBO)/fma.owl -o $@
 mirror/ro.owl:
-	wget $(OBO)/ro.owl -O $@
+	$(WGET) $(OBO)/ro.owl -O $@
 mirror/uberon.owl: mirror/uberon-ext.owl
 	owltools $(USECAT) $<  --merge-support-ontologies --merge-imports-closure --make-subset-by-properties -n $(KEEPRELS)  --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations  --set-ontology-id $(OBO)/uberon.owl -o $@
 ##### need to sort sync issue
@@ -87,7 +89,7 @@ mirror/wbbt.owl:
 mirror/go.owl: 
 	owltools $(OBO)/go/extensions/go-plus.owl $(OBO)/go/extensions/x-metazoan-anatomy.owl    --merge-imports-closure --merge-support-ontologies --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/go.owl -o $@
 mirror/pr.obo:
-	wget $(OBO)/pr.obo -O $@.tmp && obo-grep.pl -r 'id: PR:' $@.tmp > $@
+	$(WGET) $(OBO)/pr.obo -O $@.tmp && obo-grep.pl -r 'id: PR:' $@.tmp > $@
 mirror/pr.owl: mirror/pr.obo
 	owltools $< --remove-dangling --set-ontology-id $(OBO)/pr.owl -o $@
 .PRECIOUS: mirror/%.owl
@@ -105,4 +107,4 @@ external/uberon/%.owl:
 	echo $@
 
 external/mirror/%.owl:
-	wget $(OBO)/$*.owl -O $@
+	$(WGET) $(OBO)/$*.owl -O $@
