@@ -40,10 +40,3 @@ OWL Axiomatization
 The OWL axioms for ZP are in 
 [zp.owl](https://compbio.charite.de/hudson/job/zp-owl/lastSuccessfulBuild/artifact/)
 that is build on our hudson server.
-
-
-Because ZP is built "pre-axiomatized", the equivalence axioms are
-already present in zp.owl
-
-`* `[`http://purl.obolibrary.org/obo/zp.owl`](http://purl.obolibrary.org/obo/zp.owl)` - ZP pre-reasoned auto-ontology`\
-`* `[`http://purl.obolibrary.org/obo/zp/zp-importer.owl`](http://purl.obolibrary.org/obo/zp/zp-importer.owl)` - brings in other ontologies`
