@@ -16,7 +16,7 @@ A redirect at OCLC maps
 HP and MP import modules with this prefix
 
 The modules are created using the [Makefile](Makefile) which runs the
-OWLAPI SLME via OWLTools.
+OWLAPI SLME (SyntacticLocalityModuleExtractor) via OWLTools.
 
 The mp-edit and hp-edit files are used as seeds.
 
