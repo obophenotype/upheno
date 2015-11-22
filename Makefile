@@ -5,7 +5,7 @@ all: all_imports
 test: reasoner-test-mammal reasoner-test-metazoa
 
 reasoner-test-%: %.owl
-	owltools $< --run-reasoner -r elk -u
+	owltools $< --run-reasoner -r elk -u > $@.out && echo ok || (tail -100 $@.out ; exit 1)
 
 # local copies, for seeding
 mp-edit.owl:
