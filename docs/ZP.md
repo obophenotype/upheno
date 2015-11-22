@@ -1,5 +1,3 @@
-1.  summary Zebrafish phenotypes
-
 Introduction
 ============
 
@@ -34,17 +32,11 @@ The OWL formalism for ZFIN annotations is described here:
 
 The java implementation is here:
 
--   <https://code.google.com/p/bio-ontology-zp/>
+-   https://github.com/sba1/bio-ontology-zp
 
 OWL Axiomatization
 ==================
 
-The OWL axioms for ZP are in the
-[src/ontology/zp](http://phenotype-ontologies.googlecode.com/svn/trunk/src/ontology/zp/)
-directory on this site.
-
-Because ZP is built "pre-axiomatized", the equivalence axioms are
-already present in zp.owl
-
-`* `[`http://purl.obolibrary.org/obo/zp.owl`](http://purl.obolibrary.org/obo/zp.owl)` - ZP pre-reasoned auto-ontology`\
-`* `[`http://purl.obolibrary.org/obo/zp/zp-importer.owl`](http://purl.obolibrary.org/obo/zp/zp-importer.owl)` - brings in other ontologies`
+The OWL axioms for ZP are in 
+[zp.owl](https://compbio.charite.de/hudson/job/zp-owl/lastSuccessfulBuild/artifact/)
+that is build on our hudson server.
