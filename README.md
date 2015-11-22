@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/obophenotype/upheno.svg?branch=master)](https://travis-ci.org/obophenotype/upheno)
+[![DOI](https://zenodo.org/badge/13996/obophenotype/upheno.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/upheno)
+
 This repository contains common files ontologies and workflows shared
 between multiple phenotype ontologies.
 
@@ -18,7 +21,7 @@ HP and MP import modules with this prefix
 The modules are created using the [Makefile](Makefile) which runs the
 OWLAPI SLME via OWLTools.
 
-The mp-edit and hp-edit files are used as seeds.
+The mp-edit and hp-edit files are used as seeds. 
 
 ## History
 

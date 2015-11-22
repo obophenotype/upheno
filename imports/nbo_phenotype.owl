@@ -2467,7 +2467,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000447PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000447PHENOTYPE">
-        <rdfs:label>locomotor activation phenotype</rdfs:label>
+        <rdfs:label>locomotor activation behavior phenotype</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
@@ -2495,7 +2495,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000449PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000449PHENOTYPE">
-        <rdfs:label>spontaneous movement phenotype</rdfs:label>
+        <rdfs:label>spontaneous movement behavior phenotype</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
@@ -4152,6 +4152,20 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0002362"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002379PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002379PHENOTYPE">
+        <rdfs:label>nursing behavior phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002379"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Class>

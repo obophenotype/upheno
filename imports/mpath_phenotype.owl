@@ -490,20 +490,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MPATH_217PHENOTYPE -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_217PHENOTYPE">
-        <rdfs:label>ulcerative inflammation phenotype</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_217"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MPATH_218PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_218PHENOTYPE">
@@ -1176,20 +1162,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MPATH_336PHENOTYPE -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_336PHENOTYPE">
-        <rdfs:label>leukaemia phenotype</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_336"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MPATH_33PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_33PHENOTYPE">
@@ -1204,14 +1176,14 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MPATH_343PHENOTYPE -->
+    <!-- http://purl.obolibrary.org/obo/MPATH_342PHENOTYPE -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_343PHENOTYPE">
-        <rdfs:label>lymphoma phenotype</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_342PHENOTYPE">
+        <rdfs:label>myeloid leukaemia phenotype</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_343"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_342"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Class>
@@ -1792,20 +1764,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MPATH_434PHENOTYPE -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_434PHENOTYPE">
-        <rdfs:label>neurilemmoma phenotype</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_434"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MPATH_435PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_435PHENOTYPE">
@@ -1946,6 +1904,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MPATH_490PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_490PHENOTYPE">
+        <rdfs:label>adenomatous polyp phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_490"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_496PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_496PHENOTYPE">
+        <rdfs:label>Non-Lymphoid leukaemias phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_496"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MPATH_4PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_4PHENOTYPE">
@@ -1954,6 +1940,20 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_502PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_502PHENOTYPE">
+        <rdfs:label>monocytic leukaemia phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_502"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Class>
@@ -1996,6 +1996,20 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_513"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_515PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_515PHENOTYPE">
+        <rdfs:label>Non-Lymphoid neoplasias phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_515"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Class>
@@ -2422,6 +2436,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MPATH_625PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_625PHENOTYPE">
+        <rdfs:label>avulsion phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_625"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MPATH_629PHENOTYPE -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_629PHENOTYPE">
@@ -2612,6 +2640,48 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_74"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_81PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_81PHENOTYPE">
+        <rdfs:label>perforation phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_81"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_850PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_850PHENOTYPE">
+        <rdfs:label>post-traumatic structural abnormality phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_850"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPATH_851PHENOTYPE -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_851PHENOTYPE">
+        <rdfs:label>auricular deformation phenotype</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MPATH_851"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Class>

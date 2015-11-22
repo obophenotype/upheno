@@ -2,6 +2,10 @@ OBO=http://purl.obolibrary.org/obo
 WGET= wget --no-check-certificate
 all: all_imports
 
+test: reasoner-test-mammal reasoner-test-metazoa
+
+reasoner-test-%: %.owl
+	owltools $< --run-reasoner -r elk -u
 
 # local copies, for seeding
 mp-edit.owl:
@@ -31,7 +35,7 @@ hp-edit.owl:
 # this means that any one import will be larger than is strictly required for any one species, but there are advantages to sharing here
 
 # Base URI for local subset imports
-##UPHENO = $(OBO)/upheno
+UPHENO = $(OBO)/upheno
 
 # Ontology dependencies. TODO - nbo
 IMPORTS = pato uberon chebi pr go doid mpath nbo
@@ -67,7 +71,7 @@ imports/fma_import.owl:
 mirror/%.owl:
 	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/$*.owl -o $@
 # uberon-ext is actually uberon+cl
-mirror/uberon-ext.owl: external/uberon/ext.owl
+mirror/uberon-ext.owl: 
 	owltools $(OBO)/uberon/ext.owl --merge-imports-closure -o $@
 #mirror/fma-orig.owl: 
 #	$(WGET) $(OBO)/fma.owl -O $@
@@ -103,10 +107,41 @@ imports/so_import.owl:
 imports/%_import.obo: imports/%_import.owl
 	owltools $< -o -f obo $@
 
+imports/%_phenotype.obo: imports/%_phenotype.owl
+	owltools $< --assert-inferred-subclass-axioms --removeRedundant --allowEquivalencies -o -f obo $@
+
 external/uberon/%.owl:
 	echo $@
 
 external/mirror/%.owl:
 	$(WGET) $(OBO)/$*.owl -O $@
 
+
+
+
+
+# ----------------------------------------
+# GROUPINGS
+# ----------------------------------------
+util/blacklist.js:
+	owljs -i tools/make-blacklist.js
+
+#imports/%_phenotype.owl: imports/%_import.owl ./tools/blacklist.js 
+#	owljs -i tools/make-grouping-classes.js
+
+imports/%_import.tsv: imports/%_import.owl
+	owltools $< --export-table $@.tmp && cut -f1,2 $@.tmp > $@
+
+imports/%_entities.tsv: imports/%_import.tsv
+	 ./tools/make-entity-table.pl $< imports/entity_blacklist.tsv  > $@.tmp && mv $@.tmp $@
+
+imports/%_phenotype.omn: imports/%_entities.tsv
+	apply-pattern.py -p patterns/grouping_phenotype.yaml -i $< > $@.tmp && mv $@.tmp $@
+imports/%_phenotype.owl: imports/%_phenotype.omn
+	owltools $< -o $@
+
+##
+
+zp.obo:
+	owltools $(OBO)/upheno/zp.owl --add-ontology-annotation http://www.geneontology.org/formats/oboInOwl#logical-definition-view-relation has_part --add-obo-shorthand-to-properties -o -f obo --no-check $@
 
