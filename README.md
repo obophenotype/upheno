@@ -12,7 +12,7 @@ Currently import modules are shared between MP and HP.
 
 The import modules are created here in the import directory.
 
-A redirect at OCLC maps
+A redirect at [obolibrary.org](https://github.com/OBOFoundry/purl.obolibrary.org/) maps
 
  * http://purl.obolibrary.org/obo/upheno/ ==> this repository on github
 
