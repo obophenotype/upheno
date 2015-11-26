@@ -142,6 +142,8 @@ imports/%_phenotype.owl: imports/%_phenotype.omn
 
 ##
 
+zp.owl:
+	wget $(OBO)/upheno/zp.owl -O $@
 zp.obo:
 	owltools $(OBO)/upheno/zp.owl --add-ontology-annotation http://www.geneontology.org/formats/oboInOwl#logical-definition-view-relation has_part --add-obo-shorthand-to-properties -o -f obo --no-check $@
 
