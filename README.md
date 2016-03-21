@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/obophenotype/upheno.svg?branch=master)](https://travis-ci.org/obophenotype/upheno)
-[![DOI](https://zenodo.org/badge/13996/obophenotype/upheno.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/upheno)
 
 This repository contains common files ontologies and workflows shared
 between multiple phenotype ontologies.
@@ -37,7 +36,6 @@ This was split across multiple github repos
     * hp ==> https://github.com/obophenotype/human-phenotype-ontology/ (may change)
     * imports/ ==> https://github.com/obophenotype/upheno
     * monarch.owl ==> https://github.com/monarch-initiative/monarch-ontology
-    * zp.owl ==> TODO
+    * zp.owl ==> http://compbio.charite.de/jenkins/job/zp-owl/
  * wiki ==> https://github.com/obophenotype/upheno ([docs/](docs/) directory)
 
-Issues: TODO
