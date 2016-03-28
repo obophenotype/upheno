@@ -147,3 +147,16 @@ zp.owl:
 zp.obo:
 	owltools $(OBO)/upheno/zp.owl --add-ontology-annotation http://www.geneontology.org/formats/oboInOwl#logical-definition-view-relation has_part --add-obo-shorthand-to-properties -o -f obo --no-check $@
 
+
+## MAPPINGS
+
+%-compute.obo: %.owl
+	owltools $(USECAT) $< --merge-imports-closure --remove-axiom-annotations --remove-disjoints --remove-abox --remove-annotation-assertions -l --assert-inferred-subclass-axioms --always-assert-super-classes --removeRedundant --allowEquivalencies --make-subset-by-properties -f // -o -f obo --no-check $@
+.PRECIOUS: %-compute.obo
+
+all_mappings: mappings/zp-to-hp-match.tbl mappings/hp-to-zp-match.tbl mappings/hp-to-mp-match.tbl
+mappings/%-match.tbl: vertebrate-compute.obo
+	owltools $(USECAT) $< --make-default-abox --fsim-compare-atts -p mappings/$*-sim.properties -o $@.tmp && mv $@.tmp $@
+
+mappings/%-bestmatches.tbl: mappings/%-match.tbl
+	./tools/extract-bestmatches.pl $< > $@.tmp && mv $@.tmp $@
