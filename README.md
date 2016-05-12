@@ -84,20 +84,15 @@ The OWL axiomatization depends on a number of external ontologies, including
 
 Many of these are large, so we create *import modules* in the upheno ontology purl space
 
-Currently import modules are shared between MP and HP.
+See the [imports](imports) directory
 
-The import modules are created here in the import directory.
+## PURLs
+
+This ontology has the OBO PURL `upheno`
 
 A redirect at [obolibrary.org](https://github.com/OBOFoundry/purl.obolibrary.org/) maps
 
  * http://purl.obolibrary.org/obo/upheno/ ==> this repository on github
-
-HP and MP import modules with this prefix
-
-The modules are created using the [Makefile](Makefile) which runs the
-OWLAPI SLME (SyntacticLocalityModuleExtractor) via OWLTools.
-
-The mp-edit and hp-edit files are used as seeds. 
 
 ## History
 
