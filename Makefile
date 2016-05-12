@@ -2,7 +2,7 @@ OBO=http://purl.obolibrary.org/obo
 WGET= wget --no-check-certificate
 all: all_imports
 
-test: reasoner-test-mammal reasoner-test-metazoa
+test: reasoner-test-mammal reasoner-test-vertebrate reasoner-test-metazoa
 
 reasoner-test-%: %.owl
 	owltools $< --run-reasoner -r elk -u > $@.out && echo ok || (tail -100 $@.out ; exit 1)
