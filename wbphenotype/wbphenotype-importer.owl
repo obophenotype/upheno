@@ -26,7 +26,7 @@
         <owl:imports rdf:resource="&obo;upheno/imports/go_import.owl"/>
         <owl:imports rdf:resource="&obo;upheno/imports/pato_import.owl"/>
         <owl:imports rdf:resource="&obo;upheno/imports/wbbt_import.owl"/>
-        <owl:imports rdf:resource="&obo;wbphenotype/wbphenotype-equivalence-axioms-subq-ubr.owl"/>
+        <owl:imports rdf:resource="&obo;upheno/wbphenotype/wbphenotype-equivalence-axioms.owl"/>
     </owl:Ontology>
     
 
