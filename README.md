@@ -5,6 +5,14 @@ between multiple phenotype ontologies.
 
 See the [wiki](/obophenotype/upheno/wiki) for additional documentation
 
+## Inter-ontology Closest Matches
+
+ * [hp-to-mp-bestmatches.tsv](mappings/hp-to-mp-bestmatches.tsv)
+ * [hp-to-zp-bestmatches.tsv](mappings/hp-to-zp-bestmatches.tsv)
+ * [hp-to-wbphenotype-bestmatches.tsv](mappings/hp-to-wbphenotype-bestmatches.tsv)
+
+See [mappings/README.md](mappings/README.md) for explanation of fields
+
 ## Background
 
 Many databases use their own ontology geared towards their species of
