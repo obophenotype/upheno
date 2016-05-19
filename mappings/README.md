@@ -1,3 +1,5 @@
+__NOTE: when browsing the TSVs on GitHub, the right hand columns may appear truncated__
+
 ## Generated fuzzy matchings between ontologies
 
 Use the following PURLs:
