@@ -6,6 +6,7 @@ Use the following PURLs:
 
  * http://purl.obolibrary.org/obo/upheno/mappings/hp-to-zp-bestmatches.tsv
  * http://purl.obolibrary.org/obo/upheno/mappings/hp-to-mp-bestmatches.tsv
+ * http://purl.obolibrary.org/obo/upheno/mappings/hp-to-wbphenotype-bestmatches.tsv
 
 Columns:
 
