@@ -85,8 +85,10 @@ mirror/ro.owl:
 	$(WGET) $(OBO)/ro.owl -O $@
 
 # See https://github.com/obophenotype/upheno/issues/159
-mirror/nbo.owl:
-	owltools $(OBO)/nbo.owl --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/$*.owl -o $@.tmp && perl -npe 's@obo/nbo.owl/@obo/@' $@.tmp > $@
+mirror/nbo.obo:
+	$(WGET) $(OBO)/nbo.obo -O $@.tmp && egrep -v '^(import|property_value)' $@.tmp > $@
+mirror/nbo.owl: mirror/nbo.obo
+	owltools $<  --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/$*.owl -o $@.tmp && perl -npe 's@obo/nbo.owl/@obo/@' $@.tmp > $@
 
 mirror/wbbt.owl:
 	owltools $(OBO)/uberon/basic.owl $(OBO)/cl.owl $(OBO)/wbls.owl $(OBO)/wbbt.owl $(OBO)/uberon/bridge/uberon-bridge-to-wbbt.owl $(OBO)/uberon/bridge/cl-bridge-to-wbbt.owl $(OBO)/ncbitaxon/subsets/taxslim.owl --merge-support-ontologies --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties $(KEEPRELS)  --set-ontology-id $(OBO)/wbbt.owl -o $@
