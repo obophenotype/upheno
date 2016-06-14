@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl">
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/nbo.owl"/>
     </owl:Ontology>
@@ -26,8 +27,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body part movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body part movement</rdfs:label>
     </owl:Class>
     
 
@@ -35,8 +36,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000002">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole body movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole body movement</rdfs:label>
     </owl:Class>
     
 
@@ -44,8 +45,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000003">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional behavior</rdfs:label>
     </owl:Class>
     
 
@@ -53,8 +54,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000006">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning and/or memory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning and/or memory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -62,8 +63,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000007">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouth movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouth movement</rdfs:label>
     </owl:Class>
     
 
@@ -71,8 +72,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000008">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhythmic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhythmic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -80,8 +81,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000009">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000644"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -89,8 +90,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000010">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -98,8 +99,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000011">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social behavior</rdfs:label>
     </owl:Class>
     
 
@@ -107,8 +108,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000012">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizures/epilepsy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizures/epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -116,8 +117,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000013">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -125,8 +126,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000014">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating behavior</rdfs:label>
     </owl:Class>
     
 
@@ -134,8 +135,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -143,9 +144,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000018">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear/anxiety related behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear/anxiety related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -153,8 +154,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000020">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head movement</rdfs:label>
     </owl:Class>
     
 
@@ -162,8 +163,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000022">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -171,9 +172,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000023">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head shaking</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000020"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000068"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head shaking</rdfs:label>
     </owl:Class>
     
 
@@ -181,8 +182,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000024">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleeping behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleeping behavior</rdfs:label>
     </owl:Class>
     
 
@@ -190,8 +191,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000025">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizures</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000012"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizures</rdfs:label>
     </owl:Class>
     
 
@@ -199,8 +200,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000027">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grooming behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grooming behavior</rdfs:label>
     </owl:Class>
     
 
@@ -208,8 +209,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000030">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperactivity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000644"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperactivity</rdfs:label>
     </owl:Class>
     
 
@@ -217,8 +218,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000032">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paralysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paralysis</rdfs:label>
     </owl:Class>
     
 
@@ -226,8 +227,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual activity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual activity</rdfs:label>
     </owl:Class>
     
 
@@ -235,8 +236,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000035">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emission behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emission behavior</rdfs:label>
     </owl:Class>
     
 
@@ -244,8 +245,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000036">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of production of sound</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000035"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of production of sound</rdfs:label>
     </owl:Class>
     
 
@@ -253,8 +254,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000037">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocalization behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000036"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocalization behavior</rdfs:label>
     </owl:Class>
     
 
@@ -262,8 +263,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000043">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonding behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000280"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonding behavior</rdfs:label>
     </owl:Class>
     
 
@@ -271,8 +272,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000044">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parental behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parental behavior</rdfs:label>
     </owl:Class>
     
 
@@ -280,9 +281,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000048">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protection of offspring behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000044"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protection of offspring behavior</rdfs:label>
     </owl:Class>
     
 
@@ -290,8 +291,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000051">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermoregulation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermoregulation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -299,8 +300,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000052">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huddling behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huddling behavior</rdfs:label>
     </owl:Class>
     
 
@@ -308,8 +309,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000054">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suckling behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suckling behavior</rdfs:label>
     </owl:Class>
     
 
@@ -317,8 +318,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000056">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">walking behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000359"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">walking behavior</rdfs:label>
     </owl:Class>
     
 
@@ -326,8 +327,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000057">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scratching</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scratching</rdfs:label>
     </owl:Class>
     
 
@@ -335,8 +336,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002436"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of eating behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002436"/>
     </owl:Class>
     
 
@@ -344,8 +345,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002436"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of drinking behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002436"/>
     </owl:Class>
     
 
@@ -353,8 +354,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000068">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shaking</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shaking</rdfs:label>
     </owl:Class>
     
 
@@ -362,8 +363,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000073">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chewing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000747"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chewing</rdfs:label>
     </owl:Class>
     
 
@@ -371,8 +372,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000075">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">playing behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">playing behavior</rdfs:label>
     </owl:Class>
     
 
@@ -380,8 +381,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000079">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeding behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeding behavior</rdfs:label>
     </owl:Class>
     
 
@@ -389,8 +390,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000084">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian behavior</rdfs:label>
     </owl:Class>
     
 
@@ -398,8 +399,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000085">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depression behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depression behavior</rdfs:label>
     </owl:Class>
     
 
@@ -407,8 +408,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000086">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">novelty response behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">novelty response behavior</rdfs:label>
     </owl:Class>
     
 
@@ -416,8 +417,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000091">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -425,8 +426,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000092">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety-related behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety-related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -434,9 +435,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000094">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards situation/environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000100"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards situation/environment</rdfs:label>
     </owl:Class>
     
 
@@ -444,9 +445,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000096">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agoraphobia behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000094"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000246"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agoraphobia behavior</rdfs:label>
     </owl:Class>
     
 
@@ -454,8 +455,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000097">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000086"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel environment</rdfs:label>
     </owl:Class>
     
 
@@ -463,8 +464,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000098">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel object</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000086"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel object</rdfs:label>
     </owl:Class>
     
 
@@ -472,8 +473,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000099">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel odor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000086"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to novel odor</rdfs:label>
     </owl:Class>
     
 
@@ -481,8 +482,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000100">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exploration behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000097"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exploration behavior</rdfs:label>
     </owl:Class>
     
 
@@ -490,8 +491,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000101">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retropulsion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000056"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retropulsion</rdfs:label>
     </owl:Class>
     
 
@@ -499,10 +500,10 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000102">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related retropulsion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000100"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000101"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related retropulsion</rdfs:label>
     </owl:Class>
     
 
@@ -510,8 +511,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000103">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coping behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coping behavior</rdfs:label>
     </owl:Class>
     
 
@@ -519,8 +520,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000104">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards humans</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000105"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards humans</rdfs:label>
     </owl:Class>
     
 
@@ -528,8 +529,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000105">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards animals</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000740"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards animals</rdfs:label>
     </owl:Class>
     
 
@@ -537,8 +538,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000106">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards objects</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000740"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards objects</rdfs:label>
     </owl:Class>
     
 
@@ -546,8 +547,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000107">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards mice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000105"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards mice</rdfs:label>
     </owl:Class>
     
 
@@ -555,9 +556,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000110">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards male mice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000107"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000118"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards male mice</rdfs:label>
     </owl:Class>
     
 
@@ -565,9 +566,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000111">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards female mice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000107"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000117"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards female mice</rdfs:label>
     </owl:Class>
     
 
@@ -575,8 +576,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000112">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards inanimate objects</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000106"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards inanimate objects</rdfs:label>
     </owl:Class>
     
 
@@ -584,8 +585,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000116">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gender-related aggressive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000105"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gender-related aggressive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -593,8 +594,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000117">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards females</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000116"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards females</rdfs:label>
     </owl:Class>
     
 
@@ -602,8 +603,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000118">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards males</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000116"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards males</rdfs:label>
     </owl:Class>
     
 
@@ -611,8 +612,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000119">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impulsive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impulsive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -620,8 +621,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000120">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical aggression behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000741"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical aggression behavior</rdfs:label>
     </owl:Class>
     
 
@@ -629,9 +630,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000121">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agonistic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agonistic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -639,8 +640,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000122">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submissive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submissive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -648,8 +649,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000123">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submissive behavior towards males</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000122"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submissive behavior towards males</rdfs:label>
     </owl:Class>
     
 
@@ -657,8 +658,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000125">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submissive behavior towards male mice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000123"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submissive behavior towards male mice</rdfs:label>
     </owl:Class>
     
 
@@ -666,8 +667,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000128">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">irritability behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">irritability behavior</rdfs:label>
     </owl:Class>
     
 
@@ -675,8 +676,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000129">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agitation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agitation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -684,8 +685,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000130">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid consumption</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid consumption</rdfs:label>
     </owl:Class>
     
 
@@ -693,8 +694,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000131">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol consumption</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol consumption</rdfs:label>
     </owl:Class>
     
 
@@ -702,8 +703,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000134">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food consumption</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food consumption</rdfs:label>
     </owl:Class>
     
 
@@ -711,8 +712,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000136">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saccharin consumption</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000134"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saccharin consumption</rdfs:label>
     </owl:Class>
     
 
@@ -720,8 +721,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000146">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating receptivity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000014"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating receptivity</rdfs:label>
     </owl:Class>
     
 
@@ -729,8 +730,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000148">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social investigation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social investigation</rdfs:label>
     </owl:Class>
     
 
@@ -738,8 +739,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000150">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000044"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal behavior</rdfs:label>
     </owl:Class>
     
 
@@ -747,8 +748,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000152">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal nurturing behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000150"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal nurturing behavior</rdfs:label>
     </owl:Class>
     
 
@@ -756,8 +757,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000154">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal crouching</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal crouching</rdfs:label>
     </owl:Class>
     
 
@@ -765,8 +766,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000155">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">offspring retrieval</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000048"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">offspring retrieval</rdfs:label>
     </owl:Class>
     
 
@@ -774,8 +775,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000156">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nesting behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nesting behavior</rdfs:label>
     </owl:Class>
     
 
@@ -783,8 +784,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000157">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nest building behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000156"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nest building behavior</rdfs:label>
     </owl:Class>
     
 
@@ -792,9 +793,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000159">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid eye movement sleep</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000024"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000084"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid eye movement sleep</rdfs:label>
     </owl:Class>
     
 
@@ -802,8 +803,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000166">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian rhythm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000084"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian rhythm</rdfs:label>
     </owl:Class>
     
 
@@ -811,8 +812,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000170">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -820,9 +821,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000171">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associative learning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000022"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associative learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -830,9 +831,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000172">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory learning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000323"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000641"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -840,8 +841,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000174">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor learning</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor learning</rdfs:label>
     </owl:Class>
     
 
@@ -849,8 +850,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000175">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial learning</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial learning</rdfs:label>
     </owl:Class>
     
 
@@ -858,8 +859,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000180">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-term memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-term memory</rdfs:label>
     </owl:Class>
     
 
@@ -867,8 +868,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000181">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term memory</rdfs:label>
     </owl:Class>
     
 
@@ -876,8 +877,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000185">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">declarative memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000181"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">declarative memory</rdfs:label>
     </owl:Class>
     
 
@@ -885,8 +886,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000208">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classical conditioning</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classical conditioning</rdfs:label>
     </owl:Class>
     
 
@@ -894,8 +895,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000210">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance learning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -903,8 +904,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000211">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned taste aversion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned taste aversion</rdfs:label>
     </owl:Class>
     
 
@@ -912,8 +913,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000212">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operant conditioning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operant conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -921,8 +922,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000214">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latent learning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latent learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -930,8 +931,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000217">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active avoidance learning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">active avoidance learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -939,8 +940,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000218">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passive avoidance learning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000210"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passive avoidance learning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -948,9 +949,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000221 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000221">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned emotional response</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned emotional response</rdfs:label>
     </owl:Class>
     
 
@@ -958,8 +959,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000222">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned place preference behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conditioned place preference behavior</rdfs:label>
     </owl:Class>
     
 
@@ -967,8 +968,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000223">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contextual conditioning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contextual conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -976,8 +977,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000224">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cued conditioning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cued conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -985,8 +986,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000227">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye blink conditioning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye blink conditioning behavior</rdfs:label>
     </owl:Class>
     
 
@@ -994,8 +995,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000229">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibular behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000656"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibular behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1003,8 +1004,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000233">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motivation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motivation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1020,8 +1021,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000244 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000244">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological anxiety</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000601"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological anxiety</rdfs:label>
     </owl:Class>
     
 
@@ -1029,8 +1030,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000246">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phobia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000244"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phobia</rdfs:label>
     </owl:Class>
     
 
@@ -1038,8 +1039,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000248 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000248">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsessive-compulsive disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000244"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsessive-compulsive disorder</rdfs:label>
     </owl:Class>
     
 
@@ -1047,8 +1048,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000256 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000256">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mood disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mood disorder</rdfs:label>
     </owl:Class>
     
 
@@ -1056,8 +1057,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000258">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bipolar disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bipolar disorder</rdfs:label>
     </owl:Class>
     
 
@@ -1065,8 +1066,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000259">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psychotic disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psychotic disorder</rdfs:label>
     </owl:Class>
     
 
@@ -1074,8 +1075,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000265 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000265">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personality disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personality disorder</rdfs:label>
     </owl:Class>
     
 
@@ -1083,8 +1084,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000266 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000266">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cognitive behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cognitive behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1092,8 +1093,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000268 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000268">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dementia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dementia</rdfs:label>
     </owl:Class>
     
 
@@ -1101,8 +1102,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000270 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000270">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeding behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeding behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1110,8 +1111,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000280">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attraction-related behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attraction-related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1119,8 +1120,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000293">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from intelligence</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from intelligence</rdfs:label>
     </owl:Class>
     
 
@@ -1128,8 +1129,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000306 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000306">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory storage behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory storage behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1137,8 +1138,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000308">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1154,8 +1155,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000314 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000314">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1163,8 +1164,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000315">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optokinetic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optokinetic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1172,8 +1173,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000317">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibular behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000327"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibular behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1181,8 +1182,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000318">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balance</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000317"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balance</rdfs:label>
     </owl:Class>
     
 
@@ -1190,8 +1191,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000322 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000322">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemosensory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001632"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemosensory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1199,8 +1200,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000323">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000322"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1208,8 +1209,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000327 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000327">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatic sensation related behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000751"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatic sensation related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1217,8 +1218,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000330 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000330">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cutaneous sensation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000327"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cutaneous sensation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1226,8 +1227,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000331">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nociceptive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000330"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1235,8 +1236,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000332">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">touch related behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000330"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">touch related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1244,8 +1245,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000333">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical nociceptive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1253,8 +1254,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000334 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000334">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechanical nociceptive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechanical nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1262,8 +1263,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000335 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000335">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermal nociceptive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thermal nociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1271,8 +1272,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000336 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000336">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemically-elicited antinociceptive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemically-elicited antinociceptive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1280,8 +1281,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000338 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000338">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinesthetic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinesthetic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1289,8 +1290,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000339 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000339">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor coordination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000317"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor coordination</rdfs:label>
     </owl:Class>
     
 
@@ -1298,8 +1299,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000342 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000342">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb coordination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000347"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb coordination</rdfs:label>
     </owl:Class>
     
 
@@ -1307,8 +1308,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000347">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gross motor coordination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000339"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gross motor coordination</rdfs:label>
     </owl:Class>
     
 
@@ -1316,8 +1317,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000355">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posture</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000317"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posture</rdfs:label>
     </owl:Class>
     
 
@@ -1325,8 +1326,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000357 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000357">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb posture</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000355"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limb posture</rdfs:label>
     </owl:Class>
     
 
@@ -1334,8 +1335,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000358 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000358">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resting posture</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000355"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resting posture</rdfs:label>
     </owl:Class>
     
 
@@ -1343,8 +1344,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000359">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial locomotory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial locomotory behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1352,8 +1353,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000361">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000342"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gait</rdfs:label>
     </owl:Class>
     
 
@@ -1361,8 +1362,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000362">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stride</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000361"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stride</rdfs:label>
     </owl:Class>
     
 
@@ -1370,8 +1371,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000371">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aquatic locomotion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aquatic locomotion</rdfs:label>
     </owl:Class>
     
 
@@ -1379,8 +1380,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000372">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">directional control of locomotion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">directional control of locomotion</rdfs:label>
     </owl:Class>
     
 
@@ -1388,8 +1389,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000373 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000373">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory orientation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000372"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory orientation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1397,8 +1398,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000375">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000373"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxis</rdfs:label>
     </owl:Class>
     
 
@@ -1406,8 +1407,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000378 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000378">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gravitactic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000375"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gravitactic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1415,8 +1416,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000380 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000380">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive gravitactic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000378"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive gravitactic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1424,8 +1425,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000381 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000381">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thigmotaxis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000386"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thigmotaxis</rdfs:label>
     </owl:Class>
     
 
@@ -1433,8 +1434,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000386 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000386">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechanical stimulus taxis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000375"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechanical stimulus taxis</rdfs:label>
     </owl:Class>
     
 
@@ -1442,8 +1443,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000388 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000388">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involuntary movement behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involuntary movement behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1451,8 +1452,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000389 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000389">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflexive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000388"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflexive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1460,8 +1461,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000390 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000390">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primitive reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primitive reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1469,8 +1470,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000391 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000391">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startle reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startle reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1478,9 +1479,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000401 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000401">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sucking reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000054"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000390"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sucking reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1488,8 +1489,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000403">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voluntary movement behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voluntary movement behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1497,8 +1498,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000411 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000411">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cranial nerve related reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cranial nerve related reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1506,8 +1507,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000412">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pupillary light reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000411"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pupillary light reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1515,8 +1516,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000415 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000415">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corneal reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000411"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corneal reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1524,8 +1525,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000416 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000416">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibulo-ocular reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000411"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibulo-ocular reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1533,8 +1534,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000417 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000417">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physiologic nystagmus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physiologic nystagmus</rdfs:label>
     </owl:Class>
     
 
@@ -1542,8 +1543,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000418">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharyngeal reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000411"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharyngeal reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1551,8 +1552,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000419 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000419">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleeping behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000473"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleeping behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1560,8 +1561,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000420 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000420">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bruxism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000499"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bruxism</rdfs:label>
     </owl:Class>
     
 
@@ -1569,8 +1570,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000444 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000444">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye movement</rdfs:label>
     </owl:Class>
     
 
@@ -1578,8 +1579,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000445 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000445">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tail movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tail movement</rdfs:label>
     </owl:Class>
     
 
@@ -1587,8 +1588,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000446 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000446">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual pursuit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual pursuit</rdfs:label>
     </owl:Class>
     
 
@@ -1596,8 +1597,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000447 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000447">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor activation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor activation behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1605,8 +1606,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000448 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000448">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertical activity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertical activity</rdfs:label>
     </owl:Class>
     
 
@@ -1614,8 +1615,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000449 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000449">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spontaneous movement behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spontaneous movement behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1623,9 +1624,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000450 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000450">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social grooming</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social grooming</rdfs:label>
     </owl:Class>
     
 
@@ -1633,8 +1634,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000455 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000455">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attention behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attention behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1642,8 +1643,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000469">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress related behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress related behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1651,8 +1652,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000473">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhythmic behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhythmic behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1660,8 +1661,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000493 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000493">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasomnia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000419"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasomnia</rdfs:label>
     </owl:Class>
     
 
@@ -1669,8 +1670,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000499 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000499">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NREM parasomnia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000493"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NREM parasomnia</rdfs:label>
     </owl:Class>
     
 
@@ -1678,8 +1679,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000515 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000515">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depressive disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000256"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depressive disorder</rdfs:label>
     </owl:Class>
     
 
@@ -1687,8 +1688,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000536 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000536">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian regulation of heart rate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000084"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian regulation of heart rate</rdfs:label>
     </owl:Class>
     
 
@@ -1696,8 +1697,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000537 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000537">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian regulation of systemic arterial blood pressure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000084"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian regulation of systemic arterial blood pressure</rdfs:label>
     </owl:Class>
     
 
@@ -1705,9 +1706,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000538 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000538">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian temperature homeostasis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000084"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circadian temperature homeostasis</rdfs:label>
     </owl:Class>
     
 
@@ -1715,8 +1716,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000540 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000540">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000270"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1724,8 +1725,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000542 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000542">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polydipsia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polydipsia</rdfs:label>
     </owl:Class>
     
 
@@ -1733,8 +1734,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000545 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000545">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swallowing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swallowing</rdfs:label>
     </owl:Class>
     
 
@@ -1742,8 +1743,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000548 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000548">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sexual activity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sexual activity</rdfs:label>
     </owl:Class>
     
 
@@ -1751,8 +1752,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000550">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recognition memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000185"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recognition memory</rdfs:label>
     </owl:Class>
     
 
@@ -1760,8 +1761,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000551 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000551">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual object recognition</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000550"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual object recognition</rdfs:label>
     </owl:Class>
     
 
@@ -1769,8 +1770,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000552 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000552">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long term object recognition memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000551"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long term object recognition memory</rdfs:label>
     </owl:Class>
     
 
@@ -1778,8 +1779,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000553">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term object recognition memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000554"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term object recognition memory</rdfs:label>
     </owl:Class>
     
 
@@ -1787,8 +1788,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000554">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual short term memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000180"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual short term memory</rdfs:label>
     </owl:Class>
     
 
@@ -1796,9 +1797,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000555 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000555">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial working memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000180"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial working memory</rdfs:label>
     </owl:Class>
     
 
@@ -1806,8 +1807,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000556 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000556">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000306"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial memory</rdfs:label>
     </owl:Class>
     
 
@@ -1815,8 +1816,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000557">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term spatial memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short term spatial memory</rdfs:label>
     </owl:Class>
     
 
@@ -1824,9 +1825,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000559 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000559">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal grooming</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000450"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal grooming</rdfs:label>
     </owl:Class>
     
 
@@ -1834,8 +1835,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000560">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">barbering behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000027"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">barbering behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1843,8 +1844,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000561">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hetero-barbering</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000560"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hetero-barbering</rdfs:label>
     </owl:Class>
     
 
@@ -1852,8 +1853,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000564">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1861,8 +1862,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000567">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stereotypic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000644"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stereotypic behavior</rdfs:label>
     </owl:Class>
     
 
@@ -1870,8 +1871,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000568">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinesthetic behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinesthetic behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1879,8 +1880,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000570">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head bobbing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000020"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head bobbing</rdfs:label>
     </owl:Class>
     
 
@@ -1888,8 +1889,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000571">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutlidirectional head movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000020"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutlidirectional head movement</rdfs:label>
     </owl:Class>
     
 
@@ -1897,8 +1898,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000574 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000574">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optokinetic reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000411"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optokinetic reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1906,8 +1907,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000575 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000575">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pilomotor reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pilomotor reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1915,8 +1916,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000576 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000576">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinna reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinna reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1924,8 +1925,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000577 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000577">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postural reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">postural reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1933,8 +1934,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000578 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000578">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">righting reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000577"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">righting reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1942,8 +1943,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000581 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000581">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibulocollic reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000577"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibulocollic reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1951,8 +1952,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000583 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000583">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vibrissae reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vibrissae reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1960,8 +1961,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000584 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000584">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clutching reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000389"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clutching reflex</rdfs:label>
     </owl:Class>
     
 
@@ -1969,8 +1970,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000586 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000586">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opisthotonus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000587"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opisthotonus</rdfs:label>
     </owl:Class>
     
 
@@ -1978,8 +1979,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000587">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetanic spasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000588"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetanic spasm</rdfs:label>
     </owl:Class>
     
 
@@ -1987,8 +1988,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000588 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000588">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000643"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spasm</rdfs:label>
     </owl:Class>
     
 
@@ -1996,8 +1997,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000589 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000589">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tremor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000643"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tremor</rdfs:label>
     </owl:Class>
     
 
@@ -2005,8 +2006,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000590">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ataxia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000591"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ataxia</rdfs:label>
     </owl:Class>
     
 
@@ -2014,8 +2015,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000591">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor coordination phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000229"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor coordination phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2023,8 +2024,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000598 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000598">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dystonia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dystonia</rdfs:label>
     </owl:Class>
     
 
@@ -2032,8 +2033,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000599 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000599">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term spatial memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000556"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term spatial memory</rdfs:label>
     </owl:Class>
     
 
@@ -2041,8 +2042,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000601 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000601">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2050,8 +2051,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000602 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000602">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apathy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000601"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apathy</rdfs:label>
     </owl:Class>
     
 
@@ -2059,8 +2060,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000603 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000603">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delusion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delusion</rdfs:label>
     </owl:Class>
     
 
@@ -2068,8 +2069,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000604 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000604">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social inhibition</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social inhibition</rdfs:label>
     </owl:Class>
     
 
@@ -2077,8 +2078,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000605 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000605">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual inhibition</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual inhibition</rdfs:label>
     </owl:Class>
     
 
@@ -2086,8 +2087,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000606">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forgetfulness</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forgetfulness</rdfs:label>
     </owl:Class>
     
 
@@ -2095,8 +2096,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000607 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000607">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cognitive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cognitive behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2104,8 +2105,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000608">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hallucination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hallucination</rdfs:label>
     </owl:Class>
     
 
@@ -2113,8 +2114,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000609 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000609">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual hallucination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000608"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual hallucination</rdfs:label>
     </owl:Class>
     
 
@@ -2122,8 +2123,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000610 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000610">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory hallucination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000608"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory hallucination</rdfs:label>
     </owl:Class>
     
 
@@ -2131,8 +2132,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000612 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000612">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communication behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communication behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2140,8 +2141,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000613 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000613">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonverbal communication behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000612"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonverbal communication behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2149,8 +2150,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000616 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000616">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye contact</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000613"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eye contact</rdfs:label>
     </owl:Class>
     
 
@@ -2158,8 +2159,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000617 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000617">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laughing behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laughing behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2167,8 +2168,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000619 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000619">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from insight</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000293"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior stemming from insight</rdfs:label>
     </owl:Class>
     
 
@@ -2176,8 +2177,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000620 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000620">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frustration behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frustration behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2185,8 +2186,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000621 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000621">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selective mutism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000564"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selective mutism</rdfs:label>
     </owl:Class>
     
 
@@ -2194,8 +2195,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000623 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000623">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">echolalia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000567"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">echolalia</rdfs:label>
     </owl:Class>
     
 
@@ -2203,8 +2204,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000635 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000635">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avoidance behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2212,8 +2213,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000636">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protective behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000635"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protective behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2221,8 +2222,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000641 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000641">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">discrimination learning</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">discrimination learning</rdfs:label>
     </owl:Class>
     
 
@@ -2230,8 +2231,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000642">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilepsy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000012"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -2239,8 +2240,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000643 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000643">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involuntary movement behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000568"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involuntary movement behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2248,8 +2249,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000644 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000644">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voluntary movement behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000568"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voluntary movement behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2257,8 +2258,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000646 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000646">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000025"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2266,8 +2267,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000647 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000647">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple partial seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000646"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple partial seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2275,8 +2276,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000648 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000648">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex partial seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000646"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex partial seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2284,8 +2285,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000651 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000651">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple partial seizure with motor signs</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000647"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple partial seizure with motor signs</rdfs:label>
     </owl:Class>
     
 
@@ -2293,8 +2294,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000655">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensation behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensation behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2302,8 +2303,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000656 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000656">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatic sensation related behavior phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000655"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatic sensation related behavior phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -2311,8 +2312,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000662 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000662">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generalized seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000025"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generalized seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2320,8 +2321,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000663 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000663">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial seizure evolving to secondarily generalized seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000646"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial seizure evolving to secondarily generalized seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2329,8 +2330,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000669">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absence seizures</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absence seizures</rdfs:label>
     </owl:Class>
     
 
@@ -2338,8 +2339,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000670 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000670">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2347,8 +2348,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000671">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myoclonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myoclonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2356,8 +2357,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000676">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tonic clonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tonic clonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2365,8 +2366,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000677 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000677">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2374,8 +2375,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000678 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000678">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">febrile seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">febrile seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2383,8 +2384,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000686 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000686">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provoked seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000012"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provoked seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2392,8 +2393,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000690 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000690">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status epilepticus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000642"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status epilepticus</rdfs:label>
     </owl:Class>
     
 
@@ -2401,8 +2402,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000702 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000702">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atypical absence seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000669"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atypical absence seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2410,8 +2411,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000709 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000709">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2419,8 +2420,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000712">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoglycemia induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoglycemia induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2428,8 +2429,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000724 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000724">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical stimulation induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical stimulation induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2437,8 +2438,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000727">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kindling induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kindling induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2446,8 +2447,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000728 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000728">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical kindling induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000727"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electrical kindling induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2455,8 +2456,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000731">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemiclonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000651"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemiclonic seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2464,9 +2465,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000734 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000734">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infantile spasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000588"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000642"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infantile spasm</rdfs:label>
     </owl:Class>
     
 
@@ -2474,8 +2475,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000735 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000735">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypocalcemia induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypocalcemia induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2483,8 +2484,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000737 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000737">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photostimulation induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photostimulation induced seizure</rdfs:label>
     </owl:Class>
     
 
@@ -2492,8 +2493,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000738 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000738">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gelastic epilepsy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000642"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gelastic epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -2501,8 +2502,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000739 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000739">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dacrystic epilepsy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000642"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dacrystic epilepsy</rdfs:label>
     </owl:Class>
     
 
@@ -2510,8 +2511,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000740 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000740">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior by intent</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior by intent</rdfs:label>
     </owl:Class>
     
 
@@ -2519,8 +2520,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000741 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000741">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior by means</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior by means</rdfs:label>
     </owl:Class>
     
 
@@ -2528,8 +2529,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000747 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000747">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jaw movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jaw movement</rdfs:label>
     </owl:Class>
     
 
@@ -2537,8 +2538,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000751 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000751">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perception behavior by means</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perception behavior by means</rdfs:label>
     </owl:Class>
     
 
@@ -2546,8 +2547,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001536 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001536">
-        <rdfs:label xml:lang="en">behavioral response to radiation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to radiation</rdfs:label>
     </owl:Class>
     
 
@@ -2555,8 +2556,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001571">
-        <rdfs:label xml:lang="en">behavioral response to light</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001536"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to light</rdfs:label>
     </owl:Class>
     
 
@@ -2564,8 +2565,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001632">
-        <rdfs:label xml:lang="en">behavioral response to chemical stimulus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to chemical stimulus</rdfs:label>
     </owl:Class>
     
 
@@ -2573,8 +2574,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001679">
-        <rdfs:label xml:lang="en">behavioral response to xenobiotics</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001632"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to xenobiotics</rdfs:label>
     </owl:Class>
     
 
@@ -2582,8 +2583,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001728 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001728">
-        <rdfs:label xml:lang="en">behavioral response to addictive substance</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001679"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to addictive substance</rdfs:label>
     </owl:Class>
     
 
@@ -2591,8 +2592,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001763 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001763">
-        <rdfs:label xml:lang="en">behavioral response to alcohol</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to alcohol</rdfs:label>
     </owl:Class>
     
 
@@ -2600,8 +2601,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001786 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001786">
-        <rdfs:label xml:lang="en">regulation of behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2609,8 +2610,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001845 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001845">
-        <rdfs:label xml:lang="en">consumption behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consumption behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2618,8 +2619,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001884 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001884">
-        <rdfs:label xml:lang="en">consumption of an addictive substance</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consumption of an addictive substance</rdfs:label>
     </owl:Class>
     
 
@@ -2627,8 +2628,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001915 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001915">
-        <rdfs:label xml:lang="en">cocaine consumption</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001884"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cocaine consumption</rdfs:label>
     </owl:Class>
     
 
@@ -2636,8 +2637,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0001987 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001987">
-        <rdfs:label xml:lang="en">behavioral response to cocaine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to cocaine</rdfs:label>
     </owl:Class>
     
 
@@ -2645,8 +2646,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0002021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002021">
-        <rdfs:label xml:lang="en">behavioral response to morphine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to morphine</rdfs:label>
     </owl:Class>
     
 
@@ -2654,8 +2655,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0002065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002065">
-        <rdfs:label xml:lang="en">behavioral response to nicotine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to nicotine</rdfs:label>
     </owl:Class>
     
 
@@ -2663,8 +2664,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0002169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002169">
-        <rdfs:label xml:lang="en">regulation of consumption behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001786"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of consumption behavior</rdfs:label>
     </owl:Class>
     
 
@@ -2672,8 +2673,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0002234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002234">
-        <rdfs:label xml:lang="en">regulation of consumption of an addictive substance</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002169"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of consumption of an addictive substance</rdfs:label>
     </owl:Class>
     
 
@@ -2681,30 +2682,21 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0002362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002362">
-        <rdfs:label xml:lang="en">behavioral response to anesthetic</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001679"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral response to anesthetic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002379 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002436 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002379">
-        <rdfs:label xml:lang="en">nursing behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002436 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002436">
-        <rdfs:label xml:lang="en">regulation of feeding behavior</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002436">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002169"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of feeding behavior</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 0.2.2-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5) https://github.com/owlcs/owlapi -->
 
