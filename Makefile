@@ -6,6 +6,8 @@ test: reasoner-test-mammal reasoner-test-vertebrate reasoner-test-metazoa
 
 reasoner-test-%: %.owl
 	owltools $< --run-reasoner -r elk -u > $@.out && echo ok || (tail -100 $@.out ; exit 1)
+explanations-%.txt: %.owl
+	owltools $< --run-reasoner -r elk -u -e > $@.out && echo ok || (tail -100 $@.out ; exit 1)
 
 # local copies, for seeding
 mp-edit.owl:
@@ -81,10 +83,10 @@ mirror/fma.owl:
 	owltools mirror/composite-fma.owl --extract-mingraph --set-ontology-id $(OBO)/fma.owl -o $@
 mirror/ro.owl:
 	$(WGET) $(OBO)/ro.owl -O $@
-mirror/uberon.owl: mirror/uberon-ext.owl
-	owltools $(USECAT) $<  --merge-support-ontologies --merge-imports-closure --make-subset-by-properties -n $(KEEPRELS)  --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations  --set-ontology-id $(OBO)/uberon.owl -o $@
-##### need to sort sync issue
-#####	owltools $(OBO)/uberon/ext.owl $(OBO)/cl.owl --merge-support-ontologies --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/uberon.owl -o $@
+
+# See https://github.com/obophenotype/upheno/issues/159
+mirror/nbo.owl:
+	owltools $(OBO)/nbo.owl --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/$*.owl -o $@.tmp && perl -npe 's@obo/nbo.owl/@obo/@' $@.tmp > $@
 
 mirror/wbbt.owl:
 	owltools $(OBO)/uberon/basic.owl $(OBO)/cl.owl $(OBO)/wbls.owl $(OBO)/wbbt.owl $(OBO)/uberon/bridge/uberon-bridge-to-wbbt.owl $(OBO)/uberon/bridge/cl-bridge-to-wbbt.owl $(OBO)/ncbitaxon/subsets/taxslim.owl --merge-support-ontologies --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties $(KEEPRELS)  --set-ontology-id $(OBO)/wbbt.owl -o $@
@@ -158,5 +160,9 @@ all_mappings: mappings/zp-to-hp-match.tbl mappings/hp-to-zp-match.tbl mappings/h
 mappings/%-match.tbl: vertebrate-compute.obo
 	owltools $(USECAT) $< --make-default-abox --fsim-compare-atts -p mappings/$*-sim.properties -o $@.tmp && mv $@.tmp $@
 
-mappings/%-bestmatches.tbl: mappings/%-match.tbl
+mappings/hp-to-wbphenotype-match.tbl: metazoa-compute.obo
+	owltools $(USECAT) $< --make-default-abox --fsim-compare-atts -p mappings/hp-to-wbphenotype-sim.properties -o $@.tmp && mv $@.tmp $@
+
+
+mappings/%-bestmatches.tsv: mappings/%-match.tbl
 	./tools/extract-bestmatches.pl $< > $@.tmp && mv $@.tmp $@
