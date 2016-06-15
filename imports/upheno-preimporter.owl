@@ -18,7 +18,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-wbbt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-fbbt.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-equivalence-axioms-subq-ubr.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/upheno/wbphenotype/wbphenotype-equivalence-axioms.owl"/>
     </owl:Ontology>
     
 </rdf:RDF>

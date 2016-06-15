@@ -112,7 +112,7 @@ imports/%_import.obo: imports/%_import.owl
 	owltools $< -o -f obo $@
 
 imports/%_phenotype.obo: imports/%_phenotype.owl
-	owltools $< --assert-inferred-subclass-axioms --removeRedundant --allowEquivalencies --set-ontology-id $(UPHENO)/$@ -o -f obo $@
+	owltools $< --assert-inferred-subclass-axioms --removeRedundant --allowEquivalencies  -o -f obo $@
 
 external/uberon/%.owl:
 	echo $@
@@ -142,7 +142,7 @@ imports/%_entities.tsv: imports/%_import.tsv
 imports/%_phenotype.omn: imports/%_entities.tsv
 	apply-pattern.py -p patterns/grouping_phenotype.yaml -i $< > $@.tmp && mv $@.tmp $@
 imports/%_phenotype.owl: imports/%_phenotype.omn
-	owltools $< -o $@
+	owltools $< --set-ontology-id $(UPHENO)/$@ -o $@
 
 ##
 
