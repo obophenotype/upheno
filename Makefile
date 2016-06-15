@@ -88,7 +88,7 @@ mirror/ro.owl:
 mirror/nbo.obo:
 	$(WGET) $(OBO)/nbo.obo -O $@.tmp && egrep -v '^(import|property_value)' $@.tmp > $@
 mirror/nbo.owl: mirror/nbo.obo
-	owltools $<  --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/$*.owl -o $@.tmp && perl -npe 's@obo/nbo.owl/@obo/@' $@.tmp > $@
+	owltools $<  --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/nbo.owl -o $@.tmp && perl -npe 's@obo/nbo.owl/@obo/@' $@.tmp > $@
 
 mirror/wbbt.owl:
 	owltools $(OBO)/uberon/basic.owl $(OBO)/cl.owl $(OBO)/wbls.owl $(OBO)/wbbt.owl $(OBO)/uberon/bridge/uberon-bridge-to-wbbt.owl $(OBO)/uberon/bridge/cl-bridge-to-wbbt.owl $(OBO)/ncbitaxon/subsets/taxslim.owl --merge-support-ontologies --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties $(KEEPRELS)  --set-ontology-id $(OBO)/wbbt.owl -o $@
@@ -112,7 +112,7 @@ imports/%_import.obo: imports/%_import.owl
 	owltools $< -o -f obo $@
 
 imports/%_phenotype.obo: imports/%_phenotype.owl
-	owltools $< --assert-inferred-subclass-axioms --removeRedundant --allowEquivalencies -o -f obo $@
+	owltools $< --assert-inferred-subclass-axioms --removeRedundant --allowEquivalencies --set-ontology-id $(UPHENO)/$@ -o -f obo $@
 
 external/uberon/%.owl:
 	echo $@
