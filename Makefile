@@ -151,8 +151,19 @@ zp.owl:
 zp.obo:
 	owltools $(OBO)/upheno/zp.owl --add-ontology-annotation http://www.geneontology.org/formats/oboInOwl#logical-definition-view-relation has_part --add-obo-shorthand-to-properties -o -f obo --no-check $@
 
+## ----------------------------------------
+## MERGES
+## ----------------------------------------
+%-r.owl: %.owl
+	robot merge -i $< reason -r elk  reduce -o $@
+.PRECIOUS: %-r.owl
 
+mp-hp-view.owl: mp-hp-r.owl
+	owltools $(USECAT) $< --make-subset-by-properties -f // --reasoner-query -r elk MP_0000001  --make-ontology-from-results $(OBO)/upheno/$@ -o $@
+
+## ----------------------------------------
 ## MAPPINGS
+## ----------------------------------------
 
 %-compute.obo: %.owl
 	owltools $(USECAT) $< --merge-imports-closure --remove-axiom-annotations --remove-disjoints --remove-abox --remove-annotation-assertions -l --assert-inferred-subclass-axioms --always-assert-super-classes --removeRedundant --allowEquivalencies --make-subset-by-properties -f // -o -f obo --no-check $@
