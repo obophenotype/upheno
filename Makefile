@@ -155,11 +155,13 @@ zp.obo:
 ## MERGES
 ## ----------------------------------------
 %-r.owl: %.owl
-	robot merge -i $< reason -r elk  reduce -o $@
+	robot merge -c true -i $< reason -r elk  reduce -o $@
 .PRECIOUS: %-r.owl
 
 mp-hp-view.owl: mp-hp-r.owl
 	owltools $(USECAT) $< --make-subset-by-properties -f // --reasoner-query -r elk MP_0000001  --make-ontology-from-results $(OBO)/upheno/$@ -o $@
+mp-hp-view.obo: mp-hp-view.owl
+	owltools $< -o -f obo $@
 
 ## ----------------------------------------
 ## MAPPINGS
