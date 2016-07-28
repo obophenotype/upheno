@@ -7,12 +7,23 @@ HP=hp.obo
 $(MP):
 	wget $(OBO)/$@ -O $@
 $(HP):
-	wget $(OBO)/$@ -O $@
+	wget --no-check-certificate $(OBO)/$@ -O $@
 
 joined.obo: $(MP) $(HP) mp_hp-disjoint_from.obo
 	obo-cat.pl $(MP) $(HP) | grep -v xref > $@
+
 mp_hp-align.txt: mp_hp-disjoint_from.obo joined.obo ignore_word_phenotype.pro
 	blip-findall -table_pred ontol_db:subclassT/2 -i $< -u metadata_nlp -debug index -i joined.obo -i ignore_word_phenotype.pro -index "metadata_nlp:entity_nlabel_scope_stemmed(1,1,0,0)" "entity_pair_label_reciprocal_best_intermatch(A,B,true),\+((subclassRT(A,AX),disjoint_fromS(AX,BX),subclassRT(B,BX)))" -select A-B  > $@.tmp && sort -u $@.tmp | grep -v UMLS > $@
+
+mp_hp-ptable.tsv: mp_hp-disjoint_from.obo joined.obo ignore_word_phenotype.pro
+	blip-findall -table_pred ontol_db:subclassT/2 -i $< -u metadata_nlp -debug index -i joined.obo -i ignore_word_phenotype.pro -index "metadata_nlp:entity_nlabel_scope_stemmed(1,1,0,0)" "entity_pair_mprobs/6" -no_pred  > $@.tmp && sort -u $@.tmp | grep -v UMLS > $@
+
+
+all.owl: joined.obo mp_hp-disjoint_from.obo
+	owltools $^ --merge-support-ontologies -o $@
+
+mp_hp-kboom.owl: mp_hp-ptable.tsv all.owl
+	kboom --experimental  --splitSize 50 --max 3 -m linked-rpt.md -j linked-rpt.json -n -o $@ -t $^
 
 
 mp_hp-align-debug.txt: mp_hp-disjoint_from.obo joined.obo ignore_word_phenotype.pro
@@ -25,7 +36,7 @@ mp_hp-align-equiv-labeled.obo: mp_hp-align-equiv.obo
 	obo-add-comments.pl -t id -t equivalent_to $(MP) $(HP) $< > $@
 
 %.owl: %.obo
-	obolib-obo2owl --allow-dangling --default-ontology $*  $< -o $@
+	owltools $< --set-ontology-id $(OBO)/upheno/hp-mp/$@ -o $@
 
 # flips based on lexical matching
 mp_hp-lexflipped.txt: mp_hp-align-equiv.obo
