@@ -154,14 +154,26 @@ zp.obo:
 ## ----------------------------------------
 ## MERGES
 ## ----------------------------------------
-%-r.owl: %.owl
-	owltools  --use-catalog $< --merge-imports-closure --reasoner elk  --assert-inferred-subclass-axioms --allowEquivalencies --remove-redundant-inferred-super-classes -o $@
+
+# Merged
+%-m.owl: %.owl
+	owltools  --use-catalog $< --merge-imports-closure  -o $@
+.PRECIOUS: %-m.owl
+
+# Reasoned
+%-r.owl: %-m.owl
+	owltools  $<  --reasoner elk  --assert-inferred-subclass-axioms --allowEquivalencies --remove-redundant-inferred-super-classes -o $@
 #	https://github.com/obophenotype/upheno/issues/162
 #	robot merge -c true -i $< reason -r elk  reduce -o $@
 .PRECIOUS: %-r.owl
 
-mp-hp-view.owl: mp-hp-r.owl
-	owltools $(USECAT) $< --make-subset-by-properties -f // --reasoner-query -r elk MP_0000001  --make-ontology-from-results $(OBO)/upheno/$@ -o $@
+# Translate probabilistic axioms from text mining using inferred ontology as background
+mp-hp-kboom.owl: hp-mp/mp_hp-ptable.tsv mp-hp-r.owl
+	kboom --experimental  --splitSize 50 --max 3 -m linked-rpt.md -j linked-rpt.json -n -o $@ -t $^
+
+# Create a view, incorporating kboom inferred axioms
+mp-hp-view.owl: mp-hp-r.owl 
+	owltools $(USECAT) $< mp-hp-kboom.owl --merge-support-ontologies --make-subset-by-properties -f // --reasoner-query -r elk MP_0000001  --make-ontology-from-results $(OBO)/upheno/$@ -o $@
 .PRECIOUS: mp-hp-view.owl
 
 mp-hp-view.obo: mp-hp-view.owl
