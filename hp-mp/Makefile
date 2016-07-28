@@ -12,12 +12,20 @@ $(HP):
 joined.obo: $(MP) $(HP) mp_hp-disjoint_from.obo
 	obo-cat.pl $(MP) $(HP) | grep -v xref > $@
 
-mp_hp-align.txt: mp_hp-disjoint_from.obo joined.obo ignore_word_phenotype.pro
+old-mp_hp-align.txt: mp_hp-disjoint_from.obo joined.obo ignore_word_phenotype.pro
 	blip-findall -table_pred ontol_db:subclassT/2 -i $< -u metadata_nlp -debug index -i joined.obo -i ignore_word_phenotype.pro -index "metadata_nlp:entity_nlabel_scope_stemmed(1,1,0,0)" "entity_pair_label_reciprocal_best_intermatch(A,B,true),\+((subclassRT(A,AX),disjoint_fromS(AX,BX),subclassRT(B,BX)))" -select A-B  > $@.tmp && sort -u $@.tmp | grep -v UMLS > $@
 
 mp_hp-ptable.tsv: mp_hp-disjoint_from.obo joined.obo ignore_word_phenotype.pro
 	blip-findall -table_pred ontol_db:subclassT/2 -i $< -u metadata_nlp -debug index -i joined.obo -i ignore_word_phenotype.pro -index "metadata_nlp:entity_nlabel_scope_stemmed(1,1,0,0)" "entity_pair_mprobs/6" -no_pred  > $@.tmp && sort -u $@.tmp | grep -v UMLS > $@
 
+mp_hp-ptable.pro: mp_hp-ptable.tsv
+	tbl2p -p ptable $< > $@
+
+ambiguous.tsv: mp_hp-ptable.pro
+	blip-findall -u metadata_nlp -i $<  -i ignore_word_phenotype.pro -i joined.obo -consult getbest.pro tie/4 -label -no_pred > $@
+
+mp_hp-align.txt: mp_hp-ptable.pro
+	blip-findall -u metadata_nlp -i $<  -i ignore_word_phenotype.pro -i joined.obo -consult getbest.pro best/2  > $@
 
 all.owl: joined.obo mp_hp-disjoint_from.obo
 	owltools $^ --merge-support-ontologies -o $@
