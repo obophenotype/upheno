@@ -165,6 +165,14 @@ mp-hp-view.owl: mp-hp-r.owl
 mp-hp-view.obo: mp-hp-view.owl
 	owltools $< -o -f obo $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
+reports/mp-hp-equivalent-classes.tsv: mp-hp-view.owl
+	arq --query sparql/intra-ontology-equivalence.rq --data mp-hp-view.owl --results TSV > $@.tmp && mv $@.tmp $@
+
+reports/mp-mp-equivalent-classes.tsv: reports/mp-hp-equivalent-classes.tsv
+	egrep 'MP.*MP' $< > $@
+reports/hp-hp-equivalent-classes.tsv: reports/mp-hp-equivalent-classes.tsv
+	egrep 'HP.*HP' $< > $@
+
 ## ----------------------------------------
 ## MAPPINGS
 ## ----------------------------------------
