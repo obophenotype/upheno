@@ -84,6 +84,10 @@ mirror/fma.owl:
 mirror/ro.owl:
 	$(WGET) $(OBO)/ro.owl -O $@
 
+# Combine mpath and ncit into one import
+mirror/mpath.owl:
+	owltools https://raw.githubusercontent.com/monarch-initiative/monarch-disease-ontology/master/src/mpath/linked-pathology.obo -o $@
+
 # See https://github.com/obophenotype/upheno/issues/159
 mirror/nbo.obo:
 	$(WGET) $(OBO)/nbo.obo -O $@.tmp && egrep -v '^(import|property_value)' $@.tmp > $@
