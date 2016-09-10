@@ -17,7 +17,7 @@ combined-symp-ALL.obo:
 # BLIP
 
 symp-%-intermatch.tsv: combined-symp-%.obo ignore_word_phenotype.pro
-	blip-findall -table_pred ontol_db:subclassT/2 -i $< -u metadata_nlp -debug index -i ignore_word_phenotype.pro -index "metadata_nlp:entity_nlabel_scope_stemmed(1,1,0,0)" "entity_pair_label_reciprocal_best_intermatch(A,B,true),\+((subclassRT(A,AX),disjoint_fromS(AX,BX),subclassRT(B,BX))),entity_pair_label_match(A,B,St,ZA,ZB,Match)" -select "x(A,B,Match)" -label -no_pred -use_tabs > $@
+	blip-findall -table_pred ontol_db:subclassT/2 -i $< -u metadata_nlp -debug index -i ignore_word_phenotype.pro -index "metadata_nlp:entity_nlabel_scope_stemmed(1,1,0,0)" "entity_pair_label_intermatch(A,B,Match,_,_)" -select "x(A,B,Match)" -label -no_pred -use_tabs > $@.tmp && sort -u $@.tmp > $@
 .PRECIOUS: symp-%-intermatch.tsv
 
 symp-%-intermatch.pro: symp-%-intermatch.tsv
