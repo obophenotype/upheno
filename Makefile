@@ -87,6 +87,7 @@ mirror/ro.owl:
 	$(WGET) $(OBO)/ro.owl -O $@
 
 # Combine mpath and ncit into one import
+# See: https://github.com/obophenotype/upheno/issues/166
 mirror/mpath.owl:
 	owltools https://raw.githubusercontent.com/monarch-initiative/monarch-disease-ontology/master/src/mpath/linked-pathology.obo -o $@
 
