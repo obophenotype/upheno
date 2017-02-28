@@ -4,6 +4,7 @@ from jsonschema import Draft4Validator
 import warnings
 import argparse
 import logging
+import sys
 
 def main():
     """
@@ -27,12 +28,16 @@ def main():
     for file in args.files:
         print('PARSING: '+file)
         if not test_jschema(V, file):
-            print("Failed to validate: "+file)
+            print("FAILED to validate: "+file)
             stat = False
         else:
-            print("Success on: "+file)
+            print("SUCCESS ON: "+file)
     if not stat:
+        print("FAILURES ENCOUNTERED")        
         sys.exit(1)
+    else:
+        print("ALL PASS")
+        sys.exit(0)
 
 def test_jschema(validator, file_path):
     test_file = open(file_path, "r")

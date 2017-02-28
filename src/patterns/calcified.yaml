@@ -19,7 +19,7 @@ name:
    - entity
 
 annotations:
-  - property: oio:hasExactSynonym
+  - annotationProperty: oio:hasExactSynonym
     text: "calcified %s"
     vars:
      - entity

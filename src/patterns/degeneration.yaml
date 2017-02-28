@@ -19,7 +19,7 @@ name:
    - entity
 
 annotations:
-  - property: oio:hasExactSynonym
+  - annotationProperty: oio:hasExactSynonym
     text: "degeneration of the %s"
     vars:
      - entity

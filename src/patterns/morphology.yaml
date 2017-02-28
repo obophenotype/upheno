@@ -19,13 +19,13 @@ name:
    - entity
 
 annotations:
-  - property: oio:hasExactSynonym
+  - annotationProperty: oio:hasExactSynonym
     text: "abnormal shape of %s"
     vars:
      - entity
      
 annotations:
-  - property: oio:hasExactSynonym
+  - annotationProperty: oio:hasExactSynonym
     text: "abnormally shaped %s"
     vars:
      - entity     
