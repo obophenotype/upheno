@@ -1,1 +1,29 @@
+pattern_name: abnormalWeight
 
+classes:
+  weight: PATO_0000128
+  abnormal: PATO:0000460
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002180
+  has_part: BFO:0000051
+  has_part: BFO:0000051
+
+vars:
+  entity: "Thing"
+
+name:
+  text: "abnormality of %s weight"
+  vars:
+   - entity
+
+def:
+  text: "An abnormal increase or decrease of weight or an abnormal distribution of mass in the %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('weight' and 'inheres_in' some %s and 'qualifier' some 'abnormal')"
+  vars:
+    - entity
