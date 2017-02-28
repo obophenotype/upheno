@@ -1,7 +1,7 @@
 pattern_name: abnormalNumber
 
 classes:
-  decreased amount: PATO_0001997
+  amount: PATO_0000070
   abnormal: PATO:0000460
 
 relations: 
@@ -14,23 +14,18 @@ vars:
   entity: "Thing"
 
 name:
-  text: "decreased %s level"
+  text: "Abnormal %s level"
   vars:
    - entity
 
-annotations:
-  - property: oio:hasExactSynonym
-    text: "reduced %s level"
-    vars:
-     - entity
 
 def:
-  text: "An abnormally decreased level of %s."
+  text: "An abnormal level of %s."
   vars:
     - entity
 
 equivalentTo:
-  text: "'has_part' some ('decreased amount' and 'inheres_in' some %s and 'qualifier' some 'abnormal')"
+  text: "'has_part' some ('amount' and 'inheres_in' some %s and 'qualifier' some 'abnormal')"
   vars:
     - entity
 
