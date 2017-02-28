@@ -1,1 +1,29 @@
+pattern_name: delayedProcess
 
+classes:
+  delayed: PATO_0000502
+  abnormal: PATO:0000460
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002180
+  has_part: BFO:0000051
+  has_part: BFO:0000051
+
+vars:
+  entity: "Thing"
+
+name:
+  text: "delayed %s"
+  vars:
+   - entity
+
+def:
+  text: "Delayed %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('delayed' and 'inheres_in' some %s and 'qualifier' some 'abnormal')"
+  vars:
+    - entity
