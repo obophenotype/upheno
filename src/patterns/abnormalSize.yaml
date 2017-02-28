@@ -1,0 +1,35 @@
+pattern_name: abnormalSize
+
+classes:
+  size: PATO_0000117
+  abnormal: PATO:0000460
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002180
+  has_part: BFO:0000051
+  has_part: BFO:0000051
+
+vars:
+  entity: "Thing"
+
+name:
+  text: "Abnormal size of %s"
+  vars:
+   - entity
+
+annotations:
+  - property: oio:hasExactSynonym
+    text: "Abnormal size of the %s"
+    vars:
+     - entity
+
+def:
+  text: "A deviation from the normal size of the %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('size' and 'inheres_in' some %s and 'qualifier' some 'abnormal')"
+  vars:
+    - entity
