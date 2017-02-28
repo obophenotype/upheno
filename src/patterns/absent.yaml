@@ -25,7 +25,7 @@ annotations:
      - entity
 
 def:
-  text: "Absence of the %s."
+  text: "Absence of %s."
   vars:
     - entity
 
