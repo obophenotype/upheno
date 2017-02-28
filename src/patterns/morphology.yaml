@@ -14,19 +14,19 @@ vars:
   entity: "Thing"
 
 name:
-  text: "%s Abnormal morphology of"
+  text: "%s abnormal morphology of"
   vars:
    - entity
 
 annotations:
   - property: oio:hasExactSynonym
-    text: "Abnormal shape of %s"
+    text: "abnormal shape of %s"
     vars:
      - entity
      
 annotations:
   - property: oio:hasExactSynonym
-    text: "Abnormally shaped %s"
+    text: "abnormally shaped %s"
     vars:
      - entity     
 
