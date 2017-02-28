@@ -14,13 +14,13 @@ vars:
   entity: "Thing"
 
 name:
-  text: "Increased size of the %s"
+  text: "increased size of the %s"
   vars:
    - entity
 
 annotations:
   - property: oio:hasExactSynonym
-    text: "Large %s"
+    text: "large %s"
     vars:
      - entity
 
