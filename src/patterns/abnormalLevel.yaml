@@ -3,11 +3,11 @@ pattern_name: abnormalNumber
 classes:
   amount: PATO_0000070
   abnormal: PATO_0000460
+  Thing: http://www.w3.org/2002/07/owl#Thing
 
 relations: 
   inheres_in: RO_0000052
   qualifier: RO_0002180
-  has_part: BFO_0000051
   has_part: BFO_0000051
 
 vars:
