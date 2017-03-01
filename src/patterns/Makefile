@@ -15,9 +15,6 @@ query: $(pattern-files)
 
 .PHONY: query $(pattern-files)
 
-$(pattern-files): $(HP) $(MP)
-	dosdp-scala --ontology=$(MP) --reasoner=elk --template=$@ --outfile=$(basename $@).mp.tsv; dosdp-scala --ontology=$(HP) --reasoner=elk --template=$@ --outfile=$(basename $@).hp.tsv
-
 HP = hp.owl
 
 MP = mp.owl
@@ -27,3 +24,7 @@ $(HP):
 	
 $(MP): 
 	curl -L -O http://purl.obolibrary.org/obo/mp.owl
+
+$(pattern-files): $(HP) $(MP)
+	dosdp-scala --ontology=$(MP) --reasoner=elk --template=$@ --outfile=$(basename $@).mp.tsv; dosdp-scala --ontology=$(HP) --reasoner=elk --template=$@ --outfile=$(basename $@).hp.tsv
+
