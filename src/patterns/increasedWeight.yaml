@@ -25,6 +25,6 @@ def:
     - entity
 
 equivalentTo:
-  text: "'has_part' some ('increased weight' and 'inheres_in' some %s and 'qualifier' some 'abnormal')"
+  text: "'has_part' some ('increased weight' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - entity

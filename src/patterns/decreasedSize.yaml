@@ -31,6 +31,6 @@ def:
     - entity
 
 equivalentTo:
-  text: "'has_part' some ('decreased size' and 'inheres_in' some %s and 'qualifier' some 'abnormal')"
+  text: "'has_part' some ('decreased size' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - entity
