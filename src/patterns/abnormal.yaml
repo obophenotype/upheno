@@ -2,16 +2,17 @@ pattern_name: abnormal
 
 classes:
   quality: PATO_0000001
-  abnormal: PATO:0000460
+  abnormal: PATO_0000460
+  Thing: http://www.w3.org/2002/07/owl#Thing
 
 relations: 
-  inheres_in: RO:0000052
-  qualifier: RO:0002180
-  has_part: BFO:0000051
-  has_part: BFO:0000051
+  inheres_in: RO_0000052
+  qualifier: RO_0002180
+  has_part: BFO_0000051
+  has_part: BFO_0000051
 
 vars:
-  entity: "Thing"
+  entity: Thing
 
 name:
   text: "Abnormal %s"

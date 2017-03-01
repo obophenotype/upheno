@@ -2,13 +2,13 @@ pattern_name: abnormalNumber
 
 classes:
   amount: PATO_0000070
-  abnormal: PATO:0000460
+  abnormal: PATO_0000460
 
 relations: 
-  inheres_in: RO:0000052
-  qualifier: RO:0002180
-  has_part: BFO:0000051
-  has_part: BFO:0000051
+  inheres_in: RO_0000052
+  qualifier: RO_0002180
+  has_part: BFO_0000051
+  has_part: BFO_0000051
 
 vars:
   entity: "Thing"
