@@ -16,7 +16,7 @@ query: $(pattern-files)
 .PHONY: query $(pattern-files)
 
 $(pattern-files): $(HP) $(MP)
-	dosdp-scala --ontology=$(MP) --reasoner=elk --template=$@ >$(basename $@).mp.tsv; $dosdp --ontology=$(HP) --reasoner=elk --template=$@ >$(basename $@).hp.tsv
+	dosdp-scala --ontology=$(MP) --reasoner=elk --template=$@ --outfile=$(basename $@).mp.tsv; $dosdp --ontology=$(HP) --reasoner=elk --template=$@ --outfile=$(basename $@).hp.tsv
 
 HP = hp.owl
 
