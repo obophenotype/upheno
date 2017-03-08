@@ -7,3 +7,6 @@ The design patterns are specified in YAML, and follow the [dead_simple_design_pa
 Consult each yaml file for details on the specific pattern.
 
 See https://github.com/obophenotype/upheno/issues/168
+
+A jenkins job periodically checks all equivalence axioms against these patterns, generating the following tuples:
+https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/
