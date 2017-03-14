@@ -1,15 +1,15 @@
 pattern_name: increasedLevel
 
 classes:
-  increased amount: PATO_0000470
-  abnormal: PATO_0000460
-  Thing: http://www.w3.org/2002/07/owl#Thing
+  increased amount: PATO:0000470
+  abnormal: PATO:0000460
+  Thing: owl:Thing
 
 relations: 
-  inheres_in: RO_0000052
-  qualifier: RO_0002573
-  has_part: BFO_0000051
-  has_part: BFO_0000051
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  has_part: BFO:0000051
 
 vars:
   entity: "Thing"
