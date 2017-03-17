@@ -30,9 +30,7 @@ def:
     - entity
 
 equivalentTo:
-  text: "'has part' some
-(amount and ('inheres in' some
-(%s and ('part of' some '%s'))) and ('has modifier' some abnormal))"
-vars:
-- chemical entity
-- entity
+  text: "'has part' some (amount and ('inheres in' some (%s and ('part of' some '%s'))) and ('has modifier' some abnormal))"
+  vars:
+    - chemical entity
+    - entity
