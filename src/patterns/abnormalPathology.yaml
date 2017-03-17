@@ -3,14 +3,14 @@ pattern_name: abnormalPathology
 classes:
   increased amount: PATO:0000470
   abnormal: PATO:0000460
-  pathological entity: MPATH_0
-  anatomical structure: UBERON_0000061
+  pathological entity: MPATH:0
+  anatomical structure: UBERON:0000061
 
 relations: 
   inheres_in: RO:0000052
   qualifier: RO:0002573
   has_part: BFO:0000051
-  part_of: BFO_0000050
+  part_of: BFO:0000050
 
 vars:
   pathological entity: "pathological entity"
