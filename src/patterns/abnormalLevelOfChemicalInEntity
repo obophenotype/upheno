@@ -1,16 +1,16 @@
 pattern_name: abnormalLevelOfChemicalInEntity
 
 classes:
-  amount: PATO_0000070
+  amount: PATO:0000070
   abnormal: PATO:0000460
-  chemical entity: CHEBI_24431
+  chemical entity: CHEBI:24431
   Thing: owl:Thing
 
 relations: 
   inheres_in: RO:0000052
   qualifier: RO:0002573
   has_part: BFO:0000051
-  part_of: BFO_0000050
+  part_of: BFO:0000050
 
 vars:
   chemical entity: "chemical entity"
