@@ -1,0 +1,38 @@
+pattern_name: abnormalLevelOfChemicalInEntity
+
+classes:
+  amount: PATO_0000070
+  abnormal: PATO:0000460
+  chemical entity: CHEBI_24431
+  Thing: owl:Thing
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO_0000050
+
+vars:
+  chemical entity: "chemical entity"
+  entity: Thing
+
+name:
+  text: "Abnormal %s %s level"
+  vars:
+   - entity
+   - chemical entity
+
+
+def:
+  text: "An abnormal level of %s in the %s."
+  vars:
+    - chemical entity
+    - entity
+
+equivalentTo:
+  text: "'has part' some
+(amount and ('inheres in' some
+(%s and ('part of' some '%s'))) and ('has modifier' some abnormal))"
+vars:
+- chemical entity
+- entity
