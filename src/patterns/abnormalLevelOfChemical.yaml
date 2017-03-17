@@ -3,7 +3,7 @@ pattern_name: abnormalLevelOfChemical
 classes:
   amount: PATO:0000070
   abnormal: PATO:0000460
-  chemical: CHEBI_24431
+  chemical: CHEBI:24431
 
 relations: 
   inheres_in: RO:0000052
