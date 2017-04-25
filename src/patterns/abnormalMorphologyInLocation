@@ -4,7 +4,6 @@ classes:
   position: PATO:0000140
   abnormal: PATO:0000460
   Thing: owl:Thing
-  Location: owl:Thing
 
 relations: 
   inheres_in: RO:0000052
@@ -17,7 +16,7 @@ vars:
   location: Thing
 
 name:
-  text: "Morphological abnormality of the %s in the %"
+  text: "Morphological abnormality of the %s in the %s"
   vars:
    - entity
    - location
