@@ -1,0 +1,36 @@
+pattern_name: abnormalTopologyInLocation
+
+classes:
+  position: PATO:0000140
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  Thing: owl:Thing
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  occurs_in: BFO:0000066
+
+vars:
+  anatomical entity: "anatomical entity"
+  entity: Thing
+
+name:
+  text: "Abnormal %s topology in %"
+  vars:
+   - entity
+   - anatomical entity
+
+
+def:
+  text: "An abnormal position of the %s in the %s."
+  vars:
+    - entity
+    - anatomical entity
+
+equivalentTo:
+  text: "'has part' some (position and ('inheres in' some (%s and ('occurs in' some '%s'))) and ('qualifier' some abnormal))"
+  vars:
+    - entity
+    - anatomical entity
