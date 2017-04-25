@@ -1,0 +1,29 @@
+pattern_name: decreasedMolecularFunction
+
+classes:
+  decreased rate: PATO:0000911
+  abnormal: PATO:0000460
+  molecular function: GO:0003674
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+vars:
+  molecular function: "molecular function"
+ 
+name:
+  text: "Decreased %"
+  vars:
+   - molecular function
+
+def:
+  text: "Decreased %s."
+  vars:
+    - molecular function
+
+equivalentTo:
+  text: "'has part' some ('decreased rate' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - molecular function
