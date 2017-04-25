@@ -1,0 +1,29 @@
+pattern_name: abnormalMolecularFunction
+
+classes:
+  quality: PATO:0000001
+  abnormal: PATO:0000460
+  molecular function: GO:0003674
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+vars:
+  molecular function: "molecular function"
+ 
+name:
+  text: "Abnormal %"
+  vars:
+   - molecular function
+
+def:
+  text: "Abnormal %s."
+  vars:
+    - molecular function
+
+equivalentTo:
+  text: "'has part' some ('quality' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - molecular function
