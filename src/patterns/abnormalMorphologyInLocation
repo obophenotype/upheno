@@ -1,10 +1,10 @@
-pattern_name: abnormalMorphologyInAnatomicalLocation
+pattern_name: abnormalMorphologyInLocation
 
 classes:
   position: PATO:0000140
   abnormal: PATO:0000460
   Thing: owl:Thing
-  anatomical entity: UBERON:0001062
+  Location: owl:Thing
 
 relations: 
   inheres_in: RO:0000052
@@ -14,23 +14,23 @@ relations:
 
 vars:
   entity: Thing
-  anatomical entity: "anatomical entity"
+  location: Thing
 
 name:
   text: "Morphological abnormality of the %s in the %"
   vars:
    - entity
-   - anatomical entity
+   - location
 
 
 def:
   text: "A morphological abnormality of the %s in the %s."
   vars:
     - entity
-    - anatomical entity
+    - location
 
 equivalentTo:
   text: "'has part' some (morphology and ('inheres in' some (%s and ('part of' some '%s'))) and ('qualifier' some abnormal))"
   vars:
     - entity
-    - anatomical entity
+    - location
