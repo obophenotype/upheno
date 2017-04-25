@@ -1,0 +1,35 @@
+pattern_name: abnormalLevelOfMolecularEntityInLocation
+
+classes:
+  amount: PATO:0000070
+  abnormal: PATO:0000460
+  molecular entity: CHEBI:23367
+  Thing: owl:Thing
+
+relations: 
+  inheres in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+vars:
+  molecular entity: "molecular entity"
+  location: Thing
+ 
+name:
+  text: "Abnormal level of % in %"
+  vars:
+   - molecular entity
+   - location
+
+def:
+  text: "An anomaly in the level of %s in %."
+  vars:
+    - molecular entity
+    - location
+
+equivalentTo:
+  text: "'has part' some ('amount' and ('inheres in' some (%s and ('part of' some %))) and ('qualifier' some 'abnormal'))"
+  vars:
+    - molecular entity
+    - location
