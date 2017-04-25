@@ -1,0 +1,34 @@
+Abnormal X topology
+ 
+'has part' some (position and ('inheres in' some ‘X') and ('has modifier' some abnormal))
+
+pattern_name: abnormalTopology
+
+classes:
+  position: PATO:0000140
+  abnormal: PATO:0000460
+  Thing: owl:Thing
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+vars:
+  entity: Thing
+
+name:
+  text: "Abnormal location of %s"
+  vars:
+   - entity
+
+def:
+  text: "An abnormal location of %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has part' some ('position' and ('inheres_in' some %s) and ('qualifier' some abnormal))"
+  vars:
+    - entity
