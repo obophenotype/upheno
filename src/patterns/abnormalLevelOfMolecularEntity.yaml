@@ -14,7 +14,7 @@ vars:
   molecular entity: "'molecular entity'"
  
 name:
-  text: "abnormal level of %"
+  text: "abnormal level of %s"
   vars:
    - 'molecular entity'
 
