@@ -14,7 +14,7 @@ vars:
   molecular function: "molecular function"
  
 name:
-  text: "Decreased %"
+  text: "decreased %"
   vars:
    - molecular function
 
@@ -24,6 +24,6 @@ def:
     - molecular function
 
 equivalentTo:
-  text: "'has part' some ('decreased rate' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('decreased rate' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - molecular function
