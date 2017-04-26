@@ -20,13 +20,18 @@ name:
   vars:
    - anatomical entity
 
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "%s fibrosis"
+    vars:
+     - entity
 def:
   text: "The presence of excessive fibrous connective tissue in the %."
   vars:
     - anatomical entity
 
 equivalentTo:
-  text: "'has part' some ('increased amount' and ('inheres in' some (%s and ('part of' some %))) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('increased amount' and ('inheres_in' some (%s and ('part_of' some %))) and ('qualifier' some 'abnormal'))"
   vars:
     - fibrosis
     - anatomical entity
