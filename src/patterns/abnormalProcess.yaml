@@ -14,7 +14,7 @@ vars:
   biological_process: "biological_process"
  
 name:
-  text: "Abnormal %"
+  text: "abnormal %"
   vars:
    - biological_process
 
@@ -24,7 +24,7 @@ def:
     - biological_process
 
 equivalentTo:
-  text: "'has part' some ('process quality' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('process quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - biological_process
     
