@@ -17,12 +17,6 @@ name:
   text: "increased size of the %s"
   vars:
    - entity
-
-annotations:
-  - annotationProperty: oio:hasExactSynonym
-    text: "large %s"
-    vars:
-     - entity
      
 annotations:
   - annotationProperty: oio:hasExactSynonym
