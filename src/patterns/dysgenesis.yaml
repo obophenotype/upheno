@@ -14,9 +14,15 @@ vars:
  entity: "Thing"
  
 name:
-  text: "Dysgenesis of the %"
+  text: "dysgenesis of the %"
   vars:
    - entity
+   
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "%s dysgenesis"
+    vars:
+     - entity   
 
 def:
   text: "Defective development of the %."
@@ -24,6 +30,6 @@ def:
     - entity
 
 equivalentTo:
-  text: "'has part' some ('dyplastic' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('dyplastic' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - entity
