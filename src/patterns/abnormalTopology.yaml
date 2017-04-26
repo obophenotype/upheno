@@ -19,7 +19,7 @@ vars:
   entity: Thing
 
 name:
-  text: "Abnormal location of %s"
+  text: "abnormal location of %s"
   vars:
    - entity
 
@@ -29,6 +29,6 @@ def:
     - entity
 
 equivalentTo:
-  text: "'has part' some ('position' and ('inheres_in' some %s) and ('qualifier' some abnormal))"
+  text: "'has_part' some ('position' and ('inheres_in' some %s) and ('qualifier' some abnormal))"
   vars:
     - entity
