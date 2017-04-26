@@ -17,7 +17,7 @@ vars:
   entity: Thing
 
 name:
-  text: "Abnormal %s topology in %"
+  text: "abnormal %s topology in %"
   vars:
    - entity
    - anatomical entity
@@ -30,7 +30,7 @@ def:
     - anatomical entity
 
 equivalentTo:
-  text: "'has part' some (position and ('inheres in' some (%s and ('occurs in' some '%s'))) and ('qualifier' some abnormal))"
+  text: "'has_part' some (position and ('inheres_in' some (%s and ('occurs_in' some '%s'))) and ('qualifier' some abnormal))"
   vars:
     - entity
     - anatomical entity
