@@ -30,10 +30,10 @@ def:
     - anatomical structure
 
 equivalentTo:
-  text: "'has part' some 
+  text: "'has_part' some 
     ('increased amount'
-     and ('inheres in' some %s) and
-         and ('part of' some %s)))
+     and ('inheres_in' some %s) and
+         and ('part_of' some %s)))
      and ('qualifier' some abnormal))"
 vars:
 - aneurysm
