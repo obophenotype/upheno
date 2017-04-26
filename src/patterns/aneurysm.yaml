@@ -14,12 +14,12 @@ relations:
 
 vars:
   aneurysm: "aneurysm"
-  anatomical structure: "anatomical structure"
+  anatomical structure: "'anatomical structure'"
 
 name:
   text: "%s %s"
   vars:
-   - anatomical structure
+   - 'anatomical structure'
    - aneurysm
 
 
@@ -27,7 +27,7 @@ def:
   text: "An %s in the %s."
   vars:
     - aneurysm
-    - anatomical structure
+    - 'anatomical structure'
 
 equivalentTo:
   text: "'has_part' some 
@@ -37,4 +37,4 @@ equivalentTo:
      and ('qualifier' some abnormal))"
 vars:
 - aneurysm
-- anatomical entity
+- 'anatomical entity'
