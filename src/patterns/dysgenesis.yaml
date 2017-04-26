@@ -14,7 +14,7 @@ vars:
  entity: "Thing"
  
 name:
-  text: "dysgenesis of the %"
+  text: "dysgenesis of the %s"
   vars:
    - entity
    
@@ -25,7 +25,7 @@ annotations:
      - entity   
 
 def:
-  text: "Defective development of the %."
+  text: "Defective development of the %s."
   vars:
     - entity
 
