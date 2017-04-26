@@ -31,7 +31,6 @@ def:
     - anatomical entity
 
 equivalentTo:
-  text: "'has_part' some ('increased amount' and ('inheres_in' some (%s and ('part_of' some %))) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('increased amount' and ('inheres_in' some (fibrosis and ('part_of' some %))) and ('qualifier' some 'abnormal'))"
   vars:
-    - fibrosis
     - anatomical entity
