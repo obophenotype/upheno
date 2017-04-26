@@ -17,7 +17,7 @@ vars:
   location: Thing
  
 name:
-  text: "Abnormal level of % in %"
+  text: "abnormal level of % in %"
   vars:
    - molecular entity
    - location
@@ -29,7 +29,7 @@ def:
     - location
 
 equivalentTo:
-  text: "'has part' some ('amount' and ('inheres in' some (%s and ('part of' some %))) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('amount' and ('inheres_in' some (%s and ('part_of' some %))) and ('qualifier' some 'abnormal'))"
   vars:
     - molecular entity
     - location
