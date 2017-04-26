@@ -13,23 +13,23 @@ relations:
   occurs_in: BFO:0000066
 
 vars:
-  biological process: "biological process"
+  biological process: "'biological process'"
   entity: Thing
 
 name:
   text: "abnormal %s in %s"
   vars:
-   - biological process
+   - 'biological process'
    - entity
 
 def:
   text: "An abnormality of the %s in %s."
   vars:
-   - biological process
+   - 'biological process'
    - entity
 
 equivalentTo:
   text: "'has_part' some ('having extra processual parts' and ('inheres_in' some (%s and ('part_of' some %s))) and  ('qualifier' some 'abnormal'))"
   vars:
-    - biological process
+    - 'biological process'
     - entity
