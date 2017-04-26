@@ -16,14 +16,14 @@ vars:
 name:
   text: "increased %s"
   vars:
-   - molecular function
+   - 'molecular function'
 
 def:
   text: "Increased %s."
   vars:
-    - molecular function
+    - 'molecular function'
 
 equivalentTo:
   text: "'has part' some ('increased rate' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - molecular function
+    - 'molecular function'
