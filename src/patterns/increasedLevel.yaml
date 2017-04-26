@@ -25,6 +25,11 @@ annotations:
     vars:
      - entity
 
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "increased level of %s"
+    vars:
+     - entity
 def:
   text: "An abnormally increased level of %s."
   vars:
