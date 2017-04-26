@@ -6,7 +6,7 @@ classes:
   molecular entity: CHEBI:23367
 
 relations: 
-  inheres in part of: RO:0002314
+  inheres_in_part_of: RO:0002314
   qualifier: RO:0002573
   has_part: BFO:0000051
 
@@ -14,7 +14,7 @@ vars:
   molecular entity: "molecular entity"
  
 name:
-  text: "Absent %"
+  text: "absent %"
   vars:
    - molecular entity
 
@@ -24,6 +24,6 @@ def:
     - molecular entity
 
 equivalentTo:
-  text: "'has part' some ('absent' and ('inheres in part of' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('absent' and ('inheres_in_part_of' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - molecular entity
