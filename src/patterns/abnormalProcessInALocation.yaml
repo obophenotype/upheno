@@ -17,7 +17,7 @@ vars:
   entity: Thing
 
 name:
-  text: "Abnormal  %s in %"
+  text: "abnormal  %s in %"
   vars:
    - biological process
    - entity
@@ -29,7 +29,7 @@ def:
    - entity
 
 equivalentTo:
-  text: "'has part' some ('having extra processual parts' and ('inheres_in' some (%s and ('part of' some %))) and  ('qualifier' some abnormal))"
+  text: "'has_part' some ('having extra processual parts' and ('inheres_in' some (%s and ('part_of' some %))) and  ('qualifier' some abnormal))"
   vars:
     - biological process
     - entity
