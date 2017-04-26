@@ -19,17 +19,17 @@ vars:
 name:
   text: "abnormal level of %s in %s"
   vars:
-   - molecular entity
+   - 'molecular entity'
    - location
 
 def:
   text: "An anomaly in the level of %s in %s."
   vars:
-    - molecular entity
+    - 'molecular entity'
     - location
 
 equivalentTo:
   text: "'has_part' some ('amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('qualifier' some 'abnormal'))"
   vars:
-    - molecular entity
+    - 'molecular entity'
     - location
