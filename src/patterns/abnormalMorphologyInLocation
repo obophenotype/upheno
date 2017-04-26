@@ -16,12 +16,17 @@ vars:
   location: Thing
 
 name:
-  text: "Morphological abnormality of the %s in the %s"
+  text: "morphological abnormality of the %s in the %s"
   vars:
    - entity
    - location
 
-
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "Abnormal %s in the %"
+    vars:
+     - entity
+    
 def:
   text: "A morphological abnormality of the %s in the %s."
   vars:
@@ -29,7 +34,7 @@ def:
     - location
 
 equivalentTo:
-  text: "'has part' some (morphology and ('inheres in' some (%s and ('part of' some '%s'))) and ('qualifier' some abnormal))"
+  text: "'has_part' some (morphology and ('inheres_in' some (%s and ('part_of' some '%s'))) and ('qualifier' some abnormal))"
   vars:
     - entity
     - location
