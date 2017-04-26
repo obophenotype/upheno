@@ -16,14 +16,14 @@ vars:
 name:
   text: "abnormal %s"
   vars:
-   - behavior process
+   - 'behavior process'
 
 def:
   text: "An anomaly in %s."
   vars:
-    - behavior process
+    - 'behavior process'
 
 equivalentTo:
   text: "'has_part' some ('quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - behavior process
+    - 'behavior process'
