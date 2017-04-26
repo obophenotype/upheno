@@ -21,10 +21,17 @@ name:
   vars:
    - molecular entity
    - location
-
+    
 def:
   text: "An increase in the level of %s in %."
   vars:
+    - molecular entity
+    - location
+    
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "reduced level of %s in &"
+    vars:
     - molecular entity
     - location
 
