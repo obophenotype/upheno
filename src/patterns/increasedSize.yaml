@@ -24,6 +24,12 @@ annotations:
     text: "large %s"
     vars:
      - entity
+     
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "enlarged %s"
+    vars:
+     - entity     
 
 def:
   text: "An increase in the size of the %s."
