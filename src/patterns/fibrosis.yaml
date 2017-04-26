@@ -12,11 +12,10 @@ relations:
   has_part: BFO:0000051
 
 vars:
- fibrosis: "fibrosis"
  anatomical entity: "anatomical entity"
  
 name:
-  text: "Fibrosis of the %"
+  text: "Fibrosis of the %s"
   vars:
    - anatomical entity
 
@@ -26,11 +25,11 @@ annotations:
     vars:
      - entity
 def:
-  text: "The presence of excessive fibrous connective tissue in the %."
+  text: "The presence of excessive fibrous connective tissue in the %s."
   vars:
     - anatomical entity
 
 equivalentTo:
-  text: "'has_part' some ('increased amount' and ('inheres_in' some (fibrosis and ('part_of' some %))) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('increased amount' and ('inheres_in' some (fibrosis and ('part_of' some %s))) and ('qualifier' some 'abnormal'))"
   vars:
     - anatomical entity
