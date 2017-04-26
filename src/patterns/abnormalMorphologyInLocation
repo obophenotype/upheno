@@ -34,7 +34,7 @@ def:
     - location
 
 equivalentTo:
-  text: "'has_part' some (morphology and ('inheres_in' some (%s and ('part_of' some '%s'))) and ('qualifier' some abnormal))"
+  text: "'has_part' some (morphology and ('inheres_in' some (%s and ('part_of' some %s))) and ('qualifier' some abnormal))"
   vars:
     - entity
     - location
