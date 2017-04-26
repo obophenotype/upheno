@@ -14,7 +14,7 @@ vars:
   molecular function: "molecular function"
  
 name:
-  text: "Abnormal %"
+  text: "abnormal %"
   vars:
    - molecular function
 
@@ -24,6 +24,6 @@ def:
     - molecular function
 
 equivalentTo:
-  text: "'has part' some ('quality' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - molecular function
