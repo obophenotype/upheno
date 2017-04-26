@@ -24,7 +24,7 @@ def:
     - behavior process
 
 equivalentTo:
-  text: "'has part' some ('increased rate' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('increased rate' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - behavior process
     
