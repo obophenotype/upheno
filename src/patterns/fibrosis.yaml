@@ -17,7 +17,7 @@ vars:
 name:
   text: "Fibrosis of the %s"
   vars:
-   - anatomical entity
+   - 'anatomical entity'
 
 annotations:
   - annotationProperty: oio:hasExactSynonym
@@ -27,9 +27,9 @@ annotations:
 def:
   text: "The presence of excessive fibrous connective tissue in the %s."
   vars:
-    - anatomical entity
+    - 'anatomical entity'
 
 equivalentTo:
   text: "'has_part' some ('increased amount' and ('inheres_in' some (fibrosis and ('part_of' some %s))) and ('qualifier' some 'abnormal'))"
   vars:
-    - anatomical entity
+    - 'anatomical entity'
