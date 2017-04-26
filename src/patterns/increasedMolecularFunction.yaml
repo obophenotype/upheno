@@ -11,10 +11,10 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  molecular function: "molecular function"
+  molecular function: "'molecular function'"
  
 name:
-  text: "increased %"
+  text: "increased %s"
   vars:
    - molecular function
 
