@@ -11,20 +11,20 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  biological_process: "biological_process"
+  biological_process: "'biological_process'"
  
 name:
-  text: "abnormal %"
+  text: "abnormal %s"
   vars:
-   - biological_process
+   - 'biological_process'
 
 def:
   text: "An abnormality in %s."
   vars:
-    - biological_process
+    - 'biological_process'
 
 equivalentTo:
   text: "'has_part' some ('process quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - biological_process
+    - 'biological_process'
     
