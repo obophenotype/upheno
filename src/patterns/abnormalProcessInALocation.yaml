@@ -23,7 +23,7 @@ name:
    - entity
 
 def:
-  text: "An abnormality of the %s in %."
+  text: "An abnormality of the %s in %s."
   vars:
    - biological process
    - entity
