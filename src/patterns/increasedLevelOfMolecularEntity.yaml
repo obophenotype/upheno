@@ -30,6 +30,6 @@ annotations:
      - 'molecular entity'
 
 equivalentTo:
-  text: "'has part' some ('increased amount' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('increased amount' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - 'molecular entity'
