@@ -24,6 +24,6 @@ def:
     - 'molecular function'
 
 equivalentTo:
-  text: "'has_part' some ('increased rate' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('increased rate' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - 'molecular function'
