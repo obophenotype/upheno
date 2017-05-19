@@ -10147,6 +10147,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5520">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gonadorelin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25676"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25905"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_55370 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55370">
