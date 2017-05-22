@@ -19,8 +19,8 @@ vars:
 name:
   text: "%s %s"
   vars:
-   - 'anatomical structure'
-   - 'pathological entity'
+    - 'anatomical structure'
+    - 'pathological entity'
 
 
 def:
@@ -35,6 +35,6 @@ equivalentTo:
      and ('inheres_in' some %s) and
          and ('part_of' some %s)))
      and ('qualifier' some abnormal))"
-vars:
-- 'pathological entity'
-- 'anatomical entity'
+  vars:
+    - 'pathological entity'
+    - 'anatomical entity'
