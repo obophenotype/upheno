@@ -30,11 +30,7 @@ def:
     - 'anatomical structure'
 
 equivalentTo:
-  text: "'has_part' some 
-    ('increased amount'
-     and ('inheres_in' some %s) and
-         and ('part_of' some %s)))
-     and ('qualifier' some abnormal))"
+  text: "'has_part' some ('increased amount' and ('inheres_in' some %s) and ('part_of' some %s)) and ('qualifier' some abnormal)"
   vars:
     - 'pathological entity'
     - 'anatomical entity'
