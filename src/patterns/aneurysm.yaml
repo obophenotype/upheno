@@ -19,9 +19,8 @@ vars:
 name:
   text: "%s %s"
   vars:
-   - 'anatomical structure'
-   - aneurysm
-
+    - 'anatomical structure'
+    - aneurysm
 
 def:
   text: "An %s in the %s."
@@ -30,11 +29,7 @@ def:
     - 'anatomical structure'
 
 equivalentTo:
-  text: "'has_part' some 
-    ('increased amount'
-     and ('inheres_in' some %s) and
-         and ('part_of' some %s)))
-     and ('qualifier' some abnormal))"
-vars:
-- aneurysm
-- 'anatomical entity'
+  text: "'has_part' some ('increased amount' and ('inheres_in' some %s) and ('part_of' some %s)) and ('qualifier' some abnormal)"
+  vars:
+    - aneurysm
+    - 'anatomical entity'
