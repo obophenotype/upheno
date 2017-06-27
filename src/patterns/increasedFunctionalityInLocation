@@ -1,0 +1,32 @@
+pattern_name: decreasedFunctionalityInLocation
+
+classes:
+  increased functionality: PATO_0001625
+  abnormal: PATO:0000460
+  anatomical entity: UBERON_0001062
+  Thing: owl:Thing
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+vars:
+  biological process: "'anatomical entity'"
+  entity: Thing
+
+name:
+  text: "%s dysfunction"
+  vars:
+   - 'anatomical entity'
+
+def:
+  text: "A functional abnormality of the %s."
+  vars:
+   - 'anatomical entity'
+
+equivalentTo:
+  text: "'has_part' some ('increased functionality' and ('inheres_in' some some %s))) and  ('qualifier' some 'abnormal'))"
+  vars:
+    - 'anatomical entity'
+ 
