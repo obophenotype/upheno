@@ -26,7 +26,7 @@ def:
    - 'anatomical entity'
 
 equivalentTo:
-  text: "'has_part' some ('increased functionality' and ('inheres_in' some some %s))) and  ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('increased functionality' and ('inheres_in' some %s))) and  ('qualifier' some 'abnormal'))"
   vars:
     - 'anatomical entity'
  
