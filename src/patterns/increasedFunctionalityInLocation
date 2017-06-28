@@ -1,9 +1,9 @@
-pattern_name: decreasedFunctionalityInLocation
+pattern_name: increasedFunctionalityInLocation
 
 classes:
-  increased functionality: PATO_0001625
+  increased functionality: PATO:0001625
   abnormal: PATO:0000460
-  anatomical entity: UBERON_0001062
+  anatomical entity: UBERON:0001062
   Thing: owl:Thing
 
 relations: 
