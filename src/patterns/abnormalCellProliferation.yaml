@@ -15,7 +15,7 @@ vars:
   anatomical_entity: "'anatomical entity'"
  
 name:
-  text: "abnormal %s proliferation"
+  text: "abnormal %s cell proliferation"
   vars:
    - 'anatomical entity'
 
