@@ -13,6 +13,8 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>
 Declaration(AnnotationProperty(rdfs:label))
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FAKE_1> "FAKE:1"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/FAKE_1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/PATO_0015004>))
+SubClassOf(<http://purl.obolibrary.org/obo/FAKE_1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/upheno/imports/imports_requests.obo#fake> <http://purl.obolibrary.org/obo/RO_0001025>))
+SubClassOf(<http://purl.obolibrary.org/obo/FAKE_1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/upheno/imports/imports_requests.obo#fake> <http://purl.obolibrary.org/obo/RO_0003302>))
 SubClassOf(<http://purl.obolibrary.org/obo/FAKE_1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/upheno/imports/imports_requests.obo#fake> <http://purl.obolibrary.org/obo/CL_0011001>))
 SubClassOf(<http://purl.obolibrary.org/obo/FAKE_1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/upheno/imports/imports_requests.obo#fake> <http://purl.obolibrary.org/obo/CL_0002336>))
 SubClassOf(<http://purl.obolibrary.org/obo/FAKE_1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/upheno/imports/imports_requests.obo#fake> <http://purl.obolibrary.org/obo/CHEBI_80298>))
