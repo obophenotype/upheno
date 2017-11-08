@@ -71,6 +71,10 @@ imports/ro_import.owl: imports/upheno-preimporter.owl $(IMPORT_REQUESTS) mirror/
 imports/fma_import.owl:
 	echo "This is manually curated"
 
+imports/zfa_import.owl: mirror/zfa.owl mirror/uberon-bridge-to-zfa.owl mirror/cl-bridge-to-zfa.owl
+	robot merge --input mirror/zfa.owl --input mirror/uberon-bridge-to-zfa.owl --input mirror/cl-bridge-to-zfa.owl query --format ttl --construct sparql/extract-zfa-lite.rq zfa-lite.ttl &&\
+	robot annotate --input zfa-lite.ttl --ontology-iri $(UPHENO)/$@ -o $@ && rm -f zfa-lite.ttl
+
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl:
 	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/$*.owl -o $@
@@ -107,6 +111,16 @@ mirror/pr.obo:
 	$(WGET) $(OBO)/pr.obo -O $@.tmp && obo-grep.pl -r 'id: PR:' $@.tmp > $@
 mirror/pr.owl: mirror/pr.obo
 	owltools $< --remove-dangling --set-ontology-id $(OBO)/pr.owl -o $@
+
+mirror/zfa.owl:
+	mkdir -p mirror && wget $(OBO)/zfa.owl -O $@
+
+mirror/uberon-bridge-to-zfa.owl:
+	mkdir -p mirror && wget $(OBO)/uberon/bridge/uberon-bridge-to-zfa.owl -O $@
+
+mirror/cl-bridge-to-zfa.owl:
+	mkdir -p mirror && wget $(OBO)/uberon/bridge/cl-bridge-to-zfa.owl -O $@
+
 .PRECIOUS: mirror/%.owl
 
 #imports/ro_import.owl: mirror/ro.owl imports/upheno-preimporter.owl
