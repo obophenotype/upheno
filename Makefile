@@ -65,8 +65,9 @@ IMPORT_REQUESTS = imports/imports_requests.owl
 imports/%_import.owl: imports/upheno-preimporter.owl $(IMPORT_REQUESTS) mirror/%.owl mp-edit.owl
 	owltools  $(USECAT) --map-ontology-iri $(UPHENO)/$*_import.owl mirror/$*.owl $< --merge-imports-closure mirror/$*.owl --add-imports-from-support  --extract-module -s $(OBO)/$*.owl -c --remove-axiom-annotations --make-subset-by-properties -f $(KEEPRELS) -o $@.tmp && owltools $@.tmp --set-ontology-id $(UPHENO)/$@ -o $@
 
-imports/ro_import.owl: imports/upheno-preimporter.owl $(IMPORT_REQUESTS) mirror/ro.owl mp-edit.owl
-	owltools  $(USECAT) --map-ontology-iri $(UPHENO)/ro_import.owl mirror/ro.owl $< --merge-imports-closure mirror/ro.owl --add-imports-from-support  --extract-module -s $(OBO)/ro.owl -c  -o ro.tmp && owltools ro.tmp --set-ontology-id $(UPHENO)/$@ -o $@
+imports/ro_import.owl: mirror/ro.owl mp-edit.owl hp-edit.owl zp.owl mirror/uberon-bridge-to-zfa.owl mirror/cl-bridge-to-zfa.owl mirror/uberon-bridge-to-wbbt.owl mirror/cl-bridge-to-wbbt.owl mirror/uberon-bridge-to-fbbt.owl mirror/cl-bridge-to-fbbt.owl
+	robot merge --input mp-edit.owl --input hp-edit.owl --input zp.owl --input mirror/uberon-bridge-to-zfa.owl --input mirror/cl-bridge-to-zfa.owl --input mirror/uberon-bridge-to-wbbt.owl --input mirror/cl-bridge-to-wbbt.owl --input mirror/uberon-bridge-to-fbbt.owl --input mirror/cl-bridge-to-fbbt.owl --input wbphenotype/wbphenotype-equivalence-axioms-edit.owl query --select sparql/terms.rq terms.txt &&\
+	robot extract --method BOT --input mirror/ro.owl --term-file terms.txt annotate --ontology-iri $(UPHENO)/$@ --output $@
 
 imports/fma_import.owl:
 	echo "This is manually curated"
