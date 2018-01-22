@@ -30,8 +30,8 @@ before_script:
   - wget http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar -O bin/robot.jar
   - chmod +x bin/*
 
-# command to run tests
-script: "(cd src/patterns && make test) && (cd ../.. && make test)"
+# command to run tests; working directory is not altered for the second set of parentheses
+script: "(cd src/patterns && make test) && (make test)"
 
 #after_success:
 #  coveralls
