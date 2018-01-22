@@ -31,7 +31,7 @@ before_script:
   - chmod +x bin/*
 
 # command to run tests
-script: "(cd src/patterns && make test) && (cd .. && make test)"
+script: "(cd src/patterns && make test) && (cd ../.. && make test)"
 
 #after_success:
 #  coveralls
