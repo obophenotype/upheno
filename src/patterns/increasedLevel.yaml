@@ -19,13 +19,13 @@ name:
    - entity
 
 annotations:
-  - annotationProperty: oio:hasExactSynonym
+  - 
+    annotationProperty: oio:hasExactSynonym
     text: "elevated %s level"
     vars:
      - entity
-
-annotations:
-  - annotationProperty: oio:hasExactSynonym
+  - 
+    annotationProperty: oio:hasExactSynonym
     text: "increased level of %s"
     vars:
      - entity
