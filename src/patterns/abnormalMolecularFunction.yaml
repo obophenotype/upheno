@@ -11,19 +11,19 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  molecular function: "'molecular function'"
+  molecular_function: "'molecular function'"
  
 name:
-  text: "abnormal %"
+  text: "abnormal %s"
   vars:
-   - 'molecular function'
+   - molecular_function
 
 def:
   text: "Abnormal %s."
   vars:
-    - 'molecular function'
+    - molecular_function
 
 equivalentTo:
   text: "'has_part' some ('quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - 'molecular function'
+    - molecular_function

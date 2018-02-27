@@ -13,24 +13,24 @@ relations:
   part_of: BFO:0000050
 
 vars:
-  molecular entity: "'molecular entity'"
+  molecular_entity: "'molecular entity'"
   location: Thing
  
 name:
   text: "absent %s in %s"
   vars:
-   - 'molecular entity'
+   - molecular_entity
    - location
 
 def:
   text: "Absent or undetectable level of %s in %s."
   vars:
-   - 'molecular entity'
+   - molecular_entity
    - location
 
 equivalentTo:
   text: "'has_part' some ('absent' and ('inheres_in_part_of' some (%s and ('part_of' some %s))) and ('qualifier' some 'abnormal'))"
   vars:
-   - 'molecular entity'
+   - molecular_entity
    - location
     

@@ -18,14 +18,14 @@ vars:
 name:
   text: "abnormal %s cell proliferation"
   vars:
-   - 'anatomical entity'
+   - anatomical_entity
 
 def:
   text: "An abnormality in proliferation of cells in the %s."
   vars:
-    - 'anatomical entity'
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('process quality' and ('inheres_in_part_of' some (cell_proliferation and ('occurs in' some %s))) and ('qualifier' some 'abnormal'))"
   vars:
-    - 'anatomical entity'
+    - anatomical_entity

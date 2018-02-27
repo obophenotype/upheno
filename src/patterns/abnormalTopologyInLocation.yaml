@@ -13,24 +13,24 @@ relations:
   occurs_in: BFO:0000066
 
 vars:
-  anatomical entity: "'anatomical entity'"
+  anatomical_entity: "'anatomical entity'"
   entity: Thing
 
 name:
   text: "abnormal %s topology in %s"
   vars:
    - entity
-   - 'anatomical entity'
+   - anatomical_entity
 
 
 def:
   text: "An abnormal position of the %s in the %s."
   vars:
     - entity
-    - 'anatomical entity'
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some (position and ('inheres_in' some (%s and ('occurs_in' some %s))) and ('qualifier' some abnormal))"
   vars:
     - entity
-    - 'anatomical entity'
+    - anatomical_entity

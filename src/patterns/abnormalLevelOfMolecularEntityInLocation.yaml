@@ -13,23 +13,23 @@ relations:
   part_of: BFO:0000050
 
 vars:
-  molecular entity: "'molecular entity'"
+  molecular_entity: "'molecular entity'"
   location: Thing
  
 name:
   text: "abnormal level of %s in %s"
   vars:
-   - 'molecular entity'
+   - molecular_entity
    - location
 
 def:
   text: "An anomaly in the level of %s in %s."
   vars:
-    - 'molecular entity'
+    - molecular_entity
     - location
 
 equivalentTo:
   text: "'has_part' some ('amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('qualifier' some 'abnormal'))"
   vars:
-    - 'molecular entity'
+    - molecular_entity
     - location

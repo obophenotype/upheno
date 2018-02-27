@@ -11,19 +11,19 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  behavior process: "'behavior process'"
+  behavior_process: "'behavior process'"
  
 name:
   text: "impaired %s"
   vars:
-   - 'behavior process'
+   - behavior_process
 
 def:
   text: "Impaired or decreased %s."
   vars:
-    - 'behavior process'
+    - behavior_process
 
 equivalentTo:
   text: "'has_part' some ('decreased rate' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - 'behavior process'
+    - behavior_process
