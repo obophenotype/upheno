@@ -4,6 +4,7 @@ classes:
   position: PATO:0000140
   abnormal: PATO:0000460
   Thing: owl:Thing
+  morphology: PATO:0000051
 
 relations: 
   inheres_in: RO:0000052
@@ -23,9 +24,10 @@ name:
 
 annotations:
   - annotationProperty: oio:hasExactSynonym
-    text: "Abnormal %s in the %"
+    text: "Abnormal %s in the %s"
     vars:
      - entity
+     - location
     
 def:
   text: "A morphological abnormality of the %s in the %s."

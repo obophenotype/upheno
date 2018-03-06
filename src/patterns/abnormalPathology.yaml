@@ -13,24 +13,24 @@ relations:
   part_of: BFO:0000050
 
 vars:
-  pathological entity: "'pathological entity'"
-  anatomical structure: "'anatomical structure'"
+  pathological_entity: "'pathological entity'"
+  anatomical_structure: "'anatomical structure'"
 
 name:
   text: "%s %s"
   vars:
-    - 'anatomical structure'
-    - 'pathological entity'
+    - anatomical_structure
+    - pathological_entity
 
 
 def:
   text: "An %s in the %s."
   vars:
-    - 'pathological entity'
-    - 'anatomical structure'
+    - pathological_entity
+    - anatomical_structure
 
 equivalentTo:
   text: "'has_part' some ('increased amount' and ('inheres_in' some %s) and ('part_of' some %s)) and ('qualifier' some abnormal)"
   vars:
-    - 'pathological entity'
-    - 'anatomical entity'
+    - pathological_entity
+    - anatomical_structure

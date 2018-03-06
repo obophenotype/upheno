@@ -11,19 +11,19 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  molecular entity: "'molecular entity'"
+  molecular_entity: "'molecular entity'"
  
 name:
   text: "absent %s"
   vars:
-   - 'molecular entity'
+   - molecular_entity
 
 def:
   text: "Absent or undetectable level of %s."
   vars:
-    - 'molecular entity'
+    - molecular_entity
 
 equivalentTo:
   text: "'has_part' some ('absent' and ('inheres_in_part_of' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - 'molecular entity'
+    - molecular_entity

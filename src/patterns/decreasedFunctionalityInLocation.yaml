@@ -12,21 +12,21 @@ relations:
   has_part: BFO:0000051
 
 vars:
-  biological process: "'anatomical entity'"
+  anatomical_entity: "'anatomical entity'"
   entity: Thing
 
 name:
   text: "%s dysfunction"
   vars:
-   - 'anatomical entity'
+   - anatomical_entity
 
 def:
   text: "A functional abnormality of the %s."
   vars:
-   - 'anatomical entity'
+   - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('decreased functionality' and ('inheres_in' some %s))) and  ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('decreased functionality' and ('inheres_in' some %s)) and  ('qualifier' some 'abnormal')"
   vars:
-    - 'anatomical entity'
+    - anatomical_entity
  

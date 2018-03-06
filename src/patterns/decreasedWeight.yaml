@@ -3,7 +3,7 @@ pattern_name: decreasedWeight
 classes:
   decreased weight: PATO:0000583
   abnormal: PATO:0000460
-  Thing: http://www.w3.org/2002/07/owl#Thing
+  Thing: owl:Thing
 
 relations: 
   inheres_in: RO:0000052
