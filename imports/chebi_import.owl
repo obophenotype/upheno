@@ -59,7 +59,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17336"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63410"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -71,13 +71,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15367"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15367"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -155,6 +155,26 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guaiacols</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25235"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_134361">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allylic alcohol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78840"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_134394">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary allylic alcohol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134361"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15734"/>
     </owl:Class>
     
 
@@ -240,6 +260,36 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_138675">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gas molecular entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_139588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_139588">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-hydroxy ketone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52396"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_139590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_139590">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary alpha-hydroxy ketone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_139588"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15734"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_139592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_139592">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tertiary alpha-hydroxy ketone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_139588"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26878"/>
     </owl:Class>
     
 
@@ -521,6 +571,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-oxoproline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25801"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46701"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74223"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16015">
@@ -769,6 +830,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16498">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-acylneuraminic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26667"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16526 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16526">
@@ -900,6 +970,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16827">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corticosterone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_139590"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24261"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35344"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35346"/>
@@ -984,6 +1055,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16973">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11-deoxycorticosterone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_139590"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25354"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35344"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36885"/>
@@ -1017,6 +1089,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesteryl ester</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35915"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-acetylneuraminic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_21622"/>
     </owl:Class>
     
 
@@ -1158,6 +1239,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17336">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all-trans-retinol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134394"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50211"/>
     </owl:Class>
     
@@ -1271,6 +1353,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17553">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-phosphoethanolamine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36711"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50994"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17568">
@@ -1304,6 +1396,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17650">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cortisol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_139590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_139592"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24261"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35342"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35344"/>
@@ -1567,6 +1661,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysaccharide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18183">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-oxo-L-proline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83822"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_84186"/>
     </owl:Class>
     
 
@@ -1854,6 +1959,15 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mo-molybdopterin cofactor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25372"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35202"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_21622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21622">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-acetylneuraminic acids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16498"/>
     </owl:Class>
     
 
@@ -3275,13 +3389,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36916"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22563"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22563"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36916"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3683,6 +3797,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25508">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuraminic acids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28963"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63394"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25512 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25512">
@@ -3873,6 +3997,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25754">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxo carboxylic acid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33575"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25801">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxoproline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26273"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38275"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46701"/>
     </owl:Class>
     
 
@@ -4192,7 +4327,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_26292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26292">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propanone</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propanones</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17087"/>
     </owl:Class>
     
@@ -4555,6 +4690,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26666">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-chain fatty acid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26667">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sialic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25508"/>
     </owl:Class>
     
 
@@ -5091,6 +5235,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27584">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aldosterone</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_131565"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_139590"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25354"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35344"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35346"/>
@@ -5234,13 +5379,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42111"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_422"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_422"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5264,6 +5409,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28869"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16374"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5271,12 +5422,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18067"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28869"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5386,6 +5531,26 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28869">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">menadione</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_132142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28875">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetradecanoic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15904"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39418"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28892">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ganglioside</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17761"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36526"/>
     </owl:Class>
     
 
@@ -6831,13 +6996,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33791"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50297"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50297"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33791"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -6852,13 +7017,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33792"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33792"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50299"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -9182,6 +9347,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38275">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrrolidinone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38260"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38304">
@@ -9487,6 +9661,16 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branched-chain saturated fatty acid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35819"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39418">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">straight-chain saturated fatty acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59202"/>
     </owl:Class>
     
 
@@ -10505,13 +10689,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_86992"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_86991"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_86991"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_86992"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -10718,6 +10902,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52255">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxylapatite</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52254"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52395">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxyketone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17087"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52396">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-oxyketone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52395"/>
     </owl:Class>
     
 
@@ -11109,6 +11311,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63394">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ketoaldonic acid derivative</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63367"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_63409 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63409">
@@ -11384,6 +11595,25 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_741548">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethylmalonic acid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35692"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74222">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma-lactam</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24995"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_74223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74223">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrrolidin-2-ones</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38275"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74222"/>
     </owl:Class>
     
 
@@ -11769,6 +11999,54 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_88184">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metal allergen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33521"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_89843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_89843">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylsuccinic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60911"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_91316"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_91317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_91315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_91315">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-methylbutanedioic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35692"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_91316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_91316">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(S)-methylsuccinic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_91315"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_91317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_91317">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(R)-methylsuccinic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_91315"/>
     </owl:Class>
     
 
