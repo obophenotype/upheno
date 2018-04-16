@@ -2,8 +2,8 @@ Worm Phenotype Equivalence Axioms
 
 See:
 
- * https://code.google.com/p/phenotype-ontologies/wiki/WBPhenotype
-
+ * https://github.com/obophenotype/upheno/wiki/WBPhenotype
+ 
 CURRENT WORKFLOW:
 
 Please note We have switched to editing equivalence axioms in Protege
