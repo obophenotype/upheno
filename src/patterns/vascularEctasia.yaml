@@ -1,9 +1,10 @@
 pattern_name: vascularEctasia
 
 classes:
+  Thing: owl:Thing
   abnormal: PATO:0000460
-  vessel: UBERON_0000055
-  dilated: PATO_0001571
+  vessel: UBERON:0000055
+  dilated: PATO:0001571
 
 relations: 
   inheres_in: RO:0000052
@@ -33,4 +34,4 @@ equivalentTo:
   text: "'has_part' some ('dilated' and ('inheres_in' some (%s and ('part_of' some %s))) and ('qualifier' some abnormal))"
   vars:
     - vessel
-    - anatomical entity
+    - entity
