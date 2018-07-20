@@ -1,17 +1,21 @@
 pattern_name: abnormalWeight
+pattern_iri: http://fu.bar/abnormalWeight
 
 classes:
   weight: PATO:0000128
   abnormal: PATO:0000460
-  Thing: owl:Thing
+  entity: BFO:0000001
 
 relations: 
   inheres_in: RO:0000052
   qualifier: RO:0002573
   has_part: BFO:0000051
 
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
 vars:
-  entity: "Thing"
+  entity: "'entity'"
 
 name:
   text: "abnormality of %s weight"

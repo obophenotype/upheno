@@ -3,11 +3,12 @@
 # 'has part' some (position and ('inheres in' some ‘X') and ('has modifier' some abnormal))
 
 pattern_name: abnormalTopology
+pattern_iri: http://fu.bar/abnormalTopology
 
 classes:
   position: PATO:0000140
   abnormal: PATO:0000460
-  Thing: owl:Thing
+  entity: BFO:0000001
 
 relations: 
   inheres_in: RO:0000052
@@ -15,8 +16,11 @@ relations:
   has_part: BFO:0000051
   part_of: BFO:0000050
 
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
 vars:
-  entity: Thing
+  entity: "'entity'"
 
 name:
   text: "abnormal location of %s"

@@ -1,10 +1,11 @@
 pattern_name: decreasedLevelOfMolecularEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/decreasedLevelOfMolecularEntityInLocation
 
 classes:
   decreased amount: PATO:0001997
   abnormal: PATO:0000460
   molecular entity: CHEBI:23367
-  Thing: owl:Thing
+  entity: BFO:0000001
 
 relations: 
   inheres_in: RO:0000052
@@ -12,9 +13,12 @@ relations:
   has_part: BFO:0000051
   part_of: BFO:0000050
 
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
 vars:
   molecular_entity: "'molecular entity'"
-  location: Thing
+  location: "'entity'"
  
 name:
   text: "decreased level of %s in %s"

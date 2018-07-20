@@ -1,10 +1,11 @@
 pattern_name: abnormalProcessInALocation
+pattern_iri: http://fu.bar/abnormalProcessInALocation
 
 classes:
   having extra processual parts: PATO:0001561
   abnormal: PATO:0000460
   biological process: GO:0008150
-  Thing: owl:Thing
+  entity: BFO:0000001
 
 relations: 
   inheres_in: RO:0000052
@@ -13,9 +14,12 @@ relations:
   part_of: BFO:0000050
   occurs_in: BFO:0000066
 
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
 vars:
   biological_process: "'biological process'"
-  entity: Thing
+  entity: "'entity'"
 
 name:
   text: "abnormal %s in %s"

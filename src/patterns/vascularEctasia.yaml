@@ -33,5 +33,5 @@ def:
 equivalentTo:
   text: "'has_part' some ('dilated' and ('inheres_in' some (%s and ('part_of' some %s))) and ('qualifier' some abnormal))"
   vars:
-    - vessel
+    - location
     - entity
