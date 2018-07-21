@@ -1,9 +1,5 @@
-# Abnormal X topology
- 
-# 'has part' some (position and ('inheres in' some ‘X') and ('has modifier' some abnormal))
-
-pattern_name: abnormalTopology
-pattern_iri: http://fu.bar/abnormalTopology
+ pattern_name: abnormalTopology
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalTopology
 
 classes:
   position: PATO:0000140
