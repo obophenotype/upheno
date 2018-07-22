@@ -68,21 +68,13 @@ imports/%_import.owl: imports/upheno-preimporter.owl $(IMPORT_REQUESTS) mirror/%
 imports/ro_import.owl: imports/upheno-preimporter.owl $(IMPORT_REQUESTS) mirror/ro.owl mp-edit.owl
 	owltools  $(USECAT) --map-ontology-iri $(UPHENO)/ro_import.owl mirror/ro.owl $< --merge-imports-closure mirror/ro.owl --add-imports-from-support  --extract-module -s $(OBO)/ro.owl -c  -o ro.tmp && owltools ro.tmp --set-ontology-id $(UPHENO)/$@ -o $@
 
-imports/fma_import.owl:
-	echo "This is manually curated"
-
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl:
 	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/$*.owl -o $@
 # uberon-ext is actually uberon+cl
 mirror/uberon-ext.owl: 
 	owltools $(OBO)/uberon/ext.owl --merge-imports-closure -o $@
-#mirror/fma-orig.owl: 
-#	$(WGET) $(OBO)/fma.owl -O $@
 
-## ANNOYING: this needs built periodically to avoid stale imports
-mirror/fma.owl:
-	owltools mirror/composite-fma.owl --extract-mingraph --set-ontology-id $(OBO)/fma.owl -o $@
 mirror/ro.owl:
 	$(WGET) $(OBO)/ro.owl -O $@
 
