@@ -1,7 +1,7 @@
 SCHEMA := util/DOSDP_schema_full.yaml
 
 test: $(SCHEMA)
-	python3 util/test_schema.py *.yaml
+	simple_pattern_tester.py *.yaml
 
 clean:
 	rm $(SCHEMA)
@@ -21,7 +21,7 @@ MP = mp.owl
 
 $(HP): 
 	curl -L -O http://purl.obolibrary.org/obo/hp.owl
-	
+
 $(MP): 
 	curl -L -O http://purl.obolibrary.org/obo/mp.owl
 
