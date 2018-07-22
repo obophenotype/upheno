@@ -1,4 +1,5 @@
 pattern_name: increasedLevelOfMolecularEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/increasedLevelOfMolecularEntity
 
 classes:
   increased amount: PATO:0000470
@@ -9,6 +10,9 @@ relations:
   inheres in: RO:0000052
   qualifier: RO:0002573
   has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
 
 vars:
   molecular_entity: "'molecular entity'"
@@ -24,7 +28,7 @@ def:
     - molecular_entity
     
 annotations:
-  - annotationProperty: oio:hasExactSynonym
+  - annotationProperty: exact_synonym
     text: "increased %s level"
     vars:
      - molecular_entity

@@ -1,10 +1,11 @@
 pattern_name: increasedFunctionalityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/increasedFunctionalityInLocation
 
 classes:
   increased functionality: PATO:0001625
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
-  Thing: owl:Thing
+  entity: BFO:0000001
 
 relations: 
   inheres_in: RO:0000052
@@ -13,7 +14,7 @@ relations:
 
 vars:
   anatomical_entity: "'anatomical entity'"
-  entity: Thing
+  entity: "'entity'"
 
 name:
   text: "%s dysfunction"

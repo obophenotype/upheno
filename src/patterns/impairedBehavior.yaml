@@ -1,4 +1,5 @@
 pattern_name: impairedBehavior
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/impairedBehavior
 
 classes:
   decreased rate: PATO:0000911
@@ -9,6 +10,9 @@ relations:
   inheres_in: RO:0000052
   qualifier: RO:0002573
   has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
 
 vars:
   behavior_process: "'behavior process'"

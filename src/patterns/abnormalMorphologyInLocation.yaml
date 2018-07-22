@@ -1,9 +1,10 @@
 pattern_name: abnormalMorphologyInLocation
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalMorphologyInLocation
 
 classes:
   position: PATO:0000140
   abnormal: PATO:0000460
-  Thing: owl:Thing
+  entity: BFO:0000001
   morphology: PATO:0000051
 
 relations: 
@@ -13,8 +14,8 @@ relations:
   part_of: BFO:0000050
 
 vars:
-  entity: Thing
-  location: Thing
+  entity: "'entity'"
+  location: "'entity'"
 
 name:
   text: "morphological abnormality of the %s in the %s"

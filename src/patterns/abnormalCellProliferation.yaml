@@ -1,4 +1,5 @@
 pattern_name: abnormalCellProliferation
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalCellProliferation
 
 classes:
   process quality: PATO:0001236
@@ -11,6 +12,9 @@ relations:
   qualifier: RO:0002573
   has_part: BFO:0000051
   occurs in: BFO:0000066
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
 
 vars:
   anatomical_entity: "'anatomical entity'"

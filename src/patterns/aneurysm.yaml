@@ -1,4 +1,5 @@
-pattern_name: Aneurysm
+pattern_name: aneurysm
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/aneurysm
 
 classes:
   increased amount: PATO:0000470
@@ -11,6 +12,9 @@ relations:
   qualifier: RO:0002573
   has_part: BFO:0000051
   part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
 
 vars:
   aneurysm: "aneurysm"

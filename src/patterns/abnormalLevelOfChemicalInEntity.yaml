@@ -1,11 +1,12 @@
 pattern_name: abnormalLevelOfChemicalInEntity
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalLevelOfChemicalInEntity
 
 classes:
   amount: PATO:0000070
   abnormal: PATO:0000460
   chemical entity: CHEBI:24431
-  Thing: owl:Thing
-
+  entity: BFO:0000001
+   
 relations: 
   inheres_in: RO:0000052
   qualifier: RO:0002573
@@ -14,7 +15,7 @@ relations:
 
 vars:
   chemical entity: "'chemical entity'"
-  entity: Thing
+  entity: "'entity'"
 
 name:
   text: "abnormal %s %s level"
