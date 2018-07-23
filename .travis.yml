@@ -7,7 +7,8 @@ before_install:
   - docker pull obolibrary/oskfull
 
 # command to run tests; working directory is not altered for the second set of parentheses
-script: "(cd src/patterns && make test) && (make test)"
+script:
+  - ./run.sh make test
 
 #after_success:
 #  coveralls
