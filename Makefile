@@ -4,7 +4,7 @@ all: all_imports
 
 #test: reasoner-test-mammal reasoner-test-vertebrate reasoner-test-metazoa
 # TODO: determine where unsats in metazoa are coming from
-test: reasoner-test-mammal reasoner-test-vertebrate 
+test: test-patterns reasoner-test-mammal reasoner-test-vertebrate 
 
 reasoner-test-%: %.owl
 	owltools $< --run-reasoner -r elk -u > $@.out && echo ok || (tail -100 $@.out ; exit 1)
@@ -143,7 +143,11 @@ external/mirror/%.owl:
 	$(WGET) $(OBO)/$*.owl -O $@
 
 
-
+# ----------------------------------------
+# PATTERNS
+# ----------------------------------------
+test-patterns:
+	cd src/patterns && make test
 
 
 # ----------------------------------------
