@@ -30,8 +30,7 @@ def:
     - location
 
 equivalentTo:
-  text: >
-   'has_part' some ('dilated' and ('inheres_in' some (%s and ('part_of' some %s)))
+  text: "'has_part' some ('dilated' and ('inheres_in' some (%s and ('part_of' some %s)))
     and ('qualifier' some abnormal))"
   vars:
     - location
