@@ -1,5 +1,5 @@
-pattern_name: missingProcessInALocation
-pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/missingProcessInALocation
+pattern_name: lossOfProcessInALocation
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/lossOfProcessInALocation
 
 classes:
   lacking processual parts: PATO:0001558
@@ -23,13 +23,13 @@ vars:
   entity: "'entity'"
 
 name:
-  text: " missing abnormal %s in %s"
+  text: "loss of %s in %s"
   vars:
    - biological_process
    - entity
 
 def:
-  text: "missing abnormality of the %s in %s."
+  text: "loss of the %s in %s."
   vars:
    - biological_process
    - entity
