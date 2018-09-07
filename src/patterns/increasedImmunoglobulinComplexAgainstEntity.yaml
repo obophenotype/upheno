@@ -27,6 +27,13 @@ annotations:
     vars:
      - entity
      - immunoglobulin_complex
+     
+annotations:
+  - annotationProperty: exact_synonym
+    text: "increased %s %s antibody"
+    vars:
+     - entity
+     - immunoglobulin_complex     
 
 def:
   text: "Increased level of %s against %s."
