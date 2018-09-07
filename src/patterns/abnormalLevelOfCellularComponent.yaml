@@ -22,7 +22,11 @@ name:
   vars:
    - cellularcomponent
 
-
+annotations:
+  - annotationProperty: exact_synonym
+    text: "Elevated %s"
+    vars:
+     - cellularcomponent
 def:
   text: "An abnormal level of %s."
   vars:
