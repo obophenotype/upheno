@@ -8,18 +8,28 @@ classes:
 annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
 vars:
   immunoglobulin_complex: "'immunoglobulin complex'"
-  cellular_organism: "'cellular organism'"
+  entity: "'entity'"
  
 name:
   text: "increased anti-%s %s level"
   vars:
-   - cellular_organism
+   - entity
    - immunoglobulin_complex
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "increased level of anti-%s %s"
+    vars:
+     - entity
+     - immunoglobulin_complex
 
 def:
   text: "Increased level of %s against %s."
   vars:
    - immunoglobulin_complex
-   - cellular_organism
+   - entity
