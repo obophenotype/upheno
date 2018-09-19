@@ -1,0 +1,42 @@
+pattern_name: increasedImmunoglobulinComplexAgainstEntity
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/increasedImmunoglobulinComplexAgainstEntity
+
+classes:
+  immunoglobulin complex: GO:0019814
+  entity: BFO:0000001
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  immunoglobulin_complex: "'immunoglobulin complex'"
+  entity: "'entity'"
+ 
+name:
+  text: "increased anti-%s %s level"
+  vars:
+   - entity
+   - immunoglobulin_complex
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "increased level of anti-%s %s"
+    vars:
+     - entity
+     - immunoglobulin_complex
+     
+annotations:
+  - annotationProperty: exact_synonym
+    text: "increased %s %s antibody"
+    vars:
+     - entity
+     - immunoglobulin_complex     
+
+def:
+  text: "Increased level of %s against %s."
+  vars:
+   - immunoglobulin_complex
+   - entity
