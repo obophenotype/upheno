@@ -27,7 +27,7 @@ def:
     - anatomical entity
 
 equivalentTo:
-  text: "'has_part' some ('quality' and ('inheres_in' some %s and ('part_of' some %) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('quality' and ('inheres_in' some %s and ('part_of' some %) and ('qualifier' some 'abnormal')))"
   vars:
     - abscess
     - anatomical entity
