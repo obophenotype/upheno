@@ -15,19 +15,20 @@ relations:
 
 vars:
   entity: "'anatomical entity'"
+  abscess: "'abscess'"
 
 name:
   text: "%s abscess"
   vars:
-   - anatomical entity
+   - entity
 
 def:
   text: "The presence of an abscess of the %s."
   vars:
-    - anatomical entity
+    - entity
 
 equivalentTo:
-  text: "'has_part' some ('quality' and ('inheres_in' some %s and ('part_of' some %) and ('qualifier' some 'abnormal')))"
+  text: "'has_part' some ('quality' and ('inheres_in' some %s and ('part_of' some %s) and ('qualifier' some 'abnormal')))"
   vars:
     - abscess
-    - anatomical entity
+    - entity
