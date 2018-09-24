@@ -2,7 +2,7 @@ pattern_name: abscess
 pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abscess
 
 classes:
-  quality: PATO:0000470
+  increased amount: PATO:0000470
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
   abscess: MPATH:608
@@ -28,7 +28,7 @@ def:
     - entity
 
 equivalentTo:
-  text: "'has_part' some ('quality' and ('inheres_in' some %s and ('part_of' some %s) and ('qualifier' some 'abnormal')))"
+  text: "'has_part' some ('increased amount' and ('inheres_in' some %s and ('part_of' some %s) and ('qualifier' some 'abnormal')))"
   vars:
     - abscess
     - entity
