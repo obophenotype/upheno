@@ -20,15 +20,15 @@ vars:
 name:
   text: "%s abscess"
   vars:
-   - entity
+   - anatomical_entity
 
 def:
   text: "The presence of an abscess of the %s."
   vars:
-    - entity
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('increased amount' and ('inheres_in' some %s and ('part_of' some %s) and ('qualifier' some 'abnormal')))"
   vars:
     - abscess
-    - entity
+    - anatomical_entity
