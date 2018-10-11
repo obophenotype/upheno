@@ -1,0 +1,19 @@
+format-version: 1.2
+ontology: upheno/imports/chebi_import
+
+[Term]
+id: CHEBI:24431
+name: chemical entity
+namespace: chebi_ontology
+def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
+subset: 3_STAR
+synonym: "chemical entity" EXACT [UniProt]
+
+[Typedef]
+id: has_part
+name: has part
+namespace: chebi_ontology
+xref: BFO:0000051
+is_cyclic: false
+is_transitive: true
+
