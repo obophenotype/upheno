@@ -8177,6 +8177,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0002400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002400">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fusiform</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001409"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0002403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002403">
