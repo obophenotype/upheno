@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/obophenotype/upheno.svg?branch=master)](https://travis-ci.org/obophenotype/upheno)
 
+<img src="https://raw.githubusercontent.com/jmcmurry/closed-illustrations/master/logos/upheno-logos/upheno-logo_black-banner.svg?sanitize=true" width="400px"/>
+
 This repository contains common files ontologies and workflows shared
 between multiple phenotype ontologies.
 
