@@ -34,7 +34,7 @@ def:
     
 annotations:
   - annotationProperty: exact_synonym
-    text: "reduced level of %s in %s"
+    text: "increased level of %s in %s"
     vars:
     - molecular_entity
     - location
