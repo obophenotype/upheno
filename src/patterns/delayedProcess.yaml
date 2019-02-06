@@ -4,7 +4,7 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/delayedProcess
 classes:
   delayed: PATO:0000502
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  biological_process: BFO:0000001
 
 relations: 
   inheres_in: RO:0000052
@@ -15,19 +15,19 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  entity: "'entity'"
+  biological process: "'biological_process'"
 
 name:
   text: "delayed %s"
   vars:
-   - entity
+   - biological process
 
 def:
   text: "Delayed %s."
   vars:
-    - entity
+    - biological process
 
 equivalentTo:
   text: "'has_part' some ('delayed' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - entity
+    - biological process
