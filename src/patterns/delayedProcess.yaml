@@ -4,7 +4,7 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/delayedProcess
 classes:
   delayed: PATO:0000502
   abnormal: PATO:0000460
-  biological_process: BFO:0000001
+  biological_process: GO:0008150
 
 relations: 
   inheres_in: RO:0000052
