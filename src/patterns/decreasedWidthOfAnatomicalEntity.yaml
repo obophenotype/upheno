@@ -1,0 +1,41 @@
+pattern_name: decreasedWidthOfAnatomicalEntity 
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/decreasedWidthOfAnatomicalEntity
+description: "this pattern describes phenotypes that result in a decrease in the width of an anatomical entity. i.e., decreased width, skinny, tail"
+
+classes:
+  abnormal: PATO:0000460
+  entity: UBERON:0001062 
+  decreased width: PATO:0000599
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  entity: "'entity'"
+
+name:
+  text: "decreased width of the %s"
+  vars:
+   - entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "skinny %s"
+    vars:
+     - entity     
+
+def:
+  text: "skinny or decreased width of the %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('decreased width' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - entity
