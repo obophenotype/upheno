@@ -1,10 +1,11 @@
 pattern_name: lesionInLocationByShape
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/lesionInLocationByShape
+description: "this pattern describes a phenotype that results in lesions with a defined shape in an anatomical entity. i.e., a star shaped lesion in the head"
 
 classes:
   shape: PATO:0000052
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  entity: UBERON:0001062
   lesion: NCIT:C3824
 
 relations:
@@ -27,8 +28,16 @@ name:
    - entity
    - shape
 
+annotations:
+  -
+    annotationProperty: exact_synonym
+    text: "%s lesion of the %s"
+    vars:
+     - shape
+     - entity
+
 def:
-  text: "An abnormal %s with %s lesion."
+  text: "An abnormal %s with a lesion that is %s."
   vars:
     - entity
     - shape
