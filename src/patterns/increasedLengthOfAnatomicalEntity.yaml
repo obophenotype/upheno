@@ -1,0 +1,41 @@
+pattern_name: increasedLengthOfAnatomicalEntity
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/increasedLengthOfAnatomicalEntity
+description: "This pattern decribes phenotypes that result in an increased length of an antomical entity. i.e., increased length of tail"
+
+classes:
+  abnormal: PATO:0000460
+  entity: UBERON:0001062
+  increased length: PATO:0000573
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  entity: "'entity'"
+
+name:
+  text: "increased length of the %s"
+  vars:
+   - entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "longer %s"
+    vars:
+     - entity     
+
+def:
+  text: "longer, increased length of, %s"
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('increased length' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - entity
