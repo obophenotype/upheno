@@ -1,10 +1,11 @@
 pattern_name: abnormalShapeByType 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalShapeByType
+description: "anatomical enity with an abnormal shape of a specified shape. i.e.,columnar shaped head"
 
 classes:
   shape: PATO:0000052
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  entity: UBERON:0001062 
 
 relations: 
   inheres_in: RO:0000052
@@ -19,7 +20,7 @@ vars:
   shape: "'shape'"
 
 name:
-  text: "abnormal %s shape of %s "
+  text: "%s %s"
   vars:
    - shape
    - entity
