@@ -1,6 +1,6 @@
 pattern_name: lesionInLocationByShape
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/lesionInLocationByShape
-description: "this pattern describes a phenotype that results in lesions (NCIT:C3824) with a defined shape in an anatomical entity. i.e., a star shaped lesion in the head."
+description: "this pattern describes a phenotype that results in lesions with a defined shape in an anatomical entity. i.e., a star shaped lesion in the head"
 
 classes:
   shape: PATO:0000052
