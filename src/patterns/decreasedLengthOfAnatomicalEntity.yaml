@@ -1,0 +1,41 @@
+pattern_name: descreasedLengthOfAnatomicalEntity
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/descreasedLengthOfAnatomicalEntity
+description: "this pattern describes phenotypes that result in a decreased length or a shortening of an antomical entity. i.e., decreased length of tail"
+
+classes:
+  abnormal: PATO:0000460
+  entity: UBERON:0001062
+  descreased length: PATO:0000574
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  entity: "'entity'"
+
+name:
+  text: "descreased length of %s"
+  vars:
+   - entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "short %s"
+    vars:
+     - entity
+
+def:
+  text: "Decreased length or shortening of the %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('descreased length' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - entity
