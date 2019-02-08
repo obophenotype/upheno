@@ -1,0 +1,41 @@
+pattern_name: increasedWidthOfAnatomicalEntity 
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/increasedWidthOfAnatomicalEntity
+description: "this pattern describes phenotypes that result in an increased width of an antomical entity. i.e., wider tail"
+
+classes:
+  abnormal: PATO:0000460
+  entity: UBERON:0001062
+  increased width: PATO:0000600
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  entity: "'entity'"
+
+name:
+  text: "increased width of %s"
+  vars:
+   - entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "wider %s"
+    vars:
+     - entity     
+
+def:
+  text: "Increased width of %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('increased width' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - entity
