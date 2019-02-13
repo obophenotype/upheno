@@ -5,7 +5,7 @@ description: "this pattern is used to describe phenotypes in which there is an a
 classes:
   altered number of: PATO:0002083
   abnormal: PATO:0000460
-  entity: UBERON:0001062 
+  anatomical_entity: UBERON:0001062 
 
 relations: 
   inheres_in: RO:0000052
@@ -16,31 +16,31 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  entity: "'entity'"
+  anatomical_entity: "'anatomical_entity'"
 
 name:
   text: "abnormal number of %ss"
   vars:
-   - entity
+   - anatomical_entity
 
 annotations:
   - 
     annotationProperty: exact_synonym
     text: "altered number of %ss"
     vars:
-     - entity
+     - anatomical_entity
   -
     annotationProperty: exact_synonym
     text: "Abnormal count of %ss"
     vars:
-     - entity
+     - anatomical_entity
 
 def:
   text: "Any structural anomaly that causes there to be an abnormal number of %s."
   vars:
-    - entity
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('altered number of' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
-    - entity
+    - anatomical_entity
