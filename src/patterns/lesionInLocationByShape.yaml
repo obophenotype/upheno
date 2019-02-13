@@ -10,7 +10,7 @@ classes:
 
 relations:
   inheres_in: RO:0000052
-  qualifier: RO:0002573
+  has_modifier: RO:0002573
   has_part: BFO:0000051
   part_of: BFO:0000050
 
@@ -43,7 +43,7 @@ def:
     - shape
 
 equivalentTo:
-  text: "'has_part' some (%s and ('inheres_in' some ('lesion' and ('part_of' some %s))) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some (%s and ('inheres_in' some ('lesion' and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - shape
     - entity
