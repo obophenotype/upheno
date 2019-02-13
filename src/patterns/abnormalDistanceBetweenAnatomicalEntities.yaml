@@ -36,7 +36,7 @@ annotations:
      - entity2
   - 
     annotationProperty: exact_synonym
-    text: "distance abnormal distance between %s and %s"
+    text: "distance abnormal between %s and %s"
     vars:
      - entity1
      - entity2
