@@ -3,7 +3,7 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/absenceDueToDegenera
 description: "this pattern is used to describe the complete loss of an antomical entity due to degeneration"
 
 classes:
-  absence due to degeneration: PATO:0015001
+  absence_due_to_degeneration: PATO:0015001
   abnormal: PATO:0000460
   entity: UBERON:0001062
 
@@ -36,6 +36,6 @@ def:
     - entity
 
 equivalentTo:
-  text: "'has_part' some ('absence due to degeneration' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('absence_due_to_degeneration' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - entity
