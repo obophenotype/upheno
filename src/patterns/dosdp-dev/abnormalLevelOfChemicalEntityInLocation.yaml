@@ -1,0 +1,38 @@
+pattern_name: abnormalLevelOfChemicalEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityInLocation.yaml
+description: ""
+
+classes:
+  amount: PATO:0000070
+  abnormal: PATO:0000460
+  chemical entity: CHEBI:24431
+  anatomical entity: UBERON:0001062
+   
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+vars:
+  chemical_entity: "'chemical entity'"
+  location: "'anatomical entity'"
+
+name:
+  text: "abnormal %s %s level"
+  vars:
+   - location
+   - chemical_entity
+
+
+def:
+  text: "An abnormal level of %s in the %s."
+  vars:
+    - chemical_entity
+    - entity
+
+equivalentTo:
+  text: "'has_part' some (amount and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - chemical_entity
+    - location

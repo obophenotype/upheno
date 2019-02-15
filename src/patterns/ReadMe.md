@@ -10,3 +10,10 @@ See https://github.com/obophenotype/upheno/issues/168
 
 A jenkins job periodically checks all equivalence axioms against these patterns, generating the following tuples:
 https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/
+
+
+Pattern file name = iri
+pattern_name= filename w/o .yaml
+dosdp-dev when working, but unreviewed
+dosdp-patterns when unreviewed
+dosdp-workshop when not working yet

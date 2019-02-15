@@ -1,0 +1,46 @@
+pattern_name: abnormalMorphologyOfAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml
+description: ""
+
+classes:
+  morphology: PATO:0000051
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+
+name:
+  text: "abnormal morphology of %s "
+  vars:
+   - anatomical_entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "abnormal shape of %s"
+    vars:
+     - anatomical_entity
+  - 
+    annotationProperty: exact_synonym
+    text: "abnormally shaped %s"
+    vars:
+     - anatomical_entity     
+
+def:
+  text: "Any structural anomaly of the %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('morphology' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity

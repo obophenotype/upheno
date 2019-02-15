@@ -1,0 +1,41 @@
+pattern_name: increasedPigmentationOfAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno-dev/patterns-dev/increasedPigmentationOfAnatomicalEntity.yaml
+description: "this pattern describes phenotypes that result in increased pigmentation (darker) of an anatomical entity. i.e, increased pigmentation of the epithelium"
+
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  increased pigmentation: PATO:0002250
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+
+name:
+  text: "increased pigmentation of %s"
+  vars:
+   - anatomical_entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "darker pigment in the %s"
+    vars:
+     - anatomical_entity     
+
+def:
+  text: "increased pigmentation of %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('increased pigmentation' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity
