@@ -1,0 +1,33 @@
+pattern_name: decreasedFunctionalityInLocation
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/decreasedFunctionalityInLocation
+
+classes:
+  decreased functionality: PATO:0001624
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  entity: BFO:0000001
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+  entity: "'entity'"
+
+name:
+  text: "%s dysfunction"
+  vars:
+   - anatomical_entity
+
+def:
+  text: "A functional abnormality of the %s."
+  vars:
+   - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('decreased functionality' and ('inheres_in' some %s)) and  ('qualifier' some 'abnormal')"
+  vars:
+    - anatomical_entity
+ 

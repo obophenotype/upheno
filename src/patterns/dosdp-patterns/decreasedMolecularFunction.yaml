@@ -1,0 +1,33 @@
+pattern_name: decreasedMolecularFunction
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/decreasedMolecularFunction
+
+classes:
+  decreased rate: PATO:0000911
+  abnormal: PATO:0000460
+  molecular function: GO:0003674
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  molecular_function: "'molecular function'"
+ 
+name:
+  text: "decreased %s"
+  vars:
+   - molecular_function
+
+def:
+  text: "Decreased %s."
+  vars:
+    - molecular_function
+
+equivalentTo:
+  text: "'has_part' some ('decreased rate' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - molecular_function

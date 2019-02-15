@@ -1,0 +1,40 @@
+pattern_name: fibrosis
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/fibrosis
+
+classes:
+  increased amount: PATO:0000470
+  abnormal: PATO:0000460
+  fibrosis: MPATH:181
+  anatomical entity: UBERON:0001062
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+ 
+name:
+  text: "Fibrosis of the %s"
+  vars:
+   - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "%s fibrosis"
+    vars:
+     - anatomical_entity
+def:
+  text: "The presence of excessive fibrous connective tissue in the %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('increased amount' and ('inheres_in' some (fibrosis and ('part_of' some %s))) and ('qualifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity

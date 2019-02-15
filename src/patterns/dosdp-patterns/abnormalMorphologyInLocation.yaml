@@ -1,0 +1,46 @@
+pattern_name: abnormalMorphologyInLocation
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalMorphologyInLocation
+
+classes:
+  position: PATO:0000140
+  abnormal: PATO:0000460
+  entity: BFO:0000001
+  morphology: PATO:0000051
+
+relations:
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  entity: "'entity'"
+  location: "'entity'"
+
+name:
+  text: "morphological abnormality of the %s in the %s"
+  vars:
+   - entity
+   - location
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "Abnormal %s in the %s"
+    vars:
+     - entity
+     - location
+
+def:
+  text: "A morphological abnormality of the %s in the %s."
+  vars:
+    - entity
+    - location
+
+equivalentTo:
+  text: "'has_part' some (morphology and ('inheres_in' some (%s and ('part_of' some %s))) and ('qualifier' some abnormal))"
+  vars:
+    - entity
+    - location

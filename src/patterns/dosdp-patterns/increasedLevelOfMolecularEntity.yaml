@@ -1,0 +1,39 @@
+pattern_name: increasedLevelOfMolecularEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/increasedLevelOfMolecularEntity
+
+classes:
+  increased amount: PATO:0000470
+  abnormal: PATO:0000460
+  molecular entity: CHEBI:23367
+
+relations: 
+  inheres in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  molecular_entity: "'molecular entity'"
+ 
+name:
+  text: "increased level of %s"
+  vars:
+   - molecular_entity
+
+def:
+  text: "An increased amount in the level of %s."
+  vars:
+    - molecular_entity
+    
+annotations:
+  - annotationProperty: exact_synonym
+    text: "increased %s level"
+    vars:
+     - molecular_entity
+
+equivalentTo:
+  text: "'has_part' some ('increased amount' and ('inheres in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - molecular_entity

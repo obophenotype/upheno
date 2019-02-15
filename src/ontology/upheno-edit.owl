@@ -1,0 +1,32 @@
+Prefix(:=<http://purl.obolibrary.org/obo/upheno.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno.owl>
+Import(<http://purl.obolibrary.org/obo/upheno/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl>)
+Annotation(rdfs:comment "upheno")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_00000000>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_00000000> (upheno)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_00000000> "upheno"@en)
+
+
+)

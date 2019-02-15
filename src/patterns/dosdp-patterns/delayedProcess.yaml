@@ -1,0 +1,33 @@
+pattern_name: delayedProcess
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/delayedProcess
+
+classes:
+  delayed: PATO:0000502
+  abnormal: PATO:0000460
+  entity: BFO:0000001
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  entity: "'entity'"
+
+name:
+  text: "delayed %s"
+  vars:
+   - entity
+
+def:
+  text: "Delayed %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('delayed' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - entity

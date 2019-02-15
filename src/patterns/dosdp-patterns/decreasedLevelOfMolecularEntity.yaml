@@ -1,0 +1,33 @@
+pattern_name: decreasedLevelOfMolecularEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/decreasedLevelOfMolecularEntity
+
+classes:
+  decreased amount: PATO:0001997
+  abnormal: PATO:0000460
+  molecular entity: CHEBI:23367
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  molecular_entity: "'molecular entity'"
+ 
+name:
+  text: "decreased level of %s"
+  vars:
+   - molecular_entity
+
+def:
+  text: "A decreased amount in the level of %s."
+  vars:
+    - molecular_entity
+
+equivalentTo:
+  text: "'has_part' some ('decreased amount' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - molecular_entity

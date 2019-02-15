@@ -1,0 +1,39 @@
+pattern_name: aneurysm
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/aneurysm
+
+classes:
+  increased amount: PATO:0000470
+  abnormal: PATO:0000460
+  aneurysm: MPATH:90
+  anatomical structure: UBERON:0000061
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  aneurysm: "aneurysm"
+  anatomical_structure: "'anatomical structure'"
+
+name:
+  text: "%s %s"
+  vars:
+    - anatomical_structure
+    - aneurysm
+
+def:
+  text: "An %s in the %s."
+  vars:
+    - aneurysm
+    - anatomical_structure
+
+equivalentTo:
+  text: "'has_part' some ('increased amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('qualifier' some abnormal))"
+  vars:
+    - aneurysm
+    - anatomical_structure

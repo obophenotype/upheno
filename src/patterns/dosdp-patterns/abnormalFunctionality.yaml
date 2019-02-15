@@ -1,0 +1,33 @@
+pattern_name: abnormalFunctionality
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalFunctionality
+
+classes:
+  functionality: PATO:0001509
+  abnormal: PATO:0000460
+  entity: BFO:0000001
+
+relations: 
+  inheres_in_part_of: RO:0002314
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  entity: "'entity'"
+
+name:
+  text: "abnormality of %s physiology"
+  vars:
+   - entity
+
+def:
+  text: "Any functional anomaly of the %s."
+  vars:
+    - entity
+
+equivalentTo:
+  text: "'has_part' some ('functionality' and ('inheres_in_part_of' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - entity

@@ -1,0 +1,34 @@
+pattern_name: abnormalProcess
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalProcess
+
+classes:
+  process quality: PATO:0001236
+  abnormal: PATO:0000460
+  biological_process: GO:0008150
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  biological_process: "'biological_process'"
+ 
+name:
+  text: "abnormal %s"
+  vars:
+   - 'biological_process'
+
+def:
+  text: "An abnormality in %s."
+  vars:
+    - 'biological_process'
+
+equivalentTo:
+  text: "'has_part' some ('process quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - 'biological_process'
+    

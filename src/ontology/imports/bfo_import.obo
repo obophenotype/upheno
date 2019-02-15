@@ -1,0 +1,17 @@
+format-version: 1.2
+ontology: upheno/imports/bfo_import
+
+[Term]
+id: BFO:0000001
+name: entity
+property_value: BFO:0000179 "entity" xsd:string
+property_value: BFO:0000180 "Entity" xsd:string
+property_value: IAO:0000112 "Julius Caesar" xsd:string
+property_value: IAO:0000112 "the Second World War" xsd:string
+property_value: IAO:0000112 "Verdi’s Requiem" xsd:string
+property_value: IAO:0000112 "your body mass index" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81" xsd:string
+property_value: IAO:0000116 "Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000004", comment="per discussion with Barry Smith", http://www.w3.org/2000/01/rdf-schema#seeAlso="http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf"}
+property_value: IAO:0000600 "An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/001-001"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+

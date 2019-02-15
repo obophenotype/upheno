@@ -1,0 +1,35 @@
+pattern_name: abnormalLevelOfChemical
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalLevelOfChemical
+
+classes:
+  amount: PATO:0000070
+  abnormal: PATO:0000460
+  chemical: CHEBI:24431
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  chemical: "chemical"
+
+name:
+  text: "abnormal %s level"
+  vars:
+   - chemical
+
+
+def:
+  text: "An abnormal level of %s."
+  vars:
+    - chemical
+
+equivalentTo:
+  text: "'has_part' some ('amount' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - chemical
+

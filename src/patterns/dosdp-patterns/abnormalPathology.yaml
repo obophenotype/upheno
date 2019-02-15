@@ -1,0 +1,40 @@
+pattern_name: abnormalPathology
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalPathology
+
+classes:
+  increased amount: PATO:0000470
+  abnormal: PATO:0000460
+  pathological entity: MPATH:0
+  anatomical structure: UBERON:0000061
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  pathological_entity: "'pathological entity'"
+  anatomical_structure: "'anatomical structure'"
+
+name:
+  text: "%s %s"
+  vars:
+    - anatomical_structure
+    - pathological_entity
+
+
+def:
+  text: "An %s in the %s."
+  vars:
+    - pathological_entity
+    - anatomical_structure
+
+equivalentTo:
+  text: "'has_part' some ('increased amount' and ('inheres_in' some %s) and ('part_of' some %s)) and ('qualifier' some abnormal)"
+  vars:
+    - pathological_entity
+    - anatomical_structure

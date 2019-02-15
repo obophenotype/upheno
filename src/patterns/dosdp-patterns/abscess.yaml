@@ -1,0 +1,34 @@
+pattern_name: abscess
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abscess
+
+classes:
+  increased amount: PATO:0000470
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  abscess: MPATH:608
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+  abscess: "'abscess'"
+
+name:
+  text: "%s abscess"
+  vars:
+   - anatomical_entity
+
+def:
+  text: "The presence of an abscess of the %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('increased amount' and ('inheres_in' some %s and ('part_of' some %s) and ('qualifier' some 'abnormal')))"
+  vars:
+    - abscess
+    - anatomical_entity
