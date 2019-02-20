@@ -18,8 +18,8 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  entity1: "'anatomical_entity1'"
-  entity2: "'anatomical_entity2'"
+  anatomical_entity1: "'anatomical_entity1'"
+  anatomical_entity2: "'anatomical_entity2'"
 
 name:
   text: "abnormal distance between %s and %s"

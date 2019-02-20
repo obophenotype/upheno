@@ -41,7 +41,7 @@ def:
     - location
  
 equivalentTo:
-  text: 'has part' some ('protruding out of' and ('inheres in' some (%s) and ('towards' some %s) and ('has_modifier' some abnormal))
+  text: "'has_part' some ('protruding out of' and ('inheres_in' some (%s) and ('towards' some %s) and ('has_modifier' some abnormal))"
   vars:
     - anatomical_entity
     - location

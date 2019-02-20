@@ -28,7 +28,7 @@ vars:
 name:
   text: "decreased size of the %s"
   vars:
-   - entity
+   - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym

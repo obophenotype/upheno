@@ -24,17 +24,17 @@ vars:
 name:
   text: "decreased level of %s in %s"
   vars:
-   - molecular_entity
+   - chemical_entity
    - location
 
 def:
   text: "A decrease in the level of %s in %s."
   vars:
-    - molecular_entity
+    - chemical_entity
     - location
 
 equivalentTo:
   text: "'has_part' some ('decreased amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - molecular_entity
+    - chemical_entity
     - location

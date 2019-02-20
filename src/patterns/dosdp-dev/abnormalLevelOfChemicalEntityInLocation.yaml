@@ -29,7 +29,7 @@ def:
   text: "An abnormal level of %s in the %s."
   vars:
     - chemical_entity
-    - entity
+    - location
 
 equivalentTo:
   text: "'has_part' some (amount and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
