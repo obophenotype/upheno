@@ -1,11 +1,11 @@
-pattern_name: increasedDistanceBetweenAnatomicalEntities 
+pattern_name: decreasedDistanceBetweenAnatomicalEntities 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/decreasedDistanceBetweenAnatomicalEntities.yaml
 description: "The distance between two anatomical entites has decreased. For example the distance between eyes."
  
 classes:
   abnormal: PATO:0000460
-  entity1: UBERON:0001062
-  entity2: UBERON:0001062
+  anatomical entity1: UBERON:0001062
+  anatomical entity2: UBERON:0001062
   decreased distance: PATO:0000375
 
 relations: 
@@ -18,37 +18,37 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  entity1: "'entity1'"
-  entity2: "'entity2'"
+  anatomical_entity1: "'anatomical entity1'"
+  anatomical_entity2: "'anatomical entity2'"
 
 name:
   text: "decreased distance between %s and %s"
   vars:
-   - entity1
-   - entity2
+   - anatomical_entity1
+   - anatomical_entity2
 
 annotations:
   - 
     annotationProperty: exact_synonym
     text: "decreased distance between %s and %s"
     vars:
-     - entity1
-     - entity2
+     - anatomical_entity1
+     - anatomical_entity2
   - 
     annotationProperty: exact_synonym
     text: "distance decreased distance between %s and %s"
     vars:
-     - entity1
-     - entity2
+     - anatomical_entity1
+     - anatomical_entity2
 
 def:
   text: "Decreased distance between %s and %s."
   vars:
-    - entity1
-    - entity2
+    - anatomical_entity1
+    - anatomical_entity2
 
 equivalentTo:
   text: "'has_part' some ('decreased distance' and ('inheres_in' some %s) and ('towards' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - entity1
-    - entity2
+    - anatomical_entity1
+    - anatomical_entity2
