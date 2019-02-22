@@ -10,11 +10,12 @@ contributors:
   - https://orcid.org/0000-0003-4148-4606
   - https://orcid.org/0000-0001-7941-2961
   - https://orcid.org/0000-0002-7356-1779
+  - https://orcid.org/0000-0001-9076-6015
 
 classes:
   amount: PATO:0000070
   abnormal: PATO:0000460
-  chemical: CHEBI:24431
+  chemical entity: CHEBI:24431
 
 relations: 
   inheres_in: RO:0000052
@@ -25,21 +26,21 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  chemical: "chemical"
+  chemical_entity: "chemical entity"
 
 name:
   text: "abnormal %s level"
   vars:
-   - chemical
+   - chemical_entity
 
 
 def:
   text: "An abnormal level of %s."
   vars:
-    - chemical
+    - chemical_entity
 
 equivalentTo:
   text: "'has_part' some ('amount' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - chemical
+    - chemical_entity
 
