@@ -1,6 +1,6 @@
 pattern_name: absenceOfChemicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/absenceOfChemicalEntityInLocation.yaml
-description: ""
+description: "A chemical (entity) such as sodium is missing from an anatomical location."
 
 classes:
   absent: PATO:0000462
@@ -9,7 +9,7 @@ classes:
   anatomical entity: UBERON:0001062
 
 relations: 
-  inheres_in_part_of: RO:0002314
+  inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
   part_of: BFO:0000050
@@ -34,8 +34,7 @@ def:
    - location
 
 equivalentTo:
-  text: "'has_part' some ('absent' and ('inheres_in_part_of' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('absent' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
    - chemical_entity
    - location
-    

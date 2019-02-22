@@ -1,0 +1,34 @@
+pattern_name: absenceOfBehavior
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/absenceOfBehavior.yaml
+description: "A behaviour that normally would occur did not occur."
+
+classes:
+  absent: PATO:0000462
+  abnormal: PATO:0000460
+  behavior process: NBO:0000313
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  behavior_process: "'behavior process'"
+ 
+name:
+  text: "absent %s"
+  vars:
+   - behavior_process
+
+def:
+  text: "Absence of %s."
+  vars:
+    - behavior_process
+
+equivalentTo:
+  text: "'has_part' some ('absent' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - behavior_process

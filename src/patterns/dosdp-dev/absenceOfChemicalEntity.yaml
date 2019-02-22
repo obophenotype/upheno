@@ -1,6 +1,6 @@
 pattern_name: absenceOfChemicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/absenceOfChemicalEntity.yaml
-description: ""
+description: "A chemical (entity) such as sodium that is normally present is absent."
 
 classes:
   absent: PATO:0000462
@@ -11,6 +11,7 @@ relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
+  part_of: BFO:0000050
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym 

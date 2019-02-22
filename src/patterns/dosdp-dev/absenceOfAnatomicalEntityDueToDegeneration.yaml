@@ -1,11 +1,11 @@
-pattern_name: absenceDueToDegeneration
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/absenceDueToDegeneration
-description: "this pattern is used to describe the complete loss of an antomical entity due to degeneration"
+pattern_name: absenceOfAnatomicalEntityDueToDegeneration
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/absenceOfAnatomicalEntityDueToDegeneration.yaml
+description: "The complete loss of an antomical entity due to degeneration."
 
 classes:
   absence due to degeneration: PATO:0015001
   abnormal: PATO:0000460
-  entity: UBERON:0001062
+  anatomical entity: UBERON:0001062
 
 relations: 
   inheres_in: RO:0000052
@@ -16,26 +16,25 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  entity: "'entity'"
+  anatomical_entity: "'anatomical entity'"
 
 name:
   text: "missing %s due to degeneration"
   vars:
-   - entity
+   - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
     text: "loss of %s due to degeneration"
-
     vars:
-     - entity
+     - anatomical_entity
 
 def:
   text: "Complete wasting (loss) of %s tissue that was once present."
   vars:
-    - entity
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('absence due to degeneration' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - entity
+    - anatomical_entity
