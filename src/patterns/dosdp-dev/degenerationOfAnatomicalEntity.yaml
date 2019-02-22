@@ -5,7 +5,7 @@ description: ""
 classes:
   degenerate: PATO:0000639
   abnormal: PATO:0000460
-  anatomical_entity: "'anatomical entity'"
+  anatomical_entity: UBERON:0001062
 
 relations: 
   inheres_in: RO:0000052
