@@ -5,7 +5,7 @@ description: "Anatomical entity is observed to be of decreased length. i.e., dec
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
-  descreased length: PATO:0000574
+  decreased length: PATO:0000574
 
 relations: 
   inheres_in: RO:0000052
@@ -19,7 +19,7 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "descreased length of %s"
+  text: "decreased length of %s"
   vars:
    - anatomical_entity
 
@@ -36,6 +36,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('descreased length' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('decreased length' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
