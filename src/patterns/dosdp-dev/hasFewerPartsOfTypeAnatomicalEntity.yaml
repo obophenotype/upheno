@@ -36,6 +36,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('has fewer parts of type' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('has fewer parts of type' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
