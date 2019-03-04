@@ -21,7 +21,7 @@ vars:
   location: "'anatomical entity'"
 
 name:
-  text: "abnormal number of anatomical enitites of type %s in %s"
+  text: "abnormal number of anatomical entities of type %s in %s"
   vars:
    - anatomical_entity
    - location
