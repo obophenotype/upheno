@@ -1,34 +1,35 @@
-pattern_name: absenceOfMolecularFunction
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/absenceOfMolecularFunction.yaml
-description: ""
+pattern_name: abnormalAbsenceOfChemicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfChemicalEntity.yaml
+description: "A chemical (entity) such as sodium that is normally present is absent."
 
 classes:
   absent: PATO:0000462
   abnormal: PATO:0000460
-  molecular function: GO:0003674
+  chemical entity: CHEBI:24431
 
 relations: 
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
+  part_of: BFO:0000050
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  molecular_function: "'molecular function'"
+  chemical_entity: "'chemical entity'"
  
 name:
   text: "absent %s"
   vars:
-   - molecular_function
+   - chemical_entity
 
 def:
   text: "Absent or undetectable level of %s."
   vars:
-    - molecular_function
+    - chemical_entity
 
 equivalentTo:
   text: "'has_part' some ('absent' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - molecular_function
+    - chemical_entity

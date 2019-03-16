@@ -1,11 +1,11 @@
-pattern_name: absenceOfAnatomicalEntity
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/absenceOfAnatomicalEntity.yaml
-description: ""
+pattern_name: abnormalAbsenceOfBehavior
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBehavior.yaml
+description: "A behaviour that normally would occur did not occur."
 
 classes:
   absent: PATO:0000462
   abnormal: PATO:0000460
-  anatomical entity: UBERON:0001062
+  behavior process: NBO:0000313
 
 relations: 
   inheres_in: RO:0000052
@@ -16,25 +16,19 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  anatomical_entity: "'anatomical entity'"
-
+  behavior_process: "'behavior process'"
+ 
 name:
   text: "absent %s"
   vars:
-   - anatomical_entity
-
-annotations:
-  - annotationProperty: exact_synonym
-    text: "missing %s"
-    vars:
-     - anatomical_entity
+   - behavior_process
 
 def:
   text: "Absence of %s."
   vars:
-    - anatomical_entity
+    - behavior_process
 
 equivalentTo:
   text: "'has_part' some ('absent' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
+    - behavior_process
