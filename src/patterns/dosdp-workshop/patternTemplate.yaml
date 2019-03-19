@@ -23,7 +23,7 @@ classes:
 relations: 
   inheres_in: RO:0000052
   inheres_in_part_of: RO:0002314
-  qualifier: RO:0002573
+  has_modifier: RO:0002573
   has_part: BFO:0000051
   occurs_in: BFO:0000066
   part_of: BFO:0000050
@@ -57,6 +57,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('quality' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
