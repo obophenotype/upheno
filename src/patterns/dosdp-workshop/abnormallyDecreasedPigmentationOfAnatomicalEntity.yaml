@@ -30,13 +30,13 @@ vars:
   location: "'anatomical entity'"
 
 name:
-  text: "abnormal %s pigmentation"
+  text: "Decreased %s pigmentation"
   vars:
    - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "abnormality of %s pigmentation"
+    text: "%s hypopigmentation"
     vars:
      - anatomical_entity
 
