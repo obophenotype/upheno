@@ -28,17 +28,20 @@ name:
   text: "Increased numnber of %s in the %s"
   vars:
    - anatomical_entity
+   - location
 
 annotations:
   - annotationProperty: exact_synonym
     text: "Extra %s in the %s"
     vars:
      - anatomical_entity
+     - location
 
 def:
   text: "The presence of an increased number of %s in the %s."
   vars:
     - anatomical_entity
+    - location
 
 equivalentTo:
   text: "'has_part' some ('increased number of' and ('inheres_in' some (%s and ('part of' some %s))) and ('has_modifier' some 'abnormal'))"
