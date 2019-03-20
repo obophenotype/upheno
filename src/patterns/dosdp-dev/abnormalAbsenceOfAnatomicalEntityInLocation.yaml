@@ -1,12 +1,12 @@
-pattern_name: abnormallyDecreasedNumberOfAnatomicalEntityInLocation
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.yaml
-description: "A decreased number of an anatomical entity in a location, such a decreased number of teeth in the mouth."
+pattern_name: abnormalAbsenceOfAnatomicalEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntityInLocation.yaml
+description: "Absence of an anatomical entity in a location, such as absent aortic valve in the heart."
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  decreased number of: PATO:0040021
+  absent: PATO:0000462
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
@@ -25,26 +25,26 @@ vars:
   location: "'anatomical entity'"
 
 name:
-  text: "Decreased numnber of %s in the %s"
+  text: "Absent %s in the %s"
   vars:
    - anatomical_entity
    - location
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "Reduced number of %s in the %s"
+    text: "Missing %s in the %s"
     vars:
      - anatomical_entity
      - location
 
 def:
-  text: "The presence of a reduced number of %s in the %s."
+  text: "Absence of the %s in the %s."
   vars:
     - anatomical_entity
     - location
 
 equivalentTo:
-  text: "'has_part' some ('decreased number of' and ('inheres_in' some (%s and ('part of' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('absent' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
     - location

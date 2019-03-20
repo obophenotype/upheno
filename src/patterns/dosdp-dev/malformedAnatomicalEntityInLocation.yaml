@@ -1,5 +1,5 @@
-pattern_name: blisteredAnatomicalEntity
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml
+pattern_name: malformedAnatomicalEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/malformedAnatomicalEntityInLocation.yaml
 description : ""
 
 contributors:
@@ -9,37 +9,43 @@ contributors:
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
-  blistered: PATO:0001928
+  malformed: PATO:0000646
 
 relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
+  part_of: BFO:0000050
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
   anatomical_entity: "'anatomical entity'"
+  location: "'anatomical entity'"
 
 
 name:
-  text: "abnormally blistered %s"
+  text: "abnormally formed %s in %s"
   vars:
    - anatomical_entity
+   - location
 
 def:
-  text: "An abnormally blistered %s."
+  text: "An abnormally formed/malformed %s in %s."
   vars:
     - anatomical_entity
+    - location
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "%s with blister"
+    text: "malformed %s in %s"
     vars:
      - anatomical_entity
+     - location
 
 equivalentTo:
-  text: "'has_part' some ('blistered' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('malformed' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
+    - location

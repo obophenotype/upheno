@@ -3,10 +3,11 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncrea
 description: "An increased number of an anatomical entity in a location, such a increased number of teeth in the mouth."
 
 contributors:
+  - https://orcid.org/0000-0002-7356-1779
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  increased number of: PATO:0040018
+  increased amount: PATO:0000470
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
@@ -25,7 +26,7 @@ vars:
   location: "'anatomical entity'"
 
 name:
-  text: "Increased numnber of %s in the %s"
+  text: "Increased number of %s in the %s"
   vars:
    - anatomical_entity
    - location
@@ -44,7 +45,7 @@ def:
     - location
 
 equivalentTo:
-  text: "'has_part' some ('increased number of' and ('inheres_in' some (%s and ('part of' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('increased amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
     - location

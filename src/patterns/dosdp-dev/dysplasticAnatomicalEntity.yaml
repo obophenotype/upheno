@@ -1,10 +1,15 @@
-pattern_name: dysgenesis
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/dysgenesis
+pattern_name: dysplasticAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/dysplasticAnatomicalEntity.yaml
+description: ""
+
+contributors:
+  - https://orcid.org/0000-0002-7356-1779
+  - https://orcid.org/0000-0001-5208-3432
 
 classes:
   dysplastic: PATO:0000640
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  anatomical entity: UBERON:0001062
 
 relations: 
   inheres_in: RO:0000052
@@ -15,25 +20,25 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
- entity: "'entity'"
+ anatomical_entity: "'anatomical entity'"
  
 name:
   text: "dysgenesis of the %s"
   vars:
-   - entity
+   - anatomical_entity
    
 annotations:
   - annotationProperty: exact_synonym
     text: "%s dysgenesis"
     vars:
-     - entity   
+     - anatomical_entity   
 
 def:
   text: "Defective development of the %s."
   vars:
-    - entity
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('dysplastic' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - entity
+    - anatomical_entity

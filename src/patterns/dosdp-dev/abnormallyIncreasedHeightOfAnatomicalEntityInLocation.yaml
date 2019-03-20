@@ -1,12 +1,13 @@
-pattern_name: abnormalAbsenceOfAnatomicalEntityInLocation
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntityInLocation.yaml
-description: "Absence of an anatomical entity in a location, such as absent aortic valve in the heart."
+pattern_name: abnormallyIncreasedHeightOfAnatomicalEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedHeightOfAnatomicalEntityInLocation.yaml
+description: "An abnormally high anatomical structure in a location.'"
 
 contributors:
+  - https://orcid.org/0000-0002-7356-1779
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  absent: PATO:0000462
+  increased height: PATO:0000570
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
@@ -16,7 +17,6 @@ relations:
   has_part: BFO:0000051
   part_of: BFO:0000050
 
-  
 annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
@@ -25,26 +25,26 @@ vars:
   location: "'anatomical entity'"
 
 name:
-  text: "Absent %s in the %s"
+  text: "increased height of the %s"
   vars:
    - anatomical_entity
    - location
-
+     
 annotations:
   - annotationProperty: exact_synonym
-    text: "Missing %s in the %s"
+    text: "higher %s"
     vars:
      - anatomical_entity
-     - location
+     - location     
 
 def:
-  text: "Absence of the %s in the %s."
+  text: "An increase in the height of the %s."
   vars:
     - anatomical_entity
     - location
 
 equivalentTo:
-  text: "'has_part' some ('absent' and ('inheres_in' some (%s and ('part of' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('increased height' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
     - location

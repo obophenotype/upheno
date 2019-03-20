@@ -1,12 +1,15 @@
-pattern_name: atrophiedAnatomicalStructure
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/atrophiedAnatomicalStructure
+pattern_name: atrophiedAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/atrophiedAnatomicalEntity.yaml
 description: "Atrophy (wasting) of an anatomical structure."
-# Restricted to anatomical structures?
+
+contributors:
+  - https://orcid.org/0000-0002-7356-1779
+  - https://orcid.org/0000-0001-5208-3432
 
 classes:
   atrophied: PATO:0001623
   abnormal: PATO:0000460
-  entity: BFO:0000001
+  anatomical entity: UBERON:0001062
 
 relations: 
   inheres_in: RO:0000052
@@ -17,25 +20,25 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  entity: "'entity'"
+  anatomical_entity: "'anatomical entity'"
 
 name:
   text: "%s atrophy"
   vars:
-   - entity
+   - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
     text: "atrophy of the %s"
     vars:
-     - entity
+     - anatomical_entity
 
 def:
   text: "Partial or complete wasting (loss) of %s tissue that was once present."
   vars:
-    - entity
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('atrophied' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - entity
+    - anatomical_entity

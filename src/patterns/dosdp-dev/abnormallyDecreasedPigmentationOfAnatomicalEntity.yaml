@@ -1,10 +1,13 @@
 pattern_name: abnormallyDecreasedPigmentationOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedPigmentationOfAnatomicalEntity.yaml
-description: "Decreased pigmenetation of an antomical entity. i.e., decreased or loss of pigmentention of the eye."
+description: "Decreased pigmentation of an anatomical entity, such as decreased skin pigmentation."
+
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
 
 classes:
   abnormal: PATO:0000460
-  entity: UBERON:0001062 
+  anatomical entity: UBERON:0001062 
   decreased pigmentation: PATO:0002251
 
 relations: 
@@ -16,26 +19,29 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  entity: "'entity'"
+  anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "decreased pigmentation of in the %s"
+  text: "decreased pigmentation in the %s"
   vars:
-   - entity
+   - anatomical_entity
 
 annotations:
-  - 
-    annotationProperty: exact_synonym
+  - annotationProperty: exact_synonym
     text: "loss of pigment in the %s"
     vars:
-     - entity     
+     - anatomical_entity
+  - annotationProperty: exact_synonym
+    text: "%s hypopigmentation"
+    vars:
+     - anatomical_entity     
 
 def:
-  text: "decreased or loss of pigmentation of %s."
+  text: "Decreased or loss of pigmentation of %s."
   vars:
-    - entity
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('decreased pigmentation' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - entity
+    - anatomical_entity

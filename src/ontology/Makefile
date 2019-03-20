@@ -1,15 +1,4 @@
-SCHEMA := util/DOSDP_schema_full.yaml
-
-test: $(SCHEMA)
-	simple_pattern_tester.py *.yaml
-
-clean:
-	rm $(SCHEMA)
-
-$(SCHEMA):
-	wget --no-check-certificate https://raw.githubusercontent.com/dosumis/dead_simple_owl_design_patterns/master/spec/DOSDP_schema_full.yaml -O $@ && touch $@
-
-pattern-files = $(shell ls *.yaml)
+PATTERNDIR=                 ../patterns
 
 query: $(pattern-files)
 
@@ -27,3 +16,7 @@ $(MP):
 
 $(pattern-files): $(HP) $(MP)
 	dosdp-scala query --ontology=$(MP) --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).mp.tsv; dosdp-scala query --ontology=$(HP) --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).hp.tsv
+
+
+pattern_schema_checks: $(PATTERNDIR)/dosdp-patterns
+	simple_pattern_tester.py $(PATTERNDIR)/dosdp-patterns/ && simple_pattern_tester.py $(PATTERNDIR)/dosdp-dev/

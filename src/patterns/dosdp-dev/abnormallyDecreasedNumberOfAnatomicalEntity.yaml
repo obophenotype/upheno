@@ -6,7 +6,7 @@ contributors:
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  decreased number of: PATO:0040021
+  decreased amount: PATO:0001997
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
@@ -23,7 +23,7 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Decreased numnber of %s"
+  text: "Decreased number of %s"
   vars:
    - anatomical_entity
 
@@ -39,6 +39,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('decreased number of' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('decreased amount' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity

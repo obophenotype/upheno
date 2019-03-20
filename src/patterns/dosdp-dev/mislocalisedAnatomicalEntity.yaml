@@ -1,5 +1,5 @@
-pattern_name: blisteredAnatomicalEntity
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml
+pattern_name: mislocalisedAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/mislocalisedAnatomicalEntity.yaml
 description : ""
 
 contributors:
@@ -9,7 +9,7 @@ contributors:
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
-  blistered: PATO:0001928
+  mislocalised: PATO:0000628
 
 relations:
   inheres_in: RO:0000052
@@ -24,22 +24,22 @@ vars:
 
 
 name:
-  text: "abnormally blistered %s"
+  text: "Abnormally localised %s"
   vars:
    - anatomical_entity
 
 def:
-  text: "An abnormally blistered %s."
+  text: "An abnormally localised %s."
   vars:
     - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "%s with blister"
+    text: "abnormal position of %s"
     vars:
      - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('blistered' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('mislocalised' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity

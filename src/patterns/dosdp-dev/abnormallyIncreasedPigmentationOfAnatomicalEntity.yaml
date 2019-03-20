@@ -6,19 +6,15 @@ contributors:
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  increased rate: PATO:0000912
   abnormal: PATO:0000460
-  anatomical entity: UBERON:0001062
-  pigmentation: GO:0043473
-
+  anatomical entity: UBERON:0001062 
+  increased pigmentation: PATO:0002250
 
 relations: 
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
-  occurs_in: BFO:0000066
 
-  
 annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
@@ -26,22 +22,26 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Increased %s pigmentation"
+  text: "increased pigmentation in the %s"
   vars:
    - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "%s hyperpigmentation"
+    text: "increasing of pigment in the %s"
     vars:
      - anatomical_entity
+  - annotationProperty: exact_synonym
+    text: "%s hyperpigmentation"
+    vars:
+     - anatomical_entity     
 
 def:
-  text: "A increased pigmentation pattern of the %s."
+  text: "Increased or increasing of pigmentation of %s."
   vars:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('increased rate' and ('inheres_in' some 'pigmentation') and ('occurs in' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('increased pigmentation' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
