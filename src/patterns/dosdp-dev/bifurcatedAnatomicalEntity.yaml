@@ -1,5 +1,5 @@
-pattern_name: dysplasticAnatomicalEntity
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/dysplasticAnatomicalEntity.yaml
+pattern_name: bifurcatedAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/bifurcatedAnatomicalEntity.yaml
 description: ""
 
 contributors:
@@ -7,7 +7,7 @@ contributors:
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  dysplastic: PATO:0000640
+  bifurcated: PATO:0001784
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
@@ -23,22 +23,22 @@ vars:
  anatomical_entity: "'anatomical entity'"
  
 name:
-  text: "dysgenesis of the %s"
+  text: "bifurcated %s"
   vars:
    - anatomical_entity
    
 annotations:
   - annotationProperty: exact_synonym
-    text: "%s dysgenesis"
+    text: "%s bifurcation"
     vars:
      - anatomical_entity   
 
 def:
-  text: "Defective development of the %s."
+  text: "Bifurcation of the %s."
   vars:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('dysplastic' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('bifurcated' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
