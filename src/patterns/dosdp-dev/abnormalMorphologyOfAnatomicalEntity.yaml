@@ -24,14 +24,8 @@ name:
    - anatomical_entity
 
 annotations:
-  - 
-    annotationProperty: exact_synonym
+  - annotationProperty: exact_synonym
     text: "abnormal shape of %s"
-    vars:
-     - anatomical_entity
-  - 
-    annotationProperty: exact_synonym
-    text: "abnormally shaped %s"
     vars:
      - anatomical_entity     
 

@@ -1,5 +1,5 @@
-pattern_name: increasedDistanceBetweenAnatomicalEntities 
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/increasedDistanceBetweenAnatomicalEntities.yaml
+pattern_name: abnormallyIncreasedDistanceBetweenAnatomicalEntities 
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedDistanceBetweenAnatomicalEntities.yaml
 description: "The distance between two anatomical entites has increased. For example the distance between eyes."
  
 classes:
@@ -28,14 +28,7 @@ name:
    - entity2
 
 annotations:
-  - 
-    annotationProperty: exact_synonym
-    text: "increased distance between %s and %s"
-    vars:
-     - entity1
-     - entity2
-  - 
-    annotationProperty: exact_synonym
+  - annotationProperty: exact_synonym
     text: "distance increased distance between %s and %s"
     vars:
      - entity1

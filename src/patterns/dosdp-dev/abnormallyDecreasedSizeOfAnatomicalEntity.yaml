@@ -1,6 +1,6 @@
-pattern_name: decreasedSizeOfAnatomicalEntity
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/decreasedSizeOfAnatomicalEntity.yaml
-description: "Small entity, like a small anatomical structure.	MP_0020533 'decreased pons size'"
+pattern_name: abnormallyDecreasedSizeOfAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfAnatomicalEntity.yaml
+description: "Abnormally small anatomical entity, e.g. MP:0020533 'decreased pons size'"
 
 contributors:
   - https://orcid.org/0000-0002-9611-1279
@@ -32,12 +32,12 @@ name:
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "small %s"
+    text: "abnormally small %s"
     vars:
      - anatomical_entity
 
 def:
-  text: "A reduction in the size of the %s."
+  text: "An abnormal reduction in the size of the %s."
   vars:
     - anatomical_entity
 

@@ -35,7 +35,7 @@ def:
 
 
 equivalentTo:
-  text: "'has_part' some ('absent' and ('inheres_in' some ('occurs_in' some %s)) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('absent' and ('inheres_in' some (%s and ('occurs_in' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - biological_process
     - location

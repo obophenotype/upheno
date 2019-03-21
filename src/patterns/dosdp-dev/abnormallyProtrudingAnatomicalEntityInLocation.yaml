@@ -1,5 +1,5 @@
-pattern_name: protrudingAnatomicalEntityInLocation
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/protrudingAnatomicalEntityInLocation.yaml
+pattern_name: abnormallyProtrudingAnatomicalEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyProtrudingAnatomicalEntityInLocation.yaml
 description: ""
  
 classes:
@@ -41,7 +41,7 @@ def:
     - location
  
 equivalentTo:
-  text: "'has_part' some ('protruding out of' and ('inheres_in' some (%s) and ('towards' some %s) and ('has_modifier' some abnormal))"
+  text: "'has_part' some ('protruding out of' and ('inheres_in' some %s) and ('towards' some %s) and ('has_modifier' some abnormal))"
   vars:
     - anatomical_entity
     - location
