@@ -5,7 +5,7 @@ description: ""
 classes:
   delayed: PATO:0000502
   abnormal: PATO:0000460
-  biological_process: GO:0008150
+  biological process: GO:0008150
 
 relations: 
   inheres_in: RO:0000052
@@ -16,19 +16,19 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  biological process: "'biological_process'"
+  biological_process: "'biological process'"
 
 name:
   text: "delayed %s"
   vars:
-   - biological process
+   - biological_process
 
 def:
   text: "Delayed %s."
   vars:
-    - biological process
+    - biological_process
 
 equivalentTo:
   text: "'has_part' some ('delayed' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - biological process
+    - biological_process

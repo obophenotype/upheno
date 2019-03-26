@@ -18,5 +18,5 @@ $(pattern-files): $(HP) $(MP)
 	dosdp-scala query --ontology=$(MP) --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).mp.tsv; dosdp-scala query --ontology=$(HP) --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).hp.tsv
 
 
-pattern_schema_checks: $(PATTERNDIR)/dosdp-patterns
+pattern_schema_checks:
 	simple_pattern_tester.py $(PATTERNDIR)/dosdp-patterns/ && simple_pattern_tester.py $(PATTERNDIR)/dosdp-dev/
