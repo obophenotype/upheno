@@ -1,12 +1,12 @@
 pattern_name: abnormallyProtrudingAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyProtrudingAnatomicalEntityInLocation.yaml
 description: ""
- 
+
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
   protruding out of: PATO:0001646
- 
+
 relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
@@ -16,32 +16,32 @@ relations:
  
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
- 
+
 vars:
   anatomical_entity: "'anatomical entity'"
   location: "'anatomical entity'"
- 
+
 name:
-  text: "abnormal protrusion of % through %"
+  text: "abnormal protrusion of %s through %s"
   vars:
    - anatomical_entity
    - location
- 
+
 annotations:
   - annotationProperty: exact_synonym
-    text: ""
+    text: "protruding %s in %s"
     vars:
-      - anatomical_entity
-      - location
- 
+     - anatomical_entity
+     - location
+
 def:
-  text: "hernial protrusion of the % through an opening or defect in the %."
+  text: "hernial protrusion of the %s through an opening or defect in the %s."
   vars:
     - anatomical_entity
     - location
- 
+
 equivalentTo:
-  text: "'has_part' some ('protruding out of' and ('inheres_in' some %s) and ('towards' some %s) and ('has_modifier' some abnormal))"
+  text: "'has_part' some ('protruding out of' and ('inheres_in' some %s) and ('towards' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
     - location
