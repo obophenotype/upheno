@@ -5,7 +5,7 @@ description: "abnormal shape of an anatomical entity or a measurement of a proce
 classes:
   shape: PATO:0000052
   abnormal: PATO:0000460
-  entity: owl:Thing 
+  entity: owl:Thing
 
 relations: 
   inheres_in: RO:0000052

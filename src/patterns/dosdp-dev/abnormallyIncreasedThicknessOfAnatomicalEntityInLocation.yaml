@@ -35,7 +35,7 @@ annotations:
     text: "thickened %s in %s"
     vars:
      - anatomical_entity
-     - location     
+     - location
 
 def:
   text: "An increase in the thickness of the %s in the %s."
