@@ -2,6 +2,9 @@ pattern_name: abnormalHasExtraPartsOfTypeAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasExtraPartsOfTypeAnatomicalEntity.yaml
 description: "extra parts of an anatomical entity. For example, has extra parts of type eye."
 
+contributors:
+  - https://orcid.org/0000-0002-3528-5267
+  
 classes:
 
   has extra parts of type: PATO:0002002
