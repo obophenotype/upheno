@@ -2,6 +2,13 @@ pattern_name: abnormalBehavior
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml
 description: "Any unspecified abnormality of a behavior."
 
+contributors:
+  - http://orcid.org/0000-0001-9076-6015
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0002-1373-1705
+  - https://orcid.org/0000-0001-7941-2961
+  
 classes:
   process quality: PATO:0001236
   abnormal: PATO:0000460
