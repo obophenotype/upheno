@@ -2,6 +2,12 @@ pattern_name: abnormalAbsenceOfChemicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfChemicalEntityInLocation.yaml
 description: "A chemical (entity) such as sodium is missing from an anatomical location."
 
+contributors:
+  - https://orcid.org/0000-0003-4606-0597
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0003-4148-4606
+  
 classes:
   absent: PATO:0000462
   abnormal: PATO:0000460
