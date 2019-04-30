@@ -2,6 +2,10 @@ pattern_name: abnormalAbsenceOfPigmentationOfAnatomicalEntity
 pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfPigmentationOfAnatomicalEntity
 description: "Complete loss of pigmentation in an antomical entity. i.e., unpigmented eye."
 
+contributors:
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0001-5208-3432
+
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
