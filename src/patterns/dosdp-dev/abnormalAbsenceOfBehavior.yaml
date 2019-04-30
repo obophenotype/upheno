@@ -2,6 +2,10 @@ pattern_name: abnormalAbsenceOfBehavior
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBehavior.yaml
 description: "A behavior that normally would occur does not occur."
 
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0002-1373-1705
+  
 classes:
   absent: PATO:0000462
   abnormal: PATO:0000460
