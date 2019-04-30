@@ -2,6 +2,10 @@ pattern_name: abnormalAbsenceOfAnatomicalEntityDueToDegeneration
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntityDueToDegeneration.yaml
 description: "The complete loss of an antomical entity due to degeneration."
 
+contributors:
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0001-5208-3432
+
 classes:
   absence due to degeneration: PATO:0015001
   abnormal: PATO:0000460
