@@ -2,6 +2,9 @@ pattern_name: abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.yaml
 description: "An anatomical entity (which is located somewhere) has fewer instances of a part. For example, the hand (which is part of the right arm) has fewer digits. Consider using decreased number of anatomical entity in location instead."
 
+contributors:
+  - https://orcid.org/0000-0002-3528-5267
+  
 classes:
   has fewer parts of type: PATO:0002001
   abnormal: PATO:0000460
