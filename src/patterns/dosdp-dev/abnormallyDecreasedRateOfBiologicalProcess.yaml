@@ -2,6 +2,9 @@ pattern_name: abnormallyDecreasedRateOfBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBiologicalProcess.yaml
 description: "Decreased frequency of a biological process occuring (per some unit of time)."
 
+contributors: 
+  - https://orcid.org/0000-0001-9076-6015
+  
 classes:
   decreased rate: PATO:0000911
   abnormal: PATO:0000460
