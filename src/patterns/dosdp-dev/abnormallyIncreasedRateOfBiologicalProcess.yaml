@@ -2,9 +2,11 @@ pattern_name: abnormallyIncreasedRateOfBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml
 description: "Abnormally increased frequency of a biological process occuring (per some unit of time)."
 
-contributors:
-  - https://orcid.org/0000-0002-7356-1779
+contributors: 
+  - https://orcid.org/0000-0001-9076-6015
   - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0003-4148-4606
+  - https://orcid.org/0000-0002-7356-1779
   
 classes:
   increased rate: PATO:0000912
