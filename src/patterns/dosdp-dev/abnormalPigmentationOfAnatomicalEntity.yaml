@@ -2,6 +2,11 @@ pattern_name: abnormalPigmentationOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPigmentationAnatomicalEntity
 description: "Any change in the amount of pigmentation in an anatomical Entity. i.e. Abnormal pigmentation of the epidermis"
 
+contributors:
+  - http://orcid.org/0000-0001-9076-6015
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0001-5208-3432
+  
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062 
