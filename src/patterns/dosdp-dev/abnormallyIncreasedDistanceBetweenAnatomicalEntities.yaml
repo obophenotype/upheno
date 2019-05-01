@@ -2,6 +2,11 @@ pattern_name: abnormallyIncreasedDistanceBetweenAnatomicalEntities
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedDistanceBetweenAnatomicalEntities.yaml
 description: "The distance between two anatomical entites has increased. For example the distance between eyes."
  
+contributors: 
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0003-4148-4606
+  
 classes:
   abnormal: PATO:0000460
   entity1: UBERON:0001062
