@@ -2,6 +2,9 @@ pattern_name: abnormallyLackingAllPartsOfTypeAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormallyLackingAllPartsOfTypeAnatomicalEntityInLocation.yaml
 description: "lacks all parts of an anatomical entity in location. For example, lacks all parts of type head."
 
+contributors: 
+  - https://orcid.org/0000-0002-3528-5267
+
 classes:
   lacks all parts of type: PATO:0002000
   abnormal: PATO:0000460
