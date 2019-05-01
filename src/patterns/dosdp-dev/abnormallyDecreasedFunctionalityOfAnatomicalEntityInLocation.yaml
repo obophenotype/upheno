@@ -2,6 +2,10 @@ pattern_name: abnormallyDecreasedFunctionalityOfAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedFunctionalityOfAnatomicalEntityInLocation.yaml
 description: ""
 
+contributors: 
+  - http://orcid.org/0000-0001-9076-6015
+  - https://orcid.org/0000-0001-5208-3432
+
 classes:
   decreased functionality: PATO:0001624
   abnormal: PATO:0000460
