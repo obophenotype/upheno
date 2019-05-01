@@ -2,7 +2,8 @@ pattern_name: abnormallyDecreasedPigmentationOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedPigmentationOfAnatomicalEntity.yaml
 description: "Decreased pigmentation of an anatomical entity, such as decreased skin pigmentation."
 
-contributors:
+contributors: 
+  - https://orcid.org/0000-0002-3528-5267
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
