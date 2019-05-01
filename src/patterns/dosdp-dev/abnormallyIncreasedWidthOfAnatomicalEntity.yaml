@@ -2,6 +2,11 @@ pattern_name: abnormallyIncreasedWidthOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWidthOfAnatomicalEntity.yaml
 description: "Increased width of an antomical entity. i.e., wider tail."
 
+contributors: 
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0003-4148-4606
+  
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
