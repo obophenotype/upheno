@@ -2,6 +2,15 @@ pattern_name: abnormalSizeOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalSizeOfAnatomicalEntity.yaml
 description: ""
 
+contributors:
+  - https://orcid.org/0000-0002-9900-7880
+  - http://orcid.org/0000-0001-9076-6015
+  - https://orcid.org/0000-0002-9611-1279  
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0002-1373-1705
+  - https://orcid.org/0000-0003-4148-4606
+
 classes:
   size: PATO:0000117
   abnormal: PATO:0000460
