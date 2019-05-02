@@ -3,26 +3,26 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalSizeOfAn
 description: ""
 
 contributors:
-  - https://orcid.org/0000-0002-9900-7880
-  - https://orcid.org/0000-0001-9076-6015
-  - https://orcid.org/0000-0002-9611-1279  
-  - https://orcid.org/0000-0002-3528-5267
-  - https://orcid.org/0000-0001-5208-3432
-  - https://orcid.org/0000-0002-1373-1705
-  - https://orcid.org/0000-0003-4148-4606
-
+- https://orcid.org/0000-0002-9900-7880
+- https://orcid.org/0000-0001-9076-6015
+- https://orcid.org/0000-0002-9611-1279
+- https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-1373-1705
+- https://orcid.org/0000-0003-4148-4606
+- https://orcid.org/0000-0002-7356-1779
 classes:
   size: PATO:0000117
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
-relations: 
+relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
 
 annotationProperties:
-  exact_synonym: oio:hasExactSynonym 
+  exact_synonym: oio:hasExactSynonym
 
 vars:
   entity: "'anatomical entity'"
@@ -30,20 +30,20 @@ vars:
 name:
   text: "abnormal size of %s"
   vars:
-   - entity
+  - entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "abnormal size of the %s"
-    vars:
-     - entity
+- annotationProperty: exact_synonym
+  text: "abnormal size of the %s"
+  vars:
+  - entity
 
 def:
   text: "A deviation from the normal size of the %s."
   vars:
-    - entity
+  - entity
 
 equivalentTo:
   text: "'has_part' some ('size' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - entity
+  - entity
