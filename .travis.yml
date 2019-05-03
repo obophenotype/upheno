@@ -14,8 +14,8 @@ jdk:
 
 
 # command to run tests; working directory is not altered for the second set of parentheses
-#script:
-#  - ./run.sh make test
+script:
+  - echo "hello upheno world!"
 
 #after_success:
 #  coveralls
