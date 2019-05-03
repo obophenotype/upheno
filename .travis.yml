@@ -1,5 +1,7 @@
 sudo: required
 
+language: java
+
 #services:
 #  - docker
 
@@ -7,8 +9,8 @@ sudo: required
 #  - docker pull obolibrary/odkfull
 
 
-#jdk:
-#  - oraclejdk8
+jdk:
+  - oraclejdk8
 
 
 # command to run tests; working directory is not altered for the second set of parentheses
