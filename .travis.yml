@@ -4,11 +4,11 @@ services:
   - docker
 
 before_install:
-  - docker pull obolibrary/oskfull
+  - docker pull obolibrary/odkfull
 
 # command to run tests; working directory is not altered for the second set of parentheses
 script:
-  - ./run.sh make test
+#  - ./run.sh make test
 
 #after_success:
 #  coveralls
