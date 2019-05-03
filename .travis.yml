@@ -1,14 +1,21 @@
 sudo: required
 
-services:
-  - docker
+language: java
 
-before_install:
-  - docker pull obolibrary/odkfull
+#services:
+#  - docker
+
+#before_install:
+#  - docker pull obolibrary/odkfull
+
+
+jdk:
+  - oraclejdk8
+
 
 # command to run tests; working directory is not altered for the second set of parentheses
 script:
-#  - ./run.sh make test
+  - echo "hello upheno world!"
 
 #after_success:
 #  coveralls
@@ -17,6 +24,8 @@ script:
 branches:
   only:
     - master
+    - test-travis
+
 
 notifications:
   email:
