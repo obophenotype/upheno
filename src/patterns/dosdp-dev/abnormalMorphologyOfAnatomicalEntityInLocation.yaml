@@ -3,10 +3,10 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorpholo
 description: ""
 
 contributors:
-  - https://orcid.org/0000-0002-3528-5267
-  - https://orcid.org/0000-0001-5208-3432
-  - https://orcid.org/0000-0003-4148-4606
-
+- https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0003-4148-4606
+- https://orcid.org/0000-0002-7356-1779
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
@@ -28,24 +28,24 @@ vars:
 name:
   text: "morphological abnormality of the %s in the %s"
   vars:
-   - anatomical_entity
-   - location
+  - anatomical_entity
+  - location
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "Abnormal %s in the %s"
-    vars:
-     - anatomical_entity
-     - location
+- annotationProperty: exact_synonym
+  text: "Abnormal %s in the %s"
+  vars:
+  - anatomical_entity
+  - location
 
 def:
   text: "A morphological abnormality of the %s in the %s."
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
 
 equivalentTo:
   text: "'has_part' some (morphology and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some abnormal))"
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
