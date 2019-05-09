@@ -1,12 +1,12 @@
 pattern_name: blisteredAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml
-description : "The presence of blisters on an anatomical entity, such as blisters on the skin."
+description: "The presence of blisters on an anatomical entity, such as blisters on the skin."
 
 contributors:
-  - https://orcid.org/0000-0002-7356-1779
-  - https://orcid.org/0000-0001-5208-3432
-  - https://orcid.org/0000-0001-9076-6015
-
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0001-9076-6015
+- https://orcid.org/0000-0002-3528-5267
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
@@ -27,20 +27,20 @@ vars:
 name:
   text: "abnormally blistered %s"
   vars:
-   - anatomical_entity
+  - anatomical_entity
 
 def:
   text: "An abnormally blistered %s."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "%s with blister"
-    vars:
-     - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "%s with blister"
+  vars:
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('blistered' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
+  - anatomical_entity
