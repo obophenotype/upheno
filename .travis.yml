@@ -32,3 +32,6 @@ notifications:
     - cjmungall@lbl.gov
     - sebastian.koehler@charite.de
     - balhoff@renci.org
+   on_success: change
+   on_failure: always
+
