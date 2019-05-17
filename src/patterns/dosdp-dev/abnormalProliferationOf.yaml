@@ -1,0 +1,37 @@
+pattern_name: abnormalProliferationOf
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalProliferationOf.yaml
+description: "Any abnormality in cell proliferation in anatomical entity, such as 'abnormal B cell proliferation in peripheral blood'."
+
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+
+classes:
+  abnormal: PATO:0000460
+  cell_population_proliferation: GO:0008283
+  anatomical_entity: UBERON:0001062
+
+relations:
+  occurs_in: BFO:0000066
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "abnormal cell proliferation in %s"
+  vars:
+  - anatomical_entity
+
+def:
+  text: "Abnormal cell proliferation in %s."
+  vars:
+  - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('cell_proliferation_proliferation' and ('occurs_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+  - anatomical_entity
