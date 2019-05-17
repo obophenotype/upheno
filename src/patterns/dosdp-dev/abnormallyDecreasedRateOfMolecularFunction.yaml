@@ -1,6 +1,6 @@
 pattern_name: abnormallyDecreasedRateOfMolecularFunction
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfMolecularFunction.yaml
-description: ""
+description: "Decreased or reduced functionality of a molecular function, which is a process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities, such as binding, catalysis, enzyme activities (like hydrolases, ligases), etc. Example: HP_0002932 'Aldehyde oxidase deficiency'"
 
 contributors: 
   - https://orcid.org/0000-0002-9900-7880
@@ -30,7 +30,7 @@ name:
    - molecular_function
 
 def:
-  text: "Decreased %s."
+  text: "Abnormally reduced functionality of of %s."
   vars:
     - molecular_function
 
