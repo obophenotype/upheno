@@ -24,7 +24,7 @@
         <owl:imports rdf:resource="&obo;uberon/bridge/uberon-bridge-to-wbbt.owl"/>
         <owl:imports rdf:resource="&obo;uberon/bridge/cl-bridge-to-fbbt.owl"/>
         <owl:imports rdf:resource="&obo;uberon/bridge/uberon-bridge-to-fbbt.owl"/>
-        <owl:imports rdf:resource="https://github.com/obophenotype/upheno/blob/d2c5deea1c786d9d2c8f3b977171dac117b05533/vertebrate.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/obophenotype/upheno/d2c5deea1c786d9d2c8f3b977171dac117b05533/vertebrate.owl"/>
         <owl:imports rdf:resource="&obo;upheno/wbphenotype/wbphenotype-importer.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/upheno/imports/fbbt_phenotype.owl"/>
         <owl:imports rdf:resource="&obo;fbcv/dpo.owl"/>
