@@ -11,7 +11,7 @@ classes:
   absent: PATO:0000462
   abnormal: PATO:0000460
   biological process: GO:0008150
-  anatomical entity: UBERON:0001062
+  independent continuant: BFO:0000004
 
 relations: 
   inheres_in: RO:0000052
@@ -24,7 +24,7 @@ annotationProperties:
 
 vars:
   biological_process: "'biological process'"
-  location: "'anatomical entity'"
+  location: "'independent continuant'"
 
 name:
   text: "absent %s in %s"
