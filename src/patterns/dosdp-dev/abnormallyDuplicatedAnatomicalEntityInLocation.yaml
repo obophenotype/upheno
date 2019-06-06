@@ -21,20 +21,20 @@ vars:
   location: "'anatomical entity'"
 
 name:
-  text: "abnormal duplication of %s "
+  text: "abnormal duplication of %s in %s"
   vars:
    - anatomical_entity
    - location
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "abnormally duplicated %s"
+    text: "abnormally duplicated %s in %s"
     vars:
      - anatomical_entity
      - location     
 
 def:
-  text: "Any abnormal duplication of the %s."
+  text: "Any abnormal duplication of the %s in %s."
   vars:
     - anatomical_entity
     - location

@@ -32,6 +32,6 @@ def:
   - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('cell_proliferation_proliferation' and ('occurs_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('cell_population_proliferation' and ('occurs_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
   - anatomical_entity

@@ -33,9 +33,13 @@ $(MP):
 $(pattern-files): $(HP) $(MP)
 	dosdp-scala query --ontology=$(MP) --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).mp.tsv; dosdp-scala query --ontology=$(HP) --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).hp.tsv
 
+pattern_schema_checks_dev:
+	simple_pattern_tester.py $(PATTERNDIR)/dosdp-dev/
 
-pattern_schema_checks:
-	simple_pattern_tester.py $(PATTERNDIR)/dosdp-patterns/ && simple_pattern_tester.py $(PATTERNDIR)/dosdp-dev/
+pattern_schema_checks_main:
+	simple_pattern_tester.py $(PATTERNDIR)/dosdp-patterns/
+	
+pattern_schema_checks: pattern_schema_checks_main pattern_schema_checks_dev
 	
 ../patterns/pattern-dev.owl: pattern_schema_checks
 	$(DOSDPT) prototype --obo-prefixes --template=../patterns/dosdp-dev --outfile=$@
