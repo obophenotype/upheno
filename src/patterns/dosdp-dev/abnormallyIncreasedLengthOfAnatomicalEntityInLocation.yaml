@@ -13,6 +13,7 @@ classes:
   increased length: PATO:0000573
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
+  independent continuant: BFO:0000004
 
 relations:
   inheres_in: RO:0000052
@@ -27,7 +28,7 @@ annotationProperties:
 # These vars are only ever classes, not relations.
 vars:
   anatomical_entity: "'anatomical entity'"
-  location: "'anatomical entity'"
+  location: "'independent continuant'"
 
 # Corresponds to rdfs:label
 name:
