@@ -10,7 +10,7 @@ classes:
   arrested: PATO:0000297
   abnormal: PATO:0000460
   biological_process: GO:0008150
-  anatomical entity: UBERON:0001062
+  independent continuant: BFO:0000004
 
 relations: 
   inheres_in: RO:0000052
@@ -23,7 +23,7 @@ annotationProperties:
 
 vars:
   biological_process: "'biological_process'"
-  location: "'anatomical entity'"
+  location: "'independent continuant'"
  
 name:
   text: "arrested %s in %s"
