@@ -8,6 +8,7 @@ classes:
   decreased functionality: PATO:0001624
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
+  independent continuant: BFO:0000004
 
 relations:
   inheres_in: RO:0000052
@@ -16,7 +17,7 @@ relations:
 
 vars:
   anatomical_entity: "'anatomical entity'"
-  entity: "'anatomical entity'"
+  entity: "'independent continuant'"
 
 name:
   text: "%s dysfunction"
