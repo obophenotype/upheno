@@ -9,10 +9,12 @@ contributors:
 - https://orcid.org/0000-0001-5208-3432
 - https://orcid.org/0000-0003-4148-4606
 - https://orcid.org/0000-0001-9076-6015
+
 classes:
   increased size: PATO:0000586
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
+  independent continuant: BFO:0000004
 
 relations:
   inheres_in: RO:0000052
@@ -25,7 +27,7 @@ annotationProperties:
 
 vars:
   anatomical_entity: "'anatomical entity'"
-  location: "'anatomical entity'"
+  location: "'independent continuant'"
 
 name:
   text: "increased size of the %s in %s"
