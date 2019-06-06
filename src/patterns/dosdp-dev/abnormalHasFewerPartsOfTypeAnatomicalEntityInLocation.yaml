@@ -9,6 +9,7 @@ classes:
   has fewer parts of type: PATO:0002001
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
+  independent continuant: BFO:0000004
 
 relations:
   inheres_in: RO:0000052
@@ -23,7 +24,7 @@ annotationProperties:
 vars:
   whole_anatomical_entity: "'anatomical entity'"
   part_anatomical_entity: "'anatomical entity'"
-  location: "'anatomical entity'"
+  location: "'independent continuant'"
 
 name:
   text: "has fewer parts of type %s in %s, which is located in %s"
