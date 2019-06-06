@@ -6,6 +6,7 @@ classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
   decreased width: PATO:0000599
+  independent continuant: BFO:0000004
 
 relations:
   inheres_in: RO:0000052
@@ -18,7 +19,7 @@ annotationProperties:
 
 vars:
   anatomical_entity: "'anatomical entity'"
-  location: "'anatomical entity'"
+  location: "'independent continuant'"
 
 name:
   text: "decreased width of the %s in %s"
