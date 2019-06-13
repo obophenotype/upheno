@@ -1,6 +1,6 @@
 pattern_name: abnormallyDecreasedFunctionalityOfAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedFunctionalityOfAnatomicalEntityInLocation.yaml
-description: ""
+description: "An impaired function of an anatomical entity or part, in a specific anatomical location, such as Beta-cell dysfunction in the pancreas."
 
 contributors:
 - https://orcid.org/0000-0001-5208-3432
@@ -20,17 +20,19 @@ vars:
   entity: "'independent continuant'"
 
 name:
-  text: "%s dysfunction"
+  text: "%s dysfunction in %s"
   vars:
   - anatomical_entity
+  - entity
 
 def:
-  text: "A functional abnormality of the %s."
+  text: "A functional abnormality of the %s in %s."
   vars:
   - anatomical_entity
+  - entity
 
 equivalentTo:
-  text: "'has_part' some ('decreased functionality' and ('inheres_in' some %s)) and  ('has_modifier' some 'abnormal')"
+  text: "'has_part' some ('decreased functionality' and ('inheres_in' some (%s and ('part_of' some %s))) and  ('has_modifier' some 'abnormal')"
   vars:
   - anatomical_entity
-
+  - entity
