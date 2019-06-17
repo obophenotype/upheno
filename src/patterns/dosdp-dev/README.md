@@ -358,7 +358,7 @@ This is a listing of all the patterns hosted as part of this directory
 
 | Attribute | Info |
 |----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns/abnormallyClosedAnatomicalEntity.yaml |
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyClosedAnatomicalEntity.yaml |
 | Name | abnormallyClosedAnatomicalEntity |
 | Variables | anatomical entity,  |
 
