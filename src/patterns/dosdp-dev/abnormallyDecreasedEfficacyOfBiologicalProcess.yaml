@@ -1,0 +1,47 @@
+pattern_name: abnormallyDecreasedEfficacyOfBiologicalProcess
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfBiologicalProcess.yaml
+description: "An abnormally decreased efficacy of a biological process compared to controls."
+
+contributors:
+  - https://orcid.org/0000-0001-9076-6015
+
+classes:
+  decreased efficacy: PATO:0015003
+  abnormal: PATO:0000460
+  biological process: GO:0008150
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  biological_process: "'biological process'"
+
+name:
+  text: "decreased efficacy of %s"
+  vars:
+   - biological_process
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "Deficiency of %s"
+    vars:
+     - biological_process
+  - annotationProperty: exact_synonym
+    text: "Defective %s"
+    vars:
+     - biological_process
+
+def:
+  text: "Decreased efficacy of %s."
+  vars:
+    - biological_process
+
+equivalentTo:
+  text: "'has_part' some ('decreased efficacy' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - biological_process
