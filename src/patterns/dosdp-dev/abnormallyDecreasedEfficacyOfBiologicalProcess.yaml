@@ -1,6 +1,6 @@
 pattern_name: abnormallyDecreasedEfficacyOfBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfBiologicalProcess.yaml
-description: "An abnormally decreased efficacy (reduced ability to produce output) of a biological process compared to controls. For example, defective cytokinesis."
+description: "An abnormally decreased efficacy (reduced ability to produce an output of normal amount and/or quality*) of a biological process compared to controls. *Here 'quality' refers specifically to the 'goodness', 'properness', or 'adequateness' of the output (as opposed to any characteristic in general) and 'output' can mean a particular physical entity (like metabolite as a product of a metabolic process) or state (or configuration) of a physical entity (like the fitness or health of a cell). This phenotype is usually inferred from more direct observations; for example, blood glucose levels may be measured by a colorimetric assay applied to a blood sample, which then is used to infer that blood glucose is high, low, or unstable, which can then itself be used to infer that blood glucose homeostasis is defective or has reduced efficacy."
 
 contributors:
   - https://orcid.org/0000-0001-9076-6015
@@ -17,7 +17,6 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-  narrow_synonym: oio:hasNarrowSynonym 
 
 vars:
   biological_process: "'biological process'"
@@ -28,12 +27,8 @@ name:
    - biological_process
 
 annotations:
-  - annotationProperty: narrow_synonym
-    text: "Deficiency of %s"
-    vars:
-     - biological_process
   - annotationProperty: exact_synonym
-    text: "Defective %s"
+    text: "defective %s"
     vars:
      - biological_process
 
