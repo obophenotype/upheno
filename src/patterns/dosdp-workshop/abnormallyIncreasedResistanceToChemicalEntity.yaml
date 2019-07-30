@@ -4,6 +4,7 @@ description: "A phenotype in which an organism shows increased resistance to a c
 
 contributors:
   - https://orcid.org/0000-0001-9076-6015
+  - https://orcid.org/0000-0001-7487-610X
 
 classes:
   increased resistance to: PATO:0001650
@@ -25,7 +26,13 @@ vars:
 name:
   text: "increased resistance of organism to %s"
   vars:
-   - chemical_entity
+    - chemical_entity
+
+annotations:
+- annotationProperty: exact_synonym
+  text: "decreased sensitivity of organism to %s"
+  vars:
+    - chemical_entity
 
 def:
   text: "Increased resistance of organism to %s."
