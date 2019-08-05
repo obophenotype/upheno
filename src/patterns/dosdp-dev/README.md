@@ -66,7 +66,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | chemical entity,  |
 
 ### Abnormal absence of chemical entity in location
-*A chemical (entity) such as sodium is missing from an anatomical location.*
+*A chemical (entity) such as sodium is missing from an anatomical location, such as blood.*
 
 | Attribute | Info |
 |----------|----------|
@@ -155,6 +155,15 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalDegenerationOfAnatomicalEntity |
 | Variables | anatomical entity,  |
 
+### Abnormal development of anatomical entity
+*A phenotype in which an organism exhibits an abnormal development of some anatomical entity. For example, abnormal development of the heart.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDevelopmentOfAnatomicalEntity.yaml |
+| Name | abnormalDevelopmentOfAnatomicalEntity |
+| Variables | anatomical entity,  |
+
 ### Abnormal distance between anatomical entities
 *Distance between two anatomical entites has deviated from normal. For example, PLANP_0000512 'abnormal distance between eye and eye'*
 
@@ -172,6 +181,15 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfAnatomicalEntity.yaml |
 | Name | abnormalFunctionalityOfAnatomicalEntity |
 | Variables | anatomical entity,  |
+
+### Abnormal functionality of cellular component
+*Dysfunction of a cellular component, such as an organelle, for example HP:0003398 Abnormal synaptic transmission at the neuromuscular junction'*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfCellularComponent.yaml |
+| Name | abnormalFunctionalityOfCellularComponent |
+| Variables | cellular component,  |
 
 ### Abnormal has extra parts of type anatomical entity
 *extra parts of an anatomical entity. For example, has extra parts of type eye.*
@@ -235,6 +253,15 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml |
 | Name | abnormalMorphologyOfAnatomicalEntityInLocation |
 | Variables | anatomical entity, independent continuant,  |
+
+### Abnormal morphology of cellular component
+*An abnormally in the morphology of a cellular component, like an abnormal morphology of mitochondria.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfCellularComponent.yaml |
+| Name | abnormalMorphologyOfCellularComponent |
+| Variables | cellular component,  |
 
 ### Abnormal pigmentation of anatomical entity
 *Any change in the amount of pigmentation in an anatomical Entity. i.e. Abnormal pigmentation of the epidermis*
@@ -325,6 +352,15 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormallyAlteredNumberOfAnatomicalEntityInLocation.yaml |
 | Name | abnormallyAlteredNumberOfAnatomicalEntityInLocation |
 | Variables | anatomical entity, anatomical entity,  |
+
+### Abnormally altered number of cellular component
+*abnormal or altered number of cellular componentss. For example, HP_0012102 Abnormal mitochondrial number.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyAlteredNumberOfCellularComponent.yaml |
+| Name | abnormallyAlteredNumberOfCellularComponent |
+| Variables | cellular component,  |
 
 ### Abnormally arrested biological process
 *A partial failure or arrested development of a biological process, such as arrested cell migration.*
@@ -452,6 +488,15 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedNumberOfAnatomicalEntityInLocation |
 | Variables | anatomical entity, independent continuant,  |
 
+### Abnormally decreased number of cellular component
+*A decreased number of a cellular component, such as HP:0040013 'Decreased mitochondrial number'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfCellularComponent.yaml |
+| Name | abnormallyDecreasedNumberOfCellularComponent |
+| Variables | cellular component,  |
+
 ### Abnormally decreased pigmentation of anatomical entity
 *Decreased pigmentation of an anatomical entity, such as decreased skin pigmentation.*
 
@@ -505,6 +550,15 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfMolecularFunction.yaml |
 | Name | abnormallyDecreasedRateOfMolecularFunction |
 | Variables | molecular function,  |
+
+### Abnormally decreased resistance of whole organism to chemical entity
+*A phenotype in which an organism shows decreased resistance to a chemical, for example 4-aminosalicylic acid.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
+| Name | abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
+| Variables | chemical_entity,  |
 
 ### Abnormally decreased size of anatomical entity
 *Abnormally small anatomical entity, e.g. MP:0020533 'decreased pons size'*
@@ -721,6 +775,15 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfMolecularFunction.yaml |
 | Name | abnormallyIncreasedRateOfMolecularFunction |
 | Variables | molecular function,  |
+
+### Abnormally increased resistance of whole organism to chemical entity
+*A phenotype in which an organism shows increased resistance to a chemical, for example 4-aminosalicylic acid.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
+| Name | abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
+| Variables | chemical_entity,  |
 
 ### Abnormally increased size of anatomical entity
 *A enlarged entity, like an abnormally large anatomical structure.	i.e. HP_0012081 'Enlarged cerebellum'*
