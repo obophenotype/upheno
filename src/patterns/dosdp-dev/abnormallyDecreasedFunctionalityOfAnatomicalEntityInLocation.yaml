@@ -33,7 +33,7 @@ def:
   - entity
 
 equivalentTo:
-  text: "'has_part' some ('decreased functionality' and ('inheres_in' some (%s and ('part_of' some %s))) and  ('has_modifier' some 'abnormal')"
+  text: "'has_part' some ('decreased functionality' and ('inheres_in' some (%s and ('part_of' some %s))) and  ('has_modifier' some 'abnormal'))"
   vars:
   - anatomical_entity
   - entity
