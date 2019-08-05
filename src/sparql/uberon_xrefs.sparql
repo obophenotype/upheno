@@ -1,0 +1,9 @@
+prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?defined_class ?xref WHERE 
+{
+  ?defined_class a owl:Class ; 
+     oio:hasDbXref ?xref .
+     FILTER(regex(str(?xref), "UBERON"))
+}	 

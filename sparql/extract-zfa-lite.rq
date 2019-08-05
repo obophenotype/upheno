@@ -1,0 +1,42 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dc: <http://purl.org/dc/terms/>
+
+CONSTRUCT {
+  <http://purl.obolibrary.org/obo/upheno/imports/zfa_import.owl> a owl:Ontology .
+  <http://purl.obolibrary.org/obo/upheno/imports/zfa_import.owl> dc:source <http://purl.obolibrary.org/obo/zfa.owl> .
+  <http://purl.obolibrary.org/obo/upheno/imports/zfa_import.owl> dc:requires <http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl> .
+  <http://purl.obolibrary.org/obo/upheno/imports/zfa_import.owl> dc:requires <http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-zfa.owl> .
+  ?term a owl:Class .
+  ?term ?p ?o .
+  ?p a owl:AnnotationProperty .
+  ?annotation a owl:Axiom .
+  ?annotation owl:annotatedSource ?term .
+  ?annotation owl:annotatedProperty ?p .
+  ?annotation owl:annotatedTarget ?o .
+  ?annotation ?ap ?ao .
+  ?term rdfs:subClassOf ?super .
+}
+WHERE {
+  ?term a owl:Class .
+  ?term ?p ?o .
+  ?p a owl:AnnotationProperty .
+  FILTER(isIRI(?term))
+  OPTIONAL {
+    ?annotation a owl:Axiom .
+    ?annotation owl:annotatedSource ?term .
+    ?annotation owl:annotatedProperty ?p .
+    ?annotation owl:annotatedTarget ?o .
+    ?annotation ?ap ?ao .
+  }
+  OPTIONAL {
+    ?term rdfs:subClassOf ?super .
+    FILTER(isIRI(?super))
+    FILTER NOT EXISTS {
+      # Only include subclass axioms for terms that do not have a mapping in the uberon-bridge.
+      # This works because ZFA has no equivalent class axioms at the current time.
+      ?term owl:equivalentClass ?uberon_expression .
+    }
+  }
+}

@@ -1,0 +1,49 @@
+pattern_name: abnormalQuantityOfAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalQuantityOfAnatomicalEntity.yaml
+description: "Abnormal number/quantity of anatomical enities. Example, PLANP_0000526, altered number of heads." 
+
+contributors:
+  - https://orcid.org/0000-0001-9076-6015
+
+classes:
+  altered number of: PATO:0002083
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062 
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "abnormal number of %ss"
+  vars:
+   - anatomical_entity
+
+annotations:
+  - 
+    annotationProperty: exact_synonym
+    text: "altered number of %ss"
+    vars:
+     - anatomical_entity
+  -
+    annotationProperty: exact_synonym
+    text: "Abnormal count of %ss"
+    vars:
+     - anatomical_entity
+
+def:
+  text: "An abnormal number of %ss."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('altered number of' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity

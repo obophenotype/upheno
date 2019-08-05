@@ -1,0 +1,62 @@
+pattern_name: filenameWithoutFileExtension
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/filenameWithoutFileExtension.yaml
+description: "A description that helps people chose this pattern for the appropriate scenario."
+
+contributors:
+  - https://orcid.org/0000-0002-9900-7880
+  - https://orcid.org/0000-0001-9076-6015
+  - https://orcid.org/0000-0003-4148-4606
+  - https://orcid.org/0000-0002-3528-5267
+  - https://orcid.org/0000-0002-7356-1779 (nico)
+  - https://orcid.org/0000-0001-5208-3432 (nicole)
+  - https://orcid.org/0000-0001-7941-2961 (leigh)
+
+classes:
+  quality: PATO:0000001
+  process quality: PATO:0001236
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  biological process: GO:0008150
+  chemical entity: CHEBI:24431
+  molecular function: GO:0003674
+
+relations: 
+  inheres_in: RO:0000052
+  inheres_in_part_of: RO:0002314
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  occurs_in: BFO:0000066
+  part_of: BFO:0000050
+  towards: RO:0002503
+
+  
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+  chemical_entity: "'chemical entity'"
+  biological_process: "'biological process'"
+  molecular_function: "'molecular function'"
+  location: "'anatomical entity'"
+
+name:
+  text: "abnormal %s"
+  vars:
+   - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "abnormality of %s"
+    vars:
+     - anatomical_entity
+
+def:
+  text: "Abnormality of %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('quality' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity

@@ -4,7 +4,7 @@ all: all_imports
 
 #test: reasoner-test-mammal reasoner-test-vertebrate reasoner-test-metazoa
 # TODO: determine where unsats in metazoa are coming from
-test: reasoner-test-mammal reasoner-test-vertebrate 
+test: test-patterns reasoner-test-mammal reasoner-test-vertebrate 
 
 reasoner-test-%: %.owl
 	owltools $< --run-reasoner -r elk -u > $@.out && echo ok || (tail -100 $@.out ; exit 1)
@@ -65,8 +65,13 @@ IMPORT_REQUESTS = imports/imports_requests.owl
 imports/%_import.owl: imports/upheno-preimporter.owl $(IMPORT_REQUESTS) mirror/%.owl mp-edit.owl
 	owltools  $(USECAT) --map-ontology-iri $(UPHENO)/$*_import.owl mirror/$*.owl $< --merge-imports-closure mirror/$*.owl --add-imports-from-support  --extract-module -s $(OBO)/$*.owl -c --remove-axiom-annotations --make-subset-by-properties -f $(KEEPRELS) -o $@.tmp && owltools $@.tmp --set-ontology-id $(UPHENO)/$@ -o $@
 
-imports/ro_import.owl: imports/upheno-preimporter.owl $(IMPORT_REQUESTS) mirror/ro.owl mp-edit.owl
-	owltools  $(USECAT) --map-ontology-iri $(UPHENO)/ro_import.owl mirror/ro.owl $< --merge-imports-closure mirror/ro.owl --add-imports-from-support  --extract-module -s $(OBO)/ro.owl -c  -o ro.tmp && owltools ro.tmp --set-ontology-id $(UPHENO)/$@ -o $@
+imports/ro_import.owl: mirror/ro.owl mp-edit.owl hp-edit.owl zp.owl mirror/uberon-bridge-to-zfa.owl mirror/cl-bridge-to-zfa.owl mirror/uberon-bridge-to-wbbt.owl mirror/cl-bridge-to-wbbt.owl mirror/uberon-bridge-to-fbbt.owl mirror/cl-bridge-to-fbbt.owl
+	robot merge --input mp-edit.owl --input hp-edit.owl --input zp.owl --input mirror/uberon-bridge-to-zfa.owl --input mirror/cl-bridge-to-zfa.owl --input mirror/uberon-bridge-to-wbbt.owl --input mirror/cl-bridge-to-wbbt.owl --input mirror/uberon-bridge-to-fbbt.owl --input mirror/cl-bridge-to-fbbt.owl --input wbphenotype/wbphenotype-equivalence-axioms-edit.owl query --select sparql/terms.rq terms.txt &&\
+	robot extract --method BOT --input mirror/ro.owl --term-file terms.txt annotate --ontology-iri $(UPHENO)/$@ --output $@
+
+imports/zfa_import.owl: mirror/zfa.owl mirror/uberon-bridge-to-zfa.owl mirror/cl-bridge-to-zfa.owl
+	robot merge --input mirror/zfa.owl --input mirror/uberon-bridge-to-zfa.owl --input mirror/cl-bridge-to-zfa.owl query --format ttl --construct sparql/extract-zfa-lite.rq zfa-lite.ttl &&\
+	robot annotate --input zfa-lite.ttl --ontology-iri $(UPHENO)/$@ -o $@ && rm -f zfa-lite.ttl
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl:
@@ -94,11 +99,21 @@ mirror/wbbt.owl:
 ###	owltools $(OBO)/uberon/ext.owl --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties $(KEEPRELS) --set-ontology-id $(OBO)/uberon.owl -o $@
 ###	owltools  $(OBO)/wbls.owl $(OBO)/wbbt.owl --merge-support-ontologies --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties $(KEEPRELS)  --set-ontology-id $(OBO)/wbbt.owl -o $@
 mirror/go.owl: 
-	owltools $(OBO)/go/extensions/go-plus.owl $(OBO)/go/extensions/x-metazoan-anatomy.owl    --merge-imports-closure --merge-support-ontologies --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/go.owl -o $@
+	owltools $(OBO)/go/extensions/go-plus.owl   --merge-imports-closure --merge-support-ontologies --remove-annotation-assertions -l --remove-dangling-annotations  --make-subset-by-properties -f $(KEEPRELS) --extract-mingraph --set-ontology-id $(OBO)/go.owl -o $@
 mirror/pr.obo:
 	$(WGET) $(OBO)/pr.obo -O $@.tmp && obo-grep.pl -r 'id: PR:' $@.tmp > $@
 mirror/pr.owl: mirror/pr.obo
 	owltools $< --remove-dangling --set-ontology-id $(OBO)/pr.owl -o $@
+
+mirror/zfa.owl:
+	mkdir -p mirror && wget $(OBO)/zfa.owl -O $@
+
+mirror/uberon-bridge-to-zfa.owl:
+	mkdir -p mirror && wget $(OBO)/uberon/bridge/uberon-bridge-to-zfa.owl -O $@
+
+mirror/cl-bridge-to-zfa.owl:
+	mkdir -p mirror && wget $(OBO)/uberon/bridge/cl-bridge-to-zfa.owl -O $@
+
 .PRECIOUS: mirror/%.owl
 
 #imports/ro_import.owl: mirror/ro.owl imports/upheno-preimporter.owl
@@ -120,7 +135,11 @@ external/mirror/%.owl:
 	$(WGET) $(OBO)/$*.owl -O $@
 
 
-
+# ----------------------------------------
+# PATTERNS
+# ----------------------------------------
+test-patterns:
+	cd src/patterns && make test
 
 
 # ----------------------------------------
