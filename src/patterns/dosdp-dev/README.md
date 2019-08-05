@@ -848,6 +848,15 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedWidthOfAnatomicalEntity |
 | Variables | anatomical entity,  |
 
+### Abnormally premature biological process
+*A biological process which starts earlier than the natural start time or the reference process.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPrematureBiologicalProcess.yaml |
+| Name | abnormallyPrematureBiologicalProcess |
+| Variables | biological process,  |
+
 ### Abnormally protruding anatomical entity in location
 **
 
