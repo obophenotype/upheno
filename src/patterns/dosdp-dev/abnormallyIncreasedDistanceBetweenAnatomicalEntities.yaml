@@ -34,7 +34,7 @@ name:
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "distance increased distance between %s and %s"
+    text: "distance increased between %s and %s"
     vars:
      - entity1
      - entity2
