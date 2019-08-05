@@ -1790,6 +1790,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002325"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a process which starts earlier than the natural start time or the reference process.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000691</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0002086</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">advanced</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precocious</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000694</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">premature</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000694"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality of a process which starts earlier than the natural start time or the reference process.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:LC</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000911 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000911">
@@ -4601,8 +4625,8 @@
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A morphological abnormality of the &apos;anatomical entity&apos; in the &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalMorphologyOfAnatomicalEntityInLocation</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal &apos;anatomical entity&apos; in the &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphological abnormality of the &apos;anatomical entity&apos; in the &apos;independent continuant&apos;</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal morphology of the &apos;anatomical entity&apos; in the &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal &apos;anatomical entity&apos; morphology in the &apos;independent continuant&apos;</rdfs:label>
     </owl:Class>
     
 
@@ -6005,7 +6029,7 @@
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased distance between &apos;entity1&apos; and &apos;entity2&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedDistanceBetweenAnatomicalEntities</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distance increased distance between &apos;entity1&apos; and &apos;entity2&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distance increased between &apos;entity1&apos; and &apos;entity2&apos;</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased distance between &apos;entity1&apos; and &apos;entity2&apos;</rdfs:label>
     </owl:Class>
     
@@ -6767,6 +6791,36 @@
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedWidthOfAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wider &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased width of &apos;anatomical entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPrematureBiologicalProcess.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPrematureBiologicalProcess.yaml">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000694"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormally early start time of &apos;biological process&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyPrematureBiologicalProcess</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">premature &apos;biological process&apos;</rdfs:label>
     </owl:Class>
     
 
