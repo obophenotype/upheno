@@ -731,6 +731,15 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedNumberOfAnatomicalEntityInLocation |
 | Variables | anatomical entity, independent continuant,  |
 
+### Abnormally increased number of cellular component
+*An increased number of a cellular component.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfCellularComponent.yaml |
+| Name | abnormallyIncreasedNumberOfCellularComponent |
+| Variables | cellular component,  |
+
 ### Abnormally increased pigmentation of anatomical entity
 *Increased pigmentation of an anatomical entity, such as increased skin pigmentation.*
 
