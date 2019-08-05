@@ -26,13 +26,13 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "abnormal morphology of %s "
+  text: "abnormal %s morphology"
   vars:
    - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "abnormal %s morphology"
+    text: "abnormal morphology of %s"
     vars:
      - anatomical_entity     
 
