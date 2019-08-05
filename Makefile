@@ -69,9 +69,6 @@ imports/ro_import.owl: mirror/ro.owl mp-edit.owl hp-edit.owl zp.owl mirror/ubero
 	robot merge --input mp-edit.owl --input hp-edit.owl --input zp.owl --input mirror/uberon-bridge-to-zfa.owl --input mirror/cl-bridge-to-zfa.owl --input mirror/uberon-bridge-to-wbbt.owl --input mirror/cl-bridge-to-wbbt.owl --input mirror/uberon-bridge-to-fbbt.owl --input mirror/cl-bridge-to-fbbt.owl --input wbphenotype/wbphenotype-equivalence-axioms-edit.owl query --select sparql/terms.rq terms.txt &&\
 	robot extract --method BOT --input mirror/ro.owl --term-file terms.txt annotate --ontology-iri $(UPHENO)/$@ --output $@
 
-imports/fma_import.owl:
-	echo "This is manually curated"
-
 imports/zfa_import.owl: mirror/zfa.owl mirror/uberon-bridge-to-zfa.owl mirror/cl-bridge-to-zfa.owl
 	robot merge --input mirror/zfa.owl --input mirror/uberon-bridge-to-zfa.owl --input mirror/cl-bridge-to-zfa.owl query --format ttl --construct sparql/extract-zfa-lite.rq zfa-lite.ttl &&\
 	robot annotate --input zfa-lite.ttl --ontology-iri $(UPHENO)/$@ -o $@ && rm -f zfa-lite.ttl
@@ -82,12 +79,7 @@ mirror/%.owl:
 # uberon-ext is actually uberon+cl
 mirror/uberon-ext.owl: 
 	owltools $(OBO)/uberon/ext.owl --merge-imports-closure -o $@
-#mirror/fma-orig.owl: 
-#	$(WGET) $(OBO)/fma.owl -O $@
 
-## ANNOYING: this needs built periodically to avoid stale imports
-mirror/fma.owl:
-	owltools mirror/composite-fma.owl --extract-mingraph --set-ontology-id $(OBO)/fma.owl -o $@
 mirror/ro.owl:
 	$(WGET) $(OBO)/ro.owl -O $@
 
