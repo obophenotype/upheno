@@ -9,7 +9,7 @@ contributors:
 classes:
   increased rate: PATO:0000912
   abnormal: PATO:0000460
-  biological_process: GO:0008150
+  biological process: GO:0008150
   independent continuant: BFO:0000004
 
 relations: 
@@ -22,7 +22,7 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  biological_process: "'biological_process'"
+  biological_process: "'biological process'"
   location: "'independent continuant'"
  
 name:

@@ -10,7 +10,7 @@ classes:
   increased functionality: PATO:0001625
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
-  entity: BFO:0000001
+  independent continuant: BFO:0000004
 
 relations: 
   inheres_in: RO:0000052
@@ -20,24 +20,24 @@ relations:
 
 vars:
   anatomical_entity: "'anatomical entity'"
-  entity: "'entity'"
+  location: "'independent continuant'"
 
 name:
   text: "%s hyperactivity in %s"
   vars:
    - anatomical_entity
-   - entity
+   - location
 
 def:
   text: "A hyperactivity of the %s in the %s."
   vars:
    - anatomical_entity
-   - entity
+   - location
 
 equivalentTo:
   text: "'has_part' some ('increased functionality' and ('inheres_in' some (%s and ('part_of' some %s))) and  ('has_modifier' some 'abnormal'))"
   vars:
   - anatomical_entity
-  - entity
+  - location
 
  

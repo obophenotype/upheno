@@ -302,12 +302,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
@@ -4564,10 +4558,10 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly of the &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any unspecified morphological anomaly of the &apos;anatomical entity&apos;, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalMorphologyOfAnatomicalEntity</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal shape of &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal morphology of &apos;anatomical entity&apos; </rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal morphology of &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal &apos;anatomical entity&apos; morphology</rdfs:label>
     </owl:Class>
     
 
@@ -5697,10 +5691,10 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased resistance of organism to &apos;chemical_entity&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased resistance of organism to &apos;chemical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased sensitivity of organism to &apos;chemical_entity&apos;</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased resistance of organism to &apos;chemical_entity&apos;</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased sensitivity of organism to &apos;chemical entity&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased resistance of organism to &apos;chemical entity&apos;</rdfs:label>
     </owl:Class>
     
 
@@ -6035,7 +6029,7 @@
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -6050,9 +6044,9 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hyperactivity of the &apos;anatomical entity&apos; in the &apos;entity&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hyperactivity of the &apos;anatomical entity&apos; in the &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedFunctionalityOfAnatomicalEntityInLocation</terms:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;anatomical entity&apos; hyperactivity in &apos;entity&apos;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;anatomical entity&apos; hyperactivity in &apos;independent continuant&apos;</rdfs:label>
     </owl:Class>
     
 
@@ -6500,9 +6494,9 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased &apos;biological_process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased &apos;biological process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedRateOfBiologicalProcessInLocation</terms:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased &apos;biological_process&apos; in &apos;independent continuant&apos;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased &apos;biological process&apos; in &apos;independent continuant&apos;</rdfs:label>
     </owl:Class>
     
 
@@ -6564,10 +6558,10 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased resistance of organism to &apos;chemical_entity&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased resistance of organism to &apos;chemical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased sensitivity of organism to &apos;chemical_entity&apos;</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased resistance of organism to &apos;chemical_entity&apos;</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased sensitivity of organism to &apos;chemical entity&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased resistance of organism to &apos;chemical entity&apos;</rdfs:label>
     </owl:Class>
     
 
@@ -6777,37 +6771,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyLackingAllPartsOfTypeAnatomicalEntity.yaml -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyLackingAllPartsOfTypeAnatomicalEntity.yaml">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002000"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes there to no parts of type &apos;anatomical entity&apos;.</obo:IAO_0000115>
-        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyLackingAllPartsOfTypeAnatomicalEntity</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">missing all parts of type &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacks all parts of type &apos;anatomical entity&apos;</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyProtrudingAnatomicalEntityInLocation.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyProtrudingAnatomicalEntityInLocation.yaml">
@@ -6992,7 +6955,7 @@
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -7007,10 +6970,10 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormally blistered &apos;anatomical entity&apos; in &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormally blistered &apos;anatomical entity&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blisteredAnatomicalEntityInLocation</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;anatomical entity&apos; &apos;anatomical entity&apos; with blister</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally blistered &apos;anatomical entity&apos; in &apos;anatomical entity&apos;</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;independent continuant&apos; &apos;anatomical entity&apos; with blister</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally blistered &apos;anatomical entity&apos; in &apos;independent continuant&apos;</rdfs:label>
     </owl:Class>
     
 
@@ -7367,47 +7330,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/upheno/patterns/abnormallyLackingAllPartsOfTypeAnatomicalEntityInLocation.yaml -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/abnormallyLackingAllPartsOfTypeAnatomicalEntityInLocation.yaml">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002000"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes there to no parts of type &apos;anatomical entity&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
-        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyLackingAllPartsOfTypeAnatomicalEntityInLocation</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">missing all parts of type &apos;anatomical entity&apos; in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacks all parts of type &apos;anatomical entity&apos; in &apos;independent continuant&apos;</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/upheno/patterns/bifurcatedAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/bifurcatedAnatomicalEntity.yaml">
@@ -7519,7 +7441,7 @@
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -7534,11 +7456,11 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes there to be an abnormal number &apos;anatomical entity&apos; in &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes there to be an abnormal number &apos;anatomical entity&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyAlteredNumberOfAnatomicalEntityInLocation</terms:title>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal number of &apos;anatomical entity&apos;s in &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered number of &apos;anatomical entity&apos;s in &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal number of anatomical entities of type &apos;anatomical entity&apos; in &apos;anatomical entity&apos;</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal number of &apos;anatomical entity&apos;s in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altered number of &apos;anatomical entity&apos;s in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal number of anatomical entities of type &apos;anatomical entity&apos; in &apos;independent continuant&apos;</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

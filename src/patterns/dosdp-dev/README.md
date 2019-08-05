@@ -237,7 +237,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | molecular function,  |
 
 ### Abnormal morphology of anatomical entity
-*An abnormally shaped anatomical entity, like an abnormally shaped nose.*
+*An morphologically abnormal anatomical entity. Morphological encompasses shape and colour, but more specific patterns exist.*
 
 | Attribute | Info |
 |----------|----------|
@@ -351,7 +351,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormallyAlteredNumberOfAnatomicalEntityInLocation.yaml |
 | Name | abnormallyAlteredNumberOfAnatomicalEntityInLocation |
-| Variables | anatomical entity, anatomical entity,  |
+| Variables | anatomical entity, independent continuant,  |
 
 ### Abnormally altered number of cellular component
 *abnormal or altered number of cellular componentss. For example, HP_0012102 Abnormal mitochondrial number.*
@@ -558,7 +558,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
 | Name | abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
-| Variables | chemical_entity,  |
+| Variables | chemical entity,  |
 
 ### Abnormally decreased size of anatomical entity
 *Abnormally small anatomical entity, e.g. MP:0020533 'decreased pons size'*
@@ -657,7 +657,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedFunctionalityOfAnatomicalEntityInLocation.yaml |
 | Name | abnormallyIncreasedFunctionalityOfAnatomicalEntityInLocation |
-| Variables | anatomical entity, entity,  |
+| Variables | anatomical entity, independent continuant,  |
 
 ### Abnormally increased height of anatomical entity
 *An abnormally tall anatomical structure, such as HP_0000348 High forehead.'*
@@ -774,7 +774,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcessInLocation.yaml |
 | Name | abnormallyIncreasedRateOfBiologicalProcessInLocation |
-| Variables | biological_process, independent continuant,  |
+| Variables | biological process, independent continuant,  |
 
 ### Abnormally increased rate of molecular function
 *Increased functionality of a molecular process, like 'growth hormone secretion' or 'ketone body biosynthetic process'. For example: HP_0000845 'Growth hormone excess' and HP_0001946 Ketosis.*
@@ -792,7 +792,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
 | Name | abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
-| Variables | chemical_entity,  |
+| Variables | chemical entity,  |
 
 ### Abnormally increased size of anatomical entity
 *A enlarged entity, like an abnormally large anatomical structure.	i.e. HP_0012081 'Enlarged cerebellum'*
@@ -847,24 +847,6 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWidthOfAnatomicalEntity.yaml |
 | Name | abnormallyIncreasedWidthOfAnatomicalEntity |
 | Variables | anatomical entity,  |
-
-### Abnormally lacking all parts of type anatomical entity
-*lacks all parts of an anatomical entity. For example, lacks all parts of type head.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyLackingAllPartsOfTypeAnatomicalEntity.yaml |
-| Name | abnormallyLackingAllPartsOfTypeAnatomicalEntity |
-| Variables | anatomical entity,  |
-
-### Abnormally lacking all parts of type anatomical entity in location
-*lacks all parts of an anatomical entity in location. For example, lacks all parts of type head.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns/abnormallyLackingAllPartsOfTypeAnatomicalEntityInLocation.yaml |
-| Name | abnormallyLackingAllPartsOfTypeAnatomicalEntityInLocation |
-| Variables | anatomical entity, independent continuant,  |
 
 ### Abnormally protruding anatomical entity in location
 **
@@ -927,7 +909,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntityInLocation.yaml |
 | Name | blisteredAnatomicalEntityInLocation |
-| Variables | anatomical entity, anatomical entity,  |
+| Variables | anatomical entity, independent continuant,  |
 
 ### Calcified anatomical entity
 *A hardening of an anatomical entity, caused by deposition of or conversion into calcium carbonate or some other insoluble calcium compounds. Example: HP_0011415 'Calcified placenta.*
