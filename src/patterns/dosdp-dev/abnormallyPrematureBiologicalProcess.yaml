@@ -27,7 +27,7 @@ name:
    - biological_process
 
 def:
-  text: "Premature %s."
+  text: "An abnormally early start time of %s."
   vars:
     - biological_process
 
