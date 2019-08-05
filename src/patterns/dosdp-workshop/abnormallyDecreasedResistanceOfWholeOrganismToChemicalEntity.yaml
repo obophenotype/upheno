@@ -1,5 +1,5 @@
-pattern_name: abnormallyDecreasedResistanceToChemicalEntity.yaml
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceToChemicalEntity.yaml
+pattern_name: abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml
 description: "A phenotype in which an organism shows decreased resistance to a chemical, for example 4-aminosalicylic acid."
 
 contributors:
@@ -9,7 +9,7 @@ contributors:
 classes:
   decreased resistance to: PATO:0001651
   abnormal: PATO:0000460
-  organism: UBERON:0000468 # multi-cellular organism, but we need single-cellular too
+  organism: CARO:0010004
   chemical_entity: CHEBI:24431
 
 relations:
