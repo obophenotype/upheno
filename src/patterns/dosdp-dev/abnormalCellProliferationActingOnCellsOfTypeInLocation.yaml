@@ -41,7 +41,7 @@ def:
 
 
 equivalentTo:
-  text: "'has_part' some ('process quality' and ('inheres_in' some (cell_population_proliferation and ('acts_on_population_of' some %s and ('occurs_in' some %s)))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('process quality' and ('inheres_in' some (cell_population_proliferation and ('acts_on_population_of' some %s) and ('occurs_in' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - cell
     - anatomical_entity
