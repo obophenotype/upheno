@@ -119,15 +119,6 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalBiologicalProcessInLocation |
 | Variables | biological process, independent continuant,  |
 
-### Abnormal cell proliferation in anatomical entity
-*Any abnormality in cell proliferation in anatomical entity, such as 'abnormal B cell proliferation in peripheral blood'.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationInAnatomicalEntity.yaml |
-| Name | abnormalCellProliferationInAnatomicalEntity |
-| Variables | anatomical_entity,  |
-
 ### Abnormal concentration of chemical entity
 **
 

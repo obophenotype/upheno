@@ -26,20 +26,20 @@ vars:
   location: "'independent continuant'"
 
 name:
-  text: "increased height of the %s"
+  text: "increased height of %s in %s"
   vars:
    - anatomical_entity
    - location
      
 annotations:
   - annotationProperty: exact_synonym
-    text: "higher %s"
+    text: "higher %s in %s"
     vars:
      - anatomical_entity
-     - location     
+     - location
 
 def:
-  text: "An increase in the height of the %s."
+  text: "An increase in the height of the %s in the %s."
   vars:
     - anatomical_entity
     - location
