@@ -119,6 +119,24 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalBiologicalProcessInLocation |
 | Variables | biological process, independent continuant,  |
 
+### Abnormal cell proliferation in anatomical entity
+*Any abnormality in cell proliferation in anatomical entity, such as 'abnormal B cell proliferation in peripheral blood'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationInAnatomicalEntity.yaml |
+| Name | abnormalCellProliferationInAnatomicalEntity |
+| Variables | anatomical_entity,  |
+
+### Abnormal cellular component
+*Any unspecified abnormality of a cellular component, such as an abnormal mitochondria.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns/abnormalCellularComponent.yaml |
+| Name | abnormalCellularComponent |
+| Variables | cellular component,  |
+
 ### Abnormal concentration of chemical entity
 **
 
@@ -254,6 +272,33 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalMorphologyOfCellularComponent |
 | Variables | cellular component,  |
 
+### Abnormal number of anatomical entity
+*abnormal or altered number of anatomical enities. For example, has abnormal number of heads.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntity.yaml |
+| Name | abnormalNumberOfAnatomicalEntity |
+| Variables | anatomical entity,  |
+
+### Abnormal number of anatomical entity in location
+*abnormal or altered number of anatomical entities in location. For example, has abnormal number of eyes in the head.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml |
+| Name | abnormalNumberOfAnatomicalEntityInLocation |
+| Variables | anatomical entity, independent continuant,  |
+
+### Abnormal number of cellular component
+*abnormal or altered number of cellular componentss. For example, HP_0012102 Abnormal mitochondrial number.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfCellularComponent.yaml |
+| Name | abnormalNumberOfCellularComponent |
+| Variables | cellular component,  |
+
 ### Abnormal pigmentation of anatomical entity
 *Any change in the amount of pigmentation in an anatomical Entity. i.e. Abnormal pigmentation of the epidermis*
 
@@ -325,33 +370,6 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml |
 | Name | abnormalWeightOfAnatomicalEntity |
 | Variables | anatomical entity,  |
-
-### Abnormally altered number of anatomical entities
-*abnormal or altered number of anatomical enities. For example, has abnormal number of heads.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyAlteredNumberOfAnatomicalEntities.yaml |
-| Name | abnormallyAlteredNumberOfAnatomicalEntity |
-| Variables | anatomical entity,  |
-
-### Abnormally altered number of anatomical entities in location
-*abnormal or altered number of anatomical entities in location. For example, has abnormal number of eyes in the head.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormallyAlteredNumberOfAnatomicalEntityInLocation.yaml |
-| Name | abnormallyAlteredNumberOfAnatomicalEntityInLocation |
-| Variables | anatomical entity, independent continuant,  |
-
-### Abnormally altered number of cellular component
-*abnormal or altered number of cellular componentss. For example, HP_0012102 Abnormal mitochondrial number.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyAlteredNumberOfCellularComponent.yaml |
-| Name | abnormallyAlteredNumberOfCellularComponent |
-| Variables | cellular component,  |
 
 ### Abnormally arrested biological process
 *A partial failure or arrested development of a biological process, such as arrested cell migration.*
