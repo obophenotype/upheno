@@ -53,7 +53,7 @@ def:
     - anatomical_entity2
 
 equivalentTo:
-  text: "'has_part' some ('distance' and ('inheres_in' some (%s and ('towards' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('distance' and ('inheres_in' some %s) and ('towards' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity1
     - anatomical_entity2

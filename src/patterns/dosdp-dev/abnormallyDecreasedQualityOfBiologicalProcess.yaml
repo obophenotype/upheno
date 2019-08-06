@@ -7,7 +7,7 @@ contributors:
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  process quality: PATO:0001236
+  decreased process quality: PATO:0002302
   abnormal: PATO:0000460
   biological process: GO:0008150
 
@@ -33,6 +33,6 @@ def:
     - biological_process
 
 equivalentTo:
-  text: "'has_part' some ('process quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
+  text: "'has_part' some ('decreased process quality' and ('inheres_in' some %s) and ('qualifier' some 'abnormal'))"
   vars:
     - biological_process
