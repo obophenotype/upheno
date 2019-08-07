@@ -119,6 +119,33 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalBiologicalProcessInLocation |
 | Variables | biological process, independent continuant,  |
 
+### Abnormal cell differentiation
+**
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellDifferentiation.yaml |
+| Name | abnormalCellDifferentiation |
+| Variables | cell type,  |
+
+### Abnormal cell proliferation acting on cells of type
+*Any abnormal cell proliferation in a specific cell type, such as abnormal retinal vascular proliferation.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationActingOnCellsOfType.yaml |
+| Name | abnormalCellProliferationActingOnCellsOfType |
+| Variables | cell population proliferation, cell,  |
+
+### Abnormal cell proliferation acting on cells of type in location
+*Any abnormal cell proliferation in a specific cell type in a location, such as abnormal retinal vascular proliferation in the eye.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationActingOnCellsOfTypeInLocation.yaml |
+| Name | abnormalCellProliferationActingOnCellsOfTypeInLocation |
+| Variables | cell, anatomical entity,  |
+
 ### Abnormal cell proliferation in anatomical entity
 *Any abnormality in cell proliferation in anatomical entity, such as 'abnormal B cell proliferation in peripheral blood'.*
 
@@ -325,15 +352,6 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPositionOfAnatomicalEntityInLocation.yaml |
 | Name | abnormalPositionOfAnatomicalEntityInLocation |
 | Variables | anatomical entity, independent continuant,  |
-
-### Abnormal quantity of anatomical entity
-*Abnormal number/quantity of anatomical enities. Example, PLANP_0000526, altered number of heads.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalQuantityOfAnatomicalEntity.yaml |
-| Name | abnormalQuantityOfAnatomicalEntity |
-| Variables | anatomical_entity,  |
 
 ### Abnormal shape of anatomical entity by shape type
 *Anatomical enity with an abnormal shape of a specified shape, e.g. columnar shaped head.*

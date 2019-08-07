@@ -12,7 +12,7 @@ classes:
   process quality: PATO:0001236
   anatomical entity: UBERON:0001062
 
-relations: 
+relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
@@ -23,12 +23,11 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  cell_population_proliferation: "'cell population proliferation'"
   cell: "'cell'"
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "abnormal % proliferation in %s"
+  text: "abnormal %s proliferation in %s"
   vars:
    - cell
    - anatomical_entity
@@ -41,7 +40,7 @@ def:
 
 
 equivalentTo:
-  text: "'has_part' some ('process quality' and ('inheres_in' some (cell_population_proliferation and ('acts_on_population_of' some %s) and ('occurs_in' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('process quality' and ('inheres_in' some ('cell population proliferation' and ('acts_on_population_of' some %s) and ('occurs_in' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - cell
     - anatomical_entity

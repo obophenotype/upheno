@@ -26,7 +26,7 @@ vars:
   cell: "'cell'"
 
 name:
-  text: "abnormal % proliferation"
+  text: "abnormal %s proliferation"
   vars:
    - cell
 
@@ -37,6 +37,6 @@ def:
 
 
 equivalentTo:
-  text: "'has_part' some ('process quality' and ('inheres_in' some (cell_population_proliferation and ('acts_on_population_of' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('process quality' and ('inheres_in' some ('cell population proliferation' and ('acts_on_population_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - cell
