@@ -3,9 +3,9 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecrea
 description: "A phenotype in which an organism shows decreased resistance to a chemical, for example 4-aminosalicylic acid."
 
 contributors:
-  - https://orcid.org/0000-0002-7356-1779
-  - https://orcid.org/0000-0001-7487-610X
-
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0001-7487-610X
+- https://orcid.org/0000-0001-9076-6015
 classes:
   decreased resistance to: PATO:0001651
   abnormal: PATO:0000460
@@ -27,20 +27,20 @@ vars:
 name:
   text: "decreased resistance of organism to %s"
   vars:
-    - chemical_entity
+  - chemical_entity
 
 annotations:
 - annotationProperty: exact_synonym
   text: "increased sensitivity of organism to %s"
   vars:
-    - chemical_entity
+  - chemical_entity
 
 def:
   text: "Decreased resistance of organism to %s."
   vars:
-    - chemical_entity
+  - chemical_entity
 
 equivalentTo:
   text: "'has_part' some ('decreased resistance to' and ('inheres_in' some 'cellular organism') and ('towards' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - chemical_entity
+  - chemical_entity
