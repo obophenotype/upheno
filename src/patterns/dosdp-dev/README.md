@@ -602,6 +602,26 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 
+### Abnormally decreased occurrence of biological process
+*Occurrence of a biological process that is abnormally low.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedOccurrenceOfBiologicalProcess.yaml |
+| Name | abnormallyDecreasedOccurrenceOfBiologicalProcess |
+| Variables | biological_process (GO:0008150),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+
+### Abnormally decreased occurrence of biological process in location
+*Occurrence of a biological process in some location that is abnormally low.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation.yaml |
+| Name | abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation |
+| Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+
 ### Abnormally decreased pigmentation of anatomical entity
 *Decreased pigmentation of an anatomical entity, such as decreased skin pigmentation.*
 
