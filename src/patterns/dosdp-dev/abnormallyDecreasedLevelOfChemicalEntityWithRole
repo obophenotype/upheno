@@ -23,12 +23,12 @@ vars:
   location: "'independent continuant'"
 
 name:
-  text: "abnormal %s level"
+  text: "Decreased %s level"
   vars:
     - chemical 
 
 def:
-  text: "An abnormal concentration of %s."
+  text: "An abnormal decreased concentration of %s."
   vars:
     - chemical
 
