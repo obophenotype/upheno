@@ -232,6 +232,16 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical_entity1 (UBERON:0001062), anatomical_entity2 (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 
+### Abnormal fracture of anatomical entity
+*An abnormal fracture in an anatomical entity. A normal fracture is when you fall off your bike and break your arm. A pathological or abnormal fracture means that for instance you have cancer and a metastasis has weakened a bone that then fractures without an adequate trauma.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFractureOfAnatomicalEntity.yaml |
+| Name | abnormalFractureOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-8169-9049](https://orcid.org/0000-0002-8169-9049),  |
+
 ### Abnormal functionality of anatomical entity
 *Dysfunction of an entity, such as an anatomical entity, like an organ, for example HP_0030964 'Abnormal aortic physiology'*
 
@@ -391,6 +401,16 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalPositionOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+
+### Abnormal resistance of whole organism to entity
+*A phenotype in which an organism shows a changed resistance to a something, for example a chemical or a process, and it is unknown unspecified whether the resistance appears increased or decreased.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalResistanceOfWholeOrganismToEntity.yaml |
+| Name | abnormalResistanceOfWholeOrganismToEntity.yaml |
+| Variables | entity (owl:Thing),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
 
 ### Abnormal shape of anatomical entity by shape type
 *Anatomical enity with an abnormal shape of a specified shape, e.g. columnar shaped head.*
@@ -643,14 +663,24 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 
 ### Abnormally decreased resistance of whole organism to chemical entity
-*A phenotype in which an organism shows decreased resistance to a chemical, for example 4-aminosalicylic acid.*
+*A phenotype in which an organism shows decreased resistance to a chemical, for example 4-aminosalicylic acid. NOTE: There is a more general pattern (abnormallyDecreasedResistanceOfWholeOrganismToEntity), so this one should probably be obsoleted.*
 
 | Attribute | Info |
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
 | Name | abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
 | Variables | chemical entity (CHEBI:24431),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+
+### Abnormally decreased resistance of whole organism to entity
+*A phenotype in which an organism shows decreased resistance to a something, like radiation.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml |
+| Name | abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml |
+| Variables | entity (owl:Thing),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
 
 ### Abnormally decreased size of anatomical entity
 *Abnormally small anatomical entity, e.g. MP:0020533 'decreased pons size'*
@@ -852,6 +882,26 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
 
+### Abnormally increased occurrence of biological process
+*Occurrence of a biological process that is abnormally high.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcess.yaml |
+| Name | abnormallyIncreasedOccurrenceOfBiologicalProcess |
+| Variables | biological_process (GO:0008150),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+
+### Abnormally increased occurrence of biological process in location
+*Occurrence of a biological process in some location that is abnormally high.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.yaml |
+| Name | abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation |
+| Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+
 ### Abnormally increased pigmentation of anatomical entity
 *Increased pigmentation of an anatomical entity, such as increased skin pigmentation.*
 
@@ -903,7 +953,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors |  |
 
 ### Abnormally increased resistance of whole organism to chemical entity
-*A phenotype in which an organism shows increased resistance to a chemical, for example 4-aminosalicylic acid.*
+*A phenotype in which an organism shows increased resistance to a chemical, for example 4-aminosalicylic acid. NOTE: There is a more general pattern (abnormallyIncreasedResistanceOfWholeOrganismToEntity), so this one should probably be obsoleted.*
 
 | Attribute | Info |
 |----------|----------|
@@ -911,6 +961,16 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
+
+### Abnormally increased resistance of whole organism to entity
+*A phenotype in which an organism shows increased resistance to something, for example radition.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml |
+| Name | abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml |
+| Variables | entity (owl:Thing),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
 
 ### Abnormally increased size of anatomical entity
 *A enlarged entity, like an abnormally large anatomical structure.	i.e. HP_0012081 'Enlarged cerebellum'*
@@ -1067,7 +1127,7 @@ This is a listing of all the patterns hosted as part of this directory
 
 | Attribute | Info |
 |----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns/dysplasticAnatomicalEntity.yaml |
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/dysplasticAnatomicalEntity.yaml |
 | Name | dysplasticAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
@@ -1103,7 +1163,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 
 ### Mislocalised anatomical entity
-*Abnormal anatomic location of the an anatomicaly entity, such as HP_0012731 'Ectopic anterior pituitary gland'.*
+*Abnormal anatomic location of an anatomicaly entity, such as HP_0012731 'Ectopic anterior pituitary gland'.*
 
 | Attribute | Info |
 |----------|----------|

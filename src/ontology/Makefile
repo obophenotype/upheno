@@ -14,6 +14,7 @@ DOSDPT=dosdp-tools
 
 query: $(pattern-files)
 
+.PHONY: .FORCE
 .PHONY: query $(pattern-files)
 
 HP = mirror/hp.owl
@@ -75,3 +76,11 @@ mirror/uberon-bridge-to-caro.owl:
 	$(ROBOT) merge $(addprefix -i , $(PATTERN_IMPORTS_OWL)) reason -r Hermit annotate --ontology-iri $(OBO)/$(ONT)/patterns/pattern.owl -o $@
 
 pattern_ontology: ../patterns/pattern.owl
+	
+../patterns/dosdp-dev/README.md: .FORCE
+	python ../scripts/patterns_create_overview.py ../patterns/dosdp-dev $@
+	
+../patterns/dosdp-patterns/README.md: .FORCE
+	python ../scripts/patterns_create_overview.py ../patterns/dosdp-patterns $@
+
+pattern_readmes: ../patterns/dosdp-dev/README.md ../patterns/dosdp-patterns/README.md
