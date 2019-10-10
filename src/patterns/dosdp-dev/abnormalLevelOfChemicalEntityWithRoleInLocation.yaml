@@ -32,7 +32,7 @@ name:
     
 
 def:
-  text: "An abnormal concentration of %s in the %s."
+  text: "An abnormal amount of %s in the %s."
   vars:
     - chemical
     - location
