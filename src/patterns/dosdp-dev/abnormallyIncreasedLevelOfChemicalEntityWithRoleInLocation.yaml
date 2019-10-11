@@ -1,12 +1,12 @@
 pattern_name: abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation.yaml
-description: "An abnormally increased level of a metabolite in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0002490 Increased CSF lactate"
+description: "An abnormally increased level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0002490 Increased CSF lactate"
 
 classes:
   increased amount: PATO:0000470
   abnormal: PATO:0000460
-  chemical: CHEBI:24431
-  metabolite: CHEBI:25212
+  chemical entity: CHEBI:24431
+  role: CHEBI:50906
   independent continuant: BFO:0000004
 
 relations: 
@@ -20,26 +20,23 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  chemical: "chemical"
+  role: "role"
   location: "'independent continuant'"
 
 name:
-  text: "Increased %s %s level"
+  text: "increased %s %s level"
   vars:
     - location
-    - chemical
-    
+    - role
 
 def:
   text: "An abnormally increased level of %s in the %s."
   vars:
-    - chemical
+    - role
     - location
 
 equivalentTo:
-  text: "'has_part' some (increased amount and ('inheres_in' some (%s and ('has_role' some (%s and ('part_of' some %s)))) and ('has_modifier' some 'abnormal'))"
-  
+  text: "'has_part' some ('increased amount' and ('inheres_in' some ('chemical entity' and ('has_role' some %s) and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - chemical
-    - metabolite
+    - role
     - location

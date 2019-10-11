@@ -1,14 +1,13 @@
 pattern_name: abnormalLevelOfChemicalEntityWithRoleInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityWithRoleInLocation.yaml
-description: "An abnormal level of a metabolite in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0032364 Abnormal CSF amino acid level."
+description: "An abnormal level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0032364 Abnormal CSF amino acid level."
 
 classes:
   amount: PATO:0000070
   abnormal: PATO:0000460
-  chemical: CHEBI:24431
-  metabolite: CHEBI:25212
+  chemical entity: CHEBI:24431
+  role: CHEBI:50906
   independent continuant: BFO:0000004
-
 
 relations: 
   inheres_in: RO:0000052
@@ -21,27 +20,24 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  chemical: "chemical"
+  role: "role"
   location: "'independent continuant'"
 
 name:
   text: "abnormal %s %s level"
   vars:
+    - role
     - location
-    - chemical
-    
 
 def:
   text: "An abnormal amount of %s in the %s."
   vars:
-    - chemical
+    - role
     - location
 
 equivalentTo:
-  text: "'has_part' some (amount and ('inheres_in' some (%s and ('has_role' some (%s and ('part_of' some %s)))) and ('has_modifier' some 'abnormal'))"
-  
+  text: "'has_part' some ('amount' and ('inheres_in' some ('chemical entity' and ('has_role' some %s) and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - chemical
-    - metabolite
+    - role
     - location
 

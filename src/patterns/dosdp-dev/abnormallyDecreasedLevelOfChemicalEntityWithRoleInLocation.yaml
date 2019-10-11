@@ -1,12 +1,12 @@
 pattern_name: abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation.yaml
-description: "An abnormally decreased level of a metabolite in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0040209 Decreased CSF biopterin level"
+description: "An abnormally decreased level of a chemical with a role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0040209 Decreased CSF biopterin level"
 
 classes:
   decreased amount: PATO:0001997
   abnormal: PATO:0000460
-  chemical: CHEBI:24431
-  metabolite: CHEBI:25212
+  chemical entity: CHEBI:24431
+  role: CHEBI:50906
   independent continuant: BFO:0000004
 
 
@@ -21,26 +21,23 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  chemical: "chemical"
+  role: "role"
   location: "'independent continuant'"
 
 name:
-  text: "Decreased %s %s level"
+  text: "decreased %s %s level"
   vars:
+    - role
     - location
-    - chemical
-    
 
 def:
   text: "An abnormally decreased level of %s in the %s."
   vars:
-    - chemical
+    - role
     - location
 
 equivalentTo:
-  text: "'has_part' some (decreased amount and ('inheres_in' some (%s and ('has_role' some (%s and ('part_of' some %s)))) and ('has_modifier' some 'abnormal'))"
-  
+  text: "'has_part' some ('decreased amount' and ('inheres_in' some ('chemical entity' and ('has_role' some %s) and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - chemical
-    - metabolite
+    - role
     - location

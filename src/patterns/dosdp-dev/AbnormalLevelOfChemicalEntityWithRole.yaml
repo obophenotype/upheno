@@ -1,12 +1,12 @@
 pattern_name: abnormalLevelOfChemicalEntityWithRole
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityWithRole.yaml
-description: "An abnormal level of a metabolite, like Abnormal amino acid level."
+description: "An abnormal level of a chemical with a specific role, such as a metabolite. Example: Abnormal amino acid level."
 
 classes:
   amount: PATO:0000070
   abnormal: PATO:0000460
-  chemical: CHEBI:24431
-  metabolite: CHEBI:25212
+  chemical entity: CHEBI:24431
+  role: CHEBI:50906
 
 relations: 
   inheres_in: RO:0000052
@@ -18,21 +18,19 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  chemical: "chemical"
+  role: "role"
 
 name:
   text: "abnormal %s level"
   vars:
-    - chemical
+    - role
 
 def:
   text: "An abnormal amount of %s."
   vars:
-    - chemical
+    - role
 
 equivalentTo:
-  text: "'has_part' some (amount and ('inheres_in' some (%s and ('has_role' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('amount' and ('inheres_in' some ('chemical entity' and ('has_role' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - chemical
-    - metabolite
-
+    - role
