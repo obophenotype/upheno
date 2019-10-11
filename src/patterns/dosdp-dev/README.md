@@ -302,6 +302,26 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 
+### Abnormal level of chemical entity with role
+*An abnormal level of a chemical with a specific role, such as a metabolite. Example: Abnormal amino acid level.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityWithRole.yaml |
+| Name | abnormalLevelOfChemicalEntityWithRole |
+| Variables | role (CHEBI:50906),  |
+| Contributors |  |
+
+### Abnormal level of chemical entity with role in location
+*An abnormal level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0032364 Abnormal CSF amino acid level.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityWithRoleInLocation.yaml |
+| Name | abnormalLevelOfChemicalEntityWithRoleInLocation |
+| Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
+| Contributors |  |
+
 ### Abnormal molecular function
 *An abnormality in a molecular function, like abnormal DNA ligase activity, or abnormal catalase activity.*
 
@@ -571,6 +591,26 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntityInLocation |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+
+### Abnormally decreased level of chemical entity with role
+*An abnormally decreased level of a chemical entity with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, decreased biopterin level*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRole.yaml |
+| Name | abnormallyDecreasedLevelOfChemicalEntityWithRole |
+| Variables | chemical entity (CHEBI:24431), role (CHEBI:50906),  |
+| Contributors |  |
+
+### Abnormally decreased level of chemical entity with role in location
+*An abnormally decreased level of a chemical with a role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0040209 Decreased CSF biopterin level*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation.yaml |
+| Name | abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation |
+| Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
+| Contributors |  |
 
 ### Abnormally decreased number of anatomical entity
 *A decreased number of an anatomical entity, such a decreased number of teeth.*
@@ -872,6 +912,26 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors |  |
 
+### Abnormally increased level of chemical entity with role
+*An abnormally increased level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, decreased biopterin level*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntityWithRole.yaml |
+| Name | abnormallyIncreasedLevelOfChemicalEntityWithRole |
+| Variables | role (CHEBI:50906),  |
+| Contributors |  |
+
+### Abnormally increased level of chemical entity with role in location
+*An abnormally increased level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0002490 Increased CSF lactate*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation.yaml |
+| Name | abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation |
+| Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
+| Contributors |  |
+
 ### Abnormally increased number of anatomical entity
 *An increased number of an anatomical entity, such an increased number of teeth.*
 
@@ -1081,6 +1141,26 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abscessInLocation |
 | Variables | anatomical entity (UBERON:0001062), abscess (MPATH:608),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+
+### Apoptotic anatomical entity
+*The presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/apoptoticAnatomicalEntity.yaml |
+| Name | apoptoticAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+
+### Apoptotic anatomical entity in location
+*The presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity in some location.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/apoptoticAnatomicalEntityInLocation.yaml |
+| Name | apoptoticAnatomicalEntityInLocation |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
 
 ### Atretic anatomical entity
 *Failure of an anatomcial entity to properly form. HP_0011984 'Atretic gallbladder'.*
