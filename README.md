@@ -5,7 +5,7 @@
 This repository contains common files ontologies and workflows shared
 between multiple phenotype ontologies.
 
-See the [wiki](/obophenotype/upheno/wiki) for additional documentation
+See the [wiki](https://github.com/obophenotype/upheno/wiki) for additional documentation
 
 ## Inter-ontology Closest Matches
 
