@@ -11,6 +11,8 @@ SPARQLDIR = ../sparql
 DOSDP_SCHEMA=http:// # change to PURL when ready.
 PATTERN_TESTER=simple_pattern_tester.py
 DOSDPT=dosdp-tools
+URIBASE=$(OBO)/$(ONT)
+TODAY ?= $(shell date +%Y-%m-%d)
 
 query: $(pattern-files)
 
@@ -84,3 +86,17 @@ pattern_ontology: ../patterns/pattern.owl
 	python ../scripts/patterns_create_overview.py ../patterns/dosdp-patterns $@
 
 pattern_readmes: ../patterns/dosdp-dev/README.md ../patterns/dosdp-patterns/README.md
+	
+upheno.obo: upheno.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
+
+upheno.owl: ../../metazoa.owl
+	$(ROBOT) merge -i $< annotate --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) -o $@
+
+upheno.json: upheno.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
+		convert --check false -f json -o $@.tmp.json && mv $@.tmp.json $@
+
+release: upheno.json upheno.owl upheno.obo
+	cp $^ ../../release
+	
