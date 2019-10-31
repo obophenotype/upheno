@@ -120,4 +120,11 @@ This was split across multiple github repos
     * monarch.owl ==> https://github.com/monarch-initiative/monarch-ontology
     * zp.owl ==> http://compbio.charite.de/jenkins/job/zp-owl/
  * wiki ==> https://github.com/obophenotype/upheno ([docs/](docs/) directory)
+ 
+ ## Design patterns
+ 
+ The design patterns are grouped into three higher level groupings:
+ 1, anatomical entity (from Uberon)
+ 2. cellular component (from GO)
+ 3. chemical entity (includes chemicals (CHEBI), proteins (PRO))
 
