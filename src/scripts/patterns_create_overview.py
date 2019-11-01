@@ -10,6 +10,7 @@ import os, shutil, sys
 import yaml
 import re
 import pandas as pd
+import requests
 
 ### Configuration
 
@@ -18,6 +19,19 @@ md_file = sys.argv[2]
 
 #pattern_dir="/ws/upheno/src/patterns/dosdp-dev"
 #md_file=pattern_dir+"/README.md"
+
+pattern_pipelines = {
+    "HPO": "https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default",
+    "MPO": "https://github.com/obophenotype/mammalian-phenotype-ontology/tree/master/src/patterns/data/default",
+    "WPO": "https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default",
+    "XPO (manual)": "https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual",
+    "PLANP": "https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default",
+    "ZP (manual)": "https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/manual",
+    "ZP (anatomy)": "https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/anatomy",
+    "ZP (ZFIN)": "https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/zfin",
+    "DPO": "https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default",
+    "XPO (anatomy)": "https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy",
+}
 
 lines = []
 
@@ -50,7 +64,15 @@ for filename in files:
             if 'contributors' in y:    
                 for v in y['contributors']:
                     contributors = contributors+"["+re.sub("https[:][/][/]orcid[.]org[/]","",v)+"]("+v+"), "
-
+            
+            examples = []
+            tsv = fn.replace(".yaml",".tsv")
+            for o in pattern_pipelines:
+                url = pattern_pipelines[o]+"/"+tsv
+                print(url)
+                if requests.get(url).status_code==200:
+                    examples.append('[{}]({})'.format(o,url))
+            
             lines.append("### "+splitted)
             lines.append("*" + y['description']+"*")
             lines.append("")
@@ -60,6 +82,7 @@ for filename in files:
             lines.append("| Name | " + y['pattern_name'] + " |")
             lines.append("| Variables | "+variables+" |")
             lines.append("| Contributors | "+contributors+" |")
+            lines.append("| Examples | "+' '.join(examples)+" |")
             lines.append("")
 
         except yaml.YAMLError as exc:
