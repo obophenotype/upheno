@@ -11,6 +11,10 @@ import yaml
 import re
 import pandas as pd
 import requests
+from time import sleep
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
+
 
 ### Configuration
 
@@ -67,11 +71,17 @@ for filename in files:
             
             examples = []
             tsv = fn.replace(".yaml",".tsv")
+            i = 0
             for o in pattern_pipelines:
-                url = pattern_pipelines[o]+"/"+tsv
-                print(url)
-                if requests.get(url).status_code==200:
-                    examples.append('[{}]({})'.format(o,url))
+                if i<10:
+                    url = pattern_pipelines[o]+"/"+tsv
+                    print(url)
+                    request = requests.get(url)
+                    if request.status_code == 200:
+                        examples.append('[{}]({})'.format(o,url))
+                        i = i + 1
+                    sleep(1)
+                    print(i)
             
             lines.append("### "+splitted)
             lines.append("*" + y['description']+"*")

@@ -11,6 +11,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalAbsenceOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalAbsenceOfAnatomicalEntity.tsv) [XPO (anatomy)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy/abnormalAbsenceOfAnatomicalEntity.tsv) |
 
 ### Abnormal absence of anatomical entity due to degeneration
 *The complete loss of an antomical entity due to degeneration.*
@@ -21,6 +22,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfAnatomicalEntityDueToDegeneration |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal absence of anatomical entity in location
 *Absence of an anatomical entity in a location, such as absent aortic valve in the heart.*
@@ -31,6 +33,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormal absence of behavior
 *A behavior that normally would occur does not occur.*
@@ -41,6 +44,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfBehavior |
 | Variables | behavior process (NBO:0000313),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalAbsenceOfBehavior.tsv) |
 
 ### Abnormal absence of biological process
 **
@@ -51,6 +55,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfBiologicalProcess |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalAbsenceOfBiologicalProcess.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalAbsenceOfBiologicalProcess.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormalAbsenceOfBiologicalProcess.tsv) |
 
 ### Abnormal absence of biological process in location
 *A biological process that normally occurs does not occur in an anatomical entity/location.*
@@ -61,6 +66,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfBiologicalProcessInLocation |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalAbsenceOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormal absence of chemical entity
 *A chemical (entity) or protein such as sodium or insulin that are normally present is absent.*
@@ -71,6 +77,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfChemicalEntity |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples |  |
 
 ### Abnormal absence of chemical entity in location
 *A chemical (entity) such as sodium is missing from an anatomical location, such as blood.*
@@ -81,6 +88,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfChemicalEntityInLocation |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples |  |
 
 ### Abnormal absence of molecular function
 **
@@ -91,6 +99,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfMolecularFunction |
 | Variables | molecular function (GO:0003674),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormal absence of pigmentation of anatomical entity
 *Complete loss of pigmentation in an antomical entity. i.e., unpigmented eye.*
@@ -101,6 +110,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfPigmentationOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples |  |
 
 ### Abnormal behavior
 *Any unspecified abnormality of a behavior, such as HP_0012433 abnormal social behavior.*
@@ -111,6 +121,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalBehavior |
 | Variables | behavior process (NBO:0000313),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalBehavior.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalBehavior.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormalBehavior.tsv) |
 
 ### Abnormal biological process
 *Any unspecified abnormality of a biological process, a specific objective that the organism is genetically programmed to achieve, such as apoptosis or cell proliferation. i.e. HP_0012647 'Abnormal inflammatory response'*
@@ -121,6 +132,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalBiologicalProcess |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalBiologicalProcess.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalBiologicalProcess.tsv) [ZP (ZFIN)](https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/zfin/abnormalBiologicalProcess.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormalBiologicalProcess.tsv) |
 
 ### Abnormal biological process in location
 **
@@ -131,6 +143,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalBiologicalProcessInLocation |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/abnormalBiologicalProcessInLocation.tsv) [MPO](https://github.com/obophenotype/mammalian-phenotype-ontology/tree/master/src/patterns/data/default/abnormalBiologicalProcessInLocation.tsv) [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalBiologicalProcessInLocation.tsv) |
 
 ### Abnormal cell differentiation
 **
@@ -141,6 +154,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalCellDifferentiation |
 | Variables | cell type (CL:0000003),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
 
 ### Abnormal cell proliferation acting on cells of type
 *Any abnormal cell proliferation in a specific cell type, such as abnormal retinal vascular proliferation.*
@@ -151,6 +165,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalCellProliferationActingOnCellsOfType |
 | Variables | cell population proliferation (GO:0008283), cell (CL:0000003),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal cell proliferation acting on cells of type in location
 *Any abnormal cell proliferation in a specific cell type in a location, such as abnormal retinal vascular proliferation in the eye.*
@@ -161,6 +176,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalCellProliferationActingOnCellsOfTypeInLocation |
 | Variables | cell (CL:0000003), anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal cell proliferation in anatomical entity
 *Any abnormality in cell proliferation in anatomical entity, such as 'abnormal B cell proliferation in peripheral blood'.*
@@ -171,6 +187,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalCellProliferationInAnatomicalEntity |
 | Variables | anatomical_entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal cellular component
 *Any unspecified abnormality of a cellular component, such as an abnormal mitochondria.*
@@ -181,6 +198,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalCellularComponent |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal concentration of chemical entity
 **
@@ -191,6 +209,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalConcentrationOfChemicalEntity |
 | Variables | chemical (CHEBI:24431),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormal concentration of chemical entity in location
 *An abnormal concentration of a chemical, like sodium, in a location, like the blood.*
@@ -201,6 +220,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalConcentrationOfChemicalEntityInLocation |
 | Variables | chemical (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/abnormalConcentrationOfChemicalEntityInLocation.tsv) |
 
 ### Abnormal degeneration of anatomical entity
 *deterioration or loss of function of a tissue that was once present, such as HP_0000546 retinal degeneration.*
@@ -211,6 +231,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalDegenerationOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples |  |
 
 ### Abnormal development of anatomical entity
 *A phenotype in which an organism exhibits an abnormal development of some anatomical entity. For example, abnormal development of the heart.*
@@ -221,6 +242,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalDevelopmentOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalDevelopmentOfAnatomicalEntity.tsv) |
 
 ### Abnormal distance between anatomical entities
 *Distance between two anatomical entites has deviated from normal. For example, PLANP_0000512 'abnormal distance between eye and eye'*
@@ -231,6 +253,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalDistanceBetweenAnatomicalEntities |
 | Variables | anatomical_entity1 (UBERON:0001062), anatomical_entity2 (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [PLANP](https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default/abnormalDistanceBetweenAnatomicalEntities.tsv) |
 
 ### Abnormal fracture of anatomical entity
 *An abnormal fracture in an anatomical entity. A normal fracture is when you fall off your bike and break your arm. A pathological or abnormal fracture means that for instance you have cancer and a metastasis has weakened a bone that then fractures without an adequate trauma.*
@@ -241,6 +264,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalFractureOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-8169-9049](https://orcid.org/0000-0002-8169-9049),  |
+| Examples |  |
 
 ### Abnormal functionality of anatomical entity
 *Dysfunction of an entity, such as an anatomical entity, like an organ, for example HP_0030964 'Abnormal aortic physiology'*
@@ -251,6 +275,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalFunctionalityOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
+| Examples | [MPO](https://github.com/obophenotype/mammalian-phenotype-ontology/tree/master/src/patterns/data/default/abnormalFunctionalityOfAnatomicalEntity.tsv) |
 
 ### Abnormal functionality of cellular component
 *Dysfunction of a cellular component, such as an organelle, for example HP:0003398 Abnormal synaptic transmission at the neuromuscular junction'*
@@ -261,6 +286,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalFunctionalityOfCellularComponent |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal has extra parts of type anatomical entity
 *extra parts of an anatomical entity. For example, has extra parts of type eye.*
@@ -271,6 +297,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalHasExtraPartsOfTypeAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
 
 ### Abnormal has extra parts of type anatomical entity in location
 *extra parts of an anatomical entity in a location. For example, has extra parts of type eye in the head.*
@@ -281,6 +308,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
 
 ### Abnormal has fewer parts of type anatomical entity
 *An anatomical entity has fewer instances of a part. For example, has the hand has fewer digits. Consider using decreased number of anatomical entity in location instead.*
@@ -291,6 +319,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalHasFewerPartsOfTypeAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
 
 ### Abnormal has fewer parts of type anatomical entity in location
 *An anatomical entity (which is located somewhere) has fewer instances of a part. For example, the hand (which is part of the right arm) has fewer digits. Consider using decreased number of anatomical entity in location instead.*
@@ -301,6 +330,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
 
 ### Abnormal level of chemical entity with role
 *An abnormal level of a chemical with a specific role, such as a metabolite. Example: Abnormal amino acid level.*
@@ -311,6 +341,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalLevelOfChemicalEntityWithRole |
 | Variables | role (CHEBI:50906),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormal level of chemical entity with role in location
 *An abnormal level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0032364 Abnormal CSF amino acid level.*
@@ -321,6 +352,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalLevelOfChemicalEntityWithRoleInLocation |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormal molecular function
 *An abnormality in a molecular function, like abnormal DNA ligase activity, or abnormal catalase activity.*
@@ -331,6 +363,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalMolecularFunction |
 | Variables | molecular function (GO:0003674),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalMolecularFunction.tsv) |
 
 ### Abnormal morphology of anatomical entity
 *An morphologically abnormal anatomical entity. Morphological encompasses shape and colour, but more specific patterns exist.*
@@ -341,6 +374,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalMorphologyOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalMorphologyOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalMorphologyOfAnatomicalEntity.tsv) [PLANP](https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default/abnormalMorphologyOfAnatomicalEntity.tsv) [XPO (anatomy)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy/abnormalMorphologyOfAnatomicalEntity.tsv) |
 
 ### Abnormal morphology of anatomical entity in location
 *An abnormally shaped anatomical entity, in a specific location, like an abnormally shaped tip of the finger, or bone of the lower limb.*
@@ -351,6 +385,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalMorphologyOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples |  |
 
 ### Abnormal morphology of cellular component
 *An abnormality in the morphology of a cellular component, like an abnormal morphology of mitochondria.*
@@ -361,6 +396,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalMorphologyOfCellularComponent |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
+### Abnormal morphology of part of anatomical entity
+*An morphological abnormality in a part of an anatomical entity. Morphology encompasses shape and colour, but more specific patterns exist. Example: HP:0012718 Morphological abnormality of the gastrointestinal tract. Note that pattern is very powerful, because it captures all parts of an anatomical entity, down to the cells! If in doubt, consider using abnormalMorphologyOfAnatomicalEntity instead, which captures only the abnormal morphology of the referenced anatomical entity as a whole.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfPartOfAnatomicalEntity.yaml |
+| Name | abnormalMorphologyOfPartOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal number of anatomical entity
 *abnormal or altered number of anatomical enities. For example, has abnormal number of heads.*
@@ -371,6 +418,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalNumberOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalNumberOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormalNumberOfAnatomicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormalNumberOfAnatomicalEntity.tsv) |
 
 ### Abnormal number of anatomical entity in location
 *abnormal or altered number of anatomical entities in location. For example, has abnormal number of eyes in the head.*
@@ -381,6 +429,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalNumberOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
 
 ### Abnormal number of cellular component
 *abnormal or altered number of cellular componentss. For example, HP_0012102 Abnormal mitochondrial number.*
@@ -391,6 +440,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalNumberOfCellularComponent |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal pigmentation of anatomical entity
 *Any change in the amount of pigmentation in an anatomical Entity. i.e. Abnormal pigmentation of the epidermis*
@@ -401,6 +451,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalPigmentationOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalPigmentationOfAnatomicalEntity.tsv) [PLANP](https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default/abnormalPigmentationOfAnatomicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormalPigmentationOfAnatomicalEntity.tsv) |
 
 ### Abnormal position of anatomical entity
 *An abnormal placement or position of an anatomical entity, such as HP_0004307 'Abnormal anatomic location of the heart'.*
@@ -411,6 +462,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalPositionOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples |  |
 
 ### Abnormal position of anatomical entity in location
 *An abnormally placed anatomical entity, in a position it is not normally in, such as an abnormally placed/position of a valve in the heart.*
@@ -421,6 +473,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalPositionOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples |  |
 
 ### Abnormal resistance of whole organism to entity
 *A phenotype in which an organism shows a changed resistance to a something, for example a chemical or a process, and it is unknown unspecified whether the resistance appears increased or decreased.*
@@ -431,6 +484,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalResistanceOfWholeOrganismToEntity.yaml |
 | Variables | entity (owl:Thing),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
 
 ### Abnormal shape of anatomical entity by shape type
 *Anatomical enity with an abnormal shape of a specified shape, e.g. columnar shaped head.*
@@ -441,6 +495,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalShapeOfAnatomicalEntityByShapeType |
 | Variables | anatomical entity (UBERON:0001062), shape (PATO:0000052),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [PLANP](https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default/abnormalShapeOfAnatomicalEntityByShapeType.tsv) |
 
 ### Abnormal shape of physical entity
 *abnormal shape of an anatomical entity or a measurement of a process, such as an ECG wave*
@@ -451,6 +506,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalShapeOfPhysicalEntity |
 | Variables | entity (owl:Thing),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [PLANP](https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default/abnormalShapeOfPhysicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormalShapeOfPhysicalEntity.tsv) |
 
 ### Abnormal size of anatomical entity
 *An abnormal size (the relative extent of something) of an anatomical entity, such as HP_0012504 'Abnormal size of pituitary gland'.*
@@ -461,6 +517,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalSizeOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
+| Examples | [PLANP](https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default/abnormalSizeOfAnatomicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormalSizeOfAnatomicalEntity.tsv) |
 
 ### Abnormal weight of anatomical entity
 **
@@ -471,6 +528,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalWeightOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally arrested biological process
 *A partial failure or arrested development of a biological process, such as arrested cell migration.*
@@ -481,6 +539,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyArrestedBiologicalProcess |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyArrestedBiologicalProcess.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyArrestedBiologicalProcess.tsv) |
 
 ### Abnormally arrested biological process in location
 *A process that started but failed to occur, such as cell migration in the neural crest.*
@@ -491,6 +550,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyArrestedBiologicalProcessInLocation |
 | Variables | biological_process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally bent anatomical entity
 *An anatomical entity that has one or more angles in its length, such as a bent/crooked nose.*
@@ -501,6 +561,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyBentAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyBentAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyBentAnatomicalEntity.tsv) |
 
 ### Abnormally closed anatomical entity
 **
@@ -511,6 +572,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyClosedAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyClosedAnatomicalEntity.tsv) |
 
 ### Abnormally curved anatomical entity by orientation
 **
@@ -521,6 +583,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyCurvedAnatomicalEntityByOrientation |
 | Variables | anatomical entity (UBERON:0001062), curved (PATO:0000406),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyCurvedAnatomicalEntityByOrientation.tsv) |
 
 ### Abnormally decreased distance between anatomical entities
 *The distance between two anatomical entities is decreased. For example the distance between eyes.*
@@ -531,6 +594,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedDistanceBetweenAnatomicalEntities |
 | Variables | anatomical entity1 (UBERON:0001062), anatomical entity2 (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples |  |
 
 ### Abnormally decreased functionality of anatomical entity
 *Decreased functionality of an anatomical entity or part, such as decreased functionality of the gall bladder.*
@@ -541,6 +605,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedFunctionalityOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased functionality of anatomical entity in location
 *An impaired function of an anatomical entity or part, in a specific anatomical location, such as Beta-cell dysfunction in the pancreas.*
@@ -551,6 +616,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedFunctionalityOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally decreased length of anatomical entity
 *Anatomical entity is observed to be of decreased length. i.e., decreased length of tail*
@@ -561,6 +627,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLengthOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased length of anatomical entity in location
 *Anatomical entity is observed to be of decreased length, such as decreased length of finger on the hand.*
@@ -571,6 +638,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLengthOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedLengthOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally decreased level of chemical entity
 **
@@ -581,6 +649,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntity |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedLevelOfChemicalEntity.tsv) |
 
 ### Abnormally decreased level of chemical entity in location
 **
@@ -591,6 +660,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntityInLocation |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples |  |
 
 ### Abnormally decreased level of chemical entity with role
 *An abnormally decreased level of a chemical entity with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, decreased biopterin level*
@@ -601,6 +671,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntityWithRole |
 | Variables | chemical entity (CHEBI:24431), role (CHEBI:50906),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormally decreased level of chemical entity with role in location
 *An abnormally decreased level of a chemical with a role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0040209 Decreased CSF biopterin level*
@@ -611,6 +682,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormally decreased number of anatomical entity
 *A decreased number of an anatomical entity, such a decreased number of teeth.*
@@ -621,6 +693,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedNumberOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [XPO (anatomy)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased number of anatomical entity in location
 *A decreased number of an anatomical entity in a location, such a decreased number of teeth in the mouth.*
@@ -631,6 +704,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedNumberOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally decreased number of cellular component
 *A decreased number of a cellular component, such as HP:0040013 'Decreased mitochondrial number'.*
@@ -641,6 +715,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedNumberOfCellularComponent |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally decreased occurrence of biological process
 *Occurrence of a biological process that is abnormally low.*
@@ -651,6 +726,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedOccurrenceOfBiologicalProcess |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples | [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) |
 
 ### Abnormally decreased occurrence of biological process in location
 *Occurrence of a biological process in some location that is abnormally low.*
@@ -661,6 +737,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
 
 ### Abnormally decreased pigmentation of anatomical entity
 *Decreased pigmentation of an anatomical entity, such as decreased skin pigmentation.*
@@ -671,6 +748,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedPigmentationOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased quality of biological process
 *Process that appears in some (unspecified) way impaired or decreased (less frequent, less strong).*
@@ -681,6 +759,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedQualityOfBiologicalProcess |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedQualityOfBiologicalProcess.tsv) |
 
 ### Abnormally decreased quality of biological process in location
 *Process in a location that appears in some (unspecified) way impaired or decreased (less frequent, less strong).*
@@ -691,6 +770,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedQualityOfBiologicalProcessInLocation |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedQualityOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally decreased rate of behavior
 *Behavior occurs with a lower frequency (less often) than usual (per unit of time).*
@@ -701,6 +781,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedRateOfBehavior |
 | Variables | behavior process (NBO:0000313),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedRateOfBehavior.tsv) |
 
 ### Abnormally decreased rate of biological process
 *Decreased frequency of a biological process occuring (per some unit of time).*
@@ -711,6 +792,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedRateOfBiologicalProcess |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedRateOfBiologicalProcess.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedRateOfBiologicalProcess.tsv) |
+
+### Abnormally decreased rate of biological process in location
+*Decreased frequency of a biological process occuring (per some unit of time) in a location, such as HP_0003469 Peripheral dysmyelination.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBiologicalProcessInLocation.yaml |
+| Name | abnormallyDecreasedRateOfBiologicalProcessInLocation |
+| Variables | biological_process (GO:0008150), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples |  |
 
 ### Abnormally decreased rate of molecular function
 *Decreased or reduced functionality of a molecular function, which is a process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities, such as binding, catalysis, enzyme activities (like hydrolases, ligases), etc. Example: HP_0002932 'Aldehyde oxidase deficiency'*
@@ -721,6 +814,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedRateOfMolecularFunction |
 | Variables | molecular function (GO:0003674),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedRateOfMolecularFunction.tsv) |
 
 ### Abnormally decreased resistance of whole organism to chemical entity
 *A phenotype in which an organism shows decreased resistance to a chemical, for example 4-aminosalicylic acid. NOTE: There is a more general pattern (abnormallyDecreasedResistanceOfWholeOrganismToEntity), so this one should probably be obsoleted.*
@@ -731,6 +825,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.tsv) |
 
 ### Abnormally decreased resistance of whole organism to entity
 *A phenotype in which an organism shows decreased resistance to a something, like radiation.*
@@ -741,6 +836,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml |
 | Variables | entity (owl:Thing),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples | [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) |
 
 ### Abnormally decreased size of anatomical entity
 *Abnormally small anatomical entity, e.g. MP:0020533 'decreased pons size'*
@@ -751,6 +847,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedSizeOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [XPO (anatomy)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased size of anatomical entity in location
 *Abnormally small anatomical entity in a location, e.g. and abnormally small finger on the right hand.*
@@ -761,6 +858,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedSizeOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally decreased weight of anatomical entity
 **
@@ -771,6 +869,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedWeightOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally decreased width of anatomical entity
 *Decrease in the width of an anatomical entity. i.e., decreased width, skinny, tail*
@@ -781,6 +880,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedWidthOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased width of anatomical entity in location
 *Abnormal decrease in the width of an anatomical entity, e.g. decreased width of the tail*
@@ -791,6 +891,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedWidthOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedWidthOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally delayed biological process
 **
@@ -801,6 +902,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDelayedBiologicalProcess |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDelayedBiologicalProcess.tsv) |
 
 ### Abnormally duplicated anatomical entity
 *An anatomical entity that was abnormally duplicated, such as a duplicated digit 1.*
@@ -811,6 +913,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDuplicatedAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors |  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDuplicatedAnatomicalEntity.tsv) |
 
 ### Abnormally duplicated anatomical entity in location
 *An anatomical entity that was abnormally duplicated in a location, such as a duplicated digit 1 on the right hand.*
@@ -821,6 +924,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDuplicatedAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally incomplete closure of anatomical entity
 **
@@ -831,6 +935,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncompleteClosureOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased distance between anatomical entities
 *The distance between two anatomical entites has increased. For example the distance between eyes.*
@@ -841,6 +946,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedDistanceBetweenAnatomicalEntities |
 | Variables | entity1 (UBERON:0001062), entity2 (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples |  |
 
 ### Abnormally increased functionality of anatomical entity in location
 *Overactivity or hyperfunctionality of an organ or anatomical entity in a specific location.*
@@ -851,6 +957,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedFunctionalityOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally increased height of anatomical entity
 *An abnormally tall anatomical structure, such as HP_0000348 High forehead.'*
@@ -861,6 +968,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedHeightOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased height of anatomical entity in location
 *An abnormally tall anatomical structure in a location.'*
@@ -871,6 +979,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedHeightOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally increased length of anatomical entity
 *Increased length of an antomical entity. i.e., increased length of tail*
@@ -881,6 +990,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLengthOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased length of anatomical entity in location
 *Increased length/abnormally long in a particular anatomical entity. Example: HP_0012743 'Abdominal obesity'*
@@ -891,6 +1001,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLengthOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally increased level of chemical entity
 **
@@ -901,6 +1012,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLevelOfChemicalEntity |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedLevelOfChemicalEntity.tsv) |
 
 ### Abnormally increased level of chemical entity in location
 **
@@ -911,6 +1023,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLevelOfChemicalEntityInLocation |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormally increased level of chemical entity with role
 *An abnormally increased level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, decreased biopterin level*
@@ -921,6 +1034,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLevelOfChemicalEntityWithRole |
 | Variables | role (CHEBI:50906),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormally increased level of chemical entity with role in location
 *An abnormally increased level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0002490 Increased CSF lactate*
@@ -931,6 +1045,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples |  |
 
 ### Abnormally increased number of anatomical entity
 *An increased number of an anatomical entity, such an increased number of teeth.*
@@ -941,6 +1056,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedNumberOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [XPO (anatomy)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased number of anatomical entity in location
 *An increased number of an anatomical entity in a location, such a increased number of teeth in the mouth.*
@@ -951,6 +1067,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedNumberOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally increased number of cellular component
 *An increased number of a cellular component.*
@@ -961,6 +1078,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedNumberOfCellularComponent |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
 
 ### Abnormally increased occurrence of biological process
 *Occurrence of a biological process that is abnormally high.*
@@ -971,6 +1089,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedOccurrenceOfBiologicalProcess |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples | [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) |
 
 ### Abnormally increased occurrence of biological process in location
 *Occurrence of a biological process in some location that is abnormally high.*
@@ -981,6 +1100,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
 
 ### Abnormally increased pigmentation of anatomical entity
 *Increased pigmentation of an anatomical entity, such as increased skin pigmentation.*
@@ -991,6 +1111,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedPigmentationOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased rate of behavior
 *Behavior occurs with a higher frequency (more often) than usual (per unit of time)*
@@ -1001,6 +1122,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedRateOfBehavior |
 | Variables | behavior process (NBO:0000313),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedRateOfBehavior.tsv) |
 
 ### Abnormally increased rate of biological process
 *Abnormally increased frequency of a biological process occuring (per some unit of time).*
@@ -1011,6 +1133,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedRateOfBiologicalProcess |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedRateOfBiologicalProcess.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedRateOfBiologicalProcess.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedRateOfBiologicalProcess.tsv) |
 
 ### Abnormally increased rate of biological process in location
 *Abnormally increased frequency of a biological process occuring (per some unit of time) in some location, such as increased apoptosis in a tissue.*
@@ -1021,6 +1144,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedRateOfBiologicalProcessInLocation |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally increased rate of molecular function
 *Increased functionality of a molecular process, like 'growth hormone secretion' or 'ketone body biosynthetic process'. For example: HP_0000845 'Growth hormone excess' and HP_0001946 Ketosis.*
@@ -1031,6 +1155,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedRateOfMolecularFunction |
 | Variables | molecular function (GO:0003674),  |
 | Contributors |  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedRateOfMolecularFunction.tsv) |
 
 ### Abnormally increased resistance of whole organism to chemical entity
 *A phenotype in which an organism shows increased resistance to a chemical, for example 4-aminosalicylic acid. NOTE: There is a more general pattern (abnormallyIncreasedResistanceOfWholeOrganismToEntity), so this one should probably be obsoleted.*
@@ -1041,6 +1166,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.tsv) |
 
 ### Abnormally increased resistance of whole organism to entity
 *A phenotype in which an organism shows increased resistance to something, for example radition.*
@@ -1051,6 +1177,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml |
 | Variables | entity (owl:Thing),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples | [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) |
 
 ### Abnormally increased size of anatomical entity
 *A enlarged entity, like an abnormally large anatomical structure.	i.e. HP_0012081 'Enlarged cerebellum'*
@@ -1061,6 +1188,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedSizeOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [XPO (anatomy)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased size of anatomical entity in location
 *A enlarged entity, like an abnormally large anatomical structure in a location, such as an enlarged glomerulus in the kidney.'*
@@ -1071,6 +1199,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedSizeOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally increased thickness of anatomical entity
 *An abnormally thickened anatomical entity, like HP_0001072 Thickened skin.*
@@ -1081,6 +1210,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedThicknessOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased thickness of anatomical entity in location
 *An abnormally thickened anatomical entity in a location, like an abnormally thick skin of the hand.*
@@ -1091,6 +1221,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedThicknessOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally increased weight of anatomical entity
 *Increase weight/abnormally heavy in a particular anatomical entity. Example: HP_0012743 'Abdominal obesity'*
@@ -1101,6 +1232,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedWeightOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally increased width of anatomical entity
 *Increased width of an antomical entity. i.e., wider tail.*
@@ -1111,6 +1243,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedWidthOfAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) |
 
 ### Abnormally premature biological process
 *A biological process which starts earlier than the natural start time or the reference process.*
@@ -1121,6 +1254,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyPrematureBiologicalProcess |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
+| Examples |  |
 
 ### Abnormally protruding anatomical entity in location
 **
@@ -1131,6 +1265,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyProtrudingAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abscess in location
 *The presence of an abscess in an anatomical entity. HP_0025044 'Lung abscess'.*
@@ -1141,6 +1276,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abscessInLocation |
 | Variables | anatomical entity (UBERON:0001062), abscess (MPATH:608),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Apoptotic anatomical entity
 *The presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity.*
@@ -1151,6 +1287,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | apoptoticAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
 
 ### Apoptotic anatomical entity in location
 *The presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity in some location.*
@@ -1161,6 +1298,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | apoptoticAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
 
 ### Atretic anatomical entity
 *Failure of an anatomcial entity to properly form. HP_0011984 'Atretic gallbladder'.*
@@ -1171,6 +1309,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | atreticAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/atreticAnatomicalEntity.tsv) [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/atreticAnatomicalEntity.tsv) |
 
 ### Atrophied anatomical entity
 *Atrophy (wasting) of an anatomical structure, such as HP_0410279 'Atrophic pituitary gland'.*
@@ -1181,6 +1320,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | atrophiedAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples | [MPO](https://github.com/obophenotype/mammalian-phenotype-ontology/tree/master/src/patterns/data/default/atrophiedAnatomicalEntity.tsv) [DPO](https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default/atrophiedAnatomicalEntity.tsv) |
 
 ### Bifurcated anatomical entity
 *Branching of an anatomical entity into two branches. Example: HP_0010309 'Bifid sternum'.*
@@ -1191,6 +1331,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | bifurcatedAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/bifurcatedAnatomicalEntity.tsv) |
 
 ### Blistered anatomical entity
 *The presence of blisters on an anatomical entity, such as blisters on the skin.*
@@ -1201,6 +1342,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | blisteredAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/blisteredAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/blisteredAnatomicalEntity.tsv) |
 
 ### Blistered anatomical entity in location
 *Blistering of an an anatomical entity, like blistered skin or feet.*
@@ -1211,6 +1353,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | blisteredAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/blisteredAnatomicalEntityInLocation.tsv) |
 
 ### Calcified anatomical entity
 *A hardening of an anatomical entity, caused by deposition of or conversion into calcium carbonate or some other insoluble calcium compounds. Example: HP_0011415 'Calcified placenta.*
@@ -1221,6 +1364,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | calcifiedAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Dysplastic anatomical entity
 *A congenital malformation of an anatomical entity, such as HP_0005176 'Dysplastic aortic valve'.*
@@ -1231,6 +1375,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | dysplasticAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Lesion in anatomical entity
 *an antomical strucuture with one or more lesions. i.e., one or more lesions in the head*
@@ -1241,6 +1386,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | lesionInAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples | [PLANP](https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default/lesionInAnatomicalEntity.tsv) |
 
 ### Malformed anatomical entity
 *Congenital malformation of an anatomical entity, such as HP_0007993 'Malformed lacrimal duct'.*
@@ -1251,6 +1397,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | malformedAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/malformedAnatomicalEntity.tsv) |
 
 ### Malformed anatomical entity in location
 *Congenital malformation of an anatomical entity in a location, such as 'malformed anterior chamber in the eye'.*
@@ -1261,6 +1408,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | malformedAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/malformedAnatomicalEntityInLocation.tsv) |
 
 ### Mislocalised anatomical entity
 *Abnormal anatomic location of an anatomicaly entity, such as HP_0012731 'Ectopic anterior pituitary gland'.*
@@ -1271,4 +1419,5 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | mislocalisedAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Examples | [WPO](https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default/mislocalisedAnatomicalEntity.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/mislocalisedAnatomicalEntity.tsv) [XPO (anatomy)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy/mislocalisedAnatomicalEntity.tsv) |
 
