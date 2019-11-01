@@ -124,7 +124,7 @@ This was split across multiple github repos
  ## Design patterns
  
  The design patterns are grouped into three higher level groupings:
- 1. anatomical entity (from Uberon)
+ 1. anatomical entity (anatomical entities (Uberon), cells (CL))
  2. cellular component (from GO)
  3. chemical entity (includes chemicals (CHEBI), proteins (PRO))
 
