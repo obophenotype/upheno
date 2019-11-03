@@ -1,0 +1,37 @@
+pattern_name: abnormalMotilityOfCellularComponent
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMotilityOfCellularComponent.yaml
+description: "An abnormality of the ability to move (motility) a cellular component/cells. Examples include 'Abnormal cilium motility'."
+
+contributors:
+  - https://orcid.org/0000-0002-7356-1779
+
+classes:
+  process quality: PATO:0001236
+  abnormal: PATO:0000460
+  cellular component: GO:0005575
+  cell motility: GO:0048870
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  occurs_in: BFO:0000066
+
+vars:
+ cellular_component: "'cellular component'"
+ 
+name:
+  text: "abnormal %s motility"
+  vars:
+   - cellular_component
+    
+
+def:
+  text: "Abnormal ability to move %s."
+  vars:
+    - cellular_component
+
+equivalentTo:
+  text: "'has_part' some ('process quality' and ('inheres_in' some (%s and ('occurs_in' some 'cell motility'))) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - cellular_component
