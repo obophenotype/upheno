@@ -200,6 +200,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
+### Abnormal coiling of anatomical entity
+*An anatomical entity that is abnormally coiled, or wound into a spiral or sequence of rings, like an abnormally coiled tail. This pattern captures both more coiled AND less coiled anatomical entities.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCoilingOfAnatomicalEntity.yaml |
+| Name | abnormalCoilingOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
+
 ### Abnormal concentration of chemical entity
 **
 
@@ -387,6 +398,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors |  |
 | Examples |  |
 
+### Abnormal mobility of anatomical entity
+*An abnormality of the ability to move (mobility) an anatomical entity, including cells. Examples include HP_0006256 'Abnormality of hand joint mobility' and MP_0008069 'abnormal joint mobility'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMobilityOfAnatomicalEntity.yaml |
+| Name | abnormalMobilityOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormal molecular function
 *An abnormality in a molecular function, like abnormal DNA ligase activity, or abnormal catalase activity.*
 
@@ -563,6 +585,28 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
+### Abnormally apoptotic anatomical entity
+*The abnormal presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyApoptoticAnatomicalEntity.yaml |
+| Name | abnormallyApoptoticAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
+
+### Abnormally apoptotic anatomical entity in location
+*The presence of abnormal programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity in some location.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyApoptoticAnatomicalEntityInLocation.yaml |
+| Name | abnormallyApoptoticAnatomicalEntityInLocation |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
+
 ### Abnormally arrested biological process
 *A partial failure or arrested development of a biological process, such as arrested cell migration.*
 
@@ -617,6 +661,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062), curved (PATO:0000406),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyCurvedAnatomicalEntityByOrientation.tsv) |
+
+### Abnormally decreased coiling of anatomical entity
+*An anatomical entity (or whole organism) that exhibits abnormally decreased coiling, or wound into a spiral or sequence of rings, like an abnormally decreased coiling of tail.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedCoilingOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedCoilingOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
 
 ### Abnormally decreased distance between anatomical entities
 *The distance between two anatomical entities is decreased. For example the distance between eyes.*
@@ -715,6 +770,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples |  |
+
+### Abnormally decreased mobility of anatomical entity
+*An abnormally decreased or reduced ability to move an anatomical entity. Example: MP:0030863 decreased joint mobility.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedMobilityOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedMobilityOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
 ### Abnormally decreased number of anatomical entity
@@ -970,6 +1036,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors |  |
 | Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) |
 
+### Abnormally fused anatomical entities
+*An anatomical entity that is abnormally fused with another anatomical entity.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyFusedAnatomicalEntities.yaml |
+| Name | abnormallyFusedAnatomicalEntities |
+| Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062),  |
+| Contributors |  |
+| Examples |  |
+
 ### Abnormally incomplete closure of anatomical entity
 **
 
@@ -980,6 +1057,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) |
+
+### Abnormally increased coiling of anatomical entity
+*An anatomical entity (or whole organism) that exhibits abnormally increased coiling, or wound into a spiral or sequence of rings, like an abnormally increased coiling of tail.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedCoilingOfAnatomicalEntity.yaml |
+| Name | abnormallyIncreasedCoilingOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
 
 ### Abnormally increased distance between anatomical entities
 *The distance between two anatomical entites has increased. For example the distance between eyes.*
@@ -1089,6 +1177,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors |  |
+| Examples |  |
+
+### Abnormally increased mobility of anatomical entity
+*An increased or enhanced ability to move an anatomical entity, including cells. Example: HP_0003318 'Cervical spine hypermobility' .*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedMobilityOfAnatomicalEntity.yaml |
+| Name | abnormallyIncreasedMobilityOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
 ### Abnormally increased number of anatomical entity
@@ -1289,6 +1388,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) |
 
+### Abnormally open anatomical entity
+*Example: abnormal open anterior neural tube*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyOpenAnatomicalEntity.yaml |
+| Name | abnormallyOpenAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
+
 ### Abnormally premature biological process
 *A biological process which starts earlier than the natural start time or the reference process.*
 
@@ -1320,28 +1430,6 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abscessInLocation |
 | Variables | anatomical entity (UBERON:0001062), abscess (MPATH:608),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
-
-### Apoptotic anatomical entity
-*The presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/apoptoticAnatomicalEntity.yaml |
-| Name | apoptoticAnatomicalEntity |
-| Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
-
-### Apoptotic anatomical entity in location
-*The presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity in some location.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/apoptoticAnatomicalEntityInLocation.yaml |
-| Name | apoptoticAnatomicalEntityInLocation |
-| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
 | Examples |  |
 
 ### Atretic anatomical entity
@@ -1453,6 +1541,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/malformedAnatomicalEntity.tsv) |
+
+### Malformed anatomical entity by type
+*A malformed subtype of an anatomical entity, such as a wholly dorsalized embryo. This pattern can use any subclass of PATO malformed.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/malformedAnatomicalEntityByType.yaml |
+| Name | malformedAnatomicalEntityByType |
+| Variables | malformed (PATO:0000646), anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Malformed anatomical entity in location
 *Congenital malformation of an anatomical entity in a location, such as 'malformed anterior chamber in the eye'.*
