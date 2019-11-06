@@ -1,8 +1,8 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
-    "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.obolibrary.org/obo/upheno/patterns-dev", "http://purl.obolibrary.org/obo", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://purl.obolibrary.org/obo/upheno/patterns", "http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev" ],
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://purl.obolibrary.org/obo/upheno/patterns-dev", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://purl.obolibrary.org/obo/upheno/patterns", "http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev" ],
     "prefixList" : {
       "owl" : "http://www.w3.org/2002/07/owl#",
       "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -18,457 +18,451 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "10",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "18",
+    "id" : "16",
     "type" : "owl:Class"
   }, {
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
-    "type" : "owl:Class"
-  }, {
-    "id" : "37",
-    "type" : "owl:Class"
-  }, {
-    "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "41",
-    "type" : "owl:Class"
-  }, {
-    "id" : "38",
-    "type" : "owl:Class"
-  }, {
-    "id" : "45",
-    "type" : "owl:Class"
-  }, {
-    "id" : "56",
-    "type" : "owl:Class"
-  }, {
-    "id" : "70",
-    "type" : "owl:Class"
-  }, {
-    "id" : "82",
-    "type" : "owl:Class"
-  }, {
-    "id" : "90",
-    "type" : "owl:Class"
-  }, {
-    "id" : "92",
-    "type" : "owl:Class"
-  }, {
-    "id" : "93",
-    "type" : "owl:Class"
-  }, {
-    "id" : "97",
-    "type" : "owl:Class"
-  }, {
-    "id" : "46",
-    "type" : "owl:Class"
-  }, {
-    "id" : "94",
-    "type" : "owl:Class"
-  }, {
-    "id" : "47",
-    "type" : "owl:Class"
-  }, {
-    "id" : "125",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "130",
-    "type" : "owl:Class"
-  }, {
-    "id" : "134",
-    "type" : "owl:Class"
-  }, {
-    "id" : "139",
-    "type" : "owl:Class"
-  }, {
-    "id" : "138",
-    "type" : "owl:Class"
-  }, {
-    "id" : "71",
-    "type" : "owl:Class"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "79",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
-    "type" : "owl:Class"
-  }, {
-    "id" : "99",
-    "type" : "owl:Class"
-  }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "42",
-    "type" : "owl:Class"
-  }, {
-    "id" : "28",
-    "type" : "owl:Class"
-  }, {
-    "id" : "165",
-    "type" : "owl:Class"
-  }, {
-    "id" : "114",
-    "type" : "owl:Class"
-  }, {
-    "id" : "124",
-    "type" : "owl:Class"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "180",
-    "type" : "owl:Class"
-  }, {
-    "id" : "181",
-    "type" : "owl:Class"
-  }, {
-    "id" : "132",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
-    "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "131",
-    "type" : "owl:Class"
-  }, {
-    "id" : "34",
-    "type" : "owl:Class"
-  }, {
-    "id" : "197",
-    "type" : "owl:Class"
-  }, {
-    "id" : "198",
-    "type" : "owl:Class"
-  }, {
-    "id" : "153",
-    "type" : "owl:Class"
-  }, {
-    "id" : "160",
-    "type" : "owl:Class"
-  }, {
-    "id" : "91",
-    "type" : "owl:Class"
-  }, {
-    "id" : "151",
-    "type" : "owl:Class"
-  }, {
-    "id" : "72",
-    "type" : "owl:Class"
-  }, {
-    "id" : "166",
-    "type" : "owl:Class"
-  }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "214",
-    "type" : "owl:Class"
-  }, {
-    "id" : "44",
-    "type" : "owl:Class"
-  }, {
-    "id" : "69",
-    "type" : "owl:Class"
-  }, {
-    "id" : "215",
-    "type" : "owl:Class"
-  }, {
-    "id" : "109",
-    "type" : "owl:Class"
-  }, {
-    "id" : "43",
-    "type" : "owl:Class"
-  }, {
-    "id" : "51",
-    "type" : "owl:Class"
-  }, {
-    "id" : "122",
-    "type" : "owl:Class"
-  }, {
-    "id" : "115",
-    "type" : "owl:Class"
-  }, {
-    "id" : "40",
-    "type" : "owl:Class"
-  }, {
-    "id" : "201",
-    "type" : "owl:Class"
-  }, {
-    "id" : "36",
-    "type" : "owl:Class"
-  }, {
-    "id" : "78",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
-    "type" : "owl:Class"
-  }, {
-    "id" : "81",
-    "type" : "owl:Class"
-  }, {
-    "id" : "136",
-    "type" : "owl:Class"
-  }, {
-    "id" : "128",
-    "type" : "owl:Class"
-  }, {
-    "id" : "224",
-    "type" : "owl:Class"
-  }, {
-    "id" : "144",
-    "type" : "owl:Class"
-  }, {
-    "id" : "86",
-    "type" : "owl:Class"
-  }, {
-    "id" : "191",
-    "type" : "owl:Class"
-  }, {
-    "id" : "155",
-    "type" : "owl:Class"
-  }, {
-    "id" : "230",
-    "type" : "owl:Class"
-  }, {
-    "id" : "106",
-    "type" : "owl:Class"
-  }, {
-    "id" : "75",
-    "type" : "owl:Class"
-  }, {
-    "id" : "55",
-    "type" : "owl:Class"
-  }, {
-    "id" : "31",
-    "type" : "owl:Class"
-  }, {
-    "id" : "158",
-    "type" : "owl:Class"
-  }, {
-    "id" : "65",
-    "type" : "owl:Class"
-  }, {
-    "id" : "126",
-    "type" : "owl:Class"
-  }, {
-    "id" : "83",
-    "type" : "owl:Class"
-  }, {
-    "id" : "121",
-    "type" : "owl:Class"
-  }, {
-    "id" : "172",
-    "type" : "owl:Class"
-  }, {
-    "id" : "260",
-    "type" : "owl:Class"
-  }, {
-    "id" : "87",
-    "type" : "owl:Class"
-  }, {
-    "id" : "162",
-    "type" : "owl:Class"
-  }, {
-    "id" : "163",
-    "type" : "owl:Class"
-  }, {
-    "id" : "73",
-    "type" : "owl:Class"
-  }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "189",
-    "type" : "owl:Class"
-  }, {
-    "id" : "80",
-    "type" : "owl:Class"
-  }, {
-    "id" : "140",
-    "type" : "owl:Class"
-  }, {
-    "id" : "199",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "57",
-    "type" : "owl:Class"
-  }, {
-    "id" : "154",
-    "type" : "owl:Class"
-  }, {
-    "id" : "249",
-    "type" : "owl:Class"
-  }, {
-    "id" : "219",
-    "type" : "owl:Class"
-  }, {
-    "id" : "123",
-    "type" : "owl:Class"
-  }, {
-    "id" : "77",
-    "type" : "owl:Class"
-  }, {
-    "id" : "238",
-    "type" : "owl:Class"
-  }, {
-    "id" : "67",
-    "type" : "owl:Class"
-  }, {
-    "id" : "221",
-    "type" : "owl:Class"
-  }, {
-    "id" : "100",
-    "type" : "owl:Class"
-  }, {
-    "id" : "119",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "248",
-    "type" : "owl:Class"
-  }, {
-    "id" : "152",
-    "type" : "owl:Class"
-  }, {
-    "id" : "27",
-    "type" : "owl:Class"
-  }, {
-    "id" : "167",
-    "type" : "owl:Class"
-  }, {
-    "id" : "174",
-    "type" : "owl:Class"
-  }, {
-    "id" : "6",
-    "type" : "owl:Class"
-  }, {
-    "id" : "110",
-    "type" : "owl:Class"
-  }, {
-    "id" : "76",
-    "type" : "owl:Class"
-  }, {
-    "id" : "61",
-    "type" : "owl:Class"
-  }, {
-    "id" : "102",
-    "type" : "owl:Class"
-  }, {
-    "id" : "63",
-    "type" : "owl:Class"
-  }, {
-    "id" : "229",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "113",
-    "type" : "owl:Class"
-  }, {
-    "id" : "142",
-    "type" : "owl:Class"
-  }, {
-    "id" : "192",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "117",
-    "type" : "owl:Class"
-  }, {
-    "id" : "112",
+    "id" : "24",
     "type" : "owl:Class"
   }, {
     "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "25",
-    "type" : "owl:Class"
-  }, {
-    "id" : "108",
-    "type" : "owl:Class"
-  }, {
-    "id" : "96",
-    "type" : "owl:Class"
-  }, {
-    "id" : "95",
-    "type" : "owl:Class"
-  }, {
-    "id" : "210",
-    "type" : "owl:Class"
-  }, {
-    "id" : "147",
-    "type" : "owl:Class"
-  }, {
-    "id" : "29",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
     "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "196",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "150",
+    "id" : "43",
     "type" : "owl:Class"
   }, {
-    "id" : "74",
+    "id" : "40",
     "type" : "owl:Class"
   }, {
-    "id" : "111",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "231",
+    "id" : "60",
     "type" : "owl:Class"
   }, {
-    "id" : "296",
+    "id" : "76",
     "type" : "owl:Class"
   }, {
-    "id" : "89",
+    "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "88",
+    "id" : "95",
     "type" : "owl:Class"
   }, {
-    "id" : "208",
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
     "type" : "owl:Class"
   }, {
     "id" : "84",
     "type" : "owl:Class"
   }, {
-    "id" : "22",
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:Class"
+  }, {
+    "id" : "218",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "185",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "230",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
     "type" : "owl:Class"
   }, {
     "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "219",
+    "type" : "owl:Class"
+  }, {
+    "id" : "278",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "229",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "277",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -494,8 +488,8 @@
       "undefined" : "decreased 'anatomical entity' mobility"
     },
     "attributes" : [ "external" ],
-    "id" : "10",
-    "superClasses" : [ "11" ]
+    "id" : "11",
+    "superClasses" : [ "12" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPrematureBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -519,8 +513,8 @@
       "undefined" : "premature 'biological process'"
     },
     "attributes" : [ "external" ],
-    "id" : "14",
-    "superClasses" : [ "15" ]
+    "id" : "16",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDelayedBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -544,8 +538,8 @@
       "undefined" : "delayed 'biological process'"
     },
     "attributes" : [ "external" ],
-    "id" : "18",
-    "superClasses" : [ "15" ]
+    "id" : "21",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -568,10 +562,10 @@
       "IRI-based" : "abnormallyDecreasedRateOfBiologicalProcess.yaml",
       "undefined" : "decreased 'biological_process'"
     },
-    "subClasses" : [ "23" ],
+    "subClasses" : [ "26" ],
     "attributes" : [ "external" ],
-    "id" : "21",
-    "superClasses" : [ "22" ]
+    "id" : "24",
+    "superClasses" : [ "25" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/abnormalLevelOfChemicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
@@ -594,25 +588,24 @@
       "IRI-based" : "abnormalLevelOfChemicalEntity.yaml",
       "undefined" : "abnormal 'chemical entity' level"
     },
-    "subClasses" : [ "27", "28", "29", "30", "31" ],
+    "subClasses" : [ "2", "10", "31", "32", "33" ],
     "attributes" : [ "external" ],
-    "id" : "26",
-    "superClasses" : [ "2" ]
+    "id" : "30"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntityDueToDegeneration.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "loss of 'anatomical entity' due to degeneration",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Complete wasting (loss) of 'anatomical entity' tissue that was once present.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "loss of 'anatomical entity' due to degeneration",
         "type" : "label"
       } ],
       "title" : [ {
@@ -627,8 +620,8 @@
       "undefined" : "missing 'anatomical entity' due to degeneration"
     },
     "attributes" : [ "external" ],
-    "id" : "32",
-    "superClasses" : [ "33", "34", "35", "36" ]
+    "id" : "34",
+    "superClasses" : [ "35", "36", "37", "38" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedDistanceBetweenAnatomicalEntities.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -658,8 +651,8 @@
       "undefined" : "decreased distance between 'anatomical entity1' and 'anatomical entity2'"
     },
     "attributes" : [ "external" ],
-    "id" : "37",
-    "superClasses" : [ "38" ]
+    "id" : "39",
+    "superClasses" : [ "40" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMobilityOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -682,10 +675,10 @@
       "IRI-based" : "abnormalMobilityOfAnatomicalEntity.yaml",
       "undefined" : "abnormal 'anatomical entity' mobility"
     },
-    "subClasses" : [ "40", "10" ],
+    "subClasses" : [ "42", "11" ],
     "attributes" : [ "external" ],
-    "id" : "11",
-    "superClasses" : [ "39" ]
+    "id" : "12",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityWithRoleInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -708,21 +701,15 @@
       "IRI-based" : "abnormalLevelOfChemicalEntityWithRoleInLocation.yaml",
       "undefined" : "abnormal role 'independent continuant' level"
     },
-    "subClasses" : [ "42", "43" ],
+    "subClasses" : [ "44", "45" ],
     "attributes" : [ "external" ],
-    "id" : "41",
-    "superClasses" : [ "30", "29" ]
+    "id" : "43",
+    "superClasses" : [ "32", "31" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDistanceBetweenAnatomicalEntities.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "abnormal distance between 'anatomical_entity1' and 'anatomical_entity2'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
@@ -732,6 +719,12 @@
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "distance abnormal between 'anatomical_entity1' and 'anatomical_entity2'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "abnormal distance between 'anatomical_entity1' and 'anatomical_entity2'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -745,10 +738,10 @@
       "IRI-based" : "abnormalDistanceBetweenAnatomicalEntities.yaml",
       "undefined" : "abnormal distance between 'anatomical_entity1' and 'anatomical_entity2'"
     },
-    "subClasses" : [ "44", "37" ],
+    "subClasses" : [ "46", "39" ],
     "attributes" : [ "external" ],
-    "id" : "38",
-    "superClasses" : [ "39" ]
+    "id" : "40",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLengthOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -778,8 +771,8 @@
       "undefined" : "increased length of the 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "45",
-    "superClasses" : [ "46", "47" ]
+    "id" : "47",
+    "superClasses" : [ "48", "49" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfCellularComponent.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -809,23 +802,23 @@
       "undefined" : "Decreased number of 'cellular component'"
     },
     "attributes" : [ "external" ],
-    "id" : "56",
-    "superClasses" : [ "57" ]
+    "id" : "60",
+    "superClasses" : [ "61" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "Abnormal morphology of the 'anatomical entity' in the 'independent continuant'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "A morphological abnormality of the 'anatomical entity' in the 'independent continuant'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "Abnormal morphology of the 'anatomical entity' in the 'independent continuant'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -839,10 +832,10 @@
       "IRI-based" : "abnormalMorphologyOfAnatomicalEntityInLocation.yaml",
       "undefined" : "abnormal 'anatomical entity' morphology in the 'independent continuant'"
     },
-    "subClasses" : [ "72", "73", "74", "34", "75", "76", "36", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87" ],
+    "subClasses" : [ "77", "78", "79", "36", "80", "81", "38", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92" ],
     "attributes" : [ "external" ],
-    "id" : "70",
-    "superClasses" : [ "71", "39" ]
+    "id" : "76",
+    "superClasses" : [ "28", "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalSizeOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -871,10 +864,10 @@
       "IRI-based" : "abnormalSizeOfAnatomicalEntity.yaml",
       "undefined" : "abnormal size of 'anatomical entity'"
     },
-    "subClasses" : [ "46", "89", "47", "7" ],
+    "subClasses" : [ "48", "94", "49", "57" ],
     "attributes" : [ "external" ],
-    "id" : "82",
-    "superClasses" : [ "88", "70" ]
+    "id" : "87",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellDifferentiation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -898,8 +891,8 @@
       "undefined" : "abnormal 'cell type' cell differentiation"
     },
     "attributes" : [ "external" ],
-    "id" : "90",
-    "superClasses" : [ "91" ]
+    "id" : "95",
+    "superClasses" : [ "96" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -922,25 +915,25 @@
       "IRI-based" : "abnormallyDecreasedLevelOfChemicalEntityInLocation.yaml",
       "undefined" : "decreased level of 'chemical entity' in 'independent continuant'"
     },
-    "subClasses" : [ "43" ],
+    "subClasses" : [ "45" ],
     "attributes" : [ "external" ],
-    "id" : "92",
-    "superClasses" : [ "27", "30" ]
+    "id" : "54",
+    "superClasses" : [ "2", "32" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "The presence of an increased number of 'anatomical entity'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "Extra 'anatomical entity'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "The presence of an increased number of 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -954,10 +947,10 @@
       "IRI-based" : "abnormallyIncreasedNumberOfAnatomicalEntity.yaml",
       "undefined" : "Increased number of 'anatomical entity'"
     },
-    "subClasses" : [ "96", "97" ],
+    "subClasses" : [ "100", "101" ],
     "attributes" : [ "external" ],
-    "id" : "93",
-    "superClasses" : [ "94", "95" ]
+    "id" : "97",
+    "superClasses" : [ "98", "99" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDuplicatedAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -987,23 +980,23 @@
       "undefined" : "abnormal duplication of 'anatomical entity' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "97",
-    "superClasses" : [ "93", "100" ]
+    "id" : "101",
+    "superClasses" : [ "97", "104" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedSizeOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "enlarged 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An increase in the size of the 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "enlarged 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -1017,10 +1010,10 @@
       "IRI-based" : "abnormallyIncreasedSizeOfAnatomicalEntity.yaml",
       "undefined" : "increased size of the 'anatomical entity'"
     },
-    "subClasses" : [ "110", "111", "112", "113", "114", "45", "115" ],
+    "subClasses" : [ "110", "111", "112", "113", "114", "47", "115" ],
     "attributes" : [ "external" ],
-    "id" : "46",
-    "superClasses" : [ "82" ]
+    "id" : "48",
+    "superClasses" : [ "87" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev",
@@ -1054,25 +1047,25 @@
       "IRI-based" : "abnormalNumberOfAnatomicalEntityInLocation.yaml",
       "undefined" : "abnormal number of anatomical entities of type 'anatomical entity' in 'independent continuant'"
     },
-    "subClasses" : [ "33", "35", "93", "123", "100", "124" ],
+    "subClasses" : [ "35", "37", "97", "116", "104", "117" ],
     "attributes" : [ "external" ],
-    "id" : "94",
-    "superClasses" : [ "39" ]
+    "id" : "98",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "enlarged 'anatomical entity' in 'independent continuant'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An increase in the size of the 'anatomical entity' in the 'independent continuant'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "enlarged 'anatomical entity' in 'independent continuant'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -1086,10 +1079,10 @@
       "IRI-based" : "abnormallyIncreasedSizeOfAnatomicalEntityInLocation.yaml",
       "undefined" : "increased size of the 'anatomical entity' in 'independent continuant'"
     },
-    "subClasses" : [ "110", "111", "112", "113", "114", "45", "115" ],
+    "subClasses" : [ "110", "111", "112", "113", "114", "47", "115" ],
     "attributes" : [ "external" ],
-    "id" : "47",
-    "superClasses" : [ "82" ]
+    "id" : "49",
+    "superClasses" : [ "87" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedCoilingOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1119,8 +1112,8 @@
       "undefined" : "abnormally increased coiling of 'anatomical entity' "
     },
     "attributes" : [ "external" ],
-    "id" : "125",
-    "superClasses" : [ "126" ]
+    "id" : "118",
+    "superClasses" : [ "119" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfMolecularFunction.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1144,8 +1137,7 @@
       "undefined" : "absent 'molecular function'"
     },
     "attributes" : [ "external" ],
-    "id" : "4",
-    "superClasses" : [ "2" ]
+    "id" : "120"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1174,10 +1166,10 @@
       "IRI-based" : "abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml",
       "undefined" : "increased resistance of organism to 'entity'"
     },
-    "subClasses" : [ "132" ],
+    "subClasses" : [ "123" ],
     "attributes" : [ "external" ],
-    "id" : "130",
-    "superClasses" : [ "131" ]
+    "id" : "121",
+    "superClasses" : [ "122" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1206,10 +1198,10 @@
       "IRI-based" : "abnormallyIncreasedLevelOfChemicalEntityInLocation.yaml",
       "undefined" : "increased level of 'chemical entity' in 'independent continuant'"
     },
-    "subClasses" : [ "42" ],
+    "subClasses" : [ "44" ],
     "attributes" : [ "external" ],
-    "id" : "134",
-    "superClasses" : [ "30", "31" ]
+    "id" : "124",
+    "superClasses" : [ "32", "33" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1232,25 +1224,25 @@
       "IRI-based" : "abnormallyIncreasedOccurrenceOfBiologicalProcess.yaml",
       "undefined" : "increased occurrence of 'biological_process'"
     },
-    "subClasses" : [ "140" ],
+    "subClasses" : [ "73" ],
     "attributes" : [ "external" ],
-    "id" : "139",
-    "superClasses" : [ "15" ]
+    "id" : "125",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfCellularComponent.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "abnormal shape of 'cellular component'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Any structural anomaly of the 'cellular component'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "abnormal shape of 'cellular component'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -1264,10 +1256,10 @@
       "IRI-based" : "abnormalMorphologyOfCellularComponent.yaml",
       "undefined" : "abnormal morphology of 'cellular component' "
     },
-    "subClasses" : [ "142" ],
+    "subClasses" : [ "128" ],
     "attributes" : [ "external" ],
-    "id" : "138",
-    "superClasses" : [ "69", "1" ]
+    "id" : "126",
+    "superClasses" : [ "127" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfPartOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1296,10 +1288,10 @@
       "IRI-based" : "abnormalMorphologyOfPartOfAnatomicalEntity.yaml",
       "undefined" : "abnormal 'anatomical entity' morphology"
     },
-    "subClasses" : [ "88", "70" ],
+    "subClasses" : [ "93", "76" ],
     "attributes" : [ "external" ],
-    "id" : "71",
-    "superClasses" : [ "63", "1" ]
+    "id" : "28",
+    "superClasses" : [ "29" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1322,10 +1314,9 @@
       "IRI-based" : "abnormalBiologicalProcess.yaml",
       "undefined" : "abnormal 'biological_process'"
     },
-    "subClasses" : [ "151", "91", "152", "139", "14", "18", "22", "153", "154", "155" ],
+    "subClasses" : [ "129", "96", "52", "125", "16", "21", "25", "130", "131", "132" ],
     "attributes" : [ "external" ],
-    "id" : "15",
-    "superClasses" : [ "2" ]
+    "id" : "17"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1355,8 +1346,8 @@
       "undefined" : "abnormally blistered 'anatomical entity' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "79",
-    "superClasses" : [ "88", "70" ]
+    "id" : "84",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConcentrationOfChemicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1379,10 +1370,9 @@
       "IRI-based" : "abnormalConcentrationOfChemicalEntity.yaml",
       "undefined" : "abnormal chemical concentration"
     },
-    "subClasses" : [ "102" ],
+    "subClasses" : [ "106" ],
     "attributes" : [ "external" ],
-    "id" : "49",
-    "superClasses" : [ "2" ]
+    "id" : "107"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntityWithRole.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1405,10 +1395,10 @@
       "IRI-based" : "abnormallyIncreasedLevelOfChemicalEntityWithRole.yaml",
       "undefined" : "increased role level"
     },
-    "subClasses" : [ "42" ],
+    "subClasses" : [ "44" ],
     "attributes" : [ "external" ],
-    "id" : "99",
-    "superClasses" : [ "31", "29" ]
+    "id" : "103",
+    "superClasses" : [ "33", "31" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1437,10 +1427,10 @@
       "IRI-based" : "abnormallyDecreasedSizeOfAnatomicalEntity.yaml",
       "undefined" : "decreased size of the 'anatomical entity'"
     },
-    "subClasses" : [ "6", "9", "13", "17", "20", "25" ],
+    "subClasses" : [ "56", "59", "63", "65", "67", "69" ],
     "attributes" : [ "external" ],
-    "id" : "7",
-    "superClasses" : [ "82" ]
+    "id" : "57",
+    "superClasses" : [ "87" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1464,8 +1454,8 @@
       "undefined" : "increased 'independent continuant' role level"
     },
     "attributes" : [ "external" ],
-    "id" : "42",
-    "superClasses" : [ "41", "134", "99" ]
+    "id" : "44",
+    "superClasses" : [ "43", "124", "103" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfChemicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1488,25 +1478,25 @@
       "IRI-based" : "abnormalAbsenceOfChemicalEntity.yaml",
       "undefined" : "absent 'chemical entity'"
     },
-    "subClasses" : [ "163" ],
+    "subClasses" : [ "9" ],
     "attributes" : [ "external" ],
-    "id" : "28",
-    "superClasses" : [ "26" ]
+    "id" : "10",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/mislocalisedAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "abnormal position of 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An abnormally localised 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "abnormal position of 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -1521,8 +1511,8 @@
       "undefined" : "Abnormally localised 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "165",
-    "superClasses" : [ "166", "167" ]
+    "id" : "7",
+    "superClasses" : [ "138", "5" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedHeightOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1553,7 +1543,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "114",
-    "superClasses" : [ "46", "47" ]
+    "superClasses" : [ "48", "49" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1583,8 +1573,8 @@
       "undefined" : "Decreased number of 'anatomical entity' in the 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "124",
-    "superClasses" : [ "94", "95" ]
+    "id" : "117",
+    "superClasses" : [ "98", "99" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1607,10 +1597,9 @@
       "IRI-based" : "abnormalAbsenceOfBiologicalProcess.yaml",
       "undefined" : "absent 'biological process'"
     },
-    "subClasses" : [ "174" ],
+    "subClasses" : [ "14" ],
     "attributes" : [ "external" ],
-    "id" : "53",
-    "superClasses" : [ "2" ]
+    "id" : "15"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abscessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1634,8 +1623,8 @@
       "undefined" : "'anatomical entity' abscess"
     },
     "attributes" : [ "external" ],
-    "id" : "180",
-    "superClasses" : [ "63" ]
+    "id" : "153",
+    "superClasses" : [ "29" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBehavior.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1659,8 +1648,8 @@
       "undefined" : "Enhanced 'behavior process'"
     },
     "attributes" : [ "external" ],
-    "id" : "181",
-    "superClasses" : [ "61" ]
+    "id" : "23",
+    "superClasses" : [ "20" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1690,23 +1679,23 @@
       "undefined" : "increased resistance of organism to 'chemical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "132",
-    "superClasses" : [ "130" ]
+    "id" : "123",
+    "superClasses" : [ "121" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/atrophiedAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Partial or complete wasting (loss) of 'anatomical entity' tissue that was once present.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "atrophy of the 'anatomical entity'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Partial or complete wasting (loss) of 'anatomical entity' tissue that was once present.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -1721,23 +1710,55 @@
       "undefined" : "'anatomical entity' atrophy"
     },
     "attributes" : [ "external" ],
-    "id" : "9",
-    "superClasses" : [ "89", "7" ]
+    "id" : "59",
+    "superClasses" : [ "94", "57" ]
   }, {
-    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAnatomicalEntity.yaml",
+    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalResistanceOfWholeOrganismToEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
-        "value" : "Decreased length or shortening of the 'anatomical entity'.",
+        "value" : "abnormally changed resistance of organism to 'entity'.",
         "type" : "label"
       } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
+        "value" : "abnormally changed  sensitivity of organism to 'entity'",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "abnormalResistanceOfWholeOrganismToEntity.yaml",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "abnormalResistanceOfWholeOrganismToEntity.yaml",
+      "undefined" : "abnormally changed resistance of organism to 'entity'"
+    },
+    "subClasses" : [ "121", "165" ],
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAnatomicalEntity.yaml",
+    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
+    "instances" : 0,
+    "annotations" : {
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
         "value" : "short 'anatomical entity'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Decreased length or shortening of the 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -1752,55 +1773,23 @@
       "undefined" : "decreased length of 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "17",
-    "superClasses" : [ "89", "7" ]
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalResistanceOfWholeOrganismToEntity.yaml",
-    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
-    "instances" : 0,
-    "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "abnormally changed  sensitivity of organism to 'entity'",
-        "type" : "label"
-      } ],
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "abnormally changed resistance of organism to 'entity'.",
-        "type" : "label"
-      } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "undefined",
-        "value" : "abnormalResistanceOfWholeOrganismToEntity.yaml",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "abnormalResistanceOfWholeOrganismToEntity.yaml",
-      "undefined" : "abnormally changed resistance of organism to 'entity'"
-    },
-    "subClasses" : [ "130", "122" ],
-    "attributes" : [ "external" ],
-    "id" : "131",
-    "superClasses" : [ "39" ]
+    "id" : "65",
+    "superClasses" : [ "94", "57" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDegenerationOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "degeneration of the 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Partial or complete degeneration of 'anatomical entity' tissue that was once present.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "degeneration of the 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -1814,25 +1803,25 @@
       "IRI-based" : "abnormalDegenerationOfAnatomicalEntity.yaml",
       "undefined" : "'anatomical entity' degeneration"
     },
-    "subClasses" : [ "32" ],
+    "subClasses" : [ "34" ],
     "attributes" : [ "external" ],
-    "id" : "34",
-    "superClasses" : [ "88", "70" ]
+    "id" : "36",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntity",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "A developmental defect resulting in complete obliteration of the lumen of the 'anatomical entity'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "atresia of the 'anatomical entity'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "A developmental defect resulting in complete obliteration of the lumen of the 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -1847,8 +1836,8 @@
       "undefined" : "'anatomical entity' atresia"
     },
     "attributes" : [ "external" ],
-    "id" : "197",
-    "superClasses" : [ "77" ]
+    "id" : "169",
+    "superClasses" : [ "82" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWeightOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1872,8 +1861,8 @@
       "undefined" : "decreased 'anatomical entity' weight"
     },
     "attributes" : [ "external" ],
-    "id" : "198",
-    "superClasses" : [ "199" ]
+    "id" : "170",
+    "superClasses" : [ "140" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMotilityOfCellularComponent.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1897,8 +1886,8 @@
       "undefined" : "abnormal 'cellular component' motility"
     },
     "attributes" : [ "external" ],
-    "id" : "153",
-    "superClasses" : [ "15" ]
+    "id" : "130",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
@@ -1928,8 +1917,8 @@
       "undefined" : "has extra parts of type 'anatomical entity' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "160",
-    "superClasses" : [ "39" ]
+    "id" : "157",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDevelopmentOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1952,10 +1941,10 @@
       "IRI-based" : "abnormalDevelopmentOfAnatomicalEntity.yaml",
       "undefined" : "abnormal development of 'anatomical entity'"
     },
-    "subClasses" : [ "90" ],
+    "subClasses" : [ "95" ],
     "attributes" : [ "external" ],
-    "id" : "91",
-    "superClasses" : [ "15" ]
+    "id" : "96",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -1978,10 +1967,10 @@
       "IRI-based" : "abnormallyIncreasedRateOfBiologicalProcess.yaml",
       "undefined" : "increased 'biological_process'"
     },
-    "subClasses" : [ "208" ],
+    "subClasses" : [ "71" ],
     "attributes" : [ "external" ],
-    "id" : "151",
-    "superClasses" : [ "15" ]
+    "id" : "129",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/dysplasticAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2011,8 +2000,8 @@
       "undefined" : "dysgenesis of the 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "72",
-    "superClasses" : [ "88", "70" ]
+    "id" : "77",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPositionOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2035,10 +2024,10 @@
       "IRI-based" : "abnormalPositionOfAnatomicalEntity.yaml",
       "undefined" : "abnormal location of 'anatomical entity'"
     },
-    "subClasses" : [ "210", "165" ],
+    "subClasses" : [ "4", "7" ],
     "attributes" : [ "external" ],
-    "id" : "166",
-    "superClasses" : [ "39" ]
+    "id" : "138",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2067,10 +2056,10 @@
       "IRI-based" : "abnormalAbsenceOfAnatomicalEntity.yaml",
       "undefined" : "absent 'anatomical entity'"
     },
-    "subClasses" : [ "32" ],
+    "subClasses" : [ "34" ],
     "attributes" : [ "external" ],
-    "id" : "35",
-    "superClasses" : [ "94", "95" ]
+    "id" : "37",
+    "superClasses" : [ "98", "99" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfMolecularFunction.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2094,23 +2083,23 @@
       "undefined" : "decreased 'molecular function'"
     },
     "attributes" : [ "external" ],
-    "id" : "214",
-    "superClasses" : [ "55" ]
+    "id" : "184",
+    "superClasses" : [ "185" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedDistanceBetweenAnatomicalEntities.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "distance increased between 'entity1' and 'entity2'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Increased distance between 'entity1' and 'entity2'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "distance increased between 'entity1' and 'entity2'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -2125,8 +2114,8 @@
       "undefined" : "increased distance between 'entity1' and 'entity2'"
     },
     "attributes" : [ "external" ],
-    "id" : "44",
-    "superClasses" : [ "38" ]
+    "id" : "46",
+    "superClasses" : [ "40" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/abnormalCellularComponent.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
@@ -2155,10 +2144,9 @@
       "IRI-based" : "abnormalCellularComponent.yaml",
       "undefined" : "abnormal 'cellular component'"
     },
-    "subClasses" : [ "136", "138", "57" ],
+    "subClasses" : [ "186", "126", "61" ],
     "attributes" : [ "external" ],
-    "id" : "69",
-    "superClasses" : [ "2" ]
+    "id" : "127"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWeightOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2182,8 +2170,8 @@
       "undefined" : "increased 'anatomical entity' weight"
     },
     "attributes" : [ "external" ],
-    "id" : "215",
-    "superClasses" : [ "199" ]
+    "id" : "187",
+    "superClasses" : [ "140" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2206,10 +2194,10 @@
       "IRI-based" : "abnormalFunctionalityOfAnatomicalEntity.yaml",
       "undefined" : "abnormality of 'anatomical entity' physiology"
     },
-    "subClasses" : [ "108", "117", "119" ],
+    "subClasses" : [ "188", "189", "190" ],
     "attributes" : [ "external" ],
-    "id" : "109",
-    "superClasses" : [ "39" ]
+    "id" : "145",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2233,8 +2221,8 @@
       "undefined" : "decreased role 'independent continuant' level"
     },
     "attributes" : [ "external" ],
-    "id" : "43",
-    "superClasses" : [ "41", "92", "158" ]
+    "id" : "45",
+    "superClasses" : [ "43", "54", "1" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/fibroticAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2264,8 +2252,7 @@
       "undefined" : "'anatomical entity' fibrosis"
     },
     "attributes" : [ "external" ],
-    "id" : "51",
-    "superClasses" : [ "2" ]
+    "id" : "191"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2294,10 +2281,10 @@
       "IRI-based" : "abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml",
       "undefined" : "decreased resistance of organism to 'entity'"
     },
-    "subClasses" : [ "121" ],
+    "subClasses" : [ "192" ],
     "attributes" : [ "external" ],
-    "id" : "122",
-    "superClasses" : [ "131" ]
+    "id" : "165",
+    "superClasses" : [ "122" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWidthOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2328,7 +2315,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "115",
-    "superClasses" : [ "46", "47" ]
+    "superClasses" : [ "48", "49" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedMobilityOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2352,8 +2339,8 @@
       "undefined" : "increased 'anatomical entity' mobility"
     },
     "attributes" : [ "external" ],
-    "id" : "40",
-    "superClasses" : [ "11" ]
+    "id" : "42",
+    "superClasses" : [ "12" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBehavior.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2377,23 +2364,23 @@
       "undefined" : "impaired 'behavior process'"
     },
     "attributes" : [ "external" ],
-    "id" : "201",
-    "superClasses" : [ "61" ]
+    "id" : "19",
+    "superClasses" : [ "20" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDegenerationOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "degeneration of the 'anatomical entity' in 'independent continuant'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Partial or complete degeneration of 'anatomical entity' tissue in the 'independent continuant' that was once present.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "degeneration of the 'anatomical entity' in 'independent continuant'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -2407,10 +2394,10 @@
       "IRI-based" : "abnormalDegenerationOfAnatomicalEntityInLocation.yaml",
       "undefined" : "'anatomical entity' degeneration in 'independent continuant'"
     },
-    "subClasses" : [ "32" ],
+    "subClasses" : [ "34" ],
     "attributes" : [ "external" ],
-    "id" : "36",
-    "superClasses" : [ "88", "70" ]
+    "id" : "38",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyOpenAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2439,25 +2426,25 @@
       "IRI-based" : "abnormallyOpenAnatomicalEntity.yaml",
       "undefined" : "abnormal opening of the 'anatomical entity'"
     },
-    "subClasses" : [ "221" ],
+    "subClasses" : [ "198" ],
     "attributes" : [ "external" ],
-    "id" : "78",
-    "superClasses" : [ "88", "70" ]
+    "id" : "83",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Absence of the 'anatomical entity' in the 'independent continuant'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "Missing 'anatomical entity' in the 'independent continuant'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Absence of the 'anatomical entity' in the 'independent continuant'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -2471,10 +2458,35 @@
       "IRI-based" : "abnormalAbsenceOfAnatomicalEntityInLocation.yaml",
       "undefined" : "Absent 'anatomical entity' in the 'independent continuant'"
     },
-    "subClasses" : [ "32" ],
+    "subClasses" : [ "34" ],
     "attributes" : [ "external" ],
-    "id" : "33",
-    "superClasses" : [ "94", "95" ]
+    "id" : "35",
+    "superClasses" : [ "98", "99" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfCellularComponent.yaml",
+    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any functional anomaly of the 'cellular component'.",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "abnormalFunctionalityOfCellularComponent",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "abnormalFunctionalityOfCellularComponent.yaml",
+      "undefined" : "abnormality of 'cellular component' function"
+    },
+    "attributes" : [ "external" ],
+    "id" : "186",
+    "superClasses" : [ "127" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/malformedAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2504,44 +2516,13 @@
       "undefined" : "abnormally formed 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "81",
-    "superClasses" : [ "88", "70" ]
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfCellularComponent.yaml",
-    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
-    "instances" : 0,
-    "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Any functional anomaly of the 'cellular component'.",
-        "type" : "label"
-      } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "undefined",
-        "value" : "abnormalFunctionalityOfCellularComponent",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "abnormalFunctionalityOfCellularComponent.yaml",
-      "undefined" : "abnormality of 'cellular component' function"
-    },
-    "attributes" : [ "external" ],
-    "id" : "136",
-    "superClasses" : [ "69" ]
+    "id" : "86",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyBentAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Any abnormal bending of the 'anatomical entity'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
@@ -2551,6 +2532,12 @@
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "abnormal bending of 'anatomical entity'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any abnormal bending of the 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -2565,39 +2552,8 @@
       "undefined" : "abnormal bending of 'anatomical entity' "
     },
     "attributes" : [ "external" ],
-    "id" : "128",
-    "superClasses" : [ "85" ]
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasFewerPartsOfTypeAnatomicalEntity.yaml",
-    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
-    "instances" : 0,
-    "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Any structural anomaly of 'anatomical entity' that causes there to be fewer parts of type 'anatomical entity'.",
-        "type" : "label"
-      } ],
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "fewer 'anatomical entity's in 'anatomical entity'",
-        "type" : "label"
-      } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "undefined",
-        "value" : "abnormalHasFewerPartsOfTypeAnatomicalEntity",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "abnormalHasFewerPartsOfTypeAnatomicalEntity.yaml",
-      "undefined" : "'anatomical entity' that has fewer parts of type 'anatomical entity'"
-    },
-    "attributes" : [ "external" ],
-    "id" : "224",
-    "superClasses" : [ "162" ]
+    "id" : "200",
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedOccurrenceOfBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2620,25 +2576,56 @@
       "IRI-based" : "abnormallyDecreasedOccurrenceOfBiologicalProcess.yaml",
       "undefined" : "decreased occurrence of 'biological_process'"
     },
-    "subClasses" : [ "172", "192" ],
+    "subClasses" : [ "167", "177" ],
     "attributes" : [ "external" ],
-    "id" : "144",
-    "superClasses" : [ "22" ]
+    "id" : "202",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasFewerPartsOfTypeAnatomicalEntity.yaml",
+    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
+    "instances" : 0,
+    "annotations" : {
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "fewer 'anatomical entity's in 'anatomical entity'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any structural anomaly of 'anatomical entity' that causes there to be fewer parts of type 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "abnormalHasFewerPartsOfTypeAnatomicalEntity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "abnormalHasFewerPartsOfTypeAnatomicalEntity.yaml",
+      "undefined" : "'anatomical entity' that has fewer parts of type 'anatomical entity'"
+    },
+    "attributes" : [ "external" ],
+    "id" : "203",
+    "superClasses" : [ "159" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPigmentationOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "abnormal degree of pigmentation of the 'anatomical entity'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "abnormal pigmentation of the 'anatomical entity'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "abnormal degree of pigmentation of the 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -2652,10 +2639,10 @@
       "IRI-based" : "abnormalPigmentationOfAnatomicalEntity.yaml",
       "undefined" : "abnormal degree of pigmentation of the 'anatomical entity'"
     },
-    "subClasses" : [ "229", "230", "231" ],
+    "subClasses" : [ "208", "209", "210" ],
     "attributes" : [ "external" ],
-    "id" : "86",
-    "superClasses" : [ "88", "70" ]
+    "id" : "91",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyArrestedBiologicalProcessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2679,8 +2666,8 @@
       "undefined" : "arrested 'biological_process' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "191",
-    "superClasses" : [ "172", "192" ]
+    "id" : "176",
+    "superClasses" : [ "167", "177" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationActingOnCellsOfType.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2703,30 +2690,30 @@
       "IRI-based" : "abnormalCellProliferationActingOnCellsOfType.yaml",
       "undefined" : "abnormal 'cell' proliferation"
     },
-    "subClasses" : [ "238" ],
+    "subClasses" : [ "219" ],
     "attributes" : [ "external" ],
-    "id" : "155",
-    "superClasses" : [ "15" ]
+    "id" : "132",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedPigmentationOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "increasing of pigment in the 'anatomical entity'",
-        "type" : "label"
-      }, {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "'anatomical entity' hyperpigmentation",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Increased or increasing of pigmentation of 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "'anatomical entity' hyperpigmentation",
+        "type" : "label"
+      }, {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "increasing of pigment in the 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -2741,8 +2728,8 @@
       "undefined" : "increased pigmentation in the 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "230",
-    "superClasses" : [ "86" ]
+    "id" : "209",
+    "superClasses" : [ "91" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/bifurcatedAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
@@ -2772,23 +2759,23 @@
       "undefined" : "bifurcated 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "106",
-    "superClasses" : [ "85" ]
+    "id" : "218",
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "'anatomical entity' with blister",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An abnormally blistered 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "'anatomical entity' with blister",
         "type" : "label"
       } ],
       "title" : [ {
@@ -2803,8 +2790,8 @@
       "undefined" : "abnormally blistered 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "75",
-    "superClasses" : [ "88", "70" ]
+    "id" : "80",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMolecularFunction.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2827,10 +2814,9 @@
       "IRI-based" : "abnormalMolecularFunction.yaml",
       "undefined" : "abnormal 'molecular function'"
     },
-    "subClasses" : [ "214", "248" ],
+    "subClasses" : [ "184", "229" ],
     "attributes" : [ "external" ],
-    "id" : "55",
-    "superClasses" : [ "2" ]
+    "id" : "185"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2859,10 +2845,10 @@
       "IRI-based" : "abnormallyIncreasedLevelOfChemicalEntity.yaml",
       "undefined" : "increased level of 'chemical entity'"
     },
-    "subClasses" : [ "134", "99" ],
+    "subClasses" : [ "124", "103" ],
     "attributes" : [ "external" ],
-    "id" : "31",
-    "superClasses" : [ "26" ]
+    "id" : "33",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRole.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2885,10 +2871,10 @@
       "IRI-based" : "abnormallyDecreasedLevelOfChemicalEntityWithRole.yaml",
       "undefined" : "decreased role level"
     },
-    "subClasses" : [ "43" ],
+    "subClasses" : [ "45" ],
     "attributes" : [ "external" ],
-    "id" : "158",
-    "superClasses" : [ "27", "29" ]
+    "id" : "1",
+    "superClasses" : [ "2", "31" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/lesionInAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
@@ -2918,8 +2904,7 @@
       "undefined" : "lesion in 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "65",
-    "superClasses" : [ "2" ]
+    "id" : "230"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCoilingOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -2948,25 +2933,25 @@
       "IRI-based" : "abnormalCoilingOfAnatomicalEntity.yaml",
       "undefined" : "abnormally coiled 'anatomical entity' "
     },
-    "subClasses" : [ "125", "249" ],
+    "subClasses" : [ "118", "231" ],
     "attributes" : [ "external" ],
-    "id" : "126",
-    "superClasses" : [ "85" ]
+    "id" : "119",
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/malformedAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "malformed 'anatomical entity' in 'independent continuant'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An abnormally formed/malformed 'anatomical entity' in 'independent continuant'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "malformed 'anatomical entity' in 'independent continuant'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -2981,8 +2966,8 @@
       "undefined" : "abnormally formed 'anatomical entity' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "83",
-    "superClasses" : [ "88", "70" ]
+    "id" : "88",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3012,8 +2997,8 @@
       "undefined" : "decreased resistance of organism to 'chemical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "121",
-    "superClasses" : [ "122" ]
+    "id" : "192",
+    "superClasses" : [ "165" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3036,25 +3021,25 @@
       "IRI-based" : "abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation.yaml",
       "undefined" : "decreased occurrence of 'biological process' in 'independent continuant'"
     },
-    "subClasses" : [ "191" ],
+    "subClasses" : [ "176" ],
     "attributes" : [ "external" ],
-    "id" : "172",
-    "superClasses" : [ "144", "147" ]
+    "id" : "167",
+    "superClasses" : [ "202", "51" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasExtraPartsOfTypeAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Any structural anomaly that causes there to be extra parts of type 'anatomical entity'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "extra 'anatomical entity's",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any structural anomaly that causes there to be extra parts of type 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -3069,8 +3054,8 @@
       "undefined" : "has extra parts of type 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "260",
-    "superClasses" : [ "39" ]
+    "id" : "147",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/malformedAnatomicalEntityByType.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3094,23 +3079,23 @@
       "undefined" : "'malformed' 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "87",
-    "superClasses" : [ "88", "70" ]
+    "id" : "92",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "fewer 'anatomical entity's in 'anatomical entity', located in 'independent continuant'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Any structural anomaly that causes there to be fewer parts of type 'anatomical entity' in the 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "fewer 'anatomical entity's in 'anatomical entity', located in 'independent continuant'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -3124,10 +3109,10 @@
       "IRI-based" : "abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.yaml",
       "undefined" : "has fewer parts of type 'anatomical entity' in 'anatomical entity', which is located in 'independent continuant'"
     },
-    "subClasses" : [ "224" ],
+    "subClasses" : [ "203" ],
     "attributes" : [ "external" ],
-    "id" : "162",
-    "superClasses" : [ "39" ]
+    "id" : "159",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfChemicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3151,8 +3136,8 @@
       "undefined" : "absent 'chemical entity' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "163",
-    "superClasses" : [ "28", "30" ]
+    "id" : "9",
+    "superClasses" : [ "10", "32" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyFusedAnatomicalEntities.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3182,8 +3167,8 @@
       "undefined" : "abnormally fused 'anatomical entity' and 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "73",
-    "superClasses" : [ "88", "70" ]
+    "id" : "78",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBiologicalProcessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3207,23 +3192,23 @@
       "undefined" : "decreased 'biological_process' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "23",
-    "superClasses" : [ "21", "147" ]
+    "id" : "26",
+    "superClasses" : [ "24", "51" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDegenerationOfCellularComponentInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "degeneration of the 'cellular component' in 'independent continuant'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Partial or complete degeneration of 'cellular component' tissue in the 'independent continuant' that was once present.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "degeneration of the 'cellular component' in 'independent continuant'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -3238,8 +3223,8 @@
       "undefined" : "'cellular component' degeneration in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "189",
-    "superClasses" : [ "142" ]
+    "id" : "196",
+    "superClasses" : [ "128" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFractureOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3269,8 +3254,8 @@
       "undefined" : "fractured 'anatomical entity' "
     },
     "attributes" : [ "external" ],
-    "id" : "80",
-    "superClasses" : [ "88", "70" ]
+    "id" : "85",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3294,8 +3279,8 @@
       "undefined" : "increased occurrence of 'biological process' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "140",
-    "superClasses" : [ "152", "139" ]
+    "id" : "73",
+    "superClasses" : [ "52", "125" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3318,10 +3303,10 @@
       "IRI-based" : "abnormalWeightOfAnatomicalEntity.yaml",
       "undefined" : "abnormality of 'anatomical entity' weight"
     },
-    "subClasses" : [ "215", "198" ],
+    "subClasses" : [ "187", "170" ],
     "attributes" : [ "external" ],
-    "id" : "199",
-    "superClasses" : [ "39" ]
+    "id" : "140",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedVolumeOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3345,13 +3330,19 @@
       "undefined" : "decreased volume of the 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "20",
-    "superClasses" : [ "89", "7" ]
+    "id" : "67",
+    "superClasses" : [ "94", "57" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfCellularComponent.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any anomaly that causes there to be an abnormal number 'cellular component'.",
+        "type" : "label"
+      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
@@ -3361,12 +3352,6 @@
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "altered number of 'cellular component's",
-        "type" : "label"
-      } ],
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Any anomaly that causes there to be an abnormal number 'cellular component'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -3380,10 +3365,41 @@
       "IRI-based" : "abnormalNumberOfCellularComponent.yaml",
       "undefined" : "abnormal number of 'cellular component'"
     },
-    "subClasses" : [ "296", "56" ],
+    "subClasses" : [ "277", "60" ],
     "attributes" : [ "external" ],
-    "id" : "57",
-    "superClasses" : [ "69" ]
+    "id" : "61",
+    "superClasses" : [ "127" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedCoilingOfAnatomicalEntity.yaml",
+    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Abnormally decreased coiling of the 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "abnormal decreased 'anatomical entity' coiling",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "abnormallyDecreasedCoilingOfAnatomicalEntity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "abnormallyDecreasedCoilingOfAnatomicalEntity.yaml",
+      "undefined" : "abnormally decreased coiling of 'anatomical entity' "
+    },
+    "attributes" : [ "external" ],
+    "id" : "231",
+    "superClasses" : [ "119" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellularComponentProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3407,39 +3423,8 @@
       "undefined" : "abnormal 'biological process' involving 'cellular component'"
     },
     "attributes" : [ "external" ],
-    "id" : "154",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedCoilingOfAnatomicalEntity.yaml",
-    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
-    "instances" : 0,
-    "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "abnormal decreased 'anatomical entity' coiling",
-        "type" : "label"
-      } ],
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Abnormally decreased coiling of the 'anatomical entity'.",
-        "type" : "label"
-      } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "undefined",
-        "value" : "abnormallyDecreasedCoilingOfAnatomicalEntity",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "abnormallyDecreasedCoilingOfAnatomicalEntity.yaml",
-      "undefined" : "abnormally decreased coiling of 'anatomical entity' "
-    },
-    "attributes" : [ "external" ],
-    "id" : "249",
-    "superClasses" : [ "126" ]
+    "id" : "131",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationInAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3462,25 +3447,25 @@
       "IRI-based" : "abnormalCellProliferationInAnatomicalEntity.yaml",
       "undefined" : "abnormal cell proliferation in 'anatomical_entity'"
     },
-    "subClasses" : [ "238" ],
+    "subClasses" : [ "219" ],
     "attributes" : [ "external" ],
-    "id" : "219",
-    "superClasses" : [ "152" ]
+    "id" : "75",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "Reduced number of 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "The presence of a reduced number of 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "Reduced number of 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -3495,8 +3480,8 @@
       "undefined" : "Decreased number of 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "123",
-    "superClasses" : [ "94", "95" ]
+    "id" : "116",
+    "superClasses" : [ "98", "99" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyClosedAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3525,10 +3510,10 @@
       "IRI-based" : "abnormallyClosedAnatomicalEntity.yaml",
       "undefined" : "abnormal closing of the 'anatomical entity'"
     },
-    "subClasses" : [ "197" ],
+    "subClasses" : [ "169" ],
     "attributes" : [ "external" ],
-    "id" : "77",
-    "superClasses" : [ "88", "70" ]
+    "id" : "82",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationActingOnCellsOfTypeInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3552,8 +3537,8 @@
       "undefined" : "abnormal 'cell' proliferation in 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "238",
-    "superClasses" : [ "219", "155" ]
+    "id" : "219",
+    "superClasses" : [ "75", "132" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBehavior.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3577,8 +3562,7 @@
       "undefined" : "absent 'behavior process'"
     },
     "attributes" : [ "external" ],
-    "id" : "67",
-    "superClasses" : [ "2" ]
+    "id" : "278"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/abnormallyIncompleteClosureOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
@@ -3608,8 +3592,8 @@
       "undefined" : "abnormal incomplete closing of the 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "221",
-    "superClasses" : [ "78" ]
+    "id" : "198",
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3638,10 +3622,10 @@
       "IRI-based" : "abnormallyIncreasedNumberOfAnatomicalEntityInLocation.yaml",
       "undefined" : "Increased number of 'anatomical entity' in the 'independent continuant'"
     },
-    "subClasses" : [ "96", "97" ],
+    "subClasses" : [ "100", "101" ],
     "attributes" : [ "external" ],
-    "id" : "100",
-    "superClasses" : [ "94", "95" ]
+    "id" : "104",
+    "superClasses" : [ "98", "99" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedFunctionalityOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3665,147 +3649,8 @@
       "undefined" : "'anatomical entity' dysfunction in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "119",
-    "superClasses" : [ "109" ]
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/BFO_0000020",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "instances" : 0,
-    "annotations" : {
-      "BFO_0000180" : [ {
-        "identifier" : "BFO_0000180",
-        "language" : "undefined",
-        "value" : "SpecificallyDependentContinuant",
-        "type" : "label"
-      } ],
-      "IAO_0000112" : [ {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "of one-sided specifically dependent continuants: the mass of this tomato",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the shape of this hole.",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the pink color of a medium rare piece of grilled filet mignon at its center",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the function of this heart: to pump blood",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the mutual dependence of proton donors and acceptors in chemical reactions [79",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the role of being a doctor",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the smell of this portion of mozzarella",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the disposition of this fish to decay",
-        "type" : "label"
-      } ],
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://purl.obolibrary.org/obo/bfo.owl",
-        "type" : "iri"
-      } ],
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "en",
-        "value" : "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000115",
-        "language" : "en",
-        "value" : "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000115",
-        "language" : "en",
-        "value" : "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])",
-        "type" : "label"
-      } ],
-      "IAO_0000116" : [ {
-        "identifier" : "IAO_0000116",
-        "language" : "en",
-        "value" : "Specifically dependent continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. We're not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.",
-        "type" : "label"
-      } ],
-      "BFO_0000179" : [ {
-        "identifier" : "BFO_0000179",
-        "language" : "undefined",
-        "value" : "sdc",
-        "type" : "label"
-      } ],
-      "IAO_0000602" : [ {
-        "identifier" : "IAO_0000602",
-        "language" : "undefined",
-        "value" : "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] ",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000602",
-        "language" : "undefined",
-        "value" : "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] ",
-        "type" : "label"
-      } ],
-      "IAO_0010000" : [ {
-        "identifier" : "IAO_0010000",
-        "language" : "undefined",
-        "value" : "http://purl.obolibrary.org/obo/bfo/axiom/0000005",
-        "type" : "iri"
-      }, {
-        "identifier" : "IAO_0010000",
-        "language" : "undefined",
-        "value" : "http://purl.obolibrary.org/obo/bfo/axiom/131-004",
-        "type" : "iri"
-      }, {
-        "identifier" : "IAO_0010000",
-        "language" : "undefined",
-        "value" : "http://purl.obolibrary.org/obo/bfo/axiom/050-003",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "BFO_0000020",
-      "en" : "specifically dependent continuant"
-    },
-    "subClasses" : [ "53", "55", "26", "15", "61", "63", "65", "67", "69", "49", "51", "1", "4" ],
-    "comment" : {
-      "undefined" : "per discussion with Barry Smith"
-    },
-    "attributes" : [ "external" ],
-    "id" : "2"
+    "id" : "190",
+    "superClasses" : [ "145" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfMolecularFunction.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3829,8 +3674,8 @@
       "undefined" : "increased 'molecular function'"
     },
     "attributes" : [ "external" ],
-    "id" : "248",
-    "superClasses" : [ "55" ]
+    "id" : "229",
+    "superClasses" : [ "185" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3853,10 +3698,10 @@
       "IRI-based" : "abnormalBiologicalProcessInLocation.yaml",
       "undefined" : "abnormal 'biological process' in 'independent continuant'"
     },
-    "subClasses" : [ "208", "140", "219", "147" ],
+    "subClasses" : [ "71", "73", "75", "51" ],
     "attributes" : [ "external" ],
-    "id" : "152",
-    "superClasses" : [ "15" ]
+    "id" : "52",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3879,10 +3724,10 @@
       "IRI-based" : "abnormallyDecreasedLevelOfChemicalEntity.yaml",
       "undefined" : "decreased level of 'chemical entity'"
     },
-    "subClasses" : [ "92", "158" ],
+    "subClasses" : [ "54", "1" ],
     "attributes" : [ "external" ],
-    "id" : "27",
-    "superClasses" : [ "26" ]
+    "id" : "2",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPositionOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3905,10 +3750,10 @@
       "IRI-based" : "abnormalPositionOfAnatomicalEntityInLocation.yaml",
       "undefined" : "abnormal 'anatomical entity' topology in 'independent continuant'"
     },
-    "subClasses" : [ "210", "165" ],
+    "subClasses" : [ "4", "7" ],
     "attributes" : [ "external" ],
-    "id" : "167",
-    "superClasses" : [ "39" ]
+    "id" : "5",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3932,8 +3777,8 @@
       "undefined" : "absent 'biological process' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "174",
-    "superClasses" : [ "53" ]
+    "id" : "14",
+    "superClasses" : [ "15" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWidthOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3963,8 +3808,8 @@
       "undefined" : "decreased width of the 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "6",
-    "superClasses" : [ "89", "7" ]
+    "id" : "56",
+    "superClasses" : [ "94", "57" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLengthOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -3989,22 +3834,22 @@
     },
     "attributes" : [ "external" ],
     "id" : "110",
-    "superClasses" : [ "46", "47" ]
+    "superClasses" : [ "48", "49" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyApoptoticAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "'anatomical entity' with apoptosis",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An abnormally apoptotic 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "'anatomical entity' with apoptosis",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4019,8 +3864,8 @@
       "undefined" : "abnormally apoptotic 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "76",
-    "superClasses" : [ "88", "70" ]
+    "id" : "81",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4043,10 +3888,9 @@
       "IRI-based" : "abnormalBehavior.yaml",
       "undefined" : "abnormal 'behavior process'"
     },
-    "subClasses" : [ "201", "181" ],
+    "subClasses" : [ "19", "23" ],
     "attributes" : [ "external" ],
-    "id" : "61",
-    "superClasses" : [ "2" ]
+    "id" : "20"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConcentrationOfChemicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4070,23 +3914,23 @@
       "undefined" : "abnormal chemical concentration in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "102",
-    "superClasses" : [ "49" ]
+    "id" : "106",
+    "superClasses" : [ "107" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "abnormality of 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Abnormality of 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "abnormality of 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4100,10 +3944,9 @@
       "IRI-based" : "abnormalAnatomicalEntity.yaml",
       "undefined" : "abnormal 'anatomical entity'"
     },
-    "subClasses" : [ "71", "180", "39" ],
+    "subClasses" : [ "28", "153", "41" ],
     "attributes" : [ "external" ],
-    "id" : "63",
-    "superClasses" : [ "2" ]
+    "id" : "29"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfPigmentationOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4112,12 +3955,12 @@
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
-        "value" : "complete loss of pigmentation in the 'anatomical entity'",
+        "value" : "absence of pigment in the 'anatomical entity'",
         "type" : "label"
       }, {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
-        "value" : "absence of pigment in the 'anatomical entity'",
+        "value" : "complete loss of pigmentation in the 'anatomical entity'",
         "type" : "label"
       } ],
       "IAO_0000115" : [ {
@@ -4138,23 +3981,23 @@
       "undefined" : "unpigmented 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "229",
-    "superClasses" : [ "86" ]
+    "id" : "208",
+    "superClasses" : [ "91" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWidthOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "skinny 'anatomical entity' in 'independent continuant'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "skinny or decreased width of the 'anatomical entity' in 'independent continuant'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "skinny 'anatomical entity' in 'independent continuant'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4169,23 +4012,23 @@
       "undefined" : "decreased width of the 'anatomical entity' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "13",
-    "superClasses" : [ "89", "7" ]
+    "id" : "63",
+    "superClasses" : [ "94", "57" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedHeightOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "higher 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An increase in the height of the 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "higher 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4201,22 +4044,22 @@
     },
     "attributes" : [ "external" ],
     "id" : "113",
-    "superClasses" : [ "46", "47" ]
+    "superClasses" : [ "48", "49" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDegenerationOfCellularComponent.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Partial or complete degeneration of 'cellular component'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "degeneration of the 'cellular component'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Partial or complete degeneration of 'cellular component'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4230,10 +4073,10 @@
       "IRI-based" : "abnormalDegenerationOfCellularComponent.yaml",
       "undefined" : "'cellular component' degeneration"
     },
-    "subClasses" : [ "189" ],
+    "subClasses" : [ "196" ],
     "attributes" : [ "external" ],
-    "id" : "142",
-    "superClasses" : [ "138" ]
+    "id" : "128",
+    "superClasses" : [ "126" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyArrestedBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4256,37 +4099,10 @@
       "IRI-based" : "abnormallyArrestedBiologicalProcess.yaml",
       "undefined" : "arrested 'biological_process'"
     },
-    "subClasses" : [ "191" ],
+    "subClasses" : [ "176" ],
     "attributes" : [ "external" ],
-    "id" : "192",
-    "superClasses" : [ "144" ]
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/BFO_0000019",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "instances" : 0,
-    "annotations" : {
-      "hasOBONamespace" : [ {
-        "identifier" : "hasOBONamespace",
-        "language" : "undefined",
-        "value" : "bfo",
-        "type" : "label"
-      } ],
-      "id" : [ {
-        "identifier" : "id",
-        "language" : "undefined",
-        "value" : "BFO:0000019",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "BFO_0000019",
-      "en" : "quality",
-      "undefined" : "quality"
-    },
-    "subClasses" : [ "138", "71", "196" ],
-    "attributes" : [ "external" ],
-    "id" : "1",
-    "superClasses" : [ "2" ]
+    "id" : "177",
+    "superClasses" : [ "202" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedFunctionalityOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4310,23 +4126,23 @@
       "undefined" : "'anatomical entity' hyperactivity in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "117",
-    "superClasses" : [ "109" ]
+    "id" : "189",
+    "superClasses" : [ "145" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "thickened 'anatomical entity' in 'independent continuant'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An increase in the thickness of the 'anatomical entity' in the 'independent continuant'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "thickened 'anatomical entity' in 'independent continuant'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4342,7 +4158,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "112",
-    "superClasses" : [ "46", "47" ]
+    "superClasses" : [ "48", "49" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/abnormalLevelOfChemicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns",
@@ -4365,10 +4181,10 @@
       "IRI-based" : "abnormalLevelOfChemicalEntityInLocation.yaml",
       "undefined" : "abnormal 'independent continuant' 'chemical entity' level"
     },
-    "subClasses" : [ "41", "134", "163", "92" ],
+    "subClasses" : [ "43", "124", "9", "54" ],
     "attributes" : [ "external" ],
-    "id" : "30",
-    "superClasses" : [ "26" ]
+    "id" : "32",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLengthOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4398,8 +4214,8 @@
       "undefined" : "decreased length of 'anatomical entity' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "25",
-    "superClasses" : [ "89", "7" ]
+    "id" : "69",
+    "superClasses" : [ "94", "57" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedFunctionalityOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4423,13 +4239,19 @@
       "undefined" : "abnormally decreased functionality of the 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "108",
-    "superClasses" : [ "109" ]
+    "id" : "188",
+    "superClasses" : [ "145" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDuplicatedAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any abnormal duplication of the 'anatomical entity'.",
+        "type" : "label"
+      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
@@ -4439,12 +4261,6 @@
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "abnormal duplication of 'anatomical entity'",
-        "type" : "label"
-      } ],
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Any abnormal duplication of the 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4459,13 +4275,19 @@
       "undefined" : "abnormal duplication of 'anatomical entity' "
     },
     "attributes" : [ "external" ],
-    "id" : "96",
-    "superClasses" : [ "93", "100" ]
+    "id" : "100",
+    "superClasses" : [ "97", "104" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Any structural anomaly that causes there to be an abnormal number 'anatomical entity'.",
+        "type" : "label"
+      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
@@ -4475,12 +4297,6 @@
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "abnormal number of 'anatomical entity's",
-        "type" : "label"
-      } ],
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Any structural anomaly that causes there to be an abnormal number 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4494,10 +4310,10 @@
       "IRI-based" : "abnormalNumberOfAnatomicalEntity.yaml",
       "undefined" : "abnormal number of anatomical enitites of type 'anatomical entity'"
     },
-    "subClasses" : [ "33", "35", "93", "123", "100", "124" ],
+    "subClasses" : [ "35", "37", "97", "116", "104", "117" ],
     "attributes" : [ "external" ],
-    "id" : "95",
-    "superClasses" : [ "39" ]
+    "id" : "99",
+    "superClasses" : [ "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyProtrudingAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4527,8 +4343,8 @@
       "undefined" : "abnormal protrusion of 'anatomical entity' through 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "210",
-    "superClasses" : [ "166", "167" ]
+    "id" : "4",
+    "superClasses" : [ "138", "5" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedQualityOfBiologicalProcessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4551,10 +4367,10 @@
       "IRI-based" : "abnormallyDecreasedQualityOfBiologicalProcessInLocation.yaml",
       "undefined" : "decreased qualitatively 'biological process' in 'independent continuant'"
     },
-    "subClasses" : [ "23", "172" ],
+    "subClasses" : [ "26", "167" ],
     "attributes" : [ "external" ],
-    "id" : "147",
-    "superClasses" : [ "152", "22" ]
+    "id" : "51",
+    "superClasses" : [ "52", "25" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityWithRole.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4577,25 +4393,25 @@
       "IRI-based" : "abnormalLevelOfChemicalEntityWithRole.yaml",
       "undefined" : "abnormal role level"
     },
-    "subClasses" : [ "41", "99", "158" ],
+    "subClasses" : [ "43", "103", "1" ],
     "attributes" : [ "external" ],
-    "id" : "29",
-    "superClasses" : [ "26" ]
+    "id" : "31",
+    "superClasses" : [ "30" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAnatomicalEntityNotParts.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Abnormality of 'anatomical entity'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "abnormality of 'anatomical entity'",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Abnormality of 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4609,10 +4425,10 @@
       "IRI-based" : "abnormalAnatomicalEntityNotParts.yaml",
       "undefined" : "abnormal 'anatomical entity'"
     },
-    "subClasses" : [ "160", "162", "131", "166", "70", "11", "94", "88", "199", "95", "38", "167", "109", "260" ],
+    "subClasses" : [ "157", "159", "122", "138", "76", "12", "98", "93", "140", "99", "40", "5", "145", "147" ],
     "attributes" : [ "external" ],
-    "id" : "39",
-    "superClasses" : [ "63" ]
+    "id" : "41",
+    "superClasses" : [ "29" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfPhysicalEntity",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4641,25 +4457,24 @@
       "IRI-based" : "abnormalShapeOfPhysicalEntity",
       "undefined" : "abnormal shape of 'entity' "
     },
-    "subClasses" : [ "85" ],
+    "subClasses" : [ "90" ],
     "attributes" : [ "external" ],
-    "id" : "196",
-    "superClasses" : [ "1" ]
+    "id" : "134"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyCurvedAnatomicalEntityByOrientation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "'curved' 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Any abnormal 'anatomical entity' that is 'curved'ly.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "'curved' 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4674,23 +4489,23 @@
       "undefined" : "abnormal 'anatomical entity', 'curved' "
     },
     "attributes" : [ "external" ],
-    "id" : "150",
-    "superClasses" : [ "85" ]
+    "id" : "213",
+    "superClasses" : [ "90" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/calcifiedAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "calcified 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Calcification of the 'anatomical entity'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "calcified 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4705,8 +4520,8 @@
       "undefined" : "'anatomical entity' calcification"
     },
     "attributes" : [ "external" ],
-    "id" : "74",
-    "superClasses" : [ "88", "70" ]
+    "id" : "79",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedThicknessOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4737,18 +4552,12 @@
     },
     "attributes" : [ "external" ],
     "id" : "111",
-    "superClasses" : [ "46", "47" ]
+    "superClasses" : [ "48", "49" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedPigmentationOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "undefined",
-        "value" : "Decreased or loss of pigmentation of 'anatomical entity'.",
-        "type" : "label"
-      } ],
       "hasExactSynonym" : [ {
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
@@ -4758,6 +4567,12 @@
         "identifier" : "hasExactSynonym",
         "language" : "undefined",
         "value" : "'anatomical entity' hypopigmentation",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "Decreased or loss of pigmentation of 'anatomical entity'.",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4772,8 +4587,8 @@
       "undefined" : "decreased pigmentation in the 'anatomical entity'"
     },
     "attributes" : [ "external" ],
-    "id" : "231",
-    "superClasses" : [ "86" ]
+    "id" : "210",
+    "superClasses" : [ "91" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfCellularComponent.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4803,8 +4618,8 @@
       "undefined" : "Increased number of 'cellular component'"
     },
     "attributes" : [ "external" ],
-    "id" : "296",
-    "superClasses" : [ "57" ]
+    "id" : "277",
+    "superClasses" : [ "61" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4833,25 +4648,25 @@
       "IRI-based" : "abnormallyDecreasedSizeOfAnatomicalEntityInLocation.yaml",
       "undefined" : "decreased size of the 'anatomical entity' in the 'independent continuant'"
     },
-    "subClasses" : [ "6", "9", "13", "17", "20", "25" ],
+    "subClasses" : [ "56", "59", "63", "65", "67", "69" ],
     "attributes" : [ "external" ],
-    "id" : "89",
-    "superClasses" : [ "82" ]
+    "id" : "94",
+    "superClasses" : [ "87" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "abnormal morphology of 'anatomical entity'",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "Any unspecified morphological anomaly of the 'anatomical entity', such as, for example, abnormal shape or colour.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "abnormal morphology of 'anatomical entity'",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4865,10 +4680,10 @@
       "IRI-based" : "abnormalMorphologyOfAnatomicalEntity.yaml",
       "undefined" : "abnormal 'anatomical entity' morphology"
     },
-    "subClasses" : [ "72", "73", "74", "34", "75", "76", "36", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87" ],
+    "subClasses" : [ "77", "78", "79", "36", "80", "81", "38", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92" ],
     "attributes" : [ "external" ],
-    "id" : "88",
-    "superClasses" : [ "71", "39" ]
+    "id" : "93",
+    "superClasses" : [ "28", "41" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcessInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4892,23 +4707,23 @@
       "undefined" : "increased 'biological process' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "208",
-    "superClasses" : [ "151", "152" ]
+    "id" : "71",
+    "superClasses" : [ "129", "52" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyApoptoticAnatomicalEntityInLocation.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "'independent continuant' 'anatomical entity' with apoptosis",
-        "type" : "label"
-      } ],
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
         "language" : "undefined",
         "value" : "An abnormally apoptotic 'anatomical entity' in 'independent continuant'.",
+        "type" : "label"
+      } ],
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "'independent continuant' 'anatomical entity' with apoptosis",
         "type" : "label"
       } ],
       "title" : [ {
@@ -4923,8 +4738,8 @@
       "undefined" : "abnormally apoptotic 'anatomical entity' in 'independent continuant'"
     },
     "attributes" : [ "external" ],
-    "id" : "84",
-    "superClasses" : [ "88", "70" ]
+    "id" : "89",
+    "superClasses" : [ "93", "76" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedQualityOfBiologicalProcess.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4947,10 +4762,10 @@
       "IRI-based" : "abnormallyDecreasedQualityOfBiologicalProcess.yaml",
       "undefined" : "decreased qualitatively 'biological process'"
     },
-    "subClasses" : [ "144", "21", "147" ],
+    "subClasses" : [ "202", "24", "51" ],
     "attributes" : [ "external" ],
-    "id" : "22",
-    "superClasses" : [ "15" ]
+    "id" : "25",
+    "superClasses" : [ "17" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfAnatomicalEntityByShapeType.yaml",
     "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
@@ -4979,10 +4794,10 @@
       "IRI-based" : "abnormalShapeOfAnatomicalEntityByShapeType.yaml",
       "undefined" : "'shape' 'anatomical entity'"
     },
-    "subClasses" : [ "126", "150", "128", "106" ],
+    "subClasses" : [ "119", "213", "200", "218" ],
     "attributes" : [ "external" ],
-    "id" : "85",
-    "superClasses" : [ "88", "70", "196" ]
+    "id" : "90",
+    "superClasses" : [ "93", "76", "134" ]
   } ],
   "property" : [ {
     "id" : "0",
@@ -4991,43 +4806,34 @@
     "id" : "3",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "5",
+    "id" : "6",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "8",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "12",
+    "id" : "13",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "16",
+    "id" : "18",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "19",
+    "id" : "22",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "24",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "48",
+    "id" : "27",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "50",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "52",
+    "id" : "53",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "54",
+    "id" : "55",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "58",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "59",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "60",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "62",
@@ -5042,37 +4848,25 @@
     "id" : "68",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "98",
+    "id" : "70",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "101",
+    "id" : "72",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "103",
+    "id" : "74",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "104",
+    "id" : "102",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "105",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "107",
+    "id" : "108",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "116",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "118",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "120",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "127",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "129",
+    "id" : "109",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "133",
@@ -5081,16 +4875,25 @@
     "id" : "135",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "141",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "143",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "145",
+    "id" : "144",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "146",
@@ -5102,43 +4905,61 @@
     "id" : "149",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "156",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "157",
+    "id" : "158",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "159",
+    "id" : "160",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "161",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "168",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "169",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "170",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "173",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "175",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "176",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "177",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "178",
@@ -5147,28 +4968,16 @@
     "id" : "179",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "182",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "183",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "184",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "185",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "186",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "187",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "188",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "190",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "193",
@@ -5180,13 +4989,13 @@
     "id" : "195",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "200",
+    "id" : "197",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "202",
+    "id" : "199",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "203",
+    "id" : "201",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "204",
@@ -5201,16 +5010,16 @@
     "id" : "207",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "209",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "211",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "212",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "213",
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "216",
@@ -5219,16 +5028,19 @@
     "id" : "217",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "218",
+    "id" : "220",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "220",
+    "id" : "221",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "222",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "225",
@@ -5261,6 +5073,9 @@
     "id" : "237",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "239",
     "type" : "rdfs:SubClassOf"
   }, {
@@ -5286,6 +5101,12 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "250",
@@ -5316,6 +5137,9 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "261",
@@ -5364,12 +5188,6 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "276",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "277",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "278",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "279",
@@ -5421,6 +5239,9 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "295",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "296",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "297",
@@ -5578,1140 +5399,1006 @@
   }, {
     "id" : "348",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "349",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "350",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "351",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "352",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "353",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "354",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "355",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "356",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "357",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "358",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "359",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "360",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "361",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "362",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "363",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "364",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "365",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "366",
-    "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
-    "range" : "2",
+    "range" : "5",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "3"
   }, {
-    "range" : "7",
-    "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "5"
-  }, {
-    "range" : "7",
-    "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "8"
-  }, {
-    "range" : "7",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "12"
-  }, {
-    "range" : "7",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "16"
-  }, {
-    "range" : "7",
-    "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "19"
-  }, {
-    "range" : "7",
-    "domain" : "25",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "24"
-  }, {
-    "range" : "2",
-    "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "48"
-  }, {
-    "range" : "2",
-    "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "50"
-  }, {
-    "range" : "2",
-    "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "52"
-  }, {
-    "range" : "2",
-    "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "54"
-  }, {
-    "range" : "2",
-    "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "58"
-  }, {
-    "range" : "2",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "59"
-  }, {
-    "range" : "2",
-    "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "60"
-  }, {
-    "range" : "2",
-    "domain" : "63",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "62"
-  }, {
-    "range" : "2",
-    "domain" : "65",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "64"
-  }, {
-    "range" : "2",
-    "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "66"
-  }, {
-    "range" : "2",
-    "domain" : "69",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "68"
-  }, {
-    "range" : "99",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "98"
-  }, {
-    "range" : "49",
-    "domain" : "102",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "101"
-  }, {
-    "range" : "100",
-    "domain" : "96",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "103"
-  }, {
-    "range" : "100",
-    "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "104"
-  }, {
-    "range" : "85",
-    "domain" : "106",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "105"
-  }, {
-    "range" : "109",
-    "domain" : "108",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "107"
-  }, {
-    "range" : "109",
-    "domain" : "117",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "116"
-  }, {
-    "range" : "109",
-    "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "118"
-  }, {
-    "range" : "122",
-    "domain" : "121",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "120"
-  }, {
-    "range" : "85",
-    "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "127"
-  }, {
-    "range" : "88",
-    "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "129"
-  }, {
-    "range" : "88",
-    "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "133"
-  }, {
-    "range" : "69",
-    "domain" : "136",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "135"
-  }, {
-    "range" : "69",
-    "domain" : "138",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "137"
-  }, {
-    "range" : "69",
-    "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "141"
-  }, {
-    "range" : "22",
-    "domain" : "144",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "143"
-  }, {
-    "range" : "22",
-    "domain" : "21",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "145"
-  }, {
-    "range" : "22",
-    "domain" : "147",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "146"
-  }, {
-    "range" : "85",
-    "domain" : "126",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "148"
-  }, {
-    "range" : "85",
-    "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "149"
-  }, {
-    "range" : "29",
-    "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "156"
-  }, {
-    "range" : "29",
-    "domain" : "158",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "157"
-  }, {
-    "range" : "39",
-    "domain" : "160",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "159"
-  }, {
-    "range" : "39",
-    "domain" : "162",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "161"
-  }, {
-    "range" : "95",
-    "domain" : "123",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "164"
-  }, {
-    "range" : "95",
-    "domain" : "100",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "168"
-  }, {
-    "range" : "95",
-    "domain" : "124",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "169"
-  }, {
-    "range" : "147",
-    "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "170"
-  }, {
-    "range" : "147",
-    "domain" : "172",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "171"
-  }, {
-    "range" : "29",
-    "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "173"
-  }, {
-    "range" : "30",
-    "domain" : "163",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "175"
-  }, {
-    "range" : "30",
-    "domain" : "92",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "176"
-  }, {
-    "range" : "95",
-    "domain" : "33",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "177"
-  }, {
-    "range" : "95",
-    "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "178"
-  }, {
-    "range" : "95",
-    "domain" : "93",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "179"
-  }, {
-    "range" : "131",
-    "domain" : "130",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "182"
-  }, {
-    "range" : "131",
-    "domain" : "122",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "183"
-  }, {
-    "range" : "34",
-    "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "184"
-  }, {
-    "range" : "30",
-    "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "185"
-  }, {
-    "range" : "30",
-    "domain" : "134",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "186"
-  }, {
-    "range" : "63",
-    "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "187"
-  }, {
-    "range" : "142",
-    "domain" : "189",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "188"
-  }, {
-    "range" : "192",
-    "domain" : "191",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "190"
-  }, {
-    "range" : "1",
-    "domain" : "138",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "193"
-  }, {
-    "range" : "1",
-    "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "194"
-  }, {
-    "range" : "1",
-    "domain" : "196",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "195"
-  }, {
-    "range" : "61",
-    "domain" : "201",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "200"
-  }, {
-    "range" : "61",
-    "domain" : "181",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "202"
-  }, {
-    "range" : "63",
-    "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "203"
-  }, {
-    "range" : "63",
-    "domain" : "180",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "204"
-  }, {
-    "range" : "152",
-    "domain" : "147",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "205"
-  }, {
-    "range" : "27",
-    "domain" : "92",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "206"
-  }, {
-    "range" : "27",
-    "domain" : "158",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "207"
-  }, {
-    "range" : "167",
-    "domain" : "210",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "209"
-  }, {
-    "range" : "167",
-    "domain" : "165",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "211"
-  }, {
-    "range" : "28",
-    "domain" : "163",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "212"
-  }, {
-    "range" : "53",
-    "domain" : "174",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "213"
-  }, {
-    "range" : "152",
-    "domain" : "208",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "216"
-  }, {
-    "range" : "152",
-    "domain" : "140",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "217"
-  }, {
-    "range" : "152",
-    "domain" : "219",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "218"
-  }, {
-    "range" : "70",
-    "domain" : "79",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "220"
-  }, {
-    "range" : "70",
-    "domain" : "78",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "222"
-  }, {
-    "range" : "70",
-    "domain" : "77",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "223"
-  }, {
-    "range" : "88",
-    "domain" : "36",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "225"
-  }, {
-    "range" : "88",
-    "domain" : "77",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "226"
-  }, {
-    "range" : "70",
-    "domain" : "75",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "227"
-  }, {
-    "range" : "88",
-    "domain" : "78",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "228"
-  }, {
-    "range" : "70",
-    "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "232"
-  }, {
-    "range" : "88",
-    "domain" : "79",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "233"
-  }, {
-    "range" : "70",
-    "domain" : "36",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "234"
-  }, {
-    "range" : "88",
-    "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "235"
-  }, {
-    "range" : "70",
-    "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "236"
-  }, {
-    "range" : "88",
-    "domain" : "81",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "237"
-  }, {
-    "range" : "70",
-    "domain" : "72",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "239"
-  }, {
-    "range" : "88",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "240"
-  }, {
-    "range" : "155",
-    "domain" : "238",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "241"
-  }, {
-    "range" : "88",
-    "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "242"
-  }, {
-    "range" : "70",
-    "domain" : "74",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "243"
-  }, {
-    "range" : "88",
-    "domain" : "84",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "244"
-  }, {
-    "range" : "70",
-    "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "245"
-  }, {
-    "range" : "88",
-    "domain" : "85",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "246"
-  }, {
-    "range" : "88",
-    "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "247"
-  }, {
-    "range" : "86",
-    "domain" : "230",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "250"
-  }, {
-    "range" : "86",
-    "domain" : "229",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "251"
-  }, {
-    "range" : "86",
-    "domain" : "231",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "252"
-  }, {
-    "range" : "89",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "253"
-  }, {
-    "range" : "144",
-    "domain" : "192",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "254"
-  }, {
-    "range" : "89",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "255"
-  }, {
-    "range" : "144",
-    "domain" : "172",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "256"
-  }, {
-    "range" : "89",
-    "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "257"
-  }, {
-    "range" : "38",
-    "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "258"
-  }, {
-    "range" : "89",
-    "domain" : "25",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "259"
-  }, {
-    "range" : "38",
-    "domain" : "44",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "261"
-  }, {
-    "range" : "88",
-    "domain" : "72",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "262"
-  }, {
-    "range" : "41",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "263"
-  }, {
-    "range" : "88",
-    "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "264"
-  }, {
-    "range" : "88",
-    "domain" : "74",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "265"
-  }, {
-    "range" : "33",
-    "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "266"
-  }, {
-    "range" : "88",
-    "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "267"
-  }, {
-    "range" : "41",
-    "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "268"
-  }, {
-    "range" : "88",
-    "domain" : "75",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "269"
-  }, {
-    "range" : "172",
-    "domain" : "191",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "270"
-  }, {
-    "range" : "89",
-    "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "271"
-  }, {
-    "range" : "89",
-    "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "272"
-  }, {
-    "range" : "93",
-    "domain" : "96",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "273"
-  }, {
-    "range" : "92",
-    "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "274"
-  }, {
-    "range" : "82",
-    "domain" : "89",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "275"
-  }, {
-    "range" : "39",
-    "domain" : "109",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "276"
-  }, {
-    "range" : "82",
-    "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "277"
-  }, {
-    "range" : "39",
-    "domain" : "260",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "278"
-  }, {
-    "range" : "82",
+    "range" : "5",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "279"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
   }, {
-    "range" : "196",
-    "domain" : "85",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "280"
-  }, {
-    "range" : "82",
-    "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "281"
-  }, {
-    "range" : "91",
-    "domain" : "90",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "282"
-  }, {
-    "range" : "158",
-    "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "283"
-  }, {
-    "range" : "151",
-    "domain" : "208",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "284"
-  }, {
-    "range" : "31",
-    "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "285"
-  }, {
-    "range" : "166",
-    "domain" : "210",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "286"
-  }, {
-    "range" : "126",
-    "domain" : "249",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "287"
-  }, {
-    "range" : "166",
-    "domain" : "165",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "288"
-  }, {
-    "range" : "126",
-    "domain" : "125",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "289"
-  }, {
-    "range" : "35",
-    "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "290"
-  }, {
-    "range" : "39",
-    "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "291"
-  }, {
-    "range" : "39",
-    "domain" : "38",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "292"
-  }, {
-    "range" : "31",
-    "domain" : "134",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "293"
-  }, {
-    "range" : "39",
-    "domain" : "167",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "294"
-  }, {
-    "range" : "55",
-    "domain" : "248",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "295"
-  }, {
-    "range" : "55",
-    "domain" : "214",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "297"
-  }, {
-    "range" : "70",
-    "domain" : "85",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "298"
-  }, {
-    "range" : "70",
-    "domain" : "84",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "299"
-  }, {
-    "range" : "39",
-    "domain" : "131",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "300"
-  }, {
-    "range" : "70",
-    "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "301"
-  }, {
-    "range" : "39",
-    "domain" : "166",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "302"
-  }, {
-    "range" : "70",
-    "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "303"
-  }, {
-    "range" : "39",
-    "domain" : "70",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "304"
-  }, {
-    "range" : "70",
-    "domain" : "81",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "305"
-  }, {
-    "range" : "39",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "306"
-  }, {
-    "range" : "70",
-    "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "307"
-  }, {
-    "range" : "39",
-    "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "308"
-  }, {
-    "range" : "70",
-    "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "309"
-  }, {
-    "range" : "39",
-    "domain" : "88",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "310"
-  }, {
-    "range" : "70",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "311"
-  }, {
-    "range" : "39",
-    "domain" : "199",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "312"
-  }, {
-    "range" : "47",
-    "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "313"
-  }, {
-    "range" : "47",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "314"
-  }, {
-    "range" : "47",
-    "domain" : "114",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "315"
-  }, {
-    "range" : "47",
-    "domain" : "113",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "316"
-  }, {
-    "range" : "47",
-    "domain" : "110",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "317"
-  }, {
-    "range" : "199",
-    "domain" : "198",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "318"
-  }, {
-    "range" : "199",
-    "domain" : "215",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "319"
-  }, {
-    "range" : "94",
-    "domain" : "123",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "320"
-  }, {
-    "range" : "94",
-    "domain" : "93",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "321"
-  }, {
-    "range" : "94",
-    "domain" : "124",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "322"
-  }, {
-    "range" : "94",
-    "domain" : "100",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "323"
-  }, {
-    "range" : "46",
-    "domain" : "115",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "324"
-  }, {
-    "range" : "46",
-    "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "325"
-  }, {
-    "range" : "94",
-    "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "326"
-  }, {
-    "range" : "94",
-    "domain" : "33",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "327"
-  }, {
-    "range" : "46",
-    "domain" : "113",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "328"
-  }, {
-    "range" : "46",
-    "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "329"
-  }, {
-    "range" : "46",
-    "domain" : "114",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "330"
-  }, {
-    "range" : "162",
-    "domain" : "224",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "331"
-  }, {
-    "range" : "93",
-    "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "332"
-  }, {
-    "range" : "46",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "333"
-  }, {
-    "range" : "46",
-    "domain" : "110",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "334"
-  }, {
-    "range" : "15",
-    "domain" : "154",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "335"
-  }, {
-    "range" : "15",
-    "domain" : "153",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "336"
-  }, {
-    "range" : "77",
-    "domain" : "197",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "337"
-  }, {
-    "range" : "15",
-    "domain" : "155",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "338"
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "8"
   }, {
     "range" : "15",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "339"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
   }, {
-    "range" : "15",
-    "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "340"
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
   }, {
-    "range" : "15",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "341"
-  }, {
-    "range" : "26",
-    "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "342"
-  }, {
-    "range" : "26",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "343"
-  }, {
-    "range" : "26",
-    "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "344"
-  }, {
-    "range" : "26",
-    "domain" : "30",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "345"
-  }, {
-    "range" : "26",
-    "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "346"
-  }, {
-    "range" : "11",
-    "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "347"
-  }, {
-    "range" : "11",
-    "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "348"
-  }, {
-    "range" : "78",
-    "domain" : "221",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "349"
-  }, {
-    "range" : "21",
+    "range" : "20",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "350"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
   }, {
-    "range" : "36",
-    "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "351"
+    "range" : "29",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
   }, {
-    "range" : "15",
-    "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "352"
+    "range" : "52",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
   }, {
-    "range" : "15",
-    "domain" : "151",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "353"
-  }, {
-    "range" : "15",
-    "domain" : "139",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "354"
-  }, {
-    "range" : "15",
-    "domain" : "152",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "355"
-  }, {
-    "range" : "71",
-    "domain" : "88",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "356"
+    "range" : "2",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
   }, {
     "range" : "57",
     "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "357"
-  }, {
-    "range" : "219",
-    "domain" : "238",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "358"
-  }, {
-    "range" : "71",
-    "domain" : "70",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "359"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "55"
   }, {
     "range" : "57",
-    "domain" : "296",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "360"
+    "domain" : "59",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
   }, {
-    "range" : "138",
-    "domain" : "142",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "361"
+    "range" : "57",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
   }, {
-    "range" : "139",
-    "domain" : "140",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "362"
+    "range" : "57",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
   }, {
-    "range" : "47",
-    "domain" : "115",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "363"
+    "range" : "57",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
   }, {
-    "range" : "47",
-    "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "364"
+    "range" : "57",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "52",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "range" : "52",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "52",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "103",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "107",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "104",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "104",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
   }, {
     "range" : "134",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "365"
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
   }, {
-    "range" : "130",
+    "range" : "96",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "129",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "range" : "138",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "41",
+    "domain" : "140",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "41",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "range" : "41",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "41",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "41",
+    "domain" : "147",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "41",
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "range" : "41",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "41",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "41",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "41",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "range" : "31",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "range" : "31",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  }, {
+    "range" : "41",
+    "domain" : "157",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "41",
+    "domain" : "159",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "41",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "99",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "99",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "99",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "163"
+  }, {
+    "range" : "51",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "51",
+    "domain" : "167",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "166"
+  }, {
+    "range" : "31",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "range" : "32",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
+  }, {
+    "range" : "99",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "172"
+  }, {
+    "range" : "99",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "range" : "99",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "177",
+    "domain" : "176",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "122",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "122",
+    "domain" : "165",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "36",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "range" : "32",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "32",
+    "domain" : "124",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "32",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "29",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "range" : "29",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "128",
+    "domain" : "196",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "195"
+  }, {
+    "range" : "76",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "76",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "range" : "76",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "25",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "76",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "90",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "76",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "range" : "90",
+    "domain" : "213",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
+  }, {
+    "range" : "76",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "214"
+  }, {
+    "range" : "90",
+    "domain" : "200",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "215"
+  }, {
+    "range" : "76",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
+  }, {
+    "range" : "90",
+    "domain" : "218",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "range" : "76",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "145",
+    "domain" : "188",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
+  }, {
+    "range" : "132",
+    "domain" : "219",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "222"
+  }, {
+    "range" : "145",
+    "domain" : "189",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "76",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "range" : "145",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "225"
+  }, {
+    "range" : "76",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "226"
+  }, {
+    "range" : "165",
+    "domain" : "192",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "227"
+  }, {
+    "range" : "25",
+    "domain" : "202",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
+  }, {
+    "range" : "91",
+    "domain" : "209",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
+  }, {
+    "range" : "91",
+    "domain" : "208",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "233"
+  }, {
+    "range" : "91",
+    "domain" : "210",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "234"
+  }, {
+    "range" : "93",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "235"
+  }, {
+    "range" : "202",
+    "domain" : "177",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "range" : "93",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "202",
+    "domain" : "167",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
+  }, {
+    "range" : "93",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
+  }, {
+    "range" : "40",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "range" : "93",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "range" : "40",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "242"
+  }, {
+    "range" : "93",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "range" : "43",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "244"
+  }, {
+    "range" : "93",
+    "domain" : "92",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "127",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "127",
+    "domain" : "126",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "43",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "range" : "127",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "250"
+  }, {
+    "range" : "167",
+    "domain" : "176",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "range" : "93",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "252"
+  }, {
+    "range" : "93",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "253"
+  }, {
+    "range" : "97",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "254"
+  }, {
+    "range" : "54",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "255"
+  }, {
+    "range" : "87",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "256"
+  }, {
+    "range" : "93",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "257"
+  }, {
+    "range" : "87",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "93",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "range" : "87",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "260"
+  }, {
+    "range" : "93",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "87",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "93",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "range" : "1",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "range" : "93",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "265"
+  }, {
+    "range" : "33",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "266"
+  }, {
+    "range" : "93",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "range" : "119",
+    "domain" : "231",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "93",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "range" : "119",
+    "domain" : "118",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "range" : "93",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "271"
+  }, {
+    "range" : "94",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "272"
+  }, {
+    "range" : "93",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  }, {
+    "range" : "33",
+    "domain" : "124",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "274"
+  }, {
+    "range" : "93",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "275"
+  }, {
+    "range" : "185",
+    "domain" : "229",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "276"
+  }, {
+    "range" : "185",
+    "domain" : "184",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "279"
+  }, {
+    "range" : "76",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "range" : "76",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "281"
+  }, {
+    "range" : "138",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "282"
+  }, {
+    "range" : "76",
+    "domain" : "92",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "283"
+  }, {
+    "range" : "37",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
+  }, {
+    "range" : "76",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "285"
+  }, {
+    "range" : "94",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "range" : "76",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "287"
+  }, {
+    "range" : "94",
+    "domain" : "59",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "288"
+  }, {
+    "range" : "76",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "range" : "94",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "290"
+  }, {
+    "range" : "76",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "291"
+  }, {
+    "range" : "94",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "292"
+  }, {
+    "range" : "76",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "293"
+  }, {
+    "range" : "94",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "294"
+  }, {
+    "range" : "49",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "295"
+  }, {
+    "range" : "49",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "296"
+  }, {
+    "range" : "49",
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "297"
+  }, {
+    "range" : "49",
+    "domain" : "113",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "298"
+  }, {
+    "range" : "49",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "299"
+  }, {
+    "range" : "140",
+    "domain" : "170",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "300"
+  }, {
+    "range" : "140",
+    "domain" : "187",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "301"
+  }, {
+    "range" : "98",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "302"
+  }, {
+    "range" : "98",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "303"
+  }, {
+    "range" : "98",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "304"
+  }, {
+    "range" : "98",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "305"
+  }, {
+    "range" : "48",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "306"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "307"
+  }, {
+    "range" : "98",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "308"
+  }, {
+    "range" : "98",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "309"
+  }, {
+    "range" : "48",
+    "domain" : "113",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "310"
+  }, {
+    "range" : "48",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "311"
+  }, {
+    "range" : "48",
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "312"
+  }, {
+    "range" : "159",
+    "domain" : "203",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "313"
+  }, {
+    "range" : "97",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "314"
+  }, {
+    "range" : "48",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "315"
+  }, {
+    "range" : "48",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "316"
+  }, {
+    "range" : "17",
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "317"
+  }, {
+    "range" : "17",
+    "domain" : "130",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "318"
+  }, {
+    "range" : "82",
+    "domain" : "169",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "319"
+  }, {
+    "range" : "17",
     "domain" : "132",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "366"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "320"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "321"
+  }, {
+    "range" : "17",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "322"
+  }, {
+    "range" : "17",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "323"
+  }, {
+    "range" : "30",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "324"
+  }, {
+    "range" : "30",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "325"
+  }, {
+    "range" : "30",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "326"
+  }, {
+    "range" : "30",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "327"
+  }, {
+    "range" : "30",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "328"
+  }, {
+    "range" : "83",
+    "domain" : "198",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "329"
+  }, {
+    "range" : "12",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "330"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "331"
+  }, {
+    "range" : "24",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "332"
+  }, {
+    "range" : "38",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "333"
+  }, {
+    "range" : "17",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "334"
+  }, {
+    "range" : "17",
+    "domain" : "129",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "335"
+  }, {
+    "range" : "17",
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "336"
+  }, {
+    "range" : "17",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "337"
+  }, {
+    "range" : "28",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "338"
+  }, {
+    "range" : "61",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "339"
+  }, {
+    "range" : "75",
+    "domain" : "219",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "340"
+  }, {
+    "range" : "28",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "341"
+  }, {
+    "range" : "61",
+    "domain" : "277",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "342"
+  }, {
+    "range" : "126",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "343"
+  }, {
+    "range" : "125",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "344"
+  }, {
+    "range" : "49",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "345"
+  }, {
+    "range" : "49",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "346"
+  }, {
+    "range" : "124",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "347"
+  }, {
+    "range" : "121",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "348"
   } ]
 }

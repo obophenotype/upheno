@@ -3343,7 +3343,6 @@ MH: sexual subtypes should probably be logically defined based on sexual process
     <!-- http://purl.obolibrary.org/obo/CARO_0001000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0001000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001008"/>
         <rdfs:subClassOf>
             <owl:Class>

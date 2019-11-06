@@ -74,12 +74,12 @@ mirror/uberon-bridge-to-caro.owl:
 	$(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl -o $@
 .PRECIOUS: mirror/uberon-bridge-to-caro.owl
 
-../patterns/pattern.owl: $(PATTERN_IMPORTS_OWL)
-	$(ROBOT) merge $(addprefix -i , $(PATTERN_IMPORTS_OWL)) reason -r Hermit annotate --ontology-iri $(OBO)/$(ONT)/patterns/pattern.owl -o $@
+../patterns/pattern.owl: #$(PATTERN_IMPORTS_OWL)
+	$(ROBOT) merge $(addprefix -i , $(PATTERN_IMPORTS_OWL)) reason -r Hermit reduce -r Hermit annotate --ontology-iri $(OBO)/$(ONT)/patterns/pattern.owl -o $@
 
 pattern_ontology: #../patterns/pattern.owl
 	$(ROBOT) merge -i ../patterns/pattern.owl \
-	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self parents annotations" --signature true --trim true -o ../patterns/pattern-simple.owl
+	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self annotations" --signature true --trim true -o ../patterns/pattern-simple.owl
 	
 ../patterns/dosdp-dev/README.md: .FORCE
 	python ../scripts/patterns_create_overview.py ../patterns/dosdp-dev $@

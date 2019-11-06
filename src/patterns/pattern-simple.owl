@@ -24,45 +24,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000"/>
     
 
 
@@ -78,18 +42,6 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -98,77 +50,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bfo</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000019</oboInOwl:id>
-        <rdfs:label xml:lang="en">quality</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
-        <obo:BFO_0000179>sdc</obo:BFO_0000179>
-        <obo:BFO_0000180>SpecificallyDependentContinuant</obo:BFO_0000180>
-        <obo:IAO_0000112 xml:lang="en">Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">of one-sided specifically dependent continuants: the mass of this tomato</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the disposition of this fish to decay</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the function of this heart: to pump blood</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the mutual dependence of proton donors and acceptors in chemical reactions [79</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the pink color of a medium rare piece of grilled filet mignon at its center</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the role of being a doctor</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the shape of this hole.</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the smell of this portion of mozzarella</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</obo:IAO_0000116>
-        <obo:IAO_0000602>(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] </obo:IAO_0000602>
-        <obo:IAO_0000602>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </obo:IAO_0000602>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/131-004"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/050-003"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
-        <owl:annotatedTarget xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000005"/>
-        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/131-004"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/050-003"/>
-    </owl:Axiom>
     
 
 
@@ -216,7 +97,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBehavior.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBehavior.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absence of &apos;behavior process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalAbsenceOfBehavior</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent &apos;behavior process&apos;</rdfs:label>
@@ -227,7 +107,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcess.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcess.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lack of &apos;biological process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalAbsenceOfBiologicalProcess</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent &apos;biological process&apos;</rdfs:label>
@@ -272,7 +151,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfMolecularFunction.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfMolecularFunction.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absent or undetectable level of &apos;molecular function&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalAbsenceOfMolecularFunction</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent &apos;molecular function&apos;</rdfs:label>
@@ -308,7 +186,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anomaly in &apos;behavior process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalBehavior</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal &apos;behavior process&apos;</rdfs:label>
@@ -319,7 +196,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalBiologicalProcess</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal &apos;biological_process&apos;</rdfs:label>
@@ -409,7 +285,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConcentrationOfChemicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConcentrationOfChemicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal concentration of chemical.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalConcentrationOfChemicalEntity</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal chemical concentration</rdfs:label>
@@ -598,7 +473,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMolecularFunction.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMolecularFunction.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal &apos;molecular function&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalMolecularFunction</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal &apos;molecular function&apos;</rdfs:label>
@@ -635,7 +509,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfCellularComponent.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfCellularComponent.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns/abnormalCellularComponent.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly of the &apos;cellular component&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalMorphologyOfCellularComponent</terms:title>
@@ -648,7 +521,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfPartOfAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfPartOfAnatomicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any unspecified morphological anomaly of part of the &apos;anatomical entity&apos;, such as, for example, abnormal shape or colour.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalMorphologyOfPartOfAnatomicalEntity</terms:title>
@@ -759,7 +631,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfPhysicalEntity -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfPhysicalEntity">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly in the shape of the &apos;entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalShapeOfPhysicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally shaped &apos;entity&apos;</oboInOwl:hasExactSynonym>
@@ -1792,7 +1663,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/fibroticAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/fibroticAnatomicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of excessive fibrous connective tissue in the &apos;anatomical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroticAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibrosis of the &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
@@ -1855,7 +1725,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of &apos;anatomical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormality of &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
@@ -1867,7 +1736,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns/abnormalCellularComponent.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/abnormalCellularComponent.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of &apos;cellular component&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalCellularComponent</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormality of &apos;cellular component&apos;</oboInOwl:hasExactSynonym>
@@ -1903,7 +1771,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns/abnormalLevelOfChemicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/abnormalLevelOfChemicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal level of &apos;chemical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalLevelOfChemicalEntity</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal &apos;chemical entity&apos; level</rdfs:label>
@@ -1949,7 +1816,6 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns/lesionInAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/lesionInAnatomicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal &apos;anatomical entity&apos; with one or more lesions.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lesionInAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;anatomical entity&apos; with lesion(s)</oboInOwl:hasExactSynonym>
