@@ -77,7 +77,9 @@ mirror/uberon-bridge-to-caro.owl:
 ../patterns/pattern.owl: $(PATTERN_IMPORTS_OWL)
 	$(ROBOT) merge $(addprefix -i , $(PATTERN_IMPORTS_OWL)) reason -r Hermit annotate --ontology-iri $(OBO)/$(ONT)/patterns/pattern.owl -o $@
 
-pattern_ontology: ../patterns/pattern.owl
+pattern_ontology: #../patterns/pattern.owl
+	$(ROBOT) merge -i ../patterns/pattern.owl \
+	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self parents" --signature true --trim false -o ../patterns/pattern-simple.owl
 	
 ../patterns/dosdp-dev/README.md: .FORCE
 	python ../scripts/patterns_create_overview.py ../patterns/dosdp-dev $@
