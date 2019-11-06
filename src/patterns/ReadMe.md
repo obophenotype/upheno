@@ -6,6 +6,12 @@ The design patterns are specified in YAML, and follow the [dead_simple_design_pa
 
 Consult each yaml file for details on the specific pattern.
 
+Pattern.owl can be inspected using WebVOWL:
+
+[<img src="webvowl.png" width="300" />](http://visualdataweb.de/webvowl/#url=https://raw.githubusercontent.com/obophenotype/upheno/master/src/scripts/pattern-simple.json)
+
+
+
 See https://github.com/obophenotype/upheno/issues/168
 
 A jenkins job periodically checks all equivalence axioms against these patterns, generating the following tuples:
