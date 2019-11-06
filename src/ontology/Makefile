@@ -79,7 +79,7 @@ mirror/uberon-bridge-to-caro.owl:
 
 pattern_ontology: #../patterns/pattern.owl
 	$(ROBOT) merge -i ../patterns/pattern.owl \
-	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self parents" --signature true --trim false -o ../patterns/pattern-simple.owl
+	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self parents annotations" --signature true --trim true -o ../patterns/pattern-simple.owl
 	
 ../patterns/dosdp-dev/README.md: .FORCE
 	python ../scripts/patterns_create_overview.py ../patterns/dosdp-dev $@
