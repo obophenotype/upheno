@@ -22,13 +22,13 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Aplastic %s"
+  text: "aplastic %s"
   vars:
    - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "Aplasia of the %s"
+    text: "aplasia of the %s"
     vars:
      - anatomical_entity     
 
