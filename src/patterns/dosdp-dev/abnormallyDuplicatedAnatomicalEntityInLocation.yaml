@@ -1,6 +1,6 @@
 pattern_name: abnormallyDuplicatedAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDuplicatedAnatomicalEntityInLocation.yaml
-description: "An anatomical entity that was abnormally duplicated in a location, such as a duplicated digit 1 on the right hand."
+description: "An anatomical entity that was abnormally duplicated in a location, such as a duplicated digit 1 on the right hand, or HP:0006176 Two carpal ossification centers present at birth.."
 
 classes:
   duplicated: PATO:0001473
