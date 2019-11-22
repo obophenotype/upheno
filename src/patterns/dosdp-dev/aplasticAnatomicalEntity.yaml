@@ -1,6 +1,6 @@
 pattern_name: aplasticAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/aplasticAnatomicalEntity.yaml
-description: "Absent or missing anatomical entity that occurred during development. For example, HP_0009238 'Aplasia of the 5th finger'."
+description: "A congenital absence of an anatomical entity. For example, HP_0009238 'Aplasia of the 5th finger'."
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
@@ -22,13 +22,13 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Aplastic %s"
+  text: "aplastic %s"
   vars:
    - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "Aplasia of the %s"
+    text: "aplasia of the %s"
     vars:
      - anatomical_entity     
 
