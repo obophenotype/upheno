@@ -22,7 +22,7 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Abnormality of %s height"
+  text: "abnormality of %s height"
   vars:
    - anatomical_entity
      
