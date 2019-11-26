@@ -6,7 +6,7 @@ contributors:
   - https://orcid.org/0000-0001-5208-3432
   
 classes:
-  aplastic hypoplastic: PATO:0002290
+  aplastic or hypoplastic: PATO:0002290
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
@@ -38,6 +38,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('aplastic/hypoplastic' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('aplastic or hypoplastic' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
