@@ -174,7 +174,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationActingOnCellsOfType.yaml |
 | Name | abnormalCellProliferationActingOnCellsOfType |
-| Variables | cell population proliferation (GO:0008283), cell (CL:0000003),  |
+| Variables | cell (CL:0000003),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
@@ -242,7 +242,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalConcentrationOfChemicalEntity |
 | Variables | chemical (CHEBI:24431),  |
 | Contributors |  |
-| Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/abnormalConcentrationOfChemicalEntity.tsv) |
+| Examples |  |
 
 ### Abnormal concentration of chemical entity in location
 *An abnormal concentration of a chemical, like sodium, in a location, like the blood.*
@@ -253,7 +253,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalConcentrationOfChemicalEntityInLocation |
 | Variables | chemical (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors |  |
-| Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/abnormalConcentrationOfChemicalEntityInLocation.tsv) |
+| Examples |  |
 
 ### Abnormal degeneration of anatomical entity
 *deterioration or loss of function of a tissue that was once present, such as HP_0000546 retinal degeneration.*
@@ -354,6 +354,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/abnormalFunctionalityOfCellularComponent.tsv) |
 
+### Abnormal functionality of part of anatomical entity
+*Dysfunction of a part of an anatomical entity, such as HP_0007905 'Abnormal iris vasculature'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFunctionalityOfPartOfAnatomicalEntity.yaml |
+| Name | abnormalFunctionalityOfPartOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormal has extra parts of type anatomical entity
 *extra parts of an anatomical entity. For example, has extra parts of type eye.*
 
@@ -396,6 +407,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
+
+### Abnormal height of anatomical entity
+*An abnormally tall or short anatomical structure, such as HP:0000002 Abnormality of body height.'*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHeightOfAnatomicalEntity.yaml |
+| Name | abnormalHeightOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
 ### Abnormal level of chemical entity with role
@@ -739,6 +761,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
+### Abnormally decreased height of anatomical entity
+*An abnormally short anatomical structure, such as HP:0004322 Short stature.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedHeightOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedHeightOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormally decreased length of anatomical entity
 *Anatomical entity is observed to be of decreased length. i.e., decreased length of tail*
 
@@ -790,7 +823,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRole.yaml |
 | Name | abnormallyDecreasedLevelOfChemicalEntityWithRole |
-| Variables | chemical entity (CHEBI:24431), role (CHEBI:50906),  |
+| Variables | role (CHEBI:50906),  |
 | Contributors |  |
 | Examples |  |
 
@@ -803,7 +836,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors |  |
-| Examples |  |
+| Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation.tsv) |
 
 ### Abnormally decreased mobility of anatomical entity
 *An abnormally decreased or reduced ability to move an anatomical entity. Example: MP:0030863 decreased joint mobility.*
@@ -990,7 +1023,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedSizeOfAnatomicalEntityInLocation |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) |
+| Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) |
+
+### Abnormally decreased thickness of anatomical entity
+*An abnormally thinner anatomical entity, like HP:0100689 Decreased corneal thickness.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedThicknessOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedThicknessOfAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally decreased volume of anatomical entity
 *Decreased volume of an anatomical entity, e.g. HP:0012695 Decreased thalamic volume.*
@@ -1059,7 +1103,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples | [XPO (manual)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual/abnormallyDuplicatedAnatomicalEntity.tsv) |
 
 ### Abnormally duplicated anatomical entity in location
-*An anatomical entity that was abnormally duplicated in a location, such as a duplicated digit 1 on the right hand.*
+*An anatomical entity that was abnormally duplicated in a location, such as a duplicated digit 1 on the right hand, or HP:0006176 Two carpal ossification centers present at birth..*
 
 | Attribute | Info |
 |----------|----------|
@@ -1077,6 +1121,17 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyFusedAnatomicalEntities.yaml |
 | Name | abnormallyFusedAnatomicalEntities |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062),  |
+| Contributors |  |
+| Examples |  |
+
+### Abnormally fused anatomical entities in location
+*An anatomical entity in a particular location that is abnormally fused with another anatomical entity in a particular location. Before using this pattern make sure abnormallyFusedAnatomicalEntities is not applicable.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyFusedAnatomicalEntitiesInLocation.yaml |
+| Name | abnormallyFusedAnatomicalEntitiesInLocation |
+| Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062), independent continuant (BFO:0000004), independent continuant (BFO:0000004),  |
 | Contributors |  |
 | Examples |  |
 
@@ -1463,6 +1518,28 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abscessInLocation |
 | Variables | anatomical entity (UBERON:0001062), abscess (MPATH:608),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/abscessInLocation.tsv) |
+
+### Aplastic anatomical entity
+*A congenital absence of an anatomical entity. For example, HP_0009238 'Aplasia of the 5th finger'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/aplasticAnatomicalEntity.yaml |
+| Name | aplasticAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
+### Aplastic hypoplastic anatomical entity
+*An underdeveloped or absent anatomical entity. This pattern should be used in cases where the anatomical entity is small or missing, but the clinician or researcher is unable to definitively say if it is a case of aplasia or hypoplasia. Using the moree specific term is preferred.For example, HP_0006265 'Aplasia/Hypoplasia of fingers'*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/aplasticHypoplasticAnatomicalEntity.yaml |
+| Name | aplasticHypoplasticAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
 ### Atretic anatomical entity
@@ -1552,6 +1629,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors |  |
 | Examples | [HPO](https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default/fibroticAnatomicalEntity.tsv) |
+
+### Hypoplastic anatomical entity
+*An underdeveloped or small anatomical entity. For example, HP_0008417 'Vertebral hypoplasia'*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/hypoplasticAnatomicalEntity.yaml |
+| Name | hypoplasticAnatomicalEntity |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Lesion in anatomical entity
 *an antomical strucuture with one or more lesions. i.e., one or more lesions in the head*
