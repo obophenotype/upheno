@@ -6,7 +6,7 @@ classes:
   fused: PATO:0000642
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
-  location: "'independent continuant'"
+  independent continuant: BFO:0000004
 
 relations: 
   inheres_in: RO:0000052
@@ -21,8 +21,8 @@ annotationProperties:
 vars:
   anatomical_entity: "'anatomical entity'"
   anatomical_entity_fused_with: "'anatomical entity'"
-  location: "'location'"
-  location_fused_with: "'location'"
+  location: "'independent continuant'"
+  location_fused_with: "'independent continuant'"
 
 name:
   text: "abnormally fused %s in %s with %s in %s"
