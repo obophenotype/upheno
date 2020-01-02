@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/pattern.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/releases/2019-12-05/upheno-pattern.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/releases/2020-01-02/upheno-pattern.owl"/>
     </owl:Ontology>
     
 
@@ -9191,6 +9191,26 @@ MH: sexual subtypes should probably be logically defined based on sexual process
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structural quality inhering in a bearer by virtue of the bearer&apos;s undergoing unprogrammed cell death.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000647</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">necrotic</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000647"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structural quality inhering in a bearer by virtue of the bearer&apos;s undergoing unprogrammed cell death.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:http://en.wikipedia.org/wiki/Necrotic</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000694 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000694">
@@ -12534,7 +12554,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0032502"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002295"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
@@ -16935,6 +16955,38 @@ MH: sexual subtypes should probably be logically defined based on sexual process
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mislocalisedAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal position of &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormally localised &apos;anatomical entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000647"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormally necrotic &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">necroticAnatomicalEntity</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally necrotic &apos;anatomical entity&apos;</rdfs:label>
     </owl:Class>
     
 

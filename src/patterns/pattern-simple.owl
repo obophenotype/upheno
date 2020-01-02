@@ -1864,6 +1864,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormally necrotic &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">necroticAnatomicalEntity</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally necrotic &apos;anatomical entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml">
