@@ -1641,6 +1641,17 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
+### Cyst in location
+*The presence of a cyst in an anatomical entity. For example, HP_0010604 'Cyst of the eyelid'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/cystInLocation.yaml |
+| Name | cystInLocation |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Dysplastic anatomical entity
 *A congenital malformation of an anatomical entity, such as HP_0005176 'Dysplastic aortic valve'.*
 
@@ -1738,5 +1749,5 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | necroticAnatomicalEntity |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [XPO (anatomy)](https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy/necroticAnatomicalEntity.tsv) |
 
