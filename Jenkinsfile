@@ -113,8 +113,8 @@ pipeline {
 							sh 'ls'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
-							sh 'sh make all_mappings -B'
-							sh 'sh make mp-hp-view.owl -B'
+							sh 'make all_mappings -B'
+							sh 'make mp-hp-view.owl -B'
 					}
 
 					// Move the products to somewhere "safe".
