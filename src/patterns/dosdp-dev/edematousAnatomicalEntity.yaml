@@ -1,0 +1,49 @@
+pattern_name: edematousAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/edematousAnatomicalEntity.yaml
+description : "an antomical strucuture with edema. i.e., head edema, pulmonary edema"
+
+contributors: 
+  - https://orcid.org/0000-0002-3528-5267
+  
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  edematous: PATO:0001450
+
+relations:
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+
+
+name:
+  text: "edema in %s"
+  vars:
+   - anatomical_entity
+
+def:
+  text: "An abnormal %s with edema."
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "%s that is swollen with an excessive accumulation of fluid"
+    vars:
+     - anatomical_entity
+  - annotationProperty: exact_synonym
+    text: "%s that exhibits an excessive accumulation of extracellular fluid"
+    vars:
+     - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('edematous' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity
