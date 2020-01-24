@@ -128,3 +128,42 @@ This was split across multiple github repos
  2. cellular component (from GO)
  3. chemical entity (includes chemicals (CHEBI), proteins (PRO))
 
+Current structure of uPheno 1:
+
+
+1. mp-hp-kboom.owl: OBSOLETE 
+1. mp-hp.ow: OBSOLETE
+1. upheno_root_alignments.owl: OBSOLETE
+
+## Current uPheno structure   
+1. upheno.owl (TODO needs to be obsoleted):
+   1. metazoa.owl
+      1. Worm
+         1. OBO:uberon/bridge/cl-bridge-to-wbbt.owl
+         1. OBO:uberon/bridge/uberon-bridge-to-wbbt.owl
+         1. OBO:wbphenotype/wbphenotype-full.owl
+      1. Fly
+         1. OBO:uberon/bridge/cl-bridge-to-fbbt.owl
+         1. OBO:uberon/bridge/uberon-bridge-to-fbbt.owl
+         1. OBO:dpo.owl
+         1. OBO:upheno/dpo/dpo-bridge.owl
+         1. OBO:upheno/imports/fbbt_phenotype.owl
+      1. OBO:upheno/vertebrate.owl
+         1. Zebrafish:
+           1. OBO:zp.owl
+           1. OBO:uberon/bridge/cl-bridge-to-zfa.owl
+           1. OBO:uberon/bridge/uberon-bridge-to-zfa.owl
+           1. OBO:upheno/imports/zfa_import.owl
+         1. OBO:vt.owl (<- this currently points to uPheno, made [ticket](https://github.com/AnimalGenome/vertebrate-trait-ontology/issues/3) to change that)
+         1. upheno internal:
+            1. OBO:upheno/imports/uberon_import.owl  
+            1. OBO:upheno/mammal.owl
+               1. OBO:mp.owl
+               1. OBO:hp.owl
+               1. upheno internal:
+                  1. OBO:upheno/hp-mp/mp_hp-align-equiv.owl (REMOVED)
+                  1. OBO:upheno/upheno_root_alignments.owl (covered, root terms under uPheno:"Phenotype")
+                  1. OBO:upheno/imports/go_phenotype.owl (TODO)
+                  1. OBO:upheno/imports/mpath_phenotype.owl (TODO)
+                  1. OBO:upheno/imports/nbo_phenotype.owl (TODO)
+                  1. OBO:upheno/imports/uberon_phenotype.owl (TODO)
