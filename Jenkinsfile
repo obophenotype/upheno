@@ -111,9 +111,6 @@ pipeline {
 						retry(2){
 							sh 'pwd'
 							sh 'ls'
-							sh 'ls ../curation'
-							//sh 'ls ../curation/tmp'
-							//sh 'ls /work'
 							sh 'env > env.txt'
 							sh 'cat env.txt'
 							sh 'sh make all_mappings -B'
