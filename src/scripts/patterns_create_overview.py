@@ -26,6 +26,7 @@ md_file = sys.argv[2]
 #md_file=pattern_dir+"/README.md"
 config_file = "https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/curation/upheno-config.yaml"
 pattern_matches_location = "https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/curation/pattern-matches"
+pattern_matches_location_gh = "https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches"
 config = yaml.load(urllib.request.urlopen(config_file))
 
 phenotype_ontologies = config.get("species_modules")
@@ -76,12 +77,13 @@ for pattern_dir in pattern_dirs.split("|"):
                 tsv = fn.replace(".yaml",".tsv")
                 for o in phenotype_ontologies:
                     url = "{}/{}/{}".format(pattern_matches_location,o,tsv)
+                    ghurl = "{}/{}/{}".format(pattern_matches_location_gh,o,tsv)
                     print(url)
                     if i < THRESHOLD:
                         try:
                             df=pd.read_csv(url,sep="\t")
                             if not df.empty:
-                                examples.append('[{}]({})'.format(o,url))
+                                examples.append('[{}]({})'.format(o,ghurl))
                                 i = i +1
                             else:
                                 print("No matches!")
