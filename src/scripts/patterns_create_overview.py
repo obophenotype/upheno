@@ -14,89 +14,96 @@ import requests
 from time import sleep
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
+import urllib.request
 
 
 ### Configuration
 
-pattern_dir = sys.argv[1]
+pattern_dirs = sys.argv[1]
 md_file = sys.argv[2]
 
 #pattern_dir="/ws/upheno/src/patterns/dosdp-dev"
 #md_file=pattern_dir+"/README.md"
+config_file = "https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/curation/upheno-config.yaml"
+pattern_matches_location = "https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/curation/pattern-matches"
+config = yaml.load(urllib.request.urlopen(config_file))
 
-pattern_pipelines = {
-    "HPO": "https://github.com/obophenotype/human-phenotype-ontology/tree/master/src/patterns/data/default",
-    "MPO": "https://github.com/obophenotype/mammalian-phenotype-ontology/tree/master/src/patterns/data/default",
-    "WPO": "https://github.com/obophenotype/c-elegans-phenotype-ontology/tree/master/src/patterns/data/default",
-    "XPO (manual)": "https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/manual",
-    "PLANP": "https://github.com/obophenotype/planarian-phenotype-ontology/tree/master/src/patterns/data/default",
-    "ZP (manual)": "https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/manual",
-    "ZP (anatomy)": "https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/anatomy",
-    "ZP (ZFIN)": "https://github.com/obophenotype/zebrafish-phenotype-ontology/tree/master/src/patterns/data/zfin",
-    "DPO": "https://github.com/FlyBase/drosophila-phenotype-ontology/tree/master/src/patterns/data/default",
-    "XPO (anatomy)": "https://github.com/obophenotype/xenopus-phenotype-ontology/tree/master/src/patterns/data/anatomy",
-}
+phenotype_ontologies = config.get("species_modules")
+
+THRESHOLD=99999999
 
 lines = []
 
 lines.append("# Pattern directory")
 lines.append("This is a listing of all the patterns hosted as part of this directory")
 lines.append("")
-lines.append("## Patterns")
 
-files = os.listdir(pattern_dir)
-files.sort()
+i = 0
 
-for filename in files:
-    if filename.endswith(".yaml"):
-        f_path = os.path.join(pattern_dir,filename)
-        f = open(f_path)
-        try:
-            y = yaml.load(f, Loader=yaml.FullLoader)
-            fn = os.path.basename(filename)
-            splitted = " ".join(re.sub('([A-Z][a-z]+)', r' \1', re.sub('([A-Z]+)', r' \1', fn)).split()).replace(".yaml","")
-            splitted = splitted.lower().capitalize()
-            variables = ""
-            contributors = ""
+for pattern_dir in pattern_dirs.split("|"):
+    lines.append("## Patterns in {}".format(os.path.basename(pattern_dir)))
+    files = os.listdir(pattern_dir)
+    files.sort()
+
+    for filename in files:
+        if filename.endswith(".yaml"):
+            f_path = os.path.join(pattern_dir,filename)
+            f = open(f_path)
+            try:
+                y = yaml.load(f, Loader=yaml.FullLoader)
+                fn = os.path.basename(filename)
+                splitted = " ".join(re.sub('([A-Z][a-z]+)', r' \1', re.sub('([A-Z]+)', r' \1', fn)).split()).replace(".yaml","")
+                splitted = splitted.lower().capitalize()
+                variables = ""
+                classes = ""
+                contributors = ""
 
 
-            for v in y['vars']:
-                vs = re.sub("[^0-9a-zA-Z _]", "", y['vars'][v])
-                vsv = re.sub("[']", "", y['vars'][v])
-                variables = variables+vs+" ("+y['classes'][vsv]+"), "
-            
-            if 'contributors' in y:    
-                for v in y['contributors']:
-                    contributors = contributors+"["+re.sub("https[:][/][/]orcid[.]org[/]","",v)+"]("+v+"), "
-            
-            examples = []
-            tsv = fn.replace(".yaml",".tsv")
-            i = 0
-            for o in pattern_pipelines:
-                if i<10:
-                    url = pattern_pipelines[o]+"/"+tsv
+                for v in y['vars']:
+                    vs = re.sub("[^0-9a-zA-Z _]", "", y['vars'][v])
+                    vsv = re.sub("[']", "", y['vars'][v])
+                    variables = variables+vs+" ("+y['classes'][vsv]+"), "
+                
+                for v in y['classes']:
+                    cid = y['classes'][v]
+                    classes = classes+cid+", "
+                
+                if 'contributors' in y:    
+                    for v in y['contributors']:
+                        contributors = contributors+"["+re.sub("https[:][/][/]orcid[.]org[/]","",v)+"]("+v+"), "
+                
+                examples = []
+                tsv = fn.replace(".yaml",".tsv")
+                for o in phenotype_ontologies:
+                    url = "{}/{}/{}".format(pattern_matches_location,o,tsv)
                     print(url)
-                    request = requests.get(url)
-                    if request.status_code == 200:
-                        examples.append('[{}]({})'.format(o,url))
-                        i = i + 1
-                    sleep(1)
-                    print(i)
-            
-            lines.append("### "+splitted)
-            lines.append("*" + y['description']+"*")
-            lines.append("")
-            lines.append("| Attribute | Info |")
-            lines.append("|----------|----------|")
-            lines.append("| IRI | " + y['pattern_iri'] + " |")
-            lines.append("| Name | " + y['pattern_name'] + " |")
-            lines.append("| Variables | "+variables+" |")
-            lines.append("| Contributors | "+contributors+" |")
-            lines.append("| Examples | "+' '.join(examples)+" |")
-            lines.append("")
+                    if i < THRESHOLD:
+                        try:
+                            df=pd.read_csv(url,sep="\t")
+                            if not df.empty:
+                                examples.append('[{}]({})'.format(o,url))
+                                i = i +1
+                            else:
+                                print("No matches!")
+                            sleep(0.2)
+                        except Exception as e:
+                            print("No matches!")
+                
+                lines.append("### "+splitted)
+                lines.append("*" + y['description']+"*")
+                lines.append("")
+                lines.append("| Attribute | Info |")
+                lines.append("|----------|----------|")
+                lines.append("| IRI | " + y['pattern_iri'] + " |")
+                lines.append("| Name | " + y['pattern_name'] + " |")
+                lines.append("| Classes | "+classes+" |")
+                lines.append("| Variables | "+variables+" |")
+                lines.append("| Contributors | "+contributors+" |")
+                lines.append("| Examples | "+' '.join(examples)+" |")
+                lines.append("")
 
-        except yaml.YAMLError as exc:
-            print(exc)
+            except yaml.YAMLError as exc:
+                print(exc)
 
 with open(md_file, 'w') as f:
     for item in lines:

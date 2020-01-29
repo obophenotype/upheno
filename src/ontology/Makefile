@@ -81,13 +81,11 @@ pattern_ontology: ../patterns/pattern.owl
 	$(ROBOT) merge -i ../patterns/pattern.owl \
 	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self annotations" --signature true --trim true -o ../patterns/pattern-simple.owl
 	
-../patterns/dosdp-dev/README.md: .FORCE
-	python ../scripts/patterns_create_overview.py ../patterns/dosdp-dev $@
-	
-../patterns/dosdp-patterns/README.md: .FORCE
-	python ../scripts/patterns_create_overview.py ../patterns/dosdp-patterns $@
 
-pattern_readmes: ../patterns/dosdp-dev/README.md ../patterns/dosdp-patterns/README.md
+../patterns/dosdp-patterns/README.md: .FORCE
+	python ../scripts/patterns_create_overview.py "../patterns/dosdp-patterns|../patterns/dosdp-dev" $@
+
+pattern_readmes: ../patterns/dosdp-patterns/README.md
 	
 upheno.obo: upheno.owl
 	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
