@@ -29,7 +29,7 @@ name:
    - location
 
 def:
-  text: "Damage to the %s in the %s."
+  text: "A damaged or injured %s in the %s, that may lead to impaired function."
   vars:
     - anatomical_entity
     - location
