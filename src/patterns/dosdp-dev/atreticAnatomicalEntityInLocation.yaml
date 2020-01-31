@@ -1,6 +1,6 @@
 pattern_name: atreticAnatomicalEntityInLocation
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntityInLocation
-description: "An anatomical entity with atresia, in a location, such as HP_0000067 'Urethral atresia, female'."
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntityInLocation.yaml
+description: "An anatomical entity with atresia (the absence or abnormal narrowing of an opening or passage in the body), in a location, such as HP_0000067 'Urethral atresia, female'."
 
 contributors: 
   - https://orcid.org/0000-0001-5208-3432
@@ -25,20 +25,20 @@ vars:
   location: "'independent continuant'"
 
 name:
-  text: "%s atresia"
+  text: "%s atresia in a %s"
   vars:
    - anatomical_entity
    - location
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "atresia of the %s"
+    text: "atresia of the %s in a %s"
     vars:
      - anatomical_entity
      - location
 
 def:
-  text: "A developmental defect resulting in complete obliteration of the lumen of the %s."
+  text: "A developmental defect resulting in the absence or abnormal narrowing of an opening or passage of the %s in a %s."
   vars:
     - anatomical_entity
     - location
