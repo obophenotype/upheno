@@ -1,0 +1,41 @@
+pattern_name: damagedAnatomicalEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/damagedAnatomicalEntityInLocation.yaml
+description: "A damaged anatomical entity in a location, such as HP_0003390 'Sensory axonal neuropathy'."
+
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+
+classes:
+  damaged: PATO:0001167
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  independent continuant: BFO:0000004
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+ 
+vars:
+  anatomical_entity: "'anatomical entity'"
+  location: "'independent continuant'"
+
+name:
+  text: "damaged %s in the %s"
+  vars:
+   - anatomical_entity
+   - location
+
+def:
+  text: "Damage to the %s in the %s."
+  vars:
+    - anatomical_entity
+    - location
+
+equivalentTo:
+  text: "'has_part' some ('damaged' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity
+    - location
