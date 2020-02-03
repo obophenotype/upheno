@@ -1,0 +1,41 @@
+pattern_name: dislocatedAnatomicalEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/dislocatedAnatomicalEntityInLocation.yaml
+description: "A dislocated anatomical entity in a location (where the anatomical entity is out of its usual or proper place, or position, Exampl:HP_0003042 'Elbow dislocation' (a dislocated skeletal joint in the elbow)."
+
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+
+classes:
+  dislocated: PATO:0001852
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  independent continuant: BFO:0000004
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+ 
+vars:
+  anatomical_entity: "'anatomical entity'"
+  location: "'independent continuant'"
+
+name:
+  text: "dislocated %s in the %s"
+  vars:
+   - anatomical_entity
+   - location
+
+def:
+  text: "A dislocated or out of place %s in the %s."
+  vars:
+    - anatomical_entity
+    - location
+
+equivalentTo:
+  text: "'has_part' some ('dislocated' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity
+    - location
