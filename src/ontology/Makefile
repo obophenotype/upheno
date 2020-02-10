@@ -4,8 +4,9 @@ ONT=upheno
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
-ROBOT= robot
-OWLTOOLS= owltools
+OT_MEMO=160G
+OWLTOOLS=OWLTOOLS_MEMORY=$(OT_MEMO) owltools --no-logging
+ROBOT=robot -v
 USECAT= --use-catalog
 SPARQLDIR = ../sparql
 DOSDP_SCHEMA=http:// # change to PURL when ready.
@@ -61,8 +62,8 @@ pattern_schema_checks: pattern_schema_checks_main pattern_schema_checks_dev
 
 
 	
-PATTERN_IMPORTS = pato ro uberon go cl caro uberon-bridge-to-caro
-PATTERN_IMPORTS_OWL = ../patterns/pattern-merged.owl $(patsubst %, ../patterns/imports/%_import.owl, $(PATTERN_IMPORTS))
+PATTERN_IMPORTS = pato ro uberon go cl caro uberon-bridge-to-caro chebi mpath nbo
+PATTERN_IMPORTS_OWL = $(patsubst %, ../patterns/imports/%_import.owl, $(PATTERN_IMPORTS))
 ../patterns/imports/%_import.owl: mirror/%.owl ../patterns/imports/seed_sorted.txt
 	$(ROBOT) extract -i $< -T ../patterns/imports/seed_sorted.txt --method BOT -O mirror/$*.owl annotate --ontology-iri $(OBO)/$(ONT)/patterns/imports/$*_import.owl -o $@
 
@@ -70,12 +71,25 @@ mirror/%.owl:
 	$(ROBOT) convert -I $(OBO)/$*.owl -o $@
 .PRECIOUS: mirror/%.owl
 	
+	
+mirror/cl.owl:
+	$(ROBOT) convert -I $(OBO)/cl/cl-simple.owl -o $@
+.PRECIOUS: mirror/cl.owl
+
+mirror/nbo.owl:
+	$(ROBOT) convert -I $(OBO)/nbo/nbo-base.owl -o $@
+.PRECIOUS: mirror/nbo.owl
+
+	
 mirror/uberon-bridge-to-caro.owl:
 	$(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl -o $@
 .PRECIOUS: mirror/uberon-bridge-to-caro.owl
 
-../patterns/pattern.owl: $(PATTERN_IMPORTS_OWL)
-	$(ROBOT) merge $(addprefix -i , $(PATTERN_IMPORTS_OWL)) reason -r Hermit reduce -r Hermit annotate --ontology-iri $(OBO)/$(ONT)/patterns/pattern.owl -o $@
+../patterns/pattern-with-imports.owl: ../patterns/pattern-merged.owl $(PATTERN_IMPORTS_OWL)
+	$(ROBOT) merge $(addprefix -i , $^) -o $@
+
+../patterns/pattern.owl: ../patterns/pattern-with-imports.owl
+	$(ROBOT) merge -i ../patterns/pattern-with-imports.owl remove --term http://www.w3.org/2002/07/owl#Nothing reason -r Hermit reduce -r Hermit annotate --ontology-iri $(OBO)/$(ONT)/patterns/pattern.owl -o $@
 
 pattern_ontology: ../patterns/pattern.owl
 	$(ROBOT) merge -i ../patterns/pattern.owl \
@@ -99,4 +113,15 @@ upheno.json: upheno.owl
 
 release: upheno.json upheno.owl upheno.obo
 	cp $^ ../../release
+
+
+##################################################
+####### Similarity tables ########################
+##################################################
+
+
+
+hp_mp_phenodigm_2_5.tsv: mp_hp.owl
+	$(OWLTOOLS) $< --sim-save-phenodigm-class-scores -m 2.5 -x HP,MP -a $@
 	
+

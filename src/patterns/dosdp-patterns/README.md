@@ -1784,7 +1784,7 @@ This is a listing of all the patterns hosted as part of this directory
 
 | Attribute | Info |
 |----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntity |
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntity.yaml |
 | Name | atreticAnatomicalEntity |
 | Classes | PATO:0001819, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
@@ -1860,6 +1860,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | cystInLocation |
 | Classes | PATO:0000470, PATO:0000460, UBERON:0001062, MPATH:62,  |
 | Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
+### Damaged anatomical entity in location
+*A damaged or injured anatomical entity in a location, such as HP_0003390 'Sensory axonal neuropathy'. The damage or injury may lead to loss of functionality or cell death.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/damagedAnatomicalEntityInLocation.yaml |
+| Name | damagedAnatomicalEntityInLocation |
+| Classes | PATO:0001167, PATO:0000460, UBERON:0001062, BFO:0000004,  |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 

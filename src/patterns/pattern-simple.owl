@@ -1689,8 +1689,8 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyRotatedAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyRotatedAnatomicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPositionOfAnatomicalEntity.yaml"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPositionOfAnatomicalEntityInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal rotation of the &apos;anatomical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyRotatedAnatomicalEntity</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rotated &apos;anatomical entity&apos;</rdfs:label>
@@ -1735,9 +1735,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntity -->
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntity.yaml -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntity">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/atreticAnatomicalEntity.yaml">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyClosedAnatomicalEntity.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A developmental defect resulting in complete obliteration of the lumen of the &apos;anatomical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atreticAnatomicalEntity</terms:title>
@@ -1810,6 +1810,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/damagedAnatomicalEntityInLocation.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/damagedAnatomicalEntityInLocation.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A damaged or injured &apos;anatomical entity&apos; in the &apos;independent continuant&apos;, that may lead to impaired function.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">damagedAnatomicalEntityInLocation</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">damaged &apos;anatomical entity&apos; in the &apos;independent continuant&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/dysplasticAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/dysplasticAnatomicalEntity.yaml">
@@ -1826,6 +1838,8 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/fibroticAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/fibroticAnatomicalEntity.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of excessive fibrous connective tissue in the &apos;anatomical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroticAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibrosis of the &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
@@ -2019,6 +2033,8 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns/lesionInAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/lesionInAnatomicalEntity.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal &apos;anatomical entity&apos; with one or more lesions.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lesionInAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;anatomical entity&apos; with lesion(s)</oboInOwl:hasExactSynonym>
