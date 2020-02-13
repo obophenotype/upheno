@@ -716,7 +716,7 @@ This is a listing of all the patterns hosted as part of this directory
 
 | Attribute | Info |
 |----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfPhysicalEntity |
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfPhysicalEntity.yaml |
 | Name | abnormalShapeOfPhysicalEntity |
 | Classes | PATO:0000052, PATO:0000460, owl:Thing,  |
 | Variables | entity (owl:Thing),  |
@@ -1892,7 +1892,7 @@ This is a listing of all the patterns hosted as part of this directory
 
 | Attribute | Info |
 |----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns/edematousAnatomicalEntity.yaml |
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/edematousAnatomicalEntity.yaml |
 | Name | edematousAnatomicalEntity |
 | Classes | PATO:0000460, UBERON:0001062, PATO:0001450,  |
 | Variables | anatomical entity (UBERON:0001062),  |
@@ -1928,8 +1928,8 @@ This is a listing of all the patterns hosted as part of this directory
 
 | Attribute | Info |
 |----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns/lesionInAnatomicalEntity.yaml |
-| Name | lesionInAnatomicalEntity |
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/lesionedAnatomicalEntity.yaml |
+| Name | lesionedAnatomicalEntity |
 | Classes | PATO:0000460, UBERON:0001062, PATO:0040025,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
