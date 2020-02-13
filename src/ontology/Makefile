@@ -86,7 +86,7 @@ mirror/uberon-bridge-to-caro.owl:
 .PRECIOUS: mirror/uberon-bridge-to-caro.owl
 
 ../patterns/pattern-with-imports.owl: ../patterns/pattern-merged.owl $(PATTERN_IMPORTS_OWL)
-	$(ROBOT) merge $(addprefix -i , $^) -o $@
+	$(ROBOT) merge $(addprefix -i , $^) unmerge -i components/pattern-ontology-remove-axioms.owl -o $@
 
 ../patterns/pattern.owl: ../patterns/pattern-with-imports.owl
 	$(ROBOT) merge -i ../patterns/pattern-with-imports.owl remove --term http://www.w3.org/2002/07/owl#Nothing reason -r Hermit reduce -r Hermit annotate --ontology-iri $(OBO)/$(ONT)/patterns/pattern.owl -o $@
