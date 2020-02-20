@@ -1,6 +1,6 @@
 pattern_name: abnormalPersistenceOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPersistenceOfAnatomicalEntity.yaml
-description: "The persistent presence of an anatomical entity that is not expected to be there, such as HP_0006335	Persistence of primary teeth."
+description: "The unexpected persistent presence of an anatomical entity that is not expected to be there, that should have been removed, ejected, replaced, etc, but continues to be present. For example, HP_0006335	Persistence of primary teeth, where the teeth should have fallen out during the normal developmental process, but continue to persist."
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
