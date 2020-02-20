@@ -1,6 +1,6 @@
 pattern_name: abnormalColorOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalColorOfAnatomicalEntity.yaml
-description: "Any unspecified abnormality of the color of an anatomical entity, such as HP_0012086 'Abnormal urinary color'."
+description: "Any unspecified abnormality of the color of an anatomical entity, such as HP_0012086 'Abnormal urinary color'. Abnormal pigmentation does not necessarily mean a change in color, nor does a change in color require that the root cause be due to a change in the pigment cells/granules. Pigment cells are specialized cell type and can contain different colored pigment granules. There are also differences in the process of pigmentation (such as pattern of cells or pattern of granules in those cells) as well as the dependent continuant that is the color."
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
