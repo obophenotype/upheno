@@ -1,0 +1,37 @@
+pattern_name: AplasitcGrowthOfAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/aplasitcGrowthOfAnatomicalEntity.yaml.yaml
+description: "Growth of an organism, structure or group of organisms does not occur, such as HP_0008459 Cervical vertebral agenesis."
+
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+  
+classes:
+  aplastic growth: PATO:0002019
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+
+name:
+  text: "aplastic growth of %s"
+  vars:
+   - anatomical_entity
+
+def:
+  text: "Growth of %s does not occur."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('aplastic growth' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity
