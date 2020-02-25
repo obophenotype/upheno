@@ -1,0 +1,37 @@
+pattern_name: abnormalContractilityOfAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalContractilityOfAnatomicalEntity.yaml
+description: "An abnormal contraction or shrinkage of an anatomical entity, such as HP_0002579 Gastrointestinal dysmotility."
+
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+
+classes:
+  contractility: PATO:0001579
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+
+relations:
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  anatomical_entity: "'anatomical entity'"
+
+name:
+  text: "Abnormal %s contractility"
+  vars:
+  - anatomical_entity
+
+def:
+  text: "Abnormal contractions of the %s ."
+  vars:
+  - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('contractility' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+  - anatomical_entity
