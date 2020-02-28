@@ -26,6 +26,12 @@ name:
   text: "Decreased %s position"
   vars:
    - anatomical_entity
+   
+annotations:
+  - annotationProperty: exact_synonym
+    text: "Lowered %s position"
+    vars:
+     - anatomical_entity
 
 def:
   text: "Lowered position or placement of %s."
