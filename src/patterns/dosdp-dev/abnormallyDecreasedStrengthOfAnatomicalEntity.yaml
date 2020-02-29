@@ -15,7 +15,6 @@ relations:
   has_modifier: RO:0002573
   has_part: BFO:0000051
 
-  
 annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
@@ -32,8 +31,6 @@ annotations:
     text: "decreased strength of %s"
     vars:
      - anatomical_entity
-     
-annotations:
   - annotationProperty: exact_synonym
     text: "%s weakness"
     vars:

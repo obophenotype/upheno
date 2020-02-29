@@ -27,7 +27,7 @@ vars:
   location: "'independent continuant'"
 
 name:
-  text: "Decreased number of %s in the %s"
+  text: "abnormally decreased number of %s in the %s"
   vars:
   - anatomical_entity
   - location

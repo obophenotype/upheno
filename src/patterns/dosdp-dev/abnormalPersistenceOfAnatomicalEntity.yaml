@@ -22,12 +22,12 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Persistent %s"
+  text: "abnormally persistent %s"
   vars:
    - anatomical_entity
 
 def:
-  text: "The abbnormal persistence of %s."
+  text: "The abnormal persistence of %s."
   vars:
     - anatomical_entity
 
