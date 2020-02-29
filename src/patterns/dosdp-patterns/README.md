@@ -171,6 +171,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
 | Examples | [planp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/planp/abnormalAbsenceOfPigmentationOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalAbsenceOfPigmentationOfAnatomicalEntity.tsv) |
 
+### Abnormal agenesis of anatomical entity
+*Abnormal absence of a tissue or organ due to failure to develop. Agenesis is a specific process to describe the failure of a tissue to develop, such as HP_0001341 Olfactory lobe agenesis. It is more specific than an absent anatomical entity.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAgenesisOfAnatomicalEntity.yaml |
+| Name | abnormalAgenesisOfAnatomicalEntity |
+| Classes | PATO:0002291, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormal anatomical entity not parts
 *Any unspecified abnormality of an anatomical entity, but excluding its parts. For example, abnormal cardiovascular system if it is not supposed to subsume abnormal heart.*
 
@@ -338,6 +350,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | chemical (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors |  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalConcentrationOfChemicalEntityInLocation.tsv) |
+
+### Abnormal constriction of anatomical entity
+*An anatomical entity that is being drawn together, compressed or squeezed physically, such as HP_0001650	Aortic valve stenosis.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConstrictionOfAnatomicalEntity.yaml |
+| Name | abnormalConstrictionOfAnatomicalEntity |
+| Classes | PATO:0001847, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormal degeneration of anatomical entity
 *deterioration or loss of function of a tissue that was once present, such as HP_0000546 retinal degeneration.*
@@ -1011,6 +1035,30 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors |  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation.tsv) |
 
+### Abnormally decreased mass density of anatomical entity
+*The mass density (its mass per unit volume) of anatomical entity is lower than normal, such as HP_0004349 Reduced bone mineral density.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedMassDensityOfAnatomicalEntity |
+| Name | abnormallyDecreasedMassDensityOfAnatomicalEntity |
+| Classes | PATO:0001790, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
+### Abnormally decreased mass of anatomical entity
+*The mass (the amount of matter or substance that makes up an object) of anatomical entity is lower than normal, such as HP_0003199 Decreased muscle mass. Note, mass density (mass per unit volume) is different than overall mass.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedMassOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedMassOfAnatomicalEntity |
+| Classes | PATO:0001562, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormally decreased mobility of anatomical entity
 *An abnormally decreased or reduced ability to move an anatomical entity. Example: MP:0030863 decreased joint mobility.*
 
@@ -1106,6 +1154,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [planp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/planp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) |
+
+### Abnormally decreased position of anatomical entity
+*The postion or placement of an anatomical entity is lowered or decreased, such as MP_0000024 'lowered ear position' or HP_0000369 Low-set ears.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedPositionOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedPositionOfAnatomicalEntity |
+| Classes | PATO:0001476, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally decreased quality of biological process
 *Process that appears in some (unspecified) way impaired or decreased (less frequent, less strong).*
@@ -1227,6 +1287,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) |
 
+### Abnormally decreased strength of anatomical entity
+*Weakness or decreased ability to exert power of an anatomical entity, such as HP_0001324 Muscle weakness.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedStrengthOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedStrengthOfAnatomicalEntity |
+| Classes | PATO:0001779, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormally decreased thickness of anatomical entity
 *An abnormally thinner anatomical entity, like HP:0100689 Decreased corneal thickness.*
 
@@ -1235,6 +1307,18 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedThicknessOfAnatomicalEntity.yaml |
 | Name | abnormallyDecreasedThicknessOfAnatomicalEntity |
 | Classes | PATO:0000592, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
+### Abnormally decreased tonicity of anatomical entity
+*A decrease in the normal presence of tone or tension (the resistance to passive stretch during resting state) in an anatomical entity, usually a a muscle or organ, such as HP_0001252 Muscular hypotonia or MP_0003089 'decreased skin tensile strength'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedStrengthOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedTonicityOfAnatomicalEntity |
+| Classes | PATO:0001619, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
@@ -1753,7 +1837,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000694, PATO:0000460, GO:0008150,  |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
-| Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyPrematureBiologicalProcess.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyPrematureBiologicalProcess.tsv) |
+| Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyPrematureBiologicalProcess.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyPrematureBiologicalProcess.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyPrematureBiologicalProcess.tsv) |
 
 ### Abnormally prominent anatomical entity
 *An anatomical entity that stands out or projects beyond the surface or line, such as a HP_0000395 'Prominent antihelix'*
