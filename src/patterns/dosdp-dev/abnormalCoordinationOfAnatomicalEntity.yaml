@@ -1,14 +1,14 @@
-pattern_name: abnormalCoordinationOfAnatomicalEntity
+pattern_name: abnormalCoordination
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCoordinationOfAnatomicalEntity.yaml
-description: "An anatomical entity that has abnormal coordination, the skillful and effective interaction of movement. HP_0011443 Abnormality of coordination."
+description: "An abnormality in motor coordination, the skillful and effective interaction of movement. HP_0011443 Abnormality of coordination."
 
 contributors:
 - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  coordination: PATO:0000188
+  process quality: PATO:0001236
+  motor coordination: NBO:0000339
   abnormal: PATO:0000460
-  anatomical entity: UBERON:0001062
 
 relations:
   inheres_in: RO:0000052
@@ -19,19 +19,19 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
-  anatomical_entity: "'anatomical entity'"
+  motor_coordination: "'motor coordination'"
 
 name:
-  text: "Abnormal coordination of %s"
+  text: "Abnormal %s"
   vars:
-  - anatomical_entity
+  - motor coordination
 
 def:
-  text: "An %s that has difficulty or an abnormality with coordination."
+  text: "Any abnormality with %s."
   vars:
-  - anatomical_entity
+  - motor coordination
 
 equivalentTo:
-  text: "'has_part' some ('coordination' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('process quality' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-  - anatomical_entity
+  - motor coordination
