@@ -1,0 +1,37 @@
+pattern_name: impairedCoordination
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/impairedCoordination.yaml
+description: "An impairment in motor coordination, the skillful and effective interaction of movement. HP_0011443 Abnormality of coordination."
+
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+
+classes:
+  decreased process quality: PATO:0002302
+  motor coordination: NBO:0000339
+  abnormal: PATO:0000460
+
+relations:
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  motor_coordination: "'motor coordination'"
+
+name:
+  text: "Impaired %s"
+  vars:
+  - motor coordination
+
+def:
+  text: "An impairment or difficulty with %s."
+  vars:
+  - motor coordination
+
+equivalentTo:
+  text: "'has_part' some ('decreased process quality' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+  - motor coordination
