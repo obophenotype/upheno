@@ -1407,6 +1407,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors |  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) |
 
+### Abnormally everted anatomical entity
+*An abnormal configuration of an anatomical entity, such that it is turned outward in placement (ie the opposite of inverted). Such as HP_0000232 Everted lower lip vermilion*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyEvertedAnatomicalEntity.yaml |
+| Name | abnormallyEvertedAnatomicalEntity |
+| Classes | PATO:0001597, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormally fused anatomical entities
 *An anatomical entity that is abnormally fused with another anatomical entity.*
 
@@ -1990,7 +2002,7 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/cystInLocation.yaml |
 | Name | cystInLocation |
-| Classes | PATO:0000470, PATO:0000460, UBERON:0001062, MPATH:62,  |
+| Classes | PATO:0001673, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
