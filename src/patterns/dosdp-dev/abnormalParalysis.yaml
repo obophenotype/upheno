@@ -7,7 +7,7 @@ contributors:
 
 classes:
   paralysed: PATO:0000763
-  anatomical entity: 
+  anatomical entity: UBERON:0001062
   abnormal: PATO:0000460
 
 relations:
@@ -19,19 +19,19 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
-  anatomical entity: "'anatomical entity'"
+  anatomical_entity: "'anatomical entity'"
 
 name:
   text: "paralyzed %s"
   vars:
-  - anatomical entity
+  - anatomical_entity
 
 def:
-  text: "The presence of a paralyzed diaphragm.."
+  text: "The presence of a paralyzed %s."
   vars:
-  - anatomical entity
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('paralysed' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-  - anatomical entity
+  - anatomical_entity
