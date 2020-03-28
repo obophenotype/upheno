@@ -33,7 +33,7 @@ annotations:
      - anatomical_entity
 
 def:
-  text: "faster, increased speed of, %s"
+  text: "faster, increased speed of %s"
   vars:
     - anatomical_entity
 
