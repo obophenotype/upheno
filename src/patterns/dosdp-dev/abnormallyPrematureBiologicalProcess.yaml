@@ -3,8 +3,8 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPremat
 description: "A biological process which starts earlier than the natural start time or the reference process."
 
 contributors:
-  - https://orcid.org/0000-0001-7487-610X
-
+- https://orcid.org/0000-0001-7487-610X
+- https://orcid.org/0000-0002-3528-5267
 classes:
   premature: PATO:0000694
   abnormal: PATO:0000460
@@ -24,14 +24,14 @@ vars:
 name:
   text: "premature %s"
   vars:
-   - biological_process
+  - biological_process
 
 def:
   text: "An abnormally early start time of %s."
   vars:
-    - biological_process
+  - biological_process
 
 equivalentTo:
   text: "'has_part' some ('premature' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - biological_process
+  - biological_process
