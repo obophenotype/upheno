@@ -10,7 +10,7 @@ classes:
   independent continuant: BFO:0000004
 
 
-relations: 
+relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
@@ -18,7 +18,7 @@ relations:
   part_of: BFO:0000050
 
 annotationProperties:
-  exact_synonym: oio:hasExactSynonym 
+  exact_synonym: oio:hasExactSynonym
 
 vars:
   role: "role"
@@ -27,17 +27,19 @@ vars:
 name:
   text: "decreased %s %s level"
   vars:
-    - role
-    - location
+  - role
+  - location
 
 def:
   text: "An abnormally decreased level of %s in the %s."
   vars:
-    - role
-    - location
+  - role
+  - location
 
 equivalentTo:
   text: "'has_part' some ('decreased amount' and ('inheres_in' some ('chemical entity' and ('has_role' some %s) and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - role
-    - location
+  - role
+  - location
+contributors:
+- https://orcid.org/0000-0002-3528-5267
