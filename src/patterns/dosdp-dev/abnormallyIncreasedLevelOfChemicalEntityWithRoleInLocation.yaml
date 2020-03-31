@@ -1,6 +1,9 @@
 pattern_name: abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation.yaml
-description: "An abnormally increased level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0002490 Increased CSF lactate"
+description: "An abnormally increased level of a chemical with a specific role, such as a metabolite or hormone like androgen, in a location, such as blood. For example, HP_0030348 'Increased circulating androgen level'."
+
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
 
 classes:
   increased amount: PATO:0000470
