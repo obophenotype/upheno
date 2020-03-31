@@ -3,8 +3,8 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/malformedAnatomi
 description: A malformed subtype of an anatomical entity, such as a wholly dorsalized embryo. This pattern can use any subclass of PATO malformed.
 
 contributors:
-  - https://orcid.org/0000-0001-5208-3432
-
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-3528-5267
 classes:
   malformed: PATO:0000646
   abnormal: PATO:0000460
@@ -22,17 +22,17 @@ vars:
 name:
   text: "%s %s"
   vars:
-   - malformed
-   - anatomical_entity
+  - malformed
+  - anatomical_entity
 
 def:
   text: "A %s %s."
   vars:
-   - malformed
-   - anatomical_entity
+  - malformed
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-   - malformed
-   - anatomical_entity
+  - malformed
+  - anatomical_entity
