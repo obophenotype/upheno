@@ -1,6 +1,6 @@
 pattern_name: abnormallyDecreasedLevelOfChemicalEntityWithRole
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRole.yaml
-description: "An abnormally decreased level of a chemical entity with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, decreased biopterin level"
+description: "An abnormally decreased level of a chemical entity with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0030349 'Decreased circulating androgen level'"
 
 classes:
   decreased amount: PATO:0001997
