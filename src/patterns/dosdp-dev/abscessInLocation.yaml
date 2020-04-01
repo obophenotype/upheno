@@ -33,7 +33,7 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('increased amount' and ('inheres_in' some %s and ('part_of' some %s) and ('has_modifier' some 'abnormal')))"
+  text: "'has_part' some ('increased amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - abscess
     - anatomical_entity

@@ -1,5 +1,5 @@
-pattern_name: lesionInAnatomicalEntity
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/lesionInAnatomicalEntity
+pattern_name: lesionedAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/lesionedAnatomicalEntity.yaml
 description : "an antomical strucuture with one or more lesions. i.e., one or more lesions in the head"
 
 contributors: 
@@ -8,7 +8,7 @@ contributors:
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
-  lesion: NCIT:C3824
+  lesioned: PATO:0040025
 
 relations:
   inheres_in: RO:0000052
@@ -40,6 +40,6 @@ annotations:
      - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('lesion' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('lesioned' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity

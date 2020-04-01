@@ -1,0 +1,5 @@
+# Other obsoleted patterns
+
+- abnormallyAlteredNumberOfAnatomicalEntities
+- abnormallyAlteredNumberOfAnatomicalEntityInLocation
+- abnormallyAlteredNumberOfCellularComponent

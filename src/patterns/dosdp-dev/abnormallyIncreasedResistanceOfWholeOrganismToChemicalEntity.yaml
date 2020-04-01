@@ -1,6 +1,6 @@
 pattern_name: abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml
-description: "A phenotype in which an organism shows increased resistance to a chemical, for example 4-aminosalicylic acid."
+description: "A phenotype in which an organism shows increased resistance to a chemical, for example 4-aminosalicylic acid. NOTE: There is a more general pattern (abnormallyIncreasedResistanceOfWholeOrganismToEntity), so this one should probably be obsoleted."
 
 contributors:
   - https://orcid.org/0000-0001-9076-6015
