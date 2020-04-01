@@ -1,21 +1,25 @@
 pattern_name: abnormallyDecreasedLevelOfChemicalEntityWithRole
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRole.yaml
-description: "An abnormally decreased level of a chemical entity with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, decreased biopterin level"
+description: "An abnormally decreased level of a chemical with a specific role, such as a metabolite or hormone like androgen, for example, 'decreased androgen level'."
 
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0002-3528-5267
+  
 classes:
   decreased amount: PATO:0001997
   abnormal: PATO:0000460
   chemical entity: CHEBI:24431
   role: CHEBI:50906
 
-relations: 
+relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
   has_role: RO:0000087
 
 annotationProperties:
-  exact_synonym: oio:hasExactSynonym 
+  exact_synonym: oio:hasExactSynonym
 
 vars:
   role: "role"
@@ -23,15 +27,17 @@ vars:
 name:
   text: "decreased %s level"
   vars:
-    - role
+  - role
 
 def:
   text: "An abnormally decreased level of %s."
   vars:
-    - role
+  - role
 
 equivalentTo:
   text: "'has_part' some ('decreased amount' and ('inheres_in' some ('chemical entity' and ('has_role' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - role
+  - role
 
+contributors:
+- https://orcid.org/0000-0002-3528-5267
