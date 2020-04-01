@@ -136,7 +136,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormalAbsenceOfChemicalEntityInLocation.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalAbsenceOfChemicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalAbsenceOfChemicalEntityInLocation.tsv) |
 
 ### Abnormal absence of molecular function
-**
+*An abnormal absence of a molecular function i.e., absent or undetectable level of chromatin binding.*
 
 | Attribute | Info |
 |----------|----------|
@@ -144,7 +144,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalAbsenceOfMolecularFunction |
 | Classes | PATO:0000462, PATO:0000460, GO:0003674,  |
 | Variables | molecular function (GO:0003674),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormal absence of motility of cellular component in location
@@ -336,7 +336,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalConcentrationOfChemicalEntity |
 | Classes | PATO:0000033, PATO:0000460, CHEBI:24431,  |
 | Variables | chemical (CHEBI:24431),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormal concentration of chemical entity in location
@@ -348,7 +348,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalConcentrationOfChemicalEntityInLocation |
 | Classes | PATO:0000033, PATO:0000460, CHEBI:24431, BFO:0000004,  |
 | Variables | chemical (CHEBI:24431), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormal constriction of anatomical entity
@@ -396,7 +396,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalDegenerationOfCellularComponent |
 | Classes | PATO:0000639, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormalDegenerationOfCellularComponent.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalDegenerationOfCellularComponent.tsv) |
 
 ### Abnormal degeneration of cellular component in location
@@ -408,7 +408,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalDegenerationOfCellularComponentInLocation |
 | Classes | PATO:0000639, PATO:0000460, GO:0005575, BFO:0000004,  |
 | Variables | cellular component (GO:0005575), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalDegenerationOfCellularComponentInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalDegenerationOfCellularComponentInLocation.tsv) |
 
 ### Abnormal development of anatomical entity
@@ -544,7 +544,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples |  |
 
 ### Abnormal level of chemical entity with role
-*An abnormal level of a chemical with a specific role, such as a metabolite. Example: Abnormal amino acid level.*
+*An abnormal level of a chemical with a specific role, such as a metabolite or hormone like androgen, for example, 'abnormal androgen level'.*
 
 | Attribute | Info |
 |----------|----------|
@@ -552,11 +552,11 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalLevelOfChemicalEntityWithRole |
 | Classes | PATO:0000070, PATO:0000460, CHEBI:24431, CHEBI:50906,  |
 | Variables | role (CHEBI:50906),  |
-| Contributors |  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormal level of chemical entity with role in location
-*An abnormal level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0032364 Abnormal CSF amino acid level.*
+*An abnormal level of a chemical with a specific role, such as a metabolite or hormone like androgen, in a location, such as blood. For example, HP_0030347 'Abnormal circulating androgen level'.*
 
 | Attribute | Info |
 |----------|----------|
@@ -564,7 +564,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalLevelOfChemicalEntityWithRoleInLocation |
 | Classes | PATO:0000070, PATO:0000460, CHEBI:24431, CHEBI:50906, BFO:0000004,  |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalLevelOfChemicalEntityWithRoleInLocation.tsv) |
 
 ### Abnormal mobility of anatomical entity
@@ -1012,7 +1012,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) |
 
 ### Abnormally decreased level of chemical entity with role
-*An abnormally decreased level of a chemical entity with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, decreased biopterin level*
+*An abnormally decreased level of a chemical with a specific role, such as a metabolite or hormone like androgen, for example, 'decreased androgen level'.*
 
 | Attribute | Info |
 |----------|----------|
@@ -1020,11 +1020,11 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntityWithRole |
 | Classes | PATO:0001997, PATO:0000460, CHEBI:24431, CHEBI:50906,  |
 | Variables | role (CHEBI:50906),  |
-| Contributors |  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally decreased level of chemical entity with role in location
-*An abnormally decreased level of a chemical with a role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0040209 Decreased CSF biopterin level*
+*An abnormally decreased level of a chemical with a specific role, such as a metabolite or hormone like androgen, in a location, such as blood. For example, HP_0030349 'Decreased circulating androgen level'.*
 
 | Attribute | Info |
 |----------|----------|
@@ -1032,7 +1032,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation |
 | Classes | PATO:0001997, PATO:0000460, CHEBI:24431, CHEBI:50906, BFO:0000004,  |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation.tsv) |
 
 ### Abnormally decreased mass density of anatomical entity
@@ -1212,7 +1212,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedRateOfBiologicalProcess |
 | Classes | PATO:0000911, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
-| Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormallyDecreasedRateOfBiologicalProcess.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDecreasedRateOfBiologicalProcess.tsv) [dpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/dpo/abnormallyDecreasedRateOfBiologicalProcess.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [phipo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/phipo/abnormallyDecreasedRateOfBiologicalProcess.tsv) |
 
 ### Abnormally decreased rate of biological process in location
@@ -1224,7 +1224,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedRateOfBiologicalProcessInLocation |
 | Classes | PATO:0000911, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological_process (GO:0008150), independent continuant (BFO:0000004),  |
-| Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally decreased rate of molecular function
@@ -1260,7 +1260,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml |
 | Classes | PATO:0001651, PATO:0000460, CARO:0010004, owl:Thing,  |
 | Variables | entity (owl:Thing),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) [dpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/dpo/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) [phipo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/phipo/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) |
 
 ### Abnormally decreased size of anatomical entity
@@ -1284,7 +1284,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedSizeOfAnatomicalEntityInLocation |
 | Classes | PATO:0000587, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally decreased speed of anatomical entity
@@ -1308,7 +1308,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedStrengthOfAnatomicalEntity |
 | Classes | PATO:0001779, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally decreased thickness of anatomical entity
@@ -1320,7 +1320,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedThicknessOfAnatomicalEntity |
 | Classes | PATO:0000592, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally decreased tonicity of anatomical entity
@@ -1332,7 +1332,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedTonicityOfAnatomicalEntity |
 | Classes | PATO:0001619, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally decreased volume of anatomical entity
@@ -1344,7 +1344,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedVolumeOfAnatomicalEntity |
 | Classes | PATO:0000596, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased weight of anatomical entity
@@ -1404,7 +1404,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDuplicatedAnatomicalEntity |
 | Classes | PATO:0001473, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyDuplicatedAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDuplicatedAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDuplicatedAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDuplicatedAnatomicalEntity.tsv) |
 
 ### Abnormally duplicated anatomical entity in location
@@ -1416,7 +1416,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDuplicatedAnatomicalEntityInLocation |
 | Classes | PATO:0001473, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally everted anatomical entity
@@ -1428,7 +1428,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyEvertedAnatomicalEntity |
 | Classes | PATO:0001597, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally fused anatomical entities
@@ -1440,7 +1440,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyFusedAnatomicalEntities |
 | Classes | PATO:0000642, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyFusedAnatomicalEntities.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyFusedAnatomicalEntities.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyFusedAnatomicalEntities.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyFusedAnatomicalEntities.tsv) |
 
 ### Abnormally fused anatomical entities in location
@@ -1452,7 +1452,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyFusedAnatomicalEntitiesInLocation |
 | Classes | PATO:0000642, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062), independent continuant (BFO:0000004), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally immobile anatomical entity
@@ -1488,7 +1488,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedCoilingOfAnatomicalEntity |
 | Classes | PATO:0001795, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally increased distance between anatomical entities
@@ -1524,7 +1524,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedHeightOfAnatomicalEntity |
 | Classes | PATO:0000570, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased height of anatomical entity in location
@@ -1576,7 +1576,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyIncreasedLevelOfChemicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyIncreasedLevelOfChemicalEntity.tsv) [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormallyIncreasedLevelOfChemicalEntity.tsv) |
 
 ### Abnormally increased level of chemical entity in location
-**
+*An abnormal increase of a chemical entity in a lcoation. Example 'Increased CSF lactate', i.e. increased lactate in cerebrospinal fluid (HP_0002490).*
 
 | Attribute | Info |
 |----------|----------|
@@ -1584,11 +1584,11 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLevelOfChemicalEntityInLocation |
 | Classes | PATO:0000470, PATO:0000460, CHEBI:24431, BFO:0000004,  |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) |
 
 ### Abnormally increased level of chemical entity with role
-*An abnormally increased level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, decreased biopterin level*
+*An abnormally increased level of a chemical with a specific role, e.g. metabolite. For example, increased biopterin level*
 
 | Attribute | Info |
 |----------|----------|
@@ -1596,11 +1596,11 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLevelOfChemicalEntityWithRole |
 | Classes | PATO:0000470, PATO:0000460, CHEBI:24431, CHEBI:50906,  |
 | Variables | role (CHEBI:50906),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally increased level of chemical entity with role in location
-*An abnormally increased level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0002490 Increased CSF lactate*
+*An abnormally increased level of a chemical with a specific role, such as a metabolite or hormone like androgen, in a location, such as blood. For example, HP_0030348 'Increased circulating androgen level'.*
 
 | Attribute | Info |
 |----------|----------|
@@ -1608,7 +1608,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation |
 | Classes | PATO:0000470, PATO:0000460, CHEBI:24431, CHEBI:50906, BFO:0000004,  |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation.tsv) |
 
 ### Abnormally increased mobility of anatomical entity
@@ -1620,7 +1620,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedMobilityOfAnatomicalEntity |
 | Classes | PATO:0002282, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased motility of cellular component in location
@@ -1752,7 +1752,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedRateOfMolecularFunction |
 | Classes | PATO:0000912, PATO:0000460, GO:0003674,  |
 | Variables | molecular function (GO:0003674),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyIncreasedRateOfMolecularFunction.tsv) [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormallyIncreasedRateOfMolecularFunction.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyIncreasedRateOfMolecularFunction.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyIncreasedRateOfMolecularFunction.tsv) [phipo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/phipo/abnormallyIncreasedRateOfMolecularFunction.tsv) |
 
 ### Abnormally increased resistance of whole organism to chemical entity
@@ -1776,7 +1776,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml |
 | Classes | PATO:0001650, PATO:0000460, CARO:0010004, owl:Thing,  |
 | Variables | entity (owl:Thing),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) [dpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/dpo/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) [phipo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/phipo/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) |
 
 ### Abnormally increased size of anatomical entity
@@ -1872,7 +1872,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyOpenAnatomicalEntity |
 | Classes | PATO:0000610, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyOpenAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyOpenAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyOpenAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyOpenAnatomicalEntity.tsv) |
 
 ### Abnormally premature biological process
@@ -1884,7 +1884,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyPrematureBiologicalProcess |
 | Classes | PATO:0000694, PATO:0000460, GO:0008150,  |
 | Variables | biological process (GO:0008150),  |
-| Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
+| Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyPrematureBiologicalProcess.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyPrematureBiologicalProcess.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyPrematureBiologicalProcess.tsv) |
 
 ### Abnormally prominent anatomical entity
@@ -1896,7 +1896,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyProminentAnatomicalEntity |
 | Classes | PATO:0001482, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abnormally protruding anatomical entity in location
@@ -1920,7 +1920,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyRotatedAnatomicalEntity |
 | Classes | PATO:0001599, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Abscess in location
@@ -1944,7 +1944,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | aplasticAnatomicalEntity |
 | Classes | PATO:0001483, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Aplastic hypoplastic anatomical entity
@@ -1956,7 +1956,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | aplasticHypoplasticAnatomicalEntity |
 | Classes | PATO:0002290, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Atretic anatomical entity
@@ -2016,7 +2016,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | blisteredAnatomicalEntityInLocation |
 | Classes | PATO:0000460, UBERON:0001062, PATO:0001928, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/blisteredAnatomicalEntityInLocation.tsv) |
 
 ### Calcified anatomical entity
@@ -2040,7 +2040,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | cystInLocation |
 | Classes | PATO:0001673, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Damaged anatomical entity in location
@@ -2052,7 +2052,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | damagedAnatomicalEntityInLocation |
 | Classes | PATO:0001167, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Dysplastic anatomical entity
@@ -2088,7 +2088,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | fibroticAnatomicalEntity |
 | Classes | PATO:0040019, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors |  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/fibroticAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/fibroticAnatomicalEntity.tsv) |
 
 ### Hypoplastic anatomical entity
@@ -2100,7 +2100,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | hypoplasticAnatomicalEntity |
 | Classes | PATO:0000645, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
 ### Lesioned anatomical entity
@@ -2136,7 +2136,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | malformedAnatomicalEntityByType |
 | Classes | PATO:0000646, PATO:0000460, UBERON:0001062,  |
 | Variables | malformed (PATO:0000646), anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/malformedAnatomicalEntityByType.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/malformedAnatomicalEntityByType.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/malformedAnatomicalEntityByType.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/malformedAnatomicalEntityByType.tsv) |
 
 ### Malformed anatomical entity in location
