@@ -1,7 +1,11 @@
 pattern_name: abnormalLevelOfChemicalEntityWithRoleInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalLevelOfChemicalEntityWithRoleInLocation.yaml
-description: "An abnormal level of a chemical with a specific role, e.g. metabolite, in a location, such as the blood, cerbrospinal fluid (CSF), etc. For example, HP_0032364 Abnormal CSF amino acid level."
+description: "An abnormal level of a chemical with a specific role, such as a metabolite or hormone like androgen, in a location, such as blood. For example, HP_0030347 'Abnormal circulating androgen level'."
 
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0002-3528-5267
+  
 classes:
   amount: PATO:0000070
   abnormal: PATO:0000460
@@ -9,7 +13,7 @@ classes:
   role: CHEBI:50906
   independent continuant: BFO:0000004
 
-relations: 
+relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
@@ -17,7 +21,7 @@ relations:
   part_of: BFO:0000050
 
 annotationProperties:
-  exact_synonym: oio:hasExactSynonym 
+  exact_synonym: oio:hasExactSynonym
 
 vars:
   role: "role"
@@ -26,18 +30,20 @@ vars:
 name:
   text: "abnormal %s %s level"
   vars:
-    - role
-    - location
+  - role
+  - location
 
 def:
   text: "An abnormal amount of %s in the %s."
   vars:
-    - role
-    - location
+  - role
+  - location
 
 equivalentTo:
   text: "'has_part' some ('amount' and ('inheres_in' some ('chemical entity' and ('has_role' some %s) and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - role
-    - location
+  - role
+  - location
 
+contributors:
+- https://orcid.org/0000-0002-3528-5267

@@ -1,6 +1,6 @@
 pattern_name: blisteredAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/blisteredAnatomicalEntityInLocation.yaml
-description : "Blistering of an an anatomical entity, like blistered skin or feet."
+description: "Blistering of an an anatomical entity, like blistered skin or feet."
 
 classes:
   abnormal: PATO:0000460
@@ -25,24 +25,26 @@ vars:
 name:
   text: "abnormally blistered %s in %s"
   vars:
-   - anatomical_entity
-   - location
+  - anatomical_entity
+  - location
 
 def:
-  text: "An abnormally blistered %s in %s."
+  text: "Abnormal local accumulation of fluid underneath the surface causing a blistered %s in %s."
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "%s %s with blister"
-    vars:
-     - location
-     - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "%s %s with blister"
+  vars:
+  - location
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('blistered' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
+contributors:
+- https://orcid.org/0000-0002-3528-5267
