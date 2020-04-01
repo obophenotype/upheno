@@ -4,6 +4,7 @@ description: "An abnormal level of a chemical with a specific role, such as a me
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0002-3528-5267
   
 classes:
   amount: PATO:0000070
@@ -37,5 +38,3 @@ equivalentTo:
   text: "'has_part' some ('amount' and ('inheres_in' some ('chemical entity' and ('has_role' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
   - role
-contributors:
-- https://orcid.org/0000-0002-3528-5267
