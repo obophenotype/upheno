@@ -1,6 +1,6 @@
 pattern_name: abnormallyIncreasedLevelOfChemicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntityInLocation.yaml
-description: ""
+description: "An abnormal increase of a chemical entity in a lcoation. Example 'Increased CSF lactate', i.e. increased lactate in cerebrospinal fluid (HP_0002490)."
 
 classes:
   increased amount: PATO:0000470
