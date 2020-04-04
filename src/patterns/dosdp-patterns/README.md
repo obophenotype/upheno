@@ -742,8 +742,8 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalResistanceOfWholeOrganismToEntity.yaml |
 | Name | abnormalResistanceOfWholeOrganismToEntity.yaml |
-| Classes | PATO:0001178, PATO:0000460, CARO:0010004, owl:Thing,  |
-| Variables | entity (owl:Thing),  |
+| Classes | PATO:0001178, PATO:0000460, CARO:0010004, BFO:0000001,  |
+| Variables | entity (BFO:0000001),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
 | Examples |  |
 
@@ -766,8 +766,8 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfPhysicalEntity.yaml |
 | Name | abnormalShapeOfPhysicalEntity |
-| Classes | PATO:0000052, PATO:0000460, owl:Thing,  |
-| Variables | entity (owl:Thing),  |
+| Classes | PATO:0000052, PATO:0000460, BFO:0000002,  |
+| Variables | entity (BFO:0000002),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormalShapeOfPhysicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalShapeOfPhysicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormalShapeOfPhysicalEntity.tsv) [dpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/dpo/abnormalShapeOfPhysicalEntity.tsv) [planp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/planp/abnormalShapeOfPhysicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalShapeOfPhysicalEntity.tsv) |
 
@@ -1258,8 +1258,8 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml |
 | Name | abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml |
-| Classes | PATO:0001651, PATO:0000460, CARO:0010004, owl:Thing,  |
-| Variables | entity (owl:Thing),  |
+| Classes | PATO:0001651, PATO:0000460, CARO:0010004, BFO:0000001,  |
+| Variables | entity (BFO:0000001),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) [dpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/dpo/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) [phipo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/phipo/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) |
 
@@ -1774,8 +1774,8 @@ This is a listing of all the patterns hosted as part of this directory
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml |
 | Name | abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml |
-| Classes | PATO:0001650, PATO:0000460, CARO:0010004, owl:Thing,  |
-| Variables | entity (owl:Thing),  |
+| Classes | PATO:0001650, PATO:0000460, CARO:0010004, BFO:0000001,  |
+| Variables | entity (BFO:0000001),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) [dpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/dpo/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) [phipo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/phipo/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) |
 
@@ -2111,6 +2111,18 @@ This is a listing of all the patterns hosted as part of this directory
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/lesionedAnatomicalEntity.yaml |
 | Name | lesionedAnatomicalEntity |
 | Classes | PATO:0000460, UBERON:0001062, PATO:0040025,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
+
+### Lysed anatomical entity
+*expansive cellular membrane destruction in anatomical entity.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/lysedAnatomicalEntity.yaml |
+| Name | lysedAnatomicalEntity |
+| Classes | PATO:0000460, UBERON:0001062, PATO:0065001,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
