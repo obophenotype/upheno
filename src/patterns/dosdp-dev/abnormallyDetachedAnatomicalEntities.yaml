@@ -24,9 +24,10 @@ vars:
   anatomical_entity_detached_from: "'anatomical entity'"
 
 name:
-  text: "detached %s"
+  text: "detached %s from %s"
   vars:
   - anatomical_entity
+  - anatomical_entity_detached_from
 
 def:
   text: "Detachment of the %s and from the %s."
