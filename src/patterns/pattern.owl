@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/pattern.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/releases/2020-04-04/upheno-pattern.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/releases/2020-04-28/upheno-pattern.owl"/>
     </owl:Ontology>
     
 
@@ -9564,6 +9564,26 @@ MH: sexual subtypes should probably be logically defined based on sexual process
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structural quality inhering in a bearer by virtue of the bearer&apos;s having connection or association with another entity.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001435</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#relational_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attachment quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001435"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structural quality inhering in a bearer by virtue of the bearer&apos;s having connection or association with another entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001439 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001439">
@@ -9680,6 +9700,28 @@ MH: sexual subtypes should probably be logically defined based on sexual process
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structural quality which is held by a bearer when the latter exhibits an excessive accumulation of extracellular fluid.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thefreedictionary.com:thefreedictionary.com</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001453">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001435"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An attachment quality inhering in a bearer by virtue of the bearer&apos;s lacking connection or association with another entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detached</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001453</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#relational_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#value_slim"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detached from</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001453"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An attachment quality inhering in a bearer by virtue of the bearer&apos;s lacking connection or association with another entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATOC:GVG</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -15977,6 +16019,41 @@ MH: sexual subtypes should probably be logically defined based on sexual process
     
 
 
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDetachedAnatomicalEntities.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDetachedAnatomicalEntities.yaml">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001453"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detachment of the &apos;anatomical entity&apos; and from the &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDetachedAnatomicalEntities</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detached &apos;anatomical entity&apos; from &apos;anatomical entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDuplicatedAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDuplicatedAnatomicalEntity.yaml">
@@ -16842,7 +16919,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An increased occurrence of &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedOccurrenceOfBiologicalProcess</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased occurrence of &apos;biological_process&apos;</rdfs:label>
@@ -16883,8 +16960,8 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcess.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An increased occurrence of &apos;biological process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased occurrence of &apos;biological process&apos; in &apos;independent continuant&apos;</rdfs:label>
@@ -16921,6 +16998,79 @@ MH: sexual subtypes should probably be logically defined based on sexual process
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;anatomical entity&apos; hyperpigmentation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increasing of pigment in the &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased pigmentation in the &apos;anatomical entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002304"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased qualitatively &apos;biological process&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedQualityOfBiologicalProcess</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased qualitatively &apos;biological process&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002304"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased qualitatively &apos;biological process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedQualityOfBiologicalProcessInLocation</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased qualitatively &apos;biological process&apos; in &apos;independent continuant&apos;</rdfs:label>
     </owl:Class>
     
 
@@ -16979,7 +17129,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedRateOfBiologicalProcess</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased &apos;biological_process&apos;</rdfs:label>
@@ -17020,7 +17170,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased &apos;biological process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedRateOfBiologicalProcessInLocation</terms:title>
@@ -18293,7 +18443,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002314"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
                             </owl:Restriction>
                             <owl:Restriction>

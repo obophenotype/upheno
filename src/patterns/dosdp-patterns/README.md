@@ -1395,6 +1395,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyDelayedBiologicalProcess.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDelayedBiologicalProcess.tsv) [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormallyDelayedBiologicalProcess.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDelayedBiologicalProcess.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDelayedBiologicalProcess.tsv) |
 
+### Abnormally detached anatomical entities
+*A partial or complete loss of connection between anatomical entities. For example, MP_0006023 detached Reissner membrane or MP_0003099 detached retina.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDetachedAnatomicalEntities.yaml |
+| Name | abnormallyDetachedAnatomicalEntities |
+| Classes | PATO:0001453, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormally duplicated anatomical entity
 *An anatomical entity that was abnormally duplicated, such as a duplicated digit 1.*
 
@@ -1706,6 +1718,30 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [planp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/planp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) |
+
+### Abnormally increased quality of biological process
+*Process that appears in some (unspecified) way strengthened or increased (more frequent, more strong).*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml |
+| Name | abnormallyIncreasedQualityOfBiologicalProcess |
+| Classes | PATO:0002304, PATO:0000460, GO:0008150,  |
+| Variables | biological process (GO:0008150),  |
+| Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
+| Examples |  |
+
+### Abnormally increased quality of biological process in location
+*Process in a location that appears in some (unspecified) way strengthened or increased (more frequent, more strong).*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml |
+| Name | abnormallyIncreasedQualityOfBiologicalProcessInLocation |
+| Classes | PATO:0002304, PATO:0000460, GO:0008150, BFO:0000004,  |
+| Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
+| Examples |  |
 
 ### Abnormally increased rate of behavior
 *Behavior occurs with a higher frequency (more often) than usual (per unit of time)*

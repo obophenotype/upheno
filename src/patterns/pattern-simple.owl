@@ -1323,6 +1323,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDetachedAnatomicalEntities.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDetachedAnatomicalEntities.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detachment of the &apos;anatomical entity&apos; and from the &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDetachedAnatomicalEntities</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detached &apos;anatomical entity&apos; from &apos;anatomical entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDuplicatedAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDuplicatedAnatomicalEntity.yaml">
@@ -1594,7 +1605,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcess.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcess.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An increased occurrence of &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedOccurrenceOfBiologicalProcess</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased occurrence of &apos;biological_process&apos;</rdfs:label>
@@ -1605,8 +1616,8 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcess.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An increased occurrence of &apos;biological process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased occurrence of &apos;biological process&apos; in &apos;independent continuant&apos;</rdfs:label>
@@ -1627,6 +1638,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased qualitatively &apos;biological process&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedQualityOfBiologicalProcess</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased qualitatively &apos;biological process&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased qualitatively &apos;biological process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedQualityOfBiologicalProcessInLocation</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased qualitatively &apos;biological process&apos; in &apos;independent continuant&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBehavior.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBehavior.yaml">
@@ -1641,7 +1675,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedRateOfBiologicalProcess</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased &apos;biological_process&apos;</rdfs:label>
@@ -1652,7 +1686,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcessInLocation.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcessInLocation.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased &apos;biological process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedRateOfBiologicalProcessInLocation</terms:title>
