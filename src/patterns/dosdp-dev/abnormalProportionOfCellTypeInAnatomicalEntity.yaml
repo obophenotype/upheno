@@ -25,15 +25,15 @@ vars:
   location: "'independent continuant'"
 
 name:
-  text: "abnormal proportion of %s"
+  text: "abnormal proportion of %s in %s"
   vars:
   - cell
   - location
 
 def:
-  text: "A deviation from the normal proportion of %s in the %s.
+  text: "A deviation from the normal proportion of %s in the %s."
   vars:
-  - chemical
+  - cell
   - location
 
 equivalentTo:
