@@ -747,6 +747,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
+### Abnormal proportion of cell type towards cell type in location
+*An abnormal proportion of a cell type relative to another cell type, in a location, like the blood. For example: 'Abnormal CD4+CD25+ regulatory T cell proportion relative to T cells in the blood'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalProportionOfCellTypeTowardsCellTypeInLocation.yaml |
+| Name | abnormalProportionOfCellTypeTowardsCellTypeInLocation |
+| Classes | PATO:0001470, PATO:0000460, CL:0000000, BFO:0000004,  |
+| Variables | cell (CL:0000000), cell (CL:0000000), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormal resistance of whole organism to entity
 *A phenotype in which an organism shows a changed resistance to a something, for example a chemical or a process, and it is unknown unspecified whether the resistance appears increased or decreased.*
 
@@ -2103,6 +2115,30 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 
+### Decreased proportion of cell type in location
+*An decreased proportion of a cell, in a location, like the blood. For example: HP_0032183 Decreased proportion of memory T cells.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/decreasedProportionOfCellTypeInLocation.yaml |
+| Name | decreasedProportionOfCellTypeInLocation |
+| Classes | PATO:0040042, PATO:0000460, CL:0000000, BFO:0000004,  |
+| Variables | cell (CL:0000000), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
+### Decreased proportion of cell type towards cell type in location
+*A decreased proportion of a cell type relative to another cell type, in a location, like the blood. For example: 'decreased CD4+CD25+ regulatory T cell proportion relative to T cells in the blood'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/decreasedProportionOfCellTypeTowardsCellTypeInLocation.yaml |
+| Name | decreasedProportionOfCellTypeTowardsCellTypeInLocation |
+| Classes | PATO:0040042, PATO:0000460, CL:0000000, BFO:0000004,  |
+| Variables | cell (CL:0000000), cell (CL:0000000), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Dysplastic anatomical entity
 *A congenital malformation of an anatomical entity, such as HP_0005176 'Dysplastic aortic valve'.*
 
@@ -2161,6 +2197,30 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000645, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
+
+### Increased proportion of cell type in location
+*An increased proportion of a cell, in a location, like the blood. For example: HP_0032184 Increased proportion of memory T cells.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/increasedProportionOfCellTypeInLocation.yaml |
+| Name | increasedProportionOfCellTypeInLocation |
+| Classes | PATO:0040043, PATO:0000460, CL:0000000, BFO:0000004,  |
+| Variables | cell (CL:0000000), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
+### Increased proportion of cell type towards cell type in location
+*An increased proportion of a cell type relative to another cell type, in a location, like the blood. For example: 'increased CD4+CD25+ regulatory T cell proportion relative to T cells in the blood'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/increasedProportionOfCellTypeTowardsCellTypeInLocation.yaml |
+| Name | increasedProportionOfCellTypeTowardsCellTypeInLocation |
+| Classes | PATO:0040043, PATO:0000460, CL:0000000, BFO:0000004,  |
+| Variables | cell (CL:0000000), cell (CL:0000000), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
 ### Lesioned anatomical entity
