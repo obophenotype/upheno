@@ -23,7 +23,7 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "%s in %s"
+  text: "%s %s"
   vars:
    - fractured
    - anatomical_entity
