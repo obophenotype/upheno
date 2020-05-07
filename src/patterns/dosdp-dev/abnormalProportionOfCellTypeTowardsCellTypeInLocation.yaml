@@ -23,27 +23,27 @@ annotationProperties:
 
 vars:
   cell: "cell"
-  compared cell: "'compared cell'"
+  compared_cell: "'cell'"
   location: "'independent continuant'"
 
 name:
   text: "abnormal proportion of %s relative to %s in %s"
   vars:
   - cell
-  - compared cell
+  - compared_cell
   - location
 
 def:
   text: "A deviation from the normal proportion of %s relative to %s in the %s."
   vars:
   - cell
-  - compared cell
+  - compared_cell
   - location
 
 equivalentTo:
-  text: "'has_part' some ('proportionality to' and ('inheres_in' some (%s and ('part_of' some %s))) and ('towards' some 'cell') and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('proportionality to' and ('inheres_in' some (%s and ('part_of' some %s))) and ('towards' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
   - cell
-  - compared cell
   - location
+  - compared_cell
 
