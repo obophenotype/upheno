@@ -735,6 +735,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalPositionOfAnatomicalEntityInLocation.tsv) |
 
+### Abnormal proportion of cell type in location
+*An abnormal proportion of a cell, in a location, like the blood. For example: HP_0020111 'Abnormal CD4+CD25+ regulatory T cell proportion'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalProportionOfCellTypeInLocation.yaml |
+| Name | abnormalProportionOfCellTypeInLocation |
+| Classes | PATO:0001470, PATO:0000460, CL:0000000, BFO:0000004,  |
+| Variables | cell (CL:0000000), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormal resistance of whole organism to entity
 *A phenotype in which an organism shows a changed resistance to a something, for example a chemical or a process, and it is unknown unspecified whether the resistance appears increased or decreased.*
 
@@ -2126,6 +2138,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/fibroticAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/fibroticAnatomicalEntity.tsv) |
+
+### Fractured anatomical entity
+*This pattern is for generating fractured bone terms, such as Linear fracture in tibia or Spiral fracture in humerus.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/fracturedAnatomicalEntity.yaml |
+| Name | fracturedAnatomicalEntity |
+| Classes | PATO:0040034, PATO:0000460, UBERON:0001062,  |
+| Variables | fractured (PATO:0040034), anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Hypoplastic anatomical entity
 *An underdeveloped or small anatomical entity. For example, HP_0008417 'Vertebral hypoplasia'*
