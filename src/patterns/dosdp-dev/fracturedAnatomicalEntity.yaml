@@ -35,7 +35,7 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('%s' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some (%s and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - fractured
     - anatomical_entity
