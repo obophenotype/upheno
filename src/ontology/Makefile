@@ -127,11 +127,11 @@ hp_mp_phenodigm_2_5.tsv: mp_hp.owl
 
 ####################################################
 
-#PATTERN_IN=https://docs.google.com/spreadsheets/d/e/2PACX-1vRb36ExWkOYjM9Mc-IpbEev5o9nlkOUf9xQbdaSB-oD5l4K6CkSLZv3-xLlaPJWCQKhlW0R4tXVifqv/pub?gid=510110305&single=true&output=tsv
-#PATTERN_TEMPLATE=../patterns/dosdp-dev/fracturedAnatomicalEntity.yaml
+PATTERN_IN=https://docs.google.com/spreadsheets/d/e/2PACX-1vRb36ExWkOYjM9Mc-IpbEev5o9nlkOUf9xQbdaSB-oD5l4K6CkSLZv3-xLlaPJWCQKhlW0R4tXVifqv/pub?gid=510110305&single=true&output=tsv
+PATTERN_TEMPLATE=../patterns/dosdp-dev/fracturedAnatomicalEntity.yaml
 
-PATTERN_IN=https://docs.google.com/spreadsheets/d/e/2PACX-1vSj7QlW6Skmw4g9cy4kNWFx4634TTchAHCbd7MKL_Hpf9Dba2l8fv16f7H_4lLfuOpV1davS-oZ_uzl/pub?gid=657591629&single=true&output=tsv
-PATTERN_TEMPLATE=../patterns/dosdp-dev/abnormalProportionOfCellTypeInLocation.yaml
+#PATTERN_IN=https://docs.google.com/spreadsheets/d/e/2PACX-1vSj7QlW6Skmw4g9cy4kNWFx4634TTchAHCbd7MKL_Hpf9Dba2l8fv16f7H_4lLfuOpV1davS-oZ_uzl/pub?gid=657591629&single=true&output=tsv
+#PATTERN_TEMPLATE=../patterns/dosdp-dev/abnormalProportionOfCellTypeInLocation.yaml
 	
 generated_pattern.tsv:
 	wget "$(PATTERN_IN)" -O $@

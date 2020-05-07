@@ -29,10 +29,10 @@ name:
    - anatomical_entity
 
 def:
-  text: " A %s of the %s."
+  text: "A %s that is %s."
   vars:
-    - fractured
     - anatomical_entity
+    - fractured
 
 equivalentTo:
   text: "'has_part' some (%s and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
