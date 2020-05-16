@@ -1,6 +1,6 @@
 pattern_name: decreasedStabilityOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/decreasedStabilityOfAnatomicalEntity.yaml
-description: "A decreased or impaired ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability."
+description: "An abnormally decreased or impaired ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability."
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
@@ -19,12 +19,12 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Decreased %s stability"
+  text: "Abnormally decreased %s stability"
   vars:
    - anatomical_entity
 
 def:
-  text: "Decreased stability of %s."
+  text: "An abnormally decreased stability of the %s."
   vars:
     - anatomical_entity
 
