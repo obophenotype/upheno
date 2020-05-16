@@ -819,6 +819,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples |  |
 
+### Abnormal stability of anatomical entity
+*An abnormality in the ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalStabilityOfAnatomicalEntity.yaml |
+| Name | abnormalStabilityOfAnatomicalEntity |
+| Classes | PATO:0015026, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703),  |
+| Examples |  |
+
 ### Abnormal weight of anatomical entity
 **
 
@@ -1321,6 +1333,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000304,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
+
+### Abnormally decreased stability of anatomical entity
+*An abnormally decreased or impaired ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedStabilityOfAnatomicalEntity.yaml |
+| Name | abnormallyDecreasedStabilityOfAnatomicalEntity |
+| Classes | PATO:0015028, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703),  |
 | Examples |  |
 
 ### Abnormally decreased strength of anatomical entity
@@ -1873,6 +1897,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000303,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
+
+### Abnormally increased stability of anatomical entity
+*An abnormally increased or impaired ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedStabilityOfAnatomicalEntity.yaml |
+| Name | abnormallyIncreasedStabilityOfAnatomicalEntity |
+| Classes | PATO:0015027, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703),  |
 | Examples |  |
 
 ### Abnormally increased thickness of anatomical entity
