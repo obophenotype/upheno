@@ -19,12 +19,12 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Abnormal stability of %s"
+  text: "abnormal stability of %s"
   vars:
    - anatomical_entity
 
 def:
-  text: "Any anomaly in the stability of %s."
+  text: "Any abnormality in the stability of the %s."
   vars:
     - anatomical_entity
 
