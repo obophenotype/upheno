@@ -1,0 +1,34 @@
+pattern_name: decreasedStabilityOfAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/decreasedStabilityOfAnatomicalEntity.yaml
+description: "A decreased or impaired ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability."
+
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+
+classes:
+  decreased stability: PATO:0015028
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  
+vars:
+  anatomical_entity: "'anatomical entity'"
+
+name:
+  text: "Decreased %s stability"
+  vars:
+   - anatomical_entity
+
+def:
+  text: "Decreased stability of %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('decreased stability' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - anatomical_entity
