@@ -1,9 +1,11 @@
-pattern_name: increasedStabilityOfAnatomicalEntity
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/increasedStabilityOfAnatomicalEntity.yaml
+pattern_name: abnormallyIncreasedStabilityOfAnatomicalEntity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedStabilityOfAnatomicalEntity.yaml
 description: "An abnormally increased or impaired ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability."
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0002-7356-1779
+  - https://orcid.org/0000-0002-4532-2703
 
 classes:
   increased stability: PATO:0015027
