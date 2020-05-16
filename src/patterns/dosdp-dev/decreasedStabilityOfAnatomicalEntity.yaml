@@ -19,7 +19,7 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Abnormally decreased %s stability"
+  text: "abnormally decreased %s stability"
   vars:
    - anatomical_entity
 
