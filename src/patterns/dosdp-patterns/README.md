@@ -435,18 +435,6 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [planp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/planp/abnormalDistanceBetweenAnatomicalEntities.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalDistanceBetweenAnatomicalEntities.tsv) |
 
-### Abnormal fracture of anatomical entity
-*An abnormal fracture in an anatomical entity. A normal fracture is when you fall off your bike and break your arm. A pathological or abnormal fracture means that for instance you have cancer and a metastasis has weakened a bone that then fractures without an adequate trauma.*
-
-| Attribute | Info |
-|----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalFractureOfAnatomicalEntity.yaml |
-| Name | abnormalFractureOfAnatomicalEntity |
-| Classes | PATO:0001444, PATO:0000460, UBERON:0001062,  |
-| Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-8169-9049](https://orcid.org/0000-0002-8169-9049),  |
-| Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormalFractureOfAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalFractureOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalFractureOfAnatomicalEntity.tsv) |
-
 ### Abnormal functionality of anatomical entity
 *Dysfunction of an entity, such as an anatomical entity, like an organ, for example HP_0030964 'Abnormal aortic physiology'*
 
@@ -2115,6 +2103,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/blisteredAnatomicalEntityInLocation.tsv) |
 
+### Broken anatomical entity
+*A broken anatomical entity. Consider fracturedAnatomicalEntity pattern instead.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/brokenAnatomicalEntity.yaml |
+| Name | brokenAnatomicalEntity |
+| Classes | PATO:0001444, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Calcified anatomical entity
 *A hardening of an anatomical entity, caused by deposition of or conversion into calcium carbonate or some other insoluble calcium compounds. Example: HP_0011415 'Calcified placenta.*
 
@@ -2212,15 +2212,15 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/fibroticAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/fibroticAnatomicalEntity.tsv) |
 
 ### Fractured anatomical entity
-*This pattern is for generating fractured bone terms, such as Linear fracture in tibia or Spiral fracture in humerus.*
+*An abnormal fracture in an anatomical entity. A normal fracture is when you fall off your bike and break your arm. A pathological or abnormal fracture means that for instance you have cancer and a metastasis has weakened a bone that then fractures without an adequate trauma.*
 
 | Attribute | Info |
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/fracturedAnatomicalEntity.yaml |
 | Name | fracturedAnatomicalEntity |
 | Classes | PATO:0040034, PATO:0000460, UBERON:0001062,  |
-| Variables | fractured (PATO:0040034), anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-8169-9049](https://orcid.org/0000-0002-8169-9049),  |
 | Examples |  |
 
 ### Hypoplastic anatomical entity
