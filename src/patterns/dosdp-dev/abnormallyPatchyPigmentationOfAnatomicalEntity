@@ -28,13 +28,10 @@ name:
 
 annotations:
 - annotationProperty: exact_synonym
-  text: "loss of pigment in the %s"
+  text: "irregular pigment in the %s"
   vars:
   - anatomical_entity
-- annotationProperty: exact_synonym
-  text: "%s hypopigmentation"
-  vars:
-  - anatomical_entity
+
 
 def:
   text: "%s with a degree of pigmentation quality that is diversified with patches, or irregularity."
