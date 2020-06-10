@@ -2228,6 +2228,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/mislocalisedAnatomicalEntityInLocation.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/mislocalisedAnatomicalEntityInLocation.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalPositionOfAnatomicalEntityInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/mislocalisedAnatomicalEntity.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal location of the &apos;anatomical entity&apos; in the &apos;independent continuant&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mislocalisedAnatomicalEntityInLocation</terms:title>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal position of &apos;anatomical entity&apos; in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally localised &apos;anatomical entity&apos; in &apos;independent continuant&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml">
