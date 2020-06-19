@@ -795,6 +795,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormalSizeOfAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalSizeOfAnatomicalEntity.tsv) [dpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/dpo/abnormalSizeOfAnatomicalEntity.tsv) [planp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/planp/abnormalSizeOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalSizeOfAnatomicalEntity.tsv) |
 
+### Abnormal size of cellular component
+*An abnormal size (the relative extent of something) of a cellular component, such as abnormal vacuole size.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalSizeOfCellularComponent.yaml |
+| Name | abnormalSizeOfCellularComponent |
+| Classes | PATO:0000117, PATO:0000460, GO:0005575,  |
+| Variables | cellular component (GO:0005575),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormal spatial pattern of anatomical entity
 *Any unspecified abnormality of the spatial pattern (ie the repetition of the placement of its parts) of an anatomical entity, such as HP_0010720 Abnormal hair pattern.*
 
@@ -1310,6 +1322,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) |
+
+### Abnormally decreased size of cellular component
+*Abnormally small cellular component, e.g. decreased contractile vacuole size'*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfCellularComponent.yaml |
+| Name | abnormallyDecreasedSizeOfCellularComponent |
+| Classes | PATO:0000587, PATO:0000460, GO:0005575,  |
+| Variables | cellular component (GO:0005575),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
 
 ### Abnormally decreased speed of anatomical entity
 *Decreased speed of an antomical entity. i.e., decreased speed of whole organism*
@@ -1875,6 +1899,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
 | Examples | [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) |
 
+### Abnormally increased size of cellular component
+*A enlarged cellular component, like increased phagolysosome size.'*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedSizeOfCellularComponent.yaml |
+| Name | abnormallyIncreasedSizeOfCellularComponent |
+| Classes | PATO:0000586, PATO:0000460, GO:0005575,  |
+| Variables | cellular component (GO:0005575),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Abnormally increased speed of anatomical entity
 *Increased speed of an antomical entity. i.e., increased speed of whole organism*
 
@@ -2223,6 +2259,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-8169-9049](https://orcid.org/0000-0002-8169-9049),  |
 | Examples |  |
 
+### Fractured anatomical entity by fracture type
+*This pattern is for generating fractured bone terms, such as Linear fracture in tibia or Spiral fracture in humerus.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/fracturedAnatomicalEntityByFractureType.yaml |
+| Name | fracturedAnatomicalEntityByFractureType |
+| Classes | PATO:0040034, PATO:0000460, UBERON:0001062,  |
+| Variables | fractured (PATO:0040034), anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Examples |  |
+
 ### Hypoplastic anatomical entity
 *An underdeveloped or small anatomical entity. For example, HP_0008417 'Vertebral hypoplasia'*
 
@@ -2330,6 +2378,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/mislocalisedAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/mislocalisedAnatomicalEntity.tsv) [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/mislocalisedAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/mislocalisedAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/mislocalisedAnatomicalEntity.tsv) |
+
+### Mislocalised anatomical entity in location
+*Abnormal anatomic location of an anatomicaly entity, such as XAO:0005038 'mislocalised nucleus in the myoblast'.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/mislocalisedAnatomicalEntityInLocation.yaml |
+| Name | mislocalisedAnatomicalEntityInLocation |
+| Classes | PATO:0000460, UBERON:0001062, PATO:0000628, BFO:0000004,  |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0003-1074-8103](https://orcid.org/0000-0003-1074-8103),  |
+| Examples |  |
 
 ### Necrotic anatomical entity
 *The presence of unprogrammed cell death in an anatomical entity.*
