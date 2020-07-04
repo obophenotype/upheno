@@ -771,6 +771,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [wbphenotype](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/wbphenotype/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [dpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/dpo/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [planp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/planp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) |
 
+### Abnormal shape of anatomical entity by shape type in location
+*Anatomical entity with an abnormal shape of a specified shape in a particular location, e.g. Y-shaped bone in the leg.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfAnatomicalEntityByShapeTypeInLocation.yaml |
+| Name | abnormalShapeOfAnatomicalEntityByShapeTypeInLocation |
+| Classes | PATO:0000052, PATO:0000460, UBERON:0001062, BFO:0000004,  |
+| Variables | anatomical entity (UBERON:0001062), shape (PATO:0000052), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
+
 ### Abnormal shape of physical entity
 *abnormal shape of an anatomical entity or a measurement of a process, such as an ECG wave*
 
@@ -1983,6 +1995,30 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [planp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/planp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) |
 
+### Abnormally increased width of anatomical entity in location
+*An abnormal increase in the width of an anatomical entity in a location, e.g. an abnormally wide bone in the hand.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWidthOfAnatomicalEntityInLocation.yaml |
+| Name | abnormallyIncreasedWidthOfAnatomicalEntityInLocation |
+| Classes | PATO:0000460, UBERON:0001062, PATO:0000600, BFO:0000004,  |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
+
+### Abnormally inverted anatomical entity in location
+*An abnormal configuration of an anatomical entity such that it is reversed in position, order, or condition in a particular location, e.g. an inverted joint in a limb.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyInvertedAnatomicalEntityInLocation.yaml |
+| Name | abnormallyInvertedAnatomicalEntityInLocation |
+| Classes | PATO:0000625, PATO:0000460, UBERON:0001062, BFO:0000004,  |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
+
 ### Abnormally open anatomical entity
 *Example: abnormal open anterior neural tube*
 
@@ -2041,6 +2077,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001599, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
+
+### Abnormally segmented anatomical entity in location
+*Anatomical entity that is abnormally segmented in a particular location, e.g. abnormally segmented bone in a limb.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallySegmentedAnatomicalEntityInLocation.yaml |
+| Name | abnormallySegmentedAnatomicalEntityInLocation |
+| Classes | PATO:0000460, UBERON:0001062, PATO:0002312, BFO:0000004,  |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
 | Examples |  |
 
 ### Abscess in location
@@ -2114,6 +2162,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/bifurcatedAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/bifurcatedAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/bifurcatedAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/bifurcatedAnatomicalEntity.tsv) |
+
+### Bifurcated anatomical entity in location
+*Abnormal branching of an anatomical entity into two branches in a particular location, e.g. bifurcated blood vessel in a limb.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns/bifurcatedAnatomicalEntityInLocation.yaml |
+| Name | bifurcatedAnatomicalEntityInLocation |
+| Classes | PATO:0001784, PATO:0000460, UBERON:0001062, BFO:0000004,  |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
 
 ### Blistered anatomical entity
 *The presence of blisters on an anatomical entity, such as blisters on the skin.*
