@@ -2031,6 +2031,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/mp/abnormallyOpenAnatomicalEntity.tsv) [hp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/hp/abnormallyOpenAnatomicalEntity.tsv) [xpo](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/xpo/abnormallyOpenAnatomicalEntity.tsv) [zp](https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches/zp/abnormallyOpenAnatomicalEntity.tsv) |
 
+### Abnormally patchy pigmentation of anatomical entity
+*Patchy pigmentation of an anatomical entity, such as patchy skin pigmentation.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPatchyPigmentationOfAnatomicalEntity.yaml |
+| Name | abnormallyPatchyPigmentationOfAnatomicalEntity |
+| Classes | PATO:0000460, UBERON:0001062, PATO:0065002,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
+
 ### Abnormally premature biological process
 *A biological process which starts earlier than the natural start time or the reference process.*
 
@@ -2340,6 +2352,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | hypoplasticAnatomicalEntity |
 | Classes | PATO:0000645, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
+| Examples |  |
+
+### Hypoplastic anatomical entity in location
+*An underdeveloped or small anatomical entity in a location. For example, PLANP:0000832 underdeveloped eyes in tail fragment*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/hypoplasticAnatomicalEntityInLocation.yaml |
+| Name | hypoplasticAnatomicalEntityInLocation |
+| Classes | PATO:0000645, PATO:0000460, UBERON:0001062, BFO:0000004,  |
+| Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples |  |
 

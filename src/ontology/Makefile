@@ -79,6 +79,10 @@ mirror/cl.owl:
 mirror/nbo.owl:
 	$(ROBOT) convert -I $(OBO)/nbo/nbo-base.owl -o $@
 .PRECIOUS: mirror/nbo.owl
+	
+mirror/chebi.owl:
+	$(ROBOT) convert -I $(OBO)/chebi.owl.gz -o $@
+.PRECIOUS: mirror/chebi.owl
 
 	
 mirror/uberon-bridge-to-caro.owl:
