@@ -45,7 +45,8 @@ def:
     - location
 
 equivalentTo:
-  text: "'has_part' some ('absent' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has part' some ('lacks all parts of type' and ('inheres in' some %s) and ('towards' value %s) and ('has modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
     - location
+    - anatomical_entity
+
