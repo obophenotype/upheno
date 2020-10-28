@@ -25,8 +25,8 @@ md_file = sys.argv[2]
 #pattern_dir="/ws/upheno/src/patterns/dosdp-dev"
 #md_file=pattern_dir+"/README.md"
 config_file = "https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/curation/upheno-config.yaml"
-pattern_matches_location = "https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/curation/pattern-matches"
-pattern_matches_location_gh = "https://github.com/obophenotype/upheno-dev/tree/master/src/curation/pattern-matches"
+pattern_matches_location = "https://data.monarchinitiative.org/upheno2/current/pattern-matches/"
+pattern_matches_location_gh = "https://data.monarchinitiative.org/upheno2/current/pattern-matches/"
 config = yaml.load(urllib.request.urlopen(config_file))
 
 phenotype_ontologies = config.get("species_modules")
