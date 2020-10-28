@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/pattern.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/releases/2020-08-19/upheno-pattern.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/releases/2020-10-28/upheno-pattern.owl"/>
     </owl:Ontology>
     
 
@@ -11750,6 +11750,79 @@ MH: sexual subtypes should probably be logically defined based on sexual process
     
 
 
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcess.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcess.yaml">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000161"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Changed rate of &apos;biological_process&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalRateOfBiologicalProcess</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changed &apos;biological_process&apos; frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcessInLocation.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcessInLocation.yaml">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000161"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcess.yaml"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Changed rate of &apos;biological_process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalRateOfBiologicalProcessInLocation</terms:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changed &apos;biological_process&apos; frequency in &apos;independent continuant&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalResistanceOfWholeOrganismToEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalResistanceOfWholeOrganismToEntity.yaml">
@@ -13264,6 +13337,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcess.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDecreasedRateOfBiologicalProcess</terms:title>
@@ -13305,6 +13379,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcessInLocation.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedQualityOfBiologicalProcessInLocation.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased &apos;biological_process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
@@ -14953,6 +15028,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcess.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedRateOfBiologicalProcess</terms:title>
@@ -14994,6 +15070,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcessInLocation.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcessInLocation.yaml"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased &apos;biological process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
