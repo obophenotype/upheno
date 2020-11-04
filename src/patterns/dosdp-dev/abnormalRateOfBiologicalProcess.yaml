@@ -1,6 +1,6 @@
 pattern_name: abnormalRateOfBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcess.yaml
-description: "Changed frequency of a biological process occuring (per some unit of time)."
+description: "Changed rate of a biological process occuring (per some unit of time)."
 
 contributors:
   - https://orcid.org/0000-0001-9076-6015
@@ -23,7 +23,7 @@ annotationProperties:
 vars:
   biological_process: "'biological_process'"
 name:
-  text: "changed %s frequency"
+  text: "changed %s rate"
   vars:
   - biological_process
 
