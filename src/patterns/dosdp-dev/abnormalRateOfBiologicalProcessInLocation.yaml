@@ -1,6 +1,6 @@
 pattern_name: abnormalRateOfBiologicalProcessInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcessInLocation.yaml
-description: "Changed frequency of a biological process occuring (per some unit of time) in a location."
+description: "Changed rate of a biological process occuring (per some unit of time) in a location."
 
 contributors:
   - https://orcid.org/0000-0001-9076-6015
@@ -26,7 +26,7 @@ vars:
   biological_process: "'biological_process'"
   location: "'independent continuant'"
 name:
-  text: "changed %s frequency in %s"
+  text: "changed %s rate in %s"
   vars:
   - biological_process
   - location
