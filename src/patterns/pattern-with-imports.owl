@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:oboInOwl1="ttp://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/upheno/upheno-pattern.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/releases/2020-10-28/upheno-pattern.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/upheno/releases/2020-11-06/upheno-pattern.owl"/>
     </owl:Ontology>
     
 
@@ -11686,7 +11686,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Changed rate of &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalRateOfBiologicalProcess</terms:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changed &apos;biological_process&apos; frequency</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changed &apos;biological_process&apos; rate</rdfs:label>
     </owl:Class>
     
 
@@ -11726,7 +11726,7 @@ MH: sexual subtypes should probably be logically defined based on sexual process
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Changed rate of &apos;biological_process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalRateOfBiologicalProcessInLocation</terms:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changed &apos;biological_process&apos; frequency in &apos;independent continuant&apos;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changed &apos;biological_process&apos; rate in &apos;independent continuant&apos;</rdfs:label>
     </owl:Class>
     
 
@@ -12119,6 +12119,10 @@ MH: sexual subtypes should probably be logically defined based on sexual process
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrested &apos;biological_process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyArrestedBiologicalProcess</terms:title>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;biological_process&apos; arrest</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">failed &apos;biological_process&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">failure to complete &apos;biological_process&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incomplete &apos;biological_process&apos;</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arrested &apos;biological_process&apos;</rdfs:label>
     </owl:Class>
     
@@ -12159,6 +12163,10 @@ MH: sexual subtypes should probably be logically defined based on sexual process
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrested &apos;biological_process&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyArrestedBiologicalProcessInLocation</terms:title>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;biological_process&apos; arrest in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">failed &apos;biological_process&apos; in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">failure to complete &apos;biological_process&apos; in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incomplete &apos;biological_process&apos; in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arrested &apos;biological_process&apos; in &apos;independent continuant&apos;</rdfs:label>
     </owl:Class>
     

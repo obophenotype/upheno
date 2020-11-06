@@ -748,7 +748,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples |  |
 
 ### Abnormal rate of biological process
-*Changed frequency of a biological process occuring (per some unit of time).*
+*Changed rate of a biological process, i.e. changed number of events per unit time of a biological process, or changed output of a continuous biological process).*
 
 | Attribute | Info |
 |----------|----------|
@@ -760,7 +760,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples |  |
 
 ### Abnormal rate of biological process in location
-*Changed frequency of a biological process occuring (per some unit of time) in a location.*
+*Changed rate of a biological process, i.e. changed number of events per unit time of a biological process, or changed output of a continuous biological process) in a location.*
 
 | Attribute | Info |
 |----------|----------|
@@ -912,7 +912,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyArrestedBiologicalProcess |
 | Classes | PATO:0000297, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
 | Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyArrestedBiologicalProcess.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyArrestedBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyArrestedBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyArrestedBiologicalProcess.tsv) |
 
 ### Abnormally arrested biological process in location
@@ -924,7 +924,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyArrestedBiologicalProcessInLocation |
 | Classes | PATO:0000297, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological_process (GO:0008150), independent continuant (BFO:0000004),  |
-| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
 | Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyArrestedBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyArrestedBiologicalProcessInLocation.tsv) |
 
 ### Abnormally bent anatomical entity
