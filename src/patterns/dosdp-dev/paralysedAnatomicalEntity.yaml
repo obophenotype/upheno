@@ -1,6 +1,6 @@
 pattern_name: paralysedAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/paralysedAnatomicalEntity.yaml
-description: "The loss of the ability to move a body part, e.g. a paralysed tail."
+description: "The complete loss of the ability to move a body part, e.g. a paralysed tail."
 
 contributors:
   - https://orcid.org/0000-0002-9611-1279
@@ -27,7 +27,7 @@ name:
   - anatomical_entity
 
 def:
-  text: "Loss of the ability to move %s."
+  text: "Complete loss of the ability to move %s."
   vars:
   - anatomical_entity
 
