@@ -25,10 +25,6 @@ name:
 
 annotations:
 - annotationProperty: exact_synonym
-  text: "abnormal bending of %s"
-  vars:
-  - anatomical_entity
-- annotationProperty: exact_synonym
   text: "abnormally bending %s"
   vars:
   - anatomical_entity
