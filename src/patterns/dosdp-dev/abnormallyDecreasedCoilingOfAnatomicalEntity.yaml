@@ -22,7 +22,7 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "abnormally decreased coiling of %s "
+  text: "abnormally decreased coiling of %s"
   vars:
   - anatomical_entity
 
@@ -41,4 +41,3 @@ equivalentTo:
   text: "'has_part' some ('decreased coiling' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
   - anatomical_entity
-
