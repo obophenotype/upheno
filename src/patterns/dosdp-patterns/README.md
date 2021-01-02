@@ -2475,6 +2475,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/malformedAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/malformedAnatomicalEntityInLocation.tsv) |
 
+### Metaplastic anatomical entity
+*The abnormal change from one fully differentiated cellular state into another in an anatomical entity.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/metaplasticAnatomicalEntity.yaml |
+| Name | metaplasticAnatomicalEntity |
+| Classes | PATO:0002101, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
+
 ### Mislocalised anatomical entity
 *Abnormal anatomic location of an anatomicaly entity, such as HP_0012731 'Ectopic anterior pituitary gland'.*
 
@@ -2509,5 +2521,29 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000647,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
+
+### Neoplastic anatomical entity
+*The presence of abnormally proliferating masses of cells in an anatomical entity.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/neoplasticAnatomicalEntity.yaml |
+| Name | neoplasticAnatomicalEntity |
+| Classes | PATO:0002011, PATO:0000460, UBERON:0001062,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples |  |
+
+### Paralysed anatomical entity
+*The complete loss of the ability to move a body part, e.g. a paralysed tail.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/paralysedAnatomicalEntity.yaml |
+| Name | paralysedAnatomicalEntity |
+| Classes | PATO:0000460, UBERON:0001062, PATO:0000763,  |
+| Variables | anatomical entity (UBERON:0001062),  |
+| Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
 | Examples |  |
 
