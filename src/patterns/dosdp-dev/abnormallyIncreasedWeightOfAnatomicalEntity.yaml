@@ -1,13 +1,13 @@
 pattern_name: abnormallyIncreasedWeightOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWeightOfAnatomicalEntity.yaml
-description: "Increase weight/abnormally heavy in a particular anatomical entity. Example: HP_0012743 'Abdominal obesity'"
+description: "Increase weight/abnormally heavy in a particular anatomical entity. Example: HP_0012743 'Abdominal obesity'. NOTE: We are using increased mass (PATO:0001563), not weight, to model this phenotype, see also https://github.com/obophenotype/bio-attribute-ontology/issues/39"
 
 contributors: 
   - https://orcid.org/0000-0002-3528-5267
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  increased weight: PATO:0000582
+  increased weight: PATO:0001563
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
