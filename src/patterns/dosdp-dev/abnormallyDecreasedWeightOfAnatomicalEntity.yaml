@@ -1,13 +1,13 @@
 pattern_name: abnormallyDecreasedWeightOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWeightOfAnatomicalEntity.yaml
-description: ""
+description: "Decreased weight/abnormally light particular anatomical entity. NOTE: We are using decreased mass (PATO:0001562), not weight, to model this phenotype, see also https://github.com/obophenotype/bio-attribute-ontology/issues/39"
 
 contributors: 
   - https://orcid.org/0000-0002-3528-5267
   - https://orcid.org/0000-0001-5208-3432
 
 classes:
-  decreased weight: PATO:0000583
+  decreased weight: PATO:0001562
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
