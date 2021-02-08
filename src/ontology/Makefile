@@ -46,10 +46,10 @@ pattern_schema_checks_main:
 pattern_schema_checks: pattern_schema_checks_main pattern_schema_checks_dev
 	
 ../patterns/pattern-dev.owl: pattern_schema_checks
-	$(DOSDPT) prototype --obo-prefixes --template=../patterns/dosdp-dev --outfile=$@
+	$(DOSDPT) prototype --obo-prefixes true --template=../patterns/dosdp-dev --outfile=$@
 
 ../patterns/pattern-main.owl: pattern_schema_checks
-	$(DOSDPT) prototype --obo-prefixes --template=../patterns/dosdp-patterns --outfile=$@
+	$(DOSDPT) prototype --obo-prefixes true --template=../patterns/dosdp-patterns --outfile=$@
 	
 ../patterns/pattern-merged.owl: ../patterns/pattern-dev.owl ../patterns/pattern-main.owl
 	$(ROBOT) merge -i ../patterns/pattern-dev.owl -i ../patterns/pattern-main.owl annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-pattern.owl annotate --ontology-iri $(BASE)/$(ONT)-pattern.owl -o $@
