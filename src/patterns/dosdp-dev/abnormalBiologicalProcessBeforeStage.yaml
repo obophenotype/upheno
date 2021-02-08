@@ -1,0 +1,46 @@
+pattern_name: abnormalBiologicalProcessBeforeStage
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessBeforeStage.yaml
+description: "An abnormal biological process before a developmental stage in an organism."
+
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+
+classes:
+  abnormal: PATO:0000460
+  rate: PATO:0000161
+  biological_process: GO:0008150
+  life_cycle_stage: UBERON:0000105
+  
+relations: 
+  before: RO:0002083
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  biological process: "'biological_process'"
+  stage: "'life_cycle_stage'"
+
+name:
+  text: "abnormal %s rate before %s"
+  vars:
+   - biological process
+   - stage
+
+def:
+  text: "Abnormal rate of %s before the %s."
+  vars:
+   - biological process
+   - stage
+
+
+equivalentTo:
+  text: "'has_part' some ('rate' and ('inheres_in' some (%s and ('before' some %s))) and ('has_modifier' some 'abnormal'))"
+  vars:
+   - biological process
+   - stage
+    
+
+
