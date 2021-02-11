@@ -40,7 +40,7 @@ def:
 
 
 equivalentTo:
-  text: "'has_part' some ('arrested' and ('inheres_in' some (%s and ('happens during' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('arrested' and ('inheres_in' some (%s and ('happens_during' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
    - development
    - stage
