@@ -18,6 +18,7 @@ relations:
   happens_during: RO:0002092
   inheres_in: RO:0000052
   has_modifier: RO:0002573
+  has_part: BFO:0000051
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym 
