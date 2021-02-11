@@ -21,26 +21,26 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym 
 
 vars:
-  biological process: "'biological_process'"
+  biological_process: "'biological_process'"
   stage: "'life_cycle_stage'"
 
 name:
   text: "abnormal %s rate before %s"
   vars:
-   - biological process
+   - biological_process
    - stage
 
 def:
   text: "Abnormal rate of %s before the %s."
   vars:
-   - biological process
+   - biological_process
    - stage
 
 
 equivalentTo:
   text: "'has_part' some ('rate' and ('inheres_in' some (%s and ('before' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-   - biological process
+   - biological_process
    - stage
     
 
