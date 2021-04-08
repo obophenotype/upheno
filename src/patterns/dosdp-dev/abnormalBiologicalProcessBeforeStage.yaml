@@ -1,6 +1,6 @@
 pattern_name: abnormalBiologicalProcessBeforeStage
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessBeforeStage.yaml
-description: "An abnormal biological process that occurs before progresssing to a developmental stage in an organism."
+description: "An abnormalility in a biological process that must occur before progresssing to the next developmental stage in an organism. For example FBcv:0000450 'abnormal developmental rate', that must occur during development (before mature adult stage)."
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
@@ -41,7 +41,7 @@ equivalentTo:
   text: "'has_part' some ('rate' and ('inheres_in' some (%s and ('before' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
    - biological_process
-   - stage
+   - stage'
     
 
 
