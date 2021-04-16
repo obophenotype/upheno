@@ -59,26 +59,9 @@ PATTERN_IMPORTS_OWL = $(patsubst %, ../patterns/imports/%_import.owl, $(PATTERN_
 ../patterns/imports/%_import.owl: mirror/%.owl ../patterns/imports/seed_sorted.txt
 	$(ROBOT) extract -i $< -T ../patterns/imports/seed_sorted.txt --method BOT -O mirror/$*.owl annotate --ontology-iri $(OBO)/$(ONT)/patterns/imports/$*_import.owl -o $@
 
-mirror/%.owl:
-	$(ROBOT) convert -I $(OBO)/$*.owl -o $@
-.PRECIOUS: mirror/%.owl
-	
-	
-mirror/cl.owl:
-	$(ROBOT) convert -I $(OBO)/cl/cl-simple.owl -o $@
-.PRECIOUS: mirror/cl.owl
-
-mirror/nbo.owl:
-	$(ROBOT) convert -I $(OBO)/nbo/nbo-base.owl -o $@
-.PRECIOUS: mirror/nbo.owl
-	
-mirror/chebi.owl:
-	$(ROBOT) convert -I $(OBO)/chebi.owl.gz -o $@
-.PRECIOUS: mirror/chebi.owl
-
 	
 mirror/uberon-bridge-to-caro.owl:
-	$(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl -o $@
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/uberon-bridge-to-caro.owl
 
 ../patterns/pattern-with-imports.owl: ../patterns/pattern-merged.owl $(PATTERN_IMPORTS_OWL)
