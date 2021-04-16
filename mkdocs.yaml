@@ -1,0 +1,54 @@
+site_name: Unified Phenotype Ontology
+theme: readthedocs
+nav:
+  - Getting started: index.md
+  - Cite: cite.md
+  - History: history.md
+  - How-to guides:
+      - Standard ODK workflows:
+          - Overview: howto/odk-workflows/index.md
+          - Editors Workflow: howto/odk-workflows/EditorsWorkflow.md
+          - Release Workflow: howto/odk-workflows/ReleaseWorkflow.md
+          - Manage your ODK Repository: howto/odk-workflows/RepoManagement.md
+          - Setting up Docker for ODK: howto/odk-workflows/SettingUpDockerForODK.md
+          - Manage imports: howto/odk-workflows/UpdateImports.md
+          - Manage documentation: howto/odk-workflows/ManageDocumentation.md
+          - Manage Continuous Integration: howto/odk-workflows/ContinuousIntegration.md
+      - Contributing: contributing.md
+  - Tutorials:
+      - Using uPheno in Data Analysis: tutorials/analysis.md
+      - Using uPheno in Curation: tutorials/curation.md
+      - Using uPheno for Grouping Data: tutorials/grouping.md
+  - Key topics:
+    - EQ modelling:
+      - Overview of EQ modelling: key-topics/entity_quality_modelling.md
+      - Abnormal phenotypes: key-topics/modelling/abnormal.md 
+      - Absence modelling: key-topics/modelling/absence.md
+      - Traits and phenotypes: key-topics/modelling/traits.md
+    - The Phenotype Reconciliation Effort: key-topics/reconciliation_effort.md
+    - Use Cases:
+      - Cross-species reasoning: key-topics/use-cases/cross_species_reasoning.md
+  - Reference:
+    - Your ODK Repository Overview: howto/odk-workflows/RepositoryFileStructure.md
+    - Components:
+      - Overview: reference/components.md
+      - Drosophila Phenotype Ontology: reference/components/dpo.md
+      - Fission Yeast Phenotype Ontology: reference/components/fypo.md
+      - Human Phenotype Ontology: reference/components/hp.md
+      - Mammalian Phenotype Ontology: reference/components/mp.md
+      - C. elegans Phenotype Ontology: reference/components/wbphenotype.md
+      - Zebrafish Phenotype Ontology: reference/components/zp.md
+    - Imports:
+      - Overview: reference/imports.md
+      - Gene Ontology: reference/imports/go.md
+      - Uberon: reference/imports/uberon.md
+      - PATO: reference/imports/pato.md
+    - Mappings:
+      - Overview: reference/mappings.md
+      - MP-HP: reference/mappings/mp_hp.md
+    - Quality Control:
+      - Overview: reference/qc.md
+      - Standard OBO checks: reference/qc/odk_checks.md
+    - Design Patterns:
+      - Design Patterns Overview: reference/patterns.md
+
