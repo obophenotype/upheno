@@ -22,11 +22,14 @@
     <owl:Ontology rdf:about="&obo;upheno/vertebrate.owl">
         <owl:imports rdf:resource="&obo;uberon/bridge/cl-bridge-to-zfa.owl"/>
         <owl:imports rdf:resource="&obo;uberon/bridge/uberon-bridge-to-zfa.owl"/>
+        <owl:imports rdf:resource="&obo;uberon/bridge/cl-bridge-to-xao.owl"/>
+        <owl:imports rdf:resource="&obo;uberon/bridge/uberon-bridge-to-xao.owl"/>
         <owl:imports rdf:resource="&obo;upheno/mammal.owl"/>
         <owl:imports rdf:resource="&obo;upheno/imports/uberon_import.owl"/>
         <owl:imports rdf:resource="&obo;vt.owl"/>
         <owl:imports rdf:resource="&obo;upheno/imports/zfa_import.owl"/>
         <owl:imports rdf:resource="&obo;zp.owl"/>
+        <owl:imports rdf:resource="&obo;xpo.owl"/>
     </owl:Ontology>
     
 
