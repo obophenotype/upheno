@@ -1,6 +1,6 @@
-pattern_name: abnormalBiologicalProcessBeforeStage
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcessBeforeStage.yaml
-description: "An abnormalility in a biological process that must occur before progresssing to the next developmental stage in an organism. For example FBcv:0000450 'abnormal developmental rate', that must occur during development (before mature adult stage)."
+pattern_name: abnormalRateOfBiologicalProcessBeforeStage
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcessBeforeStage.yaml
+description: "An abnormal rate of a biological process that must occur before progresssing to the next developmental stage in an organism. For example FBcv:0000450 'abnormal developmental rate', that must occur during development (before mature adult stage)."
 
 contributors:
   - https://orcid.org/0000-0001-5208-3432
