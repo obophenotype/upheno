@@ -10,20 +10,20 @@ classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
 
-relations: 
+relations:
   inheres_in: RO:0000052
   has_modifier: RO:0002573
   has_part: BFO:0000051
 
-  
+
 annotationProperties:
-  exact_synonym: oio:hasExactSynonym 
+  exact_synonym: oio:hasExactSynonym
 
 vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "Decreased %s mass"
+  text: "decreased %s mass"
   vars:
    - anatomical_entity
 
