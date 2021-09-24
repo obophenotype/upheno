@@ -18,7 +18,7 @@ relations:
   has_part: BFO:0000051
 
 annotationProperties:
-  exact_synonym: oio:hasExactSynonym
+  narrow_synonym: oio:hasNarrowSynonym
 
 vars:
   anatomical_entity: "'anatomical entity'"
@@ -31,6 +31,12 @@ name:
 def:
   text: "An abnormality of mass in the %s."
   vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: narrow_synonym
+    text: "abnormality of %s weight"
+    vars:
     - anatomical_entity
 
 equivalentTo:

@@ -19,6 +19,7 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+  narrow_synonym: oio:hasNarrowSynonym
 
 vars:
   anatomical_entity: "'anatomical entity'"
@@ -35,6 +36,10 @@ annotations:
     - anatomical_entity
   - annotationProperty: exact_synonym
     text: "low %s mass"
+    vars:
+    - anatomical_entity
+  - annotationProperty: narrow_synonym
+    text: "decreased %s weight"
     vars:
     - anatomical_entity
 
