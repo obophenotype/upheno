@@ -1,6 +1,6 @@
-pattern_name: abnormalProteinLocalizationInCellularComponent
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalProteinLocalizationInCellularComponent.yaml
-description: "Abnormal rate or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location."
+pattern_name: abnormalAbsenceOfProteinLocalizationInCellularComponent
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfProteinLocalizationInCellularComponent.yaml
+description: "Any process in which a protein is transported to, or maintained in, a specific sub-cellular location that normally occurs does not occur."
 
 contributors:
   - https://orcid.org/0000-0002-7356-1779
@@ -11,7 +11,7 @@ contributors:
 
 classes:
   abnormal: PATO:0000460
-  rate: PATO:0000161
+  absent: PATO:0000462
   protein localization: GO:0008104
   cellular component: GO:0005575
 
@@ -28,17 +28,17 @@ vars:
   location: "'cellular component'"
 
 name:
-  text: "abnormal protein localization in %s"
+  text: "absent protein localization in %s"
   vars:
    - location
 
 def:
-  text: "Abnormal protein localization %s."
+  text: "Absent or undetectable protein localization %s."
   vars:
    - location
 
 
 equivalentTo:
-  text: "'has_part' some ('rate' and ('inheres_in' some ('protein localization' and ('has_target_end_location' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('absent' and ('inheres_in' some ('protein localization' and ('has_target_end_location' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - location
