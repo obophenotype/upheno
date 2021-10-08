@@ -1,6 +1,7 @@
-pattern_name: abnormallyIncreasedRateOfProteinLocalizationInCellularComponent
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfProteinLocalizationInCellularComponent.yaml
-description: "Abnormally increased rate or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location."
+pattern_name: abnormallyIncreasedEfficacyOfProteinLocalizationInCellularComponent
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/
+abnormallyIncreasedEfficacyOfProteinLocalizationInCellularComponent.yaml
+description: "Abnormally increased efficacy or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location."
 
 contributors:
   - https://orcid.org/0000-0002-7356-1779
@@ -11,7 +12,7 @@ contributors:
 
 classes:
   abnormal: PATO:0000460
-  increased rate: PATO:0000912
+  increased efficacy: PATO:0015004
   protein localization: GO:0008104
   cellular component: GO:0005575
 
@@ -39,6 +40,6 @@ def:
 
 
 equivalentTo:
-  text: "'has_part' some ('increased rate' and ('inheres_in' some ('protein localization' and ('has_target_end_location' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('increased efficacy' and ('inheres_in' some ('protein localization' and ('has_target_end_location' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - location
