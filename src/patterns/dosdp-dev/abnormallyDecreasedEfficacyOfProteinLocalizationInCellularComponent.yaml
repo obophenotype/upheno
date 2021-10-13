@@ -1,6 +1,6 @@
-pattern_name: abnormallyDecreasedRateOfProteinLocalizationInCellularComponent
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfProteinLocalizationInCellularComponent.yaml
-description: "Abnormally decreased rate or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location."
+pattern_name: abnormallyDecreasedEfficacyOfProteinLocalizationInCellularComponent
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfProteinLocalizationInCellularComponent.yaml
+description: "Abnormally decreased efficacy or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location."
 
 contributors:
   - https://orcid.org/0000-0002-7356-1779
@@ -11,7 +11,7 @@ contributors:
 
 classes:
   abnormal: PATO:0000460
-  decreased rate: PATO:0000911
+  decreased efficacy: PATO:0015003
   protein localization: GO:0008104
   cellular component: GO:0005575
 
@@ -39,6 +39,6 @@ def:
 
 
 equivalentTo:
-  text: "'has_part' some ('decreased rate' and ('inheres_in' some ('protein localization' and ('has_target_end_location' some %s))) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('decreased efficacy' and ('inheres_in' some ('protein localization' and ('has_target_end_location' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
     - location
