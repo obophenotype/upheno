@@ -11,7 +11,7 @@
 - Summarise the top 5 outcomes of the workshop
 - Consolidate 3 workout groups
 - Draft a solution with up to 10 upper level categories and the constraints mentioned by the workshop participants:
-  - Biological process is too high level to be a useful category, subdivide
+  - Biological process is too high level to be a useful category, subdivide (for sure behaviour, development?)
   - Molecular function phenotypes are a bit funky
   - There should be a environmental exposure phenotype category
   - anatomical system vs organ problem: think kidney. David things phenotypes for major organs - maybe we need an organ grouping. Think about signal/ration. David: maybe we should try system-only for now and see how it goes. But will we have some organs that drop out? You could try to check for organs that would not fall under any of the system groupings (ubergraph).
