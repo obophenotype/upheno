@@ -171,6 +171,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
 | Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalAbsenceOfPigmentationOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAbsenceOfPigmentationOfAnatomicalEntity.tsv) |
 
+### Abnormal absence of protein localization in cellular component
+*Any process in which a protein is transported to, or maintained in, a specific sub-cellular location that normally occurs does not occur.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfProteinLocalizationInCellularComponent.yaml |
+| Name | abnormalAbsenceOfProteinLocalizationInCellularComponent |
+| Classes | PATO:0000460, PATO:0000462, GO:0008104, GO:0005575,  |
+| Variables | cellular component (GO:0005575),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-8314-2140](https://orcid.org/0000-0001-8314-2140), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7073-9172](https://orcid.org/0000-0002-7073-9172),  |
+| Examples |  |
+
 ### Abnormal agenesis of anatomical entity
 *Abnormal absence of a tissue or organ due to failure to develop. Agenesis is a specific process to describe the failure of a tissue to develop, such as HP_0001341 Olfactory lobe agenesis. It is more specific than an absent anatomical entity.*
 
@@ -194,6 +206,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
 | Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAnatomicalEntityNotParts.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalAnatomicalEntityNotParts.tsv) |
+
+### Abnormal arrested development during stage
+*Arrest or prematurely terminated development at a specific development stage in an organism.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalArrestedDevelopmentDuringStage.yaml |
+| Name | abnormalArrestedDevelopmentDuringStage |
+| Classes | PATO:0000297, PATO:0000460, GO:0032502, UBERON:0000105,  |
+| Variables | developmental_process (GO:0032502), life_cycle_stage (UBERON:0000105),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703), [0000-0002-7073-9172](https://orcid.org/0000-0002-7073-9172),  |
+| Examples |  |
 
 ### Abnormal behavior
 *Any unspecified abnormality of a behavior, such as HP_0012433 abnormal social behavior.*
@@ -434,6 +458,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical_entity1 (UBERON:0001062), anatomical_entity2 (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalDistanceBetweenAnatomicalEntities.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalDistanceBetweenAnatomicalEntities.tsv) |
+
+### Abnormal efficacy of protein localization in cellular component
+*Abnormal efficacy or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalEfficacyOfProteinLocalizationInCellularComponent.yaml |
+| Name | abnormalEfficacyOfProteinLocalizationInCellularComponent |
+| Classes | PATO:0000460, PATO:0015002, GO:0008104, GO:0005575,  |
+| Variables | cellular component (GO:0005575),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-8314-2140](https://orcid.org/0000-0001-8314-2140), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7073-9172](https://orcid.org/0000-0002-7073-9172),  |
+| Examples |  |
 
 ### Abnormal functionality of anatomical entity
 *Dysfunction of an entity, such as an anatomical entity, like an organ, for example HP_0030964 'Abnormal aortic physiology'*
@@ -759,6 +795,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-6490-7723](https://orcid.org/0000-0002-6490-7723), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
 | Examples |  |
 
+### Abnormal rate of biological process before stage
+*An abnormal rate of a biological process that must occur before progresssing to the next developmental stage in an organism. For example FBcv:0000450 'abnormal developmental rate', that must occur during development (before mature adult stage).*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcessBeforeStage.yaml |
+| Name | abnormalRateOfBiologicalProcessBeforeStage |
+| Classes | PATO:0000460, PATO:0000161, GO:0008150, UBERON:0000105,  |
+| Variables | biological_process (GO:0008150), life_cycle_stage (UBERON:0000105),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705),  |
+| Examples |  |
+
 ### Abnormal rate of biological process in location
 *Changed rate of a biological process, i.e. changed number of events per unit time of a biological process, or changed output of a continuous biological process) in a location.*
 
@@ -769,6 +817,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000161, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological_process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-6490-7723](https://orcid.org/0000-0002-6490-7723), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
+
+### Abnormal rate of development during stage
+*An abnormally delayed or accelerated rate of a developmental process during a developmental stage in an organism.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfDevelopmentDuringStage.yaml |
+| Name | abnormalRateOfDevelopmentDuringStage |
+| Classes | PATO:0000460, PATO:0000161, GO:0032502, UBERON:0000105,  |
+| Variables | developmental_process (GO:0032502), life_cycle_stage (UBERON:0000105),  |
+| Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703), [0000-0002-7073-9172](https://orcid.org/0000-0002-7073-9172),  |
 | Examples |  |
 
 ### Abnormal resistance of whole organism to entity
@@ -868,16 +928,16 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples |  |
 
 ### Abnormal weight of anatomical entity
-**
+*An abnormality of the mass of an anatomical entity, e.g. increased or decreased mass of the whole organism. NOTE: We are using mass (PATO:0000125), not weight, to model this phenotype, see also https://github.com/obophenotype/bio-attribute-ontology/issues/39*
 
 | Attribute | Info |
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalWeightOfAnatomicalEntity.yaml |
 | Name | abnormalWeightOfAnatomicalEntity |
-| Classes | PATO:0000128, PATO:0000460, UBERON:0001062,  |
+| Classes | PATO:0000125, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalWeightOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalWeightOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalWeightOfAnatomicalEntity.tsv) |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
 
 ### Abnormally apoptotic anatomical entity
 *The abnormal presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity.*
@@ -986,6 +1046,30 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | anatomical entity1 (UBERON:0001062), anatomical entity2 (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyDecreasedDistanceBetweenAnatomicalEntities.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedDistanceBetweenAnatomicalEntities.tsv) |
+
+### Abnormally decreased efficacy of behavior
+*Behavior occurs with a reduced efficacy, i.e. a decreased ability to produce its output. For example, male courtship behavior that is less attractive to females, or memory that results in a weaker aversive response to a stimulus associated with punishment.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfBehavior.yaml |
+| Name | abnormallyDecreasedEfficacyOfBehavior |
+| Classes | PATO:0015003, PATO:0000460, NBO:0000313,  |
+| Variables | behavior process (NBO:0000313),  |
+| Contributors | [http://orcid.org/0000-0002-1373-1705](http://orcid.org/0000-0002-1373-1705),  |
+| Examples |  |
+
+### Abnormally decreased efficacy of protein localization in cellular component
+*Abnormally decreased efficacy or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfProteinLocalizationInCellularComponent.yaml |
+| Name | abnormallyDecreasedEfficacyOfProteinLocalizationInCellularComponent |
+| Classes | PATO:0000460, PATO:0015003, GO:0008104, GO:0005575,  |
+| Variables | cellular component (GO:0005575),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-8314-2140](https://orcid.org/0000-0001-8314-2140), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7073-9172](https://orcid.org/0000-0002-7073-9172),  |
+| Examples |  |
 
 ### Abnormally decreased functionality of anatomical entity
 *Decreased functionality of an anatomical entity or part, such as decreased functionality of the gall bladder.*
@@ -1444,13 +1528,13 @@ This is a listing of all the patterns hosted as part of this directory
 | Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased weight of anatomical entity
-**
+*Decreased mass of an anatomical entity, e.g. decreased mass of the whole organism. NOTE: We are using decreased mass (PATO:0001562), not weight, to model this phenotype, see also https://github.com/obophenotype/bio-attribute-ontology/issues/39*
 
 | Attribute | Info |
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWeightOfAnatomicalEntity.yaml |
 | Name | abnormallyDecreasedWeightOfAnatomicalEntity |
-| Classes | PATO:0000583, PATO:0000460, UBERON:0001062,  |
+| Classes | PATO:0001562, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
 | Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) |
@@ -1490,6 +1574,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDelayedBiologicalProcess.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDelayedBiologicalProcess.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDelayedBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDelayedBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDelayedBiologicalProcess.tsv) |
+
+### Abnormally delayed biological process in location
+*Occurrence of a biological process in some location that is abnormally delayed.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDelayedBiologicalProcessInLocation.yaml |
+| Name | abnormallyDelayedBiologicalProcessInLocation |
+| Classes | PATO:0000502, PATO:0000460, GO:0008150, BFO:0000004,  |
+| Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
 
 ### Abnormally detached anatomical entities
 *A partial or complete loss of connection between anatomical entities. For example, MP_0006023 detached Reissner membrane or MP_0003099 detached retina.*
@@ -1610,6 +1706,30 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | entity1 (UBERON:0001062), entity2 (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
 | Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyIncreasedDistanceBetweenAnatomicalEntities.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedDistanceBetweenAnatomicalEntities.tsv) |
+
+### Abnormally increased efficacy of behavior
+*Behavior occurs with a higher efficacy, i.e. an increased ability to produce its output. For example, male courtship behavior that is more attractive to females, or memory that results in a stronger aversive response to a stimulus associated with punishment.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedEfficacyOfBehavior.yaml |
+| Name | abnormallyIncreasedEfficacyOfBehavior |
+| Classes | PATO:0015004, PATO:0000460, NBO:0000313,  |
+| Variables | behavior process (NBO:0000313),  |
+| Contributors | [http://orcid.org/0000-0002-1373-1705](http://orcid.org/0000-0002-1373-1705),  |
+| Examples |  |
+
+### Abnormally increased efficacy of protein localization in cellular component
+*Abnormally increased efficacy or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedEfficacyOfProteinLocalizationInCellularComponent.yaml |
+| Name | abnormallyIncreasedEfficacyOfProteinLocalizationInCellularComponent |
+| Classes | PATO:0000460, PATO:0015004, GO:0008104, GO:0005575,  |
+| Variables | cellular component (GO:0005575),  |
+| Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-8314-2140](https://orcid.org/0000-0001-8314-2140), [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7073-9172](https://orcid.org/0000-0002-7073-9172),  |
+| Examples |  |
 
 ### Abnormally increased functionality of anatomical entity in location
 *Overactivity or hyperfunctionality of an organ or anatomical entity in a specific location.*
@@ -2078,6 +2198,18 @@ This is a listing of all the patterns hosted as part of this directory
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
 | Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyPrematureBiologicalProcess.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyPrematureBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyPrematureBiologicalProcess.tsv) |
+
+### Abnormally premature biological process in location
+*A biological process in a location that starts earlier than the natural start time or the reference process.*
+
+| Attribute | Info |
+|----------|----------|
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPrematureBiologicalProcessInLocation.yaml |
+| Name | abnormallyPrematureBiologicalProcessInLocation |
+| Classes | PATO:0000694, PATO:0000460, GO:0008150, BFO:0000004,  |
+| Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
+| Contributors | [0000-0002-4532-2703](https://orcid.org/0000-0002-4532-2703), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
+| Examples |  |
 
 ### Abnormally prominent anatomical entity
 *An anatomical entity that stands out or projects beyond the surface or line, such as a HP_0000395 'Prominent antihelix'*
