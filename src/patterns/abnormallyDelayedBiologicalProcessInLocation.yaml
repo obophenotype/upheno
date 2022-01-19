@@ -26,13 +26,13 @@ vars:
   location: "'independent continuant'"
 
 name:
-  text: "delayed %s"
+  text: "delayed %s in %s"
   vars:
    - biological_process
    - location
 
 def:
-  text: "Delayed %s."
+  text: "Delayed %s in %s."
   vars:
     - biological_process
     - location
