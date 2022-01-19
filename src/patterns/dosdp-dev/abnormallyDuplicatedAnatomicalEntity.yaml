@@ -19,7 +19,7 @@ vars:
   anatomical_entity: "'anatomical entity'"
 
 name:
-  text: "abnormal duplication of %s "
+  text: "abnormal duplication of %s"
   vars:
   - anatomical_entity
 
