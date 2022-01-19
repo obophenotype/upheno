@@ -5,6 +5,7 @@ description: "A biological process in a location that starts earlier than the na
 contributors:
 - https://orcid.org/0000-0002-4532-2703
 - https://orcid.org/0000-0002-7356-1779
+
 classes:
   premature: PATO:0000694
   abnormal: PATO:0000460
@@ -25,7 +26,7 @@ vars:
   location: "'independent continuant'"
 
 name:
-  text: "premature %s"
+  text: "premature %s in %s"
   vars:
   - biological_process
   - location
