@@ -8,10 +8,12 @@ The meeting coordinator (MC) is the person charged with organising the meeting. 
 
 - The MC prepares the agenda in advance: everyone on the call is very busy and our time is precious.
 - Every agenda item has an associated ticket on GitHub, and a clear set of action items should be added in [GitHub Tasklist syntax](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists) to the _first comment_ on the issue.
+   - If there are issues for any subtasks (e.g. PATO or Uberon edits), the list should be edited to link these.
+   - Any items that do not have a subissue but do involve changes to patterns) should be edited to link to implementing PR.
    - It does not matter who wrote the first issue comment, the uPheno team can simply add a tasklist underneath the original comment and refine it over time.
    - Tag all issues which need discussion with "upheno call"
    - It _must_ be clear from the task list what the uPheno team should be doing during the call (discuss, decide, review). For example, one item on the task list may read: "uPheno team to decide on appropriate label for template".
-   - Conversely, no issue should be added to the agenda that does not have a clear set of action items associated with it _that should be addressed during the call_.
+   - Conversely, no issue should be added to the agenda that does not have a clear set of action items associated with it _that should be addressed during the call_. These actions may include making and documenting modelling decisions.
 - Go through up to 10 issues on the [uPheno issue tracker](https://github.com/obophenotype/upheno/issues) before each meeting to determine how to progress on them, and add action items. Only if they need to be discussed, add the "upheno call" label.
 
 
@@ -26,6 +28,7 @@ The meeting coordinator (MC) is the person charged with organising the meeting. 
 - For new pattern discussions:
    - Every new pattern proposal should come with a new GitHub issue, appropriately tagged.
    - The issue text should detail the use cases for the pattern well, and these use cases should also be documented in the "description" part of the DOSDP YAML file.
+- Agenda items may include discussion and decisions about more general modelling issues that affect more than one pattern, but these should also be documented as tickets as described above.
 
 ## After the meeting
 
