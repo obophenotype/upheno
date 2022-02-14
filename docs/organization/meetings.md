@@ -27,7 +27,7 @@ The meeting coordinator (MC) is the person charged with organising the meeting. 
    - Harmonisation: The process of ensuring that phenotype patterns are applied consistently across ontologies.
 - For new pattern discussions:
    - Every new pattern proposal should come with a new GitHub issue, appropriately tagged.
-   - The issue text should detail the use cases for the pattern well, and these use cases should also be documented in the "description" part of the DOSDP YAML file.
+   - The issue text should detail the use cases for the pattern well, and these use cases should also be documented in the "description" part of the DOSDP YAML file. Uses cases should include expected classifications and why we want them (and potentially classifications to avoid).  e.g. axis-specific dimension traits should classify under more abstractly defined dimension traits which in term should classify under Morphology. Add some examples of contexts where grouping along these classifications is useful.
 - Agenda items may include discussion and decisions about more general modelling issues that affect more than one pattern, but these should also be documented as tickets as described above.
 
 ## After the meeting
