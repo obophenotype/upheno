@@ -19,7 +19,7 @@ The meeting coordinator (MC) is the person charged with organising the meeting. 
 
 ## Meeting
 
-- Every meeting should start with a quick overview of all the goals and how they processed. The MC should mention all goals, even the ones we did not make any progress on, to keep the focus on the priorities:
+- Every meeting should start with a quick (max 5 min, ideally 3 min) overview of all the goals and how they processed. The MC should mention all blockers and goals, even the ones we did not make any progress on, to keep the focus on the priorities:
    - uPheno releases
    - uPheno documentation
    - Pattern creation
