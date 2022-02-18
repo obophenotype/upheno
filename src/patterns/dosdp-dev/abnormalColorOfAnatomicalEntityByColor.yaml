@@ -1,4 +1,3 @@
----
 pattern_name: abnormalColorOfAnatomicalEntityByColor
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalColorOfAnatomicalEntityByColor.yaml
@@ -32,15 +31,13 @@ name:
    - entity
 
 annotations:
-  - 
-    annotationProperty: exact_synonym
+  - annotationProperty: exact_synonym
     text: "%s type abnormality of %s color"
     vars:
      - color
      - entity
 
-  - 
-    annotationProperty: exact_synonym
+  - annotationProperty: exact_synonym
     text: "abnormal %s color of %s"
     vars:
      - color
