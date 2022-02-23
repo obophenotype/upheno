@@ -1,4 +1,3 @@
----
 pattern_name: abnormallyDilatedAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/abnormallyDilatedAnatomicalEntity.yaml
@@ -51,6 +50,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('dilated' and('characteristic_of' some %s) and ('has_modifier' some 'abnormal')"
+  text: "'has_part' some ('dilated' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
