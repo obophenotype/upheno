@@ -1,3 +1,4 @@
+---
 pattern_name: abnormallyHyperplasticAnatomicalEntity.yaml
 
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/abnormallyHyperplasticAnatomicalEntity.yaml
@@ -40,11 +41,11 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "Hyperplasia of %s."
+  text: "The increased size of the %s is due to an increase in cell number (hyperplasia)."
   vars:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('hyperplastic' and('characteristic_of' some %s) and ('has_modifier' some 'abnormal')"
+  text: "'has_part' some ('hyperplastic' and('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
