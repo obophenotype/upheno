@@ -23,7 +23,7 @@ hp-edit.owl:
 #
 # We create shared modules for the combined set of phenotype
 # ontologies
-#
+# 
 # Uses OWLAPI Module Extraction code
 #
 # Type 'make imports/X_import.owl' whenever you wish to refresh the import for an ontology X. This is when:
