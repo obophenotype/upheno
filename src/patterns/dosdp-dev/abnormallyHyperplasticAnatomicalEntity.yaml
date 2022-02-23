@@ -45,6 +45,6 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('hyperplastic' and('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has_part' some ('hyperplastic' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
