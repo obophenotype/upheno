@@ -12,7 +12,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000001, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAnatomicalEntity.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAnatomicalEntity.tsv) |
 
 ### Abnormal level of chemical entity
 *An abnormal amount of a chemical or protein. For example, MP_0011230 'abnormal folic acid level or HP:0012146 Abnormality of von Willebrand factor.'*
@@ -24,7 +24,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000070, PATO:0000460, CHEBI:24431,  |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalLevelOfChemicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalLevelOfChemicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalLevelOfChemicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalLevelOfChemicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalLevelOfChemicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalLevelOfChemicalEntity.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalLevelOfChemicalEntity.tsv) [mgpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mgpo/abnormalLevelOfChemicalEntity.tsv) |
 
 ### Abnormal level of chemical entity in location
 *An abnormal level of a chemical in an anatomical entity, such as abnormal level of sodium in the blood.*
@@ -36,7 +36,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000070, PATO:0000460, CHEBI:24431, BFO:0000004,  |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalLevelOfChemicalEntityInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalLevelOfChemicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalLevelOfChemicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalLevelOfChemicalEntityInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalLevelOfChemicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalLevelOfChemicalEntityInLocation.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalLevelOfChemicalEntityInLocation.tsv) |
 
 ## Patterns in dosdp-dev
 ### Abnormal absence of anatomical entity
@@ -49,7 +49,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000462, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAbsenceOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalAbsenceOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalAbsenceOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalAbsenceOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalAbsenceOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAbsenceOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalAbsenceOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAbsenceOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalAbsenceOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalAbsenceOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalAbsenceOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAbsenceOfAnatomicalEntity.tsv) |
 
 ### Abnormal absence of anatomical entity due to degeneration
 *The complete loss of an antomical entity due to degeneration.*
@@ -61,7 +61,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0015001, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalAbsenceOfAnatomicalEntityDueToDegeneration.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAbsenceOfAnatomicalEntityDueToDegeneration.tsv) |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalAbsenceOfAnatomicalEntityDueToDegeneration.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAbsenceOfAnatomicalEntityDueToDegeneration.tsv) |
 
 ### Abnormal absence of anatomical entity in location
 *Absence of an anatomical entity in a location, such as absent aortic valve in the heart.*
@@ -73,7 +73,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000462, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAbsenceOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormal absence of behavior
 *A behavior that normally would occur does not occur.*
@@ -85,7 +85,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000462, PATO:0000460, NBO:0000313,  |
 | Variables | behavior process (NBO:0000313),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAbsenceOfBehavior.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalAbsenceOfBehavior.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalAbsenceOfBehavior.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAbsenceOfBehavior.tsv) |
 
 ### Abnormal absence of biological process
 **
@@ -97,7 +97,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000462, PATO:0000460, GO:0008150,  |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAbsenceOfBiologicalProcess.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalAbsenceOfBiologicalProcess.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalAbsenceOfBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalAbsenceOfBiologicalProcess.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalAbsenceOfBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAbsenceOfBiologicalProcess.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalAbsenceOfBiologicalProcess.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAbsenceOfBiologicalProcess.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalAbsenceOfBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalAbsenceOfBiologicalProcess.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalAbsenceOfBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAbsenceOfBiologicalProcess.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalAbsenceOfBiologicalProcess.tsv) |
 
 ### Abnormal absence of biological process in location
 *A biological process that normally occurs does not occur in an anatomical entity/location.*
@@ -109,7 +109,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000462, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAbsenceOfBiologicalProcessInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalAbsenceOfBiologicalProcessInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalAbsenceOfBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAbsenceOfBiologicalProcessInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalAbsenceOfBiologicalProcessInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAbsenceOfBiologicalProcessInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalAbsenceOfBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAbsenceOfBiologicalProcessInLocation.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalAbsenceOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormal absence of chemical entity
 *A chemical (entity) or protein such as sodium or insulin that are normally present is absent.*
@@ -121,7 +121,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000462, PATO:0000460, CHEBI:24431,  |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAbsenceOfChemicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalAbsenceOfChemicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalAbsenceOfChemicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAbsenceOfChemicalEntity.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalAbsenceOfChemicalEntity.tsv) |
 
 ### Abnormal absence of chemical entity in location
 *A chemical (entity) such as sodium is missing from an anatomical location, such as blood.*
@@ -133,7 +133,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000462, PATO:0000460, CHEBI:24431, BFO:0000004,  |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAbsenceOfChemicalEntityInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalAbsenceOfChemicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAbsenceOfChemicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalAbsenceOfChemicalEntityInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAbsenceOfChemicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAbsenceOfChemicalEntityInLocation.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalAbsenceOfChemicalEntityInLocation.tsv) |
 
 ### Abnormal absence of molecular function
 *An abnormal absence of a molecular function i.e., absent or undetectable level of chromatin binding.*
@@ -145,7 +145,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000462, PATO:0000460, GO:0003674,  |
 | Variables | molecular function (GO:0003674),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalAbsenceOfMolecularFunction.tsv) |
 
 ### Abnormal absence of motility of cellular component in location
 *Absence of the ability to move (immotility) a cellular component in an anatomical entity/location.*
@@ -169,7 +169,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0002249,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalAbsenceOfPigmentationOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalAbsenceOfPigmentationOfAnatomicalEntity.tsv) |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalAbsenceOfPigmentationOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAbsenceOfPigmentationOfAnatomicalEntity.tsv) |
 
 ### Abnormal absence of protein localization in cellular component
 *Any process in which a protein is transported to, or maintained in, a specific sub-cellular location that normally occurs does not occur.*
@@ -193,7 +193,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002291, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAgenesisOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalAgenesisOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalAgenesisOfAnatomicalEntity.tsv) |
 
 ### Abnormal anatomical entity not parts
 *Any unspecified abnormality of an anatomical entity, but excluding its parts. For example, abnormal cardiovascular system if it is not supposed to subsume abnormal heart.*
@@ -205,7 +205,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000001, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalAnatomicalEntityNotParts.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalAnatomicalEntityNotParts.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalAnatomicalEntityNotParts.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalAnatomicalEntityNotParts.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalAnatomicalEntityNotParts.tsv) |
 
 ### Abnormal arrested development during stage
 *Arrest or prematurely terminated development at a specific development stage in an organism.*
@@ -229,7 +229,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001236, PATO:0000460, NBO:0000313,  |
 | Variables | behavior process (NBO:0000313),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalBehavior.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalBehavior.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalBehavior.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalBehavior.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalBehavior.tsv) |
 
 ### Abnormal biological process
 *Any unspecified abnormality of a biological process, a specific objective that the organism is genetically programmed to achieve, such as apoptosis or cell proliferation. i.e. HP_0012647 'Abnormal inflammatory response'*
@@ -241,7 +241,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001236, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalBiologicalProcess.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalBiologicalProcess.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalBiologicalProcess.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormalBiologicalProcess.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalBiologicalProcess.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalBiologicalProcess.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalBiologicalProcess.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalBiologicalProcess.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalBiologicalProcess.tsv) |
 
 ### Abnormal biological process in location
 **
@@ -253,7 +253,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001236, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalBiologicalProcessInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalBiologicalProcessInLocation.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalBiologicalProcessInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalBiologicalProcessInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalBiologicalProcessInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalBiologicalProcessInLocation.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalBiologicalProcessInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalBiologicalProcessInLocation.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalBiologicalProcessInLocation.tsv) |
 
 ### Abnormal cell differentiation
 **
@@ -301,7 +301,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001236, PATO:0000460, GO:0008283, UBERON:0001062,  |
 | Variables | anatomical_entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalCellProliferationInAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalCellProliferationInAnatomicalEntity.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalCellProliferationInAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalCellProliferationInAnatomicalEntity.tsv) |
 
 ### Abnormal cellular component
 *Any unspecified abnormality of a cellular component, such as an abnormal mitochondria.*
@@ -313,7 +313,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000001, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalCellularComponent.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalCellularComponent.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalCellularComponent.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalCellularComponent.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalCellularComponent.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalCellularComponent.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalCellularComponent.tsv) |
 
 ### Abnormal cellular component process
 *An abnormal biological process involving the participation of a cellular component.*
@@ -337,7 +337,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000404, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalCoilingOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalCoilingOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalCoilingOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalCoilingOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalCoilingOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalCoilingOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalCoilingOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalCoilingOfAnatomicalEntity.tsv) |
 
 ### Abnormal color of anatomical entity
 *Any unspecified abnormality of the color of an anatomical entity, such as HP_0012086 'Abnormal urinary color'. Abnormal pigmentation does not necessarily mean a change in color, nor does a change in color require that the root cause be due to a change in the pigment cells/granules. Pigment cells are specialized cell type and can contain different colored pigment granules. There are also differences in the process of pigmentation (such as pattern of cells or pattern of granules in those cells) as well as the dependent continuant that is the color.*
@@ -349,7 +349,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000014, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalColorOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalColorOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalColorOfAnatomicalEntity.tsv) |
 
 ### Abnormal concentration of chemical entity
 **
@@ -385,7 +385,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001847, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalConstrictionOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalConstrictionOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalConstrictionOfAnatomicalEntity.tsv) |
 
 ### Abnormal degeneration of anatomical entity
 *deterioration or loss of function of a tissue that was once present, such as HP_0000546 retinal degeneration.*
@@ -397,7 +397,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000639, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalDegenerationOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalDegenerationOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalDegenerationOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalDegenerationOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalDegenerationOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalDegenerationOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalDegenerationOfAnatomicalEntity.tsv) |
 
 ### Abnormal degeneration of anatomical entity in location
 *Deterioration or loss of function of a tissue that was once present in a location.*
@@ -409,7 +409,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000639, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalDegenerationOfAnatomicalEntityInLocation.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalDegenerationOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormal degeneration of cellular component
 *Deterioration or loss of function of a cellular component that was once present.*
@@ -421,7 +421,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000639, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalDegenerationOfCellularComponent.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalDegenerationOfCellularComponent.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalDegenerationOfCellularComponent.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalDegenerationOfCellularComponent.tsv) |
 
 ### Abnormal degeneration of cellular component in location
 *Deterioration or loss of function of a cellular component that was once present in a location, such as HP_0007305 CNS demyelination.*
@@ -433,7 +433,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000639, PATO:0000460, GO:0005575, BFO:0000004,  |
 | Variables | cellular component (GO:0005575), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalDegenerationOfCellularComponentInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalDegenerationOfCellularComponentInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalDegenerationOfCellularComponentInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalDegenerationOfCellularComponentInLocation.tsv) |
 
 ### Abnormal development of anatomical entity
 *A phenotype in which an organism exhibits an abnormal development of some anatomical entity. For example, abnormal development of the heart.*
@@ -445,7 +445,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001236, PATO:0000460, GO:0032502, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples |  |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalDevelopmentOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalDevelopmentOfAnatomicalEntity.tsv) |
 
 ### Abnormal distance between anatomical entities
 *Distance between two anatomical entites has deviated from normal. For example, PLANP_0000512 'abnormal distance between eye and eye'*
@@ -457,7 +457,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, UBERON:0001062, PATO:0000040,  |
 | Variables | anatomical_entity1 (UBERON:0001062), anatomical_entity2 (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalDistanceBetweenAnatomicalEntities.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalDistanceBetweenAnatomicalEntities.tsv) |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalDistanceBetweenAnatomicalEntities.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalDistanceBetweenAnatomicalEntities.tsv) |
 
 ### Abnormal efficacy of protein localization in cellular component
 *Abnormal efficacy or output of any process in which a protein is transported to, or maintained in, a specific sub-cellular location.*
@@ -481,7 +481,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001509, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalFunctionalityOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalFunctionalityOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalFunctionalityOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalFunctionalityOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalFunctionalityOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalFunctionalityOfAnatomicalEntity.tsv) |
 
 ### Abnormal functionality of cellular component
 *Dysfunction of a cellular component, such as an organelle, for example HP:0003398 Abnormal synaptic transmission at the neuromuscular junction'*
@@ -493,7 +493,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001509, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalFunctionalityOfCellularComponent.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalFunctionalityOfCellularComponent.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalFunctionalityOfCellularComponent.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalFunctionalityOfCellularComponent.tsv) |
 
 ### Abnormal functionality of part of anatomical entity
 *Dysfunction of a part of an anatomical entity, such as HP_0007905 'Abnormal iris vasculature'.*
@@ -505,7 +505,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001509, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalFunctionalityOfPartOfAnatomicalEntity.tsv) |
 
 ### Abnormal has extra parts of type anatomical entity
 *extra parts of an anatomical entity. For example, has extra parts of type eye.*
@@ -517,7 +517,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002002, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalHasExtraPartsOfTypeAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalHasExtraPartsOfTypeAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalHasExtraPartsOfTypeAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalHasExtraPartsOfTypeAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalHasExtraPartsOfTypeAnatomicalEntity.tsv) |
 
 ### Abnormal has extra parts of type anatomical entity in location
 *extra parts of an anatomical entity in a location. For example, has extra parts of type eye in the head.*
@@ -529,7 +529,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002002, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation.tsv) |
 
 ### Abnormal has fewer parts of type anatomical entity
 *An anatomical entity has fewer instances of a part. For example, has the hand has fewer digits. Consider using decreased number of anatomical entity in location instead.*
@@ -541,7 +541,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002001, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalHasFewerPartsOfTypeAnatomicalEntity.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalHasFewerPartsOfTypeAnatomicalEntity.tsv) |
 
 ### Abnormal has fewer parts of type anatomical entity in location
 *An anatomical entity (which is located somewhere) has fewer instances of a part. For example, the hand (which is part of the right arm) has fewer digits. Consider using decreased number of anatomical entity in location instead.*
@@ -553,7 +553,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002001, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.tsv) |
 
 ### Abnormal height of anatomical entity
 *An abnormally tall or short anatomical structure, such as HP:0000002 Abnormality of body height.'*
@@ -565,7 +565,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000119, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalHeightOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalHeightOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalHeightOfAnatomicalEntity.tsv) |
 
 ### Abnormal level of chemical entity with role
 *An abnormal level of a chemical with a specific role, such as a metabolite or hormone like androgen, for example, 'abnormal androgen level'.*
@@ -589,7 +589,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000070, PATO:0000460, CHEBI:24431, CHEBI:50906, BFO:0000004,  |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalLevelOfChemicalEntityWithRoleInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalLevelOfChemicalEntityWithRoleInLocation.tsv) |
 
 ### Abnormal mobility of anatomical entity
 *An abnormality of the ability to move (mobility) an anatomical entity, including cells. Examples include HP_0006256 'Abnormality of hand joint mobility' and MP_0008069 'abnormal joint mobility'.*
@@ -601,7 +601,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000004, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalMobilityOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalMobilityOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalMobilityOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalMobilityOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalMobilityOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalMobilityOfAnatomicalEntity.tsv) |
 
 ### Abnormal molecular function
 *An abnormality in a molecular function, like abnormal DNA ligase activity, or abnormal catalase activity.*
@@ -613,7 +613,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001236, PATO:0000460, GO:0003674,  |
 | Variables | molecular function (GO:0003674),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalMolecularFunction.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalMolecularFunction.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalMolecularFunction.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalMolecularFunction.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormalMolecularFunction.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalMolecularFunction.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalMolecularFunction.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalMolecularFunction.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalMolecularFunction.tsv) |
 
 ### Abnormal morphology of anatomical entity
 *An morphologically abnormal anatomical entity. Morphological encompasses shape and colour, but more specific patterns exist.*
@@ -625,7 +625,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000051, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalMorphologyOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalMorphologyOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalMorphologyOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalMorphologyOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalMorphologyOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalMorphologyOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalMorphologyOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalMorphologyOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalMorphologyOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalMorphologyOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalMorphologyOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalMorphologyOfAnatomicalEntity.tsv) |
 
 ### Abnormal morphology of anatomical entity in location
 *An abnormally shaped anatomical entity, in a specific location, like an abnormally shaped tip of the finger, or bone of the lower limb.*
@@ -637,7 +637,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000051, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalMorphologyOfAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalMorphologyOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalMorphologyOfAnatomicalEntityInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalMorphologyOfAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalMorphologyOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalMorphologyOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormal morphology of cellular component
 *An abnormality in the morphology of a cellular component, like an abnormal morphology of mitochondria.*
@@ -649,7 +649,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000051, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalMorphologyOfCellularComponent.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalMorphologyOfCellularComponent.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalMorphologyOfCellularComponent.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalMorphologyOfCellularComponent.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalMorphologyOfCellularComponent.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalMorphologyOfCellularComponent.tsv) [fypo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/fypo/abnormalMorphologyOfCellularComponent.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalMorphologyOfCellularComponent.tsv) |
 
 ### Abnormal morphology of part of anatomical entity
 *An morphological abnormality in a part of an anatomical entity. Morphology encompasses shape and colour, but more specific patterns exist. Example: HP:0012718 Morphological abnormality of the gastrointestinal tract. Note that pattern is very powerful, because it captures all parts of an anatomical entity, down to the cells! If in doubt, consider using abnormalMorphologyOfAnatomicalEntity instead, which captures only the abnormal morphology of the referenced anatomical entity as a whole.*
@@ -661,7 +661,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000051, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalMorphologyOfPartOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalMorphologyOfPartOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalMorphologyOfPartOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalMorphologyOfPartOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalMorphologyOfPartOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalMorphologyOfPartOfAnatomicalEntity.tsv) |
 
 ### Abnormal motility of cellular component
 *An abnormality of the ability to move (motility) a cellular component/cells. Examples include 'Abnormal cilium motility'.*
@@ -685,7 +685,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000070, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalNumberOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalNumberOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalNumberOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalNumberOfAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalNumberOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalNumberOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalNumberOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalNumberOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalNumberOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalNumberOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalNumberOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalNumberOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalNumberOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalNumberOfAnatomicalEntity.tsv) |
 
 ### Abnormal number of anatomical entity in location
 *abnormal or altered number of anatomical entities in location. For example, has abnormal number of eyes in the head.*
@@ -697,7 +697,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000070, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalNumberOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalNumberOfAnatomicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalNumberOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalNumberOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormal number of cellular component
 *abnormal or altered number of cellular components. For example, HP_0012102 Abnormal mitochondrial number.*
@@ -709,7 +709,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000070, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalNumberOfCellularComponent.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalNumberOfCellularComponent.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalNumberOfCellularComponent.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalNumberOfCellularComponent.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalNumberOfCellularComponent.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalNumberOfCellularComponent.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalNumberOfCellularComponent.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormalNumberOfCellularComponent.tsv) |
 
 ### Abnormal persistence of anatomical entity
 *The unexpected persistent presence of an anatomical entity that is not expected to be there, that should have been removed, ejected, replaced, etc, but continues to be present. For example, HP_0006335	Persistence of primary teeth, where the teeth should have fallen out during the normal developmental process, but continue to persist.*
@@ -721,7 +721,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000082, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalPersistenceOfAnatomicalEntity.tsv) |
 
 ### Abnormal pigmentation of anatomical entity
 *Any change in the amount of pigmentation in an anatomical Entity. i.e. Abnormal pigmentation of the epidermis*
@@ -733,7 +733,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0002247,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalPigmentationOfAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalPigmentationOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalPigmentationOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalPigmentationOfAnatomicalEntity.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalPigmentationOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalPigmentationOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalPigmentationOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalPigmentationOfAnatomicalEntity.tsv) |
 
 ### Abnormal position of anatomical entity
 *An abnormal placement or position of an anatomical entity, such as HP_0004307 'Abnormal anatomic location of the heart'.*
@@ -745,7 +745,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000140, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalPositionOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalPositionOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalPositionOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalPositionOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalPositionOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalPositionOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalPositionOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalPositionOfAnatomicalEntity.tsv) |
 
 ### Abnormal position of anatomical entity in location
 *An abnormally placed anatomical entity, in a position it is not normally in, such as an abnormally placed/position of a valve in the heart.*
@@ -757,7 +757,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000140, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalPositionOfAnatomicalEntityInLocation.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalPositionOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormal proportion of cell type in location
 *An abnormal proportion of a cell, in a location, like the blood. For example: HP_0020111 'Abnormal CD4+CD25+ regulatory T cell proportion'.*
@@ -769,7 +769,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001470, PATO:0000460, CL:0000000, BFO:0000004,  |
 | Variables | cell (CL:0000000), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalProportionOfCellTypeInLocation.tsv) |
 
 ### Abnormal proportion of cell type towards cell type in location
 *An abnormal proportion of a cell type relative to another cell type, in a location, like the blood. For example: 'Abnormal CD4+CD25+ regulatory T cell proportion relative to T cells in the blood'.*
@@ -781,7 +781,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001470, PATO:0000460, CL:0000000, BFO:0000004,  |
 | Variables | cell (CL:0000000), cell (CL:0000000), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalProportionOfCellTypeTowardsCellTypeInLocation.tsv) |
 
 ### Abnormal rate of biological process
 *Changed rate of a biological process, i.e. changed number of events per unit time of a biological process, or changed output of a continuous biological process).*
@@ -793,7 +793,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000161, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-6490-7723](https://orcid.org/0000-0002-6490-7723), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalRateOfBiologicalProcess.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalRateOfBiologicalProcess.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalRateOfBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalRateOfBiologicalProcess.tsv) [fypo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/fypo/abnormalRateOfBiologicalProcess.tsv) |
 
 ### Abnormal rate of biological process before stage
 *An abnormal rate of a biological process that must occur before progresssing to the next developmental stage in an organism. For example FBcv:0000450 'abnormal developmental rate', that must occur during development (before mature adult stage).*
@@ -817,7 +817,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000161, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological_process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-6490-7723](https://orcid.org/0000-0002-6490-7723), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalRateOfBiologicalProcessInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalRateOfBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalRateOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormal rate of development during stage
 *An abnormally delayed or accelerated rate of a developmental process during a developmental stage in an organism.*
@@ -853,7 +853,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000052, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062), shape (PATO:0000052),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalShapeOfAnatomicalEntityByShapeType.tsv) |
 
 ### Abnormal shape of anatomical entity by shape type in location
 *Anatomical entity with an abnormal shape of a specified shape in a particular location, e.g. Y-shaped bone in the leg.*
@@ -865,7 +865,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000052, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), shape (PATO:0000052), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalShapeOfAnatomicalEntityByShapeTypeInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormalShapeOfAnatomicalEntityByShapeTypeInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalShapeOfAnatomicalEntityByShapeTypeInLocation.tsv) |
 
 ### Abnormal shape of physical entity
 *abnormal shape of an anatomical entity or a measurement of a process, such as an ECG wave*
@@ -877,7 +877,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000052, PATO:0000460, BFO:0000002,  |
 | Variables | entity (BFO:0000002),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalShapeOfPhysicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalShapeOfPhysicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormalShapeOfPhysicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalShapeOfPhysicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalShapeOfPhysicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalShapeOfPhysicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalShapeOfPhysicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalShapeOfPhysicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalShapeOfPhysicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalShapeOfPhysicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalShapeOfPhysicalEntity.tsv) [fypo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/fypo/abnormalShapeOfPhysicalEntity.tsv) |
 
 ### Abnormal size of anatomical entity
 *An abnormal size (the relative extent of something) of an anatomical entity, such as HP_0012504 'Abnormal size of pituitary gland'.*
@@ -889,7 +889,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000117, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-1373-1705](https://orcid.org/0000-0002-1373-1705), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalSizeOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalSizeOfAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormalSizeOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormalSizeOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalSizeOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalSizeOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalSizeOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalSizeOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormalSizeOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalSizeOfAnatomicalEntity.tsv) |
 
 ### Abnormal size of cellular component
 *An abnormal size (the relative extent of something) of a cellular component, such as abnormal vacuole size.*
@@ -901,7 +901,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000117, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalSizeOfCellularComponent.tsv) |
 
 ### Abnormal spatial pattern of anatomical entity
 *Any unspecified abnormality of the spatial pattern (ie the repetition of the placement of its parts) of an anatomical entity, such as HP_0010720 Abnormal hair pattern.*
@@ -913,7 +913,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000060, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalSpatialPatternOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalSpatialPatternOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormalSpatialPatternOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormalSpatialPatternOfAnatomicalEntity.tsv) |
 
 ### Abnormal stability of anatomical entity
 *An abnormality in the ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability.*
@@ -936,8 +936,8 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormalWeightOfAnatomicalEntity |
 | Classes | PATO:0000125, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormalWeightOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormalWeightOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormalWeightOfAnatomicalEntity.tsv) |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormalWeightOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormalWeightOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormalWeightOfAnatomicalEntity.tsv) |
 
 ### Abnormally apoptotic anatomical entity
 *The abnormal presence of programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity.*
@@ -949,7 +949,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000638,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples | [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyApoptoticAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyApoptoticAnatomicalEntity.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyApoptoticAnatomicalEntity.tsv) |
 
 ### Abnormally apoptotic anatomical entity in location
 *The presence of abnormal programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity in some location.*
@@ -961,7 +961,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000638, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples | [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyApoptoticAnatomicalEntityInLocation.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyApoptoticAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally arrested biological process
 *A partial failure or arrested development of a biological process, such as arrested cell migration.*
@@ -973,7 +973,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000297, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyArrestedBiologicalProcess.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyArrestedBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyArrestedBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyArrestedBiologicalProcess.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyArrestedBiologicalProcess.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyArrestedBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyArrestedBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyArrestedBiologicalProcess.tsv) |
 
 ### Abnormally arrested biological process in location
 *A process that started but failed to occur, such as cell migration in the neural crest.*
@@ -985,7 +985,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000297, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological_process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyArrestedBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyArrestedBiologicalProcessInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyArrestedBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyArrestedBiologicalProcessInLocation.tsv) |
 
 ### Abnormally bent anatomical entity
 *An anatomical entity that has one or more angles in its length, such as a bent/crooked nose.*
@@ -997,7 +997,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000617, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyBentAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyBentAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyBentAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyBentAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyBentAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyBentAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyBentAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyBentAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyBentAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyBentAnatomicalEntity.tsv) |
 
 ### Abnormally closed anatomical entity
 **
@@ -1009,7 +1009,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000608, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyClosedAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyClosedAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyClosedAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyClosedAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyClosedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyClosedAnatomicalEntity.tsv) |
 
 ### Abnormally curved anatomical entity by orientation
 **
@@ -1021,7 +1021,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000406, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062), curved (PATO:0000406),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyCurvedAnatomicalEntityByOrientation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyCurvedAnatomicalEntityByOrientation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyCurvedAnatomicalEntityByOrientation.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyCurvedAnatomicalEntityByOrientation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyCurvedAnatomicalEntityByOrientation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyCurvedAnatomicalEntityByOrientation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyCurvedAnatomicalEntityByOrientation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyCurvedAnatomicalEntityByOrientation.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyCurvedAnatomicalEntityByOrientation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyCurvedAnatomicalEntityByOrientation.tsv) |
 
 ### Abnormally decreased coiling of anatomical entity
 *An anatomical entity (or whole organism) that exhibits abnormally decreased coiling, or wound into a spiral or sequence of rings, like an abnormally decreased coiling of tail.*
@@ -1033,7 +1033,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001796, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedCoilingOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedCoilingOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedCoilingOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedCoilingOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedCoilingOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedCoilingOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedCoilingOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedCoilingOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased distance between anatomical entities
 *The distance between two anatomical entities is decreased. For example the distance between eyes.*
@@ -1045,7 +1045,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, UBERON:0001062, PATO:0000375,  |
 | Variables | anatomical entity1 (UBERON:0001062), anatomical entity2 (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyDecreasedDistanceBetweenAnatomicalEntities.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedDistanceBetweenAnatomicalEntities.tsv) |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyDecreasedDistanceBetweenAnatomicalEntities.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedDistanceBetweenAnatomicalEntities.tsv) |
 
 ### Abnormally decreased efficacy of behavior
 *Behavior occurs with a reduced efficacy, i.e. a decreased ability to produce its output. For example, male courtship behavior that is less attractive to females, or memory that results in a weaker aversive response to a stimulus associated with punishment.*
@@ -1081,7 +1081,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001624, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedFunctionalityOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased functionality of anatomical entity in location
 *An impaired function of an anatomical entity or part, in a specific anatomical location, such as Beta-cell dysfunction in the pancreas.*
@@ -1093,7 +1093,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001624, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedFunctionalityOfAnatomicalEntityInLocation.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedFunctionalityOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally decreased height of anatomical entity
 *An abnormally short anatomical structure, such as HP:0004322 Short stature.*
@@ -1105,7 +1105,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000569, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedHeightOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedHeightOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedHeightOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedHeightOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased length of anatomical entity
 *Anatomical entity is observed to be of decreased length. i.e., decreased length of tail*
@@ -1117,7 +1117,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000574,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedLengthOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased length of anatomical entity attached to location
 *Anatomical entity is observed to be of decreased length while attached to another anatomical entity. This pattern is primary used for HPO contracture terms, such as HP_0001239 'Wrist flexion contracture'.*
@@ -1129,7 +1129,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000574, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedLengthOfAnatomicalEntityAttachedToLocation.tsv) |
 
 ### Abnormally decreased length of anatomical entity in location
 *Anatomical entity is observed to be of decreased length, such as decreased length of finger on the hand.*
@@ -1141,7 +1141,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000574, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedLengthOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedLengthOfAnatomicalEntityInLocation.tsv) |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedLengthOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedLengthOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally decreased level of chemical entity
 **
@@ -1153,7 +1153,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001997, PATO:0000460, CHEBI:24431,  |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedLevelOfChemicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedLevelOfChemicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedLevelOfChemicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedLevelOfChemicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedLevelOfChemicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedLevelOfChemicalEntity.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedLevelOfChemicalEntity.tsv) |
 
 ### Abnormally decreased level of chemical entity in location
 **
@@ -1165,7 +1165,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001997, PATO:0000460, CHEBI:24431, BFO:0000004,  |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedLevelOfChemicalEntityInLocation.tsv) |
 
 ### Abnormally decreased level of chemical entity with role
 *An abnormally decreased level of a chemical with a specific role, such as a metabolite or hormone like androgen, for example, 'decreased androgen level'.*
@@ -1189,7 +1189,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001997, PATO:0000460, CHEBI:24431, CHEBI:50906, BFO:0000004,  |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedLevelOfChemicalEntityWithRoleInLocation.tsv) |
 
 ### Abnormally decreased mass density of anatomical entity
 *The mass density (its mass per unit volume) of anatomical entity is lower than normal, such as HP_0004349 Reduced bone mineral density.*
@@ -1201,7 +1201,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001790, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedMassDensityOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedMassDensityOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased mass of anatomical entity
 *The mass (the amount of matter or substance that makes up an object) of anatomical entity is lower than normal, such as HP_0003199 Decreased muscle mass. Note, mass density (mass per unit volume) is different than overall mass.*
@@ -1213,7 +1213,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001562, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedMassOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedMassOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedMassOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyDecreasedMassOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedMassOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased mobility of anatomical entity
 *An abnormally decreased or reduced ability to move an anatomical entity. Example: MP:0030863 decreased joint mobility.*
@@ -1225,7 +1225,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002283, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedMobilityOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased motility of cellular component in location
 *Decreased ability to move a cellular component in an anatomical entity/location.*
@@ -1249,7 +1249,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001997, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedNumberOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased number of anatomical entity in location
 *A decreased number of an anatomical entity in a location, such a decreased number of teeth in the mouth.*
@@ -1261,7 +1261,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001997, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally decreased number of cellular component
 *A decreased number of a cellular component, such as HP:0040013 'Decreased mitochondrial number'.*
@@ -1273,7 +1273,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001997, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedNumberOfCellularComponent.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedNumberOfCellularComponent.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedNumberOfCellularComponent.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyDecreasedNumberOfCellularComponent.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedNumberOfCellularComponent.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedNumberOfCellularComponent.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedNumberOfCellularComponent.tsv) |
 
 ### Abnormally decreased occurrence of biological process
 *Occurrence of a biological process that is abnormally low.*
@@ -1285,7 +1285,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002052, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples | [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) [fypo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/fypo/abnormallyDecreasedOccurrenceOfBiologicalProcess.tsv) |
 
 ### Abnormally decreased occurrence of biological process in location
 *Occurrence of a biological process in some location that is abnormally low.*
@@ -1297,7 +1297,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002052, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples | [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation.tsv) |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally decreased pigmentation of anatomical entity
 *Decreased pigmentation of an anatomical entity, such as decreased skin pigmentation.*
@@ -1309,7 +1309,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0002251,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedPigmentationOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased position of anatomical entity
 *The postion or placement of an anatomical entity is lowered or decreased, such as MP_0000024 'lowered ear position' or HP_0000369 Low-set ears.*
@@ -1321,7 +1321,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001476, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedPositionOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedPositionOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedPositionOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased quality of biological process
 *Process that appears in some (unspecified) way impaired or decreased (less frequent, less strong).*
@@ -1333,7 +1333,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002302, PATO:0000460, GO:0008150,  |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedQualityOfBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedQualityOfBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedQualityOfBiologicalProcess.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormallyDecreasedQualityOfBiologicalProcess.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedQualityOfBiologicalProcess.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedQualityOfBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedQualityOfBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedQualityOfBiologicalProcess.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedQualityOfBiologicalProcess.tsv) |
 
 ### Abnormally decreased quality of biological process in location
 *Process in a location that appears in some (unspecified) way impaired or decreased (less frequent, less strong).*
@@ -1345,7 +1345,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002302, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedQualityOfBiologicalProcessInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedQualityOfBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedQualityOfBiologicalProcessInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedQualityOfBiologicalProcessInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedQualityOfBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedQualityOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally decreased rate of behavior
 *Behavior occurs with a lower frequency (less often) than usual (per unit of time).*
@@ -1357,7 +1357,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000911, PATO:0000460, NBO:0000313,  |
 | Variables | behavior process (NBO:0000313),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedRateOfBehavior.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedRateOfBehavior.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedRateOfBehavior.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedRateOfBehavior.tsv) |
 
 ### Abnormally decreased rate of biological process
 *Decreased frequency of a biological process occuring (per some unit of time).*
@@ -1369,7 +1369,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000911, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedRateOfBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedRateOfBiologicalProcess.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyDecreasedRateOfBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormallyDecreasedRateOfBiologicalProcess.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedRateOfBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedRateOfBiologicalProcess.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyDecreasedRateOfBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedRateOfBiologicalProcess.tsv) [fypo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/fypo/abnormallyDecreasedRateOfBiologicalProcess.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedRateOfBiologicalProcess.tsv) |
 
 ### Abnormally decreased rate of biological process in location
 *Decreased frequency of a biological process occuring (per some unit of time) in a location, such as HP_0003469 Peripheral dysmyelination.*
@@ -1381,7 +1381,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000911, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological_process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedRateOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally decreased rate of molecular function
 *Decreased or reduced functionality of a molecular function, which is a process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities, such as binding, catalysis, enzyme activities (like hydrolases, ligases), etc. Example: HP_0002932 'Aldehyde oxidase deficiency'*
@@ -1393,7 +1393,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000911, PATO:0000460, GO:0003674,  |
 | Variables | molecular function (GO:0003674),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedRateOfMolecularFunction.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedRateOfMolecularFunction.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedRateOfMolecularFunction.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedRateOfMolecularFunction.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedRateOfMolecularFunction.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedRateOfMolecularFunction.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedRateOfMolecularFunction.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedRateOfMolecularFunction.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedRateOfMolecularFunction.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedRateOfMolecularFunction.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedRateOfMolecularFunction.tsv) |
 
 ### Abnormally decreased resistance of whole organism to chemical entity
 *A phenotype in which an organism shows decreased resistance to a chemical, for example 4-aminosalicylic acid. NOTE: There is a more general pattern (abnormallyDecreasedResistanceOfWholeOrganismToEntity), so this one should probably be obsoleted.*
@@ -1405,7 +1405,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001651, PATO:0000460, CARO:0010004, CHEBI:24431,  |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.tsv) |
 
 ### Abnormally decreased resistance of whole organism to entity
 *A phenotype in which an organism shows decreased resistance to a something, like radiation.*
@@ -1417,7 +1417,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001651, PATO:0000460, CARO:0010004, BFO:0000001,  |
 | Variables | entity (BFO:0000001),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedResistanceOfWholeOrganismToEntity.tsv) |
 
 ### Abnormally decreased size of anatomical entity
 *Abnormally small anatomical entity, e.g. MP:0020533 'decreased pons size'*
@@ -1429,7 +1429,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000587, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedSizeOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased size of anatomical entity in location
 *Abnormally small anatomical entity in a location, e.g. and abnormally small finger on the right hand.*
@@ -1441,7 +1441,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000587, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedSizeOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally decreased size of cellular component
 *Abnormally small cellular component, e.g. decreased contractile vacuole size'*
@@ -1453,7 +1453,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000587, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedSizeOfCellularComponent.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDecreasedSizeOfCellularComponent.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDecreasedSizeOfCellularComponent.tsv) |
 
 ### Abnormally decreased speed of anatomical entity
 *Decreased speed of an antomical entity. i.e., decreased speed of whole organism*
@@ -1465,7 +1465,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000304,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyDecreasedSpeedOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedSpeedOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased stability of anatomical entity
 *An abnormally decreased or impaired ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability.*
@@ -1489,7 +1489,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001779, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedStrengthOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedStrengthOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedStrengthOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased thickness of anatomical entity
 *An abnormally thinner anatomical entity, like HP:0100689 Decreased corneal thickness.*
@@ -1501,7 +1501,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000592, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedThicknessOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedThicknessOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedThicknessOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedThicknessOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased tonicity of anatomical entity
 *A decrease in the normal presence of tone or tension (the resistance to passive stretch during resting state) in an anatomical entity, usually a a muscle or organ, such as HP_0001252 Muscular hypotonia or MP_0003089 'decreased skin tensile strength'.*
@@ -1513,7 +1513,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001619, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedTonicityOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedTonicityOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedTonicityOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased volume of anatomical entity
 *Decreased volume of an anatomical entity, e.g. HP:0012695 Decreased thalamic volume.*
@@ -1525,7 +1525,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000596, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedVolumeOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased weight of anatomical entity
 *Decreased mass of an anatomical entity, e.g. decreased mass of the whole organism. NOTE: We are using decreased mass (PATO:0001562), not weight, to model this phenotype, see also https://github.com/obophenotype/bio-attribute-ontology/issues/39*
@@ -1536,8 +1536,8 @@ This is a listing of all the patterns hosted as part of this directory
 | Name | abnormallyDecreasedWeightOfAnatomicalEntity |
 | Classes | PATO:0001562, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedWeightOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased width of anatomical entity
 *Decrease in the width of an anatomical entity. i.e., decreased width, skinny, tail*
@@ -1549,7 +1549,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000599,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedWidthOfAnatomicalEntity.tsv) |
 
 ### Abnormally decreased width of anatomical entity in location
 *Abnormal decrease in the width of an anatomical entity, e.g. decreased width of the tail*
@@ -1561,7 +1561,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000599, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDecreasedWidthOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDecreasedWidthOfAnatomicalEntityInLocation.tsv) |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDecreasedWidthOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDecreasedWidthOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally delayed biological process
 **
@@ -1573,7 +1573,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000502, PATO:0000460, GO:0008150,  |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDelayedBiologicalProcess.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDelayedBiologicalProcess.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyDelayedBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDelayedBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDelayedBiologicalProcess.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDelayedBiologicalProcess.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDelayedBiologicalProcess.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyDelayedBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDelayedBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDelayedBiologicalProcess.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyDelayedBiologicalProcess.tsv) |
 
 ### Abnormally delayed biological process in location
 *Occurrence of a biological process in some location that is abnormally delayed.*
@@ -1597,7 +1597,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001453, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDetachedAnatomicalEntities.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDetachedAnatomicalEntities.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDetachedAnatomicalEntities.tsv) |
 
 ### Abnormally duplicated anatomical entity
 *An anatomical entity that was abnormally duplicated, such as a duplicated digit 1.*
@@ -1609,7 +1609,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001473, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyDuplicatedAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDuplicatedAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDuplicatedAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDuplicatedAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyDuplicatedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDuplicatedAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDuplicatedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDuplicatedAnatomicalEntity.tsv) |
 
 ### Abnormally duplicated anatomical entity in location
 *An anatomical entity that was abnormally duplicated in a location, such as a duplicated digit 1 on the right hand, or HP:0006176 Two carpal ossification centers present at birth..*
@@ -1621,7 +1621,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001473, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyDuplicatedAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally everted anatomical entity
 *An abnormal configuration of an anatomical entity, such that it is turned outward in placement (ie the opposite of inverted). Such as HP_0000232 Everted lower lip vermilion*
@@ -1633,7 +1633,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001597, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyEvertedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyEvertedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyEvertedAnatomicalEntity.tsv) |
 
 ### Abnormally fused anatomical entities
 *An anatomical entity that is abnormally fused with another anatomical entity.*
@@ -1645,7 +1645,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000642, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyFusedAnatomicalEntities.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyFusedAnatomicalEntities.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyFusedAnatomicalEntities.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyFusedAnatomicalEntities.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyFusedAnatomicalEntities.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyFusedAnatomicalEntities.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyFusedAnatomicalEntities.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyFusedAnatomicalEntities.tsv) |
 
 ### Abnormally fused anatomical entities in location
 *An anatomical entity in a particular location that is abnormally fused with another anatomical entity in a particular location. Before using this pattern make sure abnormallyFusedAnatomicalEntities is not applicable.*
@@ -1657,7 +1657,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000642, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), anatomical entity (UBERON:0001062), independent continuant (BFO:0000004), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyFusedAnatomicalEntitiesInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyFusedAnatomicalEntitiesInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyFusedAnatomicalEntitiesInLocation.tsv) |
 
 ### Abnormally immobile anatomical entity
 *An abnormality of the complete lack of the ability to move (immobility) an anatomical entity, including cells.*
@@ -1669,7 +1669,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000300, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyImmobileAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyImmobileAnatomicalEntity.tsv) |
 
 ### Abnormally incomplete closure of anatomical entity
 **
@@ -1681,7 +1681,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000609, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncompleteClosureOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased coiling of anatomical entity
 *An anatomical entity (or whole organism) that exhibits abnormally increased coiling, or wound into a spiral or sequence of rings, like an abnormally increased coiling of tail.*
@@ -1705,7 +1705,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, UBERON:0001062, PATO:0000374,  |
 | Variables | entity1 (UBERON:0001062), entity2 (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyIncreasedDistanceBetweenAnatomicalEntities.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedDistanceBetweenAnatomicalEntities.tsv) |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyIncreasedDistanceBetweenAnatomicalEntities.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedDistanceBetweenAnatomicalEntities.tsv) |
 
 ### Abnormally increased efficacy of behavior
 *Behavior occurs with a higher efficacy, i.e. an increased ability to produce its output. For example, male courtship behavior that is more attractive to females, or memory that results in a stronger aversive response to a stimulus associated with punishment.*
@@ -1753,7 +1753,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000570, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedHeightOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased height of anatomical entity in location
 *An abnormally tall anatomical structure in a location.'*
@@ -1765,7 +1765,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000570, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedHeightOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedHeightOfAnatomicalEntityInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedHeightOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedHeightOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally increased length of anatomical entity
 *Increased length of an antomical entity. i.e., increased length of tail*
@@ -1777,7 +1777,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000573,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedLengthOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased length of anatomical entity in location
 *Increased length/abnormally long in a particular anatomical entity. Example: HP_0012743 'Abdominal obesity'*
@@ -1789,7 +1789,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000573, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedLengthOfAnatomicalEntityInLocation.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedLengthOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally increased level of chemical entity
 **
@@ -1801,7 +1801,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000470, PATO:0000460, CHEBI:24431,  |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0003-4606-0597](https://orcid.org/0000-0003-4606-0597), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedLevelOfChemicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedLevelOfChemicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedLevelOfChemicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedLevelOfChemicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedLevelOfChemicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedLevelOfChemicalEntity.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyIncreasedLevelOfChemicalEntity.tsv) |
 
 ### Abnormally increased level of chemical entity in location
 *An abnormal increase of a chemical entity in a lcoation. Example 'Increased CSF lactate', i.e. increased lactate in cerebrospinal fluid (HP_0002490).*
@@ -1813,7 +1813,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000470, PATO:0000460, CHEBI:24431, BFO:0000004,  |
 | Variables | chemical entity (CHEBI:24431), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) [mgpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mgpo/abnormallyIncreasedLevelOfChemicalEntityInLocation.tsv) |
 
 ### Abnormally increased level of chemical entity with role
 *An abnormally increased level of a chemical with a specific role, e.g. metabolite. For example, increased biopterin level*
@@ -1837,7 +1837,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000470, PATO:0000460, CHEBI:24431, CHEBI:50906, BFO:0000004,  |
 | Variables | role (CHEBI:50906), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedLevelOfChemicalEntityWithRoleInLocation.tsv) |
 
 ### Abnormally increased mobility of anatomical entity
 *An increased or enhanced ability to move an anatomical entity, including cells. Example: HP_0003318 'Cervical spine hypermobility' .*
@@ -1849,7 +1849,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002282, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedMobilityOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased motility of cellular component in location
 *Increased ability to move a cellular component in an anatomical entity/location.*
@@ -1873,7 +1873,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000470, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedNumberOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased number of anatomical entity in location
 *An increased number of an anatomical entity in a location, such a increased number of teeth in the mouth.*
@@ -1885,7 +1885,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000470, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally increased number of cellular component
 *An increased number of a cellular component.*
@@ -1897,7 +1897,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000470, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedNumberOfCellularComponent.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedNumberOfCellularComponent.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedNumberOfCellularComponent.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyIncreasedNumberOfCellularComponent.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedNumberOfCellularComponent.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedNumberOfCellularComponent.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyIncreasedNumberOfCellularComponent.tsv) |
 
 ### Abnormally increased occurrence of biological process
 *Occurrence of a biological process that is abnormally high.*
@@ -1909,7 +1909,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002051, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples | [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) [fypo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/fypo/abnormallyIncreasedOccurrenceOfBiologicalProcess.tsv) |
 
 ### Abnormally increased occurrence of biological process in location
 *Occurrence of a biological process in some location that is abnormally high.*
@@ -1921,7 +1921,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002051, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples | [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.tsv) |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally increased pigmentation of anatomical entity
 *Increased pigmentation of an anatomical entity, such as increased skin pigmentation.*
@@ -1933,7 +1933,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0002250,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedPigmentationOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased quality of biological process
 *Process that appears in some (unspecified) way strengthened or increased (more frequent, more strong).*
@@ -1945,7 +1945,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002304, PATO:0000460, GO:0008150,  |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedQualityOfBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedQualityOfBiologicalProcess.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyIncreasedQualityOfBiologicalProcess.tsv) |
 
 ### Abnormally increased quality of biological process in location
 *Process in a location that appears in some (unspecified) way strengthened or increased (more frequent, more strong).*
@@ -1957,7 +1957,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002304, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedQualityOfBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedQualityOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally increased rate of behavior
 *Behavior occurs with a higher frequency (more often) than usual (per unit of time)*
@@ -1969,7 +1969,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000912, PATO:0000460, NBO:0000313,  |
 | Variables | behavior process (NBO:0000313),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedRateOfBehavior.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedRateOfBehavior.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedRateOfBehavior.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedRateOfBehavior.tsv) |
 
 ### Abnormally increased rate of biological process
 *Abnormally increased frequency of a biological process occuring (per some unit of time).*
@@ -1981,7 +1981,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000912, PATO:0000460, GO:0008150,  |
 | Variables | biological_process (GO:0008150),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedRateOfBiologicalProcess.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedRateOfBiologicalProcess.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedRateOfBiologicalProcess.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedRateOfBiologicalProcess.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyIncreasedRateOfBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedRateOfBiologicalProcess.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormallyIncreasedRateOfBiologicalProcess.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedRateOfBiologicalProcess.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedRateOfBiologicalProcess.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedRateOfBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedRateOfBiologicalProcess.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyIncreasedRateOfBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedRateOfBiologicalProcess.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyIncreasedRateOfBiologicalProcess.tsv) |
 
 ### Abnormally increased rate of biological process in location
 *Abnormally increased frequency of a biological process occuring (per some unit of time) in some location, such as increased apoptosis in a tissue.*
@@ -1993,7 +1993,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000912, PATO:0000460, GO:0008150, BFO:0000004,  |
 | Variables | biological process (GO:0008150), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedRateOfBiologicalProcessInLocation.tsv) |
 
 ### Abnormally increased rate of molecular function
 *Increased functionality of a molecular process, like 'growth hormone secretion' or 'ketone body biosynthetic process'. For example: HP_0000845 'Growth hormone excess' and HP_0001946 Ketosis.*
@@ -2005,7 +2005,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000912, PATO:0000460, GO:0003674,  |
 | Variables | molecular function (GO:0003674),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedRateOfMolecularFunction.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedRateOfMolecularFunction.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedRateOfMolecularFunction.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedRateOfMolecularFunction.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormallyIncreasedRateOfMolecularFunction.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedRateOfMolecularFunction.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedRateOfMolecularFunction.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedRateOfMolecularFunction.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedRateOfMolecularFunction.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyIncreasedRateOfMolecularFunction.tsv) |
 
 ### Abnormally increased resistance of whole organism to chemical entity
 *A phenotype in which an organism shows increased resistance to a chemical, for example 4-aminosalicylic acid. NOTE: There is a more general pattern (abnormallyIncreasedResistanceOfWholeOrganismToEntity), so this one should probably be obsoleted.*
@@ -2017,7 +2017,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001650, PATO:0000460, CARO:0010004, CHEBI:24431,  |
 | Variables | chemical entity (CHEBI:24431),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X),  |
-| Examples | [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.tsv) |
 
 ### Abnormally increased resistance of whole organism to entity
 *A phenotype in which an organism shows increased resistance to something, for example radition.*
@@ -2029,7 +2029,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001650, PATO:0000460, CARO:0010004, BFO:0000001,  |
 | Variables | entity (BFO:0000001),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) [phipo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//phipo/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) |
+| Examples | [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyIncreasedResistanceOfWholeOrganismToEntity.tsv) |
 
 ### Abnormally increased size of anatomical entity
 *A enlarged entity, like an abnormally large anatomical structure.	i.e. HP_0012081 'Enlarged cerebellum'*
@@ -2041,7 +2041,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000586, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-7941-2961](https://orcid.org/0000-0001-7941-2961),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedSizeOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased size of anatomical entity in location
 *A enlarged entity, like an abnormally large anatomical structure in a location, such as an enlarged glomerulus in the kidney.'*
@@ -2053,7 +2053,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000586, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-9900-7880](https://orcid.org/0000-0002-9900-7880), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedSizeOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally increased size of cellular component
 *A enlarged cellular component, like increased phagolysosome size.'*
@@ -2065,7 +2065,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000586, PATO:0000460, GO:0005575,  |
 | Variables | cellular component (GO:0005575),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedSizeOfCellularComponent.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyIncreasedSizeOfCellularComponent.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyIncreasedSizeOfCellularComponent.tsv) |
 
 ### Abnormally increased speed of anatomical entity
 *Increased speed of an antomical entity. i.e., increased speed of whole organism*
@@ -2077,7 +2077,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000303,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyIncreasedSpeedOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedSpeedOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased stability of anatomical entity
 *An abnormally increased or impaired ability of an anatomical entity to to retain a particular structure or homeostatic set of structures. For example, abnormal spore stability.*
@@ -2101,7 +2101,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000591, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedThicknessOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased thickness of anatomical entity in location
 *An abnormally thickened anatomical entity in a location, like an abnormally thick skin of the hand.*
@@ -2113,19 +2113,19 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000591, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedThicknessOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally increased weight of anatomical entity
-*Increase weight/abnormally heavy in a particular anatomical entity. Example: HP_0012743 'Abdominal obesity'*
+*Increased mass of an anatomical entity, e.g. increased mass of the whole organism. NOTE: We are using increased mass (PATO:0001563), not weight, to model this phenotype, see also https://github.com/obophenotype/bio-attribute-ontology/issues/39*
 
 | Attribute | Info |
 |----------|----------|
 | IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedWeightOfAnatomicalEntity.yaml |
 | Name | abnormallyIncreasedWeightOfAnatomicalEntity |
-| Classes | PATO:0000582, PATO:0000460, UBERON:0001062,  |
+| Classes | PATO:0001563, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
-| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedWeightOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedWeightOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedWeightOfAnatomicalEntity.tsv) |
+| Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedWeightOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedWeightOfAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/abnormallyIncreasedWeightOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedWeightOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased width of anatomical entity
 *Increased width of an antomical entity. i.e., wider tail.*
@@ -2137,7 +2137,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000600,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0003-4148-4606](https://orcid.org/0000-0003-4148-4606),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [planp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//planp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedWidthOfAnatomicalEntity.tsv) |
 
 ### Abnormally increased width of anatomical entity in location
 *An abnormal increase in the width of an anatomical entity in a location, e.g. an abnormally wide bone in the hand.*
@@ -2149,7 +2149,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000600, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyIncreasedWidthOfAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyIncreasedWidthOfAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyIncreasedWidthOfAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally inverted anatomical entity in location
 *An abnormal configuration of an anatomical entity such that it is reversed in position, order, or condition in a particular location, e.g. an inverted joint in a limb.*
@@ -2161,7 +2161,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000625, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyInvertedAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally open anatomical entity
 *Example: abnormal open anterior neural tube*
@@ -2173,7 +2173,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000610, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyOpenAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyOpenAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/abnormallyOpenAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyOpenAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyOpenAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyOpenAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyOpenAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyOpenAnatomicalEntity.tsv) |
 
 ### Abnormally patchy pigmentation of anatomical entity
 *Patchy pigmentation of an anatomical entity, such as patchy skin pigmentation.*
@@ -2197,7 +2197,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000694, PATO:0000460, GO:0008150,  |
 | Variables | biological process (GO:0008150),  |
 | Contributors | [0000-0001-7487-610X](https://orcid.org/0000-0001-7487-610X), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abnormallyPrematureBiologicalProcess.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyPrematureBiologicalProcess.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyPrematureBiologicalProcess.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyPrematureBiologicalProcess.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyPrematureBiologicalProcess.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallyPrematureBiologicalProcess.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyPrematureBiologicalProcess.tsv) [phipo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/phipo/abnormallyPrematureBiologicalProcess.tsv) |
 
 ### Abnormally premature biological process in location
 *A biological process in a location that starts earlier than the natural start time or the reference process.*
@@ -2221,7 +2221,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001482, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyProminentAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyProminentAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyProminentAnatomicalEntity.tsv) |
 
 ### Abnormally protruding anatomical entity in location
 **
@@ -2233,7 +2233,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0001646, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abnormallyProtrudingAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/abnormallyProtrudingAnatomicalEntityInLocation.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyProtrudingAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyProtrudingAnatomicalEntityInLocation.tsv) |
 
 ### Abnormally rotated anatomical entity
 *An anatomical entity that is abnormally rotated or malrotated, such as HP_0004785 'Malrotation of colon'.*
@@ -2245,7 +2245,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001599, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abnormallyRotatedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abnormallyRotatedAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/abnormallyRotatedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/abnormallyRotatedAnatomicalEntity.tsv) |
 
 ### Abnormally segmented anatomical entity in location
 *Anatomical entity that is abnormally segmented in a particular location, e.g. abnormally segmented bone in a limb.*
@@ -2257,7 +2257,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0002312, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/abnormallySegmentedAnatomicalEntityInLocation.tsv) |
 
 ### Abscess in location
 *The presence of an abscess in an anatomical entity. HP_0025044 'Lung abscess'.*
@@ -2269,7 +2269,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000470, PATO:0000460, UBERON:0001062, MPATH:608,  |
 | Variables | anatomical entity (UBERON:0001062), abscess (MPATH:608),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/abscessInLocation.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/abscessInLocation.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/abscessInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/abscessInLocation.tsv) |
 
 ### Aplastic anatomical entity
 *A congenital absence of an anatomical entity. For example, HP_0009238 'Aplasia of the 5th finger'.*
@@ -2281,7 +2281,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001483, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/aplasticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/aplasticAnatomicalEntity.tsv) |
 
 ### Aplastic hypoplastic anatomical entity
 *An underdeveloped or absent anatomical entity. This pattern should be used in cases where the anatomical entity is small or missing, but the clinician or researcher is unable to definitively say if it is a case of aplasia or hypoplasia. Using the moree specific term is preferred.For example, HP_0006265 'Aplasia/Hypoplasia of fingers'*
@@ -2293,7 +2293,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002290, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/aplasticHypoplasticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/aplasticHypoplasticAnatomicalEntity.tsv) |
 
 ### Atretic anatomical entity
 *Failure of an anatomcial entity to properly form. HP_0011984 'Atretic gallbladder'.*
@@ -2305,7 +2305,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001819, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/atreticAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/atreticAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/atreticAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/atreticAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/atreticAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/atreticAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/atreticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/atreticAnatomicalEntity.tsv) |
 
 ### Atrophied anatomical entity
 *Atrophy (wasting) of an anatomical structure, such as HP_0410279 'Atrophic pituitary gland'.*
@@ -2317,7 +2317,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001623, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/atrophiedAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/atrophiedAnatomicalEntity.tsv) [dpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//dpo/atrophiedAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/atrophiedAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/atrophiedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/atrophiedAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/atrophiedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/atrophiedAnatomicalEntity.tsv) |
 
 ### Bifurcated anatomical entity
 *Branching of an anatomical entity into two branches. Example: HP_0010309 'Bifid sternum'.*
@@ -2329,7 +2329,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001784, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/bifurcatedAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/bifurcatedAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/bifurcatedAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/bifurcatedAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/bifurcatedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/bifurcatedAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/bifurcatedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/bifurcatedAnatomicalEntity.tsv) |
 
 ### Bifurcated anatomical entity in location
 *Abnormal branching of an anatomical entity into two branches in a particular location, e.g. bifurcated blood vessel in a limb.*
@@ -2341,7 +2341,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001784, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/bifurcatedAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/bifurcatedAnatomicalEntityInLocation.tsv) |
 
 ### Blistered anatomical entity
 *The presence of blisters on an anatomical entity, such as blisters on the skin.*
@@ -2353,7 +2353,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0001928,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/blisteredAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/blisteredAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/blisteredAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/blisteredAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/blisteredAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/blisteredAnatomicalEntity.tsv) |
 
 ### Blistered anatomical entity in location
 *Blistering of an an anatomical entity, like blistered skin or feet.*
@@ -2365,7 +2365,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0001928, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/blisteredAnatomicalEntityInLocation.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/blisteredAnatomicalEntityInLocation.tsv) |
 
 ### Broken anatomical entity
 *A broken anatomical entity. Consider fracturedAnatomicalEntity pattern instead.*
@@ -2377,7 +2377,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001444, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/brokenAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/brokenAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/brokenAnatomicalEntity.tsv) |
 
 ### Calcified anatomical entity
 *A hardening of an anatomical entity, caused by deposition of or conversion into calcium carbonate or some other insoluble calcium compounds. Example: HP_0011415 'Calcified placenta.*
@@ -2389,7 +2389,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001447, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/calcifiedAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/calcifiedAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/calcifiedAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/calcifiedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/calcifiedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/calcifiedAnatomicalEntity.tsv) |
 
 ### Cyst in location
 *The presence of a cyst in an anatomical entity. For example, HP_0010604 'Cyst of the eyelid'.*
@@ -2401,7 +2401,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001673, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/cystInLocation.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/cystInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/cystInLocation.tsv) |
 
 ### Damaged anatomical entity in location
 *A damaged or injured anatomical entity in a location, such as HP_0003390 'Sensory axonal neuropathy'. The damage or injury may lead to loss of functionality or cell death.*
@@ -2413,7 +2413,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0001167, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/damagedAnatomicalEntityInLocation.tsv) |
 
 ### Decreased proportion of cell type in location
 *An decreased proportion of a cell, in a location, like the blood. For example: HP_0032183 Decreased proportion of memory T cells.*
@@ -2425,7 +2425,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0040042, PATO:0000460, CL:0000000, BFO:0000004,  |
 | Variables | cell (CL:0000000), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/decreasedProportionOfCellTypeInLocation.tsv) |
 
 ### Decreased proportion of cell type towards cell type in location
 *A decreased proportion of a cell type relative to another cell type, in a location, like the blood. For example: 'decreased CD4+CD25+ regulatory T cell proportion relative to T cells in the blood'.*
@@ -2437,7 +2437,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0040042, PATO:0000460, CL:0000000, BFO:0000004,  |
 | Variables | cell (CL:0000000), cell (CL:0000000), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/decreasedProportionOfCellTypeTowardsCellTypeInLocation.tsv) |
 
 ### Dysplastic anatomical entity
 *A congenital malformation of an anatomical entity, such as HP_0005176 'Dysplastic aortic valve'.*
@@ -2449,7 +2449,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000640, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/dysplasticAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/dysplasticAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/dysplasticAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/dysplasticAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/dysplasticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/dysplasticAnatomicalEntity.tsv) |
 
 ### Edematous anatomical entity
 *An antomical strucuture with an abnormal accumulation of fluid, e.g. head edema, pulmonary edema (HP:0100598).*
@@ -2461,7 +2461,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0001450,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267), [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/edematousAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/edematousAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/edematousAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/edematousAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/edematousAnatomicalEntity.tsv) |
 
 ### Fibrotic anatomical entity
 *The presence of excessive fibrous connective tissue in an anatomical entity, e.g. Endocardial fibrosis (HP_0006685), Pulmonary fibrosis (HP_0002206).*
@@ -2473,7 +2473,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0040019, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/fibroticAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/fibroticAnatomicalEntity.tsv) |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/fibroticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/fibroticAnatomicalEntity.tsv) |
 
 ### Fractured anatomical entity
 *An abnormal fracture in an anatomical entity. A normal fracture is when you fall off your bike and break your arm. A pathological or abnormal fracture means that for instance you have cancer and a metastasis has weakened a bone that then fractures without an adequate trauma.*
@@ -2485,7 +2485,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0040034, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-8169-9049](https://orcid.org/0000-0002-8169-9049),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/fracturedAnatomicalEntity.tsv) |
 
 ### Fractured anatomical entity by fracture type
 *This pattern is for generating fractured bone terms, such as Linear fracture in tibia or Spiral fracture in humerus.*
@@ -2497,7 +2497,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0040034, PATO:0000460, UBERON:0001062,  |
 | Variables | fractured (PATO:0040034), anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/fracturedAnatomicalEntityByFractureType.tsv) |
 
 ### Hypoplastic anatomical entity
 *An underdeveloped or small anatomical entity. For example, HP_0008417 'Vertebral hypoplasia'*
@@ -2509,7 +2509,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000645, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/hypoplasticAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/hypoplasticAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/hypoplasticAnatomicalEntity.tsv) [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/hypoplasticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/hypoplasticAnatomicalEntity.tsv) |
 
 ### Hypoplastic anatomical entity in location
 *An underdeveloped or small anatomical entity in a location. For example, PLANP:0000832 underdeveloped eyes in tail fragment*
@@ -2521,7 +2521,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000645, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/hypoplasticAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/hypoplasticAnatomicalEntityInLocation.tsv) |
 
 ### Increased proportion of cell type in location
 *An increased proportion of a cell, in a location, like the blood. For example: HP_0032184 Increased proportion of memory T cells.*
@@ -2533,7 +2533,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0040043, PATO:0000460, CL:0000000, BFO:0000004,  |
 | Variables | cell (CL:0000000), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/increasedProportionOfCellTypeInLocation.tsv) |
 
 ### Increased proportion of cell type towards cell type in location
 *An increased proportion of a cell type relative to another cell type, in a location, like the blood. For example: 'increased CD4+CD25+ regulatory T cell proportion relative to T cells in the blood'.*
@@ -2545,7 +2545,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0040043, PATO:0000460, CL:0000000, BFO:0000004,  |
 | Variables | cell (CL:0000000), cell (CL:0000000), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/increasedProportionOfCellTypeTowardsCellTypeInLocation.tsv) |
 
 ### Lesioned anatomical entity
 *an antomical strucuture with one or more lesions. i.e., one or more lesions in the head*
@@ -2557,7 +2557,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0040025,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples |  |
+| Examples | [planp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/planp/lesionedAnatomicalEntity.tsv) |
 
 ### Lysed anatomical entity
 *expansive cellular membrane destruction in anatomical entity.*
@@ -2581,7 +2581,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000646,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/malformedAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/malformedAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/malformedAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/malformedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/malformedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/malformedAnatomicalEntity.tsv) |
 
 ### Malformed anatomical entity by type
 *A malformed subtype of an anatomical entity, such as a wholly dorsalized embryo. This pattern can use any subclass of PATO malformed.*
@@ -2593,7 +2593,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000646, PATO:0000460, UBERON:0001062,  |
 | Variables | malformed (PATO:0000646), anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0002-3528-5267](https://orcid.org/0000-0002-3528-5267),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/malformedAnatomicalEntityByType.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/malformedAnatomicalEntityByType.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/malformedAnatomicalEntityByType.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/malformedAnatomicalEntityByType.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/malformedAnatomicalEntityByType.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/malformedAnatomicalEntityByType.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/malformedAnatomicalEntityByType.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/malformedAnatomicalEntityByType.tsv) |
 
 ### Malformed anatomical entity in location
 *Congenital malformation of an anatomical entity in a location, such as 'malformed anterior chamber in the eye'.*
@@ -2605,7 +2605,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000646, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432),  |
-| Examples | [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/malformedAnatomicalEntityInLocation.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/malformedAnatomicalEntityInLocation.tsv) |
+| Examples | [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/malformedAnatomicalEntityInLocation.tsv) |
 
 ### Metaplastic anatomical entity
 *The abnormal change from one fully differentiated cellular state into another in an anatomical entity.*
@@ -2617,7 +2617,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002101, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/metaplasticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/metaplasticAnatomicalEntity.tsv) |
 
 ### Mislocalised anatomical entity
 *Abnormal anatomic location of an anatomicaly entity, such as HP_0012731 'Ectopic anterior pituitary gland'.*
@@ -2629,7 +2629,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000628,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015),  |
-| Examples | [mp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//mp/mislocalisedAnatomicalEntity.tsv) [hp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//hp/mislocalisedAnatomicalEntity.tsv) [wbphenotype](https://data.monarchinitiative.org/upheno2/current/pattern-matches//wbphenotype/mislocalisedAnatomicalEntity.tsv) [xpo](https://data.monarchinitiative.org/upheno2/current/pattern-matches//xpo/mislocalisedAnatomicalEntity.tsv) [zp](https://data.monarchinitiative.org/upheno2/current/pattern-matches//zp/mislocalisedAnatomicalEntity.tsv) |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/mislocalisedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/mislocalisedAnatomicalEntity.tsv) [wbphenotype](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/wbphenotype/mislocalisedAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/mislocalisedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/mislocalisedAnatomicalEntity.tsv) |
 
 ### Mislocalised anatomical entity in location
 *Abnormal anatomic location of an anatomicaly entity, such as XAO:0005038 'mislocalised nucleus in the myoblast'.*
@@ -2641,7 +2641,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000628, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0001-5208-3432](https://orcid.org/0000-0001-5208-3432), [0000-0001-9076-6015](https://orcid.org/0000-0001-9076-6015), [0000-0003-1074-8103](https://orcid.org/0000-0003-1074-8103),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/mislocalisedAnatomicalEntityInLocation.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/mislocalisedAnatomicalEntityInLocation.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/mislocalisedAnatomicalEntityInLocation.tsv) |
 
 ### Necrotic anatomical entity
 *The presence of unprogrammed cell death in an anatomical entity.*
@@ -2653,7 +2653,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000647,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-7356-1779](https://orcid.org/0000-0002-7356-1779), [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/necroticAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/necroticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/necroticAnatomicalEntity.tsv) |
 
 ### Neoplastic anatomical entity
 *The presence of abnormally proliferating masses of cells in an anatomical entity.*
@@ -2665,7 +2665,7 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0002011, PATO:0000460, UBERON:0001062,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/neoplasticAnatomicalEntity.tsv) [dpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/dpo/neoplasticAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/neoplasticAnatomicalEntity.tsv) |
 
 ### Paralysed anatomical entity
 *The complete loss of the ability to move a body part, e.g. a paralysed tail.*
@@ -2677,5 +2677,5 @@ This is a listing of all the patterns hosted as part of this directory
 | Classes | PATO:0000460, UBERON:0001062, PATO:0000763,  |
 | Variables | anatomical entity (UBERON:0001062),  |
 | Contributors | [0000-0002-9611-1279](https://orcid.org/0000-0002-9611-1279),  |
-| Examples |  |
+| Examples | [mp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/mp/paralysedAnatomicalEntity.tsv) [hp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/hp/paralysedAnatomicalEntity.tsv) [xpo](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/xpo/paralysedAnatomicalEntity.tsv) [zp](https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches/zp/paralysedAnatomicalEntity.tsv) |
 
