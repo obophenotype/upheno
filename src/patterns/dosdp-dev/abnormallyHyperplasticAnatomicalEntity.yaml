@@ -40,7 +40,7 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "The increased size of the %s is due to an increase in cell number (hyperplasia)."
+  text: "%s shows abnormally increased number of cells in a tissue (hyperplasia) typically resulting in increased size."
   vars:
     - anatomical_entity
 
