@@ -8,37 +8,20 @@ OBO=http://purl.obolibrary.org/obo
 OT_MEMO=160G
 OWLTOOLS=OWLTOOLS_MEMORY=$(OT_MEMO) owltools --no-logging
 
-query: $(pattern-files)
+$(TMPDIR)/pattern_schema_checks_dev: $(ALL_PATTERN_FILES) | $(TMPDIR)
+	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns-dev/ && touch $@
 
-.PHONY: query $(pattern-files)
-
-HP = mirror/hp.owl
-
-MP = mirror/mp.owl
-
-PATO = mirror/pato.owl
-
-$(HP): 
-	curl -L -O http://purl.obolibrary.org/obo/hp.owl
-
-$(MP): 
-	curl -L -O http://purl.obolibrary.org/obo/mp.owl
-
-
-pattern_schema_checks_dev:
-	simple_pattern_tester.py $(PATTERNDIR)/dosdp-dev/
-
-pattern_schema_checks_main:
-	simple_pattern_tester.py $(PATTERNDIR)/dosdp-patterns/
+$(TMPDIR)/pattern_schema_checks_main: $(ALL_PATTERN_FILES) | $(TMPDIR)
+	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/ && touch $@
 	
-pattern_schema_checks: pattern_schema_checks_main pattern_schema_checks_dev
+upheno_test: $(TMPDIR)/pattern_schema_checks_main $(TMPDIR)/pattern_schema_checks_dev
 
-../patterns/pattern-dev.owl: pattern_schema_checks
+../patterns/pattern-dev.owl: $(TMPDIR)/pattern_schema_checks_dev
 	$(DOSDPT) prototype --obo-prefixes true --template=../patterns/dosdp-dev --outfile=$@
 
-../patterns/pattern-main.owl: pattern_schema_checks
+../patterns/pattern-main.owl: $(TMPDIR)/pattern_schema_checks_main
 	$(DOSDPT) prototype --obo-prefixes true --template=../patterns/dosdp-patterns --outfile=$@
-	
+
 ../patterns/pattern-merged.owl: ../patterns/pattern-dev.owl ../patterns/pattern-main.owl
 	$(ROBOT) merge -i ../patterns/pattern-dev.owl -i ../patterns/pattern-main.owl annotate -V $(ONTBASE)/releases/`date +%Y-%m-%d`/$(ONT)-pattern.owl annotate --ontology-iri $(ONTBASE)/$(ONT)-pattern.owl -o $@
 
@@ -55,7 +38,6 @@ PATTERN_IMPORTS_OWL = $(patsubst %, ../patterns/imports/%_import.owl, $(PATTERN_
 ../patterns/imports/%_import.owl: mirror/%.owl ../patterns/imports/seed_sorted.txt
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T ../patterns/imports/seed_sorted.txt --method BOT -O mirror/$*.owl annotate --ontology-iri $(OBO)/$(ONT)/patterns/imports/$*_import.owl -o $@; fi
 
-	
 mirror/uberon-bridge-to-caro.owl:
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/uberon-bridge-to-caro.owl

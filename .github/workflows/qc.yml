@@ -19,7 +19,7 @@ jobs:
   ontology_qc:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.2.26
+    container: obolibrary/odkfull:v1.3.0
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -29,4 +29,4 @@ jobs:
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: master
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' pattern_ontology IMP=false PAT=true
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' upheno_test IMP=false PAT=true
