@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/obophenotype/upheno.svg?branch=master)](https://travis-ci.org/obophenotype/upheno)
+![Build Status](https://github.com/obophenotype/upheno/workflows/CI/badge.svg)
 
 <img src="https://raw.githubusercontent.com/jmcmurry/closed-illustrations/master/logos/upheno-logos/upheno-logo_black-banner.svg?sanitize=true" width="400px"/>
 
