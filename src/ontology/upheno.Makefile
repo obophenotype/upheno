@@ -9,7 +9,7 @@ OT_MEMO=160G
 OWLTOOLS=OWLTOOLS_MEMORY=$(OT_MEMO) owltools --no-logging
 
 $(TMPDIR)/pattern_schema_checks_dev: $(ALL_PATTERN_FILES) | $(TMPDIR)
-	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns-dev/ && touch $@
+	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-dev/ && touch $@
 
 $(TMPDIR)/pattern_schema_checks_main: $(ALL_PATTERN_FILES) | $(TMPDIR)
 	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/ && touch $@
@@ -32,7 +32,7 @@ upheno_test: $(TMPDIR)/pattern_schema_checks_main $(TMPDIR)/pattern_schema_check
 	cat ../patterns/imports/seed.txt | sort | uniq > $@
 
 
-	
+
 PATTERN_IMPORTS = pato ro uberon go cl caro uberon-bridge-to-caro chebi mpath nbo
 PATTERN_IMPORTS_OWL = $(patsubst %, ../patterns/imports/%_import.owl, $(PATTERN_IMPORTS))
 ../patterns/imports/%_import.owl: mirror/%.owl ../patterns/imports/seed_sorted.txt
