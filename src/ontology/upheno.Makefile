@@ -25,9 +25,6 @@ $(MP):
 	curl -L -O http://purl.obolibrary.org/obo/mp.owl
 
 
-$(pattern-files): $(HP) $(MP)
-	dosdp-scala query --ontology=$(MP) --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).mp.tsv; dosdp-scala query --ontology=$(HP) --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).hp.tsv
-
 pattern_schema_checks_dev:
 	simple_pattern_tester.py $(PATTERNDIR)/dosdp-dev/
 
@@ -35,7 +32,7 @@ pattern_schema_checks_main:
 	simple_pattern_tester.py $(PATTERNDIR)/dosdp-patterns/
 	
 pattern_schema_checks: pattern_schema_checks_main pattern_schema_checks_dev
-	
+
 ../patterns/pattern-dev.owl: pattern_schema_checks
 	$(DOSDPT) prototype --obo-prefixes true --template=../patterns/dosdp-dev --outfile=$@
 
@@ -72,7 +69,6 @@ mirror/uberon-bridge-to-caro.owl:
 pattern_ontology: ../patterns/pattern.owl
 	$(ROBOT) merge -i ../patterns/pattern.owl \
 	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self annotations" --signature true --trim true -o ../patterns/pattern-simple.owl
-	
 
 ../patterns/dosdp-patterns/README.md: .FORCE
 	python ../scripts/patterns_create_overview.py "../patterns/dosdp-patterns|../patterns/dosdp-dev" $@
