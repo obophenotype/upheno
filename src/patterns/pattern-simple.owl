@@ -100,6 +100,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBehavior.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBehavior.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absence of &apos;behavior process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalAbsenceOfBehavior</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent &apos;behavior process&apos;</rdfs:label>
@@ -189,6 +190,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfProteinLocalizationInCellularComponent.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfProteinLocalizationInCellularComponent.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absent or undetectable protein localization &apos;cellular component&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalAbsenceOfProteinLocalizationInCellularComponent</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absent protein localization in &apos;cellular component&apos;</rdfs:label>
@@ -233,6 +235,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anomaly in &apos;behavior process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalBehavior</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal &apos;behavior process&apos;</rdfs:label>
@@ -451,6 +454,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalEfficacyOfProteinLocalizationInCellularComponent.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalEfficacyOfProteinLocalizationInCellularComponent.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal protein localization &apos;cellular component&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalEfficacyOfProteinLocalizationInCellularComponent</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormal protein localization in &apos;cellular component&apos;</rdfs:label>
@@ -495,7 +499,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasExtraPartsOfTypeAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasExtraPartsOfTypeAnatomicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAnatomicalEntityNotParts.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes there to be extra parts of type &apos;anatomical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalHasExtraPartsOfTypeAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra &apos;anatomical entity&apos;s</oboInOwl:hasExactSynonym>
@@ -507,7 +511,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasFewerPartsOfTypeAnatomicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasFewerPartsOfTypeAnatomicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAnatomicalEntityNotParts.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly of &apos;anatomical entity&apos; that causes there to be fewer parts of type &apos;anatomical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalHasFewerPartsOfTypeAnatomicalEntity</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fewer &apos;anatomical entity&apos;s in &apos;anatomical entity&apos;</oboInOwl:hasExactSynonym>
@@ -997,6 +1001,8 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfBehavior.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfBehavior.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased ability of &apos;behavior process&apos; to produce its output.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDecreasedEfficacyOfBehavior</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally decreased efficacy of &apos;behavior process&apos;</rdfs:label>
@@ -1007,6 +1013,8 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfProteinLocalizationInCellularComponent.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedEfficacyOfProteinLocalizationInCellularComponent.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalEfficacyOfProteinLocalizationInCellularComponent.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased protein localization &apos;cellular component&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDecreasedEfficacyOfProteinLocalizationInCellularComponent</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased protein localization in &apos;cellular component&apos;</rdfs:label>
@@ -1291,6 +1299,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBehavior.yaml">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired or decreased &apos;behavior process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDecreasedRateOfBehavior</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally impaired &apos;behavior process&apos;</rdfs:label>
@@ -1337,7 +1346,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAnatomicalEntityNotParts.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased resistance of organism to &apos;chemical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDecreasedResistanceOfWholeOrganismToChemicalEntity.yaml</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased sensitivity of organism to &apos;chemical entity&apos;</oboInOwl:hasExactSynonym>
@@ -1630,6 +1639,8 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedEfficacyOfBehavior.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedEfficacyOfBehavior.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased ability of &apos;behavior process&apos; to produce its output.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedEfficacyOfBehavior</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally increased efficacy of &apos;behavior process&apos;</rdfs:label>
@@ -1640,6 +1651,8 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedEfficacyOfProteinLocalizationInCellularComponent.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedEfficacyOfProteinLocalizationInCellularComponent.yaml">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalEfficacyOfProteinLocalizationInCellularComponent.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedQualityOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased protein localization &apos;cellular component&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedEfficacyOfProteinLocalizationInCellularComponent</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased protein localization in &apos;cellular component&apos;</rdfs:label>
@@ -1881,6 +1894,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBehavior.yaml">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalBehavior.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfBiologicalProcess.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enhanced or improved &apos;behavior process&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedRateOfBehavior</terms:title>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormally enhanced &apos;behavior process&apos;</rdfs:label>
@@ -1927,7 +1941,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAnatomicalEntityNotParts.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased resistance of organism to &apos;chemical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased sensitivity of organism to &apos;chemical entity&apos;</oboInOwl:hasExactSynonym>
@@ -2601,6 +2615,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation.yaml">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalHasExtraPartsOfTypeAnatomicalEntity.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes there to be extra parts of type &apos;anatomical entity&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra &apos;anatomical entity&apos;s in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
@@ -2612,7 +2627,7 @@
     <!-- http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.yaml -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.yaml">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAnatomicalEntityNotParts.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntityInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes there to be fewer parts of type &apos;anatomical entity&apos; in the &apos;anatomical entity&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fewer &apos;anatomical entity&apos;s in &apos;anatomical entity&apos;, located in &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
