@@ -49,10 +49,11 @@ annotations:
       - entity
 
 def:
-  text: "Any anomaly that causes %s to be of %s color."
+  text: "An abnormally %s %s."
   vars:
-    - entity
     - color
+    - entity
+
 
 equivalentTo:
   text: "'has_part' some (%s and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
