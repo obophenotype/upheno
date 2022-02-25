@@ -1,16 +1,18 @@
-pattern_name: abnormallyHyperplasticAnatomicalEntity.yaml
+pattern_name: HyperplasticAnatomicalEntity.yaml
 
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyHyperplasticAnatomicalEntity.yaml
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/HyperplasticAnatomicalEntity.yaml
 
-description: 'Hyperplastic anatomical entity, for example, thyroid gland hyperplasia. The increase in size of the anatomical entity is due to an increase in cell number,'
+description: 'Hyperplastic anatomical entity, for example, thyroid gland hyperplasia, characterised by an increase in cell number.'
 
-#  examples:
-#    - http://purl.obolibrary.org/obo/HP_0008249
-#    - http://purl.obolibrary.org/obo/MP_0000630
-#    - http://purl.obolibrary.org/obo/MP_0013765
+# examples:
+#   - http://purl.obolibrary.org/obo/HP_0008249
+#   - http://purl.obolibrary.org/obo/MP_0000630
+#   - http://purl.obolibrary.org/obo/MP_0013765
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140
+  - https://orcid.org/0000-0003-4606-0597
+  - https://orcid.org/0000-0002-9900-7880
 
 classes:
   abnormal: PATO:0000460
