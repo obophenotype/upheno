@@ -1,0 +1,54 @@
+pattern_name: hypertrophicAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/hypertrophicAnatomicalEntity.yaml
+
+description: 'Abnormal overgrowth of anatomical entity, e.g. skeletal muscle hypertrophy.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/HP_0003712
+#    - http://purl.obolibrary.org/obo/MP_0009461
+#    - http://purl.obolibrary.org/obo/MP_0000053
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140
+
+classes:
+  hypertrophic: PATO:0000584
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "hypertrophic %s"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "%s hypertrophy"
+    vars:
+      - anatomical_entity
+
+def:
+  text: "An abnormal overgrowth of %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+        'hypertrophic' and
+        'characteristic_of' some %s and
+        'has_modifier' some 'abnormal')"
+
+  vars:
+    - anatomical_entity
