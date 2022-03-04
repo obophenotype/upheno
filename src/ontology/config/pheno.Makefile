@@ -30,7 +30,10 @@ $(SCRIPTSDIR)/upheno-relationship-augmentation.jar: | $(SCRIPTSDIR)
 $(TMPDIR)/phenotype_classes.txt: $(SRC) | $(TMPDIR)
 	$(ROBOT) query -i $< --query ../sparql/mp_terms.sparql $@
 
-$(TMPDIR)/upheno_has_phenotype_affecting.owl: ../scripts/upheno-relationship-augmentation.jar $(ONT).owl $(TMPDIR) tmp/phenotype_classes.txt
+$(TMPDIR)/$(ONT)-merged-reasoned.owl: $(SRC)
+	$(ROBOT) merge -i $< reason -o $@
+
+$(TMPDIR)/upheno_has_phenotype_affecting.owl: ../scripts/upheno-relationship-augmentation.jar $(TMPDIR)/$(ONT)-merged-reasoned.owl $(TMPDIR) tmp/phenotype_classes.txt
 	java -jar $^
 
 $(TMPDIR)/upheno-relations.owl: | $(TMPDIR)
