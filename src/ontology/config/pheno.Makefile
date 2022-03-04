@@ -18,6 +18,7 @@ pheno.Makefile:
 #################################################
 
 UPHENO_JAR="https://github.com/obophenotype/upheno-dev/raw/master/src/scripts/upheno-relationship-augmentation.jar"
+UPHENO_RELATIONS="https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/ontology/components/upheno-relations.owl"
 
 $(SCRIPTSDIR)/upheno-relationship-augmentation.jar:
 	wget $(UPHENO_JAR) -O $@
@@ -25,8 +26,11 @@ $(SCRIPTSDIR)/upheno-relationship-augmentation.jar:
 $(TMPDIR)/phenotype_classes.txt: $(SRC)
 	$(ROBOT) query -i $< --query ../sparql/mp_terms.sparql $@
 
-$(TMPDIR)/upheno_has_phenotype_affecting.owl: ../scripts/upheno-relationship-augmentation.jar $(ONT).owl $(TMPDIR) tmp/phenotype_classes.txt
+$(TMPDIR)/upheno-has-phenotype-affecting.owl: ../scripts/upheno-relationship-augmentation.jar $(ONT).owl $(TMPDIR) tmp/phenotype_classes.txt
 	java -jar $^
 
-components/eq-relations.owl: $(TMPDIR)/upheno_has_phenotype_affecting.owl
-	$(ROBOT) annotate -i $< --ontology-iri $(ONTBASE)/$@ -o $@
+$(TMPDIR)/upheno-relations.owl:
+	wget $(UPHENO_RELATIONS) -O $@
+
+components/eq-relations.owl: $(TMPDIR)/upheno-has-phenotype-affecting.owl $(TMPDIR)/upheno-relations.owl
+	$(ROBOT) merge $(patsubst %, -i %, $^) annotate --ontology-iri $(ONTBASE)/$@ -o $@
