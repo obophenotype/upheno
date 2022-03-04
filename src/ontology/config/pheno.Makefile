@@ -11,7 +11,7 @@ MAKEFILE_URL=https://raw.githubusercontent.com/obophenotype/upheno/master/src/on
 update_pheno_makefile: pheno.Makefile
 
 pheno.Makefile:
-	wget $(MAKEFILE_URL) -o $@
+	wget $(MAKEFILE_URL) -O $@
 
 #################################################
 ### Code for EQ direct relation component #######
