@@ -11,7 +11,7 @@ components:
   products:
     - filename: eq-relations.owl
 ```
-1. We can now choose if we want to add the component to your edit file as well. To do that, follow the [instructions on adding an import](odk-workflows/RepoManagement.md#Add-new-import) (i.e. adding the component to the edit file and catalog file). The IRI of the component is `http://purl.obolibrary.org/obo/YOURONTOLOGY/components/eq-relations.owl`. For example, for MP, the IRI is `http://purl.obolibrary.org/obo/mp/components/eq-relations.owl`.
+1. We can now choose if we want to add the component to your edit file as well. To do that, follow the [instructions on adding an import](../odk-workflows/RepoManagement.md#Add-new-import) (i.e. adding the component to the edit file and catalog file). The IRI of the component is `http://purl.obolibrary.org/obo/YOURONTOLOGY/components/eq-relations.owl`. For example, for MP, the IRI is `http://purl.obolibrary.org/obo/mp/components/eq-relations.owl`.
 1. Now we can generate the component:
 ```
 sh run.sh make components/eq-relations.owl
