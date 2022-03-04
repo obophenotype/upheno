@@ -1,0 +1,64 @@
+pattern_name: abnormallyAsymmetricalAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyAsymmetricalAnatomicalEntity.yaml
+
+description: 'Abnormally asymmetrical anatomical entity or a pair of anatomical entities, e.g. craniofacial asymmetry, foot asymmetry, respectively.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/MP_0008863
+#    - http://purl.obolibrary.org/obo/HP_0002678
+#    - http://purl.obolibrary.org/obo/HP_0010507
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140
+
+classes:
+  asymmetrical: PATO:0000616
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "abnormal asymmetry of %s"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "abnormally asymmetrical %s"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: related_synonym
+    text: "%s asymmetry"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: related_synonym
+    text: "asymmetry of %s"
+    vars:
+      - anatomical_entity
+
+def:
+  text: "Abnormal asymmetry of %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+          'asymmetrical' and
+          'characteristic_of' some %s and
+          'has_modifier' some 'abnormal')"
+  vars:
+    - anatomical_entity
