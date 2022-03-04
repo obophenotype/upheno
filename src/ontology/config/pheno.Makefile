@@ -5,7 +5,7 @@
 ## This Makfile is intended for use in phenotype
 ## Ontologies.
 
-MAKEFILE_URL=
+MAKEFILE_URL=https://raw.githubusercontent.com/obophenotype/upheno/master/src/ontology/config/pheno.Makefile
 
 .PHONY: update_pheno_makefile
 update_pheno_makefile: pheno.Makefile
