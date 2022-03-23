@@ -5,12 +5,12 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPuncta
 description: 'Abnormally punctate anatomical entity, e.g. epiphyseal stippling.'
 
 #  examples:
-#    - http://purl.obolibrary.org/obo/HP_0010158
-#    - http://purl.obolibrary.org/obo/HP_0010237
-#    - http://purl.obolibrary.org/obo/HP_0010655
+#    - http://purl.obolibrary.org/obo/HP_0010158  # Stippling of the epiphysis of the 1st metatarsal
+#    - http://purl.obolibrary.org/obo/HP_0010237  # Epiphyseal stippling of finger phalanges
+#    - http://purl.obolibrary.org/obo/HP_0010655  # Epiphyseal stippling
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
 
 classes:
   punctate: PATO:0001512
