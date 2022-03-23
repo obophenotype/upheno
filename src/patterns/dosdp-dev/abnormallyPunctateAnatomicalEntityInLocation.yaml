@@ -5,12 +5,12 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyPuncta
 description: 'Abnormally punctate anatomical entity in a location , e.g. stippling of the epiphyses of the 3rd toe.'
 
 #  examples:
-#    - http://purl.obolibrary.org/obo/HP_0100064
-#    - http://purl.obolibrary.org/obo/HP_0009165
-#    - http://purl.obolibrary.org/obo/HP_0009344
+#    - http://purl.obolibrary.org/obo/HP_0100064  # Stippling of the epiphyses of the 3rd toe
+#    - http://purl.obolibrary.org/obo/HP_0009165  # Stippling of the epiphysis of the distal phalanx of the 5th finger
+#    - http://purl.obolibrary.org/obo/HP_0009344  # Stippling of the epiphysis of the distal phalanx of the 3rd finger
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
 
 classes:
   punctate: PATO:0001512
