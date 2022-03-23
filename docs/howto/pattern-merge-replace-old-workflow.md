@@ -7,7 +7,7 @@ This document is on how to merge new DOSDP design patterns into an ODK ontology 
 
     $ODK-ONTOLOGY/src/patterns/data/default/
 
-Make sure that the tsv filename matches the that of the yaml DOSDP pattern file.
+Make sure that the tsv filename matches that of the yaml DOSDP pattern file.
 
 ### 2. Add the new matching pattern yaml filename to 
 
