@@ -1,13 +1,13 @@
-# Pattern merge - replace old workflow
+# Pattern merge - replace workflow
 
 This document is on how to merge new DOSDP design patterns into an ODK ontology and then how to replace the old classes with the new ones.
 
-### 1. You need a table in tsv format with the DOSDP filler data. Download the tsv table to
+### 1. You need the tables in tsv format with the DOSDP filler data. Download the tsv tables to
 
 
     $ODK-ONTOLOGY/src/patterns/data/default/
 
-Make sure that the tsv filename matches that of the yaml DOSDP pattern file.
+Make sure that the tsv filenames match that of the relevant yaml DOSDP pattern files.
 
 ### 2. Add the new matching pattern yaml filename to 
 
