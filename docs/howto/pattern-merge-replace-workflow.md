@@ -15,17 +15,23 @@ Make sure that the tsv filenames match that of the relevant yaml DOSDP pattern f
     $ODK-ONTOLOGY/src/patterns/dosdp-patterns/external.txt
 
 
-### 3. make definitions.owl 
+### 3. Import the new pattern templates that you have just added to the `external.txt` list from external sources into the current working repository
+
+    cd ODK-ONTOLOGY/src/ontology
+    sh run.sh make update_patterns
+
+### 4. make definitions.owl
 
     cd ODK-ONTOLOGY/src/ontology
     sh run.sh make ../patterns/definitions.owl IMP=false
 
 
-### 4. Remove old classes with the equivalent newly patternised ones
+### 5. Remove old classes and replace them with the equivalent and patternised new classes
 
+    cd ODK-ONTOLOGY/src/ontology
     sh run.sh make remove_patternised_classes
 
-### 5. Announce the pattern migration in an appropriate channel, for example on the phenotype-ontologies Slack channel.
+### 6. Announce the pattern migration in an appropriate channel, for example on the phenotype-ontologies Slack channel.
 
 For example:
 
