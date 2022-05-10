@@ -22,7 +22,7 @@ contributors:
 classes:
   hypertrophic: PATO:0000584
   abnormal: PATO:0000460
-  anatomical_entity: UBERON:0010000
+  multicellular_anatomical_structure: UBERON:0010000
 
 relations:
   characteristic_of: RO:0000052
@@ -33,7 +33,7 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
-  anatomical_entity: "'anatomical_entity'"
+  anatomical_entity: "'multicellular_anatomical_structure'"
 
 name:
   text: "hypertrophic %s"
