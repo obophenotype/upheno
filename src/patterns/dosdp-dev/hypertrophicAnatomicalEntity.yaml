@@ -2,21 +2,25 @@ pattern_name: hypertrophicAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/hypertrophicAnatomicalEntity.yaml
 
-description: 'Abnormal overgrowth of anatomical entity, e.g. skeletal muscle hypertrophy.'
+description: 'Use this pattern for overgrowth of multicellular structures due to overgrowth and enlargement of their cells. When the mechanism is unknown or for enlargement of any other type of structure, including enlargement of single cells, please use abnormallyIncreasedSizeOfAnatomicalEntity.'
 
 #  examples:
-#    - http://purl.obolibrary.org/obo/HP_0003712
-#    - http://purl.obolibrary.org/obo/MP_0009461
-#    - http://purl.obolibrary.org/obo/MP_0000053
+#    - http://purl.obolibrary.org/obo/HP_0003712  # Skeletal muscle hypertrophy
+#    - http://purl.obolibrary.org/obo/MP_0009461  # skeletal muscle hypertrophy
+#    - http://purl.obolibrary.org/obo/MP_0000053  # excessive ear growth
+#    - http://purl.obolibrary.org/obo/MP_0005603  # neuron hypertrophy
+#    - http://purl.obolibrary.org/obo/ZP_0016896  # kidney hypertrophic, abnormal
+#    - http://purl.obolibrary.org/obo/ZP_0007444  # ciliary zone hypertrophic, abnormal
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140
-  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0001-5208-3432  # Nicole Vasilevsky
+  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
 
 classes:
   hypertrophic: PATO:0000584
   abnormal: PATO:0000460
-  anatomical_entity: UBERON:0001062
+  anatomical_entity: UBERON:0010000
 
 relations:
   characteristic_of: RO:0000052
@@ -41,7 +45,7 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "An abnormal overgrowth of %s."
+  text: "Increased size of %s due to overgrowth and enlargement of its constituent cells."
   vars:
     - anatomical_entity
 
