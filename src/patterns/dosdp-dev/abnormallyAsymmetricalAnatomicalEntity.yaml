@@ -55,7 +55,7 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "Abnormal asymmetry of %s."
+  text: "Abnormal morphological asymmetry of %s or a set of %s across an axis of symmetry."
   vars:
     - anatomical_entity
 
