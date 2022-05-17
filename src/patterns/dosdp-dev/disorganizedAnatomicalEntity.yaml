@@ -2,15 +2,19 @@ pattern_name: disorganizedAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/disorganizedAnatomicalEntity.yaml
 
-description: 'Disorganized anatomical entity, e.g. disorganized corneal epithelium.'
+description: "Use this pattern when an anatomical entity is structurally disorganized, e.g. in case of a disorganized corneal epithelium. Do not use this pattern for fragmented or otherwise broken anatomical entities, even though you might argue that in some sense there is disorganisation in those cases as well. However, those cases belong to different phenotype patterns that are covered by structural phenotype terms in PATO that are different from the 'disorganized' quality."
 
 #  examples:
-#    - http://purl.obolibrary.org/obo/MP_0031131
-#    - http://purl.obolibrary.org/obo/MP_0020859
-#    - http://purl.obolibrary.org/obo/XPO_0115471
+#    - http://purl.obolibrary.org/obo/MP_0031131  # myocardial fiber disarray
+#    - http://purl.obolibrary.org/obo/MP_0020859  # disorganized corneal epithelium
+#    - http://purl.obolibrary.org/obo/XPO_0115471  # abnormally disorganized myotome
+#    - http://purl.obolibrary.org/obo/ZP_0000138  # chondrocyte disorganized, abnormal
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
 
 classes:
   disorganized: PATO:0000937
