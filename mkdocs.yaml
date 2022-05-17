@@ -4,17 +4,23 @@ nav:
   - Getting started: index.md
   - Cite: cite.md
   - History: history.md
+  - uPheno community effort:
+      - Meetings: organization/meetings.md
   - How-to guides:
       - Standard ODK workflows:
-          - Overview: howto/odk-workflows/index.md
-          - Editors Workflow: howto/odk-workflows/EditorsWorkflow.md
-          - Release Workflow: howto/odk-workflows/ReleaseWorkflow.md
-          - Manage your ODK Repository: howto/odk-workflows/RepoManagement.md
-          - Setting up Docker for ODK: howto/odk-workflows/SettingUpDockerForODK.md
-          - Manage imports: howto/odk-workflows/UpdateImports.md
-          - Manage documentation: howto/odk-workflows/ManageDocumentation.md
-          - Manage Continuous Integration: howto/odk-workflows/ContinuousIntegration.md
+          - Overview: odk-workflows/index.md
+          - Editors Workflow: odk-workflows/EditorsWorkflow.md
+          - Release Workflow: odk-workflows/ReleaseWorkflow.md
+          - Manage your ODK Repository: odk-workflows/RepoManagement.md
+          - Setting up Docker for ODK: odk-workflows/SettingUpDockerForODK.md
+          - Manage imports: odk-workflows/UpdateImports.md
+          - Manage documentation: odk-workflows/ManageDocumentation.md
+          - Manage Continuous Integration: odk-workflows/ContinuousIntegration.md
       - Contributing: contributing.md
+      - Advanced Phenotype Ontology Editor workflows:
+          - Add custom uPheno Makefile: howto/custom-upheno-makefile.md
+          - Add the uPheno direct relation extension: howto/add-relation-extension.md
+          - Pattern merge - replace workflow: howto/pattern-merge-replace-workflow.md
   - Tutorials:
       - Using uPheno in Data Analysis: tutorials/analysis.md
       - Using uPheno in Curation: tutorials/curation.md
@@ -29,7 +35,7 @@ nav:
     - Use Cases:
       - Cross-species reasoning: key-topics/use-cases/cross_species_reasoning.md
   - Reference:
-    - Your ODK Repository Overview: howto/odk-workflows/RepositoryFileStructure.md
+    - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md
     - Components:
       - Overview: reference/components.md
       - Drosophila Phenotype Ontology: reference/components/dpo.md
