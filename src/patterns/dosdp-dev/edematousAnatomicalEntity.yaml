@@ -2,15 +2,23 @@ pattern_name: edematousAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/edematousAnatomicalEntity.yaml
 
-description: 'Abnormal accumulation of fluid in anatomical entity, e.g. edema in lung.'
+description: 'Use this pattern when the phenotype is abnormal accumulation of fluid in an anatomical entity, e.g. edema in lung.'
 
 #  examples:
-#    - http://purl.obolibrary.org/obo/XPO_0141324
-#    - http://purl.obolibrary.org/obo/XPO_0141593
-#    - http://purl.obolibrary.org/obo/XPO_0115698
+#    - http://purl.obolibrary.org/obo/XPO_0141324  # edema in brain
+#    - http://purl.obolibrary.org/obo/XPO_0141593  # edema in lung
+#    - http://purl.obolibrary.org/obo/XPO_0115698  # abnormally edematous pericardium
+#    - http://purl.obolibrary.org/obo/MP_0012270  # cardiac edema
+#    - http://purl.obolibrary.org/obo/ZP_0000038  # pericardium edematous, abnormal
+#    - http://purl.obolibrary.org/obo/ZP_0001451  # head edematous, abnormal
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
+  - https://orcid.org/0000-0002-3528-5267  # Sofia Robb
 
 classes:
   edematous: PATO:0001450
