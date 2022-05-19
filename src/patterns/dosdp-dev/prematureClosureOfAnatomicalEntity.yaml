@@ -2,15 +2,18 @@ pattern_name: prematureClosureOfAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/prematureClosureOfAnatomicalEntity.yaml
 
-description: 'Premature closure of anatomical entity, e.g. premature cranial suture closure.'
+description: 'Use this phenotype pattern in cases of premature closure of anatomical entity, e.g. premature cranial suture closure.'
 
 #  examples:
-#    - http://purl.obolibrary.org/obo/HP_0004440
-#    - http://purl.obolibrary.org/obo/MP_0030350
-#    - http://purl.obolibrary.org/obo/MP_0000081
+#    - http://purl.obolibrary.org/obo/HP_0004440  # Coronal craniosynostosis
+#    - http://purl.obolibrary.org/obo/MP_0030350  # premature coronal suture closure
+#    - http://purl.obolibrary.org/obo/MP_0000081  # premature cranial suture closure
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0001-8  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
 
 classes:
   premature_closure: PATO:0002166
