@@ -3,7 +3,7 @@ pattern_name: abnormallyIvoryAnatomicalEntityInLocation
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIvoryAnatomicalEntityInLocation.yaml
 
-description: 'Please, note that the term "ivory" in the context of this phenotype pattern refers to the increased density of an anatomical entity (e.g. epiphysis) observable by radiography (X-rays). Use this pattern for anatomical locations for which the anatomical class is composed of two anatomical terms (e.g. "Ivory epiphyses of the toes").'
+description: 'The term "ivory" in the context of this phenotype pattern refers to the increased density of an anatomical entity (e.g. epiphysis) observable by radiography (X-rays). Use this pattern for anatomical locations for which the anatomical class is composed of two anatomical terms (e.g. "Ivory epiphyses of the toes").'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/HP_0010119  # Ivory epiphyses of the hallux
@@ -12,6 +12,11 @@ description: 'Please, note that the term "ivory" in the context of this phenotyp
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+  - https://orcid.org/0000-0001-7941-2961  # Leigh Carmody
 
 classes:
   ivory: PATO:0002149
@@ -48,7 +53,7 @@ annotations:
       - location
 
 def:
-  text: "An abnormal increase in the radiographic density of %s of %s."
+  text: "An abnormal increase in the density of %s of %s resulting in increased degree of radiopacity (in X-rays)."
   vars:
     - anatomical_entity
     - location
@@ -56,11 +61,10 @@ def:
 equivalentTo:
   text: "'has_part' some (
             'ivory' and
-            'characteristic_of' some (
+            ('characteristic_of' some (
                 %s and
-                'part_of' some %s) and
-            'has_modifier' some 'abnormal')"
+                ('part_of' some %s)) and
+            ('has_modifier' some 'abnormal')))"
   vars:
     - anatomical_entity
     - location
-...

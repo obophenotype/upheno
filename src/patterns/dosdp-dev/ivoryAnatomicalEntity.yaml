@@ -1,9 +1,9 @@
 ---
-pattern_name: abnormallyIvoryAnatomicalEntity
+pattern_name: ivoryAnatomicalEntity
 
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIvoryAnatomicalEntity.yaml
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/ivoryAnatomicalEntity.yaml
 
-description: 'Please, note that the term "ivory" in the context of this phenotype pattern refers to the increased density of an anatomical entity (e.g. epiphysis) observable by radiography (X-rays).'
+description: 'The term "ivory" in the context of this phenotype pattern refers to the increased density of an anatomical entity (e.g. epiphysis) observable by radiography (X-rays).'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/HP_0010583  # Ivory epiphyses
@@ -12,6 +12,11 @@ description: 'Please, note that the term "ivory" in the context of this phenotyp
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+  - https://orcid.org/0000-0001-7941-2961  # Leigh Carmody
 
 classes:
   ivory: PATO:0002149
@@ -41,15 +46,14 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "An abnormal increase in the radiographic density of %s."
+  text: "An abnormal increase in the density of %s resulting in increased degree of radiopacity (in X-rays)."
   vars:
     - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some (
             'ivory' and
-            'characteristic_of' some %s and
-            'has_modifier' some 'abnormal')"
+            ('characteristic_of' some %s) and
+            ('has_modifier' some 'abnormal'))"
   vars:
     - anatomical_entity
-...
