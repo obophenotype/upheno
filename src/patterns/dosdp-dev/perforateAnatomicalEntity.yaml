@@ -1,0 +1,58 @@
+---
+pattern_name: perforateAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/perforateAnatomicalEntity.yaml
+
+description: 'Use this pattern for phenotypes when an anatomical entity has an abnormal hole or a series of holes. The abnormality can be in time or space.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/ZP_0002341  # retina perforate, abnormal
+#    - http://purl.obolibrary.org/obo/HP_0100583  # Corneal perforation
+#    - http://purl.obolibrary.org/obo/HP_0001655  # Patent foramen ovale
+#    - http://purl.obolibrary.org/obo/MP_0004225  # patent cardiac foramen ovale
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+
+classes:
+  perforate: PATO:0002112
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "%s perforation"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "perforated %s"
+    vars:
+      - anatomical_entity
+
+def:
+  text: "Abnormal perforation of %s in space or time."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+    'perforate' and
+    ('characteristic_of' some %s) and
+    ('has_modifier' some 'abnormal')
+    )"
+  vars:
+    - anatomical_entity
+...
