@@ -11,9 +11,11 @@ description: 'Use this phenotype pattern when an anatomical space of an anatomic
 #    - http://purl.obolibrary.org/obo/MP_0006134  # artery occlusion
 #    - http://purl.obolibrary.org/obo/HP_0006000  # Ureteral obstruction
 #    - http://purl.obolibrary.org/obo/MP_0031101  # nasal obstruction
+#    - http://purl.obolibrary.org/obo/ZP_0021087  # bile canaliculus obstructed, abnormal
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
 
 classes:
   obstructed: PATO:0000648
@@ -34,13 +36,18 @@ vars:
   anatomical_space: "'anatomical_entity'"
 
 name:
-  text: "obstructed %s"
+  text: "%s obstruction"
   vars:
     - anatomical_space
 
 annotations:
   - annotationProperty: exact_synonym
     text: "obstruction of %s"
+    vars:
+      - anatomical_space
+
+  - annotationProperty: exact_synonym
+    text: "obstructed %s"
     vars:
       - anatomical_space
 
