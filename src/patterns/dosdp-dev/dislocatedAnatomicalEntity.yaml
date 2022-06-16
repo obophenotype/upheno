@@ -3,7 +3,7 @@ pattern_name: dislocatedAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/dislocatedAnatomicalEntity.yaml
 
-description: 'Use this pattern for dislocated anatomical entity phenotypes, e.g. elbow dislocation.'
+description: 'Use this pattern for phenotypes, e.g. elbow dislocation, where the spatial location of the anatomical entity relative to other entities in its vicinity is abnormal or out of its proper place. The anatomical entity is assumed to have had developed in its normal location and something happened to move it out of that position. For ectopic anatomical entities, where the anatomical entity has developed in the wrong location, consider using the "mislocalised PATO:0000628" positional quality pattern.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/HP_0001373  # Joint dislocation
@@ -14,6 +14,7 @@ description: 'Use this pattern for dislocated anatomical entity phenotypes, e.g.
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
 
 classes:
   dislocated: PATO:0001852
@@ -43,7 +44,7 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "Dislocation or displacement of %s."
+  text: "Dislocation or displacement of %s. The effected anatomical entity is assumed to have had developed in its normal location before the dislocation."
   vars:
     - anatomical_entity
 
