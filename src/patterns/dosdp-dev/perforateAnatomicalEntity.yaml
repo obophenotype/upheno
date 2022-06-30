@@ -3,16 +3,18 @@ pattern_name: perforateAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/perforateAnatomicalEntity.yaml
 
-description: 'Use this pattern for phenotypes when an anatomical entity has an abnormal hole or a series of holes. The abnormality can be in time or space.'
+description: 'Use this pattern for phenotypes when an anatomical entity has an
+  abnormal hole or a series of holes. The abnormality can be in time or space.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/ZP_0002341  # retina perforate, abnormal
 #    - http://purl.obolibrary.org/obo/HP_0100583  # Corneal perforation
-#    - http://purl.obolibrary.org/obo/HP_0001655  # Patent foramen ovale
-#    - http://purl.obolibrary.org/obo/MP_0004225  # patent cardiac foramen ovale
+#    - http://purl.obolibrary.org/obo/MP_0030414  # tympanic membrane perforation
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
 
 classes:
   perforate: PATO:0002112
