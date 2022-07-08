@@ -3,7 +3,13 @@ pattern_name: obstructedAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/obstructedAnatomicalEntity.yaml
 
-description: 'Use this phenotype pattern when an anatomical space of an anatomical entity is blocked or filled with obstacles or an obstacle. Typically, this results in some impediment, blockage, or reversal of the normal flow of the contents of the entity or space. The use of an anatomical space class would be preferred to material anatomical entities for this phenotype pattern, but the logical pattern definition is kept permissive for now.'
+description: 'Use this phenotype pattern when an anatomical space of an
+  anatomical entity is blocked or filled with filled with one or more
+  obstacles. Typically, this results in some impediment, blockage, or reversal
+  of the normal flow of the contents of the entity or space. The use of an
+  anatomical space class would be preferred to material anatomical entities for
+  this phenotype pattern, but the logical pattern definition is kept permissive
+  for now.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/HP_0005214  # Intestinal obstruction
@@ -16,6 +22,9 @@ description: 'Use this phenotype pattern when an anatomical space of an anatomic
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
   - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
 
 classes:
   obstructed: PATO:0000648
@@ -52,7 +61,8 @@ annotations:
       - anatomical_space
 
 def:
-  text: "Obstructed %s due to it being blocked or filled with obstacles or an obstacle."
+  text: "Obstructed %s due to it being blocked or filled with one or more
+    obstacles."
   vars:
     - anatomical_space
 
