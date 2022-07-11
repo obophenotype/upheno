@@ -18,6 +18,8 @@ nav:
           - Manage Continuous Integration: odk-workflows/ContinuousIntegration.md
       - Contributing: contributing.md
       - Advanced Phenotype Ontology Editor workflows:
+          - How to run a uPheno 2 release: howto/run-upheno2-release.md
+          - How to set up s3 for uploading upheno data files: howto/set-up-s3.md
           - Add custom uPheno Makefile: howto/custom-upheno-makefile.md
           - Add the uPheno direct relation extension: howto/add-relation-extension.md
           - Pattern merge - replace workflow: howto/pattern-merge-replace-workflow.md
