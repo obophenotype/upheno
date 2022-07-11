@@ -3,7 +3,9 @@ pattern_name: exsertedAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/exsertedAnatomicalEntity.yaml
 
-description: 'Use this phenotype pattern when an anatomical entity is abnormally protruding or projecting from the body. These anatomical entities may be described as being prolapsed, protuberant or sticking out.'
+description: 'Use this phenotype pattern when an anatomical entity is
+  abnormally protruding or projecting from the body. These anatomical
+  entities may be described as being prolapsed, protuberant or sticking out.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/ZP_0016742  # pectoral fin exserted, abnormal
@@ -13,6 +15,9 @@ description: 'Use this phenotype pattern when an anatomical entity is abnormally
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
 
 classes:
   exserted: PATO:0000623
@@ -26,7 +31,7 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-  related_synonym: oio:hasRelatedSynonym
+  narrow_synonym: oio:hasNarrowSynonym
 
 vars:
   anatomical_entity: "'anatomical_entity'"
@@ -42,12 +47,12 @@ annotations:
     vars:
       - anatomical_entity
 
-  - annotationProperty: related_synonym
+  - annotationProperty: narrow_synonym
     text: "%s prolapse"
     vars:
       - anatomical_entity
 
-  - annotationProperty: related_synonym
+  - annotationProperty: narrow_synonym
     text: "prolapsed %s"
     vars:
       - anatomical_entity
