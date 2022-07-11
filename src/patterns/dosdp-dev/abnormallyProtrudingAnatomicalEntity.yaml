@@ -3,7 +3,11 @@ pattern_name: abnormallyProtrudingAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyProtrudingAnatomicalEntity.yaml
 
-description: 'Use this phenotype pattern template, when an anatomical entity is extending out above or beyond a surface or boundary. When an anatomical entity is abnormally protruding or projecting from the body, use the more specific pattern of "exsertedAnatomicalEntity" instead of the pattern defined below.'
+description: 'Use this phenotype pattern template, when an anatomical entity is
+  protruding or projecting out or beyond a surface or boundary. When an
+  anatomical entity is abnormally protruding or projecting from the body, use
+  the more specific pattern of "exsertedAnatomicalEntity" instead of the
+  pattern defined below.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/ZP_0002287  # forebrain protruding, abnormal
@@ -13,6 +17,9 @@ description: 'Use this phenotype pattern template, when an anatomical entity is 
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
 
 classes:
   protruding: PATO:0001598
@@ -46,7 +53,8 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "An abnormally protruding %s that extends out above or beyond an anatomical surface or boundary."
+  text: "An abnormally protruding %s that extends out above or beyond an
+    anatomical surface or boundary."
   vars:
     - anatomical_entity
 
