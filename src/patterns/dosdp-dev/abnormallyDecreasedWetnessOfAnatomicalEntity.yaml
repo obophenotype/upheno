@@ -1,0 +1,68 @@
+---
+pattern_name: abnormallyDecreasedWetnessOfAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWetnessOfAnatomicalEntity.yaml
+
+description: "Use this phenotype pattern when an anatomical entity exhibits
+partial loss of its wetness, but the loss of wetness is not complete. Consider
+the alternative 'PATO:0001824 dry' phenotype pattern in cases where the
+anatomical entity is completely dry."
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/MP_0003536  # vagina dryness
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+
+classes:
+  decreased_wetness: PATO:0001826
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "decreased wetness of %s"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "decreased %s wetness"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: related_synonym
+    text: "%s dryness"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: related_synonym
+    text: "dry %s"
+    vars:
+      - anatomical_entity
+
+def:
+  text: "A relatively low wetness of %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+    'decreased_wetness' and
+    ('characteristic_of' some %s) and
+    ('has_modifier' some 'abnormal')
+    )"
+  vars:
+    - anatomical_entity
+...
