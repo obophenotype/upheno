@@ -1,0 +1,67 @@
+---
+pattern_name: abnormallyDryAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDryAnatomicalEntity.yaml
+
+description: 'A description that helps people chose this pattern for the appropriate scenario.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/HP_0000217	Xerostomia
+#    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/HP_0011359	Dry hair
+#    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/MP_0000624	xerostomia
+#    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/MP_0001337	dry eyes
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+
+classes:
+  dry: PATO:0001824
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+
+vars:
+  anatomical_entity: "'anatomical_entity'"  # "'variable_range'"
+
+name:
+  text: "trait ?? %s"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "? of %s"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: related_synonym
+    text: "? %s"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: xref
+    text: "AUTO:patterns/patterns/chemical_role_attribute"
+
+def:
+  text: "A trait that ?? %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+    'dry' and
+    ('characteristic_of' some %s) and
+    ('has_modifier' some 'abnormal')
+    )"
+  vars:
+    - anatomical_entity
+...
