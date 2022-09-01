@@ -3,7 +3,10 @@ pattern_name: abnormallyDryAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDryAnatomicalEntity.yaml
 
-description: 'A description that helps people chose this pattern for the appropriate scenario.'
+description: "Use this phenotype pattern when an anatomical entity lacks its
+normal liquid cover resulting in abnormal dryness. Consider the alternative
+'PATO:0001826 decreased wetness' phenotype pattern in cases where the
+anatomical entity still shows some wetness and it is not completely dry."
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/HP_0000217	Xerostomia
@@ -26,33 +29,23 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-  related_synonym: oio:hasRelatedSynonym
-  xref: oio:hasDbXref
 
 vars:
-  anatomical_entity: "'anatomical_entity'"  # "'variable_range'"
+  anatomical_entity: "'anatomical_entity'"
 
 name:
-  text: "trait ?? %s"
+  text: "dry %s"
   vars:
     - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "? of %s"
+    text: "%s dryness"
     vars:
       - anatomical_entity
-
-  - annotationProperty: related_synonym
-    text: "? %s"
-    vars:
-      - anatomical_entity
-
-  - annotationProperty: xref
-    text: "AUTO:patterns/patterns/chemical_role_attribute"
 
 def:
-  text: "A trait that ?? %s."
+  text: "Abnormally dry %s due to not being covered by liquid."
   vars:
     - anatomical_entity
 
