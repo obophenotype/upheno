@@ -29,9 +29,21 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
     
 
 
@@ -49,15 +61,19 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
-        <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/caro#part_of"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/caro#part_of -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/caro#part_of">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/caro#part_of</oboInOwl:id>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs_in</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs_in</oboInOwl:shorthand>
     </owl:ObjectProperty>
     
 
@@ -83,25 +99,25 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0000013 -->
+    <!-- http://purl.obolibrary.org/obo/CARO_0010000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000013">
-        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
-        <obo:IAO_0000589 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">native cell (CARO)</obo:IAO_0000589>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000013</oboInOwl:id>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0010000">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <obo:IAO_0000589 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular anatomical structure (CARO)</obo:IAO_0000589>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0010000</oboInOwl:id>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000003"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010000"/>
 </rdf:RDF>
 
 
