@@ -3,9 +3,9 @@ pattern_name: abnormallyOpaqueAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyOpaqueAnatomicalEntity.yaml
 
-description: 'Use this phenotype pattern in case of altered opacity of
-  an anatomical entity, for example, when it is cloudy or shows
-  decreased transparency.'
+description: 'Use this phenotype pattern in case of reduced clarity of an
+  anatomical entity, for example, when it is cloudy or shows decreased
+  transparency.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/HP_0000518  # Cataract
@@ -16,6 +16,8 @@ description: 'Use this phenotype pattern in case of altered opacity of
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
 
 classes:
   opaque: PATO:0000963
@@ -50,7 +52,7 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "Altered opacity of %s."
+  text: "Impaired ability or inability of light to pass through %s."
   vars:
     - anatomical_entity
 
