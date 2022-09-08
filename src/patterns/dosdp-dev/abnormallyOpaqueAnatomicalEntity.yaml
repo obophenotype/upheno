@@ -1,0 +1,67 @@
+---
+pattern_name: abnormallyOpaqueAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyOpaqueAnatomicalEntity.yaml
+
+description: 'Use this phenotype pattern in case of reduced clarity of an
+  anatomical entity, for example, when it is cloudy or shows decreased
+  transparency.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/HP_0000518  # Cataract
+#    - http://purl.obolibrary.org/obo/HP_0007787  # Posterior subcapsular cataract
+#    - http://purl.obolibrary.org/obo/MP_0001304  # cataract
+#    - http://purl.obolibrary.org/obo/MP_0002700  # opacity of vitreous body
+#    - http://purl.obolibrary.org/obo/ZP_0002198  # yolk opaque, abnormal
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+
+classes:
+  opaque: PATO:0000963
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "opaque %s"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "opacity of %s"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: exact_synonym
+    text: "cloudy %s"
+    vars:
+      - anatomical_entity
+
+def:
+  text: "Impaired ability or inability of light to pass through %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+    'opaque' and
+    ('characteristic_of' some %s) and
+    ('has_modifier' some 'abnormal')
+    )"
+  vars:
+    - anatomical_entity
+...
