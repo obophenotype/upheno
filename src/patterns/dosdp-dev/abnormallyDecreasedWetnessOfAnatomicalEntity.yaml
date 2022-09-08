@@ -4,11 +4,16 @@ pattern_name: abnormallyDecreasedWetnessOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWetnessOfAnatomicalEntity.yaml
 
 description: "Use this phenotype pattern when an anatomical entity exhibits
-partial loss of its wetness, but the loss of wetness is not complete. Consider
-the alternative 'PATO:0001824 dry' phenotype pattern in cases where the
-anatomical entity is completely dry."
+  decreased liquid coverage, for example, when the aqueous or oily layer on its
+  surface is reduced. Consider the alternative 'PATO:0001801 decreased water
+  composition' phenotype pattern when the water contained in an entity is
+  reduced as opposed to a reduced amount of liquid on its surface."
 
 #  examples:
+#    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/HP_0000217	Xerostomia
+#    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/HP_0011359	Dry hair
+#    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/MP_0000624	xerostomia
+#    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/MP_0001337	dry eyes
 #    - http://purl.obolibrary.org/obo/MP_0003536  # vagina dryness
 
 contributors:
@@ -19,7 +24,7 @@ contributors:
   - https://orcid.org/0000-0001-7941-2961  # Leigh Carmody
 
 classes:
-  decreased_wetness: PATO:0001826
+  decreased_surface_wetness: PATO:0001826
   abnormal: PATO:0000460
   anatomical_entity: UBERON:0001062
 
@@ -36,11 +41,21 @@ vars:
   anatomical_entity: "'anatomical_entity'"
 
 name:
-  text: "decreased wetness of %s"
+  text: "decreased surface wetness of %s"
   vars:
     - anatomical_entity
 
 annotations:
+  - annotationProperty: exact_synonym
+    text: "decreased wetness of %s"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: exact_synonym
+    text: "decreased %s surface wetness"
+    vars:
+      - anatomical_entity
+
   - annotationProperty: exact_synonym
     text: "decreased %s wetness"
     vars:
@@ -57,13 +72,13 @@ annotations:
       - anatomical_entity
 
 def:
-  text: "A relatively low wetness of %s."
+  text: "A relatively low wetness on the surface of %s."
   vars:
     - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some (
-    'decreased_wetness' and
+    'decreased_surface_wetness' and
     ('characteristic_of' some %s) and
     ('has_modifier' some 'abnormal')
     )"
