@@ -1,0 +1,44 @@
+pattern_name: abnormallyIncreasedRateOfContinuousBiologicalProcess
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfContinuousBiologicalProcess.yaml
+description: "Abnormally increased rate of a continuous biological process, e.g. rate of an enzyme reaction or growth rate. Does not include increases in rates of occurrence/frequency."
+
+contributors:
+  - https://orcid.org/0000-0002-1373-1705
+
+classes:
+  increased_rate_of_continuous_process: PATO:0055005
+  abnormal: PATO:0000460
+  biological_process: GO:0008150
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  biological_process: "'biological_process'"
+
+name:
+  text: "increased continuous rate of %s"
+  vars:
+  - biological_process
+
+def:
+  text: "Increased continuous rate of %s, i.e. %s has an increased amount of output per unit time while it is occurring."
+  vars:
+  - biological_process
+  - biological_process
+
+annotations:
+- annotationProperty: exact_synonym
+  text: "increased speed of %s"
+  vars:
+  - biological_process
+
+equivalentTo:
+  text: "'has_part' some ('increased_rate_of_continuous_process' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+  - biological_process
