@@ -1,9 +1,16 @@
 pattern_name: abnormalRateOfContinuousBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfContinuousBiologicalProcess.yaml
-description: "Abnormal rate of a continuous biological process, e.g. rate of an enzyme reaction or growth rate. Does not include changes in rates of occurrence/frequency."
+description: "Abnormal rate of a continuous biological process, e.g. rate of an enzyme reaction or growth rate. Does not include changes in rates of occurrence/frequency. Different to patterns using PATO:0002242 'velocity', which inheres in a physical object (continuant), rather than a process (occurrent)."
+
+# examples:
+#  - http://purl.obolibrary.org/obo/MP_0008961 # abnormal basal metabolism
+#  - http://purl.obolibrary.org/obo/ZP_0017453 # blood circulation rate, abnormal
 
 contributors:
   - https://orcid.org/0000-0002-1373-1705
+  - https://orcid.org/0000-0003-4606-0597
+  - https://orcid.org/0000-0002-9900-7880
+  - https://orcid.org/0000-0001-8314-2140
 
 classes:
   rate_of_continuous_process: PATO:0050001
@@ -43,6 +50,10 @@ annotations:
   - biological_process
 - annotationProperty: exact_synonym
   text: "changed continuous rate of %s"
+  vars:
+  - biological_process
+- annotationProperty: exact_synonym
+  text: "abnormal %s velocity"
   vars:
   - biological_process
 
