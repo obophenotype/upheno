@@ -1,0 +1,65 @@
+pattern_name: abnormallyDecreasedRateOfContinuousBiologicalProcess
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfContinuousBiologicalProcess.yaml
+description: "Abnormally decreased rate of a continuous biological process, e.g. rate of an enzyme reaction or growth rate. Does not include decreases in rates of occurrence/frequency. Different to patterns using PATO:0002472 'decreased velocity', which inheres in a physical object (continuant), rather than a process (occurrent)."
+
+# examples:
+#  - http://purl.obolibrary.org/obo/MP_0020234 # decreased basal metabolism
+#  - http://purl.obolibrary.org/obo/FBcv_0000791 # decreased speed of aging
+#  - http://purl.obolibrary.org/obo/ZP_0001531 # blood circulation decreased rate, abnormal
+#  - http://purl.obolibrary.org/obo/ZP_0102933 # digestion decreased rate, abnormal
+
+contributors:
+  - https://orcid.org/0000-0002-1373-1705
+  - https://orcid.org/0000-0003-4606-0597
+  - https://orcid.org/0000-0002-9900-7880
+  - https://orcid.org/0000-0001-8314-2140
+
+classes:
+  decreased_rate_of_continuous_process: PATO:0055006
+  abnormal: PATO:0000460
+  biological_process: GO:0008150
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  biological_process: "'biological_process'"
+
+name:
+  text: "decreased continuous rate of %s"
+  vars:
+  - biological_process
+
+def:
+  text: "Decreased continuous rate of %s, i.e. %s has a reduced amount of output per unit time while it is occurring."
+  vars:
+  - biological_process
+  - biological_process
+
+annotations:
+- annotationProperty: exact_synonym
+  text: "decreased speed of %s"
+  vars:
+  - biological_process
+- annotationProperty: exact_synonym
+  text: "reduced speed of %s"
+  vars:
+  - biological_process
+- annotationProperty: exact_synonym
+  text: "reduced continuous rate of %s"
+  vars:
+  - biological_process
+- annotationProperty: exact_synonym
+  text: "decreased %s velocity"
+  vars:
+  - biological_process
+  
+equivalentTo:
+  text: "'has_part' some ('decreased_rate_of_continuous_process' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+  - biological_process
