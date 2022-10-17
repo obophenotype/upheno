@@ -1,0 +1,62 @@
+---
+pattern_name: abnormallyGlisteningAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyGlisteningAnatomicalEntity.yaml
+
+description: 'Use this phenotype pattern when an anatomical entity reflects
+  more light than it does normally.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/MP_0000411  # shiny fur
+#    - http://purl.obolibrary.org/obo/MP_0001196  # shiny skin
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-1373-1705  # Clare Pilgrim
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
+  - https://orcid.org/0000-0003-2699-3066  # Meghan A. Balk
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+
+classes:
+  glistening: PATO:0001373
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "glistening %s"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "shiny %s"
+    vars:
+      - anatomical_entity
+
+def:
+  text: "Abnormally shiny, glossy or glistening appearance of %s."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+    'glistening' and
+    ('characteristic_of' some %s) and
+    ('has_modifier' some 'abnormal')
+    )"
+  vars:
+    - anatomical_entity
+...
