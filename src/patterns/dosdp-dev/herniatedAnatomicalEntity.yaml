@@ -4,7 +4,7 @@ pattern_name: herniatedAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/herniatedAnatomicalEntity.yaml
 
 description: 'Use this phenotype pattern when an anatomical entity pushes
-  through a layer which surrounds encloses it.'
+  through a layer which surrounds or encloses it.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/HP_0001539  # Omphalocele
@@ -14,6 +14,10 @@ description: 'Use this phenotype pattern when an anatomical entity pushes
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
+  - https://orcid.org/0000-0002-1373-1705  # Clare Pilgrim
 
 classes:
   herniated: PATO:0000643
