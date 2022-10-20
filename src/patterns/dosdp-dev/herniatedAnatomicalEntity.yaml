@@ -1,0 +1,68 @@
+---
+pattern_name: herniatedAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/herniatedAnatomicalEntity.yaml
+
+description: 'Use this phenotype pattern when an anatomical entity pushes
+  through a layer which surrounds or encloses it.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/HP_0001539  # Omphalocele
+#    - http://purl.obolibrary.org/obo/HP_0004299  # Hernia of the abdominal wall
+#    - http://purl.obolibrary.org/obo/MP_0000757  # herniated abdominal wall
+#    - http://purl.obolibrary.org/obo/MP_0010146  # umbilical hernia
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
+  - https://orcid.org/0000-0002-1373-1705  # Clare Pilgrim
+
+classes:
+  herniated: PATO:0000643
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "herniated %s"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "hernia of %s"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: exact_synonym
+    text: "%s hernia"
+    vars:
+      - anatomical_entity
+
+def:
+  text: "A herniated %s which protrudes through an abnormal opening in the wall
+    or tissue layer that contains it."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+    'herniated' and
+    ('characteristic_of' some %s) and
+    ('has_modifier' some 'abnormal')
+    )"
+  vars:
+    - anatomical_entity
+...
