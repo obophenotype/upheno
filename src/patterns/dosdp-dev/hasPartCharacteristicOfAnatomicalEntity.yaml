@@ -1,0 +1,59 @@
+---
+pattern_name: hasPartCharacteristicOfAnatomicalEntity.yaml
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/hasPartCharacteristicOfAnatomicalEntity.yaml
+
+description: 'Use this partial phenotype pattern to group phenotypes by
+  anatomical entity. For example, use this to group "head" related phenotypes.'
+
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+
+classes:
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+
+vars:
+  anatomical_entity: "'anatomical_entity'"  # "'variable_range'"
+
+name:
+  text: "trait ?? %s"
+  vars:
+    - anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "? of %s"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: related_synonym
+    text: "? %s"
+    vars:
+      - anatomical_entity
+
+  - annotationProperty: xref
+    text: "AUTO:patterns/patterns/chemical_role_attribute"
+
+def:
+  text: "A trait that ?? %s."
+  vars:
+    - anatomical_entity
+
+subClassOf:
+  text: "'has_part' some ('characteristic_of' some %s)"
+  vars:
+    - anatomical_entity
+...
