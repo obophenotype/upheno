@@ -25,7 +25,7 @@ vars:
   severity: "'intensity'"
 
 name:
-  text: "%s, %s"
+  text: "abnormal %s, %s"
   vars:
   - attribute
   - severity
