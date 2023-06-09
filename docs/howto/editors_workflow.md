@@ -1,15 +1,37 @@
 # Phenotype Ontology Editors' Workflow
 
 ### Useful links
-* [Phenotype Ontology Working Group Meetings agenda and minutes gdoc](https://docs.google.com/document/d/1WrQanAMuccS-oaoAIb9yWQAd4Rvy3R3mU01v9wHbriM/)
-* [phenotype-ontologies slack channel](https://phenotype-ontologies.slack.com/archives/CCWEMEJM8/p1685549784709229): to send meeting reminders; ask for agenda items; questions; discussions etc.
+* [Phenotype Ontology Working Group Meetings agenda and minutes gdoc](https://docs.google.com/document/d/1WrQanAMuccS-oaoAIb9yWQAd4Rvy3R3mU01v9wHbriM/).
+* [phenotype-ontologies slack channel](https://phenotype-ontologies.slack.com/archives/CCWEMEJM8/p1685549784709229): to send meeting reminders; ask for agenda items; questions; discussions *etc.*
 * Dead simple owl design pattern (DOS-DP) [Documentation](https://incatools.github.io/dead_simple_owl_design_patterns/)
-    * [Getting started with DOSDP templates](https://oboacademy.github.io/obook/tutorial/dosdp-overview/)
-    * [Dead Simple Ontology Design Patterns (DOSDP)](https://oboacademy.github.io/obook/tutorial/dosdp-template/)
-    * [Using DOSDP templates in ODK Workflows¶](https://oboacademy.github.io/obook/tutorial/dosdp-odk/)
+    * [Getting started with DOSDP templates](https://oboacademy.github.io/obook/tutorial/dosdp-overview/).
+    * [Dead Simple Ontology Design Patterns (DOSDP)](https://oboacademy.github.io/obook/tutorial/dosdp-template/).
+    * [Using DOSDP templates in ODK Workflows](https://oboacademy.github.io/obook/tutorial/dosdp-odk/).
 * Validate DOS-DP yaml templates:
     1. [yamllint](https://yamllint.readthedocs.io/en/stable/): yaml syntax validator
         * [Installing yamllint](https://formulae.brew.sh/formula/yamllint): `brew install yamllint`
+    * Congiguring yamllint
+        You can ignore the `error line too long` yaml syntax errors for dos-dp yaml templates.
+        You can create a custom configuration file for yamllint in your home folder:
+        ```sh
+        touch ~/.config/yamllint/config
+        ```
+        The content of the config file should look like this:
+        ```yaml
+        # Custom configuration file for yamllint
+        # It extends the default conf by adjusting some options.
+
+        extends: default
+
+        rules:
+          line-length:
+            max: 80 # 80 chars should be enough, but don't fail if a line is longer
+        #   max: 140  # allow long lines
+            level: warning
+            allow-non-breakable-words: true
+            allow-non-breakable-inline-mappings: true
+        ```
+        The custom config should turn the `error line too long` errors to warnings.
     2. [DOS-DP validator:](https://incatools.github.io/dead_simple_owl_design_patterns/validator/): DOS-DP format validator
         * [Installing ](https://github.com/INCATools/dead_simple_owl_design_patterns): `pip install dosdp`
 
@@ -26,8 +48,6 @@ Once a group of related phenotypes is identified, the editors propose a phenotyp
 Alternatively, a new template can be proposed at a phenotype editors' meeting which can lead to the creation of a new term request as a Github issue.
 Ideally, the proposed phenotype pattern should include an appropriate [PATO](https://www.ebi.ac.uk/ols4/ontologies/pato) quality term for logical definition, use cases, term examples, and a textual definition pattern for the phenotype terms.
 
-
-
 ## 3. Discuss the new phenotype pattern draft at the regular uPheno phenotype editors meeting
 
 The next step is to discuss the new phenotype pattern draft at the regular uPheno phenotype editors meeting. During the meeting, the editors' comments and suggestions for improvements are collected as comments on the DOS-DP `yaml` template in the corresponding Github pull request. Based on the feedback and discussions, a consensus on improvements should be achieved.
@@ -35,7 +55,6 @@ The DOS-DP `yaml` template is named should start with a lower case letter, shoul
 A Github pull request is created for the DOS-DP `yaml` template.
 
 * A DOS-DP phenotype pattern template example:
-
 
 ```yaml
 ---
@@ -119,13 +138,9 @@ The approved DOS-DP `yaml` phenotype pattern template should pass quality contro
 1. Validate yaml syntax: [yamllint](https://formulae.brew.sh/formula/yamllint)
 2. Validate DOS-DP
 Use [DOSDP Validator](https://github.com/INCATools/dead_simple_owl_design_patterns/blob/master/docs/validator.md).
-* To install:
+* To validate a template using the command line interface, execute:
 ```sh
-pip install dosdp
-```
-* To validate a template using the command line interface:
-```sh
+yamllint <test.yaml or 'test folder'>
 dosdp validate -i <test.yaml or 'test folder'>
-```
 
-After QC, the responsible editor merges the approved pull request, and the phenotype pattern becomes part of the uPheno phenotype pattern template collection.
+After successfully passing QC, the responsible editor merges the approved pull request, and the phenotype pattern becomes part of the uPheno phenotype pattern template collection.
