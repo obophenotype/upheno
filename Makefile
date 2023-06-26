@@ -180,7 +180,7 @@ zp.obo:
 
 # Reasoned
 %-r.owl: %-m.owl
-	owltools  $<  --reasoner elk  --remove-disjoints --assert-inferred-subclass-axioms --allowEquivalencies --remove-redundant-inferred-super-classes -o $@
+	owltools  $<  --reasoner elk  --remove-disjoints --assert-inferred-subclass-axioms --allowEquivalencies -o tmp-$@ && robot reduce --named-classes-only true --input tmp-$@ --output $@
 #	https://github.com/obophenotype/upheno/issues/162
 #	robot merge -c true -i $< reason -r elk  reduce -o $@
 .PRECIOUS: %-r.owl
