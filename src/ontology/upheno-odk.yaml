@@ -195,7 +195,7 @@ sources:
       #- ncit
   - id: zp
     mirror_from: http://purl.obolibrary.org/obo/zp/zp-base.owl
-    root: http://purl.obolibrary.org/obo/ZP_00000000
+    root: http://purl.obolibrary.org/obo/ZP_0000000
     prefix_iri: http://purl.obolibrary.org/obo/ZP_
     taxon: http://purl.obolibrary.org/obo/ZP
     taxon_label: ZPO
