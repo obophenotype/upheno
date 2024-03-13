@@ -13,7 +13,7 @@ WHERE {
     oboInOwl:inSubset
     dcterms:contributor  }
   ?term ?property ?value .
-  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/UPHENO_") || STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/UPHENO_")))
+  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/UPHENO_")))
   FILTER (!isIRI(?value))
 }
 
