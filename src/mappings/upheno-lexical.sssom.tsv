@@ -1,0 +1,9 @@
+# curie_map:
+#   semapv: https://w3id.org/semapv/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+#   UPHENO: http://purl.obolibrary.org/obo/UPHENO_
+# license: https://creativecommons.org/publicdomain/zero/1.0/
+# mapping_set_id: http://purl.obolibrary.org/obo/upheno/mappings/upheno-lexical.sssom.tsv
+subject_id	predicate_id	object_id	mapping_justification
+UPHENO:0000000	skos:exactMatch	sssom:NoTermFound	semapv:ManualMappingCuration
