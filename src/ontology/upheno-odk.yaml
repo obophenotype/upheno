@@ -5,22 +5,11 @@ git_main_branch: master
 repo: upheno
 report_fail_on: none
 use_dosdps: TRUE
+use_templates: TRUE
+use_mappings: TRUE
 dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
 robot_opts: -vv
 robot_java_args: -Xmx10G
-timeout_external_processes: 36000
-working_directory: /work/src
-overwrite_matches: False
-skip_pattern_download: True
-max_upheno_id: 9999999
-min_upheno_id: 500
-overwrite_ontologies: False
-overwrite_upheno_intermediate: True
-match_owl_thing: False
-allow_non_upheno_eq: False
-upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
-clean: False
-upheno_intermediate_layer_depth: 0
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
 legal_fillers:
@@ -259,24 +248,164 @@ pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-patterns
 release_artefacts: 
   - base
-  - simple-non-classified
   - full
-primary_release: full
+  - custom-mp-hp
+primary_release: base
 export_formats:
   - owl
   - obo
   - json
 import_group:
+  use_base_merging: TRUE
+  exclude_iri_patterns:
+    - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
+    - <http://www.informatics.jax.org/marker/MGI:*>
+    - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/ENVO_*>
+  slme_individuals: exclude
+  mirror_max_time_download: 400
   products:
-    - id: nbo
-    - id: pr
     - id: go
-    - id: uberon 
-    - id: ro
-    - id: chebi
-    - id: hsapdv
-    - id: pato
+      make_base: TRUE
+      mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
+    - id: nbo
+      make_base: TRUE
+    - id: uberon
+      make_base: TRUE
     - id: cl
+      make_base: TRUE
+    - id: pato
+      make_base: TRUE
     - id: mpath
+      make_base: TRUE
+    - id: ro
+      use_base: TRUE
+    - id: omo
+    - id: chebi
+      make_base: TRUE
+      mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
+    - id: oba
+      make_base: TRUE
+    - id: ncbitaxon
+      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+    - id: pr
+      make_base: TRUE
+      mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
+    - id: bspo
+      mirror_from: http://purl.obolibrary.org/obo/bspo.owl
+    - id: ncit
+      mirror_from: http://purl.obolibrary.org/obo/ncit.owl
+    
+    ###### Species specific imports:
+
+    - id: fbbt
+      make_base: TRUE
+    - id: fbdv
+      make_base: TRUE
+    
+    - id: hsapdv
+      make_base: TRUE
+    
+    - id: wbls
+      make_base: TRUE
+    - id: wbbt
+      make_base: TRUE
+    
+    - id: plana
+      make_base: TRUE
+    
+    - id: zfa
+      make_base: TRUE
+    
+    - id: xao
+      make_base: TRUE
+    
+    ### Bridges
+
+    - id: hsapdv-uberon
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-hsapdv.owl
+    - id: zfa-uberon
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
+    - id: zfs-uberon
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs.owl
+    #- id: bspo-uberon
+    #  module_type: custom
+    #  mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-bspo.owl
+    - id: xao-uberon
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
+    - id: wbbt-uberon
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
+    - id: wbls-uberon
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl
+    - id: fbbt-uberon
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.owl
+    - id: xao-cl
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-xao.owl
+    - id: wbbt-cl
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-wbbt.owl
+    #- id: bspo-cl
+    #  module_type: custom
+    #  mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-bspo.owl
+    - id: fbbt-cl
+      module_type: custom
+      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-fbbt.owl
+components:
+  products:
+    - filename: phenotypes_manual.owl
+      use_template: TRUE
+      template_options: 
+      templates:
+        - phenotypes_manual.tsv
+    - filename: phenotypes_derived.owl
+      use_template: TRUE
+      template_options: 
+      templates:
+        - phenotypes_derived.tsv
+    - filename: upheno-mappings.owl
+      use_mappings: TRUE
+      mappings:
+        - upheno.sssom.tsv
+pattern_pipelines_group:
+  products:
+    - id: derived_dont_edit
+      dosdp_tools_options: "--obo-prefixes=true"
+sssom_mappingset_group:
+  products:
+    - id: upheno
+      description: All mappings from species specific anatomy ontologies to uPheno
+    - id: upheno-lexical
+      description: All mappings from species specific anatomy ontologies to uPheno based on lexical matching
+    - id: upheno-eq
+      description: All mappings from species specific anatomy ontologies to uPheno based on EQs
+    - id: upheno-manual
+      description: All mappings from species specific anatomy ontologies to uPheno based manual curation
+      maintenance: manual
+    - id: uberon
+      maintenance: mirror
+      mirror_from: http://purl.obolibrary.org/obo/uberon/mappings/uberon.sssom.tsv
+    - id: cross-species
+      description: All mappings across species-specific phenotyoe ontologies
+    - id: cross-species-lexical
+      description: All mappings across species-specific phenotype ontologies based on lexical mapping
+    - id: cross-species-upheno
+      description: All mappings across species-specific phenotype ontologies based on upheno mappings (boomer)
+    - id: cross-species-external
+      description: All mappings across species-specific phenotype ontologies based on externally provided mappings
+    - id: cross-species-manual
+      description: All mapppings across species-specific phenotype ontologies based on externally provided mappings
+      maintenance: manual
+    - id: cross-species-negative
+      description: All non-mapppings across species-specific phenotype ontologies (negated mappings, false positives)
+      maintenance: manual
 documentation:
   documentation_system: mkdocs
