@@ -14,7 +14,7 @@
 
 **OBA Table:**
 
-| Property    | Identifier        | Definition                                 |
+| Property    | Example term        | Definition                                 |
 |-------------|-------------------|--------------------------------------------|
 | Length      | OBA:VT0002544     | The length of a digit.                     |
 | Mass        | OBA:VT0001259     | The mass of a multicellular organism.      |
@@ -23,7 +23,7 @@
 
 **UPHENO Table:**
 
-| Property    | Identifier        | Definition                                     |
+| Property    | Example term        | Definition                                     |
 |-------------|-------------------|------------------------------------------------|
 | Length      | UPHENO:0072215    | Increased length of the digit.                |
 | Mass        | UPHENO:0054299    | Decreased multicellular organism mass.        |
