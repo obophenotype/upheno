@@ -13,10 +13,13 @@ nav:
           - Editors Workflow: odk-workflows/EditorsWorkflow.md
           - Release Workflow: odk-workflows/ReleaseWorkflow.md
           - Manage your ODK Repository: odk-workflows/RepoManagement.md
+          - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md
           - Setting up Docker for ODK: odk-workflows/SettingUpDockerForODK.md
           - Manage imports: odk-workflows/UpdateImports.md
           - Manage documentation: odk-workflows/ManageDocumentation.md
           - Manage Continuous Integration: odk-workflows/ContinuousIntegration.md
+          - Manage automated tests: odk-workflows/ManageAutomatedTest.md
+          - Overview of components: odk-workflows/components.md
       - Contributing: contributing.md
       - Advanced Phenotype Ontology Editor workflows:
           - How to run a uPheno 2 release: howto/run-upheno2-release.md
@@ -29,17 +32,14 @@ nav:
       - Using uPheno in Data Analysis: tutorials/analysis.md
       - Using uPheno in Curation: tutorials/curation.md
       - Using uPheno for Grouping Data: tutorials/grouping.md
-  - Key topics:
-    - EQ modelling:
-      - Overview of EQ modelling: key-topics/entity_quality_modelling.md
-      - Abnormal phenotypes: key-topics/modelling/abnormal.md 
-      - Absence modelling: key-topics/modelling/absence.md
-      - Traits and phenotypes: key-topics/modelling/traits.md
-    - The Phenotype Reconciliation Effort: key-topics/reconciliation_effort.md
-    - Use Cases:
-      - Cross-species reasoning: key-topics/use-cases/cross_species_reasoning.md
   - Reference:
-    - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md
+    - Core concepts: reference/core_concepts.md
+    - EQ modelling:
+      - Overview of EQ modelling: reference/eq.md
+      - Abnormal phenotypes: reference/modelling/abnormal.md 
+      - Absence modelling: reference/modelling/absence.md
+    - The Phenotype Reconciliation Effort: reference/reconciliation_effort.md
+    - Use Cases: reference/use_cases.md
     - Components:
       - Overview: reference/components.md
       - Drosophila Phenotype Ontology: reference/components/dpo.md
@@ -48,6 +48,8 @@ nav:
       - Mammalian Phenotype Ontology: reference/components/mp.md
       - C. elegans Phenotype Ontology: reference/components/wbphenotype.md
       - Zebrafish Phenotype Ontology: reference/components/zp.md
+    - Aligning with other ontologies:
+      - Overview: reference/phenotype-ontology-alignment.md
     - Imports:
       - Overview: reference/imports.md
       - Gene Ontology: reference/imports/go.md

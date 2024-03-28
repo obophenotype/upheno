@@ -8,4 +8,4 @@ The resulting community-curated ontology for the representation and integration 
 - Providing a community-developed framework for ontology editors to bootstrap, maintain and extend their phenotype ontologies in a scalable and standardised manner.  
 - Facilitating the retrieval and comparative analysis of species-specific phenotypes through a deep layer of species-independent phenotypes.
 
-Currently, the development of uPheno is organized by a group that meets biweekly. See the [meetings page](/upheno/organization/meetings/) for more info, including how to participate.
+Currently, the development of uPheno is organized by a group that meets biweekly. See the [meetings page](organization/meetings.md) for more info, including how to participate.
