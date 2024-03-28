@@ -1,8 +1,8 @@
-# Using OBA and uPheno in data curation
+## Using OBA and uPheno in data curation
 
 Authors:
 
-- [James McLaughlin]()
+- [James McLaughlin](https://orcid.org/0000-0002-8361-2795)
 - [Nicolas Matentzoglu](https://orcid.org/0000-0002-7356-1779)
 
 Last update: 27.03.2024.
@@ -20,89 +20,31 @@ There are different schools about how to record phenotypes in a structured manne
 Quantified phenotypes can be recorded using either a trait in combination with a measurement datum (“head circumference”, “35 cm”) or a qualified term expressing “phenotypic change” (“increased head circumference”). 
 Furthermore, we can express phenotype terms as “pre-coordinated” terms, like “increased head circumference” or a “post-coordinated expression”, like “head”, “circumference”, “increased”). In the following, we will describe the different concepts and categories around phenotype data, and provide an introduction on how to best use them.
 
-## Core concepts
+## Pre-requisites
 
-<!-- Add figure with all core components from OBA poster -->
+- [Familiarise yourself with the core concepts](../reference/core_concepts.md)
 
-- Phenotypic characteristic
-- Bearer
-- Biological attribute
-- Measurement
-- Phenotypic abnormality
-- Disease
+## Examples of phenotype data
 
-### (Phenotypic) Characteristic
-
-"Characteristics" or "qualities" refer to an inherent or distinguishing characteristic or attribute of something or someone.
-It represents a feature that defines the nature of an object, organism, or entity and can be used to describe, compare, and categorize different things.
-Characteristics can be either qualitative (such as color, texture, or taste) or quantitative (such as height, weight, or age).
-
-The [Phenotype And Trait Ontology (PATO)](https://www.ebi.ac.uk/ols4/ontologies/pato).
-
-
-Some of the most widely use qualities can be seen in the following tables
-
-| quality | description | example |
-| ------- | ----------- | ------- |
-| Length ([PATO:0000122](http://purl.obolibrary.org/obo/PATO_0000122)) | A 1-D extent quality which is equal to the distance between two points. | |
-| Mass ([PATO:0000128](http://purl.obolibrary.org/obo/PATO_0000128)) | A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter. | |
-| Amount ([PATO:0000070](http://purl.obolibrary.org/obo/PATO_0000070)) | The number of entities of a type that are part of the whole organism. | |
-| Morphology ([PATO:0000051](http://purl.obolibrary.org/obo/PATO_0000051)) | A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure. | |
-
-Note from the authors: The descriptions above have been taken from PATO, but they are not very.. user friendly.
-
-### Biological Trait/Characteristics
-
-Characteristics such as the one above can be used to describe a variety of entities such as biological, environmental and social.
-We are specifically concerned with biological traits, which
-
-### Bearer of Biological Characteristics
-
-In biological contexts, the term **"bearer"** refers to the entity that possesses or carries a particular characteristic or quality. 
-The bearer can be any biological entity, such as an organism, an organ, a cell, or even a molecular structure, that exhibits a specific trait or feature.
-
-## Examples
-
-1. **Organism as a Bearer:** 
-   - **Example:** A specific tree (such as an oak tree) is the bearer of the characteristic 'height'.
-   - **Explanation:** The tree as an organism carries or has the property of height, making it the bearer of this characteristic.
-1. **Organ as a Bearer:** 
-   - **Example:** The heart of a mammal can be the bearer of the characteristic 'heart size'.
-   - **Explanation:** Here, the heart is the organ that possesses the 'heart size' charactertistic. The characteristic ('heart size') is a quality of the heart itself.
-1. **Cell as a Bearer:** 
-   - **Example:** A red blood cell is the bearer of the characteristic 'cell diameter'.
-   - **Explanation:** The diameter is a property of the individual cell. Thus, each red blood cell is the bearer of its diameter measurement.
-1. **Molecular Structure as a Bearer:** 
-   - **Example:** A DNA molecule can be the bearer of the characteristic 'sequence length'.
-   - **Explanation:** The length of the DNA sequence is a property of the DNA molecule itself, making the molecule the bearer of this characteristic.
-1. **Genetic Trait as a Bearer:**
-   - **Example:** A fruit fly (Drosophila melanogaster) can be the bearer of a genetic trait like eye color.
-   - **Explanation:** The organism (fruit fly) carries the genetic information that determines eye color, making it the bearer of this specific trait.
-
-In each example, the **"bearer"** is the entity that has, carries, or exhibits a particular biological characteristic. This concept is fundamental in biology and bioinformatics for linking specific traits, qualities, or features to the entities that possess them, thereby enabling a clearer understanding and categorization of biological diversity and functions.
+| Category                                  | Example datasets                                                                                        | Example phenotype                                           |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| Gene to phenotype associations            | [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/), [Human Phenotype Ontology (HPO)](https://hpo.jax.org/app/), [Gene Ontology (GO)](http://geneontology.org/)                  | Achondroplasia (associated with FGFR3 gene mutations)                                   |
+| Gene to disease associations              | [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga), [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/), [GWAS Catalog](https://www.ebi.ac.uk/gwas/) | Breast invasive carcinoma (associated with BRCA1/BRCA2 mutations)                          |
+| Phenotype-phenotype semantic similarity   | [Human Phenotype Ontology (HPO)](https://hpo.jax.org/app/), [Unified Medical Language System (UMLS)](https://www.nlm.nih.gov/research/umls/index.html), [Disease Ontology (DO)](http://disease-ontology.org/) | Cardiac abnormalities (semantic similarity with congenital heart defects)                            |
+| Quantified trait data (QTL etc)           | [NHGRI-EBI GWAS Catalog](https://www.ebi.ac.uk/gwas/), [Genotype-Tissue Expression (GTEx)](https://gtexportal.org/home/), [The Human Protein Atlas](https://www.proteinatlas.org/) | Height (quantified trait associated with SNPs in genomic regions)                                                |
+| Electronic health records                 | [Medical Information Mart for Intensive Care III (MIMIC-III)](https://mimic.physionet.org/), [UK Biobank](https://www.ukbiobank.ac.uk/), [IBM Watson Health](https://www.ibm.com/watson-health) | Acute kidney injury (recorded diagnosis during ICU stay)                                             |
+| Epidemiological datasets                  | [Framingham Heart Study](https://framinghamheartstudy.org/), [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm), [Global Burden of Disease Study (GBD)](http://www.healthdata.org/gbd) | Cardiovascular disease (epidemiological study of risk factors and disease incidence)                       |
+| Clinical trial datasets                   | [ClinicalTrials.gov](https://clinicaltrials.gov/), [European Union Clinical Trials Register (EUCTR)](https://www.clinicaltrialsregister.eu/), [International Clinical Trials Registry Platform (ICTRP)](https://www.who.int/ictrp/en/) | Treatment response (clinical trial data on efficacy and safety outcomes)                                      |
+| Environmental exposure datasets           | [Environmental Protection Agency Air Quality System (EPA AQS)](https://www.epa.gov/outdoor-air-quality-data), [Global Historical Climatology Network (GHCN)](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn), [National Centers for Environmental Information Climate Data Online (NCEI CDO)](https://www.ncdc.noaa.gov/cdo-web/) | Respiratory diseases (association with air pollutant exposure)                                               |
+| Population surveys e.g., UK Biobank      | [UK Biobank](https://www.ukbiobank.ac.uk/), [National Health Interview Survey (NHIS)](https://www.cdc.gov/nchs/nhis/index.htm), [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm) | Chronic diseases (population-based study on disease prevalence and risk factors)                                |
+| Behavioral observation datasets           | [National Survey on Drug Use and Health (NSDUH)](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health), [Add Health](https://www.cpc.unc.edu/projects/addhealth), [British Cohort Study (BCS)](http://cls.ucl.ac.uk/cls-studies/) | Substance abuse disorders (survey data on drug consumption and addiction)                                    |
 
 
-### Phenotypic abnormality
-
-- Nature of "comparators" in the notion of a phenotypic abnormality.
-- In database curation you are effectively de-contextualising the phenotype term, which means you loose the original comparator.
-- normal changed wildtype comparator
-
-### Disease
 
 ## Important relationships wrt to phenotype data
 
 - inheres in / characteristic of
 - bearer of
-
-## Examples of phenotype data
-
-1. gene to phenotype associations
-1. gene to disease assocations
-1. phenotype - phenotype semantic similarity
-1. Quantified trait data (QTL etc)
-
-
 
 
 ## Types of phenotype data
