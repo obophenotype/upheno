@@ -1,1 +1,0 @@
-## The Entity-Quality model for describing phenotypes
