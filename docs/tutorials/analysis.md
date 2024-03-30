@@ -7,8 +7,9 @@ Authors:
 
 Last update: 27.03.2024.
 
-## Semantic similarity
+## Training
 
-## Mappings
-
-## Data aggregation
+- [Familiarise yourself with the core concepts](../reference/core-concepts.md)
+- [Familiarise the basics of phenotype data](../reference/phenotype-data.md)
+- [Familiarise yourself with the basics of phenotype integration](../reference/data-integration.md)
+- [Familiarise yourself with the use cases](../reference/use-cases.md)
