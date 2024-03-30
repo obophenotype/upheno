@@ -13,7 +13,7 @@ Before we get started, let's remind ourselves of the basic structure of phenotyp
 
 !!! note "Figure 1: Core concepts"
 
-    Figure 1: _Characteristics_ (A) and _bearers_ of characteristics (B) are the core constituents of traits/biological attributes (C). _Phenotypes_ are comprised of trait terms (C) combined with a modifier (D). Species-specific phenotypes (F), including _phenotypic abnormalities_ defined in the Human Phenotype Ontology (HPO) are feature of diseases (G). Measurements (H), such as assays, quantify or qualify (measure) traits (C).
+    _Characteristics_ (A) and _bearers_ of characteristics (B) are the core constituents of traits/biological attributes (C). _Phenotypes_ are comprised of trait terms (C) combined with a modifier (D). Species-specific phenotypes (F), including _phenotypic abnormalities_ defined in the Human Phenotype Ontology (HPO) are feature of diseases (G). Measurements (H), such as assays, quantify or qualify (measure) traits (C).
 
 Phenotype data can be integrated to various degrees into the uPheno framework.
 
@@ -81,21 +81,74 @@ In the following we discuss a few of the most common forms of knowledge.
 
 <a id="ontological"></a>
 
-Core ontological relationships such as "is-a" or "part-of" are the most boring of all kinds of knowledge, but they already hold a lot of promise.
+_Core ontological relationships_ such as "is-a" or "part-of" are the most boring of all kinds of knowledge, but they already hold a lot of promise.
 For example, in Figure 1 above we can see that "Hypolysinemia" (a human phenotype) is a subclass of "decreased level of lysine in the blood" (a species independent class).
 
 This is already nice, but lets look at what we _really_ get when we employ uPheno in Figure 2:
 
 ![Core concepts](../images/upheno_hierarchy.png)
 
-!!! note "Figure 1: Core concepts"
+!!! note "Figure 2: uPheno class hierarchy excerpt"
 
-    Figure 1: _Characteristics_ (A) and _bearers_ of characteristics (B) are the core constituents of traits/biological attributes (C). _Phenotypes_ are comprised of trait terms (C) combined with a modifier (D). Species-specific phenotypes (F), including _phenotypic abnormalities_ defined in the Human Phenotype Ontology (HPO) are feature of diseases (G). Measurements (H), such as assays, quantify or qualify (measure) traits (C).
+    _Characteristics_ (A) and _bearers_ of characteristics (B) are the core constituents of traits/biological attributes (C). _Phenotypes_ are comprised of trait terms (C) combined with a modifier (D). Species-specific phenotypes (F), including _phenotypic abnormalities_ defined in the Human Phenotype Ontology (HPO) are feature of diseases (G). Measurements (H), such as assays, quantify or qualify (measure) traits (C).
 
+Here we can see just how deeply a concept like "Hypolysinemia" can be integrated:
 
-This, in turn, is a subclass 
+- `Hypolysinemia` is a `decreased level of lysine in blood`
+- which is a `changed blood lysine level`
+- which is a `changed blood amino acid level`
+- which is a `changed blood nitrogen molecular entity level`
+- which is a `changed blood chemical entity level`
+- which is a `hematopoietic system phenotype`
 
-#### Important relationships wrt to phenotype data
+!!! warning
 
-- inheres in / characteristic of
-- bearer of
+    The exact naming conventions in uPheno are under review at the moment, so the reader may experience some discrepancies between Figure 2, the listing above, and the [ontology in Monarch's OLS](https://ols.monarchinitiative.org/ontologies/upheno2).
+
+Not everyone will agree that all of these groupings are particularly useful (`changed blood amino acid level` may not have that many realy world use cases), 
+but the fact that we _can_ aggregate our data on so many levels is compelling.
+For example, we can aggregate all genes associated to phenotype from different species related to any change in the level of lysine in the blood.
+
+<a id="phenorel"></a>
+
+_Core phenotype relationships_ such as "characteristic-of", "has-phenotype-affecting" and "has-modifier" can be extracted directly from the computational
+definitions of the uPheno and OBA ontology terms. A nice way to [query some of these relations](https://api.triplydb.com/s/cfAZXUS3V) (example query below) is [Ubergraph](https://github.com/INCATools/ubergraph).
+
+??? Ubergraph query
+
+    PREFIX dcterms: <http://purl.org/dc/terms/>
+    PREFIX obo: <http://purl.obolibrary.org/obo/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+    SELECT DISTINCT ?phenotype ?phenotype_label ?property_label ?uberon_id ?uberon_label ?property2_label ?chebi_id ?chebi_label
+    WHERE {
+    ?phenotype rdfs:subClassOf <http://purl.obolibrary.org/obo/HP_0033107> .
+    ?phenotype rdfs:label ?phenotype_label .
+    
+    OPTIONAL {
+        ?uberon_id rdfs:subClassOf <http://purl.obolibrary.org/obo/UBERON_0006314> .
+        ?uberon_id rdfs:label ?uberon_label .
+        ?phenotype ?property ?uberon_id .
+        ?property rdfs:label ?property_label .
+    }
+    
+    OPTIONAL {
+        ?chebi_id rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33709> .
+        ?chebi_id rdfs:label ?chebi_label .
+        ?phenotype ?property2 ?chebi_id .
+        ?property2 rdfs:label ?property2_label .
+    }
+    
+    } LIMIT 20
+
+There are many relationships that can be directly extracted from upehno, including:
+
+- has phenotype affecting: a relationship provided by the uPheno framework that links a phenotypic change to the bearer entity
+- has part: 
+- part of: 
+- is decrease of: 
+- in taxon: 
+- characteristic of: 
+- characteristic of part of: 
+- has modifier:
