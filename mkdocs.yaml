@@ -33,13 +33,14 @@ nav:
       - Using uPheno in Curation: tutorials/curation.md
       - Using uPheno for Grouping Data: tutorials/grouping.md
   - Reference:
-    - Core concepts: reference/core_concepts.md
+    - Core concepts: reference/core-concepts.md
+    - Phenotype data: reference/phenotype-data.md
     - EQ modelling:
       - Overview of EQ modelling: reference/eq.md
       - Abnormal phenotypes: reference/modelling/abnormal.md 
       - Absence modelling: reference/modelling/absence.md
-    - The Phenotype Reconciliation Effort: reference/reconciliation_effort.md
-    - Use Cases: reference/use_cases.md
+    - The Phenotype Reconciliation Effort: reference/reconciliation-effort.md
+    - Use Cases: reference/use-cases.md
     - Components:
       - Overview: reference/components.md
       - Drosophila Phenotype Ontology: reference/components/dpo.md

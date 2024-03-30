@@ -7,22 +7,9 @@ Authors:
 
 Last update: 27.03.2024.
 
-## Overview
-
-Phenotyping is, in essence, the process of recording the observable characteristics, or phenotypic profile, of an organism. 
-There are many use cases for doing this task: clinicians have to record a patient's phenotypic profile to facilitate more accurate diagnosis. 
-Researchers have to record phenotypic profiles of model organisms to characterise them to assess interventions (genetic or drug or otherwise). 
-Curators that seek to build a knowledge base which contains associations between phenotypes and other data types need to extract information about phenotypes from often unstructured data sources. 
-
-All of these are different processes, but the essence is the same: a set of observable characteristics has to be recorded using terms from a controlled vocabulary.
-
-There are different schools about how to record phenotypes in a structured manner. 
-Quantified phenotypes can be recorded using either a trait in combination with a measurement datum (“head circumference”, “35 cm”) or a qualified term expressing “phenotypic change” (“increased head circumference”). 
-Furthermore, we can express phenotype terms as “pre-coordinated” terms, like “increased head circumference” or a “post-coordinated expression”, like “head”, “circumference”, “increased”). In the following, we will describe the different concepts and categories around phenotype data, and provide an introduction on how to best use them.
-
 ## Pre-requisites
 
-- [Familiarise yourself with the core concepts](../reference/core_concepts.md)
+- [Familiarise yourself with the core concepts](../reference/core-concepts.md)
 
 ## Examples of phenotype data
 
