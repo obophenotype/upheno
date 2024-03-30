@@ -379,13 +379,13 @@ Examples:
 
 Lets break down the second to last row:
 
-- ZFA:0009290 (glutamatergic neuron)
-- BFO:0000050 (part of): a relation used to connect the hair cell to the structure its part of)
-- ZFA:0000008 (brain)
+- ZFA:0009290 (glutamatergic neuron): The primary entity whose characteristic is being observed
+- BFO:0000050 (part of): a relation used to connect the hair cell to the structure its part of
+- ZFA:0000008 (brain): the location of the primary entity being observed
 - PATO:0040043 (increased proportionality to): the modified characteristic being observed.
-- abnormal (the change modifier)
-- ZFA:0009276 (GABAergic neuron)
-- ZFA:0000008 (brain)
+- abnormal: the change modifier (note: not an ontology term)
+- ZFA:0009276 (GABAergic neuron): the secondary entity being observed in relation to which the characteristic is measured
+- ZFA:0000008 (brain): the location of the secondary entity
 - The interested reader may look at an integrated version of that huge post-coordinated expression [here (brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal - ZP:0141834)](https://www.ebi.ac.uk/ols4/ontologies/zp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FZP_0141834).
 
 Data was obtained [from ZFIN](https://zfin.org/downloads) (Phenotype of Zebrafish Genes) on the 30.03.2023 and simplified for illustration.
