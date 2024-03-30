@@ -5,3 +5,9 @@
 
 
 ### Level 2 integration: Knowledge
+
+
+#### Important relationships wrt to phenotype data
+
+- inheres in / characteristic of
+- bearer of
