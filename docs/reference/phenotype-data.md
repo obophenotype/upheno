@@ -21,7 +21,7 @@ The goals of this document are:
 ### Some examples of phenotype data
 
 | Category                                  | Example datasets                                                                                        | Example phenotype                                           |
-|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+|---|---|---|
 | Gene to phenotype associations            | [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/), [Human Phenotype Ontology (HPO)](https://hpo.jax.org/app/), [Gene Ontology (GO)](http://geneontology.org/)                  | Achondroplasia (associated with FGFR3 gene mutations)                                   |
 | Gene to disease associations              | [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga), [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/), [GWAS Catalog](https://www.ebi.ac.uk/gwas/) | Breast invasive carcinoma (associated with BRCA1/BRCA2 mutations)                          |
 | Phenotype-phenotype semantic similarity   | [Human Phenotype Ontology (HPO)](https://hpo.jax.org/app/), [Unified Medical Language System (UMLS)](https://www.nlm.nih.gov/research/umls/index.html), [Disease Ontology (DO)](http://disease-ontology.org/) | Cardiac abnormalities (semantic similarity with congenital heart defects)                            |
@@ -308,7 +308,7 @@ Pre-coordinated phenotype data is popular in the clinical domain, where a lot of
     }
     ```
 
-Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/)).
+Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/).
 
 <a id="postcoordinated"></a>
 
@@ -320,16 +320,116 @@ For example, the phenotype space is _enormous_, as you can measure variations in
 
 There are at least three flavours of post-coordinated phenotype curation prevalent in the biomedical domain, four if you count quantified phenotypes:
 
-- [Trait + modifier](#traitmodifier) 
+- [Trait + modifier](#traitmodifier)
 - [Bearer only](#beareronly)
 - [Characteristics + modifier + bearer](#charmodbear)
 
-Note that bearers can be arbitrarily complex.
+<a id="traitmodifier"></a>
+
+_Trait + modifier_ pattern is used for example by databases such as the [Saccharomyces Genome Database (SGD)](https://www.yeastgenome.org/observable/APO:0000106). Here are some examples:
+
+| dateAssigned | evidence/publicationId | objectId | phenotypeStatement | phenotypeTermIdentifiers/0/termId | phenotypeTermIdentifiers/1/termId | conditionRelations/0/conditions/0/chemicalOntologyId | conditionRelations/0/conditions/0/conditionClassId |
+|---|---|---|---|---|---|---|---|
+| 2010-07-08T00:07:00-00:00 | PMID:1406694 | SGD:S000003901 | abnormal RNA accumulation | APO:0000002 | APO:0000224 | | |
+| 2006-05-05T00:05:00-00:00 | PMID:785224 | SGD:S000000854 | decreased resistance to chemicals | APO:0000003 | APO:0000087 | CHEBI:78661 | ZECO:0000111 |
+| 2010-07-07T00:07:00-00:00 | PMID:10545447 | SGD:S000000969 | decreased cell size | APO:0000003 | APO:0000052 | | |
+
+- `APO:0000002` (abnormal) and `APO:0000003` (decreased) are modifiers.
+- `APO:0000087` (resistance to chemicals), `APO:0000224` (RNA accumulation), `APO:0000052` (cell size) are biological attributes/traits.
+- `CHEBI:78661` is recorded as an experimental condition, but should probably be interpreted as part of the bearer expression.
+- Note: SGD has different kinds of phenotype data, and it should be carefully evaluated which one it is.
+
+Data was obtained [from the Alliance of Genome Resources](https://fms.alliancegenome.org/download/PHENOTYPE_SGD.json.gz) on the 30.03.2023 and simplified for illustration.
+
+<a id="beareronly"></a>
+
+The _bearer-only_ pattern is used by many databases, such as [Flybase](https://flybase.org/reports/FBal0016988).
+In the data, we only find references of bearers, such as anatomical entities or biological processes.
+Instead of explicitly stating phenotypic modifiers (abnormal, morphology, changed), it is implicit in the definition of the dataset.
+
+| dateAssigned | evidence/crossReference/id | evidence/publicationId | objectId | phenotypeStatement | phenotypeTermIdentifiers/0/termId |
+|---|---|---|---|---|---|
+| 2024-01-05T11:54:24-05:00 | FB:FBrf0052655 | PMID:2385293 | FB:FBal0016988 | embryonic telson   | FBbt:00000184 |
+| 2024-01-05T11:54:24-05:00 | FB:FBrf0058077 | PMID:8223248 | FB:FBal0001571 | larva              | FBbt:00001727 |
+
+- `FBbt:00000184` (embryonic telson) and `FBbt:00001727` (larva) are bearer terms.
+- The modifier is implicit in the data rather than explicitly stated. For example, [Flybase states on their website about the Dmel\torrv66 Allele (FBal0016988)](https://flybase.org/reports/FBal0016988) that the "phenotype manifests in the embryonic telson".
+- Note: FlyBase has different kinds of phenotype data (including pre-coordinated), and it should be carefully evaluated which one is which prior to integration.
+
+Data was obtained [from the Alliance of Genome Resources](https://fms.alliancegenome.org/download/PHENOTYPE_FB.json.gz) on the 30.03.2023 and simplified for illustration.
+
+<a id="charmodbear"></a>
+
+The most complex pattern for phenotype descriptions which essentially decomposes the entire phenotype expression into atomic consituents can be found, for example, in the [The Zebrafish Information Network (ZFIN)](https://zfin.org/).
+
+Examples:
+
+| Fish ID | Affected Structure or Process 1 subterm ID | Affected Structure or Process 1 subterm Name | Post-composed Relationship ID | Post-composed Relationship Name | Affected Structure or Process 1 superterm ID | Affected Structure or Process 1 superterm Name | Phenotype Keyword ID | Phenotype Keyword Name | Phenotype Tag | Affected Structure or Process 2 subterm ID | Affected Structure or Process 2 subterm name | Post-composed Relationship (rel) ID | Post-composed Relationship (rel) Name | Affected Structure or Process 2 superterm ID | Affected Structure or Process 2 superterm name | Publication ID |
+|-----------------------|--------------------------------------------|----------------------------------------------|-------------------------------|---------------------------------|----------------------------------------------|--------------------------------------------------|----------------------|-------------------------------------|---------------|--------------------------------------------|----------------------------------------------|-------------------------------------|---------------------------------------|----------------------------------------------|--------------------------------------------------|-------------------|
+| ZDB-FISH-150901-29105 | ZFA:0009366 | hair cell | BFO:0000050 | part_of | ZFA:0000051 | otic vesicle | PATO:0000374 | increased distance | abnormal | ZFA:0009366 | hair cell | BFO:0000050 | part_of | ZFA:0000051 | otic vesicle | ZDB-PUB-171025-12 |
+| ZDB-FISH-150901-29105 | ZFA:0009366 | hair cell | BFO:0000050 | part_of | ZFA:0000051 | otic vesicle | PATO:0000374 | increased distance | abnormal | ZFA:0009366 | hair cell | BFO:0000050 | part_of | ZFA:0000051 | otic vesicle | ZDB-PUB-171025-12 |
+| ZDB-FISH-150901-11537 | | | | | ZFA:0000051 | otic vesicle | PATO:0001905 | has normal numbers of parts of type | normal | ZFA:0009366 | hair cell | BFO:0000050 | part_of | ZFA:0000051 | otic vesicle | ZDB-PUB-150318-1 |
+| ZDB-FISH-150901-18770 | | | | | ZFA:0000119 | retinal inner nuclear layer | PATO:0002001 | has fewer parts of type | abnormal | ZFA:0009315 | horizontal cell | BFO:0000050 | part_of | ZFA:0000119 | retinal inner nuclear layer | ZDB-PUB-130222-28 |
+| ZDB-FISH-190806-7 | BSPO:0000084 | ventral region | BFO:0000050 | part_of | ZFA:0000101 | diencephalon | PATO:0002001 | has fewer parts of type | abnormal | ZFA:0009301 | dopaminergic neuron | BFO:0000050 | part_of | ZFA:0000101 | diencephalon | ZDB-PUB-190216-5 |
+| ZDB-FISH-190807-7 | BSPO:0000084 | ventral region | BFO:0000050 | part_of | ZFA:0000101 | diencephalon | PATO:0001905 | has normal numbers of parts of type | normal | ZFA:0009301 | dopaminergic neuron | BFO:0000050 | part_of | ZFA:0000101 | diencephalon | ZDB-PUB-190216-5 |
+| ZDB-FISH-190807-8 | BSPO:0000084 | ventral region | BFO:0000050 | part_of | ZFA:0000101 | diencephalon | PATO:0002001 | has fewer parts of type | abnormal | ZFA:0009301 | dopaminergic neuron | BFO:0000050 | part_of | ZFA:0000101 | diencephalon | ZDB-PUB-190216-5 |
+| ZDB-FISH-150901-29105 | | | | | ZFA:0000101 | diencephalon | PATO:0001555 | has number of | normal | ZFA:0009301 | dopaminergic neuron | BFO:0000050 | part_of | ZFA:0000101 | diencephalon | ZDB-PUB-161120-7 |
+| ZDB-FISH-210421-9 | ZFA:0009290 | glutamatergic neuron | BFO:0000050 | part_of | ZFA:0000008 | brain | PATO:0040043 | increased proportionality to | abnormal | ZFA:0009276 | GABAergic neuron | BFO:0000050 | part_of | ZFA:0000008 | brain | ZDB-PUB-191011-2 |
+| ZDB-FISH-210421-9 | ZFA:0009290 | glutamatergic neuron | BFO:0000050 | part_of | ZFA:0000008 | brain | PATO:0040043 | increased proportionality to | abnormal | ZFA:0009276 | GABAergic neuron | BFO:0000050 | part_of | ZFA:0000008 | brain | ZDB-PUB-191011-2 |
+
+Lets break down the second to last row:
+
+- ZFA:0009290 (glutamatergic neuron)
+- BFO:0000050 (part of): a relation used to connect the hair cell to the structure its part of)
+- ZFA:0000008 (brain)
+- PATO:0040043 (increased proportionality to): the modified characteristic being observed.
+- abnormal (the change modifier)
+- ZFA:0009276 (GABAergic neuron)
+- ZFA:0000008 (brain)
+- The interested reader may look at an integrated version of that huge post-coordinated expression [here (brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal - ZP:0141834)](https://www.ebi.ac.uk/ols4/ontologies/zp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FZP_0141834).
+
+Data was obtained [from ZFIN](https://zfin.org/downloads) (Phenotype of Zebrafish Genes) on the 30.03.2023 and simplified for illustration.
+
+As one can see in the last example, bearers can be anything from simple atomic entities to arbitrarily complex compositions:
+
+- "lysine" (`lysine`)
+- "lysine in the blood" (`lysine` part_of `blood`)
+- "lysine in heart muscle cells" (`lysine` part_of `cell` part_of (`muscle` part of `heart`))
+- "lysine in the cytoplasm of heart muscle cells" (`lysine` part_of (`cytoplasm` part_of (`cell` part_of (`muscle` part of `heart`))))
+- etc, etc
 
 <a id="standardized"></a>
 
 #### Standardised/non-standardized
 
+Phenotype data can be standardised to varying degrees. It is not uncommon for data to be completely unstandardised.
+Unfortunately, only a fraction of the available data is actually annotated using terms from controlled phenotype ontologies.
+Here are some of the more "typical" kinds of data on the standardised/non-standardised spectrum:
+
+1. Free text in clinical notes and scientific publications
+1. Free text in specific database fields (for example a "height" column in a table about measurements of Giraffes)
+1. Controlled but non-standardised vocabulary like enums in a datamodel (for example the keyword "abnormal" in the [ZFIN example above](#charmodbear))
+1. Controlled standardised vocabulary (like all the examples on this page)
+1. Ontology terms (controlled vocabulary terms with well defined semantics - all the examples on this page)
+
 <a id="qual"></a>
 
 #### Quantitative/qualitative
+
+Qualitative and quantitative phenotype data represent two fundamental ways of describing characteristics or traits in biology, each providing different types of information:
+
+Qualitative Phenotype Data:
+
+- Nature: This type of data describes qualities or characteristics that are observed but not measured with numbers. It often involves categorical or descriptive information.
+- Examples: The presence or absence of a specific physical trait (like eye color or wing shape in animals) or types of behavior (aggressive vs. passive).
+- Analysis: Qualitative data is analyzed by categorization and identification of patterns or variations. It is more about the 'type' or 'kind' of trait rather than its 'amount'.
+- Interpretation: Since it's descriptive, this data relies on subjective interpretation and classification.
+
+Quantitative Phenotype Data:
+
+- Nature: This data is numerical and quantifies traits. It involves measurements of characteristics, often allowing for more precise and objective analysis.
+- Examples: Height, weight, blood pressure, cholesterol levels, or the number of fruit produced by a plant. Quantitative traits can often be measured on a continuous scale, for example height of 35 cm, weight of 67 KG or blood pressure of 120/80.
+- Analysis: It involves statistical analysis, such as calculating mean, median, standard deviation, and applying various statistical tests. It allows for a more objective and replicable assessment.
+- Interpretation: Quantitative data provides a more concrete and measurable understanding of traits, making comparisons and statistical testing more straightforward.
+
+Qualitative data is descriptive and categorical, while quantitative data is numerical and measurable. Both types are essential for a comprehensive understanding of phenotypic traits, each offering unique insights into biological variation and complexity.
