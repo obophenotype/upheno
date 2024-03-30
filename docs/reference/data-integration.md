@@ -142,13 +142,13 @@ definitions of the uPheno and OBA ontology terms. A nice way to [query some of t
     
     } LIMIT 20
 
-There are many relationships that can be directly extracted from upehno, including:
+There are many relationships that can be directly extracted from uPheno, including:
 
 - has phenotype affecting: a relationship provided by the uPheno framework that links a phenotypic change to the bearer entity
-- has part: 
-- part of: 
-- is decrease of: 
-- in taxon: 
-- characteristic of: 
-- characteristic of part of: 
-- has modifier:
+- has part: linking a trait or phenotype to another trait or phenotype it has as a constituent part
+- part of: linking a trait or phenotype to another trait or phenotype it is part of
+- in taxon: linking a trait or phenotype to the the specific taxon they are observed in
+- characteristic of: linking a trait to a bearer
+- characteristic of part of: linking a trait to the location in which the bearer is located (e.g. `blood` in the case of `blood lysine`)
+- has modifier: linking a trait to a change modifier such as `abnormal` or `increased`
+
