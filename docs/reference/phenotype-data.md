@@ -37,7 +37,16 @@ The goals of this document are:
 
 ### Different shapes of phenotype data
 
+Phenotype data comes in many different shapes and forms. In the following, we will describe some of the most common features of such data:
+
+- [Pre-coordinated](#precoordinated)
+- [Post-coordinated](#postcoordinated)
+- [Standardised/non-standardized](#standardized)
+- [Quantitative/qualitative](#qual)
+
 <a id="precoordinated"></a>
+
+#### Pre-coordinated
 
 Pre-coordinated phenotype data is popular in the clinical domain, where a lot of observations are taken by a clinician and recorded as "phenotypic abnormalities" with the goal of eventual diagnosis.
 
@@ -299,19 +308,23 @@ Pre-coordinated phenotype data is popular in the clinical domain, where a lot of
     }
     ```
 
-#### Pre-coordinated
-
-- HPO during clinical phenotyping
-- Mouse phenotypes
+Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/)).
 
 <a id="postcoordinated"></a>
 
 #### Post-coordinated
 
-- Trait + modifier
-- Bearer only
-- Characteristics + modifier + bearer
-- Complex bearers
+Post-coordinated phenotype curation simply means that the different constituents of phenotype (characteristic, bearer, modifier etc) are captured individually.
+This has certain advantages.
+For example, the phenotype space is _enormous_, as you can measure variations in many observable charactertics from chemical entities present in the blood, the microbiome to a host of morphological and developmental abnormalities. Instead of having individual (controlled vocabulary) terms for `increased level of X`, `decreased level X`, `abnormal level of X`, `increased level of X in blood` for thousands of chemical compounds synthesized by the human body, you just have "increased level", "blood" and all the chemical compounds.
+
+There are at least three flavours of post-coordinated phenotype curation prevalent in the biomedical domain, four if you count quantified phenotypes:
+
+- [Trait + modifier](#traitmodifier) 
+- [Bearer only](#beareronly)
+- [Characteristics + modifier + bearer](#charmodbear)
+
+Note that bearers can be arbitrarily complex.
 
 <a id="standardized"></a>
 
