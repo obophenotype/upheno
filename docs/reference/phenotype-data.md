@@ -20,18 +20,22 @@ The goals of this document are:
 
 ### Some examples of phenotype data
 
-| Category                                  | Example datasets                                                                                        | Example phenotype                                           |
+The interested reader should familiarise themselves with some of the following resources.
+They are a tiny glimpse into the diverse world of phenotype data, and the purpose of this list
+is to convince how prevalent and diverse phenotype data is across the biomedical domain.
+
+| Category | Example datasets | Example phenotype |
 |---|---|---|
-| Gene to phenotype associations            | [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/), [Human Phenotype Ontology (HPO)](https://hpo.jax.org/app/), [Gene Ontology (GO)](http://geneontology.org/)                  | Achondroplasia (associated with FGFR3 gene mutations)                                   |
-| Gene to disease associations              | [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga), [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/), [GWAS Catalog](https://www.ebi.ac.uk/gwas/) | Breast invasive carcinoma (associated with BRCA1/BRCA2 mutations)                          |
-| Phenotype-phenotype semantic similarity   | [Human Phenotype Ontology (HPO)](https://hpo.jax.org/app/), [Exomiser](https://exomiser.readthedocs.io/), [Monarch Initiative](https://monarchinitiative.org/) | Cardiac abnormalities (semantic similarity with congenital heart defects)                            |
-| Quantified trait data (QTL etc)           | [NHGRI-EBI GWAS Catalog](https://www.ebi.ac.uk/gwas/), [Genotype-Tissue Expression (GTEx)](https://gtexportal.org/home/), [The Human Protein Atlas](https://www.proteinatlas.org/) | Height (quantified trait associated with SNPs in genomic regions)                                                |
-| Electronic health records                 | [Medical Information Mart for Intensive Care III (MIMIC-III)](https://mimic.physionet.org/), [UK Biobank](https://www.ukbiobank.ac.uk/), [IBM Watson Health](https://www.ibm.com/watson-health) | Acute kidney injury (recorded diagnosis during ICU stay)                                             |
-| Epidemiological datasets                  | [Framingham Heart Study](https://framinghamheartstudy.org/), [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm), [Global Burden of Disease Study (GBD)](http://www.healthdata.org/gbd) | Cardiovascular disease (epidemiological study of risk factors and disease incidence)                       |
-| Clinical trial datasets                   | [ClinicalTrials.gov](https://clinicaltrials.gov/), [European Union Clinical Trials Register (EUCTR)](https://www.clinicaltrialsregister.eu/), [International Clinical Trials Registry Platform (ICTRP)](https://www.who.int/ictrp/en/) | Treatment response (clinical trial data on efficacy and safety outcomes)                                      |
-| Environmental exposure datasets           | [Environmental Protection Agency Air Quality System (EPA AQS)](https://www.epa.gov/outdoor-air-quality-data), [Global Historical Climatology Network (GHCN)](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn), [National Centers for Environmental Information Climate Data Online (NCEI CDO)](https://www.ncdc.noaa.gov/cdo-web/) | Respiratory diseases (association with air pollutant exposure)                                               |
-| Population surveys e.g., UK Biobank      | [UK Biobank](https://www.ukbiobank.ac.uk/), [National Health Interview Survey (NHIS)](https://www.cdc.gov/nchs/nhis/index.htm), [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm) | Chronic diseases (population-based study on disease prevalence and risk factors)                                |
-| Behavioral observation datasets           | [National Survey on Drug Use and Health (NSDUH)](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health), [Add Health](https://www.cpc.unc.edu/projects/addhealth), [British Cohort Study (BCS)](http://cls.ucl.ac.uk/cls-studies/) | Substance abuse disorders (survey data on drug consumption and addiction)                                    |
+| Gene to phenotype associations | [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/), [Human Phenotype Ontology (HPO) annotations](https://hpo.jax.org/app/), [Gene Ontology (GO)](http://geneontology.org/) | Achondroplasia (associated with FGFR3 gene mutations) |
+| Gene to disease associations | [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga), [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/), [GWAS Catalog](https://www.ebi.ac.uk/gwas/) | Breast invasive carcinoma (associated with BRCA1/BRCA2 mutations)                          |
+| Phenotype-phenotype semantic similarity | [Human Phenotype Ontology (HPO)](https://hpo.jax.org/app/), [Monarch Initiative](https://monarchinitiative.org/) | Cardiac abnormalities (semantic similarity with congenital heart defects) |
+| Quantified trait data (QTL etc) | [NHGRI-EBI GWAS Catalog](https://www.ebi.ac.uk/gwas/), [Genotype-Tissue Expression (GTEx)](https://gtexportal.org/home/), [The Human Protein Atlas](https://www.proteinatlas.org/) | Height (quantified trait associated with SNPs in genomic regions) |
+| Electronic health records | [Medical Information Mart for Intensive Care III (MIMIC-III)](https://mimic.physionet.org/), [UK Biobank](https://www.ukbiobank.ac.uk/), [IBM Watson Health](https://www.ibm.com/watson-health) | Acute kidney injury (recorded diagnosis during ICU stay) |
+| Epidemiological datasets | [Framingham Heart Study](https://framinghamheartstudy.org/), [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm), [Global Burden of Disease Study (GBD)](http://www.healthdata.org/gbd) | Cardiovascular disease (epidemiological study of risk factors and disease incidence) |
+| Clinical trial datasets | [ClinicalTrials.gov](https://clinicaltrials.gov/), [European Union Clinical Trials Register (EUCTR)](https://www.clinicaltrialsregister.eu/), [International Clinical Trials Registry Platform (ICTRP)](https://www.who.int/ictrp/en/) | Treatment response (clinical trial data on efficacy and safety outcomes) |
+| Environmental exposure datasets | [Environmental Protection Agency Air Quality System (EPA AQS)](https://www.epa.gov/outdoor-air-quality-data), [Global Historical Climatology Network (GHCN)](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn), [National Centers for Environmental Information Climate Data Online (NCEI CDO)](https://www.ncdc.noaa.gov/cdo-web/) | Respiratory diseases (association with air pollutant exposure) |
+| Population surveys e.g., UK Biobank | [UK Biobank](https://www.ukbiobank.ac.uk/), [National Health Interview Survey (NHIS)](https://www.cdc.gov/nchs/nhis/index.htm), [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.htm) | Chronic diseases (population-based study on disease prevalence and risk factors) |
+| Behavioral observation datasets | [National Survey on Drug Use and Health (NSDUH)](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health), [Add Health](https://www.cpc.unc.edu/projects/addhealth), [British Cohort Study (BCS)](http://cls.ucl.ac.uk/cls-studies/) | Substance abuse disorders (survey data on drug consumption and addiction) |
 
 <a id="shape"></a>
 
@@ -48,9 +52,14 @@ Phenotype data comes in many different shapes and forms. In the following, we wi
 
 #### Pre-coordinated
 
+!!! example "Structured pre-coordinated phenotype data"
+
+    Structured pre-coordinated phenotype data is data where the various [aspects of the phenotype term](../reference/core-concepts.md), such as the _bearer_ ("retinal blood vessels") and the _characteristic_ ("Attenuation", or "thinning/narrowing"), and the _modifier_ (in the case of HPO terms, simply _abnormal_), are combined ("coordinated") into a single term, e.g. "Attenuation of retinal blood vessels" (HP:0007843).
+
 Pre-coordinated phenotype data is popular in the clinical domain, where a lot of observations are taken by a clinician and recorded as "phenotypic abnormalities" with the goal of eventual diagnosis.
 
-[Phenopackets](http://phenopackets.org/) such as the one below are an emerging standard to capture and sharing disease and phenotype information. Phenotypic features in particular are captured as so called "pre-coordinated phenotype terms" such as "Attenuation of retinal blood vessels" (HP:0007843). "Pre-coordinated" in this context means that the various [aspects of the phenotype term](../reference/core-concepts.md), such as the _bearer_ ("retinal blood vessels") and the _characteristic_ ("Attenuation", or "thinning/narrowing"), and the _modifier_ (in the case of HPO terms, simply _abnormal_), are combined ("coordinated") into a single term.
+[Phenopackets](http://phenopackets.org/) such as the one below are an emerging standard to capture and sharing disease and phenotype information about patients.
+Phenotypic features are captured in phenopackets as pre-coordinated HPO terms.
 
 ??? Phenopacket example
 
@@ -316,9 +325,9 @@ Apart from clinical diagnostics, pre-coordinated phenotype terms are used in man
 
 Post-coordinated phenotype curation simply means that the different constituents of phenotype (characteristic, bearer, modifier etc) are captured individually.
 This has certain advantages.
-For example, the phenotype space is _enormous_, as you can measure variations in many observable charactertics from chemical entities present in the blood, the microbiome to a host of morphological and developmental abnormalities. Instead of having individual (controlled vocabulary) terms for `increased level of X`, `decreased level X`, `abnormal level of X`, `increased level of X in blood` for thousands of chemical compounds synthesized by the human body, you just have "increased level", "blood" and all the chemical compounds.
+For example, the phenotype space is _enormous_, as you can measure variations in many observable charactertics from chemical entities present in the blood, the microbiome to a host of morphological and developmental abnormalities. Instead of having individual (controlled vocabulary) terms for `increased level of X`, `decreased level X`, `abnormal level of X`, `increased level of X in blood` for thousands of chemical compounds synthesized by the human body, you just have "increased level", "blood" and all the chemical compounds, and capture them separately.
 
-There are at least three flavours of post-coordinated phenotype curation prevalent in the biomedical domain, four if you count quantified phenotypes:
+There are at least three flavours (probably more) of post-coordinated phenotype curation prevalent in the biomedical domain (four if you count quantified phenotypes):
 
 - [Trait + modifier](#traitmodifier)
 - [Bearer only](#beareronly)
@@ -339,7 +348,9 @@ _Trait + modifier_ pattern is used for example by databases such as the [Sacchar
 - `CHEBI:78661` is recorded as an experimental condition, but should probably be interpreted as part of the bearer expression.
 - Note: SGD has different kinds of phenotype data, and it should be carefully evaluated which one it is.
 
-Data was obtained [from the Alliance of Genome Resources](https://fms.alliancegenome.org/download/PHENOTYPE_SGD.json.gz) on the 30.03.2023 and simplified for illustration.
+!!! info
+
+    Data was obtained [from the Alliance of Genome Resources](https://fms.alliancegenome.org/download/PHENOTYPE_SGD.json.gz) on the 30.03.2023 and simplified for illustration.
 
 <a id="beareronly"></a>
 
@@ -356,7 +367,9 @@ Instead of explicitly stating phenotypic modifiers (abnormal, morphology, change
 - The modifier is implicit in the data rather than explicitly stated. For example, [Flybase states on their website about the Dmel\torrv66 Allele (FBal0016988)](https://flybase.org/reports/FBal0016988) that the "phenotype manifests in the embryonic telson".
 - Note: FlyBase has different kinds of phenotype data (including pre-coordinated), and it should be carefully evaluated which one is which prior to integration.
 
-Data was obtained [from the Alliance of Genome Resources](https://fms.alliancegenome.org/download/PHENOTYPE_FB.json.gz) on the 30.03.2023 and simplified for illustration.
+!!! info
+
+    Data was obtained [from the Alliance of Genome Resources](https://fms.alliancegenome.org/download/PHENOTYPE_FB.json.gz) on the 30.03.2023 and simplified for illustration.
 
 <a id="charmodbear"></a>
 
@@ -380,15 +393,20 @@ Examples:
 Lets break down the second to last row:
 
 - ZFA:0009290 (glutamatergic neuron): The primary entity whose characteristic is being observed
-- BFO:0000050 (part of): a relation used to connect the hair cell to the structure its part of
+- BFO:0000050 (part of): a relation used to connect the primary entity to the structure it is part of
 - ZFA:0000008 (brain): the location of the primary entity being observed
-- PATO:0040043 (increased proportionality to): the modified characteristic being observed.
+- PATO:0040043 (increased proportionality to): the modified characteristic being observed
 - abnormal: the change modifier (note: not an ontology term)
 - ZFA:0009276 (GABAergic neuron): the secondary entity being observed in relation to which the characteristic is measured
 - ZFA:0000008 (brain): the location of the secondary entity
-- The interested reader may look at an integrated version of that huge post-coordinated expression [here (brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal - ZP:0141834)](https://www.ebi.ac.uk/ols4/ontologies/zp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FZP_0141834).
 
-Data was obtained [from ZFIN](https://zfin.org/downloads) (Phenotype of Zebrafish Genes) on the 30.03.2023 and simplified for illustration.
+!!! example "Example: brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal"
+
+    The interested reader may look at an integrated version of that huge post-coordinated expression [here (brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal - ZP:0141834)](https://www.ebi.ac.uk/ols4/ontologies/zp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FZP_0141834).
+
+!!! info
+
+    Data was obtained [from ZFIN](https://zfin.org/downloads) (Phenotype of Zebrafish Genes) on the 30.03.2023 and simplified for illustration.
 
 As one can see in the last example, bearers can be anything from simple atomic entities to arbitrarily complex compositions:
 
@@ -411,6 +429,8 @@ Here are some of the more "typical" kinds of data on the standardised/non-standa
 1. Controlled but non-standardised vocabulary like enums in a datamodel (for example the keyword "abnormal" in the [ZFIN example above](#charmodbear))
 1. Controlled standardised vocabulary (like all the examples on this page)
 1. Ontology terms (controlled vocabulary terms with well defined semantics - all the examples on this page)
+
+<!-- TODO JMCL: I would suggest we add examples to the list above -->
 
 <a id="qual"></a>
 
