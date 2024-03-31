@@ -15,11 +15,11 @@ Before we get started, let's remind ourselves of the basic structure of phenotyp
 
     _Characteristics_ (A) and _bearers_ of characteristics (B) are the core constituents of traits/biological attributes (C). _Phenotypes_ are comprised of trait terms (C) combined with a modifier (D). Species-specific phenotypes (F), including _phenotypic abnormalities_ defined in the Human Phenotype Ontology (HPO) are feature of diseases (G). Measurements (H), such as assays, quantify or qualify (measure) traits (C).
 
-Phenotype data can be integrated to various degrees into the uPheno framework.
+Phenotype data can be integrated to various degrees into the uPheno framework. Please note:
 
-!!! note "The goal of integration is always the same:"
+!!! note "The goal of phenotype data integration"
 
-    Associate phenotype data records with pre-coordinated trait and/or phenotype terms.
+    The goal of phenotype data integration in the sense of this document is to associate phenotype data records with pre-coordinated trait and/or phenotype terms from a phenotype ontology.
 
 The [promise of phenotype data integrated this way](../reference/use-cases.md) ranges from simple data aggregation (give me all data pertaining to changed levels of amino acids)
 to complex semantic comparisons of phenotypic profiles for matching patients to diseases.
@@ -41,6 +41,8 @@ As can be seen in Figure 1 at the top of this document, all of these are interco
 1. Biological traits (e.g. "lysine level in the blood") in OBA are a direct extension of the "general" characteristics described in PATO (e.g. "level", or "amount").
 1. Terms describing phenotypic change (such as "decreased levels of lysine in the blood") are automatically liked to their corresponding traits (at the time of this writing using "has part", for reasons too complicated to explain here)
 
+<!--TODO: We should probably add an FAQ about the "has-part" modelling choice. -->
+
 Integrating all kinds of phenotype data into the "uPheno framework" is a complex process which we will break down in the following.
 We will look at a [range of different kinds of phenotype data](../reference/phenotype-data.md) to illustrate the system (not exhaustive!):
 
@@ -53,18 +55,124 @@ We will look at a [range of different kinds of phenotype data](../reference/phen
 
 #### Integrating cross-species pre-coordinated phenotype data
 
+![uPheno cross-species](../images/upheno-cross-species.png)
+
+!!! note "Figure 2: uPheno cross-species integration"
+
+    uPheno integrates species-specific pre-coordinated phenotype ontologies such as HPO and ZP.
+    Species specific phenotype terms like "enlarged heart (ZP)" or "Enlarged heart (HPO)" are
+    integrated under a common uPheno class which is species-independent.
+
+The simplest form of phenotype integration is grouping cross-species, pre-coordinated
+phenotype terms under species independent parents. There are two basic techniques to consider here:
+
+1. [Design pattern-driven integration](#designpattern).
+2. [Mapping-based integration](#mapping)
+
+<a id="designpattern"></a>
+
+Integration using _design patterns_ is a very laborious process and works as follows:
+
+1. A _common design pattern_ is defined for a group of phenotypes.
+For example, the phenotypic abnormality "decreased lysine level in the blood" follows the pattern [abnormal amount of chemical entity in location](http://purl.obolibrary.org/obo/upheno/patterns/abnormalLevelOfChemicalEntityInLocation.yaml).
+A large number of such design patterns have been defined in the [Dead Simple Ontology Design Patterns (DOSDP) format](https://github.com/INCATools/dead_simple_owl_design_patterns) by the [Phenotype Ontology Reconciliation Effort](../reference/reconciliation-effort.md) and can be [browsed here](https://github.com/obophenotype/upheno/tree/master/src/patterns/dosdp-patterns).
+- Species-specific phenotype ontologies implement those patterns to define phenotype terms in their ontology logically.
+- uPheno terms are automatically generated for all existing phenotype terms defined this way by simply generating a new, species-indepedent terms that disregards the taxon-constraints imposed by species-specific ontologies. For example, if the Zebrafish Phenotype Ontology (ZP) uses Zebrafish Anatomy Ontology (ZFA) terms, they are generalised to Uberon terms, which are species independent anatomy terms.
+- Now we can simply stick the generated uPheno classes and the species-specific phenotype ontology terms together, run an OWL reasoner such as Elk and get the groupings we want.
+
+!!! warning
+
+    The process of defining pre-coordinated ontology terms using logical definitions is
+    extremely labourious.
+    The situation is aggrevated by the fact that selecting the right pattern for a given
+    phenotype is error prone, so that two communities could end up defining "analogous phenotypes" using different patterns, which results in them not being integrated well or at all.
+    The [Phenotype Ontology Reconciliation Effort](../reference/reconciliation-effort.md) is a
+    big effort to try and mitigate this through community coordination ([reconciliation meetings](../organization/meetings.md)).
+    In 2024, we are slowly beginning to experiment with scaling this bottleneck by emplying
+    Large Language Models to help curating such definitions automatically, with tools like
+    [ontogpt](https://github.com/monarch-initiative/ontogpt).
+
+_Mapping-based integration_ is less powerful, but more scalable that pattern driven solutions and essential to describe phenotypes that cannot be described using EQ definitions.
+It works as follows:
+
+1. Matching tools are employed to generate mapping candidates across species-specific phenotype ontologies.
+1. Curators review mapping candidates and store them in a common format (for example, MGI is curating a set of [MP-HP mappings](https://github.com/mapping-commons/mh_mapping_initiative/blob/master/mappings/mp_hp_mgi_all.sssom.tsv), Monarch Initiative is publishing logical and lexical cross-species mappings in their [Mapping Commons](https://github.com/monarch-initiative/monarch-mapping-commons), etc).
+1. During the automated construction of uPheno, mapped classes are grouped under a common uPheno parent, even if a logical pattern cannot be precisely determined.
+
+!!! warning
+
+    As of April 2024, the process of grouping mapped phenotypes under a common uPheno concept is under still development and has not yet been included in the main uPheno framework.
+
 <a id="postcoordinated"></a>
 
 #### Integrating post-coordinated phenotype data
+
+!!! note
+
+    Before reading this section make sure you understand what [post-coordinated phenotype data is](../reference/phenotype-data.md).
+
+Lets remind ourselves of an example of post-coordinated phenotype data from ZFIN:
+
+| Fish ID | Affected Structure or Process 1 subterm ID | Affected Structure or Process 1 subterm Name | Post-composed Relationship ID | Post-composed Relationship Name | Affected Structure or Process 1 superterm ID | Affected Structure or Process 1 superterm Name | Phenotype Keyword ID | Phenotype Keyword Name | Phenotype Tag | Affected Structure or Process 2 subterm ID | Affected Structure or Process 2 subterm name | Post-composed Relationship (rel) ID | Post-composed Relationship (rel) Name | Affected Structure or Process 2 superterm ID | Affected Structure or Process 2 superterm name | Publication ID |
+|-----------------------|--------------------------------------------|----------------------------------------------|-------------------------------|---------------------------------|----------------------------------------------|--------------------------------------------------|----------------------|-------------------------------------|---------------|--------------------------------------------|----------------------------------------------|-------------------------------------|---------------------------------------|----------------------------------------------|--------------------------------------------------|-------------------|
+| ZDB-FISH-210421-9 | ZFA:0009290 | glutamatergic neuron | BFO:0000050 | part_of | ZFA:0000008 | brain | PATO:0040043 | increased proportionality to | abnormal | ZFA:0009276 | GABAergic neuron | BFO:0000050 | part_of | ZFA:0000008 | brain | ZDB-PUB-191011-2 |
+
+The entities comprising the phentype are:
+
+- ZFA:0009290 (glutamatergic neuron): The primary entity whose characteristic is being observed
+- BFO:0000050 (part of): a relation used to connect the primary entity to the structure it is part of
+- ZFA:0000008 (brain): the location of the primary entity being observed
+- PATO:0040043 (increased proportionality to): the modified characteristic being observed
+- abnormal: the change modifier (note: not an ontology term)
+- ZFA:0009276 (GABAergic neuron): the secondary entity being observed in relation to which the characteristic is measured
+- ZFA:0000008 (brain): the location of the secondary entity
+
+1. We can down define a pattern for capturing this phenotype (in this case, an [as-of-yet non-standard pattern](https://github.com/obophenotype/zebrafish-phenotype-ontology/blob/master/src/patterns/dosdp-patterns/abnormalQualityPartOfThingTowardsPartOfThing.yaml)) that is compatible with the Entity-Quality model employed by the uPheno framework.
+1. Next, we map the constituents of the phenotype (or rather, the columns in the ZFIN data table) to slots in the design pattern.
+1. Now, we can simply generate the complete class, including labels and logical definitions and proceed with [pre-coordinated integration](#designpattern) as described above.
+
+!!! example "Example: brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal"
+
+    The interested reader may look at an integrated version of that huge post-coordinated expression [here (brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal - ZP:0141834)](https://www.ebi.ac.uk/ols4/ontologies/zp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FZP_0141834).
+
+!!! info "Should we pre-coordinate _all_ post-coordinate phenotype data?"
+
+    The [Zebrafish Phenotype Ontology (ZP)](https://www.ebi.ac.uk/ols4/ontologies/zp) and the
+    [Xenopus Phenotype Ontology (XPO)](https://www.ebi.ac.uk/ols4/ontologies/xpo) are two examples of efforts where pre-coordinated phenotype ontologies where constructed completely from design patterns. However, it is not always necessary to formally publish pre-coordinated ontologies for all available phenotype data.
+    The [Monarch Initiative](https://monarchinitiative.org/) for example chooses to directly generate _species-independent_ grouping classes for some of the post-coordinated phenotype data ingests they support for inclusion in their knowledge graphs, such as some FlyBase datasets and SGD phenotype data.
+    In other scenarios, _not even that may be necessary_. A semantic data scientist may simply choose to generate _temporary_ classes from post-coordinated phenotype data, run their analysis and discard them afterwards.
 
 <a id="quantitative"></a>
 
 #### Integrating quantitative phenotype data
 
+The integration of quantified phenotype data into the uPheno project is still in the early stages.
+Driven by Robinson et al. from the [Monarch Initiative](https://monarchinitiative.org/), and possible other research groups, the idea is to formally curate reference ranges for all quantified biological traits and then use
+that information to automatically generate corresponding pre-coordinated phenotype terms.
+
+For example, lets assume we have a reference range for tail length that says "25-30 cm". Now, we can translate a quantified phenotype data point like "tail length of 35 cm" automatically
+to a pre-coordinated phenotype term such as "abnormally increased tail length".
+We can do that by simply combining the trait term "tail length" with the "abnormal" modifier, which immediately establishes a link to the corresponding term from a pre-coordinated ontology such as HPO or MP.
+
 <a id="unstructured"></a>
 
 #### Integrating unstructured phenotype data
 
+!!! note
+
+    Before reading this section make sure you understand what [unstructured phenotype data is](../reference/phenotype-data.md).
+
+Integrating unstructured data is, essentially, a combination of "entity recognition", the task of recognising that a sequence of words in a text correspond to a distinct [phenotype concept](../reference/core-concepts.md) with "entity grounding" (or linking), the task of assigning an ontology term the recognised entity.
+Successfully integrating data this way is one of the the holy grails for phenomics, as much of the available phenotype data is still buried in unstructured text like clinical notes and scientific publications, and a problem that is by far from solved.
+
+Here are some of the most promises paths to integrating such data:
+
+1. Basic NLP techniques. For a lot of _quasi-structured_ data, where reasonably standardised terminology is used in a reasonably structured environment such as a database,
+basic NLP techniques such as string-normalisation, string matching and fuzzy lexical matching  actually works quite well.
+The advantage of such techniques is that they are not only deterministic (e.g. always resulting in the same result), they are also very transparent, which means they can be easily reviewed and accepted by a human curator.
+2. Advanced methods based on Large Language Models. Tools like [ontogpt](https://github.com/monarch-initiative/ontogpt) are good choices to try and extract structured information from
+unstructured sources where basic NLP techniques fail to yield any useful results.
+Note though that such methods lack the transparency of basic methods, which means they impose a higher burden on human reviewers in scenarios where accuracy is essential.
 
 ### Level 2 integration: Knowledge
 
