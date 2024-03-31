@@ -190,6 +190,7 @@ In the following we discuss a few of the most common forms of knowledge.
 
 1. [Core ontological relationships such as "is-a" or "part-of"](#ontological)
 1. [Core phenotype relationships such as "characteristic-of" and "has-modifier"](#phenorel)
+1. [Knowledge graph associations](#associations)
 
 <a id="ontological"></a>
 
@@ -299,6 +300,44 @@ Here is an example Ubergraph query to that end:
 
 The query looks for all uPheno phenotypes that affect (UPHENO:0000001) an entity that is considered part of the "cardiovascular_system".
 
-!!! info
+!!! tip
 
-    This is cool. To say the least
+    This is cool. Its free. Its reasonably easy. Its seems almost rediculous for not every single phenotype data analysis to make use of these relations.
+
+<a id="associations"></a>
+
+!!! note
+
+    Before reading this section make sure you have a sense of [the various kinds of phenotype data](../reference/phenotype-data.md), such as gene-to-phenotype associations, out there.
+
+_Knowledge graph associations_ (KGA) are a powerful way to enrich phenotype data.
+They enable a plethora of applications, including semantic similarity, disease diagnostics and many more.
+In contrast to the ontological relationships described above, KGA's are associative in nature,
+which means they are typically probabilistic, often fuzzy and rarely constitute absolute truths.
+Such associations can make a major difference for data analysis, but are, due to their
+probabilistic nature, often noisy.
+For example, GWAS study annotations include many gene-to-phenotype associations with low penetrance (a measure of how consistently a gene causes a particular trait), which may
+skew analysis results if they are not carefully designed.
+
+The possibilities for associations are virtually endless, so we will try to describe here some of the most interesting ones, such as the ones served by the [Monarch Initiative KG](https://monarchinitiative.org/).
+
+- Gene to phenotype (g2p) assocations. Many sources for gene to phenotype assocations exists such as the [Human Phenotype Ontology Annotations (HPOA)](https://hpo.jax.org/app/data/annotations) developed my the Monarch Initiative.
+g2p's are essential for understanding the molecular basis of genetic diseases and open the door to mitigation strategies such as drug development or genetic treatments.
+- Disease to phenotype (d2p) associations are relatings that indicate that a phenotype is a feature typically observed in the context of a disease. Deep phenotyping is a critical component for disease diagnostics. The phenotypic profile of a patient can be used not only to match other, similar patients (e.g. [Matchmake Exchange](https://www.matchmakerexchange.org/)), which is critical in contexts where knowledge about diseases is scattered (e.g. Rare Disease), but also to match to disease profiles directly (e.g. [Monarch Initiative](https://monarchinitiative.org/)). d2p's can be obtained from resources such as [Orphanet](https://www.orpha.net/), [Monarch Initiative](https://monarchinitiative.org/) and many others.
+- Variant to phenotype (v2p). Similar to g2p's, but a bit more fine grained. Many projects including [GWAS catalogue](https://www.ebi.ac.uk/gwas/) curate v2p's.
+
+All of these phenotype assocations can be augmented with many others, such as gene expression, protein-protein interaction and [GO-CAMs](https://geneontology.org/docs/gocam-overview/) and many more.
+
+### Summary
+
+- We can integrate diverse phenotype data records by associating them with pre-coordinated trait and/or phenotype terms from the Unified Phenotype Ontology (uPheno).
+- There are a few different approaches we need to leverage to associate phenotype data with uPheno terms, including:
+    - Using standardised logical definitions for automated classification.
+    - Mapping post-coordinated phenotype data into pre-coordinated terms.
+    - Infering pre-coordinated phenotype terms from traits and quantitative measurements by applying reference range information.
+    - Apply state of the art NLP techniques to turn unstructured phenotype expressions into structured ones, and matching those to pre-coordinated phenotype terms.
+- We can further enrich our data by integrating additional relationships (knowledge):
+    - Core ontological relationships help with classification and aggregation of data.
+    - Core phenotype relationships provide rich links to related entities such as chemical, anatomical or biological process.
+    - Rich known associations such as gene-to-phenotype or disease-to-phenotype can be integrated from a variety of publicly available sources.
+- Some examples on what we can do with phenotype data that is integrated this way can be found [here](../reference/use-cases.md).

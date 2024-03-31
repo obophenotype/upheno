@@ -46,7 +46,7 @@ Characteristics such as the one above can be used to describe a variety of entit
 
 !!! example "Biological traits/attributes"
 
-    Biological traits, or attributes, are characteristics that refer to an inherent characteristic of a biological entity, such as an organ (the heart), a process (cell division), a chemical entity (lysine) in the blood.
+    Biological traits, or attributes, are characteristics that refer to an inherent characteristic of a biological entity, such as an organ (the heart), a process (cell division), a chemical entity (lysine) in the blood. In the clinical domain, biological traits are sometimes subsumed under "observable entity".
 
 The [Ontology of Biological Attributes (OBA)](https://www.ebi.ac.uk/ols4/ontologies/oba) is the reference ontology for biological characteristics in the OBO world.
 There are a few other ontologies that describe biological traits, such as the [Vertebrate Trait Ontology](https://www.ebi.ac.uk/ols4/ontologies/vt) and the [Ascomycete Phenotype Ontology (APO)](https://www.ebi.ac.uk/ols4/ontologies/apo), but these are more species specific, and, more importantly, are not integrated in the wider [EQ modelling framework](../reference/eq.md) required for [phenotype integration](../reference/data-integration.md).
