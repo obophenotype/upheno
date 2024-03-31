@@ -25,7 +25,7 @@ Here, we discuss the core concepts of the computational phenotype model underpin
 
 The [Phenotype And Trait Ontology (PATO)](https://www.ebi.ac.uk/ols4/ontologies/pato) is the reference ontology for general characteristics in the OBO world.
 
-Some of the most widely use characteristics can be seen in the following tables
+Some of the most widely use characteristics can be seen in the following table:
 
 | quality | description | example |
 | ------- | ----------- | ------- |
@@ -34,7 +34,9 @@ Some of the most widely use characteristics can be seen in the following tables
 | Amount ([PATO:0000070](http://purl.obolibrary.org/obo/PATO_0000070)) | The number of entities of a type that are part of the whole organism. | |
 | Morphology ([PATO:0000051](http://purl.obolibrary.org/obo/PATO_0000051)) | A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure. | |
 
-Note from the authors: The descriptions above have been taken from PATO, but they are not very.. user friendly.
+!!! note
+
+    Note from the authors: The descriptions above have been taken from PATO, but they are not very.. user friendly.
 
 <a id="attributes"></a>
 
@@ -47,7 +49,9 @@ Characteristics such as the one above can be used to describe a variety of entit
     Biological traits, or attributes, are characteristics that refer to an inherent characteristic of a biological entity, such as an organ (the heart), a process (cell division), a chemical entity (lysine) in the blood.
 
 The [Ontology of Biological Attributes (OBA)](https://www.ebi.ac.uk/ols4/ontologies/oba) is the reference ontology for biological characteristics in the OBO world.
-There are a few other ontologies that describe biological traits, such as the [Vertebrate Phenotype Ontology](https://www.ebi.ac.uk/ols4/ontologies/vt) and the [Ascomycete Phenotype Ontology (APO)](https://www.ebi.ac.uk/ols4/ontologies/apo), but these are more species specific, and, more importantly, are not integrated in the wider [EQ modelling framework](../reference/eq.md).
+There are a few other ontologies that describe biological traits, such as the [Vertebrate Trait Ontology](https://www.ebi.ac.uk/ols4/ontologies/vt) and the [Ascomycete Phenotype Ontology (APO)](https://www.ebi.ac.uk/ols4/ontologies/apo), but these are more species specific, and, more importantly, are not integrated in the wider [EQ modelling framework](../reference/eq.md) required for [phenotype integration](../reference/data-integration.md).
+
+Some example terms from OBA:
 
 | Property    | Example term        | Definition                                 |
 |-------------|-------------------|--------------------------------------------|
@@ -62,7 +66,7 @@ There are a few other ontologies that describe biological traits, such as the [V
 
 !!! example "Bearer"
 
-    In biological contexts, the term **"bearer"** refers to the entity that possesses or carries a particular characteristic or quality.
+    In biological contexts, the term **"bearer"** refers to the entity that possesses or carries a particular characteristic or quality being observed.
     The bearer can be any biological entity, such as an organism, an organ, a cell, or even a molecular structure, that exhibits a specific trait or feature.
 
 Some examples:
@@ -91,24 +95,34 @@ In each example, the **"bearer"** is the entity that has, carries, or exhibits a
 
 !!! example "Phenotypic change"
 
-    A phenotypic change refers to some deviation from reference morphology, physiology, or behavior.
+    A phenotypic change describes a deviation from reference morphological, physiological, or behavioral trait.
 
 This is the most widely used, and most complicated category of phenotype terms for data specialists to understand.
 
 Conceptually, a phenotypic change comprises:
 
-- a biological attribute (which includes a biological bearer)
-- an "change" modifier
+- a biological attribute (which includes a [bearer](#bearer))
+- an categorical "change" modifier
 - (optionally) a directional modifier (increased / decreased)
 - a comparator
 
 Biological attributes such as `blood lysine amount` (OBA:2020005) have been discussed [earlier in this document](#attributes).
 The most widely used change modifier used in practice is `abnormal` (PATO:0000460).
-This modifier signifies that the phenotypic change term describes a deviation that is abnormal, such as "Hyperlysinemia" (HP:0002161), which describes and increased concentration of lysine in the blood.
-Other modifiers include `normal` (PATO:0000461), which describes a change within in the normal range (sometimes interpreted as "no change").
+This modifier signifies that the phenotypic change term describes a deviation that is abnormal, such as "Hyperlysinemia" (HP:0002161), which describes an increased concentration of lysine in the blood.
+Other modifiers include `normal` (PATO:0000461), which describes a change within in the normal range (sometimes, unfortunately, interpreted as "no change").
 A directional modifier like `increased` (PATO:0040043) or `decreased` (PATO:0040042). In practice, most of our "characteristic" terms have specialised directional variants such as `decreased amount` (PATO:0001997) which can be used to describe phenotypes.
 
-#### The nuissance of "implicit comparators"
+The [Unified Phenotype Ontology (uPheno)](https://www.ebi.ac.uk/ols4/ontologies/upheno) is the reference ontology for describing phenotypic changes in the OBO world.
+There are a many species-specific ontologies developed across a wide range of research communities, such as the Mammalian Phenotype Ontology (MP), the Human Phenotype Ontology (HPO) and the Drosophila Phenotype Ontology (DPO), see [here](../reference/components.md).
+
+| Property    | Example term | Definition |
+|-------------|-------------------|------------------------------------------------|
+| Length      | UPHENO:0072215    | Increased length of the digit.                |
+| Mass        | UPHENO:0054299    | Decreased multicellular organism mass.        |
+| Level       | UPHENO:0034327    | Decreased level of lysine in blood.           |
+| Morphology  | UPHENO:0001471    | Increased size of the heart.                  |
+
+#### The nuissance of "implicit comparators" in terms describing phenotypic change
 
 !!! danger
 
@@ -122,21 +136,23 @@ However, it is just just as easily imaginable that HPO terms are used to describ
 In research settings such as GWAS study annotations, HPO terms are used to annotate variants where a statistically significant change was observed compared to the general population.
 The same is true for many model phenotyping efforts such as [MGI](https://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml), where the situation is even further complicated that the comparator is not "the general population", but a control group. In summary, comparators can be:
 
-- The general population ("wild type" in research)
+- The general population ("wild type" in a lot of biological research)
 - A non-representative sample of the general population (blood glucose values of all diabetes patients, a control group from the same mouse strain)
 - A previous state of a study subject (e.g. [SNOMED](https://confluence.ihtsdotools.org/display/DOCEG/Clinical+Finding+and+Disorder)).
 
-And the compared charactertistics could be
+The _compared charactertistics_ could describe:
 
-- Deviating from some notion of normality (abnormal)
-- A statistically significant change (including within normal)
+- A deviation from some notion of normality (abnormal), for example a measurement outside the normal range
+- A statistically significant change (which includes the above, but also statistically significant variation within the normal range)
 
 No matter how much we want it - concepts describing phenotypic change will be used in many creative ways, and unfortunately, once the data hits your data analysis pipeline, you will likely not know for sure the nature of the comparator.
-Where you can, you should try to figure it out from the metata.
+Where you can, you should try to figure it out from the metadata.
 
-_This sounds like bad news_. However, keep one thing in mind:
-Phenotype associations (to anything, including genes) are rarely _strictly_ causal.
-Even if a change is observed "compared to some non-representative control" there is likely to be some signal useful for downstream inference - somehow, the "gene has something to do with the phenotype".
+!!! tip
+
+    _This sounds like bad news_. However, keep one thing in mind:
+    Phenotype associations (to anything, including genes) are rarely _strictly_ causal.
+    Even if a change is observed "compared to some non-representative control" there is likely to be some signal useful for downstream inference - somehow, the "gene has something to do with the phenotype".
 
 #### The chaotic terminology around "phenotype"
 
@@ -146,19 +162,21 @@ In the clinical domain, many ontologies exist that define concepts that are very
 
     In SNOMED, for example, "clinical findings" are [defined as normal/abnormal observations, judgments, or assessments of patients (e.g. Abnormal urinalysis (finding))](https://confluence.ihtsdotools.org/display/DOCEG/Clinical+Finding+and+Disorder).
 
-For most analytic purposes, we think of SNOMEDs (and other medical terminologies) notion of clinical finding of something ortologous to our notion of "phenotype" (and their "observale entity" as a trait/biological attribute).
+For most analytic purposes, we think of SNOMED's (and other medical terminologies) notion of "clinical finding" as something ortologous to our notion of "phenotype" (and their "observable entity" as a trait/biological attribute).
 However, if one gets into the weeds, many discrepencies in judgement can be observed, in particular when it comes to the [separation from disease](#disease).
 
 !!! example "Phenotype and Phenotypes"
 
     "Phenotype" is typically used in its "singular" form to describe the set of _all_ observable characteristics of a subject.
-    However, because we have over time gotten used to talking about "cardiovascular phenotype" and "increased blood glucose level", we have started using the plural form more, i.e. "phenotypes".
+    However, because we have over time gotten used to talking about "cardiovascular phenotype" and "increased blood glucose level" as individual phenotypes, we have started using the plural form more, i.e. "phenotypes".
 
-We now tend to use the term "phenotypic profile" to describe the set of phenotypes that an organism exhibits at some point in time.
+!!! example "Phenotypic profile"
+
+    We now tend to use the term "phenotypic profile" to describe the set of phenotypes that an organism exhibits at some point in time, or that is commonly associated with a disease.
 
 !!! example "Phenotypic feature"
 
-    "Phenotypic feature" is a commonly used term that refers to the same idea, but mostly in the context of disease to describe an observable characteristic commonly associated with a disease.
+    "Phenotypic feature" is a commonly used term that refers to the same idea as "phenotype", "clinical finding" and "phenotypic change", but mostly in the context of disease modelling to describe an observable characteristic commonly associated with a disease.
 
 !!! example "Phenotypic abnormality"
 
@@ -170,34 +188,21 @@ There is a bit of an assumption here, compared to the more general concepts desc
 
     "Phenotypic change" is a recent invention by [David Osumi-Sutherland](https://orcid.org/0000-0002-7073-9172) in an attempt to subsume the ideas above, in particular to explicitly step back from the concept of "deviation from normal" to "statistically significant deviation" (which includes the normal range).
 
-#### Examples
-
-The [Unified Phenotype Ontology (uPheno)](https://www.ebi.ac.uk/ols4/ontologies/upheno) is the reference ontology for biological abnormalities in the OBO world.
-There are a many species-specific ontologies in the OBO world, such as the Mammalian Phenotype Ontology (MP), the Human Phenotype Ontology (HPO) and the Drosophila Phenotype Ontology (DPO), see [here](../reference/components.md).
-
-| Property    | Example term | Definition |
-|-------------|-------------------|------------------------------------------------|
-| Length      | UPHENO:0072215    | Increased length of the digit.                |
-| Mass        | UPHENO:0054299    | Decreased multicellular organism mass.        |
-| Level       | UPHENO:0034327    | Decreased level of lysine in blood.           |
-| Morphology  | UPHENO:0001471    | Increased size of the heart.                  |
-
-
 <a id="disease"></a>
 
 ### Diseases
 
-Diseases are among the most important concepts in the phenotype data space. Phenotypes relate to diseases in a variety of ways (as phenotypic features of the disease).
+Diseases are among the most important concepts in the phenotype data space. Phenotypes relate to diseases in a variety of ways (e.g. as phenotypic features of the disease).
 One big source of confusion in our community is the seperation of "phenotypic features" or changes from diseases.
 The [HPO docs](https://obophenotype.github.io/human-phenotype-ontology/documentation/clinicians/) provide an explanation geared at clinicians to help them distinguish between the two.
 
 The quest on [developing an operational definition](https://github.com/monarch-initiative/mondo/issues/7359) is still ongoing, but for now, we recommend to go with the following basic assumptions:
 
 1. There is a difference between disease and phenotype.
-2. Phenotypes are features of diseases. Diseases can be associated with 1 or more phenotypic features. In the case of 1, we sometimes talk about "isolated X", for example "Isolated Growth Hormone Deficiency (IGHD)". IGHD is a condition where the pituitary gland produces insufficient growth hormone, leading to stunted growth.
+2. Phenotypes are features of diseases. Diseases can be associated with one or more phenotypic features. In the case of just one specific phenotype associated, we sometimes talk about "isolated X" as the disease, for example "Isolated Growth Hormone Deficiency (IGHD)". IGHD is a condition where the pituitary gland produces insufficient growth hormone, leading to stunted growth.
 3. Diseases, despite their grounding in biological reality, should be perceived mostly as social constructs that ([adjusted from HPO docs](https://obophenotype.github.io/human-phenotype-ontology/documentation/clinicians/)):
     - Are used to _capture a diagnosis_ (not just an observation - a _judgement_).
-    - Are associated with a _defined_ etiology (whether identified or as yet unknown, idiopathic). This is not about have _some cause_. This is about having a _specific_ cause, even if it is unknown.
+    - Are associated with a _defined_ etiology (whether identified or as yet unknown, i.e. idiopathic). This is not about have _some_ cause. This is about having a _specific_ cause, even if it is unknown.
     - Have a _defined_ time course (more or less well understood).
     - If treatments exist, there is a _characteristic response_ to them.
     The key point is that the above are _part of the disease definition_.
@@ -212,6 +217,7 @@ The quest on [developing an operational definition](https://github.com/monarch-i
 
 Just from the term itself this is often difficult.
 "Blood glucose level" can refer both a measurement and a trait when taken out of context, but the ontologies they appear in should differenciate cleanly between the two.
+
 Here are some ways to distinguish them:
 
 - traits are
@@ -223,7 +229,7 @@ Here are some ways to distinguish them:
     - correspond to measurement instruments / techniques (such as assays, BMIs)
 
 In practice, it is true that a lot of data records a wild mix of the two.
-It is the job of (semantic) data modeling specialists to clearly distinguish the two when integrating annotate data from sources with divergent curation practices.
+It is the job of (semantic) data modeling specialists to clearly distinguish the two when integrating annotated data from sources with divergent curation practices.
 
 ### Putting it all together
 
