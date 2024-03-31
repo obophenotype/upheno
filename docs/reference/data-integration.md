@@ -174,6 +174,10 @@ The advantage of such techniques is that they are not only deterministic (e.g. a
 unstructured sources where basic NLP techniques fail to yield any useful results.
 Note though that such methods lack the transparency of basic methods, which means they impose a higher burden on human reviewers in scenarios where accuracy is essential.
 
+!!! tip
+
+    For people working on named entity recognition there is a bit of a point to be made to try and extract not only the complete phenotype expression, but actually map the individual components, like characteristics and chemicals. If you do that, you can directly construct a pre-coordinated phenotype class compatible with the uPheno framework, even if no such class currently exists. Even if it does, it would easily be recognisable as an "inferred equivalent class".
+
 ### Level 2 integration: Knowledge
 
 The real magic with respect to computational phenotype data comes through the integration of knowledge.
@@ -189,16 +193,17 @@ In the following we discuss a few of the most common forms of knowledge.
 
 <a id="ontological"></a>
 
-_Core ontological relationships_ such as "is-a" or "part-of" are the most boring of all kinds of knowledge, but they already hold a lot of promise.
+_Core ontological relationships_ such as "is-a" or "part-of" are the most boring of all kinds of knowledge, but they have a huge potential for data analysis.
 For example, in Figure 1 above we can see that "Hypolysinemia" (a human phenotype) is a subclass of "decreased level of lysine in the blood" (a species independent class).
 
 This is already nice, but lets look at what we _really_ get when we employ uPheno in Figure 2:
 
-![Core concepts](../images/upheno_hierarchy.png)
+![uPheno Class Hierarchy](../images/upheno_hierarchy.png)
 
-!!! note "Figure 2: uPheno class hierarchy excerpt"
+!!! note "Figure 2: uPheno class hierarchy of Hypolysinemia."
 
-    _Characteristics_ (A) and _bearers_ of characteristics (B) are the core constituents of traits/biological attributes (C). _Phenotypes_ are comprised of trait terms (C) combined with a modifier (D). Species-specific phenotypes (F), including _phenotypic abnormalities_ defined in the Human Phenotype Ontology (HPO) are feature of diseases (G). Measurements (H), such as assays, quantify or qualify (measure) traits (C).
+    The class hierarchy of uPheno, rendered using OLS. The screenshot only
+    displays a fraction of the actual hierarchy, which is heavily poly-hierarchical.
 
 Here we can see just how deeply a concept like "Hypolysinemia" can be integrated:
 
@@ -213,9 +218,9 @@ Here we can see just how deeply a concept like "Hypolysinemia" can be integrated
 
     The exact naming conventions in uPheno are under review at the moment, so the reader may experience some discrepancies between Figure 2, the listing above, and the [ontology in Monarch's OLS](https://ols.monarchinitiative.org/ontologies/upheno2).
 
-Not everyone will agree that all of these groupings are particularly useful (`changed blood amino acid level` may not have that many realy world use cases), 
+Not everyone will agree that all of these groupings are particularly useful (`changed blood amino acid level` may not have that many realy world use cases),
 but the fact that we _can_ aggregate our data on so many levels is compelling.
-For example, we can aggregate all genes associated to phenotype from different species related to any change in the level of lysine in the blood.
+For example, we can aggregate all genes associated to phenotype from different species related to any change in the level of lysine in the blood (wheter increased, or decreased).
 
 <a id="phenorel"></a>
 
@@ -224,6 +229,7 @@ definitions of the uPheno and OBA ontology terms. A nice way to [query some of t
 
 ??? Ubergraph query
 
+    ```
     PREFIX dcterms: <http://purl.org/dc/terms/>
     PREFIX obo: <http://purl.obolibrary.org/obo/>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -249,14 +255,50 @@ definitions of the uPheno and OBA ontology terms. A nice way to [query some of t
     }
     
     } LIMIT 20
+    ```
 
 There are many relationships that can be directly extracted from uPheno, including:
 
-- has phenotype affecting: a relationship provided by the uPheno framework that links a phenotypic change to the bearer entity
+- has phenotype affecting: a relationship provided by the uPheno framework that links a phenotypic change to the bearer entity such as anatomy, chemical entities or biological processes.
 - has part: linking a trait or phenotype to another trait or phenotype it has as a constituent part
 - part of: linking a trait or phenotype to another trait or phenotype it is part of
 - in taxon: linking a trait or phenotype to the the specific taxon they are observed in
 - characteristic of: linking a trait to a bearer
-- characteristic of part of: linking a trait to the location in which the bearer is located (e.g. `blood` in the case of `blood lysine`)
+- characteristic of part of: linking a trait to both the bearer _and_ the location in which the bearer is located (e.g. `lysine` and `blood` in the case of `blood lysine`).
 - has modifier: linking a trait to a change modifier such as `abnormal` or `increased`
+- has phenotype: links a disease to a phenotype class. The phenotype is considered a feature of that disease.
 
+These kinds can already be a gold-mine for analysts.
+We can group phenotype data without actually having access to suitable phenotype groupings terms
+by simply querying for "all phenotypes that affect any part-of the cardiovascular system".
+
+Here is an example Ubergraph query to that end:
+
+??? Ubergraph query
+
+    ```
+    PREFIX dcterms: <http://purl.org/dc/terms/>
+    PREFIX obo: <http://purl.obolibrary.org/obo/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+    SELECT DISTINCT ?phenotype ?phenotype_label ?uberon_id ?uberon_label
+    WHERE {
+    # Look for all uPheno phenotypes
+    ?phenotype rdfs:subClassOf <http://purl.obolibrary.org/obo/UPHENO_0001001> .
+    ?phenotype rdfs:label ?phenotype_label .
+    
+    # That affect (UPHENO_0000001) an entity that is considered part of the "cardiovascular_system".
+    ?cardiovascular_system rdfs:subClassOf <http://purl.obolibrary.org/obo/UBERON_0004535> .
+    ?uberon_id <http://purl.obolibrary.org/obo/BFO_0000050> ?cardiovascular_system .
+    ?uberon_id rdfs:label ?uberon_label .
+    ?phenotype <http://purl.obolibrary.org/obo/UPHENO_0000001> ?uberon_id .
+    ?property rdfs:label ?property_label .
+    } LIMIT 100
+    ```
+
+The query looks for all uPheno phenotypes that affect (UPHENO:0000001) an entity that is considered part of the "cardiovascular_system".
+
+!!! info
+
+    This is cool. To say the least
