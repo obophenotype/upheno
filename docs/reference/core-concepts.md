@@ -90,7 +90,7 @@ In each example, the **"bearer"** is the entity that has, carries, or exhibits a
 
 <a id="change"></a>
 
-### Phenotypic change
+### Phenotypic change (aka phenotype)
 
 !!! example "Phenotypic change"
 
@@ -114,6 +114,8 @@ A directional modifier like `increased` (PATO:0040043) or `decreased` (PATO:0040
 The [Unified Phenotype Ontology (uPheno)](https://www.ebi.ac.uk/ols4/ontologies/upheno) is the reference ontology for describing phenotypic changes in the OBO world.
 There are a many species-specific ontologies developed across a wide range of research communities, such as the Mammalian Phenotype Ontology (MP), the Human Phenotype Ontology (HPO) and the Drosophila Phenotype Ontology (DPO), see [here](../reference/components.md).
 
+Some example terms from uPheno can be seen in the following table:
+
 | Property    | Example term | Definition |
 |-------------|-------------------|------------------------------------------------|
 | Length      | UPHENO:0072215    | Increased length of the digit.                |
@@ -136,7 +138,8 @@ In research settings such as GWAS study annotations, HPO terms are used to annot
 The same is true for many model phenotyping efforts such as [MGI](https://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml), where the situation is even further complicated that the comparator is not "the general population", but a control group. In summary, comparators can be:
 
 - The general population ("wild type" in a lot of biological research)
-- A non-representative sample of the general population (blood glucose values of all diabetes patients, a control group from the same mouse strain)
+- A non-representative sample of the general population (blood glucose values of all diabetes patients)
+- A control group of a specific mouse strain
 - A previous state of a study subject (e.g. [SNOMED](https://confluence.ihtsdotools.org/display/DOCEG/Clinical+Finding+and+Disorder)).
 
 The _compared charactertistics_ could describe:
@@ -144,8 +147,10 @@ The _compared charactertistics_ could describe:
 - A deviation from some notion of normality (abnormal), for example a measurement outside the normal range
 - A statistically significant change (which includes the above, but also statistically significant variation within the normal range)
 
-No matter how much we want it - concepts describing phenotypic change will be used in many creative ways, and unfortunately, once the data hits your data analysis pipeline, you will likely not know for sure the nature of the comparator.
-Where you can, you should try to figure it out from the metadata.
+!!! info
+
+    No matter how much we want it - concepts describing phenotypic change will be used in many creative ways, and unfortunately, once the data hits your data analysis pipeline, you will likely not know for sure the nature of the comparator.
+    Where you can, you should try to figure it out from the metadata.
 
 !!! tip
 
@@ -180,8 +185,7 @@ However, if one gets into the weeds, many discrepencies in judgement can be obse
 !!! example "Phenotypic abnormality"
 
     "Phenotypic abnormality" is the formal term to describe a concept in the HPO and other phenotype ontologies, and is used to refer to a phenotypic change outside the normal range.
-
-There is a bit of an assumption here, compared to the more general concepts described in this section, which is that the term should refer to a "deviation from the normal range", but, as described in the section of "implicit comparators", this assumption does not always hold in practice.
+    There is a bit of an assumption here, compared to the more general concepts described in this section, which is that the term should refer to a "deviation from the normal range", but, as described in the section of "implicit comparators", this assumption does not always hold in practice.
 
 !!! example "Phenotypic change"
 
