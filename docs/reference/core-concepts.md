@@ -1,8 +1,10 @@
-## Traits and phenotypes - the Conceptual model
+## Traits and phenotypes - the Conceptual model of the uPheno framework
 
 ### Overview
 
 Here, we discuss the core concepts of the computational phenotype model underpinning the uPheno effort.
+
+![uPheno model](../images/upheno_model.png)
 
 ### Table of contents
 
@@ -62,7 +64,7 @@ Some example terms from OBA:
 
 <a id="bearer"></a>
 
-### Bearer of Biological Characteristics
+### The Bearer (of Biological Characteristics)
 
 !!! example "Bearer"
 
@@ -83,9 +85,6 @@ Some examples:
 1. **Molecular Structure as a Bearer:** 
     - **Example:** A DNA molecule can be the bearer of the characteristic 'sequence length'.
     - **Explanation:** The length of the DNA sequence is a property of the DNA molecule itself, making the molecule the bearer of this characteristic.
-1. **Genetic Trait as a Bearer:**
-    - **Example:** A fruit fly (Drosophila melanogaster) can be the bearer of a genetic trait like eye color.
-    - **Explanation:** The organism (fruit fly) carries the genetic information that determines eye color, making it the bearer of this specific trait.
 
 In each example, the **"bearer"** is the entity that has, carries, or exhibits a particular biological characteristic. This concept is fundamental in biology and bioinformatics for linking specific traits, qualities, or features to the entities that possess them, thereby enabling a clearer understanding and categorization of biological diversity and functions.
 
