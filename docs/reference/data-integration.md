@@ -178,6 +178,19 @@ Note though that such methods lack the transparency of basic methods, which mean
 
     For people working on named entity recognition there is a bit of a point to be made to try and extract not only the complete phenotype expression, but actually map the individual components, like characteristics and chemicals. If you do that, you can directly construct a pre-coordinated phenotype class compatible with the uPheno framework, even if no such class currently exists. Even if it does, it would easily be recognisable as an "inferred equivalent class".
 
+#### Summary
+
+![uPheno integration](../images/phenotype-integration.png)
+
+!!! note "Figure: data integration with uPheno"
+
+    The Figure shows 4 different kinds of integration:
+
+    - A: Measurement data. A measurement in conjunction with a normal range and a mapping to a trait term is transformed to a Phenotypic abnormality term in HPO.
+    - B: Unstructured data. Free text, for example in a paper, is translated into pre-coordinated uPheno expressions
+    - C: Post-coordinated data. Mapped into uPheno expressions using design patterns.
+    - D: Related data. Mapped to phenotype terms using specific associations.
+
 ### Level 2 integration: Knowledge
 
 The real magic with respect to computational phenotype data comes through the integration of knowledge.
@@ -329,6 +342,15 @@ g2p's are essential for understanding the molecular basis of genetic diseases an
 All of these phenotype assocations can be augmented with many others, such as gene expression, protein-protein interaction and [GO-CAMs](https://geneontology.org/docs/gocam-overview/) and many more.
 
 ### Summary
+
+
+![uPheno Integration of Knowledge](../images/integration_links.png)
+
+!!! note "Figure: Integrating Knowledge in the uPheno framework."
+
+    This picture looks complicated, but it shows only a fraction of the available relationships.
+    Most of the relationships are phenotypic or core ontological, only the Hypolysinemia link to `SLC7A7` is an KG associations.
+    There are dozens of different kinds of assocations that could be added here!
 
 - We can integrate diverse phenotype data records by associating them with pre-coordinated trait and/or phenotype terms from the Unified Phenotype Ontology (uPheno).
 - There are a few different approaches we need to leverage to associate phenotype data with uPheno terms, including:
