@@ -11,11 +11,10 @@ The goals of this document are:
 
 - [Some examples of phenotype data](#examples)
 - [Different shapes of phenotype data](#shape)
-    - [Pre-coordinated](#precoordinated)
-    - [Post-coordinated](#postcoordinated)
     - [Standardised/non-standardized](#standardized)
     - [Quantitative/qualitative](#qual)
-
+    - [Pre-coordinated/post-coordinated](#precoordinated)
+  
 <a id="examples"></a>
 
 ### Some examples of phenotype data
@@ -45,8 +44,7 @@ Phenotype data comes in many different shapes and forms. In the following, we wi
 
 - [Standardised/non-standardized](#standardized)
 - [Quantitative/qualitative](#qual)
-- [Pre-coordinated](#precoordinated)
-- [Post-coordinated](#postcoordinated)
+- [Pre-coordinated/post-coordinated](#precoordinated)
 
 <a id="standardized"></a>
 
@@ -89,9 +87,11 @@ Qualitative data is descriptive and categorical, while quantitative data is nume
 
 <a id="precoordinated"></a>
 
-#### Pre-coordinated
+#### Pre-coordinated vs. post-coordinated
 
-Structured pre-coordinated phenotype data is data where the various [aspects of the phenotype term](../reference/core-concepts.md), such as the _bearer_ ("retinal blood vessels") and the _characteristic_ ("Attenuation", or "thinning/narrowing"), and the _modifier_ (in the case of HPO terms, simply _abnormal_), are combined ("coordinated") into a single term, e.g. [`HP:0007843`](https://www.ebi.ac.uk/ols4/ontologies/hp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0007843) "Attenuation of retinal blood vessels".
+![Spectrum of semantics](../images/pre_vs_post.svg)
+
+**Pre-coordinated** phenotype data is data where the various [aspects of the phenotype term](../reference/core-concepts.md), such as the _bearer_ ("retinal blood vessels") and the _characteristic_ ("Attenuation", or "thinning/narrowing"), and the _modifier_ (in the case of HPO terms, simply _abnormal_), are combined ("coordinated") into a single term, e.g. [`HP:0007843`](https://www.ebi.ac.uk/ols4/ontologies/hp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0007843) "Attenuation of retinal blood vessels".
 
 Pre-coordinated phenotype data is popular in the clinical domain, where a lot of observations are taken by a clinician and recorded as "phenotypic abnormalities" with the goal of eventual diagnosis. [Phenopackets](http://phenopackets.org/) such as the one below are an emerging standard to capture and sharing disease and phenotype information about patients. Phenotypic features are captured in phenopackets as pre-coordinated HPO terms.
 
@@ -99,11 +99,7 @@ Pre-coordinated phenotype data is popular in the clinical domain, where a lot of
 
 Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/). For example, the GWAS Catalog can be browsed by the pre-coordinated term ["cardiac hypertrophy" (enlarged heart)](https://www.ebi.ac.uk/gwas/efotraits/EFO_0002503) to find gene assocations with the phenotype.
 
-<a id="postcoordinated"></a>
-
-#### Post-coordinated
-
-Post-coordinated phenotype curation simply means that the different constituents of phenotype (characteristic, bearer, modifier etc) are captured individually.
+**Post-coordinated** phenotype curation simply means that the different constituents of phenotype (characteristic, bearer, modifier etc) are captured individually.
 This has certain advantages.
 For example, the phenotype space is _enormous_, as you can measure variations in many observable charactertics from chemical entities present in the blood, the microbiome to a host of morphological and developmental abnormalities. Instead of having individual (controlled vocabulary) terms for `increased level of X`, `decreased level X`, `abnormal level of X`, `increased level of X in blood` for thousands of chemical compounds synthesized by the human body, you just have "increased level", "blood" and all the chemical compounds, and capture them separately.
 
