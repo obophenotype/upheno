@@ -425,8 +425,8 @@ Here are some of the more "typical" kinds of data on the standardised/non-standa
 1. Free text in clinical notes and scientific publications
 1. Free text in specific database fields (for example a "height" column in a table about measurements of Giraffes)
 1. Controlled but non-standardised vocabulary like enums in a datamodel (for example the keyword "abnormal" in the [ZFIN example above](#charmodbear))
-1. Controlled standardised vocabulary (like all the examples on this page)
-1. Ontology terms (controlled vocabulary terms with well defined semantics - all the examples on this page)
+1. Controlled standardised vocabulary (e.g. SNOMED CT)
+1. Controlled vocabulary terms with well defined semantics (e.g. ontology terms from HP or MP)
 
 <!-- TODO JMCL: I would suggest we add examples to the list above -->
 
