@@ -82,8 +82,6 @@ Qualitative and quantitative phenotype data represent two fundamental ways of de
 - Analysis: It involves statistical analysis, such as calculating mean, median, standard deviation, and applying various statistical tests. It allows for a more objective and replicable assessment.
 - Interpretation: Quantitative data provides a more concrete and measurable understanding of traits, making comparisons and statistical testing more straightforward.
 
-Qualitative data is descriptive and categorical, while quantitative data is numerical and measurable. Both types are essential for a comprehensive understanding of phenotypic traits, each offering unique insights into biological variation and complexity.
-
 
 <a id="precoordinated"></a>
 
