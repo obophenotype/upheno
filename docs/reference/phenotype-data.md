@@ -97,7 +97,7 @@ Pre-coordinated phenotype data is popular in the clinical domain, where a lot of
 
 ![Phenopacket](../images/phenopacket.png)
 
-Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/). For example, the GWAS Catalog can be browsed by the pre-coordinated term ["cardiac hypertrophy" (enlarged heart)](https://www.ebi.ac.uk/gwas/efotraits/EFO_0002503) to find gene assocations with the phenotype.
+Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/). For example, IMPC can be searched using the pre-coordinated term ["enlarged heart"](https://www.mousephenotype.org/data/phenotypes/MP:0000274) to find knockout mice with this phenotype, and similarly the GWAS Catalog can be browsed by the pre-coordinated term ["cardiac hypertrophy"](https://www.ebi.ac.uk/gwas/efotraits/EFO_0002503) to find gene assocations with the phenotype from GWAS studies.
 
 **Post-coordinated** phenotype curation simply means that the different constituents of phenotype (characteristic, bearer, modifier etc) are captured individually.
 This has certain advantages.
