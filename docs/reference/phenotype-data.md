@@ -43,10 +43,46 @@ is to convince how prevalent and diverse phenotype data is across the biomedical
 
 Phenotype data comes in many different shapes and forms. In the following, we will describe some of the most common features of such data:
 
-- [Pre-coordinated](#precoordinated)
-- [Post-coordinated](#postcoordinated)
 - [Standardised/non-standardized](#standardized)
 - [Quantitative/qualitative](#qual)
+- [Pre-coordinated](#precoordinated)
+- [Post-coordinated](#postcoordinated)
+
+<a id="standardized"></a>
+
+#### Standardised/non-standardized
+
+Phenotype data can be standardised to varying degrees. It is not uncommon for data to be completely unstandardised.
+Unfortunately, only a fraction of the available data is actually annotated using terms from controlled phenotype ontologies.
+Here are some of the more "typical" kinds of data on the standardised/non-standardised spectrum:
+
+1. Free text in clinical notes and scientific publications
+1. Free text in specific database fields (for example a "height" column in a table about measurements of Giraffes)
+1. Controlled but non-standardised vocabulary like enums in a datamodel (for example the keyword "abnormal" in the [ZFIN example above](#charmodbear))
+1. Controlled standardised vocabulary (e.g. SNOMED CT)
+1. Controlled vocabulary terms with well defined semantics (e.g. ontology terms from HP or MP)
+
+<!-- TODO JMCL: I would suggest we add examples to the list above -->
+
+<a id="qual"></a>
+
+#### Quantitative/qualitative
+
+Qualitative and quantitative phenotype data represent two fundamental ways of describing characteristics or traits in biology, each providing different types of information:
+
+**Qualitative Phenotype Data** describes qualities or characteristics that are observed but not measured with numbers. It often involves categorical or descriptive information.
+- Examples: The presence or absence of a specific physical trait (like eye color or wing shape in animals) or types of behavior (aggressive vs. passive).
+- Analysis: Qualitative data is analyzed by categorization and identification of patterns or variations. It is more about the 'type' or 'kind' of trait rather than its 'amount'.
+- Interpretation: Since it's descriptive, this data relies on subjective interpretation and classification.
+
+**Quantitative Phenotype Data** is numerical and quantifies traits. It involves measurements of characteristics, often allowing for more precise and objective analysis.
+
+- Examples: Height, weight, blood pressure, cholesterol levels, or the number of fruit produced by a plant. Quantitative traits can often be measured on a continuous scale, for example height of 35 cm, weight of 67 KG or blood pressure of 120/80.
+- Analysis: It involves statistical analysis, such as calculating mean, median, standard deviation, and applying various statistical tests. It allows for a more objective and replicable assessment.
+- Interpretation: Quantitative data provides a more concrete and measurable understanding of traits, making comparisons and statistical testing more straightforward.
+
+Qualitative data is descriptive and categorical, while quantitative data is numerical and measurable. Both types are essential for a comprehensive understanding of phenotypic traits, each offering unique insights into biological variation and complexity.
+
 
 <a id="precoordinated"></a>
 
@@ -413,38 +449,3 @@ As one can see in the last example, bearers can be anything from simple atomic e
 - "lysine in heart muscle cells" (`lysine` part_of `cell` part_of (`muscle` part of `heart`))
 - "lysine in the cytoplasm of heart muscle cells" (`lysine` part_of (`cytoplasm` part_of (`cell` part_of (`muscle` part of `heart`))))
 - etc, etc
-
-<a id="standardized"></a>
-
-#### Standardised/non-standardized
-
-Phenotype data can be standardised to varying degrees. It is not uncommon for data to be completely unstandardised.
-Unfortunately, only a fraction of the available data is actually annotated using terms from controlled phenotype ontologies.
-Here are some of the more "typical" kinds of data on the standardised/non-standardised spectrum:
-
-1. Free text in clinical notes and scientific publications
-1. Free text in specific database fields (for example a "height" column in a table about measurements of Giraffes)
-1. Controlled but non-standardised vocabulary like enums in a datamodel (for example the keyword "abnormal" in the [ZFIN example above](#charmodbear))
-1. Controlled standardised vocabulary (e.g. SNOMED CT)
-1. Controlled vocabulary terms with well defined semantics (e.g. ontology terms from HP or MP)
-
-<!-- TODO JMCL: I would suggest we add examples to the list above -->
-
-<a id="qual"></a>
-
-#### Quantitative/qualitative
-
-Qualitative and quantitative phenotype data represent two fundamental ways of describing characteristics or traits in biology, each providing different types of information:
-
-**Qualitative Phenotype Data** describes qualities or characteristics that are observed but not measured with numbers. It often involves categorical or descriptive information.
-- Examples: The presence or absence of a specific physical trait (like eye color or wing shape in animals) or types of behavior (aggressive vs. passive).
-- Analysis: Qualitative data is analyzed by categorization and identification of patterns or variations. It is more about the 'type' or 'kind' of trait rather than its 'amount'.
-- Interpretation: Since it's descriptive, this data relies on subjective interpretation and classification.
-
-**Quantitative Phenotype Data** is numerical and quantifies traits. It involves measurements of characteristics, often allowing for more precise and objective analysis.
-
-- Examples: Height, weight, blood pressure, cholesterol levels, or the number of fruit produced by a plant. Quantitative traits can often be measured on a continuous scale, for example height of 35 cm, weight of 67 KG or blood pressure of 120/80.
-- Analysis: It involves statistical analysis, such as calculating mean, median, standard deviation, and applying various statistical tests. It allows for a more objective and replicable assessment.
-- Interpretation: Quantitative data provides a more concrete and measurable understanding of traits, making comparisons and statistical testing more straightforward.
-
-Qualitative data is descriptive and categorical, while quantitative data is numerical and measurable. Both types are essential for a comprehensive understanding of phenotypic traits, each offering unique insights into biological variation and complexity.
