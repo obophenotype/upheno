@@ -97,7 +97,7 @@ Pre-coordinated phenotype data is popular in the clinical domain, where a lot of
 
 ![Phenopacket](../images/phenopacket.png)
 
-Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/).
+Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/). For example, the GWAS Catalog can be browsed by the pre-coordinated term ["cardiac hypertrophy" (enlarged heart)](https://www.ebi.ac.uk/gwas/efotraits/EFO_0002503) to find gene assocations with the phenotype.
 
 <a id="postcoordinated"></a>
 
