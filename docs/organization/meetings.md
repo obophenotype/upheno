@@ -7,10 +7,10 @@ Meetings:
 
 | Meeting | Timeslot | Meeting coordinators |
 | ------- | -------- | -------------------- |
-| Phenotype editors call | Friday 8am PT, ev. 4 weeks | Sue Bello (@sbello), Ray Stefancsik (@rays22) |
-| Phenotype outreach call | Friday 8am PT, ev. 4 weeks | James McLaughlin (@jamesamcl), Arwa Ibrahim (@ar-ibrahim) |
+| Phenotype editors call ([minutes](https://docs.google.com/document/d/1WrQanAMuccS-oaoAIb9yWQAd4Rvy3R3mU01v9wHbriM/edit)) | Friday 8am PT, ev. 4 weeks | Sue Bello (@sbello), Ray Stefancsik (@rays22) |
+| Phenotype outreach call ([events](../organization/outreach.md), [minutes](https://docs.google.com/document/d/1FK_kv9s1s6xMLI-xHlJfPH4YGm85a8VylsqA3f2hRks/edit)) | Friday 8am PT, ev. 4 weeks | James McLaughlin (@jamesamcl), Arwa Ibrahim (@ar-ibrahim) |
 | HP-MP harmonisation calls | Thursday 9am PT, ev. 4 weeks | Ray Stefancsik (@rays22), Sue Bello (@sbello) |
-| OBA editors call | Friday 6:15am PT, Monthly on the third Friday | Ray Stefancsik (@rays22), Arwa Ibrahim (@ar-ibrahim) |
+| OBA editors call ([minutes](https://docs.google.com/document/d/17UOyoi_XkJTGZoctK44UtmjAlMsjzE1Cl1UhrFpPRmw/edit)) | Friday 6:15am PT, Monthly on the third Friday | Ray Stefancsik (@rays22), Arwa Ibrahim (@ar-ibrahim) |
 
 ## Meeting preparation instructions
 
