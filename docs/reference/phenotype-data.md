@@ -59,11 +59,11 @@ Phenotype data can be standardised to varying degrees. It is not uncommon for da
 Unfortunately, only a fraction of the available data is actually annotated using terms from controlled phenotype ontologies.
 Here are some of the more "typical" kinds of data on the standardised/non-standardised spectrum:
 
-1. Free text in clinical notes and scientific publications
-1. Free text in specific database fields (for example a "height" column in a table about measurements of Giraffes)
-1. Controlled but non-standardised vocabulary like enums in a datamodel (for example the keyword "abnormal" in the [ZFIN example above](#charmodbear))
-1. Controlled standardised vocabulary (e.g. SNOMED CT)
-1. Controlled vocabulary terms with well defined semantics (e.g. ontology terms from HP or MP)
+1. **Free text** in clinical notes and scientific publications. For example, the paper ["Rare genetic variants impact muscle strength" (Huang et al.)](https://www.nature.com/articles/s41467-023-39247-1) mentions phenotypic traits including muscle strength, hand grip strength, body size, body weight, BMI, and whole-body muscle mass.
+1. **Free text in specific database fields** (for example a "height" column in a table about measurements of Giraffes)
+1. **Controlled but non-standardised vocabulary** like enums in a datamodel (for example the keyword "abnormal" in the [ZFIN example above](#charmodbear))
+1. **Controlled standardised vocabulary** (e.g. SNOMED CT)
+1. **Controlled vocabulary terms with well defined semantics** (e.g. ontology terms from HP or MP)
 
 <!-- TODO JMCL: I would suggest we add examples to the list above -->
 
