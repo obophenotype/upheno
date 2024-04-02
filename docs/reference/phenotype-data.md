@@ -52,6 +52,9 @@ Phenotype data comes in many different shapes and forms. In the following, we wi
 
 #### Standardised/non-standardized
 
+![Spectrum of semantics](../images/semantics.svg)
+
+
 Phenotype data can be standardised to varying degrees. It is not uncommon for data to be completely unstandardised.
 Unfortunately, only a fraction of the available data is actually annotated using terms from controlled phenotype ontologies.
 Here are some of the more "typical" kinds of data on the standardised/non-standardised spectrum:
