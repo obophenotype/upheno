@@ -93,12 +93,9 @@ Qualitative data is descriptive and categorical, while quantitative data is nume
 
 Structured pre-coordinated phenotype data is data where the various [aspects of the phenotype term](../reference/core-concepts.md), such as the _bearer_ ("retinal blood vessels") and the _characteristic_ ("Attenuation", or "thinning/narrowing"), and the _modifier_ (in the case of HPO terms, simply _abnormal_), are combined ("coordinated") into a single term, e.g. [`HP:0007843`](https://www.ebi.ac.uk/ols4/ontologies/hp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0007843) "Attenuation of retinal blood vessels".
 
-Pre-coordinated phenotype data is popular in the clinical domain, where a lot of observations are taken by a clinician and recorded as "phenotypic abnormalities" with the goal of eventual diagnosis.
+Pre-coordinated phenotype data is popular in the clinical domain, where a lot of observations are taken by a clinician and recorded as "phenotypic abnormalities" with the goal of eventual diagnosis. [Phenopackets](http://phenopackets.org/) such as the one below are an emerging standard to capture and sharing disease and phenotype information about patients. Phenotypic features are captured in phenopackets as pre-coordinated HPO terms.
 
-[Phenopackets](http://phenopackets.org/) such as the one below are an emerging standard to capture and sharing disease and phenotype information about patients.
-Phenotypic features are captured in phenopackets as pre-coordinated HPO terms.
-
-![Spectrum of semantics](../images/phenopacket.png)
+![Phenopacket](../images/phenopacket.png)
 
 Apart from clinical diagnostics, pre-coordinated phenotype terms are used in many other contexts such as model organism research (e.g. [IMPC](https://www.mousephenotype.org/)) or the curation of [Genome Wide Association Studies](https://www.ebi.ac.uk/gwas/).
 
