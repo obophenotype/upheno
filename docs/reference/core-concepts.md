@@ -111,7 +111,7 @@ This modifier signifies that the phenotypic change term describes a deviation th
 Other modifiers include `normal` (PATO:0000461), which describes a change within in the normal range (sometimes, unfortunately, interpreted as "no change").
 A directional modifier like `increased` (PATO:0040043) or `decreased` (PATO:0040042). In practice, most of our "characteristic" terms have specialised directional variants such as `decreased amount` (PATO:0001997) which can be used to describe phenotypes.
 
-The [Unified Phenotype Ontology (uPheno)](https://www.ebi.ac.uk/ols4/ontologies/upheno) is the reference ontology for describing phenotypic changes in the OBO world.
+The [Unified Phenotype Ontology (uPheno)](https://ols.monarchinitiative.org/ontologies/upheno2) is the reference ontology for describing phenotypic changes in the OBO world.
 There are a many species-specific ontologies developed across a wide range of research communities, such as the Mammalian Phenotype Ontology (MP), the Human Phenotype Ontology (HPO) and the Drosophila Phenotype Ontology (DPO), see [here](../reference/components.md).
 
 Some example terms from uPheno can be seen in the following table:
