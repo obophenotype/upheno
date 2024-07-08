@@ -182,9 +182,9 @@ Note though that such methods lack the transparency of basic methods, which mean
 
 ![uPheno integration](../images/phenotype-integration.png)
 
-!!! note "Figure: data integration with uPheno"
+!!! note "Figure 3: data integration with uPheno"
 
-    The Figure shows 4 different kinds of integration:
+    Figure 3 shows 4 different kinds of integration:
 
     - A: Measurement data. A measurement in conjunction with a normal range and a mapping to a trait term is transformed to a Phenotypic abnormality term in HPO.
     - B: Unstructured data. Free text, for example in a paper, is translated into pre-coordinated uPheno expressions
@@ -210,11 +210,11 @@ In the following we discuss a few of the most common forms of knowledge.
 _Core ontological relationships_ such as "is-a" or "part-of" are the most boring of all kinds of knowledge, but they have a huge potential for data analysis.
 For example, in Figure 1 above we can see that "Hypolysinemia" (a human phenotype) is a subclass of "decreased level of lysine in the blood" (a species independent class).
 
-This is already nice, but lets look at what we _really_ get when we employ uPheno in Figure 2:
+This is already nice, but lets look at what we _really_ get when we employ uPheno in Figure 4:
 
 ![uPheno Class Hierarchy](../images/upheno_hierarchy.png)
 
-!!! note "Figure 2: uPheno class hierarchy of Hypolysinemia."
+!!! note "Figure 4: uPheno class hierarchy of Hypolysinemia."
 
     The class hierarchy of uPheno, rendered using OLS. The screenshot only
     displays a fraction of the actual hierarchy, which is heavily poly-hierarchical.
@@ -230,7 +230,7 @@ Here we can see just how deeply a concept like "Hypolysinemia" can be integrated
 
 !!! warning
 
-    The exact naming conventions in uPheno are under review at the moment, so the reader may experience some discrepancies between Figure 2, the listing above, and the [ontology in Monarch's OLS](https://ols.monarchinitiative.org/ontologies/upheno2).
+    The exact naming conventions in uPheno are under review at the moment, so the reader may experience some discrepancies between Figure 4, the listing above, and the [ontology in Monarch's OLS](https://ols.monarchinitiative.org/ontologies/upheno2).
 
 Not everyone will agree that all of these groupings are particularly useful (`changed blood amino acid level` may not have that many realy world use cases),
 but the fact that we _can_ aggregate our data on so many levels is compelling.
@@ -346,9 +346,9 @@ All of these phenotype assocations can be augmented with many others, such as ge
 
 ![uPheno Integration of Knowledge](../images/integration_links.png)
 
-!!! note "Figure: Integrating Knowledge in the uPheno framework."
+!!! note "Figure 5: Integrating Knowledge in the uPheno framework."
 
-    This picture looks complicated, but it shows only a fraction of the available relationships.
+    Figure 5 looks complicated, but it shows only a fraction of the available relationships.
     Most of the relationships are phenotypic or core ontological, only the Hypolysinemia link to `SLC7A7` is an KG associations.
     There are dozens of different kinds of assocations that could be added here!
 
