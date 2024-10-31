@@ -34,7 +34,7 @@ annotations:
      - anatomical_entity
 
 def:
-  text: "A partial or complete breakage of the %s."
+  text: "A partial or complete fracture of the %s."
   vars:
     - anatomical_entity
 
