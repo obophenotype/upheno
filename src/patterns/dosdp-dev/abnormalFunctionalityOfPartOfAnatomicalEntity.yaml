@@ -27,7 +27,7 @@ name:
    - anatomical_entity
 
 def:
-  text: "Any functional anomaly of the %s."
+  text: "Any functional anomaly of the %s or one of its parts."
   vars:
     - anatomical_entity
 
