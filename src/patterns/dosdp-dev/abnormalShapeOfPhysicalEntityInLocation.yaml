@@ -49,5 +49,5 @@ equivalentTo:
   text: "'has_part' some ('shape' and (''characteristic_of'' some (%s and (''part_of''
     some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-  - entity
-  - location
+    - entity
+    - location
