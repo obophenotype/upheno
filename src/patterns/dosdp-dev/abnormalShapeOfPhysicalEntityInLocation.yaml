@@ -33,11 +33,11 @@ name:
     - location
 
 annotations:
-- annotationProperty: exact_synonym
-  text: "abnormally shaped %s in %s"
-  vars:
-  - entity
-  - location
+  - annotationProperty: exact_synonym
+    text: "abnormally shaped %s in %s"
+    vars:
+      - entity
+      - location
 
 def:
   text: "Any structural anomaly in the shape of the %s located in %s."
