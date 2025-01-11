@@ -29,8 +29,8 @@ vars:
 name:
   text: "abnormal shape of %s in %s"
   vars:
-  - entity
-  - location
+    - entity
+    - location
 
 annotations:
 - annotationProperty: exact_synonym
