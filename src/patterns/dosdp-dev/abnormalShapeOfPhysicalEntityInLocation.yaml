@@ -4,9 +4,9 @@ pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfP
 description: "abnormal shape of an anatomical entity or a measurement of a process, such as an ECG wave, in a location"
 
 contributors:
-- https://orcid.org/0000-0002-3528-5267
-- https://orcid.org/0000-0001-5208-3432
-- https://orcid.org/0000-0003-4148-4606
+  - https://orcid.org/0000-0002-3528-5267  # Sofia Robb
+  - https://orcid.org/0000-0001-5208-3432  # Nicole Vasilevsky
+  - https://orcid.org/0000-0003-4148-4606  # Midori A. Harris
 
 classes:
   shape: PATO:0000052
