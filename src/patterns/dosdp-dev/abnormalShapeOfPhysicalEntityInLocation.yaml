@@ -42,8 +42,8 @@ annotations:
 def:
   text: "Any structural anomaly in the shape of the %s located in %s."
   vars:
-  - entity
-  - location
+    - entity
+    - location
 
 equivalentTo:
   text: "'has_part' some ('shape' and (''inheres_in'' some (%s and (''part_of''
