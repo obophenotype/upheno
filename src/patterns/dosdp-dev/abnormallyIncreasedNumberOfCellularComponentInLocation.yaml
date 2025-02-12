@@ -1,0 +1,51 @@
+pattern_name: abnormallyIncreasedNumberOfCellularComponentInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfCellularComponentInLocation.yaml
+description: "An abnormally increased number of a cellular component, such as mitochondria, in an anatomical entity/location."
+
+contributors:
+  - https://orcid.org/0000-0001-5208-3432
+  - https://orcid.org/0000-0002-7356-1779
+  - https://orcid.org/0000-0002-9611-1279
+
+classes:
+  increased amount: PATO:0000470
+  abnormal: PATO:0000460
+  cellular component: GO:0005575
+
+relations: 
+  inheres_in: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  occurs_in: BFO:0000066
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  cellular_component: "'cellular component'"
+  location: "'independent continuant'"
+
+name:
+  text: "increased number of %s in %s"
+  vars:
+   - cellular_component
+   - location
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "extra %s in %s"
+    vars:
+     - cellular_component
+     - location
+     
+def:
+  text: "The presence of an increased number of %s in %s."
+  vars:
+    - cellular_component
+    - location
+
+equivalentTo:
+  text: "'has_part' some ('increased amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - cellular_component
+    - location
