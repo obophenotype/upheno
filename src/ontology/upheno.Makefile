@@ -84,3 +84,144 @@ generated_pattern.owl: generated_pattern.tsv
 	$(DOSDPT) generate --infile=$< --template=$(PATTERN_TEMPLATE) --ontology=../patterns/pattern.owl --obo-prefixes=true --outfile=$@
 
 gp: generated_pattern.owl
+
+
+###############################
+### UPHENO 2 Pipeline #########
+###############################
+
+NO_NETWORK=false
+
+PHENOTYPE_ONTOLOGIES=mp hp #wbphenotype xpo dpo planp zp ddpheno fypo phipo mgpo apop
+ANATOMY_ONTOLOGIES=XAO WBbt WBls FBbt ZFA ZFS
+
+ANATOMY_ONTOLOGY_MAPPING_FILES = $(foreach n,$(ANATOMY_ONTOLOGIES), $(TMPDIR)/anatomy-mapping-uberon-$(n).sssom.tsv)
+
+PHENOTYPE_ONTOLOGY_BASE_FILES = $(foreach n,$(PHENOTYPE_ONTOLOGIES), $(TMPDIR)/phenotype-base-$(n).owl)
+PHENOTYPE_ONTOLOGY_MODIFIED_BASE_FILES = $(foreach n,$(PHENOTYPE_ONTOLOGIES), $(TMPDIR)/phenotype-modified-$(n).owl)
+PHENOTYPE_ONTOLOGY_UPHENO_MODULE_FILES = $(foreach n,$(PHENOTYPE_ONTOLOGIES), $(TMPDIR)/phenotype-module-$(n).owl)
+
+
+.PHONY: sync-all-phenotype-ontologies
+sync-all-phenotype-ontologies: 
+	$(MAKE_FAST) $(PHENOTYPE_ONTOLOGY_BASE_FILES) $(PHENOTYPE_ONTOLOGY_UPHENO_MODULE_FILES) $(PHENOTYPE_ONTOLOGY_MODIFIED_BASE_FILES)
+
+# Needed only for the construction of the intermedite layer. We: 
+# 1. Download the base module
+# 2. Rewire the base modules anatomy references with Uberon
+$(TMPDIR)/phenotype-base-%.owl:
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(NO_NETWORK) = false ]; then curl -L $(OBOBASE)/%/%-base.owl --create-dirs -o $@ --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $@ -f ofn -o $@.tmp.ofn &&\
+		mv $@.tmp.ofn $@; fi
+
+$(TMPDIR)/anatomy-mapping-uberon.tsv: #mirror/uberon.owl
+	runoak -i sqlite:obo:uberon mappings -O sssom > $@
+
+#$(TMPDIR)/anatomy-mapping-uberon-FBbt.sssom.tsv:
+#	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(NO_NETWORK) = false ]; then wget http://purl.obolibrary.org/obo/fbbt/fbbt-mappings.sssom.tsv -O $@; fi
+
+$(TMPDIR)/anatomy-mapping-uberon-%.sssom.tsv: $(TMPDIR)/anatomy-mapping-uberon.tsv
+	grep -v '^#' $< | head -1 > $@
+	grep -E "UBERON[:].*hasDbXref.*$*:" $< >> $@
+	sssom parse $@ --prefix-map-mode merged --metadata config/sssom-metadata.yaml --output $@
+.PRECIOUS: $(TMPDIR)/anatomy-mapping-uberon-%.sssom.tsv
+
+$(TMPDIR)/anatomy-mapping-uberon-%-rename.tsv: $(TMPDIR)/anatomy-mapping-uberon-%.sssom.tsv
+	upheno-utils sssom-to-two-column --input $< --output $@ --flip true
+	#grep -v '^#' $< | cut -f 1,4 | awk ' { t = $$1; $$1 = $$2; $$2 = t; print; } ' | awk -v OFS="\t" '$$1=$$1' > $@
+.PRECIOUS: $(TMPDIR)/anatomy-mapping-uberon-%-rename.tsv
+
+$(TMPDIR)/anatomy-mapping-uberon.sssom.tsv: $(ANATOMY_ONTOLOGY_MAPPING_FILES)
+	sssom merge $^ --reconcile false --output $@
+	upheno-utils sssom-change-predicate --input $@ --output $@ --predicate owl:equivalentClass
+
+$(TMPDIR)/phenotype-modified-%.owl: $(TMPDIR)/phenotype-base-%.owl
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(NO_NETWORK) = false ]; then $(ROBOT) merge -i $< -o $@.tmp.ofn &&\
+		mv $@.tmp.ofn $@; fi
+
+# The phenotype module is a special version of the phenotype ontologies that does not have EQs, but instead all of their relationships "relaxed".
+# This protects the ontologies here against mutual classification (i.e HP under MP)
+$(TMPDIR)/phenotype-module-%.owl:
+	if [ $(MIR) = true ] && [ $(IMP) = true ] && [ $(NO_NETWORK) = false ]; then curl -L $(OBOBASE)/%/%-upheno.owl --create-dirs -o $@ --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $@ -o $@.tmp.ofn &&\
+		mv $@.tmp.ofn $@; fi
+
+###### Custom Bridge file ######
+
+# This goal extracts a special bridge file based on the UBERON bridges which wires species-specific classes that do not
+# have a Uberon counterpart using a subClassOf statement
+$(IMPORTDIR)/%-uberon_import.owl: $(MIRRORDIR)/%.owl $(TMPDIR)/phenotype-base-%.owl $(MIRRORDIR)/uberon.owl
+	if [ $(IMP) = true ] && [ $(NO_NETWORK) = false ]; then $(ROBOT) merge $(patsubst %, -i %, $^) \
+		reason \
+		reduce \
+		filter --select "$(shell echo $* | tr a-z A-Z):" --axioms subclass --trim false \
+		convert -f ofn -o $@; fi
+
+# This goal extracts a special bridge file based on the CL bridges which wires species-specific classes that do not
+# have a Uberon counterpart using a subClassOf statement
+$(IMPORTDIR)/%-cl_import.owl: $(MIRRORDIR)/%.owl $(TMPDIR)/phenotype-base-%.owl $(MIRRORDIR)/cl.owl
+	if [ $(IMP) = true ] && [ $(NO_NETWORK) = false ]; then $(ROBOT) merge $(patsubst %, -i %, $^) \
+		reason \
+		reduce \
+		filter --select "$(shell echo $* | tr a-z A-Z):" --axioms subclass --trim false \
+		convert -f ofn -o $@; fi
+
+#####################################
+##### Pattern matching pipelines ####
+#####################################
+
+MATCHESDIR=pattern_matches
+
+$(TMPDIR)/upheno-matching.owl: $(PHENOTYPE_ONTOLOGY_MODIFIED_BASE_FILES) mirror/merged.owl
+	$(ROBOT) merge $(patsubst %, -i %, $^) reason -o $@
+
+$(TMPDIR)/original-matching.owl: $(PHENOTYPE_ONTOLOGY_BASE_FILES) mirror/merged.owl
+	$(ROBOT) merge $(patsubst %, -i %, $^) reason -o $@
+
+../patterns/data/derived_dont_edit/README.md:
+	python $(SCRIPTDIR)/upheno_prepare.py \
+		--pattern-data-directory ../patterns/data/derived_dont_edit
+		--report $@
+
+# After some re-design this step is currently not doing anything, but it may still be useful to keep it for future use
+# especially if we need to re-introduce the OWL:Thing rewiring
+$(TMPDIR)/dosdp-patterns-for-matching/README.md: $(ALL_PATTERN_FILES)
+	mkdir -p $(TMPDIR)/dosdp-patterns-for-matching/
+	sh run.sh python ../scripts/upheno.py upheno_utils preprocess_patterns_for_matching -d ../patterns/dosdp-patterns -p $(TMPDIR)/dosdp-patterns-for-matching/ -m false -r $@
+
+# This is matching DOSDP PATTERNS in all species specific phenotype ontologies AFTER THEY HAVE BEEN PREPROCESSED for uPheno.
+$(MATCHESDIR)/upheno/README.md: $(TMPDIR)/upheno-matching.owl $(TMPDIR)/dosdp-patterns-for-matching/README.md
+	$(eval MATCH_PATTERN_NAMES=$(strip $(patsubst %.yaml,%, $(notdir $(wildcard $(TMPDIR)/dosdp-patterns-for-matching/*.yaml)))))
+	if [ $(PAT) = true ]; then $(DOSDPT) query --ontology=$< --catalog=catalog-v001.xml --reasoner=elk --obo-prefixes=true \
+   --batch-patterns="$(MATCH_PATTERN_NAMES)" --template="$(TMPDIR)/dosdp-patterns-for-matching/" --outfile="$(MATCHESDIR)/upheno/"; fi
+
+# This is matching DOSDP PATTERNS in all species specific phenotype ontologies without any preprocessing.
+$(MATCHESDIR)/original/README.md: $(TMPDIR)/original-matching.owl $(TMPDIR)/dosdp-patterns-for-matching/README.md
+	$(eval MATCH_PATTERN_NAMES=$(strip $(patsubst %.yaml,%, $(notdir $(wildcard $(TMPDIR)/dosdp-patterns-for-matching/*.yaml)))))
+	if [ $(PAT) = true ]; then $(DOSDPT) query --ontology=$< --catalog=catalog-v001.xml --reasoner=elk --obo-prefixes=true \
+    --batch-patterns="$(MATCH_PATTERN_NAMES)" --template="$(TMPDIR)/dosdp-patterns-for-matching/" --outfile="$(MATCHESDIR)/original/"; fi
+
+.PHONY: phenotype--original-ontology-matches
+phenotype-original-ontology-matches:
+	echo "Running the DOSDP matching pipeline for all phenotype ontologies with original phenotype ontologies"
+	$(MAKE) $(MATCHESDIR)/original/README.md
+
+.PHONY: phenotype-ontology-matches
+phenotype-ontology-matches:
+	echo "Running the DOSDP matching pipeline for all phenotype ontologies with uPheno preprocessing"
+	$(MAKE) $(MATCHESDIR)/upheno/README.md
+
+##################################
+##### Utilities ###################
+##################################
+
+# $$data: This prints the help message from imported makefiles.
+.PHONY: help
+help:
+	@echo "$$data"
+	@echo "----------------------------------------"
+	@echo "	Command reference: mondo-ingest"
+	@echo "----------------------------------------"
+	@echo "phenotype-ontology-matches: recreates all phenotype ontology matches"
+	@echo "phenotype-original-ontology-matches: recreates all phenotype ontology matches with original ontologie"
+	@echo "sync-all-phenotype-ontologies: downloads new version of all species specific phenotype ontologies"
