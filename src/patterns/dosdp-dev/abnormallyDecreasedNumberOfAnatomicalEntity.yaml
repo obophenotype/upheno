@@ -38,7 +38,14 @@ def:
   vars:
     - anatomical_entity
 
-equivalentTo:
-  text: "'has_part' some ('decreased amount' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
-  vars:
-    - anatomical_entity
+logical_axioms: 
+   -  
+      axiom_type: EquivalentTo
+      text: has_part some ('has fewer parts of type' and (inheres_in some 'multicellular organism') and ('towards' value %s)
+      vars:
+        - anatomical_entity
+  -  
+      axiom_type: EquivalentTo
+      text: has_part some 'has fewer parts of type' and (inheres_in some multicellular organism') and ('towards' some %s)
+      vars:
+        - anatomical_entity
