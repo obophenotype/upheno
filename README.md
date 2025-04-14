@@ -1,4 +1,4 @@
-![Build Status](https://github.com/obophenotype/upheno/workflows/CI/badge.svg)
+![Build Status](https://github.com/obophenotype/upheno/workflows/CI/badge.svg) [<img src="https://img.shields.io/badge/DOI-10.1093/genetics/iyaf027-blue" />](https://doi.org/10.1093/genetics/iyaf027)
 
 <img src="https://raw.githubusercontent.com/jmcmurry/closed-illustrations/master/logos/upheno-logos/upheno-logo_black-banner.svg?sanitize=true" width="400px"/>
 
@@ -7,6 +7,7 @@ The persistent URL (PURL) for uPheno is: `http://purl.obolibrary.org/obo/upheno.
 Quick links:
 
 - [Documentation](https://obophenotype.github.io/upheno/)
+- [Publication in Genetics (2025)](https://doi.org/10.1093/genetics/iyaf027)
 - [Core concepts on Phenotype Data](https://obophenotype.github.io/upheno/reference/core-concepts/)
 - [Phenotype reconciliation effort](https://obophenotype.github.io/upheno/reference/reconciliation-effort/)
 - [Phenotype data in practice](https://obophenotype.github.io/upheno/reference/phenotype-data/)
