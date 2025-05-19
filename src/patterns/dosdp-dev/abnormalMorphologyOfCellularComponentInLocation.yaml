@@ -1,0 +1,53 @@
+pattern_name: abnormalMorphologyOfCellularComponentInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfCellularComponent.yaml
+description: "An abnormality in the morphology of a cellular component in a specific type of cell or tissue, like an abnormal morphology of mitochondria in spermatozoa."
+
+contributors:
+  - 
+  
+classes:
+  morphology: PATO:0000051
+  abnormal: PATO:0000460
+  cellular component: GO:0005575
+  independent continuant: BFO:0000004
+
+relations: 
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  cellular_component: "'cellular component'"
+  location: "'independent continuant'"
+
+name:
+  text: "abnormal morphology of %s in %s "
+  vars:
+   - cellular_component
+   - location
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "abnormal %s %s morphology"
+    vars:
+     - location
+     - cellular_component
+   
+
+def:
+  text: "Any structural anomaly of the %s located in the %s."
+  vars:
+    - cellular_component
+    - location
+
+
+equivalentTo:
+  text: "'has_part' some ('morphology' and ('characteristic_of' some %s and ('part_of' some %s) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - cellular_component
+    - location
+
