@@ -99,7 +99,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntityInLocation.yaml">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfAnatomicalEntity.yaml"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absence of the &apos;anatomical entity&apos; in the &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalAbsenceOfAnatomicalEntityInLocation</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Missing &apos;anatomical entity&apos; in the &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
@@ -1303,7 +1303,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfAnatomicalEntityInLocation.yaml">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfAnatomicalEntity.yaml"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of a reduced number of &apos;anatomical entity&apos; in the &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyDecreasedNumberOfAnatomicalEntityInLocation</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reduced number of &apos;anatomical entity&apos; in the &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
@@ -1950,7 +1950,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfAnatomicalEntityInLocation.yaml">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfAnatomicalEntity.yaml"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of an increased number of &apos;anatomical entity&apos; in the &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormallyIncreasedNumberOfAnatomicalEntityInLocation</terms:title>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extra &apos;anatomical entity&apos; in the &apos;independent continuant&apos;</oboInOwl:hasExactSynonym>
@@ -3107,9 +3107,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml -->
+    <!-- http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntity.yaml"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly that causes there to be an abnormal number &apos;anatomical entity&apos; in &apos;independent continuant&apos;.</obo:IAO_0000115>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abnormalNumberOfAnatomicalEntityInLocation</terms:title>
