@@ -531,4 +531,4 @@ pattern_ontology: ../patterns/pattern-simple.owl
 pattern_readmes: ../patterns/dosdp-patterns/README.md
 
 .PHONY: upheno_test
-upheno_test: $(TMPDIR)/pattern_schema_checks_dev ../patterns/pattern-simple.owl
+test: $(TMPDIR)/pattern_schema_checks_dev ../patterns/pattern-simple.owl

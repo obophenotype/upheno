@@ -6,21 +6,26 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
+
 Ontology(<http://purl.obolibrary.org/obo/upheno.owl>
-Import(<http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-mappings.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl>)
-Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-bridge.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-axiom-injections.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-bridge.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-mappings.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-special-inference-rules.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl>)
-
+Import(<http://purl.obolibrary.org/obo/upheno/imports/merged_import.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl>)
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 Annotation(dcterms:description "The Unified Phenotype Ontology (uPheno) is an ontology that integrates other species-specific phenotype ontologies.")
-Annotation(dcterms:title "Unified Phenotype Ontology (uPheno)")
 Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
+Annotation(dcterms:title "Unified Phenotype Ontology (uPheno)")
+
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
+Declaration(AnnotationProperty(dcterms:title))
+
 
 )
