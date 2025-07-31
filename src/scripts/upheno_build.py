@@ -8,7 +8,7 @@ import re
 from typing import List
 from lib import (
     uPhenoConfig,
-    download_patterns as dl_patterns,
+    copy_patterns as cp_patterns,
     compute_upheno_stats,
     create_upheno_sssom,
     export_merged_tsvs_for_combination,
@@ -157,16 +157,16 @@ def create_species_independent_sssom_mappings(upheno_id_map, patterns_dir, match
     create_upheno_sssom(upheno_id_map, patterns_dir, matches_dir, anatomy_mappings, obsolete_file_tsv, output_file_tsv, output_file_owl)
 
 
-# Subcommand: validate_mappings
+# Subcommand: copy_patterns
 @upheno.command()
 @click.option('--upheno-config', help='uPheno config file')
+@click.option('--source-directory', help='Pattern directory from which to copy patterns.')
 @click.option('--pattern-directory', help='Pattern directory to download to.')
-def download_patterns(upheno_config, pattern_directory):
-    """Validate the mappings"""
-    logger.debug(f'Download uPheno Patterns to {pattern_directory}.')
-    click.echo('Download uPheno Patterns...')
+def copy_patterns(upheno_config, source_directory, pattern_directory):
+    """Copy the patterns from the source directory to the pattern directory."""
+    click.echo('Copy uPheno Patterns...')
     config = uPhenoConfig(upheno_config)
-    dl_patterns(upheno_pattern_repos=config.get_pattern_repos(),
+    cp_patterns(source_dir=source_directory,
                 pattern_dir=pattern_directory, upheno_config=config)
 
 
