@@ -13,7 +13,7 @@ contributors:
 - https://orcid.org/0000-0002-7356-1779
 - https://orcid.org/0000-0001-5208-3432
 def:
-  text: Formed/malformed %s.
+  text: A malformed %s.
   vars:
   - anatomical_entity
 description: ''
@@ -23,7 +23,7 @@ equivalentTo:
   vars:
   - anatomical_entity
 name:
-  text: formed %s
+  text: malformed %s
   vars:
   - anatomical_entity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/malformedAnatomicalEntity.yaml
