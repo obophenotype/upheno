@@ -1,0 +1,27 @@
+prefix IAO: <http://purl.obolibrary.org/obo/IAO_>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
+prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT distinct ?subject_id ?subject_label ?predicate_id ?object_id ?object_label ?match_type
+
+WHERE 
+{
+  ?subject_id a owl:Class;
+          rdfs:label ?subject_label;
+          rdfs:subClassOf+ <http://purl.obolibrary.org/obo/UPHENO_0001001> ;
+          rdfs:subClassOf+ [
+               owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
+               owl:someValuesFrom ?object_id ] .
+  
+  ?object_id a owl:Class;
+          rdfs:label ?object_label;
+          rdfs:subClassOf+ <http://purl.obolibrary.org/obo/OBA_0000001> .
+
+ FILTER( !isBlank(?subject_id))
+ FILTER( !isBlank(?object_id))
+ BIND(<http://purl.obolibrary.org/obo/UPHENO_phenotypeToTrait> as ?predicate_id)
+ BIND("Logical" as ?match_type)
+}

@@ -1,0 +1,14 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?cls rdfs:label ?lab . }
+
+WHERE {
+	?cls a owl:Class .
+	?cls rdfs:label ?lab
+	FILTER(isIRI(?cls) && (regex(str(?cls), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/].*PHENOTYPE")))
+}
+ORDER BY ?cls
