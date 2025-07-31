@@ -350,7 +350,6 @@ upheno_profiles:
     - apo
 pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-dev
-  - obophenotype/upheno/contents/src/patterns/dosdp-patterns
 exclude_patterns:
   - abnormalMorphologyOfAnatomicalEntity.yaml
   - abnormalAnatomicalEntityNotParts.yaml
