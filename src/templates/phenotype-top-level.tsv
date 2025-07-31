@@ -1,0 +1,38 @@
+upheno_child	upheno_child_label	upheno_parent	upheno_parent_label	subset
+ID		SC %		AI oboInOwl:inSubset
+UPHENO:0002635	integument phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0002642	genitourinary system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0002816	musculature phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0002830	limb phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0002833	digestive system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0002903	ear phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0002948	immune system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0002964	skeletal system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0003013	breast phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0003055	reproductive system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0003116	endocrine system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0003405	liver phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0004459	hematopoietic system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0004507	cardiovascular system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0004523	nervous system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0004536	respiratory system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0049622	behavior phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0049874	growth phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0049904	homeostatic process phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0050008	pigmentation phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0075866	thoracic cavity phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0075901	vocal organ phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0076797	adipose tissue morphology	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0086172	cell phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:3000000	craniofacial/craniocervical phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:3000001	embryonic development/birth phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:3000002	mortality/aging phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:3000003	neoplasm phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:3000004	renal/urinary system phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:3000006	taste/olfaction phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:3000007	vision/eye phenotype	UPHENO:0001001	phenotype	http://purl.obolibrary.org/obo/upheno#top_level
+UPHENO:0050177	renal system phenotype	UPHENO:3000004	renal/urinary system phenotype	
+UPHENO:0001002	phenotypic effect	UPHENO:0001001	phenotype	
+UPHENO:0078688	abnormal sensory perception of taste	UPHENO:3000006	taste/olfaction phenotype	
+UPHENO:0078689	abnormal sensory perception of smell	UPHENO:3000006	taste/olfaction phenotype	
+UPHENO:0087427	renal system morphology phenotype	UPHENO:3000004	renal/urinary system phenotype	
