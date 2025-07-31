@@ -17,7 +17,6 @@ from lib import (
     prepare_upheno_ontology_no_taxon_restictions,
     prepare_phenotype_ontologies_for_matching,
     download_sources,
-    download_patterns,
     uPhenoConfig,
 )
 
@@ -64,11 +63,6 @@ if upheno_config.is_clean_dir():
     os.makedirs(stats_dir)
     #shutil.rmtree(pattern_dir)
     #os.makedirs(pattern_dir)
-
-print("### Download patterns ###")
-#download_patterns(upheno_config.get_pattern_repos(), pattern_dir, upheno_config)
-print("DOWNLOADING PATTERNS HAPPENS OUTSIDE OF THE SCRIPT")
-
 
 print("### Download sources ###")
 print("ROBOT args: " + os.environ["ROBOT_JAVA_ARGS"])

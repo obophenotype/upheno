@@ -1649,8 +1649,10 @@ def prepare_species_specific_phenotype_ontologies(upheno_config, module_dir, mat
 def postprocess_modified_patterns(upheno_config, pattern_files, matches_dir: str):
     patterns = []
     delete_files = []
-    delete_files.extend(pattern_files)
-    print(f"HELLO1: {delete_files}")
+    # Originally, we wanted to delete the modified patterns, but this is not necessary anymore
+    # because we want to keep them in git for reference. We do not copy the modified patterns
+    # to the final generation directory, so they are not used in the final ontology.
+    #delete_files.extend(pattern_files)
 
     for pattern_path in pattern_files:
         pid = os.path.basename(pattern_path).replace(".yaml", "")
@@ -1677,7 +1679,6 @@ def postprocess_modified_patterns(upheno_config, pattern_files, matches_dir: str
             delete_files.append(modified_tsv_path)
 
     # Delete the modified tsv files and their corresponding patterns:
-    print(f"HELLO: {delete_files}")
     for file_path in delete_files:
         print(file_path)
         if os.path.exists(file_path):

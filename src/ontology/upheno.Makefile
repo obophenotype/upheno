@@ -217,7 +217,7 @@ upheno-base-with-bridge.owl: upheno-base.owl $(COMPONENTSDIR)/upheno-bridge.owl
 
 upheno:
 	####### Step 0: Housekeeping ########
-	$(MAKE) download_patterns -B
+	$(MAKE) prepare_patterns_for_matching -B
 
 	####### Step 1: download sources and match patterns ########
 	$(MAKE) upheno_prepare -B
@@ -355,31 +355,37 @@ add_upheno_ids_to_fillers:
 		--output-directory ../patterns/data/automatic \
 		--tmp-directory ../curation/tmp
 
-merge_modified_patterns:
+# After we run the matching pipeline, we use this to merge the modified pattern matches into
+# the unmodified pattern variants.
+prepare_dosdp_data_for_generation:
 	python3 ../scripts/upheno_build.py postprocess-modified-patterns \
 		--upheno-config ../curation/upheno-config.yaml \
 		--patterns-directory ../curation/patterns-for-matching \
 		--fillers-directory ../curation/upheno-fillers
 
-download_patterns:
-	python3 ../scripts/upheno_build.py download-patterns \
-		--upheno-config upheno-odk.yaml \
+prepare_patterns_for_matching:
+	rm -rf ../curation/patterns-for-matching/*.yaml
+	python3 ../scripts/upheno_build.py copy-patterns \
+		--upheno-config ../curation/upheno-config.yaml \
+		--source-directory ../patterns/dosdp-dev \
 		--pattern-directory ../curation/patterns-for-matching
 
-preprocess_dosdp_patterns:
+prepare_changed_patterns:
+	rm -rf ../curation/changed-patterns/*.yaml
 	python3 ../scripts/upheno_build.py preprocess-dosdp-patterns \
 		--patterns-directory ../curation/patterns-for-matching/ \
 		--processed-patterns-directory ../curation/changed-patterns/
 
-update_dosdp_patterns_for_generation:
+prepare_dosdp_patterns_for_generation:
 	rm -rf ../patterns/dosdp-patterns/*.yaml
 	cp ../curation/changed-patterns/*.yaml ../patterns/dosdp-patterns/
+	rm -rf ../patterns/dosdp-patterns/*-modified.yaml
 	cp ../patterns/dosdp-patterns-curated/*.yaml ../patterns/dosdp-patterns/
 
 full_patterns_pipeline:
-	#$(MAKE) download_patterns -B
-	$(MAKE) preprocess_dosdp_patterns -B
-	$(MAKE) update_dosdp_patterns_for_generation -B
+	$(MAKE) prepare_patterns_for_matching -B
+	$(MAKE) prepare_changed_patterns -B
+	$(MAKE) prepare_dosdp_patterns_for_generation -B
 
 FILE_TO_OBSOLETE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=368192736&single=true&output=tsv"
 
@@ -487,11 +493,8 @@ $(TMPDIR)/pattern_schema_checks_main: $(ALL_PATTERN_FILES) | $(TMPDIR)
 ../patterns/pattern-dev.owl: $(TMPDIR)/pattern_schema_checks_dev
 	$(DOSDPT) prototype --obo-prefixes true --template=../patterns/dosdp-dev --outfile=$@
 
-../patterns/pattern-main.owl: $(TMPDIR)/pattern_schema_checks_main
-	$(DOSDPT) prototype --obo-prefixes true --template=../patterns/dosdp-patterns --outfile=$@
-
-../patterns/pattern-merged.owl: ../patterns/pattern-dev.owl ../patterns/pattern-main.owl
-	$(ROBOT) merge -i ../patterns/pattern-dev.owl -i ../patterns/pattern-main.owl annotate -V $(ONTBASE)/releases/`date +%Y-%m-%d`/$(ONT)-pattern.owl annotate --ontology-iri $(ONTBASE)/$(ONT)-pattern.owl -o $@
+../patterns/pattern-merged.owl: ../patterns/pattern-dev.owl 
+	$(ROBOT) merge -i ../patterns/pattern-dev.owl annotate -V $(ONTBASE)/releases/`date +%Y-%m-%d`/$(ONT)-pattern.owl annotate --ontology-iri $(ONTBASE)/$(ONT)-pattern.owl -o $@
 
 ../patterns/imports/seed.txt: ../patterns/pattern-merged.owl
 	$(ROBOT) query -f csv -i $< --query ../sparql/terms.sparql $@
@@ -528,4 +531,4 @@ pattern_ontology: ../patterns/pattern-simple.owl
 pattern_readmes: ../patterns/dosdp-patterns/README.md
 
 .PHONY: upheno_test
-upheno_test: $(TMPDIR)/pattern_schema_checks_main $(TMPDIR)/pattern_schema_checks_dev ../patterns/pattern-simple.owl
+upheno_test: $(TMPDIR)/pattern_schema_checks_dev ../patterns/pattern-simple.owl
