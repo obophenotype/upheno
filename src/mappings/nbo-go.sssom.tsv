@@ -1,0 +1,63 @@
+# curie_map:
+#   NBO: http://purl.obolibrary.org/obo/NBO_
+#   GO: http://purl.obolibrary.org/obo/GO_
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/vocab/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://w3id.org/sssom/license/unspecified
+# mapping_set_id: https://data.monarchinitiative.org/mappings/upheno/nbo-go.sssom.tsv
+subject_id	subject_label	object_id	object_label	predicate_id	mapping_justification
+NBO:0000008	rhythmic behavior	GO:0007622	rhythmic behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000010	reproductive behavior	GO:0019098	reproductive behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000011	social behavior	GO:0035176	social behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000013	locomotory behavior	GO:0007626	locomotory behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000014	mating behavior	GO:0007617	mating behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000015	aggressive behavior	GO:0002118	aggressive behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000027	grooming behavior	GO:0007625	grooming behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000037	vocalization behavior	GO:0071625	vocalization behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000044	parental behavior	GO:0060746	parental behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000054	suckling behavior	GO:0001967	suckling behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000056	walking behavior	GO:0090659	walking behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000060	copulation	GO:0007620	copulation	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000063	regulation of eating behavior	GO:1903998	regulation of eating behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000077	courtship behavior	GO:0007619	courtship behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000079	feeding behavior	GO:0007631	feeding behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000084	circadian behavior	GO:0048512	circadian behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000100	exploration behavior	GO:0035640	exploration behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000150	maternal behavior	GO:0042711	maternal behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000151	paternal behavior	GO:0042712	paternal behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000166	circadian rhythm	GO:0007623	circadian rhythm	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000174	motor learning	GO:0061743	motor learning	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000176	vocal learning	GO:0042297	vocal learning	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000178	habituation	GO:0046959	habituation	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000179	sensitization	GO:0046960	sensitization	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000180	short-term memory	GO:0007614	short-term memory	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000181	long-term memory	GO:0007616	long-term memory	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000211	conditioned taste aversion	GO:0001661	conditioned taste aversion	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000215	observational learning	GO:0098597	observational learning	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000302	maternal aggressive behavior	GO:0002125	maternal aggressive behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000314	visual behavior	GO:0007632	visual behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000315	optokinetic behavior	GO:0007634	optokinetic behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000316	auditory behavior	GO:0031223	auditory behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000322	chemosensory behavior	GO:0007635	chemosensory behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000323	olfactory behavior	GO:0042048	olfactory behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000326	thermosensory behavior	GO:0040040	thermosensory behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000367	flight behavior	GO:0007629	flight behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000374	kinesis	GO:0042465	kinesis	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000375	taxis	GO:0042330	taxis	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000381	thigmotaxis	GO:0001966	thigmotaxis	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000382	energy taxis	GO:0009453	energy taxis	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000384	thermotaxis	GO:0043052	thermotaxis	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000536	circadian regulation of heart rate	GO:0003053	circadian regulation of heart rate	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000537	circadian regulation of systemic arterial blood pressure	GO:0003052	circadian regulation of systemic arterial blood pressure	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000538	circadian temperature homeostasis	GO:0060086	circadian temperature homeostasis	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000575	pilomotor reflex	GO:0097195	pilomotor reflex	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000578	righting reflex	GO:0060013	righting reflex	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000618	crying behavior	GO:0060273	crying behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000633	territorial aggressive behavior	GO:0002124	territorial aggressive behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000634	irritable aggressive behavior	GO:0002123	irritable aggressive behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000637	male courtship behavior	GO:0008049	male courtship behavior	skos:exactMatch	semapv:ManualMappingCuration
+NBO:0000638	female courtship behavior	GO:0008050	female courtship behavior	skos:exactMatch	semapv:ManualMappingCuration

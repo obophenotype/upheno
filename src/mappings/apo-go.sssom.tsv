@@ -1,0 +1,87 @@
+subject_id	subject_label	predicate_id	object_id	object_label	comment
+APO:0000102	respiratory metabolism	skos:exactMatch	GO:0045333	cellular respiration	
+APO:0000101	fermentative metabolism	skos:broadMatch	GO:0006113	fermentation	
+APO:0000022	protein activity	skos:narrowMatch	GO:0003824	catalytic activity	
+APO:0000024	budding	skos:exactMatch	GO:0007114	cell budding	
+APO:0000027	filamentous growth	skos:exactMatch	GO:0030447	filamentous growth	
+APO:0000028	invasive growth	skos:exactMatch	GO:0036267	invasive filamentous growth	
+APO:0000029	pseudohyphal growth	skos:exactMatch	GO:0007124	pseudohyphal growth	
+APO:0000032	mating response	skos:broadMatch	GO:0019236	response to pheromone	
+APO:0000033	cell fusion	skos:exactMatch	GO:0140253	cell-cell fusion	
+APO:0000035	nuclear fusion during mating	skos:exactMatch	GO:0048288	nuclear membrane fusion involved in karyogamy	
+APO:0000036	pheromone production	skos:exactMatch	GO:0042811	pheromone biosynthetic process	
+APO:0000037	pheromone sensitivity	skos:broadMatch	GO:0019236	response to pheromone	
+APO:0000038	shmoo formation	skos:exactMatch	GO:0031382	mating projection formation	
+APO:0000039	meiosis	skos:exactMatch	GO:0051321	meiotic cell cycle	
+APO:0000040	meiotic recombination	skos:exactMatch	GO:0007131	reciprocal meiotic recombination	
+APO:0000041	sporulation	skos:exactMatch	GO:0043934	sporulation	
+APO:0000042	spore germination	skos:exactMatch	GO:0009847	spore germination	
+APO:0000043	spore wall formation	skos:exactMatch	GO:0042244	spore wall assembly	
+APO:0000046	silencing	skos:exactMatch	GO:0031507	heterochromatin formation	
+APO:0000047	transposable element transposition	skos:exactMatch	GO:0006313	DNA transposition	
+APO:0000065	flocculation	skos:exactMatch	GO:0000128	flocculation	
+APO:0000071	cytokinesis	skos:exactMatch	GO:0000910	cytokinesis	
+APO:0000072	mitotic cell cycle	skos:exactMatch	GO:0000278	mitotic cell cycle	
+APO:0000073	intracellular transport	skos:exactMatch	GO:0046907	intracellular transport	
+APO:0000074	autophagy	skos:exactMatch	GO:0006914	autophagy	
+APO:0000075	endocytosis	skos:exactMatch	GO:0006897	endocytosis	
+APO:0000076	mitochondrial transport	skos:exactMatch	GO:0006839	mitochondrial transport	
+APO:0000077	nuclear transport	skos:exactMatch	GO:0051169	nuclear transport	
+APO:0000078	protein secretion	skos:exactMatch	GO:0009306	protein secretion	
+APO:0000079	vacuolar transport	skos:exactMatch	GO:0007034	vacuolar transport	
+APO:0000096	nutrient utilization	skos:exactMatch	GO:0031667	response to nutrient levels	
+APO:0000098	utilization of carbon source	skos:exactMatch	GO:0015976	carbon utilization	
+APO:0000099	utilization of nitrogen source	skos:exactMatch	GO:0019740	nitrogen utilization	
+APO:0000100	nutrient uptake	skos:broadMatch	GO:0098739	import across plasma membrane	
+APO:0000105	mitochondrial genome maintenance	skos:exactMatch	GO:0000002	mitochondrial genome maintenance	
+APO:0000123	recovery from pheromone-induced cell cycle arrest	skos:exactMatch	GO:0000321	re-entry into mitotic cell cycle after pheromone arrest	
+APO:0000124	pheromone-induced cell cycle arrest	skos:exactMatch	GO:0000751	mitotic cell cycle G1 arrest in response to pheromone	
+APO:0000125	utilization of phosphorus source	skos:exactMatch	GO:0006794	phosphorus utilization	
+APO:0000126	nuclear import	skos:exactMatch	GO:0051170	import into nucleus	
+APO:0000127	nuclear export	skos:exactMatch	GO:0051168	nuclear export	
+APO:0000128	peroxisomal transport	skos:exactMatch	GO:0043574	peroxisomal transport	
+APO:0000129	protein transport	skos:exactMatch	GO:0006886	intracellular protein transport	
+APO:0000130	small molecule transport	skos:broadMatch	GO:0006810	transport	
+APO:0000131	protein/peptide modification	skos:exactMatch	GO:0036211	protein modification process	
+APO:0000132	RNA localization	skos:exactMatch	GO:0006403	RNA localization	
+APO:0000143	chromosome/plasmid maintenance	skos:relatedMatch	GO:0051276	chromosome organization	
+APO:0000145	oxidative phosphorylation	skos:exactMatch	GO:0006119	oxidative phosphorylation	
+APO:0000155	apoptosis	skos:exactMatch	GO:0006915	apoptotic process	
+APO:0000157	utilization of iron source	skos:broadMatch	GO:0031667	response to nutrient levels	
+APO:0000159	biofilm formation	skos:exactMatch	GO:0042710	biofilm formation	
+APO:0000196	mating type switching	skos:exactMatch	GO:0007533	mating type switching	
+APO:0000208	chromosome segregation	skos:exactMatch	GO:0007059	chromosome segregation	
+APO:0000219	utilization of sulfur source	skos:exactMatch	GO:0006791	sulfur utilization	
+APO:0000220	necrotic cell death	skos:exactMatch	GO:0097300	programmed necrotic cell death	
+APO:0000221	septum formation	skos:exactMatch	GO:0000921	septin ring assembly	
+APO:0000222	chemical compound excretion	skos:broadMatch	GO:0007588	excretion	
+APO:0000225	mitotic recombination	skos:exactMatch	GO:0006312	mitotic recombination	
+APO:0000239	pexophagy	skos:exactMatch	GO:0000425	pexophagy	
+APO:0000240	mitophagy	skos:exactMatch	GO:0000423	mitophagy	
+APO:0000253	cell cycle progression	skos:exactMatch	GO:0007049	cell cycle	
+APO:0000254	cell cycle progression in G2 phase	skos:exactMatch	GO:0000085	mitotic G2 phase	
+APO:0000255	cell cycle progression in G1 phase	skos:exactMatch	GO:0000080	mitotic G1 phase	
+APO:0000256	cell cycle passage through START	skos:exactMatch	GO:0007089	traversing start control point of mitotic cell cycle	
+APO:0000257	cell cycle progression through the G2/M phase transition	skos:exactMatch	GO:0000086	G2/M transition of mitotic cell cycle	
+APO:0000258	cell cycle progression in M phase	skos:exactMatch	GO:0000087	mitotic M phase	
+APO:0000259	cell cycle passage through the metaphaseanaphase transition	skos:exactMatch	GO:0007091	metaphase/anaphase transition of mitotic cell cycle	
+APO:0000260	cell cycle progression in anaphase	skos:exactMatch	GO:0000090	mitotic anaphase	
+APO:0000262	cell cycle progression in mid anaphase	skos:exactMatch	GO:0000091	mitotic anaphase A	
+APO:0000263	cell cycle progression in late anaphase	skos:exactMatch	GO:0000092	mitotic anaphase B	
+APO:0000264	cell cycle progression in metaphase	skos:exactMatch	GO:0000089	mitotic metaphase	
+APO:0000265	cell cycle progression in telophase	skos:exactMatch	GO:0000093	mitotic telophase	
+APO:0000266	cell cycle progression in S phase	skos:exactMatch	GO:0000084	mitotic S phase	
+APO:0000267	entry into G0 (stationary phase)	skos:exactMatch	GO:0070314	G1 to G0 transition	
+APO:0000268	exit from G0 (stationary phase)	skos:exactMatch	GO:0045023	G0 to G1 transition	
+APO:0000269	cell cycle progression through the G1/S phase transition	skos:exactMatch	GO:0044843	cell cycle G1/S phase transition	
+APO:0000271	RNA modification	skos:exactMatch	GO:0009451	RNA modification	
+APO:0000275	prion inheritance	skos:broadMatch	GO:0008150	biological_process	
+APO:0000276	prion formation	skos:broadMatch	GO:0008150	biological_process	
+APO:0000277	prion loss	skos:broadMatch	GO:0008150	biological_process	
+APO:0000288	adhesion	skos:exactMatch	GO:0007155	cell adhesion	
+APO:0000312	cell death	skos:exactMatch	GO:0008219	cell death	
+APO:0000338	micronucleophagy	skos:broadMatch	GO:0044804	nucleophagy	
+APO:0000339	ribophagy	skos:exactMatch	GO:0034517	ribophagy	
+APO:0000340	reticulophagy	skos:exactMatch	GO:0061709	reticulophagy	
+APO:0000341	nucleophagy	skos:exactMatch	GO:0044804	nucleophagy	
+APO:0000342	late nucleophagy	skos:broadMatch	GO:0044804	nucleophagy	
