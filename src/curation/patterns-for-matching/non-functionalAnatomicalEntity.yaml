@@ -3,10 +3,7 @@ pattern_name: non-functionalAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/non-functionalAnatomicalEntity.yaml
 
-description: 'Use this phenotype pattern when an anatomical entity is unable or
-  completely fails to perform its regular function or functions. In cases of
-  decreased functionality of the anatomical entity, consider the phenotype
-  pattern "abnormallyDecreasedFunctionalityOfAnatomicalEntity.yaml".'
+description: 'Use this phenotype pattern when an anatomical entity is unable or completely fails to perform its regular function or functions. In cases of decreased functionality of the anatomical entity, consider the phenotype pattern "abnormallyDecreasedFunctionalityOfAnatomicalEntity.yaml".'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/ZP_0003641  # heart non-functional, abnormal
@@ -16,10 +13,10 @@ description: 'Use this phenotype pattern when an anatomical entity is unable or
 #    - http://purl.obolibrary.org/obo/MP_0003326  # liver failure
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
-  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
-  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
-  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+- https://orcid.org/0000-0001-8314-2140    # Ray Stefancsik
+- https://orcid.org/0000-0002-7356-1779    # Nicolas Matentzoglu
+- https://orcid.org/0000-0003-4606-0597    # Susan Bello
+- https://orcid.org/0000-0002-6490-7723    # Anna V. Anagnostopoulos
 
 classes:
   non-functional: PATO:0001511
@@ -40,26 +37,20 @@ vars:
 name:
   text: "non-functional %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "%s failure"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "%s failure"
+  vars:
+  - anatomical_entity
 
 def:
-  text: "Inability or failure of %s to perform its regular function or
-    functions."
+  text: "Inability or failure of %s to perform its regular function or functions."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some (
-    'non-functional' and
-    ('characteristic_of' some %s) and
-    ('has_modifier' some 'abnormal')
-    )"
+  text: "'has_part' some ( 'non-functional' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal') )"
   vars:
-    - anatomical_entity
-...
+  - anatomical_entity

@@ -1,9 +1,10 @@
+---
 pattern_name: bifurcatedAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/bifurcatedAnatomicalEntityInLocation.yaml
 description: "Abnormal branching of an anatomical entity into two branches in a particular location, e.g. bifurcated blood vessel in a limb."
 
 contributors:
-  - https://orcid.org/0000-0002-9611-1279
+- https://orcid.org/0000-0002-9611-1279
 
 classes:
   bifurcated: PATO:0001784

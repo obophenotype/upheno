@@ -1,10 +1,11 @@
+---
 pattern_name: malformedAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/malformedAnatomicalEntityInLocation.yaml
-description : "Congenital malformation of an anatomical entity in a location, such as 'malformed anterior chamber in the eye'."
+description: "Congenital malformation of an anatomical entity in a location, such as 'malformed anterior chamber in the eye'."
 
 contributors:
-  - https://orcid.org/0000-0002-7356-1779
-  - https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0001-5208-3432
 
 classes:
   abnormal: PATO:0000460
@@ -29,24 +30,24 @@ vars:
 name:
   text: "abnormally formed %s in %s"
   vars:
-   - anatomical_entity
-   - location
+  - anatomical_entity
+  - location
 
 def:
   text: "An abnormally formed/malformed %s in %s."
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "malformed %s in %s"
-    vars:
-     - anatomical_entity
-     - location
+- annotationProperty: exact_synonym
+  text: "malformed %s in %s"
+  vars:
+  - anatomical_entity
+  - location
 
 equivalentTo:
   text: "'has_part' some ('malformed' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location

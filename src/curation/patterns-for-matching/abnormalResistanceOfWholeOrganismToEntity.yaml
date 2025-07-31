@@ -1,12 +1,13 @@
+---
 pattern_name: abnormalResistanceOfWholeOrganismToEntity.yaml
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalResistanceOfWholeOrganismToEntity.yaml
 description: "A phenotype in which an organism shows a changed resistance to a something, for example a chemical or a process, and it is unknown unspecified whether the resistance appears increased or decreased."
 
 contributors:
-  - https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0002-7356-1779
 
 classes:
-  resistance to: PATO:0001178 
+  resistance to: PATO:0001178
   abnormal: PATO:0000460
   cellular organism: UBERON:0000468
   entity: BFO:0000001
@@ -26,20 +27,20 @@ vars:
 name:
   text: "abnormally changed resistance of organism to %s"
   vars:
-    - entity
+  - entity
 
 annotations:
 - annotationProperty: exact_synonym
   text: "abnormally changed  sensitivity of organism to %s"
   vars:
-    - entity
+  - entity
 
 def:
   text: "abnormally changed resistance of organism to %s."
   vars:
-    - entity
+  - entity
 
 equivalentTo:
   text: "'has_part' some ('resistance to' and ('inheres_in' some 'cellular organism') and ('towards' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - entity
+  - entity

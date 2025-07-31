@@ -1,9 +1,10 @@
+---
 pattern_name: lysedAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/lysedAnatomicalEntity.yaml
 description: "expansive cellular membrane destruction in anatomical entity."
 
 contributors:
-  - https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0002-3528-5267
 
 classes:
   abnormal: PATO:0000460

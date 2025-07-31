@@ -1,3 +1,4 @@
+---
 pattern_name: abnormallyDilatedAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDilatedAnatomicalEntity.yaml
@@ -10,9 +11,9 @@ description: 'An abnormally dilated anatomical entity, for example, an abnormall
 #  - http://purl.obolibrary.org/obo/MP_0001123
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140
-  - https://orcid.org/0000-0003-4606-0597
-  - https://orcid.org/0000-0002-9900-7880
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0003-4606-0597
+- https://orcid.org/0000-0002-9900-7880
 
 classes:
   abnormal: PATO:0000460
@@ -33,25 +34,25 @@ vars:
 name:
   text: "abnormally dilated %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "abnormal %s dilation"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "abnormal %s dilation"
+  vars:
+  - anatomical_entity
 
-  - annotationProperty: exact_synonym
-    text: "dilated %s"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "dilated %s"
+  vars:
+  - anatomical_entity
 
 def:
   text: "Abnormal dilation of %s."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('dilated' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
+  - anatomical_entity

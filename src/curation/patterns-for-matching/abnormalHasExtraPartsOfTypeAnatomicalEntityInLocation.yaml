@@ -1,10 +1,11 @@
+---
 pattern_name: abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasExtraPartsOfTypeAnatomicalEntityInLocation.yaml
 description: "extra parts of an anatomical entity in a location. For example, has extra parts of type eye in the head."
 
 contributors:
-  - https://orcid.org/0000-0002-3528-5267
-  
+- https://orcid.org/0000-0002-3528-5267
+
 classes:
 
   has extra parts of type: PATO:0002002
@@ -28,25 +29,24 @@ vars:
 name:
   text: "has extra parts of type %s in %s"
   vars:
-   - anatomical_entity
-   - location
+  - anatomical_entity
+  - location
 
 annotations:
-  -
-    annotationProperty: exact_synonym
-    text: "extra %ss in %s"
-    vars:
-     - anatomical_entity
-     - location
+- annotationProperty: exact_synonym
+  text: "extra %ss in %s"
+  vars:
+  - anatomical_entity
+  - location
 
 def:
   text: "Any structural anomaly that causes there to be extra parts of type %s in %s."
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
 
 equivalentTo:
   text: "'has_part' some ('has extra parts of type' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location

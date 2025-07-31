@@ -1,10 +1,11 @@
+---
 pattern_name: necroticAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/necroticAnatomicalEntity.yaml
 description: "The presence of unprogrammed cell death in an anatomical entity."
 
 contributors:
-  - https://orcid.org/0000-0002-7356-1779
-  - https://orcid.org/0000-0002-9611-1279
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0002-9611-1279
 
 classes:
   abnormal: PATO:0000460

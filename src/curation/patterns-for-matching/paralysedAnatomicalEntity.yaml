@@ -1,9 +1,10 @@
+---
 pattern_name: paralysedAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/paralysedAnatomicalEntity.yaml
 description: "The complete loss of the ability to move a body part, e.g. a paralysed tail."
 
 contributors:
-  - https://orcid.org/0000-0002-9611-1279
+- https://orcid.org/0000-0002-9611-1279
 
 classes:
   abnormal: PATO:0000460
@@ -32,14 +33,14 @@ def:
   - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "paralysis of %s"
-    vars:
-     - anatomical_entity
-  - annotationProperty: exact_synonym
-    text: "%s paralysis"
-    vars:
-     - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "paralysis of %s"
+  vars:
+  - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "%s paralysis"
+  vars:
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('paralysed' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"

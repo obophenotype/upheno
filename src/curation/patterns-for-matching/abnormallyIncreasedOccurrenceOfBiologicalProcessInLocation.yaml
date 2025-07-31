@@ -1,3 +1,4 @@
+---
 pattern_name: abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedOccurrenceOfBiologicalProcessInLocation.yaml
 description: "Occurrence of a biological process in some location that is abnormally high."
@@ -29,17 +30,17 @@ vars:
 name:
   text: "increased occurrence of %s in %s"
   vars:
-   - biological_process
-   - location
+  - biological_process
+  - location
 
 def:
   text: "An increased occurrence of %s in %s."
   vars:
-    - biological_process
-    - location
+  - biological_process
+  - location
 
 equivalentTo:
   text: "'has_part' some ('increased occurrence' and ('inheres_in' some (%s and ('occurs_in' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - biological_process
-    - location
+  - biological_process
+  - location

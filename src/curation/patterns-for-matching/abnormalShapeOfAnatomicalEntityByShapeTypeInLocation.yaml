@@ -1,9 +1,10 @@
+---
 pattern_name: abnormalShapeOfAnatomicalEntityByShapeTypeInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfAnatomicalEntityByShapeTypeInLocation.yaml
 description: "Anatomical entity with an abnormal shape of a specified shape in a particular location, e.g. Y-shaped bone in the leg."
 
 contributors:
-  - https://orcid.org/0000-0002-9611-1279
+- https://orcid.org/0000-0002-9611-1279
 
 classes:
   shape: PATO:0000052

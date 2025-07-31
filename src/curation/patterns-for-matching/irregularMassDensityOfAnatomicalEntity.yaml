@@ -1,3 +1,4 @@
+---
 pattern_name: irregularMassDensityOfAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/irregularMassDensityOfAnatomicalEntity.yaml
@@ -11,10 +12,10 @@ description: "Use it in cases of irregular mass density of anatomical entity. Pl
 #    - http://purl.obolibrary.org/obo/ZP_0015028  # iridophore mass density, abnormal
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
-  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
-  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
-  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
+- https://orcid.org/0000-0001-8314-2140    # Ray Stefancsik
+- https://orcid.org/0000-0002-7073-9172    # David Osumi-Sutherland
+- https://orcid.org/0000-0003-4606-0597    # Susan Bello
+- https://orcid.org/0000-0002-9900-7880    # Yvonne M. Bradford
 
 classes:
   irregular_density: PATO:0002141
@@ -35,23 +36,20 @@ vars:
 name:
   text: "irregular mass density of %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "irregularity of %s mass density"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "irregularity of %s mass density"
+  vars:
+  - anatomical_entity
 
 def:
   text: "An irregularity in the mass density of %s."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some (
-        'irregular_density' and
-        'characteristic_of' some %s and
-        'has_modifier' some 'abnormal')"
+  text: "'has_part' some ( 'irregular_density' and 'characteristic_of' some %s and 'has_modifier' some 'abnormal')"
   vars:
-    - anatomical_entity
+  - anatomical_entity

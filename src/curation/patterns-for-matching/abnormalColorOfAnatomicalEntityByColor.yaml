@@ -1,3 +1,4 @@
+---
 pattern_name: abnormalColorOfAnatomicalEntityByColor
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalColorOfAnatomicalEntityByColor.yaml
@@ -8,11 +9,11 @@ description: "Anatomical entity with an abnormal specified color."
 #    - http://purl.obolibrary.org/obo/MP_0011414
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140
-  - https://orcid.org/0000-0002-7073-9172
-  - https://orcid.org/0000-0001-5208-3432
-  - https://orcid.org/0000-0003-4606-0597
-  - https://orcid.org/0000-0002-9900-7880
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0002-7073-9172
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0003-4606-0597
+- https://orcid.org/0000-0002-9900-7880
 
 classes:
   abnormal: PATO:0000460
@@ -34,31 +35,31 @@ vars:
 name:
   text: "abnormally %s %s color"
   vars:
-    - color
-    - entity
+  - color
+  - entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "%s type abnormality of %s color"
-    vars:
-      - color
-      - entity
+- annotationProperty: exact_synonym
+  text: "%s type abnormality of %s color"
+  vars:
+  - color
+  - entity
 
-  - annotationProperty: exact_synonym
-    text: "abnormal %s color of %s"
-    vars:
-      - color
-      - entity
+- annotationProperty: exact_synonym
+  text: "abnormal %s color of %s"
+  vars:
+  - color
+  - entity
 
 def:
   text: "An abnormally %s %s."
   vars:
-    - color
-    - entity
+  - color
+  - entity
 
 
 equivalentTo:
   text: "'has_part' some (%s and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - color
-    - entity
+  - color
+  - entity

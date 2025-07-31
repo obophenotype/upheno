@@ -1,9 +1,10 @@
+---
 pattern_name: abnormallyDecreasedSpeedOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSpeedOfAnatomicalEntity.yaml
 description: "Decreased speed of an antomical entity. i.e., decreased speed of whole organism"
 
 contributors:
-  - https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0002-3528-5267
 
 classes:
   abnormal: PATO:0000460
@@ -24,20 +25,20 @@ vars:
 name:
   text: "decreased speed of the %s"
   vars:
-   - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "slow moving %s"
-    vars:
-     - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "slow moving %s"
+  vars:
+  - anatomical_entity
 
 def:
   text: "slower, decreased speed of %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('decreased speed' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
+  - anatomical_entity

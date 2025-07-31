@@ -1,3 +1,4 @@
+---
 pattern_name: edematousAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/edematousAnatomicalEntity.yaml
@@ -13,12 +14,12 @@ description: 'Use this pattern when the phenotype is abnormal accumulation of fl
 #    - http://purl.obolibrary.org/obo/ZP_0001451  # head edematous, abnormal
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
-  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
-  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
-  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
-  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
-  - https://orcid.org/0000-0002-3528-5267  # Sofia Robb
+- https://orcid.org/0000-0001-8314-2140    # Ray Stefancsik
+- https://orcid.org/0000-0002-7073-9172    # David Osumi-Sutherland
+- https://orcid.org/0000-0002-7356-1779    # Nicolas Matentzoglu
+- https://orcid.org/0000-0003-4606-0597    # Susan Bello
+- https://orcid.org/0000-0002-9900-7880    # Yvonne M. Bradford
+- https://orcid.org/0000-0002-3528-5267    # Sofia Robb
 
 classes:
   edematous: PATO:0001450
@@ -39,28 +40,25 @@ vars:
 name:
   text: "edematous %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "edema in %s"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "edema in %s"
+  vars:
+  - anatomical_entity
 
-  - annotationProperty: exact_synonym
-    text: "oedema in %s"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "oedema in %s"
+  vars:
+  - anatomical_entity
 
 def:
   text: "Abnormal accumulation of fluid in %s."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some (
-        'edematous' and
-        'characteristic_of' some %s and
-        'has_modifier' some 'abnormal')"
+  text: "'has_part' some ( 'edematous' and 'characteristic_of' some %s and 'has_modifier' some 'abnormal')"
   vars:
-    - anatomical_entity
+  - anatomical_entity

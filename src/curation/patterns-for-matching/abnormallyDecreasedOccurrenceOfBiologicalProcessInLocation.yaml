@@ -1,3 +1,4 @@
+---
 pattern_name: abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedOccurrenceOfBiologicalProcessInLocation.yaml
 description: "Occurrence of a biological process in some location that is abnormally low."
@@ -27,17 +28,17 @@ vars:
 name:
   text: "decreased occurrence of %s in %s"
   vars:
-   - biological_process
-   - location
+  - biological_process
+  - location
 
 def:
   text: "A decreased occurrence of %s in %s."
   vars:
-    - biological_process
-    - location
+  - biological_process
+  - location
 
 equivalentTo:
   text: "'has_part' some ('decreased occurrence' and ('inheres_in' some (%s and ('occurs_in' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - biological_process
-    - location
+  - biological_process
+  - location

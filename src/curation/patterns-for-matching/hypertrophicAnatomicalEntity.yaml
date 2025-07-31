@@ -1,3 +1,4 @@
+---
 pattern_name: hypertrophicAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/hypertrophicAnatomicalEntity.yaml
@@ -13,11 +14,11 @@ description: 'Use this pattern for overgrowth of multicellular structures due to
 #    - http://purl.obolibrary.org/obo/ZP_0007444  # ciliary zone hypertrophic, abnormal
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
-  - https://orcid.org/0000-0001-5208-3432  # Nicole Vasilevsky
-  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
-  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
-  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+- https://orcid.org/0000-0001-8314-2140    # Ray Stefancsik
+- https://orcid.org/0000-0001-5208-3432    # Nicole Vasilevsky
+- https://orcid.org/0000-0002-9900-7880    # Yvonne M. Bradford
+- https://orcid.org/0000-0002-7073-9172    # David Osumi-Sutherland
+- https://orcid.org/0000-0003-4606-0597    # Susan Bello
 
 classes:
   hypertrophic: PATO:0000584
@@ -38,24 +39,21 @@ vars:
 name:
   text: "hypertrophic %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "%s hypertrophy"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "%s hypertrophy"
+  vars:
+  - anatomical_entity
 
 def:
   text: "Increased size of %s due to overgrowth and enlargement of its constituent cells."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some (
-        'hypertrophic' and
-        'characteristic_of' some %s and
-        'has_modifier' some 'abnormal')"
+  text: "'has_part' some ( 'hypertrophic' and 'characteristic_of' some %s and 'has_modifier' some 'abnormal')"
 
   vars:
-    - anatomical_entity
+  - anatomical_entity

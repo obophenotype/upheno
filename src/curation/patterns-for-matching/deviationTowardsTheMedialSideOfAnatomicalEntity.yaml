@@ -3,9 +3,7 @@ pattern_name: deviationTowardsTheMedialSideOfAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/deviationTowardsTheMedialSideOfAnatomicalEntity.yaml
 
-description: 'Use this pattern for phenotypes involving angulation,
-  directional change or bending towards the middle of an anatomical
-  entity that is abnormal in space or time (e.g. permanent).'
+description: 'Use this pattern for phenotypes involving angulation, directional change or bending towards the middle of an anatomical entity that is abnormal in space or time (e.g. permanent).'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/HP_0030084  # Clinodactyly
@@ -14,9 +12,9 @@ description: 'Use this pattern for phenotypes involving angulation,
 #    - http://purl.obolibrary.org/obo/MP_0006253  # clinodactyly
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
-  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
-  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
+- https://orcid.org/0000-0001-8314-2140    # Ray Stefancsik
+- https://orcid.org/0000-0003-4606-0597    # Susan Bello
+- https://orcid.org/0000-0002-9900-7880    # Yvonne M. Bradford
 
 classes:
   deviation_towards_the_medial_side: PATO:0002177
@@ -37,30 +35,25 @@ vars:
 name:
   text: "deviation of %s towards the middle"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: broad_synonym
-    text: "shift of %s towards the middle"
-    vars:
-      - anatomical_entity
+- annotationProperty: broad_synonym
+  text: "shift of %s towards the middle"
+  vars:
+  - anatomical_entity
 
-  - annotationProperty: broad_synonym
-    text: "permanent bending of %s"
-    vars:
-      - anatomical_entity
+- annotationProperty: broad_synonym
+  text: "permanent bending of %s"
+  vars:
+  - anatomical_entity
 
 def:
   text: "A changed direction of position or shift towards the middle of %s."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some (
-    'deviation_towards_the_medial_side'
-    and ('characteristic_of' some %s)
-    and ('has_modifier' some 'abnormal')
-    )"
+  text: "'has_part' some ( 'deviation_towards_the_medial_side' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal') )"
   vars:
-    - anatomical_entity
-...
+  - anatomical_entity

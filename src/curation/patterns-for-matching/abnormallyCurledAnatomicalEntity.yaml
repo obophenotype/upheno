@@ -4,9 +4,7 @@ pattern_name: abnormallyCurledAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyCurledAnatomicalEntity.yaml
 
-description: 'Use this phenotype pattern when an anatomical entity is
-  abnormally curled, waved, coiled or has  corkscrew-like or spiral
-  shaped curl or curls.'
+description: 'Use this phenotype pattern when an anatomical entity is abnormally curled, waved, coiled or has  corkscrew-like or spiral shaped curl or curls.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/MP_0001274  # curly vibrissae
@@ -17,10 +15,10 @@ description: 'Use this phenotype pattern when an anatomical entity is
 #    - http://purl.obolibrary.org/obo/ZP_0141717  # barbel curled, abnormal
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
-  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
-  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
-  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+- https://orcid.org/0000-0001-8314-2140    # Ray Stefancsik
+- https://orcid.org/0000-0003-4606-0597    # Susan Bello
+- https://orcid.org/0000-0002-9900-7880    # Yvonne M. Bradford
+- https://orcid.org/0000-0002-6490-7723    # Anna V. Anagnostopoulos
 
 classes:
   curled: PATO:0000405
@@ -41,30 +39,25 @@ vars:
 name:
   text: "abnormally curled %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "curly %s"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "curly %s"
+  vars:
+  - anatomical_entity
 
-  - annotationProperty: exact_synonym
-    text: "curled %s"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "curled %s"
+  vars:
+  - anatomical_entity
 
 def:
   text: "A curled %s that shows abnormal waves, coils or undulations."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some (
-    'curled' and
-    ('characteristic_of' some %s) and
-    ('has_modifier' some 'abnormal')
-    )"
+  text: "'has_part' some ( 'curled' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal') )"
   vars:
-    - anatomical_entity
-...
+  - anatomical_entity

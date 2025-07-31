@@ -1,9 +1,10 @@
+---
 pattern_name: abnormallyIncreasedSpeedOfAnatomicalEntity
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedSpeedOfAnatomicalEntity.yaml
 description: "Increased speed of an antomical entity. i.e., increased speed of whole organism"
 
 contributors:
-  - https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0002-3528-5267
 
 classes:
   abnormal: PATO:0000460
@@ -24,20 +25,20 @@ vars:
 name:
   text: "increased speed of the %s"
   vars:
-   - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "fast moving %s"
-    vars:
-     - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "fast moving %s"
+  vars:
+  - anatomical_entity
 
 def:
   text: "faster, increased speed of %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('increased speed' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
+  - anatomical_entity

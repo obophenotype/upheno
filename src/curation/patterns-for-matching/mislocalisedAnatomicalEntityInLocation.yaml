@@ -1,12 +1,13 @@
+---
 pattern_name: mislocalisedAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/mislocalisedAnatomicalEntityInLocation.yaml
-description : "Abnormal anatomic location of an anatomicaly entity, such as XAO:0005038 'mislocalised nucleus in the myoblast'."
+description: "Abnormal anatomic location of an anatomicaly entity, such as XAO:0005038 'mislocalised nucleus in the myoblast'."
 
 contributors:
-  - https://orcid.org/0000-0002-7356-1779
-  - https://orcid.org/0000-0001-5208-3432
-  - https://orcid.org/0000-0001-9076-6015
-  - https://orcid.org/0000-0003-1074-8103
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0001-9076-6015
+- https://orcid.org/0000-0003-1074-8103
 
 classes:
   abnormal: PATO:0000460
@@ -31,24 +32,24 @@ vars:
 name:
   text: "abnormally localised %s in %s"
   vars:
-   - anatomical_entity
-   - location
+  - anatomical_entity
+  - location
 
 def:
   text: "Abnormal location of the %s in the %s."
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "abnormal position of %s in %s"
-    vars:
-     - anatomical_entity
-     - location
+- annotationProperty: exact_synonym
+  text: "abnormal position of %s in %s"
+  vars:
+  - anatomical_entity
+  - location
 
 equivalentTo:
   text: "'has_part' some ('mislocalised' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location

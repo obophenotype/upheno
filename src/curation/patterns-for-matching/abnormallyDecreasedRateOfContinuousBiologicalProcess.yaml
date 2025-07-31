@@ -1,3 +1,4 @@
+---
 pattern_name: abnormallyDecreasedRateOfContinuousBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfContinuousBiologicalProcess.yaml
 description: "Abnormally decreased rate of a continuous biological process, e.g. rate of an enzyme reaction or growth rate. Does not include decreases in rates of occurrence/frequency. Different to patterns using PATO:0002472 'decreased velocity', which inheres in a physical object (continuant), rather than a process (occurrent)."
@@ -9,10 +10,10 @@ description: "Abnormally decreased rate of a continuous biological process, e.g.
 #  - http://purl.obolibrary.org/obo/ZP_0102933 # digestion decreased rate, abnormal
 
 contributors:
-  - https://orcid.org/0000-0002-1373-1705
-  - https://orcid.org/0000-0003-4606-0597
-  - https://orcid.org/0000-0002-9900-7880
-  - https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0002-1373-1705
+- https://orcid.org/0000-0003-4606-0597
+- https://orcid.org/0000-0002-9900-7880
+- https://orcid.org/0000-0001-8314-2140
 
 classes:
   decreased_rate_of_continuous_process: PATO:0055006
@@ -58,7 +59,7 @@ annotations:
   text: "decreased %s velocity"
   vars:
   - biological_process
-  
+
 equivalentTo:
   text: "'has_part' some ('decreased_rate_of_continuous_process' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
   vars:

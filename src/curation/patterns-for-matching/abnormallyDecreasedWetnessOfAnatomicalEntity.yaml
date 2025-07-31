@@ -3,11 +3,7 @@ pattern_name: abnormallyDecreasedWetnessOfAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWetnessOfAnatomicalEntity.yaml
 
-description: "Use this phenotype pattern when an anatomical entity exhibits
-  decreased liquid coverage, for example, when the aqueous or oily layer on its
-  surface is reduced. Consider the alternative 'PATO:0001801 decreased water
-  composition' phenotype pattern when the water contained in an entity is
-  reduced as opposed to a reduced amount of liquid on its surface."
+description: "Use this phenotype pattern when an anatomical entity exhibits decreased liquid coverage, for example, when the aqueous or oily layer on its surface is reduced. Consider the alternative 'PATO:0001801 decreased water composition' phenotype pattern when the water contained in an entity is reduced as opposed to a reduced amount of liquid on its surface."
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/PATO_0001824  # http://purl.obolibrary.org/obo/HP_0000217	Xerostomia
@@ -17,11 +13,11 @@ description: "Use this phenotype pattern when an anatomical entity exhibits
 #    - http://purl.obolibrary.org/obo/MP_0003536  # vagina dryness
 
 contributors:
-  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
-  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
-  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
-  - https://orcid.org/0000-0002-4142-7153  # Sabrina Toro
-  - https://orcid.org/0000-0001-7941-2961  # Leigh Carmody
+- https://orcid.org/0000-0001-8314-2140    # Ray Stefancsik
+- https://orcid.org/0000-0003-4606-0597    # Susan Bello
+- https://orcid.org/0000-0002-6490-7723    # Anna V. Anagnostopoulos
+- https://orcid.org/0000-0002-4142-7153    # Sabrina Toro
+- https://orcid.org/0000-0001-7941-2961    # Leigh Carmody
 
 classes:
   decreased_surface_wetness: PATO:0001826
@@ -43,45 +39,40 @@ vars:
 name:
   text: "decreased surface wetness of %s"
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "decreased wetness of %s"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "decreased wetness of %s"
+  vars:
+  - anatomical_entity
 
-  - annotationProperty: exact_synonym
-    text: "decreased %s surface wetness"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "decreased %s surface wetness"
+  vars:
+  - anatomical_entity
 
-  - annotationProperty: exact_synonym
-    text: "decreased %s wetness"
-    vars:
-      - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "decreased %s wetness"
+  vars:
+  - anatomical_entity
 
-  - annotationProperty: related_synonym
-    text: "%s dryness"
-    vars:
-      - anatomical_entity
+- annotationProperty: related_synonym
+  text: "%s dryness"
+  vars:
+  - anatomical_entity
 
-  - annotationProperty: related_synonym
-    text: "dry %s"
-    vars:
-      - anatomical_entity
+- annotationProperty: related_synonym
+  text: "dry %s"
+  vars:
+  - anatomical_entity
 
 def:
   text: "A relatively low wetness on the surface of %s."
   vars:
-    - anatomical_entity
+  - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some (
-    'decreased_surface_wetness' and
-    ('characteristic_of' some %s) and
-    ('has_modifier' some 'abnormal')
-    )"
+  text: "'has_part' some ( 'decreased_surface_wetness' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal') )"
   vars:
-    - anatomical_entity
-...
+  - anatomical_entity

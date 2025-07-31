@@ -1,6 +1,7 @@
+---
 pattern_name: abnormallyApoptoticAnatomicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyApoptoticAnatomicalEntityInLocation.yaml
-description : "The presence of abnormal programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity in some location."
+description: "The presence of abnormal programmed cell death (apoptosis), consisting of blebbing of the nucleus and DNA fragmentation, in an anatomical entity in some location."
 
 contributors:
 - https://orcid.org/0000-0002-7356-1779
@@ -29,24 +30,24 @@ vars:
 name:
   text: "abnormally apoptotic %s in %s"
   vars:
-   - anatomical_entity
-   - location
+  - anatomical_entity
+  - location
 
 def:
   text: "An abnormally apoptotic %s in %s."
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "%s %s with apoptosis"
-    vars:
-     - location
-     - anatomical_entity
+- annotationProperty: exact_synonym
+  text: "%s %s with apoptosis"
+  vars:
+  - location
+  - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('apoptotic' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
-    - location
+  - anatomical_entity
+  - location
