@@ -1829,6 +1829,8 @@ def generate_rewritten_patterns(patterns_directory, upheno_patterns_dir):
         "abnormal closing": "closing",
         "abnormal coiling": "coiling",
         "abnormally shaped": "misshaped",
+        "An abnormally formed/malformed": "A malformed",
+        "abnormally formed": "malformed",
         "abnormal decreased": "decreased",
         "abnormal increased": "increased",
         "abnormal duplication": "duplication",
