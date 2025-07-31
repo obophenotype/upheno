@@ -357,6 +357,8 @@ add_upheno_ids_to_fillers:
 
 # After we run the matching pipeline, we use this to merge the modified pattern matches into
 # the unmodified pattern variants.
+# @matentzn does not believe this is used anymore, because the method is called as part of the
+# matching pipeline.
 prepare_dosdp_data_for_generation:
 	python3 ../scripts/upheno_build.py postprocess-modified-patterns \
 		--upheno-config ../curation/upheno-config.yaml \
