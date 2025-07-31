@@ -1,0 +1,59 @@
+---
+pattern_name: delaminatedAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/delaminatedAnatomicalEntity.yaml
+
+description: 'Use this pattern where sheets that constitute or are part of an
+  anatomical entity show separation into constituent layers.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/ZP_0009315  # ectoderm delaminated, abnormal
+#    - http://purl.obolibrary.org/obo/MP_0000791  # delaminated cerebral cortex
+#    - http://purl.obolibrary.org/obo/MP_0000884  # delaminated Purkinje cell layer
+#    - http://purl.obolibrary.org/obo/MP_0000887  # delaminated cerebellar granule layer
+#    - http://purl.obolibrary.org/obo/MP_0002648  # delaminated enamel
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-9900-7880  # Yvonne M. Bradford
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+
+classes:
+  delaminated: PATO:0001514
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+
+vars:
+  anatomical_entity: "'anatomical_entity'"
+
+name:
+  text: "delaminated %s"
+  vars:
+    - anatomical_entity
+
+def:
+  text: "Separation of %s, or its layers or sheets into constituent layers."
+  vars:
+    - anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some (
+    'delaminated' and
+    ('characteristic_of' some %s) and
+    ('has_modifier' some 'abnormal')
+    )
+"
+  vars:
+    - anatomical_entity
+...

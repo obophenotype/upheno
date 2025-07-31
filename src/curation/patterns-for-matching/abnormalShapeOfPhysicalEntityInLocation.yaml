@@ -1,0 +1,54 @@
+---
+pattern_name: abnormalShapeOfPhysicalEntityInLocation
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalShapeOfPhysicalEntityInLocation.yaml
+description: "abnormal shape of an anatomical entity in a location."
+
+contributors:
+  - https://orcid.org/0000-0002-3528-5267  # Sofia Robb
+  - https://orcid.org/0000-0001-5208-3432  # Nicole Vasilevsky
+  - https://orcid.org/0000-0003-4148-4606  # Midori A. Harris
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+
+classes:
+  shape: PATO:0000052
+  abnormal: PATO:0000460
+  entity: BFO:0000002
+  independent continuant: BFO:0000004
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  entity: "'entity'"
+  location: "'independent continuant'"
+
+name:
+  text: "abnormal shape of %s in %s"
+  vars:
+    - entity
+    - location
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "abnormally shaped %s in %s"
+    vars:
+      - entity
+      - location
+
+def:
+  text: "Any structural anomaly in the shape of the %s located in %s."
+  vars:
+    - entity
+    - location
+
+equivalentTo:
+  text: '''has_part'' some (''shape'' and (''characteristic_of'' some (%s and (''part_of'' some %s))) and (''has_modifier'' some ''abnormal''))'
+  vars:
+    - entity
+    - location
