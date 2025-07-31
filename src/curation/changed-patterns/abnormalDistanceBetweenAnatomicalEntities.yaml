@@ -1,0 +1,49 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: changed distance between %s and %s
+  vars:
+  - anatomical_entity1
+  - anatomical_entity2
+- annotationProperty: exact_synonym
+  text: distance changed between %s and %s
+  vars:
+  - anatomical_entity1
+  - anatomical_entity2
+classes:
+  abnormal: PATO:0000460
+  anatomical_entity1: UBERON:0001062
+  anatomical_entity2: UBERON:0001062
+  distance: PATO:0000040
+contributors:
+- https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0003-4148-4606
+def:
+  text: changed distance between %s and %s.
+  vars:
+  - anatomical_entity1
+  - anatomical_entity2
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''distance'' and (''inheres_in'' some %s) and (''towards''
+    some %s) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - anatomical_entity1
+  - anatomical_entity2
+name:
+  text: distance between %s and %s phenotype
+  vars:
+  - anatomical_entity1
+  - anatomical_entity2
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDistanceBetweenAnatomicalEntities.yaml
+pattern_name: abnormalDistanceBetweenAnatomicalEntities
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  towards: RO:0002503
+vars:
+  anatomical_entity1: '''anatomical_entity1'''
+  anatomical_entity2: '''anatomical_entity2'''

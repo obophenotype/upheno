@@ -1,0 +1,39 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: altered number of %ss
+  vars:
+  - cellular_component
+- annotationProperty: exact_synonym
+  text: changed number of %ss
+  vars:
+  - cellular_component
+classes:
+  abnormal: PATO:0000460
+  amount: PATO:0000070
+  cellular component: GO:0005575
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: Any anomaly that causes there to be a changed number %s.
+  vars:
+  - cellular_component
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''amount'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - cellular_component
+name:
+  text: number of %s phenotype
+  vars:
+  - cellular_component
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfCellularComponent.yaml
+pattern_name: abnormalNumberOfCellularComponent
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  cellular_component: '''cellular component'''

@@ -1,0 +1,38 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: decreased sensitivity of organism to %s
+  vars:
+  - chemical_entity
+classes:
+  abnormal: PATO:0000460
+  cellular organism: UBERON:0000468
+  chemical entity: CHEBI:24431
+  increased resistance to: PATO:0001650
+contributors:
+- https://orcid.org/0000-0001-9076-6015
+- https://orcid.org/0000-0001-7487-610X
+def:
+  text: Increased resistance of organism to %s.
+  vars:
+  - chemical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''increased resistance to'' and (''inheres_in'' some ''cellular
+    organism'') and (''towards'' some %s) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - chemical_entity
+name:
+  text: increased resistance of organism to %s
+  vars:
+  - chemical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml
+pattern_name: abnormallyIncreasedResistanceOfWholeOrganismToChemicalEntity.yaml
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  towards: RO:0002503
+vars:
+  chemical_entity: '''chemical entity'''

@@ -1,0 +1,41 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: changed radiographic density of %s
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+  ivory: PATO:0002149
+contributors:
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0002-7073-9172
+- https://orcid.org/0000-0003-4606-0597
+- https://orcid.org/0000-0002-6490-7723
+- https://orcid.org/0000-0001-7941-2961
+def:
+  text: A changed increase in the density of %s resulting in increased degree of radiopacity
+    (in X-rays).
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some ( ''ivory'' and (''characteristic_of'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - anatomical_entity
+name:
+  text: ivory %s
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/ivoryAnatomicalEntity.yaml
+pattern_name: ivoryAnatomicalEntity
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+vars:
+  anatomical_entity: '''anatomical_entity'''

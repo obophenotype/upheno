@@ -1,0 +1,43 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: changed size of the %s
+  vars:
+  - entity
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  size: PATO:0000117
+contributors:
+- https://orcid.org/0000-0002-9900-7880
+- https://orcid.org/0000-0001-9076-6015
+- https://orcid.org/0000-0002-9611-1279
+- https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-1373-1705
+- https://orcid.org/0000-0003-4148-4606
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0001-7941-2961
+def:
+  text: Changed size of the %s.
+  vars:
+  - entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''size'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - entity
+name:
+  text: size of %s phenotype
+  vars:
+  - entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalSizeOfAnatomicalEntity.yaml
+pattern_name: abnormalSizeOfAnatomicalEntity
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  entity: '''anatomical entity'''

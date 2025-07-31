@@ -1,0 +1,39 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  arrested: PATO:0000297
+  developmental_process: GO:0032502
+  life_cycle_stage: UBERON:0000105
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0002-4532-2703
+- https://orcid.org/0000-0002-7073-9172
+def:
+  text: Arrested %s in the %s.
+  vars:
+  - development
+  - stage
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''arrested'' and (''inheres_in'' some (%s and (''happens_during''
+    some %s))) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - development
+  - stage
+name:
+  text: arrested %s during %s
+  vars:
+  - development
+  - stage
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalArrestedDevelopmentDuringStage.yaml
+pattern_name: abnormalArrestedDevelopmentDuringStage
+relations:
+  happens_during: RO:0002092
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  development: '''developmental_process'''
+  stage: '''life_cycle_stage'''

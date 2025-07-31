@@ -1,0 +1,30 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  increased rate: PATO:0000912
+  molecular function: GO:0003674
+contributors:
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: Increased %s.
+  vars:
+  - molecular_function
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''increased rate'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - molecular_function
+name:
+  text: increased %s
+  vars:
+  - molecular_function
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedRateOfMolecularFunction.yaml
+pattern_name: abnormallyIncreasedRateOfMolecularFunction
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  molecular_function: '''molecular function'''

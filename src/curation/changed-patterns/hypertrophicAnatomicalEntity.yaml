@@ -1,0 +1,40 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: '%s hypertrophy'
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  hypertrophic: PATO:0000584
+  multicellular_anatomical_structure: UBERON:0010000
+contributors:
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-9900-7880
+- https://orcid.org/0000-0002-7073-9172
+- https://orcid.org/0000-0003-4606-0597
+def:
+  text: Increased size of %s due to overgrowth and enlargement of its constituent
+    cells.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some ( ''hypertrophic'' and ''characteristic_of'' some %s and
+    ''has_modifier'' some ''abnormal'')'
+  vars:
+  - anatomical_entity
+name:
+  text: hypertrophic %s
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/hypertrophicAnatomicalEntity.yaml
+pattern_name: hypertrophicAnatomicalEntity
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+vars:
+  anatomical_entity: '''multicellular_anatomical_structure'''

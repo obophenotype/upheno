@@ -1,0 +1,50 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: fewer %ss in %s, located in %s
+  vars:
+  - whole_anatomical_entity
+  - part_anatomical_entity
+  - location
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  has fewer parts of type: PATO:0002001
+  independent continuant: BFO:0000004
+contributors:
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: Any structural anomaly that causes there to be fewer parts of type %s in the
+    %s.
+  vars:
+  - whole_anatomical_entity
+  - part_anatomical_entity
+  - location
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''has fewer parts of type'' and (''inheres_in'' some (%s
+    and (''part_of'' some %s))) and (''towards'' some %s) and (''has_modifier'' some
+    ''abnormal''))'
+  vars:
+  - whole_anatomical_entity
+  - part_anatomical_entity
+  - location
+name:
+  text: has fewer parts of type %s in %s, which is located in %s
+  vars:
+  - part_anatomical_entity
+  - whole_anatomical_entity
+  - location
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation.yaml
+pattern_name: abnormalHasFewerPartsOfTypeAnatomicalEntityInLocation
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  part_of: BFO:0000050
+  towards: RO:0002503
+vars:
+  location: '''independent continuant'''
+  part_anatomical_entity: '''anatomical entity'''
+  whole_anatomical_entity: '''anatomical entity'''

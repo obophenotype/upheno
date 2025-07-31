@@ -1,0 +1,31 @@
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  developmental process: GO:0032502
+  process quality: PATO:0001236
+contributors:
+- https://orcid.org/0000-0001-9076-6015
+def:
+  text: Changed development of the %s.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''process quality'' and (''inheres_in'' some (''developmental
+    process'' and (''results_in_developmental_progression_of'' some %s))) and  (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - anatomical_entity
+name:
+  text: development of %s phenotype
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDevelopmentOfAnatomicalEntity.yaml
+pattern_name: abnormalDevelopmentOfAnatomicalEntity
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  results_in_developmental_progression_of: RO:0002295
+vars:
+  anatomical_entity: '''anatomical entity'''

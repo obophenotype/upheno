@@ -1,0 +1,32 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  absent: PATO:0000462
+  biological process: GO:0008150
+contributors:
+- https://orcid.org/0000-0001-9076-6015
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0003-4148-4606
+def:
+  text: Lack of %s.
+  vars:
+  - biological_process
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''absent'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - biological_process
+name:
+  text: absent %s
+  vars:
+  - biological_process
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcess.yaml
+pattern_name: abnormalAbsenceOfBiologicalProcess
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  biological_process: '''biological process'''
