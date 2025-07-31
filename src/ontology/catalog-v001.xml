@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
-
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl" uri="imports/nbo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/nbo_import.obo" uri="imports/nbo_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl" uri="imports/pr_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/pr_import.obo" uri="imports/pr_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/go_import.owl" uri="imports/go_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/go_import.obo" uri="imports/go_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/uberon_import.obo" uri="imports/uberon_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/ro_import.obo" uri="imports/ro_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/chebi_import.obo" uri="imports/chebi_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/hsapdv_import.owl" uri="imports/hsapdv_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/hsapdv_import.obo" uri="imports/hsapdv_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/pato_import.obo" uri="imports/pato_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl" uri="imports/cl_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/cl_import.obo" uri="imports/cl_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl" uri="imports/mpath_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/upheno/imports/mpath_import.obo" uri="imports/mpath_import.obo"/>
-  
-
-
-  
- 
-  <uri name="http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-</group>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-special-inference-rules.owl" uri="components/upheno-special-inference-rules.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/imports/merged_import.owl" uri="imports/merged_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl" uri="components/upheno-relations.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl" uri="components/upheno-deprecated.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl" uri="components/upheno-top.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl" uri="components/upheno-alignments.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-axiom-injections.owl" uri="components/upheno-axiom-injections.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl" uri="components/upheno-manual-curation.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-mappings.owl" uri="components/upheno-mappings.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/upheno/components/upheno-bridge.owl" uri="components/upheno-bridge.owl"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

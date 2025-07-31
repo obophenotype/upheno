@@ -1,0 +1,86 @@
+Prefix(:=<http://purl.obolibrary.org/obo/x-bfo.owl#>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl>
+Annotation(rdfs:comment "This file contains all relationships used of uPheno and cross species phenotyping.")
+
+Declaration(Class(obo:PATO_0000001))
+Declaration(ObjectProperty(obo:BFO_0000050))
+Declaration(ObjectProperty(obo:BFO_0000051))
+Declaration(ObjectProperty(obo:BFO_0000066))
+Declaration(ObjectProperty(obo:RO_0000052))
+Declaration(ObjectProperty(obo:RO_0000057))
+Declaration(ObjectProperty(obo:RO_0002314))
+Declaration(ObjectProperty(obo:RO_0002503))
+Declaration(ObjectProperty(obo:RO_0002573))
+Declaration(ObjectProperty(obo:UPHENO_0000001))
+Declaration(ObjectProperty(obo:UPHENO_0000003))
+Declaration(ObjectProperty(obo:UPHENO_9000001))
+Declaration(ObjectProperty(obo:UPHENO_9000002))
+Declaration(ObjectProperty(obo:UPHENO_9000003))
+Declaration(ObjectProperty(obo:UPHENO_9000004))
+Declaration(AnnotationProperty(obo:UPHENO_0000002))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: obo:UPHENO_0000002 (has phenotypic analogue)
+
+AnnotationAssertion(rdfs:label obo:UPHENO_0000002 "has phenotypic analogue"@en)
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: obo:UPHENO_0000001 (phenotype affects entity)
+
+AnnotationAssertion(rdfs:label obo:UPHENO_0000001 "phenotype affects entity")
+SubObjectPropertyOf(obo:UPHENO_0000001 obo:UPHENO_0000003)
+
+# Object Property: obo:UPHENO_0000003 (phenotype is associated with entity)
+
+AnnotationAssertion(rdfs:label obo:UPHENO_0000003 "phenotype is associated with entity")
+
+# Object Property: obo:UPHENO_9000001 (primary affected entity)
+
+AnnotationAssertion(rdfs:comment obo:UPHENO_9000001 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for materialising inference, not direct use.")
+AnnotationAssertion(rdfs:label obo:UPHENO_9000001 "primary affected entity")
+
+# Object Property: obo:UPHENO_9000002 (secondary affected entity)
+
+AnnotationAssertion(rdfs:comment obo:UPHENO_9000002 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for materialising inference, not direct use.")
+AnnotationAssertion(rdfs:label obo:UPHENO_9000002 "secondary affected entity")
+
+# Object Property: obo:UPHENO_9000003 (primary exhibited quality)
+
+AnnotationAssertion(rdfs:comment obo:UPHENO_9000003 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for materialising inference, not direct use.")
+AnnotationAssertion(rdfs:label obo:UPHENO_9000003 "primary exhibited quality")
+
+# Object Property: obo:UPHENO_9000004 (primary related entity)
+
+AnnotationAssertion(rdfs:comment obo:UPHENO_9000004 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for materialising inference, not direct use.")
+AnnotationAssertion(rdfs:label obo:UPHENO_9000004 "primary related entity")
+
+
+
+
+SubClassOf(ObjectSomeValuesFrom(obo:BFO_0000051 obo:PATO_0000001) ObjectSomeValuesFrom(obo:UPHENO_9000003 obo:PATO_0000001))
+SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0000052) obo:UPHENO_9000001)
+SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0000052 obo:BFO_0000050) obo:UPHENO_9000002)
+SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002314) obo:UPHENO_9000002)
+SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002503) obo:UPHENO_9000004)
+SubObjectPropertyOf(ObjectPropertyChain(obo:UPHENO_0000001 obo:BFO_0000050) obo:UPHENO_0000001)
+SubObjectPropertyOf(ObjectPropertyChain(obo:UPHENO_0000003 obo:BFO_0000050) obo:UPHENO_0000003)
+SubObjectPropertyOf(ObjectPropertyChain(obo:UPHENO_0000003 obo:BFO_0000066) obo:UPHENO_0000003)
+SubObjectPropertyOf(ObjectPropertyChain(obo:UPHENO_0000003 obo:RO_0000057) obo:UPHENO_0000003)
+AnnotationAssertion(rdfs:comment obo:UPHENO_9000005 "DO NOT USE IN ONTOLOGY. The purpose of this relations is only for grouping phenotype classes in uPheno.")
+AnnotationAssertion(rdfs:label obo:UPHENO_9000005 "has upheno source")
+)

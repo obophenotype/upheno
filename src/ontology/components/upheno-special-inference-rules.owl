@@ -1,0 +1,45 @@
+Prefix(:=<http://purl.obolibrary.org/obo/x-bfo.owl#>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-special-inference-rules.owl>
+Annotation(rdfs:comment "This file contains various role chains that are generally wrong but useful for uPheno and OBA inference.")
+
+Declaration(ObjectProperty(obo:BFO_0000051))
+Declaration(ObjectProperty(obo:BFO_0000066))
+Declaration(ObjectProperty(obo:RO_0000052))
+Declaration(ObjectProperty(obo:RO_0002314))
+Declaration(ObjectProperty(obo:RO_0002592))
+Declaration(ObjectProperty(obo:RO_0002296))
+Declaration(ObjectProperty(obo:RO_0002202))
+Declaration(ObjectProperty(obo:RO_0002297))
+Declaration(ObjectProperty(obo:RO_0002211))
+
+SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002314) obo:BFO_0000051)
+
+# 'characteristic of' o 'results in formation of' -> 'characteristic of'
+SubObjectPropertyOf(ObjectPropertyChain(obo:RO_0000052 obo:RO_0002297) obo:RO_0000052)
+
+# 'characteristic of' o 'results in organization of' -> 'characteristic of'
+SubObjectPropertyOf(ObjectPropertyChain(obo:RO_0000052 obo:RO_0002592) obo:RO_0000052)
+
+# 'characteristic of' o 'occurs in' -> 'characteristic of'
+SubObjectPropertyOf(ObjectPropertyChain(obo:RO_0000052 obo:BFO_0000066) obo:RO_0000052)
+
+# 'part of' o 'develops from' -> 'part of'
+SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000050 obo:RO_0002202) obo:BFO_0000050)
+
+
+# 'characteristic of' o 'results in development of' -> 'characteristic of'
+SubObjectPropertyOf(ObjectPropertyChain(obo:RO_0000052 obo:RO_0002296) obo:RO_0000052)
+
+# 'characteristic of' o 'regulates' -> 'characteristic of'
+SubObjectPropertyOf(ObjectPropertyChain(obo:RO_0000052 obo:RO_0002211) obo:RO_0000052)
+
+)
