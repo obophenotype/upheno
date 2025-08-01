@@ -19,7 +19,6 @@ from lib import (
     robot_prepare_ontology_for_dosdp,
     uPhenoConfig,
     compute_upheno_fillers,
-    generate_rewritten_patterns,
 )
 
 # Configuration
@@ -52,13 +51,14 @@ cdir(upheno_prepare_dir)
 # Files
 allimports_dosdp = os.path.join(raw_ontologies_dir, "upheno-allimports-dosdp.owl")
 
-print("### 1. Rewrite abnormal patterns to 'phenotype' patters")
-upheno_patterns_main_dir = os.path.join(ws, "patterns/dosdp-patterns/")
-generate_rewritten_patterns(upheno_patterns_main_dir=upheno_patterns_main_dir,
-                            pattern_dir=original_pattern_dir,
-                            upheno_patterns_dir=upheno_preprocessed_patterns_dir)
+### This step is now done indedently my "make prepare_changed_patterns"
+#print("### Rewrite abnormal patterns to 'phenotype' patters")
+#upheno_patterns_main_dir = os.path.join(ws, "patterns/dosdp-patterns/")
+#generate_rewritten_patterns(patterns_directory=upheno_patterns_main_dir,
+#                            pattern_dir=original_pattern_dir,
+#                            upheno_patterns_dir=upheno_preprocessed_patterns_dir)
 
-print("### 2. Preparing a dictionary for DOSDP extraction from the all imports merged ontology.")
+print("### Preparing a dictionary for DOSDP extraction from the all imports merged ontology.")
 sparql_terms = os.path.join(ws, "sparql/terms.sparql")
 
 # Used to loop up labels in the pattern generation process, so maybe I don't need anything other than rdfs:label?
@@ -72,7 +72,7 @@ if upheno_config.is_overwrite_ontologies() or not os.path.exists(allimports_dosd
         robot_opts=robot_opts
     )
 
-print("### 3. Compute the uPheno filler classes.")
+print("### Compute the uPheno filler classes.")
 java_fill = os.path.join(ws, "scripts/upheno-filler-pipeline.jar")
 ontology_for_matching_dir = os.path.join(ws, "curation/ontologies-for-matching/")
 cdir(ontology_for_matching_dir)
@@ -84,7 +84,7 @@ compute_upheno_fillers(upheno_config=upheno_config,
                        sspo_matches_dir=sspo_matches_dir,
                        original_pattern_dir=original_pattern_dir)
 
-print("### 4. Generating uPheno core.")
+print("### Generating uPheno core.")
 upheno_patterns_data_manual_dir = os.path.join(ws, "patterns/data/default/")
 
 # Extra axioms, upheno relations, the manually curated intermediate phenotypes part of the upheno repo
@@ -112,7 +112,7 @@ if overwrite_dosdp_upheno or not os.path.exists(upheno_core_ontology):
                 timeout=timeout,
                 robot_opts=robot_opts)
 
-print("### 5. Generating uPheno base..")
+print("### Generating uPheno base..")
 oids = upheno_config.get_upheno_profile_components("all")
 profile_dir = os.path.join(ws, "patterns/data/automatic")
 cdir(profile_dir)
