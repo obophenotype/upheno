@@ -374,6 +374,7 @@ prepare_patterns_for_matching:
 
 prepare_changed_patterns:
 	rm -rf ../curation/changed-patterns/*.yaml
+	cp -r ../patterns/dosdp-patterns-curated/*.yaml ../curation/changed-patterns/
 	python3 ../scripts/upheno_build.py preprocess-dosdp-patterns \
 		--patterns-directory ../curation/patterns-for-matching/ \
 		--processed-patterns-directory ../curation/changed-patterns/
