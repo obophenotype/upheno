@@ -88,6 +88,7 @@ print("### Generating uPheno core.")
 upheno_patterns_data_manual_dir = os.path.join(ws, "patterns/data/default/")
 
 # Extra axioms, upheno relations, the manually curated intermediate phenotypes part of the upheno repo
+# TODO is this really needed?
 upheno_core_manual_phenotypes = create_upheno_core_manual_phenotypes(
     manual_tsv_files=[],
     allimports_dosdp=allimports_dosdp,
@@ -101,8 +102,8 @@ upheno_core_manual_phenotypes = create_upheno_core_manual_phenotypes(
 upheno_ontology_dir = os.path.join(ws, "ontology/")
 upheno_components_dir = os.path.join(upheno_ontology_dir, "components/")
 upheno_relations_ontology = os.path.join(upheno_components_dir, "upheno-relations.owl")
-upheno_extra_axioms_ontology = os.path.join(upheno_components_dir, "upheno-extra.owl")
-upheno_core_parts = [upheno_extra_axioms_ontology, upheno_relations_ontology]
+#upheno_extra_axioms_ontology = os.path.join(upheno_components_dir, "upheno-extra.owl")
+upheno_core_parts = [upheno_relations_ontology]
 upheno_core_parts.extend(upheno_core_manual_phenotypes)
 
 upheno_core_ontology = os.path.join(upheno_prepare_dir, "upheno-core.owl")
