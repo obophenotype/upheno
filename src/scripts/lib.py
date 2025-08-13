@@ -2174,4 +2174,5 @@ class LexicalMapping:
         df_m = df_m[~df_m.apply(self._are_terms_from_same_ontology, axis=1)]
 
 
+        df_m.sort_values(["subject_id","object_id","predicate_id","mapping_justification"], inplace=True)
         df_m.to_csv(mapping_all, sep="\t", index=False)
