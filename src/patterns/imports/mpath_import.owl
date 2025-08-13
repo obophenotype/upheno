@@ -25,9 +25,7 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
@@ -39,9 +37,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
     
 
 
@@ -53,9 +49,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     
 
 
@@ -67,9 +61,7 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     
 
 
@@ -94,16 +86,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_0">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_1000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological structure or process</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:0</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological entity</rdfs:label>
+        <obo:IAO_0000115>Pathological structure or process</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:0</oboInOwl:id>
+        <rdfs:label>pathological entity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_0"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological structure or process</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Curation</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Pathological structure or process</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Pathbase: Curation</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -111,17 +103,17 @@
     <!-- http://purl.obolibrary.org/obo/MPATH_1000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_1000">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotypic observation of the presence or absence of a pathological entity.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:1000</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological phenotype observation</rdfs:label>
+        <obo:IAO_0000115>Phenotypic observation of the presence or absence of a pathological entity.</obo:IAO_0000115>
+        <oboInOwl:created_by>Luke Slater</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:1000</oboInOwl:id>
+        <rdfs:label>pathological phenotype observation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_1000"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotypic observation of the presence or absence of a pathological entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UOB:LTS</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Phenotypic observation of the presence or absence of a pathological entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UOB:LTS</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -130,16 +122,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_603">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_0"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomically located instance of pathological response or entity.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:603</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathological anatomical entity</rdfs:label>
+        <obo:IAO_0000115>Anatomically located instance of pathological response or entity.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:603</oboInOwl:id>
+        <rdfs:label>pathological anatomical entity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_603"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomically located instance of pathological response or entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Anatomically located instance of pathological response or entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -148,16 +140,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_607">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_603"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical entity or structure associated with normal or abnormal tissue healing or repair following extrinsic or intrinsic damage.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:607</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healing and repair structure</rdfs:label>
+        <obo:IAO_0000115>Physical entity or structure associated with normal or abnormal tissue healing or repair following extrinsic or intrinsic damage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:607</oboInOwl:id>
+        <rdfs:label>healing and repair structure</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_607"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical entity or structure associated with normal or abnormal tissue healing or repair following extrinsic or intrinsic damage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathbase: Pathology Committee</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Physical entity or structure associated with normal or abnormal tissue healing or repair following extrinsic or intrinsic damage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Pathbase: Pathology Committee</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -166,21 +158,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_608">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MPATH_607"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A circumscribed collection of purulent exudate frequently associated with swelling and other signs of inflammation.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse_pathology.ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MPATH:608</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generally occur following damage or infection with subsequent inflammatory response. Result of the body`s defensive reaction to foreign material.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abscess</rdfs:label>
+        <obo:IAO_0000115>A circumscribed collection of purulent exudate frequently associated with swelling and other signs of inflammation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>mouse_pathology.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>MPATH:608</oboInOwl:id>
+        <rdfs:comment>Generally occur following damage or infection with subsequent inflammatory response. Result of the body`s defensive reaction to foreign material.</rdfs:comment>
+        <rdfs:label>abscess</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MPATH_608"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A circumscribed collection of purulent exudate frequently associated with swelling and other signs of inflammation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781727286</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A circumscribed collection of purulent exudate frequently associated with swelling and other signs of inflammation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0781727286</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

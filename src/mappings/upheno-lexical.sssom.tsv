@@ -33,7 +33,7 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/a8230809-a095-4ca8-9876-1ba535c12a72
+# mapping_set_id: https://w3id.org/sssom/mappings/1a7a5c02-3557-43ae-a118-25449c6c3190
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string	subject_preprocessing	object_preprocessing
 APO:0000023	development	skos:exactMatch	WBPhenotype:0000518	development phenotype	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	development		semapv:RegularExpressionReplacement
 APO:0000027	filamentous growth	skos:exactMatch	GO:0030447	filamentous growth	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	filamentous growth		
