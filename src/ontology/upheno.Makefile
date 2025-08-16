@@ -505,8 +505,9 @@ $(TMPDIR)/pattern_schema_checks_main: $(ALL_PATTERN_FILES) | $(TMPDIR)
 ../patterns/imports/seed_sorted.txt: ../patterns/imports/seed.txt
 	cat ../patterns/imports/seed.txt | sort | uniq > $@
 
-PATTERN_IMPORTS = pato ro uberon go cl caro uberon-bridge-to-caro chebi mpath nbo
+PATTERN_IMPORTS = pato ro uberon go cl chebi mpath nbo
 PATTERN_IMPORTS_OWL = $(patsubst %, ../patterns/imports/%_import.owl, $(PATTERN_IMPORTS))
+
 ../patterns/imports/%_import.owl: mirror/%.owl ../patterns/imports/seed_sorted.txt
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T ../patterns/imports/seed_sorted.txt --method BOT -O mirror/$*.owl annotate --ontology-iri $(ONTBASE)/patterns/imports/$*_import.owl -o $@; fi
 
