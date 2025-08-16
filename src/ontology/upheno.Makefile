@@ -99,9 +99,10 @@ $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/uberon.sssom
 		--anatomy-mappings $(MAPPINGDIR)/uberon.sssom.tsv \
 		--matches-dir ../curation/pattern-matches \
 		--obsolete-file-tsv ../templates/obsolete.tsv \
-		--output-file-tsv $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv; fi
+		--output-file-tsv $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv \
+		--output-file-owl $(MAPPINGDIR)/upheno-species-independent-eq.sssom.owl; fi
 
-$(MAPPINGDIR)/upheno-species-independent.sssom.tsv: #$(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
+$(MAPPINGDIR)/upheno-species-independent.sssom.tsv: $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
 	sssom parse $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv -I tsv --metadata config/upheno-species-independent.sssom.yml -o $(TMPDIR)/upheno-species-independent-with-meta.sssom.tsv
 	sssom merge $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(TMPDIR)/upheno-species-independent-with-meta.sssom.tsv  -o $(TMPDIR)/upheno-species-independent-merged.sssom.tsv
 	sssom invert $(TMPDIR)/upheno-species-independent-merged.sssom.tsv -o $(TMPDIR)/upheno-species-independent-inverted.sssom.tsv
