@@ -514,8 +514,11 @@ mirror/uberon-bridge-to-caro.owl:
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/uberon-bridge-to-caro.owl
 
+
+# unmerge -i components/pattern-ontology-remove-axioms.owl This step was previously
+# used to remove axioms from the pattern ontology, but is no longer needed
 ../patterns/pattern-with-imports.owl: ../patterns/pattern-merged.owl $(PATTERN_IMPORTS_OWL)
-	$(ROBOT) merge $(addprefix -i , $^) unmerge -i components/pattern-ontology-remove-axioms.owl -o $@
+	$(ROBOT) merge $(addprefix -i , $^) -o $@
 
 ../patterns/pattern.owl: ../patterns/pattern-with-imports.owl
 	$(ROBOT) merge -i ../patterns/pattern-with-imports.owl remove --term http://www.w3.org/2002/07/owl#Nothing reason reduce annotate --ontology-iri $(ONTBASE)/patterns/pattern.owl -o $@
