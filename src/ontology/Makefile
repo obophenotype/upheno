@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                69aaffba443217392fb5895d0bb124c40f532300091c364fc2160edc33f37bac
+CONFIG_HASH=                076964339ab1c8c0df6a530dd04a9d5601405f8c5676db316523d5f47aae39b8
 
 
 # ----------------------------------------
@@ -70,7 +70,7 @@ PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.
 MAPPINGDIR=                 ../mappings
 MAPPING_TESTER=             sssom validate
 SSSOMPY=                    sssom
-MAPPINGS=                   apo-go apo-oba apo-pato upheno-oba upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon 
+MAPPINGS=                   apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon 
 MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.tsv)
 
 
@@ -233,7 +233,7 @@ all_subsets: $(SUBSET_FILES)
 # ----------------------------------------
 
 
-MAPPINGS =  apo-go apo-oba apo-pato upheno-oba upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon
+MAPPINGS =  apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon
 
 
 MAPPING_FILES = $(foreach p, $(MAPPINGS), $(MAPPINGDIR)/$(p).sssom.tsv)
@@ -1033,10 +1033,6 @@ $(MAPPINGDIR)/apo-oba.sssom.tsv:
 
 # This mappingset is manually curated, so we only check that the file actually exists.
 $(MAPPINGDIR)/apo-pato.sssom.tsv:
-	test -f $@
-
-# This mappingset is manually curated, so we only check that the file actually exists.
-$(MAPPINGDIR)/upheno-oba.sssom.tsv:
 	test -f $@
 
 # This mappingset is manually curated, so we only check that the file actually exists.

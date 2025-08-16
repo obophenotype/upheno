@@ -271,8 +271,8 @@ sssom_mappingset_group:
       maintenance: manual
     - id: apo-pato
       maintenance: manual
-    - id: upheno-oba
-      maintenance: manual
+#    - id: upheno-oba (too expensive to compute)
+#      maintenance: manual
     - id: upheno-species-independent
       maintenance: manual
     - id: upheno-species-independent-eq
