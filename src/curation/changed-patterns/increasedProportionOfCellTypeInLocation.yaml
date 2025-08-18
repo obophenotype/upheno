@@ -1,0 +1,38 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  cell: CL:0000000
+  increased proportionality to: PATO:0040043
+  independent continuant: BFO:0000004
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: An increased proportion of %s in the %s.
+  vars:
+  - cell
+  - location
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''increased proportionality to'' and (''inheres_in'' some
+    (%s and (''part_of'' some %s))) and (''towards'' some ''cell'') and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - cell
+  - location
+name:
+  text: increased proportion of %s in %s
+  vars:
+  - cell
+  - location
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/increasedProportionOfCellTypeInLocation.yaml
+pattern_name: increasedProportionOfCellTypeInLocation
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  part_of: BFO:0000050
+  towards: RO:0002503
+vars:
+  cell: '''cell'''
+  location: '''independent continuant'''

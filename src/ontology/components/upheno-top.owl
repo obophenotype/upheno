@@ -1,0 +1,233 @@
+Prefix(:=<http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl>
+<http://purl.obolibrary.org/obo/upheno/releases/2025-08-07/components/upheno-top.owl>
+Annotation(owl:versionInfo "2025-08-07")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002635>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002642>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002816>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002830>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002903>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002948>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002964>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003116>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004459>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004507>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004523>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004536>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049622>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049874>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049904>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050177>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075866>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075901>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0076797>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078688>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078689>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086172>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0087427>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000007>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0001002> (<http://purl.obolibrary.org/obo/UPHENO_0001002>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0001002> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002635> (<http://purl.obolibrary.org/obo/UPHENO_0002635>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002635> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002635> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002642> (<http://purl.obolibrary.org/obo/UPHENO_0002642>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002642> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002642> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002816> (<http://purl.obolibrary.org/obo/UPHENO_0002816>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002816> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002816> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002830> (<http://purl.obolibrary.org/obo/UPHENO_0002830>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002830> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002830> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002833> (<http://purl.obolibrary.org/obo/UPHENO_0002833>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002833> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002833> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002903> (<http://purl.obolibrary.org/obo/UPHENO_0002903>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002903> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002903> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002948> (<http://purl.obolibrary.org/obo/UPHENO_0002948>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002948> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002948> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002964> (<http://purl.obolibrary.org/obo/UPHENO_0002964>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002964> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002964> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0003013> (<http://purl.obolibrary.org/obo/UPHENO_0003013>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0003013> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003013> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0003055> (<http://purl.obolibrary.org/obo/UPHENO_0003055>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0003055> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003055> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0003116> (<http://purl.obolibrary.org/obo/UPHENO_0003116>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0003116> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003116> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0003405> (<http://purl.obolibrary.org/obo/UPHENO_0003405>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0003405> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003405> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0004459> (<http://purl.obolibrary.org/obo/UPHENO_0004459>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0004459> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004459> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0004507> (<http://purl.obolibrary.org/obo/UPHENO_0004507>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0004507> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004507> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0004523> (<http://purl.obolibrary.org/obo/UPHENO_0004523>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0004523> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004523> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0004536> (<http://purl.obolibrary.org/obo/UPHENO_0004536>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0004536> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004536> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0049622> (<http://purl.obolibrary.org/obo/UPHENO_0049622>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0049622> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049622> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0049874> (<http://purl.obolibrary.org/obo/UPHENO_0049874>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0049874> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049874> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0049904> (<http://purl.obolibrary.org/obo/UPHENO_0049904>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0049904> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049904> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0050008> (<http://purl.obolibrary.org/obo/UPHENO_0050008>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0050008> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0050008> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0050177> (<http://purl.obolibrary.org/obo/UPHENO_0050177>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0050177> <http://purl.obolibrary.org/obo/UPHENO_3000004>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0075866> (<http://purl.obolibrary.org/obo/UPHENO_0075866>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0075866> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0075866> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0075901> (<http://purl.obolibrary.org/obo/UPHENO_0075901>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0075901> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0075901> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0076797> (<http://purl.obolibrary.org/obo/UPHENO_0076797>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0076797> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0076797> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0078688> (<http://purl.obolibrary.org/obo/UPHENO_0078688>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0078688> <http://purl.obolibrary.org/obo/UPHENO_3000006>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0078689> (<http://purl.obolibrary.org/obo/UPHENO_0078689>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0078689> <http://purl.obolibrary.org/obo/UPHENO_3000006>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0086172> (<http://purl.obolibrary.org/obo/UPHENO_0086172>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0086172> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0086172> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0087427> (<http://purl.obolibrary.org/obo/UPHENO_0087427>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0087427> <http://purl.obolibrary.org/obo/UPHENO_3000004>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000000> (<http://purl.obolibrary.org/obo/UPHENO_3000000>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000000> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000000> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000001> (<http://purl.obolibrary.org/obo/UPHENO_3000001>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000001> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000001> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000002> (<http://purl.obolibrary.org/obo/UPHENO_3000002>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000002> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000002> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000003> (<http://purl.obolibrary.org/obo/UPHENO_3000003>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000003> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000003> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000004> (<http://purl.obolibrary.org/obo/UPHENO_3000004>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000006> (<http://purl.obolibrary.org/obo/UPHENO_3000006>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000006> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000006> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_3000007> (<http://purl.obolibrary.org/obo/UPHENO_3000007>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000007> <http://purl.obolibrary.org/obo/upheno#top_level>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000007> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
+
+)

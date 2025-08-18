@@ -1,0 +1,33 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+### PUT ALL THE TOP LEVEL CLASSES UNDER THE UPHENO_0001001 CLASS
+
+SELECT ?upheno_id ?label ?equivalent ?top_level (COUNT(DISTINCT ?decendant) AS ?ct_descendants) (COUNT(DISTINCT ?parent) AS ?ct_parents)
+WHERE {
+    ?upheno_id rdfs:subClassOf* <http://purl.obolibrary.org/obo/UPHENO_0001001> ;
+        rdfs:label ?label .
+    
+    OPTIONAL {
+        ?upheno_id oboInOwl:inSubset <http://purl.obolibrary.org/obo/upheno#top_level> .
+        BIND("TRUE" AS ?top_level)
+    }
+
+    OPTIONAL {
+        ?upheno_id owl:equivalentClass ?eq .
+        BIND("TRUE" AS ?equivalent)
+    }
+
+    OPTIONAL {
+        ?decendant rdfs:subClassOf* ?upheno_id .
+        FILTER(isIRI(?decendant))
+    }
+
+    OPTIONAL {
+        ?upheno_id rdfs:subClassOf ?parent .
+        FILTER(isIRI(?parent))
+    }
+}
+GROUP BY ?upheno_id ?label ?equivalent ?top_level

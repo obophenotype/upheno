@@ -1,0 +1,11 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?c ?s WHERE 
+{
+  ?s rdfs:subClassOf* <http://purl.obolibrary.org/obo/UPHENO_0001001> . 
+	?s rdfs:subClassOf* <http://purl.obolibrary.org/obo/UPHENO_0001001> . 
+	?c rdfs:subClassOf* ?s .
+	FILTER(isIRI(?s) && regex(str(?s), "http://purl.obolibrary.org/obo/UPHENO_"))
+	FILTER(?s!=<http://purl.obolibrary.org/obo/UPHENO_0001001>)
+}

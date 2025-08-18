@@ -1,0 +1,41 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: fusion of %s and %s
+  vars:
+  - anatomical_entity
+  - anatomical_entity_fused_with
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  fused: PATO:0000642
+contributors:
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: Any fusion of the %s and the %s.
+  vars:
+  - anatomical_entity
+  - anatomical_entity_fused_with
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''fused'' and (''inheres_in'' some %s) and (''towards''
+    some %s) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - anatomical_entity
+  - anatomical_entity_fused_with
+name:
+  text: fused %s and %s
+  vars:
+  - anatomical_entity
+  - anatomical_entity_fused_with
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyFusedAnatomicalEntities.yaml
+pattern_name: abnormallyFusedAnatomicalEntities
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  towards: RO:0002503
+vars:
+  anatomical_entity: '''anatomical entity'''
+  anatomical_entity_fused_with: '''anatomical entity'''

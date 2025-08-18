@@ -5,13 +5,28 @@ git_main_branch: master
 repo: upheno
 report_fail_on: none
 use_dosdps: TRUE
-use_templates: TRUE
-use_mappings: TRUE
-dosdp_tools_options: "--obo-prefixes=true --restrict-axioms-to=logical"
+dosdp_tools_options: "--obo-prefixes=true"
 robot_opts: -vv
 robot_java_args: -Xmx10G
+timeout_external_processes: 36000
+working_directory: /work/src
+overwrite_matches: False
+skip_pattern_download: False
+max_upheno_id: 9999999
+min_upheno_id: 500
+overwrite_ontologies: False
+overwrite_upheno_intermediate: True
+match_owl_thing: False
+allow_non_upheno_eq: False
+upheno_axiom_blacklist: ../ontology/components/upheno-removed-axioms.owl
+clean: False
+upheno_intermediate_layer_depth: 0
 namespaces: 
   - http://purl.obolibrary.org/obo/UPHENO_
+exclude_patterns:
+  - abnormalMorphologyOfAnatomicalEntity.yaml
+  - abnormalAnatomicalEntityNotParts.yaml
+  - abnormalAbsenceOfBehavior.yaml
 legal_fillers:
   - http://purl.obolibrary.org/obo/GO_
   - http://purl.obolibrary.org/obo/UBERON_
@@ -70,8 +85,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/ro.owl
   - id: chebi
     mirror_from: http://purl.obolibrary.org/obo/chebi.owl
-  - id: hsapdv
-    mirror_from: http://purl.obolibrary.org/obo/hsapdv.owl
   - id: pato
     mirror_from: http://purl.obolibrary.org/obo/pato.owl
   - id: cl
@@ -102,8 +115,6 @@ sources:
     mirror_from: http://purl.obolibrary.org/obo/xao.owl
   - id: zfa-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
-  - id: bspo-uberon
-    mirror_from: https://raw.githubusercontent.com/obophenotype/uberon/master/bridge/uberon-bridge-to-bspo.obo
   - id: caro-uberon
     mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl
   - id: xao-uberon
@@ -166,7 +177,6 @@ sources:
       - bfo
       - xao
       - xao-uberon
-      - bspo-uberon
       - caro-uberon
   - id: planp
     mirror_from: http://purl.obolibrary.org/obo/planp/planp-base.owl
@@ -179,7 +189,6 @@ sources:
     dependencies:
       - plana
       #- plana-uberon
-      - bspo-uberon
       - caro-uberon
       #- ncit
   - id: zp
@@ -196,7 +205,6 @@ sources:
       - mpath
       - bfo
       - zfa-uberon
-      - bspo-uberon
       - caro-uberon
   - id: dpo
     mirror_from: http://purl.obolibrary.org/obo/dpo/dpo-base.owl
@@ -245,167 +253,220 @@ upheno_profiles:
     - wbphenotype
 pattern_repos:
   - obophenotype/upheno/contents/src/patterns/dosdp-dev
-  - obophenotype/upheno/contents/src/patterns/dosdp-patterns
+allow_equivalents: all
 release_artefacts: 
   - base
+  - basic
   - full
-  - custom-mp-hp
-primary_release: base
+  - custom-upheno-base-with-bridge
+  - custom-upheno-equivalence-model
+  - custom-upheno-old-model
+  - custom-upheno-curated
+  - custom-upheno-curated-with-sspo
+sssom_mappingset_group:
+  products:
+    - id: apo-go
+      maintenance: manual
+    - id: apo-oba
+      maintenance: manual
+    - id: apo-pato
+      maintenance: manual
+#    - id: upheno-oba (too expensive to compute)
+#      maintenance: manual
+    - id: upheno-species-independent
+      maintenance: manual
+    - id: upheno-species-independent-eq
+      maintenance: manual
+    - id: upheno-species-independent-manual
+      maintenance: manual
+    - id: upheno-lexical
+      maintenance: manual
+    - id: upheno-cross-species
+      maintenance: manual
+    - id: nbo-go
+      maintenance: manual
+    - id: uberon
+      maintenance: manual
+      # PULL IN?
+primary_release: full
+use_mappings: TRUE
 export_formats:
   - owl
   - obo
   - json
+robot_plugins:
+  plugins:
+    - name: upheno
+      mirror_from: https://github.com/monarch-initiative/monarch-robot-plugins/releases/latest/download/monarch-robot-extensions.jar
+    - name: sssom
+      mirror_from: https://github.com/gouttegd/sssom-java/releases/download/sssom-java-0.9.0/sssom-robot-plugin-0.9.0.jar
 import_group:
   use_base_merging: TRUE
+  base_merge_drop_equivalent_class_axioms: TRUE
   exclude_iri_patterns:
     - <http://purl.obolibrary.org/obo/GOCHE_*>
     - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_*>
     - <http://www.informatics.jax.org/marker/MGI:*>
+    - <http://purl.obolibrary.org/obo/OBI_*>
     - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/XAO_*>
+    - <http://purl.obolibrary.org/obo/WBbt_*>
+    - <http://purl.obolibrary.org/obo/DDANAT_*>
+    - <http://purl.obolibrary.org/obo/CHEBItemp_*>
+    - <http://purl.obolibrary.org/obo/WBls_*>
+    - <http://purl.obolibrary.org/obo/ZFA_*>
+    - <http://purl.obolibrary.org/obo/PLANA_*>
+    - <http://purl.obolibrary.org/obo/FBbt_*>
+    - <http://purl.obolibrary.org/obo/FBdv_*>
+    - <http://purl.obolibrary.org/obo/PCO_*>
+    - <http://purl.obolibrary.org/obo/NCIT_*>
+    - <http://purl.obolibrary.org/obo/COB_*>
+    - <http://purl.obolibrary.org/obo/BTO_*>
+    - <http://www.ebi.ac.uk/efo/EFO_*>
     - <http://purl.obolibrary.org/obo/ENVO_*>
+    - <http://purl.obolibrary.org/obo/SO_*>
+    - <http://purl.obolibrary.org/obo/PO_*>
+    - <http://purl.obolibrary.org/obo/FAO_*>
+    - <http://purl.obolibrary.org/obo/CLM_*>
+    - <http://purl.obolibrary.org/obo/cl#abbreviation*>
+    - <http://purl.obolibrary.org/obo/cl#added_for_HCA*>
+    - <http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION*>
+    - <http://purl.obolibrary.org/obo/uberon/core#COMPARATIVE_PREFERRED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#DEPRECATED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#DUBIOUS*>
+    - <http://purl.obolibrary.org/obo/uberon/core#HOMOLOGY*>
+    - <http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED*>
+    - <http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT*>
+    - <http://purl.obolibrary.org/obo/uberon/core#LATIN*>
+    - <http://purl.obolibrary.org/obo/uberon/core#MISSPELLING*>
+    - <http://purl.obolibrary.org/obo/uberon/core#NON_AMNIOTE*>
+    - <http://purl.obolibrary.org/obo/uberon/core#NON_MAMMAL*>
+    - <http://purl.obolibrary.org/obo/uberon/core#PENDING_REVIEW*>
+    - <http://purl.obolibrary.org/obo/uberon/core#PLURAL*>
+    - <http://purl.obolibrary.org/obo/uberon/core#SENSU*>
+    - <http://purl.obolibrary.org/obo/uberon/core#SYSTEMATIC*>
   slme_individuals: exclude
+  annotation_properties:
+    - rdfs:label
+    - owl:deprecated
+    - IAO:0000115
   mirror_max_time_download: 400
   products:
-    - id: go
+    - id: bfo
       make_base: TRUE
-      mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
-    - id: nbo
-      make_base: TRUE
-    - id: uberon
-      make_base: TRUE
-    - id: cl
-      make_base: TRUE
-    - id: pato
-      make_base: TRUE
-    - id: mpath
-      make_base: TRUE
-    - id: ro
-      use_base: TRUE
     - id: omo
-    - id: chebi
-      make_base: TRUE
-      mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
+    - id: nbo
+      use_base: TRUE
     - id: oba
-      make_base: TRUE
-    - id: ncbitaxon
-      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+      use_base: TRUE
     - id: pr
       make_base: TRUE
       mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
+    - id: go
+      use_base: TRUE
+    - id: uberon 
+      use_base: TRUE
     - id: bspo
-      mirror_from: http://purl.obolibrary.org/obo/bspo.owl
-    - id: ncit
-      mirror_from: http://purl.obolibrary.org/obo/ncit.owl
-    
-    ###### Species specific imports:
-
-    - id: fbbt
       make_base: TRUE
-    - id: fbdv
+    - id: ro
+      use_base: TRUE
+    - id: chebi
       make_base: TRUE
-    
+      mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
     - id: hsapdv
       make_base: TRUE
-    
-    - id: wbls
+      base_iris:
+        - http://purl.obolibrary.org/obo/HsapDv_
+    - id: pato
       make_base: TRUE
-    - id: wbbt
+    - id: cl
+      use_base: TRUE
+    - id: mpath
       make_base: TRUE
-    
-    - id: plana
+    - id: mp
+      use_base: TRUE
+    - id: hp
+      use_base: TRUE
+    - id: dpo
+      use_base: TRUE
+    - id: wbphenotype
+      use_base: TRUE
+    - id: ddpheno
+      use_base: TRUE
+    - id: zp
+      use_base: TRUE
+    - id: xpo
+      use_base: TRUE
+    - id: planp
       make_base: TRUE
-    
-    - id: zfa
+    - id: fypo
+      use_base: TRUE
+    - id: phipo
+      use_base: TRUE
+    - id: mgpo
+      mirror_from: https://raw.githubusercontent.com/monarch-initiative/glyco-phenotype-ontology/master/mgpo-full.owl
       make_base: TRUE
-    
-    - id: xao
+    - id: apo
       make_base: TRUE
-    
-    ### Bridges
-
-    - id: hsapdv-uberon
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-hsapdv.owl
-    - id: zfa-uberon
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfa.owl
-    - id: zfs-uberon
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-zfs.owl
-    #- id: bspo-uberon
-    #  module_type: custom
-    #  mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-bspo.owl
-    - id: xao-uberon
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-xao.owl
-    - id: wbbt-uberon
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl
-    - id: wbls-uberon
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbls.owl
-    - id: fbbt-uberon
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-fbbt.owl
-    - id: xao-cl
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-xao.owl
-    - id: wbbt-cl
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-wbbt.owl
-    #- id: bspo-cl
-    #  module_type: custom
-    #  mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-bspo.owl
-    - id: fbbt-cl
-      module_type: custom
-      mirror_from: http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-fbbt.owl
 components:
   products:
-    - filename: phenotypes_manual.owl
+    - filename: upheno-relations.owl
+      description: "Contains all direct relationships to EQ entities."
+    - filename: upheno-special-inference-rules.owl
+      description: "Contains special inference rules for uPheno that are generally wrong. They are removed at the end of the release process."
+    - filename: upheno-deprecated.owl
+      description: "Contains all the deprecated entities."
       use_template: TRUE
-      template_options: 
       templates:
-        - phenotypes_manual.tsv
-    - filename: phenotypes_derived.owl
+        - obsolete.tsv
+    - filename: upheno-axiom-injections.owl
+      description: "Contains correct axioms that should be moved into their respective upstream ontologies."
       use_template: TRUE
-      template_options: 
+      template_options: "--prefix \"MGPO: http://purl.obolibrary.org/obo/MGPO_\""
       templates:
-        - phenotypes_derived.tsv
-    - filename: upheno-mappings.owl
-      use_mappings: TRUE
+        - axiom-injections.tsv
+    - filename: upheno-top.owl
+      description: "Contains all the top-level entity declarations."
+      use_template: true
+      template_options: "--prefix \"MGPO: http://purl.obolibrary.org/obo/MGPO_\""
+      templates:
+        - phenotype-top-level.tsv
+    - filename: upheno-alignments.owl
+      description: "Contains manual alignments between SSPO classes and uPheno classes."
+      use_template: true
+      template_options: "--prefix \"MGPO: http://purl.obolibrary.org/obo/MGPO_\""
+      templates:
+        - phenotype-alignments.tsv
+        - root-alignments.tsv
+        - upheno-ssspo-alignments-no-eq.tsv
+    - filename: upheno-manual-curation.owl
+      description: "Contains all manually curated uPheno classes (without EQs)."
+      use_template: true
+      template_options: "--prefix \"MGPO: http://purl.obolibrary.org/obo/MGPO_\""
+      templates:
+        - phenotypes-without-patterns.tsv
+        - upheno-ssspo-groupings-no-eq.tsv
+    - filename: upheno-bridge.owl
+      description: "Contains all subclass relationships between SSPOs and uPheno."
+      use_mappings: true
       mappings:
-        - upheno.sssom.tsv
+        - upheno-species-independent.sssom.tsv
+    - filename: upheno-mappings.owl
+      description: "Contains all subclass relationships between SSPOs and uPheno."
 pattern_pipelines_group:
   products:
-    - id: derived_dont_edit
+    - id: automatic
       dosdp_tools_options: "--obo-prefixes=true"
-sssom_mappingset_group:
-  products:
-    - id: upheno
-      description: All mappings from species specific anatomy ontologies to uPheno
-    - id: upheno-lexical
-      description: All mappings from species specific anatomy ontologies to uPheno based on lexical matching
-    - id: upheno-eq
-      description: All mappings from species specific anatomy ontologies to uPheno based on EQs
-    - id: upheno-manual
-      description: All mappings from species specific anatomy ontologies to uPheno based manual curation
-      maintenance: manual
-    - id: uberon
-      maintenance: mirror
-      mirror_from: http://purl.obolibrary.org/obo/uberon/mappings/uberon.sssom.tsv
-    - id: cross-species
-      description: All mappings across species-specific phenotyoe ontologies
-    - id: cross-species-lexical
-      description: All mappings across species-specific phenotype ontologies based on lexical mapping
-    - id: cross-species-upheno
-      description: All mappings across species-specific phenotype ontologies based on upheno mappings (boomer)
-    - id: cross-species-external
-      description: All mappings across species-specific phenotype ontologies based on externally provided mappings
-    - id: cross-species-manual
-      description: All mapppings across species-specific phenotype ontologies based on externally provided mappings
-      maintenance: manual
-    - id: cross-species-negative
-      description: All non-mapppings across species-specific phenotype ontologies (negated mappings, false positives)
-      maintenance: manual
-documentation:
-  documentation_system: mkdocs
+robot_report:
+  release_reports: true
+  fail_on : None
+  use_labels : false
+  custom_profile : true
+  sparql_test_on:
+    - upheno-base.owl
+  report_on :
+    - upheno-base.owl
+  custom_sparql_checks :
+    - owldef-self-reference
+    - iri-range

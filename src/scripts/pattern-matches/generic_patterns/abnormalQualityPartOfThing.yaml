@@ -1,0 +1,26 @@
+pattern_name: abnormalQualityPartOfThing
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/abnormalQualityPartOfThing
+
+classes:
+  pato_id: owl:Thing
+  abnormal: PATO:0000460
+  affected_entity_1_super: owl:Thing
+  affected_entity_1_sub: owl:Thing
+
+relations:
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+
+vars:
+  affected_entity_1_super: "'affected_entity_1_super'"
+  pato_id: "'pato_id'"
+  affected_entity_1_sub: "'affected_entity_1_sub'"
+
+equivalentTo:
+  text: "'has_part' some (%s and ('inheres_in' some (%s and 'part_of' some %s)) and ('qualifier' some 'abnormal'))"
+  vars:
+    - pato_id
+    - affected_entity_1_sub
+    - affected_entity_1_super

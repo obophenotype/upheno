@@ -1,0 +1,41 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: '%s thickness phenotype'
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+  thickness: PATO:0000915
+contributors:
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0002-6490-7723
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0003-4606-0597
+def:
+  text: Changed thickness of %s in a dimension that is perpendicular to its length
+    or width.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some ( ''thickness'' and (''characteristic_of'' some %s) and
+    (''has_modifier'' some ''abnormal'') )'
+  vars:
+  - anatomical_entity
+name:
+  text: '%s thickness phenotype'
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalThicknessOfAnatomicalEntity.yaml
+pattern_name: abnormalThicknessOfAnatomicalEntity
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+vars:
+  anatomical_entity: '''anatomical_entity'''

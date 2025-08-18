@@ -1,0 +1,8 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?s ?x WHERE 
+{
+  ?s rdfs:subClassOf* <http://purl.obolibrary.org/obo/UPHENO_0001001> . 
+	?s <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ?x
+}

@@ -1,0 +1,39 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: duplication of %s
+  vars:
+  - anatomical_entity
+- annotationProperty: exact_synonym
+  text: duplicated %s
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  duplicated: PATO:0001473
+contributors:
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: Any duplication of the %s.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''duplicated'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - anatomical_entity
+name:
+  text: duplication of %s
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDuplicatedAnatomicalEntity.yaml
+pattern_name: abnormallyDuplicatedAnatomicalEntity
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  anatomical_entity: '''anatomical entity'''

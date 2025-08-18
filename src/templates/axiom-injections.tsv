@@ -1,0 +1,4 @@
+subject_id	label	type	object_id	occurs_in	comment_occurs_in
+ID	LABEL	TYPE	SC %	SC 'occurs in' some %	
+BFO:0000066	occurs in	owl:ObjectProperty			
+GO:0003013				UBERON:0001009	So that we can infer that a circulatory process phenotype is also a circulatory system phenotype

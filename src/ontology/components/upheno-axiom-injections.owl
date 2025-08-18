@@ -1,0 +1,36 @@
+Prefix(:=<http://purl.obolibrary.org/obo/upheno/components/upheno-axiom-injections.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-axiom-injections.owl>
+<http://purl.obolibrary.org/obo/upheno/releases/2025-08-07/components/upheno-axiom-injections.owl>
+Annotation(owl:versionInfo "2025-08-07")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001009>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000066> (occurs in)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000066> "occurs in")
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/GO_0003013> (<http://purl.obolibrary.org/obo/GO_0003013>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0001009>))
+
+
+)

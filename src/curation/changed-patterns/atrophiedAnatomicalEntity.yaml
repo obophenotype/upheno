@@ -1,0 +1,37 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: atrophy of the %s
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  atrophied: PATO:0001623
+contributors:
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: Partial or complete wasting (loss) of %s tissue that was once present.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''atrophied'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - anatomical_entity
+name:
+  text: '%s atrophy'
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/atrophiedAnatomicalEntity.yaml
+pattern_name: atrophiedAnatomicalEntity
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  anatomical_entity: '''anatomical entity'''

@@ -1,0 +1,36 @@
+Prefix(:=<http://purl.obolibrary.org/obo/upheno/upheno-alignments.owl>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/upheno-alignments.owl>
+
+############################
+#   Classes
+############################
+
+#### From XPO
+SubClassOf(obo:XAO_0004208 obo:XAO_0004620)
+SubClassOf(obo:XAO_0000240 obo:XAO_0004620)
+EquivalentClasses(obo:CARO_0000007 ObjectIntersectionOf(obo:CARO_0000000 ObjectComplementOf(ObjectSomeValuesFrom(obo:RO_0000053 obo:PATO_0000125))))
+
+
+### From RO
+SubObjectPropertyOf(obo:RO_0002131 obo:RO_0002323)
+SubObjectPropertyOf(obo:RO_0002131 obo:RO_0002328)
+SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002202) obo:RO_0002254)
+ObjectPropertyDomain(obo:RO_0001025 ObjectIntersectionOf(obo:BFO_0000004 ObjectComplementOf(obo:BFO_0000006)))
+ObjectPropertyRange(obo:RO_0001025 ObjectIntersectionOf(obo:BFO_0000004 ObjectComplementOf(obo:BFO_0000006)))
+
+### From GO
+# Again some problems with overlaps..
+EquivalentClasses(obo:GO_0098521 ObjectIntersectionOf(obo:GO_0060077 ObjectSomeValuesFrom(obo:RO_0002131 obo:CL_0000100) ObjectSomeValuesFrom(obo:RO_0002131 obo:CL_0000187)))
+
+### From ZP
+#EquivalentClasses(obo:ZP_0103989 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:PATO_0000462 ObjectSomeValuesFrom(obo:RO_0000052 ObjectIntersectionOf(obo:ZFA_0001285 ObjectSomeValuesFrom(obo:BFO_0000050 obo:ZFA_0005110))) ObjectSomeValuesFrom(obo:RO_0002573 obo:PATO_0000460))))
+
+)

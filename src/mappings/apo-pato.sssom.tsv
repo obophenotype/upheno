@@ -1,0 +1,25 @@
+subject_id	subject_label	predicate_id	object_id	object_label	comment	observable?
+APO:0000003	decreased	skos:exactMatch	PATO:0002301	decreased quality		#N/A
+APO:0000004	increased	skos:exactMatch	PATO:0002300	increased quality		#N/A
+APO:0000112	inviable	skos:exactMatch	PATO:0000718	lethal (sensu genetics)	Alternatively: PATO:0001422 dead	1
+APO:0000113	viable	skos:exactMatch	PATO:0000719	viable		1
+APO:0000002	abnormal	skos:exactMatch	PATO:0000069	deviation (from_normal)		#N/A
+APO:0000117	normal	skos:exactMatch	PATO:0000461	normal		#N/A
+APO:0000245	decreased rate	skos:exactMatch	PATO:0000911	decreased rate		#N/A
+APO:0000152	haploinsufficient	skos:broadMatch	PATO:0000069	deviation (from_normal)	This is a class which is an amalgam of phenotype and genotype.	1
+APO:0000005	absent	skos:exactMatch	PATO:0000462	absent		#N/A
+APO:0000097	auxotrophy	skos:exactMatch	PATO:0000422	auxotrophic		1
+APO:0000246	increased rate	skos:exactMatch	PATO:0000912	increased rate		#N/A
+APO:0000252	normal rate	skos:exactMatch	PATO:0045000	normal rate		#N/A
+APO:0000250	arrested	skos:exactMatch	PATO:0000297	arrested		#N/A
+APO:0000249	delayed	skos:exactMatch	PATO:0000502	delayed		#N/A
+APO:0000330	haploproficient	skos:broadMatch	PATO:0000719	viable	This is a class which is an amalgam of phenotype and genotype.	1
+APO:0000045	sterile	skos:exactMatch	PATO:0000956	sterile		1
+APO:0000248	increased duration	skos:exactMatch	PATO:0000498	increased duration		#N/A
+APO:0000251	premature	skos:exactMatch	PATO:0000694	premature		#N/A
+APO:0000247	decreased duration	skos:exactMatch	PATO:0000499	decreased duration		#N/A
+APO:0000149	protein/peptide accumulation	skos:broadMatch	PATO:0002269	accumulation		1
+APO:0000153	petite	skos:broadMatch	PATO:0040045	population growth rate	This is a complex phenotype. It can be modelled as 1: abnormal GO:0009060 aerobic respiration, or 2: decreased colony size.	1
+APO:0000154	petite-negative	skos:broadMatch	PATO:0040045	population growth rate	This is a conditional phenotype, where the observable characteristics depend on a particular genotype. In other words, this class is an amalgam of phenotype and genotype.	1
+APO:0000336	aneuploidy	skos:exactMatch	PATO:0001385			1
+APO:0000337	polyploidy	skos:exactMatch	PATO:0001377			1

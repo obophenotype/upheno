@@ -1,54 +1,31 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/upheno.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno.owl>
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/nbo_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/pr_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/go_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/uberon_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/ro_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/chebi_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/hsapdv_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/pato_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/cl_import.owl>)
-
-Import(<http://purl.obolibrary.org/obo/upheno/imports/mpath_import.owl>)
-
-
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-axiom-injections.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-bridge.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-manual-curation.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-mappings.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-relations.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-special-inference-rules.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl>)
+Import(<http://purl.obolibrary.org/obo/upheno/imports/merged_import.owl>)
 Import(<http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+Annotation(dcterms:description "The Unified Phenotype Ontology (uPheno) is an ontology that integrates other species-specific phenotype ontologies.")
+Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
+Annotation(dcterms:title "Unified Phenotype Ontology (uPheno)")
 
-Annotation(dce:title "Unified Phenotype Ontology")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dce:description "None")
-
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_00000000>))
-
-
-############################
-#   Classes
-############################
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_00000000>
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_00000000> "root node"@en)
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
+Declaration(AnnotationProperty(dcterms:title))
 
 
 )
-

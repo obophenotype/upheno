@@ -740,7 +740,7 @@ This is a listing of all the patterns hosted as part of this directory
 
 | Attribute | Info |
 |----------|----------|
-| IRI | http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml |
+| IRI | http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml |
 | Name | abnormalNumberOfAnatomicalEntityInLocation |
 | Classes | PATO:0000070, PATO:0000460, UBERON:0001062, BFO:0000004,  |
 | Variables | anatomical entity (UBERON:0001062), independent continuant (BFO:0000004),  |

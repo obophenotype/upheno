@@ -1,0 +1,56 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: decreased wetness of %s
+  vars:
+  - anatomical_entity
+- annotationProperty: exact_synonym
+  text: decreased %s surface wetness
+  vars:
+  - anatomical_entity
+- annotationProperty: exact_synonym
+  text: decreased %s wetness
+  vars:
+  - anatomical_entity
+- annotationProperty: related_synonym
+  text: '%s dryness'
+  vars:
+  - anatomical_entity
+- annotationProperty: related_synonym
+  text: dry %s
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+  decreased_surface_wetness: PATO:0001826
+contributors:
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0003-4606-0597
+- https://orcid.org/0000-0002-6490-7723
+- https://orcid.org/0000-0002-4142-7153
+- https://orcid.org/0000-0001-7941-2961
+def:
+  text: A relatively low wetness on the surface of %s.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some ( ''decreased_surface_wetness'' and (''characteristic_of''
+    some %s) and (''has_modifier'' some ''abnormal'') )'
+  vars:
+  - anatomical_entity
+name:
+  text: decreased surface wetness of %s
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedWetnessOfAnatomicalEntity.yaml
+pattern_name: abnormallyDecreasedWetnessOfAnatomicalEntity
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+vars:
+  anatomical_entity: '''anatomical_entity'''
