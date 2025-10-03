@@ -1,12 +1,11 @@
-pattern_name: abnormallyDilatedAnatomicalEntity
+pattern_name: abnormallyDilatedImmaterialAnatomicalEntity
 
-pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDilatedAnatomicalEntity.yaml
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyImmaterialDilatedAnatomicalEntity.yaml
 
-description: 'An abnormally dilated anatomical entity, for example, an abnormally dilated cardiac ventricle.'
+description: 'An abnormally dilated immaterial anatomical entity, for example, an abnormally dilated cavity of a cardiac ventricle. This pattern should be used when there is a term for the lumen/cavity/space within the anatomical entity. If not space term exists use the abnormallyDilatedAnatomicalEntityLumne pattern.'
 
 # examples:
 #  - http://purl.obolibrary.org/obo/HP_0010955
-#  - http://purl.obolibrary.org/obo/XPO_0115624
 #  - http://purl.obolibrary.org/obo/MP_0001123
 
 contributors:
@@ -16,7 +15,7 @@ contributors:
 
 classes:
   abnormal: PATO:0000460
-  anatomical_entity: UBERON:0001062
+  immaterial_anatomical_entity: UBERON:0000466
   dilated: PATO:0001571
 
 relations:
@@ -28,30 +27,30 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
-  anatomical_entity: "'anatomical_entity'"
+  immaterial_anatomical_entity: "'immaterial anatomical_entity'"
 
 name:
   text: "abnormally dilated %s"
   vars:
-    - anatomical_entity
+    - immaterial_anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
     text: "abnormal %s dilation"
     vars:
-      - anatomical_entity
+      - immaterial_anatomical_entity
 
   - annotationProperty: exact_synonym
     text: "dilated %s"
     vars:
-      - anatomical_entity
+      - immaterial_anatomical_entity
 
 def:
   text: "Abnormal dilation of %s."
   vars:
-    - anatomical_entity
+    - immaterial_anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('dilated' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
+    - immaterial_anatomical_entity

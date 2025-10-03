@@ -2,7 +2,7 @@ pattern_name: abnormallyDilatedAnatomicalEntityLumen
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDilatedAnatomicalEntityLumen.yaml
 
-description: 'An abnormally dilated lumen/cavity/space of anatomical entity, for example, an abnormally dilated capillary lumen. This covers anatomical entities for which there is not separate term for the lumen/cavity/space within the entity. If there is a term for the space within an entity you should us the abnormallyDilatedAnatomicalEntity pattern.'
+description: 'An abnormally dilated lumen/cavity/space of anatomical entity, for example, an abnormally dilated capillary lumen. This covers anatomical entities for which there is not a separate term for the lumen/cavity/space within the entity. If there is a term for the space within an entity you should use the abnormallyDilatedImmaterialAnatomicalEntity pattern.'
 
 # examples:
 #  - http://purl.obolibrary.org/obo/XPO_0115624
@@ -13,7 +13,7 @@ contributors:
 
 classes:
   abnormal: PATO:0000460
-  anatomical_entity: UBERON:0001062
+  material_anatomical_entity: UBERON:0000465
   dilated: PATO:0001571
   anatomical space: UBERON:0000464
 
@@ -27,30 +27,30 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
-  anatomical_entity: "'anatomical_entity'"
+  material_anatomical_entity: "'material anatomical_entity'"
 
 name:
   text: "abnormally dilated %s"
   vars:
-    - anatomical_entity
+    - material_anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
     text: "abnormal %s dilation"
     vars:
-      - anatomical_entity
+      - material_anatomical_entity
 
   - annotationProperty: exact_synonym
     text: "dilated %s"
     vars:
-      - anatomical_entity
+      - material_anatomical_entity
 
 def:
   text: "Abnormal dilation of the lumen of %s."
   vars:
-    - anatomical_entity
+    - material_anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('dilated' and ('characteristic_of' some ('anatomical space' and ('luminal space of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:
-    - anatomical_entity
+    - material_anatomical_entity
