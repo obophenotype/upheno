@@ -2,7 +2,7 @@ pattern_name: abnormallyDilatedAnatomicalEntityLumen
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDilatedAnatomicalEntityLumen.yaml
 
-description: 'An abnormally dilated lumen/cavity/space of anatomical entity, for example, an abnormally dilated capillary lumen. This covers anatomical entities for which there is not a separate term for the lumen/cavity/space within the entity. If there is a term for the space within an entity you should use the abnormallyDilatedImmaterialAnatomicalEntity pattern.'
+description: 'An abnormally dilated lumen/cavity/space of anatomical entity, for example, an abnormally dilated capillary lumen. This covers anatomical entities for which there is not a separate term for the lumen/cavity/space within the entity. If there is a term for the space within an entity you should use the abnormallyDilatedAnatomicalEntity pattern.'
 
 # examples:
 #  - http://purl.obolibrary.org/obo/XPO_0115624
