@@ -2,7 +2,7 @@ pattern_name: abnormallyDilatedImmaterialAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDilatedAnatomicalEntity.yaml
 
-description: 'An abnormally dilated immaterial anatomical entity, for example, an abnormally dilated cavity of a cardiac ventricle. This pattern should be used when there is a term for the lumen/cavity/space within the anatomical entity. If not space term exists use the abnormallyDilatedAnatomicalEntityLumne pattern.'
+description: 'An abnormally dilated immaterial anatomical entity, for example, an abnormally dilated cavity of a cardiac ventricle. This pattern should be used when there is a term for the lumen/cavity/space within the anatomical entity. If no space term exists use the abnormallyDilatedAnatomicalEntityLumen pattern.'
 
 # examples:
 #  - http://purl.obolibrary.org/obo/HP_0010955
@@ -27,7 +27,7 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
-  immaterial_anatomical_entity: "'immaterial anatomical_entity'"
+  immaterial_anatomical_entity: "'immaterial_anatomical_entity'"
 
 name:
   text: "abnormally dilated %s"
