@@ -1,0 +1,2689 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://obophenotype.github.io/upheno/reference/data-integration/">
+      
+      
+        <link rel="prev" href="../phenotype-data/">
+      
+      
+        <link rel="next" href="../eq/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Integrating phenotype data with the uPheno framework - Unified Phenotype Ontology</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#integrating-phenotype-data-using-the-upheno-framework" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Unified Phenotype Ontology" class="md-header__button md-logo" aria-label="Unified Phenotype Ontology" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Unified Phenotype Ontology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Integrating phenotype data with the uPheno framework
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/obophenotype/upheno/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Getting started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../cite/" class="md-tabs__link">
+        
+  
+    
+  
+  Cite
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        
+  
+    
+  
+  About uPheno
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../organization/meetings/" class="md-tabs__link">
+          
+  
+  uPheno community effort
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../odk-workflows/" class="md-tabs__link">
+          
+  
+  How-to guides
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../tutorials/analysis/" class="md-tabs__link">
+          
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../core-concepts/" class="md-tabs__link">
+          
+  
+  Reference
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://monarch-initiative.github.io/monarch-documentation/" class="md-tabs__link">
+        
+  
+    
+  
+  Other Monarch Docs
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Unified Phenotype Ontology" class="md-nav__button md-logo" aria-label="Unified Phenotype Ontology" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Unified Phenotype Ontology
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/obophenotype/upheno/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cite/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cite
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About uPheno
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    uPheno community effort
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            uPheno community effort
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organization/meetings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meetings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organization/outreach/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outreach
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    How-to guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            How-to guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Standard ODK workflows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Standard ODK workflows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/EditorsWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editors Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/ReleaseWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Release Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/RepoManagement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage your ODK Repository
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/RepositoryFileStructure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Your ODK Repository Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/SettingUpDockerForODK/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting up Docker for ODK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/UpdateImports/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage imports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/ManageDocumentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/ContinuousIntegration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage Continuous Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/ManageAutomatedTest/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage automated tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../odk-workflows/components/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview of components
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Advanced Phenotype Ontology Editor workflows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Advanced Phenotype Ontology Editor workflows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../howto/run-upheno2-release/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to run a uPheno 2 release
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../howto/set-up-s3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to set up s3 for uploading upheno data files
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../howto/custom-upheno-makefile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add custom uPheno Makefile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../howto/add-relation-extension/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add the uPheno direct relation extension
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../howto/pattern-merge-replace-workflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pattern merge - replace workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../howto/editors_workflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phenotype Ontology Editors' Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using uPheno in Data Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/curation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using uPheno in Curation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Reference
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../core-concepts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Core concepts of phenotype data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phenotype-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phenotype data in practice
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Integrating phenotype data with the uPheno framework
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Integrating phenotype data with the uPheno framework
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#integrating-phenotype-data-using-the-upheno-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating phenotype data using the uPheno framework
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Integrating phenotype data using the uPheno framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-1-integration-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 1 integration: Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level 1 integration: Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integrating-cross-species-pre-coordinated-phenotype-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating cross-species pre-coordinated phenotype data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrating-post-coordinated-phenotype-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating post-coordinated phenotype data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrating-quantitative-phenotype-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating quantitative phenotype data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrating-unstructured-phenotype-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating unstructured phenotype data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-2-integration-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Level 2 integration: Knowledge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    EQ modelling
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            EQ modelling
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview of EQ modelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modelling/abnormal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Abnormal phenotypes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modelling/absence/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Absence modelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reconciliation-effort/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Phenotype Reconciliation Effort
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Cases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_7" id="__nav_7_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Components
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_7">
+            <span class="md-nav__icon md-icon"></span>
+            Components
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/dpo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drosophila Phenotype Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/fypo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fission Yeast Phenotype Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/hp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human Phenotype Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/mp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mammalian Phenotype Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/wbphenotype/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    C. elegans Phenotype Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/zp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zebrafish Phenotype Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_8" id="__nav_7_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Aligning with other ontologies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_8">
+            <span class="md-nav__icon md-icon"></span>
+            Aligning with other ontologies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phenotype-ontology-alignment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_9" id="__nav_7_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Imports
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_9">
+            <span class="md-nav__icon md-icon"></span>
+            Imports
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imports/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imports/go/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imports/uberon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uberon
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imports/pato/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PATO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_10" id="__nav_7_10_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Mappings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_10">
+            <span class="md-nav__icon md-icon"></span>
+            Mappings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mappings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mappings/mp_hp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MP-HP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_11" id="__nav_7_11_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Quality Control
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_11">
+            <span class="md-nav__icon md-icon"></span>
+            Quality Control
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qc/odk_checks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Standard OBO checks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_12" id="__nav_7_12_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Design Patterns
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_12">
+            <span class="md-nav__icon md-icon"></span>
+            Design Patterns
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../patterns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design Patterns Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://monarch-initiative.github.io/monarch-documentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Other Monarch Docs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/obophenotype/upheno/edit/master/docs/reference/data-integration.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+    </a>
+  
+  
+
+
+  <h1>Integrating phenotype data with the uPheno framework</h1>
+
+<h2 id="integrating-phenotype-data-using-the-upheno-framework">Integrating phenotype data using the uPheno framework<a class="headerlink" href="#integrating-phenotype-data-using-the-upheno-framework" title="Permanent link">&para;</a></h2>
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="../core-concepts/">Familiarise yourself with the core concepts</a></li>
+<li><a href="../phenotype-data/">Familiarise the basics of phenotype data</a></li>
+</ul>
+<h3 id="level-1-integration-data">Level 1 integration: Data<a class="headerlink" href="#level-1-integration-data" title="Permanent link">&para;</a></h3>
+<p>Before we get started, let's remind ourselves of the basic structure of phenotype data.</p>
+<p><img alt="Core concepts" src="../../images/core_concepts.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Figure 1: Core concepts</p>
+<p><em>Characteristics</em> (A) and <em>bearers</em> of characteristics (B) are the core constituents of traits/biological attributes (C). <em>Phenotypes</em> are comprised of trait terms (C) combined with a modifier (D). Species-specific phenotypes (F), including <em>phenotypic abnormalities</em> defined in the Human Phenotype Ontology (HPO) are feature of diseases (G). Measurements (H), such as assays, quantify or qualify (measure) traits (C).</p>
+</div>
+<p>Phenotype data can be integrated to various degrees into the uPheno framework. Please note:</p>
+<div class="admonition note">
+<p class="admonition-title">The goal of phenotype data integration</p>
+<p>The goal of phenotype data integration in the sense of this document is to associate phenotype data records with pre-coordinated trait and/or phenotype terms from a phenotype ontology.</p>
+</div>
+<p>The <a href="../use-cases/">promise of phenotype data integrated this way</a> ranges from simple data aggregation (give me all data pertaining to changed levels of amino acids)
+to complex semantic comparisons of phenotypic profiles for matching patients to diseases.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The question of how to turn phenotype data records into <a href="https://biolink.github.io/biolink-model/association-examples-with-qualifiers/">associations</a>,
+for example for use in a knowledge graph, is out of scope for this document. We are only concerned with how the phenotype described by the data record
+can be integrated.</p>
+</div>
+<p>The "uPheno framework" is a loose term that describes a family of techniques and ontologies. In terms of ontologies, it includes (among others):</p>
+<ul>
+<li>The Phenotype And Trait Ontology (PATO) for the representation of general characteristics (the fact that its called "Phenotype and Trait" is a bit misleading, as it contains a lot of characteristics that are widely used also for environmental data, like <code>weight</code> and <code>amount</code>)</li>
+<li>The Ontology of Biological Attributes (OBA) for the representation of biological traits</li>
+<li>The Unified Phenotype Ontology (uPheno) for the representation of phenotypic change</li>
+</ul>
+<p>As can be seen in Figure 1 at the top of this document, all of these are interconnected:</p>
+<ol>
+<li>Biological traits (e.g. "lysine level in the blood") in OBA are a direct extension of the "general" characteristics described in PATO (e.g. "level", or "amount").</li>
+<li>Terms describing phenotypic change (such as "decreased levels of lysine in the blood") are automatically liked to their corresponding traits (at the time of this writing using "has part", for reasons too complicated to explain here)</li>
+</ol>
+<!--TODO: We should probably add an FAQ about the "has-part" modelling choice. -->
+
+<p>Integrating all kinds of phenotype data into the "uPheno framework" is a complex process which we will break down in the following.
+We will look at a <a href="../phenotype-data/">range of different kinds of phenotype data</a> to illustrate the system (not exhaustive!):</p>
+<ul>
+<li><a href="#cross-species">Integrating cross-species pre-coordinated phenotype data</a></li>
+<li><a href="#postcoordinated">Integrating post-coordinated phenotype data</a></li>
+<li><a href="#quantitative">Integrating quantitative phenotype data</a></li>
+<li><a href="#unstructured">Integrating unstructured phenotype data</a></li>
+</ul>
+<p><a id="cross-species"></a></p>
+<h4 id="integrating-cross-species-pre-coordinated-phenotype-data">Integrating cross-species pre-coordinated phenotype data<a class="headerlink" href="#integrating-cross-species-pre-coordinated-phenotype-data" title="Permanent link">&para;</a></h4>
+<p><img alt="uPheno cross-species" src="../../images/upheno-cross-species.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Figure 2: uPheno cross-species integration</p>
+<p>uPheno integrates species-specific pre-coordinated phenotype ontologies such as HPO and ZP.
+Species specific phenotype terms like "enlarged heart (ZP)" or "Enlarged heart (HPO)" are
+integrated under a common uPheno class which is species-independent.</p>
+</div>
+<p>The simplest form of phenotype integration is grouping cross-species, pre-coordinated
+phenotype terms under species independent parents. There are two basic techniques to consider here:</p>
+<ol>
+<li><a href="#designpattern">Design pattern-driven integration</a>.</li>
+<li><a href="#mapping">Mapping-based integration</a></li>
+</ol>
+<p><a id="designpattern"></a></p>
+<p>Integration using <em>design patterns</em> is a very laborious process and works as follows:</p>
+<ol>
+<li>A <em>common design pattern</em> is defined for a group of phenotypes.
+For example, the phenotypic abnormality "decreased lysine level in the blood" follows the pattern <a href="http://purl.obolibrary.org/obo/upheno/patterns/abnormalLevelOfChemicalEntityInLocation.yaml">abnormal amount of chemical entity in location</a>.
+A large number of such design patterns have been defined in the <a href="https://github.com/INCATools/dead_simple_owl_design_patterns">Dead Simple Ontology Design Patterns (DOSDP) format</a> by the <a href="../reconciliation-effort/">Phenotype Ontology Reconciliation Effort</a> and can be <a href="https://github.com/obophenotype/upheno/tree/master/src/patterns/dosdp-patterns">browsed here</a>.</li>
+<li>Species-specific phenotype ontologies implement those patterns to define phenotype terms in their ontology logically.</li>
+<li>uPheno terms are automatically generated for all existing phenotype terms defined this way by simply generating a new, species-indepedent terms that disregards the taxon-constraints imposed by species-specific ontologies. For example, if the Zebrafish Phenotype Ontology (ZP) uses Zebrafish Anatomy Ontology (ZFA) terms, they are generalised to Uberon terms, which are species independent anatomy terms.</li>
+<li>Now we can simply stick the generated uPheno classes and the species-specific phenotype ontology terms together, run an OWL reasoner such as Elk and get the groupings we want.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The process of defining pre-coordinated ontology terms using logical definitions is
+extremely labourious.
+The situation is aggrevated by the fact that selecting the right pattern for a given
+phenotype is error prone, so that two communities could end up defining "analogous phenotypes" using different patterns, which results in them not being integrated well or at all.
+The <a href="../reconciliation-effort/">Phenotype Ontology Reconciliation Effort</a> is a
+big effort to try and mitigate this through community coordination (<a href="../../organization/meetings/">reconciliation meetings</a>).
+In 2024, we are slowly beginning to experiment with scaling this bottleneck by emplying
+Large Language Models to help curating such definitions automatically, with tools like
+<a href="https://github.com/monarch-initiative/ontogpt">ontogpt</a>.</p>
+</div>
+<p><em>Mapping-based integration</em> is less powerful, but more scalable that pattern driven solutions and essential to describe phenotypes that cannot be described using EQ definitions.
+It works as follows:</p>
+<ol>
+<li>Matching tools are employed to generate mapping candidates across species-specific phenotype ontologies.</li>
+<li>Curators review mapping candidates and store them in a common format (for example, MGI is curating a set of <a href="https://github.com/mapping-commons/mh_mapping_initiative/blob/master/mappings/mp_hp_mgi_all.sssom.tsv">MP-HP mappings</a>, Monarch Initiative is publishing logical and lexical cross-species mappings in their <a href="https://github.com/monarch-initiative/monarch-mapping-commons">Mapping Commons</a>, etc).</li>
+<li>During the automated construction of uPheno, mapped classes are grouped under a common uPheno parent, even if a logical pattern cannot be precisely determined.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>As of April 2024, the process of grouping mapped phenotypes under a common uPheno concept is under still development and has not yet been included in the main uPheno framework.</p>
+</div>
+<p><a id="postcoordinated"></a></p>
+<h4 id="integrating-post-coordinated-phenotype-data">Integrating post-coordinated phenotype data<a class="headerlink" href="#integrating-post-coordinated-phenotype-data" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before reading this section make sure you understand what <a href="../phenotype-data/">post-coordinated phenotype data is</a>.</p>
+</div>
+<p>Lets remind ourselves of an example of post-coordinated phenotype data from ZFIN:</p>
+<table>
+<thead>
+<tr>
+<th>Fish ID</th>
+<th>Affected Structure or Process 1 subterm ID</th>
+<th>Affected Structure or Process 1 subterm Name</th>
+<th>Post-composed Relationship ID</th>
+<th>Post-composed Relationship Name</th>
+<th>Affected Structure or Process 1 superterm ID</th>
+<th>Affected Structure or Process 1 superterm Name</th>
+<th>Phenotype Keyword ID</th>
+<th>Phenotype Keyword Name</th>
+<th>Phenotype Tag</th>
+<th>Affected Structure or Process 2 subterm ID</th>
+<th>Affected Structure or Process 2 subterm name</th>
+<th>Post-composed Relationship (rel) ID</th>
+<th>Post-composed Relationship (rel) Name</th>
+<th>Affected Structure or Process 2 superterm ID</th>
+<th>Affected Structure or Process 2 superterm name</th>
+<th>Publication ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ZDB-FISH-210421-9</td>
+<td>ZFA:0009290</td>
+<td>glutamatergic neuron</td>
+<td>BFO:0000050</td>
+<td>part_of</td>
+<td>ZFA:0000008</td>
+<td>brain</td>
+<td>PATO:0040043</td>
+<td>increased proportionality to</td>
+<td>abnormal</td>
+<td>ZFA:0009276</td>
+<td>GABAergic neuron</td>
+<td>BFO:0000050</td>
+<td>part_of</td>
+<td>ZFA:0000008</td>
+<td>brain</td>
+<td>ZDB-PUB-191011-2</td>
+</tr>
+</tbody>
+</table>
+<p>The entities comprising the phentype are:</p>
+<ul>
+<li>ZFA:0009290 (glutamatergic neuron): The primary entity whose characteristic is being observed</li>
+<li>BFO:0000050 (part of): a relation used to connect the primary entity to the structure it is part of</li>
+<li>ZFA:0000008 (brain): the location of the primary entity being observed</li>
+<li>PATO:0040043 (increased proportionality to): the modified characteristic being observed</li>
+<li>abnormal: the change modifier (note: not an ontology term)</li>
+<li>ZFA:0009276 (GABAergic neuron): the secondary entity being observed in relation to which the characteristic is measured</li>
+<li>
+<p>ZFA:0000008 (brain): the location of the secondary entity</p>
+</li>
+<li>
+<p>We can down define a pattern for capturing this phenotype (in this case, an <a href="https://github.com/obophenotype/zebrafish-phenotype-ontology/blob/master/src/patterns/dosdp-patterns/abnormalQualityPartOfThingTowardsPartOfThing.yaml">as-of-yet non-standard pattern</a>) that is compatible with the Entity-Quality model employed by the uPheno framework.</p>
+</li>
+<li>Next, we map the constituents of the phenotype (or rather, the columns in the ZFIN data table) to slots in the design pattern.</li>
+<li>Now, we can simply generate the complete class, including labels and logical definitions and proceed with <a href="#designpattern">pre-coordinated integration</a> as described above.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Example: brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal</p>
+<p>The interested reader may look at an integrated version of that huge post-coordinated expression <a href="https://www.ebi.ac.uk/ols4/ontologies/zp/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FZP_0141834">here (brain increased proportionality to glutamatergic neuron GABAergic neuron brain, abnormal - ZP:0141834)</a>.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Should we pre-coordinate <em>all</em> post-coordinate phenotype data?</p>
+<p>The <a href="https://www.ebi.ac.uk/ols4/ontologies/zp">Zebrafish Phenotype Ontology (ZP)</a> and the
+<a href="https://www.ebi.ac.uk/ols4/ontologies/xpo">Xenopus Phenotype Ontology (XPO)</a> are two examples of efforts where pre-coordinated phenotype ontologies where constructed completely from design patterns. However, it is not always necessary to formally publish pre-coordinated ontologies for all available phenotype data.
+The <a href="https://monarchinitiative.org/">Monarch Initiative</a> for example chooses to directly generate <em>species-independent</em> grouping classes for some of the post-coordinated phenotype data ingests they support for inclusion in their knowledge graphs, such as some FlyBase datasets and SGD phenotype data.
+In other scenarios, <em>not even that may be necessary</em>. A semantic data scientist may simply choose to generate <em>temporary</em> classes from post-coordinated phenotype data, run their analysis and discard them afterwards.</p>
+</div>
+<p><a id="quantitative"></a></p>
+<h4 id="integrating-quantitative-phenotype-data">Integrating quantitative phenotype data<a class="headerlink" href="#integrating-quantitative-phenotype-data" title="Permanent link">&para;</a></h4>
+<p>The integration of quantified phenotype data into the uPheno project is still in the early stages.
+Driven by Robinson et al. from the <a href="https://monarchinitiative.org/">Monarch Initiative</a>, and possible other research groups, the idea is to formally curate reference ranges for all quantified biological traits and then use
+that information to automatically generate corresponding pre-coordinated phenotype terms.</p>
+<p>For example, lets assume we have a reference range for tail length that says "25-30 cm". Now, we can translate a quantified phenotype data point like "tail length of 35 cm" automatically
+to a pre-coordinated phenotype term such as "abnormally increased tail length".
+We can do that by simply combining the trait term "tail length" with the "abnormal" modifier, which immediately establishes a link to the corresponding term from a pre-coordinated ontology such as HPO or MP.</p>
+<p><a id="unstructured"></a></p>
+<h4 id="integrating-unstructured-phenotype-data">Integrating unstructured phenotype data<a class="headerlink" href="#integrating-unstructured-phenotype-data" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before reading this section make sure you understand what <a href="../phenotype-data/">unstructured phenotype data is</a>.</p>
+</div>
+<p>Integrating unstructured data is, essentially, a combination of "entity recognition", the task of recognising that a sequence of words in a text correspond to a distinct <a href="../core-concepts/">phenotype concept</a> with "entity grounding" (or linking), the task of assigning an ontology term the recognised entity.
+Successfully integrating data this way is one of the the holy grails for phenomics, as much of the available phenotype data is still buried in unstructured text like clinical notes and scientific publications, and a problem that is by far from solved.</p>
+<p>Here are some of the most promises paths to integrating such data:</p>
+<ol>
+<li>Basic NLP techniques. For a lot of <em>quasi-structured</em> data, where reasonably standardised terminology is used in a reasonably structured environment such as a database,
+basic NLP techniques such as string-normalisation, string matching and fuzzy lexical matching  actually works quite well.
+The advantage of such techniques is that they are not only deterministic (e.g. always resulting in the same result), they are also very transparent, which means they can be easily reviewed and accepted by a human curator.</li>
+<li>Advanced methods based on Large Language Models. Tools like <a href="https://github.com/monarch-initiative/ontogpt">ontogpt</a> are good choices to try and extract structured information from
+unstructured sources where basic NLP techniques fail to yield any useful results.
+Note though that such methods lack the transparency of basic methods, which means they impose a higher burden on human reviewers in scenarios where accuracy is essential.</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For people working on named entity recognition there is a bit of a point to be made to try and extract not only the complete phenotype expression, but actually map the individual components, like characteristics and chemicals. If you do that, you can directly construct a pre-coordinated phenotype class compatible with the uPheno framework, even if no such class currently exists. Even if it does, it would easily be recognisable as an "inferred equivalent class".</p>
+</div>
+<h4 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h4>
+<p><img alt="uPheno integration" src="../../images/phenotype-integration.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Figure 3: data integration with uPheno</p>
+<p>Figure 3 shows 4 different kinds of integration:</p>
+<ul>
+<li>A: Measurement data. A measurement in conjunction with a normal range and a mapping to a trait term is transformed to a Phenotypic abnormality term in HPO.</li>
+<li>B: Unstructured data. Free text, for example in a paper, is translated into pre-coordinated uPheno expressions</li>
+<li>C: Post-coordinated data. Mapped into uPheno expressions using design patterns.</li>
+<li>D: Related data. Mapped to phenotype terms using specific associations.</li>
+</ul>
+</div>
+<h3 id="level-2-integration-knowledge">Level 2 integration: Knowledge<a class="headerlink" href="#level-2-integration-knowledge" title="Permanent link">&para;</a></h3>
+<p>The real magic with respect to computational phenotype data comes through the integration of knowledge.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Knowledge is an elusive term, but here we mean simply: <a href="https://biolink.github.io/biolink-model/association-examples-with-qualifiers/">qualified associations</a> to other entities, such as gene-to-phenotype associations.</p>
+</div>
+<p>In the following we discuss a few of the most common forms of knowledge.</p>
+<ol>
+<li><a href="#ontological">Core ontological relationships such as "is-a" or "part-of"</a></li>
+<li><a href="#phenorel">Core phenotype relationships such as "characteristic-of" and "has-modifier"</a></li>
+<li><a href="#associations">Knowledge graph associations</a></li>
+</ol>
+<p><a id="ontological"></a></p>
+<p><em>Core ontological relationships</em> such as "is-a" or "part-of" are the most boring of all kinds of knowledge, but they have a huge potential for data analysis.
+For example, in Figure 1 above we can see that "Hypolysinemia" (a human phenotype) is a subclass of "decreased level of lysine in the blood" (a species independent class).</p>
+<p>This is already nice, but lets look at what we <em>really</em> get when we employ uPheno in Figure 4:</p>
+<p><img alt="uPheno Class Hierarchy" src="../../images/upheno_hierarchy.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Figure 4: uPheno class hierarchy of Hypolysinemia.</p>
+<p>The class hierarchy of uPheno, rendered using OLS. The screenshot only
+displays a fraction of the actual hierarchy, which is heavily poly-hierarchical.</p>
+</div>
+<p>Here we can see just how deeply a concept like "Hypolysinemia" can be integrated:</p>
+<ul>
+<li><code>Hypolysinemia</code> is a <code>decreased level of lysine in blood</code></li>
+<li>which is a <code>changed blood lysine level</code></li>
+<li>which is a <code>changed blood amino acid level</code></li>
+<li>which is a <code>changed blood nitrogen molecular entity level</code></li>
+<li>which is a <code>changed blood chemical entity level</code></li>
+<li>which is a <code>hematopoietic system phenotype</code></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The exact naming conventions in uPheno are under review at the moment, so the reader may experience some discrepancies between Figure 4, the listing above, and the <a href="https://ols.monarchinitiative.org/ontologies/upheno2">ontology in Monarch's OLS</a>.</p>
+</div>
+<p>Not everyone will agree that all of these groupings are particularly useful (<code>changed blood amino acid level</code> may not have that many realy world use cases),
+but the fact that we <em>can</em> aggregate our data on so many levels is compelling.
+For example, we can aggregate all genes associated to phenotype from different species related to any change in the level of lysine in the blood (wheter increased, or decreased).</p>
+<p><a id="phenorel"></a></p>
+<p><em>Core phenotype relationships</em> such as "characteristic-of", "has-phenotype-affecting" and "has-modifier" can be extracted directly from the computational
+definitions of the uPheno and OBA ontology terms. A nice way to <a href="https://api.triplydb.com/s/cfAZXUS3V">query some of these relations</a> (example query below) is <a href="https://github.com/INCATools/ubergraph">Ubergraph</a>.</p>
+<details class="ubergraph query">
+<summary>Ubergraph</summary>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>PREFIX oboInOwl: &lt;http://www.geneontology.org/formats/oboInOwl#&gt;
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>SELECT DISTINCT ?phenotype ?phenotype_label ?property_label ?uberon_id ?uberon_label ?property2_label ?chebi_id ?chebi_label
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>WHERE {
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>?phenotype rdfs:subClassOf &lt;http://purl.obolibrary.org/obo/HP_0033107&gt; .
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>?phenotype rdfs:label ?phenotype_label .
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>OPTIONAL {
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    ?uberon_id rdfs:subClassOf &lt;http://purl.obolibrary.org/obo/UBERON_0006314&gt; .
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    ?uberon_id rdfs:label ?uberon_label .
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    ?phenotype ?property ?uberon_id .
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    ?property rdfs:label ?property_label .
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>}
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>OPTIONAL {
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>    ?chebi_id rdfs:subClassOf &lt;http://purl.obolibrary.org/obo/CHEBI_33709&gt; .
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>    ?chebi_id rdfs:label ?chebi_label .
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>    ?phenotype ?property2 ?chebi_id .
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>    ?property2 rdfs:label ?property2_label .
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>}
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>} LIMIT 20
+</code></pre></div>
+</details>
+<p>There are many relationships that can be directly extracted from uPheno, including:</p>
+<ul>
+<li>has phenotype affecting: a relationship provided by the uPheno framework that links a phenotypic change to the bearer entity such as anatomy, chemical entities or biological processes.</li>
+<li>has part: linking a trait or phenotype to another trait or phenotype it has as a constituent part</li>
+<li>part of: linking a trait or phenotype to another trait or phenotype it is part of</li>
+<li>in taxon: linking a trait or phenotype to the the specific taxon they are observed in</li>
+<li>characteristic of: linking a trait to a bearer</li>
+<li>characteristic of part of: linking a trait to both the bearer <em>and</em> the location in which the bearer is located (e.g. <code>lysine</code> and <code>blood</code> in the case of <code>blood lysine</code>).</li>
+<li>has modifier: linking a trait to a change modifier such as <code>abnormal</code> or <code>increased</code></li>
+<li>has phenotype: links a disease to a phenotype class. The phenotype is considered a feature of that disease.</li>
+</ul>
+<p>These kinds can already be a gold-mine for analysts.
+We can group phenotype data without actually having access to suitable phenotype groupings terms
+by simply querying for "all phenotypes that affect any part-of the cardiovascular system".</p>
+<p>Here is an example Ubergraph query to that end:</p>
+<details class="ubergraph query">
+<summary>Ubergraph</summary>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>PREFIX oboInOwl: &lt;http://www.geneontology.org/formats/oboInOwl#&gt;
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>SELECT DISTINCT ?phenotype ?phenotype_label ?uberon_id ?uberon_label
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>WHERE {
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a># Look for all uPheno phenotypes
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>?phenotype rdfs:subClassOf &lt;http://purl.obolibrary.org/obo/UPHENO_0001001&gt; .
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>?phenotype rdfs:label ?phenotype_label .
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a># That affect (UPHENO_0000001) an entity that is considered part of the &quot;cardiovascular_system&quot;.
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>?cardiovascular_system rdfs:subClassOf &lt;http://purl.obolibrary.org/obo/UBERON_0004535&gt; .
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>?uberon_id &lt;http://purl.obolibrary.org/obo/BFO_0000050&gt; ?cardiovascular_system .
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>?uberon_id rdfs:label ?uberon_label .
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>?phenotype &lt;http://purl.obolibrary.org/obo/UPHENO_0000001&gt; ?uberon_id .
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>?property rdfs:label ?property_label .
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>} LIMIT 100
+</code></pre></div>
+</details>
+<p>The query looks for all uPheno phenotypes that affect (UPHENO:0000001) an entity that is considered part of the "cardiovascular_system".</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>This is cool. Its free. Its reasonably easy. Its seems almost rediculous for not every single phenotype data analysis to make use of these relations.</p>
+</div>
+<p><a id="associations"></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before reading this section make sure you have a sense of <a href="../phenotype-data/">the various kinds of phenotype data</a>, such as gene-to-phenotype associations, out there.</p>
+</div>
+<p><em>Knowledge graph associations</em> (KGA) are a powerful way to enrich phenotype data.
+They enable a plethora of applications, including semantic similarity, disease diagnostics and many more.
+In contrast to the ontological relationships described above, KGA's are associative in nature,
+which means they are typically probabilistic, often fuzzy and rarely constitute absolute truths.
+Such associations can make a major difference for data analysis, but are, due to their
+probabilistic nature, often noisy.
+For example, GWAS study annotations include many gene-to-phenotype associations with low penetrance (a measure of how consistently a gene causes a particular trait), which may
+skew analysis results if they are not carefully designed.</p>
+<p>The possibilities for associations are virtually endless, so we will try to describe here some of the most interesting ones, such as the ones served by the <a href="https://monarchinitiative.org/">Monarch Initiative KG</a>.</p>
+<ul>
+<li>Gene to phenotype (g2p) assocations. Many sources for gene to phenotype assocations exists such as the <a href="https://hpo.jax.org/app/data/annotations">Human Phenotype Ontology Annotations (HPOA)</a> developed my the Monarch Initiative.
+g2p's are essential for understanding the molecular basis of genetic diseases and open the door to mitigation strategies such as drug development or genetic treatments.</li>
+<li>Disease to phenotype (d2p) associations are relatings that indicate that a phenotype is a feature typically observed in the context of a disease. Deep phenotyping is a critical component for disease diagnostics. The phenotypic profile of a patient can be used not only to match other, similar patients (e.g. <a href="https://www.matchmakerexchange.org/">Matchmake Exchange</a>), which is critical in contexts where knowledge about diseases is scattered (e.g. Rare Disease), but also to match to disease profiles directly (e.g. <a href="https://monarchinitiative.org/">Monarch Initiative</a>). d2p's can be obtained from resources such as <a href="https://www.orpha.net/">Orphanet</a>, <a href="https://monarchinitiative.org/">Monarch Initiative</a> and many others.</li>
+<li>Variant to phenotype (v2p). Similar to g2p's, but a bit more fine grained. Many projects including <a href="https://www.ebi.ac.uk/gwas/">GWAS catalogue</a> curate v2p's.</li>
+</ul>
+<p>All of these phenotype assocations can be augmented with many others, such as gene expression, protein-protein interaction and <a href="https://geneontology.org/docs/gocam-overview/">GO-CAMs</a> and many more.</p>
+<h3 id="summary_1">Summary<a class="headerlink" href="#summary_1" title="Permanent link">&para;</a></h3>
+<p><img alt="uPheno Integration of Knowledge" src="../../images/integration_links.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Figure 5: Integrating Knowledge in the uPheno framework.</p>
+<p>Figure 5 looks complicated, but it shows only a fraction of the available relationships.
+Most of the relationships are phenotypic or core ontological, only the Hypolysinemia link to <code>SLC7A7</code> is an KG associations.
+There are dozens of different kinds of assocations that could be added here!</p>
+</div>
+<ul>
+<li>We can integrate diverse phenotype data records by associating them with pre-coordinated trait and/or phenotype terms from the Unified Phenotype Ontology (uPheno).</li>
+<li>There are a few different approaches we need to leverage to associate phenotype data with uPheno terms, including:<ul>
+<li>Using standardised logical definitions for automated classification.</li>
+<li>Mapping post-coordinated phenotype data into pre-coordinated terms.</li>
+<li>Infering pre-coordinated phenotype terms from traits and quantitative measurements by applying reference range information.</li>
+<li>Apply state of the art NLP techniques to turn unstructured phenotype expressions into structured ones, and matching those to pre-coordinated phenotype terms.</li>
+</ul>
+</li>
+<li>We can further enrich our data by integrating additional relationships (knowledge):<ul>
+<li>Core ontological relationships help with classification and aggregation of data.</li>
+<li>Core phenotype relationships provide rich links to related entities such as chemical, anatomical or biological process.</li>
+<li>Rich known associations such as gene-to-phenotype or disease-to-phenotype can be integrated from a variety of publicly available sources.</li>
+</ul>
+</li>
+<li>Some examples on what we can do with phenotype data that is integrated this way can be found <a href="../use-cases/">here</a>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
