@@ -1,0 +1,56 @@
+pattern_name: abnormallyDilatedAnatomicalEntityLumen
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDilatedAnatomicalEntityLumen.yaml
+
+description: 'An abnormally dilated lumen/cavity/space of anatomical entity, for example, an abnormally dilated capillary lumen. This covers anatomical entities for which there is not a separate term for the lumen/cavity/space within the entity. If there is a term for the space within an entity you should use the abnormallyDilatedAnatomicalEntity pattern.'
+
+# examples:
+#  - http://purl.obolibrary.org/obo/XPO_0115624
+#  - http://purl.obolibrary.org/obo/MP_0001123
+
+contributors:
+  - https://orcid.org/0000-0003-4606-0597
+
+classes:
+  abnormal: PATO:0000460
+  material_anatomical_entity: UBERON:0000465
+  dilated: PATO:0001571
+  anatomical space: UBERON:0000464
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  luminal_space_of: RO:0002572
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+
+vars:
+  material_anatomical_entity: "'material anatomical_entity'"
+
+name:
+  text: "abnormally dilated %s"
+  vars:
+    - material_anatomical_entity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "abnormal %s dilation"
+    vars:
+      - material_anatomical_entity
+
+  - annotationProperty: exact_synonym
+    text: "dilated %s"
+    vars:
+      - material_anatomical_entity
+
+def:
+  text: "Abnormal dilation of the lumen of %s."
+  vars:
+    - material_anatomical_entity
+
+equivalentTo:
+  text: "'has_part' some ('dilated' and ('characteristic_of' some ('anatomical space' and ('luminal space of' some %s))) and ('has_modifier' some 'abnormal'))"
+  vars:
+    - material_anatomical_entity
