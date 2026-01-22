@@ -6,6 +6,7 @@ contributors:
 - https://orcid.org/0000-0002-7356-1779
 - https://orcid.org/0000-0001-5208-3432
 - https://orcid.org/0000-0002-3528-5267
+
 classes:
   decreased amount: PATO:0001997
   abnormal: PATO:0000460
@@ -45,8 +46,16 @@ def:
   - anatomical_entity
   - location
 
-equivalentTo:
-  text: "'has_part' some ('decreased amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
-  vars:
-  - anatomical_entity
-  - location
+logical_axioms: 
+   -  
+      axiom_type: EquivalentTo
+      text: has_part some ('has fewer parts of type' and ('inheres in' some '%s) and ('towards' value %s) and ('has modifier' some 'abnormal'))
+      vars:
+        - location
+        - anatomical_entity
+  -  
+      axiom_type: EquivalentTo
+      text: has_part some 'has fewer parts of type' and ('inheres in' some %s') and ('towards' some %s) and ('has modifier' some 'abnormal'))
+      vars:
+        - location
+        - anatomical_entity
