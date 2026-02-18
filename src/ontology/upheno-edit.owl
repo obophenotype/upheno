@@ -68,6 +68,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004064> <http://purl.obolibra
 
 SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004494> <http://purl.obolibrary.org/obo/UPHENO_0002963>)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0085578> (cell physiology phenotype)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0085578> <http://purl.obolibrary.org/obo/UPHENO_0086172>)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_1000001> (exocrine system phenotype)
 
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/UPHENO_1000001> <https://orcid.org/0000-0003-4606-0597>)

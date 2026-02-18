@@ -27,6 +27,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003055>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003116>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003405>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004459>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004494>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004507>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004523>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004536>))
@@ -225,12 +226,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000006> (taste/olfaction phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000006> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000006> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000007> (vision/eye phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000007> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000007> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000007> <http://purl.obolibrary.org/obo/UPHENO_0004494>)
 
 
 )
