@@ -19,6 +19,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002816>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002830>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002833>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002903>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002926>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002948>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002963>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002964>))
@@ -26,6 +27,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003055>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003116>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0003432>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004494>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0004507>))
@@ -43,6 +47,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078688>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078689>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0086172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0087427>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_1000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_1000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_3000002>))
@@ -65,7 +71,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0001002> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002635> (integument phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002635> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002635> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002635> <http://purl.obolibrary.org/obo/UPHENO_0004064>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002642> (genitourinary system phenotype)
 
@@ -75,12 +81,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002642> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002816> (musculature phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002816> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002816> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002816> <http://purl.obolibrary.org/obo/UPHENO_0003432>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002830> (limb phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002830> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002830> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002830> <http://purl.obolibrary.org/obo/UPHENO_0002926>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002833> (digestive system phenotype)
 
@@ -90,7 +96,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002833> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002903> (ear phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0002903> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002903> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002903> <http://purl.obolibrary.org/obo/UPHENO_0004494>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002948> (immune system phenotype)
 
@@ -105,7 +111,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002964> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0003013> (breast phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0003013> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003013> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003013> <http://purl.obolibrary.org/obo/UPHENO_0002926>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0003055> (reproductive system phenotype)
 
@@ -120,12 +126,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003116> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0003405> (liver phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0003405> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003405> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0003405> <http://purl.obolibrary.org/obo/UPHENO_0004061>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0004459> (hematopoietic system phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0004459> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004459> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004459> <http://purl.obolibrary.org/obo/UPHENO_1000002>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0004507> (cardiovascular system phenotype)
 
@@ -145,22 +151,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004536> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0049622> (behavior phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0049622> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049622> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049622> <http://purl.obolibrary.org/obo/UPHENO_1000000>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0049874> (growth phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0049874> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049874> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049874> <http://purl.obolibrary.org/obo/UPHENO_1000000>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0049904> (homeostatic process phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0049904> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049904> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0049904> <http://purl.obolibrary.org/obo/UPHENO_1000000>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0050008> (pigmentation phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0050008> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0050008> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0050008> <http://purl.obolibrary.org/obo/UPHENO_1000000>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0050177> (renal system development phenotype)
 
@@ -169,7 +175,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0050177> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0075866> (thoracic cavity phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_0075866> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0075866> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0075866> <http://purl.obolibrary.org/obo/UPHENO_0002926>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0075901> (vocal organ phenotype)
 
@@ -201,27 +207,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0087427> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000000> (craniofacial/craniocervical phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000000> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000000> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000001> (embryonic development/birth phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000001> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000001> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000002> (mortality/aging phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000002> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000002> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000003> (neoplasm phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000003> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000003> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000004> (renal/urinary system phenotype)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibrary.org/obo/upheno#top_level>)
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_3000004> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_3000006> (taste/olfaction phenotype)
 

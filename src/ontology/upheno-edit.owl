@@ -24,6 +24,7 @@ Annotation(dcterms:description "The Unified Phenotype Ontology (uPheno) is an on
 Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
 Annotation(dcterms:title "Unified Phenotype Ontology (uPheno)")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_1000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_1000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_1000002>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
@@ -48,6 +49,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002725> <http://purl.obolibra
 
 SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002832> <http://purl.obolibrary.org/obo/UPHENO_0002963>)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0002926> (organism subdivision phenotype)
+
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002926> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002963> (anatomical system phenotype)
 
 SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0002963> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
@@ -71,6 +76,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0004494> <http://purl.obolibra
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0085578> (cell physiology phenotype)
 
 SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0085578> <http://purl.obolibrary.org/obo/UPHENO_0086172>)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_1000000> (whole organism phenotype)
+
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/UPHENO_1000000> <https://orcid.org/0000-0003-4606-0597>)
+AnnotationAssertion(dcterms:date <http://purl.obolibrary.org/obo/UPHENO_1000000> "2026-02-18T22:14:22Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_1000000> "whole organism phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_1000000> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_1000001> (exocrine system phenotype)
 
