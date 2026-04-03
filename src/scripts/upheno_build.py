@@ -244,7 +244,12 @@ def generate_upheno_label(group, labels):
         for pid in group
         if pid in labels and labels[pid]
     })
-    return "; ".join(phenotype_labels)
+    combined = "; ".join(phenotype_labels)
+    if ";" in combined:
+        combined += " (phenotype grouping)"
+    elif "phenotype" not in combined:
+        combined += " phenotype"
+    return combined
 
 @upheno.command()
 @click.option("--cross-species-mapping", type=click.Path(exists=True))
