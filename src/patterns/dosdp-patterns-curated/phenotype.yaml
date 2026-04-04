@@ -4,7 +4,7 @@ classes:
 contributors:
 - https://orcid.org/0000-0002-7356-1779
 def:
-  text: An observable or measurable characteristic of an organism, whether normal or abnormal, resulting from genotype-environment interaction, related to %s.
+  text: A phenotypic effect related to %s.
   vars:
   - bearer
 description: ''
@@ -13,7 +13,7 @@ equivalentTo:
   vars:
   - bearer
 name:
-  text: phenotypic effect, %s
+  text: phenotype, %s
   vars:
   - bearer
 pattern_iri: http://purl.obolibrary.org/obo/upheno/phenotype.yaml
