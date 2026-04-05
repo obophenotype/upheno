@@ -70,7 +70,7 @@ PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.
 MAPPINGDIR=                 ../mappings
 MAPPING_TESTER=             sssom validate
 SSSOMPY=                    sssom
-MAPPINGS=                   apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon 
+MAPPINGS=                   apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon mp-hp-mgi-lex
 MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.tsv)
 
 
@@ -233,7 +233,7 @@ all_subsets: $(SUBSET_FILES)
 # ----------------------------------------
 
 
-MAPPINGS =  apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon
+MAPPINGS =  apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon mp-hp-mgi-lex
 
 
 MAPPING_FILES = $(foreach p, $(MAPPINGS), $(MAPPINGDIR)/$(p).sssom.tsv)
@@ -595,11 +595,13 @@ $(COMPONENTSDIR)/upheno-manual-curation.owl: $(TEMPLATEDIR)/phenotypes-without-p
 		 $(ANNOTATE_CONVERT_FILE)
 .PRECIOUS: $(COMPONENTSDIR)/upheno-manual-curation.owl
 
-$(COMPONENTSDIR)/upheno-bridge.owl: $(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(TMPDIR)/stamp-component-upheno-bridge.owl | all_robot_plugins
+$(COMPONENTSDIR)/upheno-bridge.owl: $(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv $(TMPDIR)/stamp-component-upheno-bridge.owl | all_robot_plugins
 	$(ROBOT) --add-prefix 'sssom: https://w3id.org/sssom/' \
 		 --add-prefix 'semapv: http://w3id.org/semapv/vocab/' \
 		 sssom:inject --sssom $(MAPPINGDIR)/upheno-species-independent.sssom.tsv \
 		              --create --direct \
+		 sssom:inject --sssom $(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv \
+		              --direct \
 		 $(ANNOTATE_CONVERT_FILE)
 .PRECIOUS: $(COMPONENTSDIR)/upheno-bridge.owl
 
@@ -1062,6 +1064,10 @@ $(MAPPINGDIR)/nbo-go.sssom.tsv:
 # This mappingset is manually curated, so we only check that the file actually exists.
 $(MAPPINGDIR)/uberon.sssom.tsv:
 	test -f $@
+
+# MGI MP-HP lexical mappings, updated weekly from https://github.com/mapping-commons/mh_mapping_initiative
+$(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv:
+	wget -O $@ https://raw.githubusercontent.com/mapping-commons/mh_mapping_initiative/master/mappings/mp_hp_mgi_lex.tsv
 
 # ----------------------------------------
 # Release artefacts: export formats
