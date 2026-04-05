@@ -32,9 +32,6 @@ SubObjectPropertyOf(ObjectPropertyChain(obo:RO_0000052 obo:RO_0002592) obo:RO_00
 # 'characteristic of' o 'occurs in' -> 'characteristic of'
 SubObjectPropertyOf(ObjectPropertyChain(obo:RO_0000052 obo:BFO_0000066) obo:RO_0000052)
 
-# 'part of' o 'develops from' -> 'part of'
-SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000050 obo:RO_0002202) obo:BFO_0000050)
-
 
 # 'characteristic of' o 'results in development of' -> 'characteristic of'
 SubObjectPropertyOf(ObjectPropertyChain(obo:RO_0000052 obo:RO_0002296) obo:RO_0000052)
