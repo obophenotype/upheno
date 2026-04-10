@@ -84,6 +84,39 @@ Pattern names like `abnormalAnatomicalEntity.yaml` define:
 
 The pipeline matches these patterns against species phenotype ontologies to find which terms match which patterns, then uses the matches to build the uPheno intermediate layer.
 
+### DOSDP TSV filler data
+
+Filler data lives in `src/patterns/data/default/` (hand-curated) and `src/patterns/data/automatic/` (generated).
+
+Each TSV has a `defined_class` column (the IRI) plus columns for each pattern variable. dosdp-tools supports special override columns to set per-row annotations on the defined class:
+
+| Column | Effect |
+|--------|--------|
+| `defined_class_name` | Override the pattern-generated label |
+| `defined_class_definition` | Override the pattern-generated definition |
+| `defined_class_comment` | Add rdfs:comment |
+| `defined_class_exact_synonym` | Add exact synonym |
+| `defined_class_narrow_synonym` | Add narrow synonym |
+| `defined_class_broad_synonym` | Add broad synonym |
+| `defined_class_related_synonym` | Add related synonym |
+| `defined_class_namespace` | Set OBO namespace |
+
+These are defined in the DOSDP spec (`PrintfAnnotationOBO.overrides` in dosdp-tools source).
+
+### Source of truth for OWL components
+
+All OWL files in `src/ontology/components/` are **generated** — never edit them directly. Sources of truth:
+
+| Component | Source |
+|-----------|--------|
+| `upheno-top.owl` | `src/templates/phenotype-top-level.tsv` (ROBOT template) |
+| `upheno-manual-curation.owl` | `src/templates/upheno-ssspo-groupings-no-eq.tsv` + `phenotypes-without-patterns.tsv` |
+| `upheno-alignments.owl` | `src/templates/upheno-ssspo-alignments-no-eq.tsv` + `phenotype-alignments.tsv` + `root-alignments.tsv` |
+| `upheno-species-neutral.owl` | DOSDP pipeline output (`upheno_layer.owl`) |
+| `upheno-mappings.owl` | SSSOM mapping files in `src/mappings/` |
+| `upheno-bridge.owl` | SPARQL construct over species-independent mappings |
+| `upheno-deprecated.owl` | `src/templates/obsolete.tsv` |
+
 ## Pipeline Phases (from `upheno.Makefile`)
 
 1. **`prepare_patterns_for_matching`**: Copies patterns from `dosdp-dev/` to `curation/patterns-for-matching/`
