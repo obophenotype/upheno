@@ -1,0 +1,42 @@
+pattern_name: unilateralMissingProcessInALocation
+pattern_iri: http://purl.oboibrary.org/obo/upheno/patterns/unilateralMissingProcessInALocation
+
+classes:
+  lacking processual parts: PATO:0001558
+  abnormal: PATO:0000460
+  biological process: GO:0008150
+  entity: BFO:0000001
+  unilateral: PATO:0000634 
+
+relations: 
+  inheres_in: RO:0000052
+  qualifier: RO:0002573
+  has_part: BFO:0000051
+  part_of: BFO:0000050
+  occurs_in: BFO:0000066
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym 
+
+vars:
+  biological_process: "'biological process'"
+  entity: "'entity'"
+
+name:
+  text: "unilateral and abnormal %s in %s"
+  vars:
+   - biological_process
+   - entity
+
+def:
+  text: "An unilateral abnormality of the %s in %s."
+  vars:
+   - biological_process
+   - entity
+
+equivalentTo:
+  text: "'has_part' some (('qualifier' some 'unilateral') and 'lacking processual parts' and ('inheres_in' some (%s and ('part_of' some %s))) and  ('qualifier' some 'abnormal'))"
+  vars:
+    - biological_process
+    - entity
+
