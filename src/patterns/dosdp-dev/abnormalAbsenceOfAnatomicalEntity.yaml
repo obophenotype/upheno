@@ -8,11 +8,13 @@ contributors:
   - https://orcid.org/0000-0001-5208-3432
   - https://orcid.org/0000-0001-7941-2961
   - https://orcid.org/0000-0003-4148-4606
+  - https://orcid.org/0000-0002-7073-9172
   
 classes:
   absent: PATO:0000462
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
+  'multicellular organism': UBERON:0000468
 
 relations: 
   inheres_in: RO:0000052
@@ -42,6 +44,7 @@ def:
     - anatomical_entity
 
 equivalentTo:
-  text: "'has_part' some ('absent' and ('inheres_in' some %s) and ('has_modifier' some 'abnormal'))"
+  text: "'has part' some ('lacks all parts of type' and ('inheres in' some 'organism') and ('towards' value %s) and ('has modifier' some 'abnormal'))"
+     vars:
   vars:
     - anatomical_entity
