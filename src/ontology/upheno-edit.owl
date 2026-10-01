@@ -27,5 +27,8 @@ Annotation(dcterms:title "Unified Phenotype Ontology (uPheno)")
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
 Declaration(AnnotationProperty(dcterms:title))
 
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0001001> "PLACEHOLDER, pending wording agreed in an editors' call. This is the single top-level class of uPheno; UPHENO:0001002 ('phenotypic effect') was deprecated in favor of it. The phrase 'or qualified state' in the definition is deliberately broad: it is intended to cover any kind of phenotype, including effect-neutral grouping classes such as the MP header terms ('adipose tissue phenotype', 'behavior/neurological phenotype') and explicitly normal phenotypes, which resources such as MGI annotate to directly. The qualification does the work of distinguishing a trait (e.g. eye color) from a phenotype (e.g. brown eyes); it is not intended to restrict this class to abnormalities. See https://github.com/obophenotype/upheno/issues/1009 and https://github.com/obophenotype/upheno/pull/1026.")
+
 
 )
