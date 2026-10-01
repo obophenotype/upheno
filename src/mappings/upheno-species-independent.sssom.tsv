@@ -5334,7 +5334,7 @@ HP:0025132	Abnormal circulating estrogen level	semapv:crossSpeciesExactMatch	UPH
 HP:0025133		semapv:crossSpeciesExactMatch	UPHENO:0051921		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0025134		semapv:crossSpeciesExactMatch	UPHENO:0080628		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0025141		semapv:crossSpeciesExactMatch	UPHENO:0084191		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0025142	Constitutional symptom	semapv:crossSpeciesBroadMatch	UPHENO:0001002	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
+HP:0025142	Constitutional symptom	semapv:crossSpeciesBroadMatch	UPHENO:0001001	phenotypic feature	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0025155		semapv:crossSpeciesExactMatch	UPHENO:0002242		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0025163		semapv:crossSpeciesExactMatch	UPHENO:0076802		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0025201	Abnormal circulating apolipoprotein concentration	semapv:crossSpeciesExactMatch	UPHENO:0046306	apolipoprotein level phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -16015,7 +16015,7 @@ UPHENO:0000996		semapv:crossSpeciesExactMatch	MP:0010563		semapv:LogicalReasonin
 UPHENO:0000997		semapv:crossSpeciesExactMatch	MP:0008772		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0000997		semapv:crossSpeciesExactMatch	XPO:0103373		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0000997		semapv:crossSpeciesExactMatch	ZP:0001207		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0001002	phenotype	semapv:crossSpeciesNarrowMatch	HP:0025142	Constitutional symptom	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
+UPHENO:0001001	phenotypic feature	semapv:crossSpeciesNarrowMatch	HP:0025142	Constitutional symptom	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0001003	phenotype	semapv:crossSpeciesExactMatch	APO:0000017		semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0001003	phenotype	semapv:crossSpeciesExactMatch	APO:0000045		semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0001003	phenotype	semapv:crossSpeciesExactMatch	DDPHENO:0010000		semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
