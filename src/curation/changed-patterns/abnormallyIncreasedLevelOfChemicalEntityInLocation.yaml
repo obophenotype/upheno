@@ -1,11 +1,5 @@
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-annotations:
-- annotationProperty: exact_synonym
-  text: increased level of %s in %s
-  vars:
-  - chemical_entity
-  - location
 classes:
   abnormal: PATO:0000460
   chemical entity: CHEBI:24431
