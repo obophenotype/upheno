@@ -5,10 +5,6 @@ annotations:
   text: changed %s dilation
   vars:
   - anatomical_entity
-- annotationProperty: exact_synonym
-  text: dilated %s
-  vars:
-  - anatomical_entity
 classes:
   abnormal: PATO:0000460
   anatomical_entity: UBERON:0001062
