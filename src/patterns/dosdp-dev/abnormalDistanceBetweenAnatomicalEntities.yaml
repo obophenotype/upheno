@@ -26,31 +26,31 @@ vars:
   anatomical_entity1: "'anatomical_entity1'"
   anatomical_entity2: "'anatomical_entity2'"
 
+data_list_vars:
+  def_dbxrefs: xsd:string
+  exact_syns: xsd:string
+
 name:
   text: "abnormal distance between %s and %s"
   vars:
    - anatomical_entity1
    - anatomical_entity2
 
-annotations:
-  - 
-    annotationProperty: exact_synonym
-    text: "abnormal distance between %s and %s"
-    vars:
-     - anatomical_entity1
-     - anatomical_entity2
-  - 
-    annotationProperty: exact_synonym
-    text: "distance abnormal between %s and %s"
+generated_synonyms:
+  - text: "distance abnormal between %s and %s"
     vars:
      - anatomical_entity1
      - anatomical_entity2
 
+exact_synonym:
+    value: exact_syns
+    
 def:
   text: "abnormal distance between %s and %s."
   vars:
     - anatomical_entity1
     - anatomical_entity2
+  xrefs: def_dbxrefs
 
 equivalentTo:
   text: "'has_part' some ('distance' and ('inheres_in' some %s) and ('towards' some %s) and ('has_modifier' some 'abnormal'))"
