@@ -195,6 +195,16 @@ branch, open a PR and review `upheno.obo` / `upheno-base.owl` / `upheno-full.owl
 after CI + review, then draft a GitHub release tagged `v<data-version>` (the date from
 `upheno.obo`'s `data-version:`).
 
+**The merged import ships with the release.** CI downloads `merged_import.owl.gz` from the
+latest release instead of rebuilding imports (the file is ~200MB and gitignored).
+`sh run.sh make public_release` gzips and attaches it automatically. If you create the
+release some other way, attach it by hand, or CI fails on every PR:
+
+```sh
+gzip -k src/ontology/imports/merged_import.owl
+gh release upload v<data-version> src/ontology/imports/merged_import.owl.gz
+```
+
 > ⚠️ The generic `docs/odk-workflows/ReleaseWorkflow.md` is the stock ODK doc and is
 > **wrong for this repo**: it tells you to run `sh run.sh make prepare_release`, but that
 > target is disabled here with a "DO NOT USE" warning. Always use `sh prepare_release.sh`.
