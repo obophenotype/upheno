@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                544a774a0dcd5628bbc267a18a49a7efbd6b4d59f72fce5847cc328adda6ac66
+CONFIG_HASH=                39973c35fc8bb584c932ff3b492673625f8321ab230bbe4489ab731174bff089
 
 
 # ----------------------------------------
@@ -247,8 +247,8 @@ all_mappings: $(MAPPING_FILES)
 # QC Reports & Utilities
 # ----------------------------------------
 
-OBO_REPORT =  upheno-base.owl-obo-report
-ALIGNMENT_REPORT =  upheno-base.owl-align-report
+OBO_REPORT =  $(SRC)-obo-report
+ALIGNMENT_REPORT =  $(SRC)-align-report
 REPORTS = $(OBO_REPORT)
 REPORT_FILES = $(patsubst %, $(REPORTDIR)/%.tsv, $(REPORTS))
 
@@ -280,11 +280,10 @@ validate_profile_%: $(REPORTDIR)/validate_profile_owl2dl_%.txt
 
 SPARQL_VALIDATION_QUERIES = $(foreach V,$(SPARQL_VALIDATION_CHECKS),$(SPARQLDIR)/$(V)-violation.sparql)
 
-sparql_test:  upheno-base.owl | $(REPORTDIR)
+sparql_test:  $(SRCMERGED) | $(REPORTDIR)
 ifneq ($(SPARQL_VALIDATION_QUERIES),)
   
-  
-	$(ROBOT) verify -i upheno-base.owl --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
+	$(ROBOT) verify -i $(SRCMERGED) --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
 endif
 
 # ----------------------------------------
