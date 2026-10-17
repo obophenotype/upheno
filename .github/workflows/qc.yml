@@ -43,5 +43,7 @@ jobs:
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: master
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' IMP=false MIR=false test
+        # upheno-base.owl (needed by sparql_test and the OBO report) does not fit in 6G;
+        # standard runners have 16G.
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx12G' IMP=false MIR=false test
 
