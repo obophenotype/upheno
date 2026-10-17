@@ -308,7 +308,7 @@ $(IMPORTDIR)/merged_terms_combined.txt: $(ALL_TERMS_COMBINED) $(IMPORTDIR)/all_p
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 ifeq ($(strip $(MERGE_MIRRORS)),true)
-$(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
+$(MIRRORDIR)/merged.owl: $(ALL_MIRRORS) | all_robot_plugins
 	$(ROBOT) merge $(patsubst %, -i %, $(ALL_MIRRORS)) \
 		upheno:extract-upheno-relations \
 			--root-phenotype UPHENO:0001001 \
@@ -383,12 +383,13 @@ full_patterns_pipeline:
 
 FILE_TO_OBSOLETE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=368192736&single=true&output=tsv"
 
+# Manually curated obsoletions (obsolete/replacement UPHENO CURIEs). The sheet is not used
+# right now, but obsolete-classes-from-tsvs needs the file with its header.
 tmp/to_obsolete.tsv:
 	#wget $(FILE_TO_OBSOLETE_URL) -O $@
-	touch $@
+	printf 'obsolete\treplacement\n' > $@
 
-obsolete_fillers:
-	#$(MAKE) $(REPORTDIR)/obsolete_filler_classes.tsv tmp/to_obsolete.tsv IMP=false MIR=false -B
+obsolete_fillers: $(REPORTDIR)/obsolete_filler_classes.tsv tmp/to_obsolete.tsv
 	python3 ../scripts/upheno_build.py obsolete-classes-from-tsvs \
 		--obsoleted-template ../templates/obsolete.tsv \
 		--obsolete-fillers-file $(REPORTDIR)/obsolete_filler_classes.tsv \
@@ -546,3 +547,21 @@ pattern_readmes: ../patterns/dosdp-patterns/README.md
 
 .PHONY: upheno_test
 test: $(TMPDIR)/pattern_schema_checks_dev ../patterns/pattern-simple.owl
+
+# The phenotype root check needs the inferred hierarchy: pattern classes only carry
+# equivalence axioms, so on the asserted edit file nearly every class fails (#1011).
+# reason_test keeps its reasoned output so the check does not reason a second time.
+EDIT_REASONED = $(TMPDIR)/$(ONT)-preprocess-reasoned.owl
+
+$(EDIT_REASONED): $(EDIT_PREPROCESSED)
+	$(ROBOT) reason --input $< --reasoner $(REASONER) --equivalent-classes-allowed all \
+		--exclude-tautologies structural --output $@
+
+reason_test: $(EDIT_REASONED)
+	echo "Reasoning $(EDIT_PREPROCESSED) succeeded."
+
+.PHONY: phenotype_root_test
+phenotype_root_test: $(EDIT_REASONED) | $(REPORTDIR)
+	$(ROBOT) verify -i $< --queries ../sparql/upheno-no-phenotype-root-violation.sparql -O $(REPORTDIR)
+
+test: phenotype_root_test

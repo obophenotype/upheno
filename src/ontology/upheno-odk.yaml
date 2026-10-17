@@ -469,3 +469,4 @@ robot_report:
   custom_sparql_checks :
     - owldef-self-reference
     - iri-range
+    - upheno-label-obsolete
