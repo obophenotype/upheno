@@ -25,8 +25,8 @@ md_file = sys.argv[2]
 #pattern_dir="/ws/upheno/src/patterns/dosdp-dev"
 #md_file=pattern_dir+"/README.md"
 config_file = "https://raw.githubusercontent.com/obophenotype/upheno-dev/master/src/curation/upheno-config.yaml"
-pattern_matches_location = "https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches"
-pattern_matches_location_gh = "https://bbop-ontologies.s3.amazonaws.com/upheno/current/pattern-matches"
+pattern_matches_location = "https://raw.githubusercontent.com/obophenotype/upheno/master/src/curation/pattern-matches"
+pattern_matches_location_gh = "https://github.com/obophenotype/upheno/blob/master/src/curation/pattern-matches"
 config = yaml.load(urllib.request.urlopen(config_file), Loader=yaml.FullLoader)
 
 phenotype_ontologies = config.get("species_modules")
@@ -96,7 +96,8 @@ for pattern_dir in pattern_dirs.split("|"):
                 lines.append("")
                 lines.append("| Attribute | Info |")
                 lines.append("|----------|----------|")
-                lines.append("| IRI | " + y['pattern_iri'] + " |")
+                gh_pattern_url = "https://github.com/obophenotype/upheno/blob/master/" + f_path
+                lines.append("| IRI | [{}]({}) |".format(y['pattern_iri'], gh_pattern_url))
                 lines.append("| Name | " + y['pattern_name'] + " |")
                 lines.append("| Classes | "+classes+" |")
                 lines.append("| Variables | "+variables+" |")
