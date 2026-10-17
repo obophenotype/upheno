@@ -59,8 +59,15 @@ $(REPORTDIR)/upheno-associated-entities.csv: upheno.owl
 #	rm $(MAPPINGDIR)/upheno-oba.kgx_nodes.tsv
 #	touch $@
 
-$(MAPPINGDIR)/uberon.sssom.tsv: mirror/uberon.owl
-	if [ $(COMP) = true ] ; then $(ROBOT) sssom:xref-extract -i $< --mapping-file $@ --map-prefix-to-predicate "UBERON http://w3id.org/semapv/vocab/crossSpeciesExactMatch"; fi
+# Uberon publishes its cross-species mappings with every release, so we no longer need
+# the mirror to extract them. Refreshed like any remote resource: with MIR=false (CI,
+# prepare_release.sh) the committed file is used.
+UBERON_SSSOM_URL = https://github.com/obophenotype/uberon/releases/latest/download/uberon.sssom.tsv
+
+ifeq ($(MIR),true)
+$(MAPPINGDIR)/uberon.sssom.tsv: .FORCE
+	wget -nv $(UBERON_SSSOM_URL) -O $@.tmp && mv $@.tmp $@
+endif
 
 $(REPORTDIR)/%_phenotype_data.csv: $(MIRRORDIR)/%.owl $(SPARQLDIR)/%_phenotypes.sparql
 	$(ROBOT) query -f csv -i $< --query $(SPARQLDIR)/$*_phenotypes.sparql $@
@@ -417,6 +424,22 @@ prepare_release_customised: all_odk
 .PHONY: prepare_release_fast
 prepare_release_fast:
 	$(MAKE) prepare_release_customised IMP=false PAT=false MIR=false COMP=false
+
+# CI downloads the merged import from the latest release instead of rebuilding it
+# (see .github/workflows/qc.yml), so every release has to ship it.
+RELEASE_ASSETS_AFTER_RELEASE += $(IMPORTDIR)/merged_import.owl.gz
+
+$(IMPORTDIR)/merged_import.owl.gz: .FORCE
+	test -f $(IMPORTDIR)/merged_import.owl
+	gzip -c $(IMPORTDIR)/merged_import.owl > $@
+
+public_release: $(IMPORTDIR)/merged_import.owl.gz
+
+# report_on is empty in upheno-odk.yaml so that CI does not spend an hour on a report
+# that never fails (fail_on: None). Releases still ship the report on upheno-base.owl.
+UPHENO_BASE_REPORT = $(REPORTDIR)/upheno-base.owl-obo-report.tsv
+RELEASE_ASSETS += $(UPHENO_BASE_REPORT)
+all_assets: $(UPHENO_BASE_REPORT)
 
 reports/validate_profile_owl2dl_upheno.owl.txt:
 	echo "SKIP $@"
