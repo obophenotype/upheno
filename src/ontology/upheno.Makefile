@@ -535,6 +535,24 @@ mirror/uberon-bridge-to-caro.owl:
 	$(ROBOT) merge -i ../patterns/pattern.owl \
 	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self annotations" --signature true --trim true -o ../patterns/pattern-simple.owl
 
+# dosdp-tools takes filler labels from this ontology rather than $(EDIT_PREPROCESSED), so
+# ambiguous filler labels can be fixed in generated labels and definitions without
+# touching the filler itself in the release (#972). Overrides live in the .ru file.
+DOSDP_LABEL_ONTOLOGY = $(TMPDIR)/upheno-preprocess-dosdp-labels.owl
+
+$(DOSDP_LABEL_ONTOLOGY): $(EDIT_PREPROCESSED) ../sparql/dosdp-label-overrides.ru
+	$(ROBOT) query -i $(EDIT_PREPROCESSED) --update ../sparql/dosdp-label-overrides.ru convert -f ofn -o $@
+
+$(DOSDP_OWL_FILES_DEFAULT): $(DOSDP_LABEL_ONTOLOGY) $(DOSDP_TSV_FILES_DEFAULT) $(ALL_PATTERN_FILES)
+	if [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
+    --infile=$(PATTERNDIR)/data/default/ --template=$(PATTERNDIR)/dosdp-patterns --batch-patterns="$(DOSDP_PATTERN_NAMES_DEFAULT)" \
+    --ontology=$(DOSDP_LABEL_ONTOLOGY) --obo-prefixes=true --outfile=$(PATTERNDIR)/data/default; fi
+
+$(DOSDP_OWL_FILES_AUTOMATIC): $(DOSDP_LABEL_ONTOLOGY) $(DOSDP_TSV_FILES_AUTOMATIC) $(ALL_PATTERN_FILES)
+	if [ "${DOSDP_PATTERN_NAMES_AUTOMATIC}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
+    --infile=$(PATTERNDIR)/data/automatic --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_AUTOMATIC)" \
+    --ontology=$(DOSDP_LABEL_ONTOLOGY) --obo-prefixes=true --outfile=$(PATTERNDIR)/data/automatic; fi
+
 ../patterns/dosdp-patterns/README.md: .FORCE
 	python ../scripts/patterns_create_overview.py "../patterns/dosdp-patterns|../patterns/dosdp-dev" $@
 
