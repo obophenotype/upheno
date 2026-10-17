@@ -96,7 +96,8 @@ for pattern_dir in pattern_dirs.split("|"):
                 lines.append("")
                 lines.append("| Attribute | Info |")
                 lines.append("|----------|----------|")
-                lines.append("| IRI | " + y['pattern_iri'] + " |")
+                gh_pattern_url = "https://github.com/obophenotype/upheno/blob/master/" + f_path
+                lines.append("| IRI | [{}]({}) |".format(y['pattern_iri'], gh_pattern_url))
                 lines.append("| Name | " + y['pattern_name'] + " |")
                 lines.append("| Classes | "+classes+" |")
                 lines.append("| Variables | "+variables+" |")

@@ -1087,8 +1087,29 @@ def update_abnormal_patterns_to_changed(all_configs, replacements):
     changes = {}
     for pattern in all_configs:
         change_pattern(pattern, replacements=replacements, changes=changes)
+        drop_redundant_annotations(pattern)
         updated_patterns.append(pattern)
     return updated_patterns, changes
+
+
+def drop_redundant_annotations(pattern):
+    # Rewriting "abnormally X %s" to "X %s" can make the name identical to an existing
+    # synonym, or two synonyms identical to each other (#1033).
+    if not isinstance(pattern.get('annotations'), list):
+        return
+    name = pattern.get('name') or {}
+    seen = {(name.get('text'), tuple(name.get('vars') or []))}
+    kept = []
+    for annotation in pattern['annotations']:
+        key = (annotation.get('text'), tuple(annotation.get('vars') or []))
+        if key in seen:
+            continue
+        seen.add(key)
+        kept.append(annotation)
+    if kept:
+        pattern['annotations'] = kept
+    else:
+        del pattern['annotations']
 
 
 def write_patterns_to_file(updated_patterns, changed_pattern_directory_path):
