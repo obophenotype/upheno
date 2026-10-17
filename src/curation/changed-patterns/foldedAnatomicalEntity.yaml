@@ -1,10 +1,5 @@
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-annotations:
-- annotationProperty: exact_synonym
-  text: folded %s
-  vars:
-  - anatomical_entity
 classes:
   abnormal: PATO:0000460
   anatomical_entity: UBERON:0001062

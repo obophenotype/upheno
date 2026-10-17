@@ -244,7 +244,12 @@ def generate_upheno_label(group, labels):
         for pid in group
         if pid in labels and labels[pid]
     })
-    return "; ".join(phenotype_labels)
+    combined = "; ".join(phenotype_labels)
+    if ";" in combined:
+        combined += " (phenotype grouping)"
+    elif "phenotype" not in combined:
+        combined += " phenotype"
+    return combined
 
 @upheno.command()
 @click.option("--cross-species-mapping", type=click.Path(exists=True))
@@ -392,12 +397,12 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
         parents = {
             p
             for pid in non_upheno_ids
-            for p in map_superclasses.get(pid, ["UPHENO:0001002"])
+            for p in map_superclasses.get(pid, ["UPHENO:0001001"])
             if p and isinstance(p, str) and p.startswith("UPHENO:")
         }
 
         if not parents:
-            parents.add("UPHENO:0001002")
+            parents.add("UPHENO:0001001")
 
         if len(upheno_ids) == 0:
             upheno_label = generate_upheno_label(group, map_labels)

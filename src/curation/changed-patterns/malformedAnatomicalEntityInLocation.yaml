@@ -1,11 +1,5 @@
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-annotations:
-- annotationProperty: exact_synonym
-  text: malformed %s in %s
-  vars:
-  - anatomical_entity
-  - location
 classes:
   abnormal: PATO:0000460
   anatomical entity: UBERON:0001062
