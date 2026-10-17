@@ -26,8 +26,22 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      # merged_import.owl is ~200MB and gitignored, so we use the one attached to the
+      # latest release instead of rebuilding it (which would pull all mirrors).
+      - name: Download merged import from latest release
+        run: |
+          curl -fsSL https://github.com/obophenotype/upheno/releases/latest/download/merged_import.owl.gz \
+            -o src/ontology/imports/merged_import.owl.gz \
+            || { echo "::error::merged_import.owl.gz is missing from the latest release, attach it (see docs/pipeline.md)"; exit 1; }
+          gunzip -f src/ontology/imports/merged_import.owl.gz
+
+      # dosdp-patterns/ is gitignored; assemble it from the tracked curated patterns.
+      # Separate make call, because the pattern file lists are wildcards evaluated at parse time.
+      - name: Assemble DOSDP patterns
+        run: cd src/ontology && make prepare_dosdp_patterns_for_generation
+
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: master
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' IMP=false MIR=false test
 
