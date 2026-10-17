@@ -435,6 +435,12 @@ $(IMPORTDIR)/merged_import.owl.gz: .FORCE
 
 public_release: $(IMPORTDIR)/merged_import.owl.gz
 
+# report_on is empty in upheno-odk.yaml so that CI does not spend an hour on a report
+# that never fails (fail_on: None). Releases still ship the report on upheno-base.owl.
+UPHENO_BASE_REPORT = $(REPORTDIR)/upheno-base.owl-obo-report.tsv
+RELEASE_ASSETS += $(UPHENO_BASE_REPORT)
+all_assets: $(UPHENO_BASE_REPORT)
+
 reports/validate_profile_owl2dl_upheno.owl.txt:
 	echo "SKIP $@"
 

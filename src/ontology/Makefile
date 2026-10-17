@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                39973c35fc8bb584c932ff3b492673625f8321ab230bbe4489ab731174bff089
+CONFIG_HASH=                05a666f25a0df6e771935b31c26c5504b77c53dcc32e6969808d8f1e90b04414
 
 
 # ----------------------------------------
@@ -247,8 +247,8 @@ all_mappings: $(MAPPING_FILES)
 # QC Reports & Utilities
 # ----------------------------------------
 
-OBO_REPORT =  $(SRC)-obo-report
-ALIGNMENT_REPORT =  $(SRC)-align-report
+OBO_REPORT = 
+ALIGNMENT_REPORT = 
 REPORTS = $(OBO_REPORT)
 REPORT_FILES = $(patsubst %, $(REPORTDIR)/%.tsv, $(REPORTS))
 

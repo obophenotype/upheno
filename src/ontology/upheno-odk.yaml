@@ -465,8 +465,7 @@ robot_report:
   custom_profile : true
   sparql_test_on:
     - edit
-  report_on :
-    - edit
+  report_on : []
   custom_sparql_checks :
     - owldef-self-reference
     - iri-range
