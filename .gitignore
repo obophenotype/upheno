@@ -248,6 +248,7 @@ src/scripts/__pycache__/
 src/scripts/chebi.txt
 src/ontology/log.txt
 src/ontology/imports/merged_import.owl
+src/ontology/imports/merged_import.owl.gz
 upheno-base-with-bridge.json
 upheno-base-with-bridge.obo
 upheno-base-with-bridge.owl
@@ -324,3 +325,5 @@ src/ontology/reports/xrefs.tsv
 src/ontology/imports/*.json
 /src/metadata
 src/mappings/*.owl
+.claude/
+.claude/settings.local.json

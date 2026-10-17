@@ -2,10 +2,6 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 annotations:
 - annotationProperty: exact_synonym
-  text: duplication of %s
-  vars:
-  - anatomical_entity
-- annotationProperty: exact_synonym
   text: duplicated %s
   vars:
   - anatomical_entity
