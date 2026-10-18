@@ -276,9 +276,12 @@ $(COMPONENTSDIR)/upheno-mappings.owl: $(SRC) $(MAPPINGDIR)/upheno-species-indepe
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
 
-$(COMPONENTSDIR)/upheno-bridge.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independent.sssom.owl
+# The query only reads crossSpeciesExactMatch annotations involving uPheno, which all come
+# from the mappings. Merging $(SRC) instead pulled in the whole import closure (OOM in CI
+# with the 2026-10 import) and read the mappings component from before it was rebuilt.
+$(COMPONENTSDIR)/upheno-bridge.owl: $(COMPONENTSDIR)/upheno-mappings.owl $(MAPPINGDIR)/upheno-species-independent.sssom.owl
 	$(ROBOT) merge \
-			-i $(SRC) \
+			-i $(COMPONENTSDIR)/upheno-mappings.owl \
 			-i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
 		query --query $(SPARQLDIR)/construct-upheno-bridge.sparql tmp/bridge.ttl
 	$(ROBOT) merge \
