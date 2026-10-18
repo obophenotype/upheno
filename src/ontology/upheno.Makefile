@@ -537,11 +537,21 @@ mirror/uberon-bridge-to-caro.owl:
 
 # dosdp-tools takes filler labels from this ontology rather than $(EDIT_PREPROCESSED), so
 # ambiguous filler labels can be fixed in generated labels and definitions without
-# touching the filler itself in the release (#972). Overrides live in the .ru file.
+# touching the filler itself in the release (#972). Overrides live in
+# $(TEMPLATEDIR)/dosdp-label-overrides.tsv: the filler's annotations are replaced by the
+# new label, with the old label kept as an exact synonym. Plain ROBOT, no SPARQL: loading
+# the preprocessed file into Jena runs out of memory in CI.
 DOSDP_LABEL_ONTOLOGY = $(TMPDIR)/upheno-preprocess-dosdp-labels.owl
+DOSDP_LABEL_OVERRIDES = $(TEMPLATEDIR)/dosdp-label-overrides.tsv
 
-$(DOSDP_LABEL_ONTOLOGY): $(EDIT_PREPROCESSED) ../sparql/dosdp-label-overrides.ru
-	$(ROBOT) query -i $(EDIT_PREPROCESSED) --update ../sparql/dosdp-label-overrides.ru convert -f ofn -o $@
+$(TMPDIR)/dosdp-label-override-terms.txt: $(DOSDP_LABEL_OVERRIDES) | $(TMPDIR)
+	tail -n +3 $< | cut -f1 > $@
+
+$(DOSDP_LABEL_ONTOLOGY): $(EDIT_PREPROCESSED) $(DOSDP_LABEL_OVERRIDES) $(TMPDIR)/dosdp-label-override-terms.txt
+	$(ROBOT) remove -i $(EDIT_PREPROCESSED) --term-file $(TMPDIR)/dosdp-label-override-terms.txt \
+		--select self --axioms annotation --signature true \
+		template --template $(DOSDP_LABEL_OVERRIDES) --merge-after \
+		convert -f ofn -o $@
 
 $(DOSDP_OWL_FILES_DEFAULT): $(DOSDP_LABEL_ONTOLOGY) $(DOSDP_TSV_FILES_DEFAULT) $(ALL_PATTERN_FILES)
 	if [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
