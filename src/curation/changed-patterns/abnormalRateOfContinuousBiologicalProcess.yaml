@@ -6,10 +6,6 @@ annotations:
   vars:
   - biological_process
 - annotationProperty: exact_synonym
-  text: changed speed of %s
-  vars:
-  - biological_process
-- annotationProperty: exact_synonym
   text: changed continuous rate of %s
   vars:
   - biological_process

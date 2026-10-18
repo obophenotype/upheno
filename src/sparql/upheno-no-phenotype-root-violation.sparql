@@ -1,0 +1,13 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+# Run on the reasoned edit file: pattern classes only have equivalence axioms.
+SELECT ?cls ?label WHERE {
+  ?cls a owl:Class .
+  FILTER(STRSTARTS(STR(?cls), "http://purl.obolibrary.org/obo/UPHENO_"))
+  FILTER NOT EXISTS { ?cls owl:deprecated ?d . FILTER(STR(?d) = "true") }
+  FILTER NOT EXISTS { ?cls rdfs:subClassOf* obo:UPHENO_0001001 }
+  OPTIONAL { ?cls rdfs:label ?label }
+}
+ORDER BY ?cls

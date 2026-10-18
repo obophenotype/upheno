@@ -464,9 +464,10 @@ robot_report:
   use_labels : false
   custom_profile : true
   sparql_test_on:
-    - upheno-base.owl
-  report_on :
-    - upheno-base.owl
+    - edit
+  report_on : []
   custom_sparql_checks :
     - owldef-self-reference
     - iri-range
+    - upheno-label-obsolete
+    - upheno-deprecated-reference

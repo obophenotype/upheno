@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-alignments.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2025-10-12/components/upheno-alignments.owl>
-Annotation(owl:versionInfo "2025-10-12")
+<http://purl.obolibrary.org/obo/upheno/releases/2026-10-18/components/upheno-alignments.owl>
+Annotation(owl:versionInfo "2026-10-18")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/APO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/APO_0000082>))
@@ -922,7 +922,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0008689>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0008707>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0008714>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0008716>))
-Declaration(Class(<http://purl.obolibrary.org/obo/HP_0008826>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0008887>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0008897>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0009121>))
@@ -1517,7 +1516,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0040314>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0040318>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0040407>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0041051>))
-Declaration(Class(<http://purl.obolibrary.org/obo/HP_0041064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0045027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0045040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0045081>))
@@ -1632,7 +1630,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_6000852>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_6000853>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_6000855>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MGPO_0001001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/MGPO_0002009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MGPO_0002199>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MGPO_0002201>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MGPO_0002202>))
@@ -2953,7 +2950,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000958>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000978>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000981>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000991>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001042>))
@@ -3258,7 +3255,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050092>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050096>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050102>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050123>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050125>))
@@ -3554,7 +3550,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078585>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078593>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078606>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078623>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078625>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078627>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078629>))
@@ -4762,7 +4757,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000493>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000494>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000495>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000496>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000497>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000498>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000499>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000500>))
@@ -5131,7 +5125,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000863>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000864>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000865>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000866>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000867>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000868>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000869>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000870>))
@@ -5337,13 +5330,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001072>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001073>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001074>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001075>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001076>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001077>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001078>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001082>))
@@ -6122,7 +6108,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/XPO_0141662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/XPO_0141663>))
 Declaration(Class(<http://purl.obolibrary.org/obo/XPO_0141715>))
 Declaration(Class(<http://purl.obolibrary.org/obo/XPO_0141748>))
-Declaration(Class(<http://purl.obolibrary.org/obo/XPO_0141864>))
 Declaration(Class(<http://purl.obolibrary.org/obo/XPO_0142058>))
 Declaration(Class(<http://purl.obolibrary.org/obo/XPO_0142060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000000>))
@@ -6132,7 +6117,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000269>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000379>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000408>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000420>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000429>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0000454>))
@@ -6276,7 +6260,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010377>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010594>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010596>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010639>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010716>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010789>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0010935>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0011219>))
@@ -6298,7 +6281,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013179>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013206>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013331>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013406>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0013472>))
@@ -6352,7 +6334,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0017906>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018513>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018876>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0018989>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0019987>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0020093>))
@@ -6382,7 +6363,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0102602>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0102648>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0102860>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0102968>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103160>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0103731>))
@@ -6424,7 +6404,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147241>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0147344>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0148007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149027>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ZP_0149279>))
 
 
@@ -6747,7 +6726,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FYPO_0000138> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FYPO_0000140> (<http://purl.obolibrary.org/obo/FYPO_0000140>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/FYPO_0000140> <http://purl.obolibrary.org/obo/UPHENO_0050113>)
+SubClassOf(<http://purl.obolibrary.org/obo/FYPO_0000140> <http://purl.obolibrary.org/obo/UPHENO_0049873>)
 
 # Class: <http://purl.obolibrary.org/obo/FYPO_0000141> (<http://purl.obolibrary.org/obo/FYPO_0000141>)
 
@@ -10082,10 +10061,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0008714> <http://purl.obolibrary.o
 
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0008716> <http://purl.obolibrary.org/obo/UPHENO_7000496>)
 
-# Class: <http://purl.obolibrary.org/obo/HP_0008826> (<http://purl.obolibrary.org/obo/HP_0008826>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/HP_0008826> <http://purl.obolibrary.org/obo/UPHENO_7000497>)
-
 # Class: <http://purl.obolibrary.org/obo/HP_0008887> (<http://purl.obolibrary.org/obo/HP_0008887>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0008887> <http://purl.obolibrary.org/obo/UPHENO_0035132>)
@@ -11160,7 +11135,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0025132> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0025142> (<http://purl.obolibrary.org/obo/HP_0025142>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/HP_0025142> <http://purl.obolibrary.org/obo/UPHENO_0001002>)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0025142> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0025201> (<http://purl.obolibrary.org/obo/HP_0025201>)
 
@@ -12462,10 +12437,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0040407> <http://purl.obolibrary.o
 
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0041051> <http://purl.obolibrary.org/obo/UPHENO_7000866>)
 
-# Class: <http://purl.obolibrary.org/obo/HP_0041064> (<http://purl.obolibrary.org/obo/HP_0041064>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/HP_0041064> <http://purl.obolibrary.org/obo/UPHENO_7000867>)
-
 # Class: <http://purl.obolibrary.org/obo/HP_0045027> (<http://purl.obolibrary.org/obo/HP_0045027>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0045027> <http://purl.obolibrary.org/obo/UPHENO_0075866>)
@@ -12921,10 +12892,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_6000855> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/MGPO_0001001> (<http://purl.obolibrary.org/obo/MGPO_0001001>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/MGPO_0001001> <http://purl.obolibrary.org/obo/UPHENO_0001003>)
-
-# Class: <http://purl.obolibrary.org/obo/MGPO_0002009> (<http://purl.obolibrary.org/obo/MGPO_0002009>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/MGPO_0002009> <http://purl.obolibrary.org/obo/UPHENO_0078623>)
 
 # Class: <http://purl.obolibrary.org/obo/MGPO_0002199> (<http://purl.obolibrary.org/obo/MGPO_0002199>)
 
@@ -20760,10 +20727,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/XPO_0141715> <http://purl.obolibrary.
 
 SubClassOf(<http://purl.obolibrary.org/obo/XPO_0141748> <http://purl.obolibrary.org/obo/UPHENO_7000971>)
 
-# Class: <http://purl.obolibrary.org/obo/XPO_0141864> (<http://purl.obolibrary.org/obo/XPO_0141864>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/XPO_0141864> <http://purl.obolibrary.org/obo/UPHENO_7001078>)
-
 # Class: <http://purl.obolibrary.org/obo/XPO_0142058> (<http://purl.obolibrary.org/obo/XPO_0142058>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/XPO_0142058> <http://purl.obolibrary.org/obo/UPHENO_0088185>)
@@ -20799,10 +20762,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ZP_0000269> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/ZP_0000379> (<http://purl.obolibrary.org/obo/ZP_0000379>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ZP_0000379> <http://purl.obolibrary.org/obo/UPHENO_0076783>)
-
-# Class: <http://purl.obolibrary.org/obo/ZP_0000408> (<http://purl.obolibrary.org/obo/ZP_0000408>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ZP_0000408> <http://purl.obolibrary.org/obo/UPHENO_7001076>)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0000420> (<http://purl.obolibrary.org/obo/ZP_0000420>)
 
@@ -21377,10 +21336,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ZP_0010596> <http://purl.obolibrary.o
 
 SubClassOf(<http://purl.obolibrary.org/obo/ZP_0010639> <http://purl.obolibrary.org/obo/UPHENO_7001198>)
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0010716> (<http://purl.obolibrary.org/obo/ZP_0010716>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ZP_0010716> <http://purl.obolibrary.org/obo/UPHENO_7001077>)
-
 # Class: <http://purl.obolibrary.org/obo/ZP_0010789> (<http://purl.obolibrary.org/obo/ZP_0010789>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ZP_0010789> <http://purl.obolibrary.org/obo/UPHENO_7001162>)
@@ -21464,10 +21419,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ZP_0013142> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/ZP_0013179> (<http://purl.obolibrary.org/obo/ZP_0013179>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ZP_0013179> <http://purl.obolibrary.org/obo/UPHENO_0087973>)
-
-# Class: <http://purl.obolibrary.org/obo/ZP_0013206> (<http://purl.obolibrary.org/obo/ZP_0013206>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ZP_0013206> <http://purl.obolibrary.org/obo/UPHENO_7001073>)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0013331> (<http://purl.obolibrary.org/obo/ZP_0013331>)
 
@@ -21681,10 +21632,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ZP_0018876> <http://purl.obolibrary.o
 
 SubClassOf(<http://purl.obolibrary.org/obo/ZP_0018989> <http://purl.obolibrary.org/obo/UPHENO_7001170>)
 
-# Class: <http://purl.obolibrary.org/obo/ZP_0019459> (<http://purl.obolibrary.org/obo/ZP_0019459>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ZP_0019459> <http://purl.obolibrary.org/obo/UPHENO_7001074>)
-
 # Class: <http://purl.obolibrary.org/obo/ZP_0019987> (<http://purl.obolibrary.org/obo/ZP_0019987>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ZP_0019987> <http://purl.obolibrary.org/obo/UPHENO_7000968>)
@@ -21800,10 +21747,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ZP_0102860> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/ZP_0102968> (<http://purl.obolibrary.org/obo/ZP_0102968>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ZP_0102968> <http://purl.obolibrary.org/obo/UPHENO_7001188>)
-
-# Class: <http://purl.obolibrary.org/obo/ZP_0103026> (<http://purl.obolibrary.org/obo/ZP_0103026>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ZP_0103026> <http://purl.obolibrary.org/obo/UPHENO_7001075>)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0103103> (<http://purl.obolibrary.org/obo/ZP_0103103>)
 
@@ -21968,10 +21911,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ZP_0148007> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/ZP_0149027> (<http://purl.obolibrary.org/obo/ZP_0149027>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/ZP_0149027> <http://purl.obolibrary.org/obo/UPHENO_7001131>)
-
-# Class: <http://purl.obolibrary.org/obo/ZP_0149079> (<http://purl.obolibrary.org/obo/ZP_0149079>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/ZP_0149079> <http://purl.obolibrary.org/obo/UPHENO_7001079>)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0149279> (<http://purl.obolibrary.org/obo/ZP_0149279>)
 

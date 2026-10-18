@@ -32,13 +32,6 @@ def:
   - chemical_entity
   - location
 
-annotations:
-- annotationProperty: exact_synonym
-  text: "increased level of %s in %s"
-  vars:
-  - chemical_entity
-  - location
-
 equivalentTo:
   text: "'has_part' some ('increased amount' and ('inheres_in' some (%s and ('part_of' some %s))) and ('has_modifier' some 'abnormal'))"
   vars:

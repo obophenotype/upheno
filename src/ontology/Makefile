@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                544a774a0dcd5628bbc267a18a49a7efbd6b4d59f72fce5847cc328adda6ac66
+CONFIG_HASH=                6a94f731ad7366783b365ffd1645408c80330fbb819e4534b3bb9ab54b633107
 
 
 # ----------------------------------------
@@ -47,7 +47,7 @@ REPORT_FAIL_ON =            None
 REPORT_LABEL =              
 REPORT_PROFILE_OPTS =       --profile $(ROBOT_PROFILE)
 OBO_FORMAT_OPTIONS =        --clean-obo "strict drop-untranslatable-axioms"
-SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range 
+SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range upheno-label-obsolete upheno-deprecated-reference 
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.6
 RELAX_OPTIONS =             --include-subclass-of true
@@ -70,7 +70,7 @@ PATTERN_RELEASE_FILES=      $(PATTERNDIR)/definitions.owl $(PATTERNDIR)/pattern.
 MAPPINGDIR=                 ../mappings
 MAPPING_TESTER=             sssom validate
 SSSOMPY=                    sssom
-MAPPINGS=                   apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon mp-hp-mgi-lex
+MAPPINGS=                   apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon 
 MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.tsv)
 
 
@@ -233,7 +233,7 @@ all_subsets: $(SUBSET_FILES)
 # ----------------------------------------
 
 
-MAPPINGS =  apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon mp-hp-mgi-lex
+MAPPINGS =  apo-go apo-oba apo-pato upheno-species-independent upheno-species-independent-eq upheno-species-independent-manual upheno-lexical upheno-cross-species nbo-go uberon
 
 
 MAPPING_FILES = $(foreach p, $(MAPPINGS), $(MAPPINGDIR)/$(p).sssom.tsv)
@@ -247,8 +247,8 @@ all_mappings: $(MAPPING_FILES)
 # QC Reports & Utilities
 # ----------------------------------------
 
-OBO_REPORT =  upheno-base.owl-obo-report
-ALIGNMENT_REPORT =  upheno-base.owl-align-report
+OBO_REPORT = 
+ALIGNMENT_REPORT = 
 REPORTS = $(OBO_REPORT)
 REPORT_FILES = $(patsubst %, $(REPORTDIR)/%.tsv, $(REPORTS))
 
@@ -280,11 +280,10 @@ validate_profile_%: $(REPORTDIR)/validate_profile_owl2dl_%.txt
 
 SPARQL_VALIDATION_QUERIES = $(foreach V,$(SPARQL_VALIDATION_CHECKS),$(SPARQLDIR)/$(V)-violation.sparql)
 
-sparql_test:  upheno-base.owl | $(REPORTDIR)
+sparql_test:  $(SRCMERGED) | $(REPORTDIR)
 ifneq ($(SPARQL_VALIDATION_QUERIES),)
   
-  
-	$(ROBOT) verify -i upheno-base.owl --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
+	$(ROBOT) verify -i $(SRCMERGED) --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
 endif
 
 # ----------------------------------------
@@ -595,13 +594,11 @@ $(COMPONENTSDIR)/upheno-manual-curation.owl: $(TEMPLATEDIR)/phenotypes-without-p
 		 $(ANNOTATE_CONVERT_FILE)
 .PRECIOUS: $(COMPONENTSDIR)/upheno-manual-curation.owl
 
-$(COMPONENTSDIR)/upheno-bridge.owl: $(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv $(TMPDIR)/stamp-component-upheno-bridge.owl | all_robot_plugins
+$(COMPONENTSDIR)/upheno-bridge.owl: $(MAPPINGDIR)/upheno-species-independent.sssom.tsv $(TMPDIR)/stamp-component-upheno-bridge.owl | all_robot_plugins
 	$(ROBOT) --add-prefix 'sssom: https://w3id.org/sssom/' \
 		 --add-prefix 'semapv: http://w3id.org/semapv/vocab/' \
 		 sssom:inject --sssom $(MAPPINGDIR)/upheno-species-independent.sssom.tsv \
 		              --create --direct \
-		 sssom:inject --sssom $(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv \
-		              --direct \
 		 $(ANNOTATE_CONVERT_FILE)
 .PRECIOUS: $(COMPONENTSDIR)/upheno-bridge.owl
 
@@ -1064,10 +1061,6 @@ $(MAPPINGDIR)/nbo-go.sssom.tsv:
 # This mappingset is manually curated, so we only check that the file actually exists.
 $(MAPPINGDIR)/uberon.sssom.tsv:
 	test -f $@
-
-# MGI MP-HP lexical mappings, updated weekly from https://github.com/mapping-commons/mh_mapping_initiative
-$(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv:
-	wget -O $@ https://raw.githubusercontent.com/mapping-commons/mh_mapping_initiative/master/mappings/mp_hp_mgi_lex.tsv
 
 # ----------------------------------------
 # Release artefacts: export formats

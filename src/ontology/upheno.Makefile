@@ -59,8 +59,15 @@ $(REPORTDIR)/upheno-associated-entities.csv: upheno.owl
 #	rm $(MAPPINGDIR)/upheno-oba.kgx_nodes.tsv
 #	touch $@
 
-$(MAPPINGDIR)/uberon.sssom.tsv: mirror/uberon.owl
-	if [ $(COMP) = true ] ; then $(ROBOT) sssom:xref-extract -i $< --mapping-file $@ --map-prefix-to-predicate "UBERON http://w3id.org/semapv/vocab/crossSpeciesExactMatch"; fi
+# Uberon publishes its cross-species mappings with every release, so we no longer need
+# the mirror to extract them. Refreshed like any remote resource: with MIR=false (CI,
+# prepare_release.sh) the committed file is used.
+UBERON_SSSOM_URL = https://github.com/obophenotype/uberon/releases/latest/download/uberon.sssom.tsv
+
+ifeq ($(MIR),true)
+$(MAPPINGDIR)/uberon.sssom.tsv: .FORCE
+	wget -nv $(UBERON_SSSOM_URL) -O $@.tmp && mv $@.tmp $@
+endif
 
 $(REPORTDIR)/%_phenotype_data.csv: $(MIRRORDIR)/%.owl $(SPARQLDIR)/%_phenotypes.sparql
 	$(ROBOT) query -f csv -i $< --query $(SPARQLDIR)/$*_phenotypes.sparql $@
@@ -269,9 +276,12 @@ $(COMPONENTSDIR)/upheno-mappings.owl: $(SRC) $(MAPPINGDIR)/upheno-species-indepe
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert -f ofn -o $@
 
-$(COMPONENTSDIR)/upheno-bridge.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independent.sssom.owl
+# The query only reads crossSpeciesExactMatch annotations involving uPheno, which all come
+# from the mappings. Merging $(SRC) instead pulled in the whole import closure (OOM in CI
+# with the 2026-10 import) and read the mappings component from before it was rebuilt.
+$(COMPONENTSDIR)/upheno-bridge.owl: $(COMPONENTSDIR)/upheno-mappings.owl $(MAPPINGDIR)/upheno-species-independent.sssom.owl
 	$(ROBOT) merge \
-			-i $(SRC) \
+			-i $(COMPONENTSDIR)/upheno-mappings.owl \
 			-i $(MAPPINGDIR)/upheno-species-independent.sssom.owl \
 		query --query $(SPARQLDIR)/construct-upheno-bridge.sparql tmp/bridge.ttl
 	$(ROBOT) merge \
@@ -301,7 +311,7 @@ $(IMPORTDIR)/merged_terms_combined.txt: $(ALL_TERMS_COMBINED) $(IMPORTDIR)/all_p
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 ifeq ($(strip $(MERGE_MIRRORS)),true)
-$(MIRRORDIR)/merged.owl: $(ALL_MIRRORS)
+$(MIRRORDIR)/merged.owl: $(ALL_MIRRORS) | all_robot_plugins
 	$(ROBOT) merge $(patsubst %, -i %, $(ALL_MIRRORS)) \
 		upheno:extract-upheno-relations \
 			--root-phenotype UPHENO:0001001 \
@@ -376,12 +386,13 @@ full_patterns_pipeline:
 
 FILE_TO_OBSOLETE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOEhF0ffls_ALgYT3eLazW2Cn0PdgEozGK7chOaS6Z3g28abWhmy-sz086Xl0c7A-fndEPAEKxPNjv/pub?gid=368192736&single=true&output=tsv"
 
+# Manually curated obsoletions (obsolete/replacement UPHENO CURIEs). The sheet is not used
+# right now, but obsolete-classes-from-tsvs needs the file with its header.
 tmp/to_obsolete.tsv:
 	#wget $(FILE_TO_OBSOLETE_URL) -O $@
-	touch $@
+	printf 'obsolete\treplacement\n' > $@
 
-obsolete_fillers:
-	#$(MAKE) $(REPORTDIR)/obsolete_filler_classes.tsv tmp/to_obsolete.tsv IMP=false MIR=false -B
+obsolete_fillers: $(REPORTDIR)/obsolete_filler_classes.tsv tmp/to_obsolete.tsv
 	python3 ../scripts/upheno_build.py obsolete-classes-from-tsvs \
 		--obsoleted-template ../templates/obsolete.tsv \
 		--obsolete-fillers-file $(REPORTDIR)/obsolete_filler_classes.tsv \
@@ -417,6 +428,22 @@ prepare_release_customised: all_odk
 .PHONY: prepare_release_fast
 prepare_release_fast:
 	$(MAKE) prepare_release_customised IMP=false PAT=false MIR=false COMP=false
+
+# CI downloads the merged import from the latest release instead of rebuilding it
+# (see .github/workflows/qc.yml), so every release has to ship it.
+RELEASE_ASSETS_AFTER_RELEASE += $(IMPORTDIR)/merged_import.owl.gz
+
+$(IMPORTDIR)/merged_import.owl.gz: .FORCE
+	test -f $(IMPORTDIR)/merged_import.owl
+	gzip -c $(IMPORTDIR)/merged_import.owl > $@
+
+public_release: $(IMPORTDIR)/merged_import.owl.gz
+
+# report_on is empty in upheno-odk.yaml so that CI does not spend an hour on a report
+# that never fails (fail_on: None). Releases still ship the report on upheno-base.owl.
+UPHENO_BASE_REPORT = $(REPORTDIR)/upheno-base.owl-obo-report.tsv
+RELEASE_ASSETS += $(UPHENO_BASE_REPORT)
+all_assets: $(UPHENO_BASE_REPORT)
 
 reports/validate_profile_owl2dl_upheno.owl.txt:
 	echo "SKIP $@"
@@ -523,3 +550,21 @@ pattern_readmes: ../patterns/dosdp-patterns/README.md
 
 .PHONY: upheno_test
 test: $(TMPDIR)/pattern_schema_checks_dev ../patterns/pattern-simple.owl
+
+# The phenotype root check needs the inferred hierarchy: pattern classes only carry
+# equivalence axioms, so on the asserted edit file nearly every class fails (#1011).
+# reason_test keeps its reasoned output so the check does not reason a second time.
+EDIT_REASONED = $(TMPDIR)/$(ONT)-preprocess-reasoned.owl
+
+$(EDIT_REASONED): $(EDIT_PREPROCESSED)
+	$(ROBOT) reason --input $< --reasoner $(REASONER) --equivalent-classes-allowed all \
+		--exclude-tautologies structural --output $@
+
+reason_test: $(EDIT_REASONED)
+	echo "Reasoning $(EDIT_PREPROCESSED) succeeded."
+
+.PHONY: phenotype_root_test
+phenotype_root_test: $(EDIT_REASONED) | $(REPORTDIR)
+	$(ROBOT) verify -i $< --queries ../sparql/upheno-no-phenotype-root-violation.sparql -O $(REPORTDIR)
+
+test: phenotype_root_test
