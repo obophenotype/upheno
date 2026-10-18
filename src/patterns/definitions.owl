@@ -177058,11 +177058,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0063673> "increased number of creatine kinase complex")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0063673> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0002185>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0063674> (increased number of nucleus)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0063674> (increased number of cell nucleus)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0063674> "The presence of an increased number of nucleus.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0063674> "Extra nucleus")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0063674> "increased number of nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0063674> "The presence of an increased number of cell nucleus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0063674> "Extra cell nucleus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0063674> "increased number of cell nucleus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0063674> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005634>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0063675> (increased number of platelet alpha granule)
@@ -188450,11 +188450,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0067644> "morphology of intercalated disc phenotype")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0067644> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0014704>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0067645> (morphology of nucleus phenotype)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0067645> (morphology of cell nucleus phenotype)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0067645> "Any structural anomaly of the nucleus.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0067645> "changed shape of nucleus")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0067645> "morphology of nucleus phenotype")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0067645> "Any structural anomaly of the cell nucleus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0067645> "changed shape of cell nucleus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0067645> "morphology of cell nucleus phenotype")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0067645> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005634>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0067646> (morphology of photoreceptor outer segment phenotype)
@@ -236399,11 +236399,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0080310> "increased size of the cornified envelope")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0080310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000586> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0001533>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0080311> (increased size of the nucleus)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0080311> (increased size of the cell nucleus)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0080311> "An increase in the size of the nucleus.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0080311> "enlarged nucleus")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0080311> "increased size of the nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0080311> "An increase in the size of the cell nucleus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0080311> "enlarged cell nucleus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0080311> "increased size of the cell nucleus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0080311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000586> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005634>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0080312> (increased size of the lipid droplet)
@@ -245931,11 +245931,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082013> "decreased size of the cellular_component")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0082013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005575>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0082014> (decreased size of the nucleus)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0082014> (decreased size of the cell nucleus)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0082014> "A reduction in the size of the nucleus.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0082014> "small nucleus")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082014> "decreased size of the nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0082014> "A reduction in the size of the cell nucleus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0082014> "small cell nucleus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082014> "decreased size of the cell nucleus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0082014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000587> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005634>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0082015> (decreased size of the lipid droplet)
@@ -246005,10 +246005,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082028> "rotated midgut")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0082028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001599> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001045>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0082029> (rotated nucleus)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0082029> (rotated cell nucleus)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0082029> "Changed rotation of the nucleus.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082029> "rotated nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0082029> "Changed rotation of the cell nucleus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082029> "rotated cell nucleus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0082029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001599> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005634>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0082030> (increased resistance of organism to entity)
@@ -250490,10 +250490,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082989> "protein localization in autophagosome phenotype")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0082989> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0015002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002339> <http://purl.obolibrary.org/obo/GO_0005776>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0082990> (protein localization in nucleus phenotype)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0082990> (protein localization in cell nucleus phenotype)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0082990> "Changed protein localization nucleus.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082990> "protein localization in nucleus phenotype")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0082990> "Changed protein localization cell nucleus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0082990> "protein localization in cell nucleus phenotype")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0082990> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0015002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002339> <http://purl.obolibrary.org/obo/GO_0005634>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0082991> (increased size of the phagolysosome)
@@ -253304,10 +253304,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083506> "decreased protein localization in autophagosome")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0083506> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0015003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002339> <http://purl.obolibrary.org/obo/GO_0005776>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0083507> (decreased protein localization in nucleus)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0083507> (decreased protein localization in cell nucleus)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0083507> "Decreased protein localization nucleus.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083507> "decreased protein localization in nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0083507> "Decreased protein localization cell nucleus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083507> "decreased protein localization in cell nucleus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0083507> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0015003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002339> <http://purl.obolibrary.org/obo/GO_0005634>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0083508> (Harderian gland hyperplasia)
@@ -254145,10 +254145,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083632> "absent protein localization in autophagosome")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0083632> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002339> <http://purl.obolibrary.org/obo/GO_0005776>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0083633> (absent protein localization in nucleus)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0083633> (absent protein localization in cell nucleus)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0083633> "Absent or undetectable protein localization nucleus.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083633> "absent protein localization in nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0083633> "Absent or undetectable protein localization cell nucleus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083633> "absent protein localization in cell nucleus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0083633> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002339> <http://purl.obolibrary.org/obo/GO_0005634>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0083634> (cartilage tissue physiology phenotype)
@@ -255286,10 +255286,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083887> "increased protein localization in autophagosome")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0083887> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0015004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002339> <http://purl.obolibrary.org/obo/GO_0005776>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0083888> (increased protein localization in nucleus)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0083888> (increased protein localization in cell nucleus)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0083888> "Increased protein localization nucleus.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083888> "increased protein localization in nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0083888> "Increased protein localization cell nucleus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0083888> "increased protein localization in cell nucleus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0083888> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0015004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002339> <http://purl.obolibrary.org/obo/GO_0005634>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0083889> (tumor necrosis factor ligand superfamily member 11 level phenotype)
@@ -281004,19 +281004,19 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0088529> "absent spindle")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0088529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005819>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0088530> (absent nucleus)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0088530> (absent cell nucleus)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0088530> "Absence of nucleus.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0088530> "missing nucleus")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0088530> "absent nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0088530> "Absence of cell nucleus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0088530> "missing cell nucleus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0088530> "absent cell nucleus")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0088530> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005634>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0088532> (number of anatomical enitites of type nucleus phenotype)
+# Class: <http://purl.obolibrary.org/obo/UPHENO_0088532> (number of anatomical enitites of type cell nucleus phenotype)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0088532> "Any structural anomaly that causes there to be a changed number nucleus.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0088532> "altered number of nucleuss")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0088532> "changed number of nucleuss")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0088532> "number of anatomical enitites of type nucleus phenotype")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0088532> "Any structural anomaly that causes there to be a changed number cell nucleus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0088532> "altered number of cell nucleuss")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0088532> "changed number of cell nucleuss")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0088532> "number of anatomical enitites of type cell nucleus phenotype")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0088532> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0005634>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0088534> (number of anatomical enitites of type platelet dense granule phenotype)

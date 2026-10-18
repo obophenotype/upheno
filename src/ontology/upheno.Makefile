@@ -557,6 +557,34 @@ mirror/uberon-bridge-to-caro.owl:
 	$(ROBOT) merge -i ../patterns/pattern.owl \
 	filter --select "<http://purl.obolibrary.org/obo/upheno/patterns*>" --select "self annotations" --signature true --trim true -o ../patterns/pattern-simple.owl
 
+# dosdp-tools takes filler labels from this ontology rather than $(EDIT_PREPROCESSED), so
+# ambiguous filler labels can be fixed in generated labels and definitions without
+# touching the filler itself in the release (#972). Overrides live in
+# $(TEMPLATEDIR)/dosdp-label-overrides.tsv: the filler's annotations are replaced by the
+# new label, with the old label kept as an exact synonym. Plain ROBOT, no SPARQL: loading
+# the preprocessed file into Jena runs out of memory in CI.
+DOSDP_LABEL_ONTOLOGY = $(TMPDIR)/upheno-preprocess-dosdp-labels.owl
+DOSDP_LABEL_OVERRIDES = $(TEMPLATEDIR)/dosdp-label-overrides.tsv
+
+$(TMPDIR)/dosdp-label-override-terms.txt: $(DOSDP_LABEL_OVERRIDES) | $(TMPDIR)
+	tail -n +3 $< | cut -f1 > $@
+
+$(DOSDP_LABEL_ONTOLOGY): $(EDIT_PREPROCESSED) $(DOSDP_LABEL_OVERRIDES) $(TMPDIR)/dosdp-label-override-terms.txt
+	$(ROBOT) remove -i $(EDIT_PREPROCESSED) --term-file $(TMPDIR)/dosdp-label-override-terms.txt \
+		--select self --axioms annotation --signature true \
+		template --template $(DOSDP_LABEL_OVERRIDES) --merge-after \
+		convert -f ofn -o $@
+
+$(DOSDP_OWL_FILES_DEFAULT): $(DOSDP_LABEL_ONTOLOGY) $(DOSDP_TSV_FILES_DEFAULT) $(ALL_PATTERN_FILES)
+	if [ "${DOSDP_PATTERN_NAMES_DEFAULT}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
+    --infile=$(PATTERNDIR)/data/default/ --template=$(PATTERNDIR)/dosdp-patterns --batch-patterns="$(DOSDP_PATTERN_NAMES_DEFAULT)" \
+    --ontology=$(DOSDP_LABEL_ONTOLOGY) --obo-prefixes=true --outfile=$(PATTERNDIR)/data/default; fi
+
+$(DOSDP_OWL_FILES_AUTOMATIC): $(DOSDP_LABEL_ONTOLOGY) $(DOSDP_TSV_FILES_AUTOMATIC) $(ALL_PATTERN_FILES)
+	if [ "${DOSDP_PATTERN_NAMES_AUTOMATIC}" ]; then $(DOSDPT) generate --catalog=$(CATALOG) \
+    --infile=$(PATTERNDIR)/data/automatic --template=$(PATTERNDIR)/dosdp-patterns/ --batch-patterns="$(DOSDP_PATTERN_NAMES_AUTOMATIC)" \
+    --ontology=$(DOSDP_LABEL_ONTOLOGY) --obo-prefixes=true --outfile=$(PATTERNDIR)/data/automatic; fi
+
 ../patterns/dosdp-patterns/README.md: .FORCE
 	python ../scripts/patterns_create_overview.py "../patterns/dosdp-patterns|../patterns/dosdp-dev" $@
 
