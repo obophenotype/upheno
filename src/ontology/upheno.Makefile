@@ -69,6 +69,15 @@ $(MAPPINGDIR)/uberon.sssom.tsv: .FORCE
 	wget -nv $(UBERON_SSSOM_URL) -O $@.tmp && mv $@.tmp $@
 endif
 
+# MGI's lexical MP-HP mappings (#1013), regenerated weekly by MGI. Only used to seed
+# phenotype groupings (update_manual_alignments); refreshed with MIR=true like uberon.sssom.tsv.
+MGI_MP_HP_URL = https://raw.githubusercontent.com/mapping-commons/mh_mapping_initiative/master/mappings/mp_hp_mgi_lex.tsv
+
+ifeq ($(MIR),true)
+$(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv: .FORCE
+	wget -nv $(MGI_MP_HP_URL) -O $@.tmp && mv $@.tmp $@
+endif
+
 $(REPORTDIR)/%_phenotype_data.csv: $(MIRRORDIR)/%.owl $(SPARQLDIR)/%_phenotypes.sparql
 	$(ROBOT) query -f csv -i $< --query $(SPARQLDIR)/$*_phenotypes.sparql $@
 
@@ -124,11 +133,20 @@ custom_reports: $(REPORTDIR)/upheno-associated-entities.csv \
 $(TMPDIR)/upheno-subclasses.csv: #upheno.owl
 	$(ROBOT) query -f csv -i upheno.owl --query ../sparql/metadata.sparql $@
 
+# MGI's mappings are lexical and not reviewed routinely, so only label-to-label exact
+# matches are used (--all-exact-matches would add synonym matches, which are many-to-one).
+$(TMPDIR)/upheno-cross-species-for-groupings.sssom.tsv: $(MAPPINGDIR)/upheno-cross-species.sssom.tsv $(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv
+	python3 ../scripts/upheno_build.py add-cross-species-mappings \
+		--cross-species-mapping $(MAPPINGDIR)/upheno-cross-species.sssom.tsv \
+		--extra-mapping $(MAPPINGDIR)/mp-hp-mgi-lex.sssom.tsv \
+		--label-matches-only \
+		--output $@
+
 # Generate grouping classes for cases where no EQ exists
 .PHONY: update_manual_alignments
-update_manual_alignments: $(TMPDIR)/upheno-subclasses.csv
+update_manual_alignments: $(TMPDIR)/upheno-subclasses.csv $(TMPDIR)/upheno-cross-species-for-groupings.sssom.tsv
 	python3 ../scripts/upheno_build.py create-upheno-groupings \
-		--cross-species-mapping $(MAPPINGDIR)/upheno-cross-species.sssom.tsv \
+		--cross-species-mapping $(TMPDIR)/upheno-cross-species-for-groupings.sssom.tsv \
 		--species-independent-mapping $(MAPPINGDIR)/upheno-species-independent.sssom.tsv \
 		--upheno-subclasses $(TMPDIR)/upheno-subclasses.csv \
 		--start-id 7000000 \

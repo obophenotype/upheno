@@ -349,10 +349,12 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
 
         phenotypes = [f"  {pid} ({map_labels.get(pid, pid)})\n" for pid in group]
         mappings = []
+        pairs = set()
         for pid in group:
             for subj, obj in mapping_index.get(pid, []):
                 pair = tuple(sorted([subj, obj]))
-                if pair not in mappings:
+                if pair not in pairs:
+                    pairs.add(pair)
                     pair_1 = pair[0]
                     pair_2 = pair[1]
                     pair_1_label = map_labels.get(pair_1, "")
@@ -369,7 +371,7 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
 
         mappings_str = [
             f"    {a} ({map_labels.get(a, '')}) <-> {b} ({map_labels.get(b, '')})\n"
-            for a, b in sorted(mappings)
+            for a, b in sorted(pairs)
         ]
 
         warning_str = (
@@ -389,7 +391,6 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
     conflicts_manual_resolution = []
     for group in groups:
         generated = False
-        conflict = False
         upheno_ids = set(map_species_independent.get(x) for x in group if x in map_species_independent)
         non_upheno_ids = set(x for x in group if not x.startswith("UPHENO:"))
         upheno_ids.discard(None)
@@ -416,7 +417,12 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
         elif len(upheno_ids) > 1:
             group_str = ", ".join([f"{x} ({map_labels.get(x, '')})" for x in group])
             click.echo(f"Warning: multiple UPHENO IDs found for group {group_str}", err=True)
-            conflict = True
+            # Left for manual resolution. Don't align the group: upheno_id is unset here
+            # (or still holds the previous group's ID).
+            warning_str, mappings = generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent)
+            conflicts_manual_resolution.extend(mappings)
+            logger.warning(warning_str)
+            continue
         else:
             upheno_id = list(upheno_ids)[0]
 
@@ -434,12 +440,7 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
                     "comment": comment
                 })
             map_labels_reverse[upheno_label] = upheno_id
-        
-        if conflict:
-            warning_str, mappings = generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent)
-            conflicts_manual_resolution.extend(mappings)
-            logger.warning(warning_str)
-        
+
         for phenotype_id in non_upheno_ids:
             phenotype_label = map_labels.get(phenotype_id, phenotype_id)
             if phenotype_id not in map_species_independent:
@@ -480,6 +481,34 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
         file_conflicts_manual_resolution = os.path.join(directory, "conflicts_manual_resolution.tsv")
         df_conflicts_manual_resolution = pd.DataFrame(conflicts_manual_resolution).drop_duplicates().sort_values(by=["subject_id", "object_id"])
         df_conflicts_manual_resolution.to_csv(file_conflicts_manual_resolution, sep="\t", index=False)
+
+@upheno.command()
+@click.option("--cross-species-mapping", type=click.Path(exists=True), required=True)
+@click.option("--extra-mapping", type=click.Path(exists=True), required=True,
+              help="External SSSOM mapping set, e.g. MGI's MP-HP lexical mappings")
+@click.option("--label-matches-only/--all-exact-matches", default=True,
+              help="Only use exact matches between two term labels (not synonyms)")
+@click.option("--output", type=click.Path(), required=True)
+def add_cross_species_mappings(cross_species_mapping, extra_mapping, label_matches_only, output):
+    """Add the exact matches of an external mapping set to the cross-species mappings
+    that create-upheno-groupings reads."""
+    df_cross = pd.read_csv(cross_species_mapping, sep="\t", dtype=str, comment="#")
+    df_extra = pd.read_csv(extra_mapping, sep="\t", dtype=str, comment="#")
+    df_extra = df_extra[df_extra["predicate_id"] == "skos:exactMatch"]
+    if label_matches_only:
+        # MGI's match field columns say which label or synonym matched on either side (#1013)
+        label_match = (df_extra["subject_match_field"].str.endswith("term label")
+                       & df_extra["object_match_field"].str.endswith("term label"))
+        df_extra = df_extra[label_match]
+    df_extra = df_extra.assign(predicate_id="semapv:crossSpeciesExactMatch")
+    df_extra = df_extra[[c for c in df_cross.columns if c in df_extra.columns]]
+    known = set(zip(df_cross["subject_id"], df_cross["object_id"]))
+    known |= {(o, s) for s, o in known}
+    df_new = df_extra[[(s, o) not in known for s, o in zip(df_extra["subject_id"], df_extra["object_id"])]]
+    df_new = df_new.drop_duplicates(subset=["subject_id", "object_id"])
+    click.echo(f"Adding {len(df_new)} of {len(df_extra)} exact matches from {extra_mapping}")
+    pd.concat([df_cross, df_new]).to_csv(output, sep="\t", index=False)
+
 
 # Subcommand: help
 @upheno.command()
