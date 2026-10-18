@@ -8,6 +8,6 @@ SELECT ?cls ?label WHERE {
        rdfs:label ?label .
   FILTER(STRSTARTS(STR(?cls), "http://purl.obolibrary.org/obo/UPHENO_"))
   FILTER(CONTAINS(LCASE(?label), "obsolete"))
-  FILTER(NOT EXISTS { ?cls owl:deprecated "true"^^xsd:boolean })
+  FILTER NOT EXISTS { ?cls owl:deprecated ?d . FILTER(STR(?d) = "true") }
 }
 ORDER BY ?cls

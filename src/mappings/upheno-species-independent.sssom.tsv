@@ -19,7 +19,7 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/e3064b59-5e3f-4be0-94be-5f0305967c45
+# mapping_set_id: https://w3id.org/sssom/mappings/4b4a9ed9-4607-424e-a042-cb7312cb5935
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	license
 APO:0000017		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
 APO:0000045		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
@@ -547,7 +547,6 @@ DDPHENO:0000837		semapv:crossSpeciesExactMatch	UPHENO:0090136		semapv:MappingInv
 DDPHENO:0000838		semapv:crossSpeciesExactMatch	UPHENO:0089226		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001002		semapv:crossSpeciesExactMatch	UPHENO:0084004		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001003		semapv:crossSpeciesExactMatch	UPHENO:0049586		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0001005		semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001006		semapv:crossSpeciesExactMatch	UPHENO:0051356		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001007		semapv:crossSpeciesExactMatch	UPHENO:0083217		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001008		semapv:crossSpeciesExactMatch	UPHENO:0050121		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -1053,7 +1052,7 @@ FYPO:0000121	abnormal sporulation	semapv:crossSpeciesExactMatch	UPHENO:0083215	s
 FYPO:0000128	auxotrophy	semapv:crossSpeciesExactMatch	UPHENO:7000002	auxotrophy	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000131	abnormal mitotic spindle elongation	semapv:crossSpeciesExactMatch	UPHENO:0083169	mitotic spindle elongation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000138	localization phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049927	localization phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
-FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0050113	cellular metabolic process phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
+FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049873	metabolic process phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000141	abnormal mitotic sister chromatid segregation	semapv:crossSpeciesExactMatch	UPHENO:0049680	mitotic sister chromatid segregation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000149	transport phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049724	transport phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000151	abnormal meiotic chromosome segregation	semapv:crossSpeciesExactMatch	UPHENO:0049621	meiotic chromosome segregation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -3679,7 +3678,7 @@ HP:0008818		semapv:crossSpeciesExactMatch	UPHENO:0001558		semapv:MappingInversio
 HP:0008819		semapv:crossSpeciesExactMatch	UPHENO:0054645		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008823		semapv:crossSpeciesExactMatch	UPHENO:0081362		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008824		semapv:crossSpeciesExactMatch	UPHENO:0081377		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0008826	obsolete Dislocation of the femoral head	semapv:crossSpeciesExactMatch	UPHENO:7000497	head of femur dislocation; obsolete dislocation of the femoral head	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
+HP:0008826	obsolete Dislocation of the femoral head	semapv:crossSpeciesExactMatch	UPHENO:0086098	head of femur dislocation	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0008828		semapv:crossSpeciesExactMatch	UPHENO:0084040		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008829		semapv:crossSpeciesExactMatch	UPHENO:0084023		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008830		semapv:crossSpeciesExactMatch	UPHENO:0081373		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -6061,7 +6060,7 @@ HP:0041051	Ageusia	semapv:crossSpeciesExactMatch	UPHENO:7000866	ageusia	semapv:L
 HP:0041052		semapv:crossSpeciesExactMatch	UPHENO:0080317		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041055		semapv:crossSpeciesExactMatch	UPHENO:0080515		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041061		semapv:crossSpeciesExactMatch	UPHENO:0080463		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0041064	obsolete Fractured knee	semapv:crossSpeciesExactMatch	UPHENO:7000867	fractured knee; obsolete fractured knee	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
+HP:0041064	obsolete Fractured knee	semapv:crossSpeciesExactMatch	UPHENO:0080444	fractured knee	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0041073		semapv:crossSpeciesExactMatch	UPHENO:0080529		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041080		semapv:crossSpeciesExactMatch	UPHENO:0080988		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041081		semapv:crossSpeciesExactMatch	UPHENO:0080518		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -6895,7 +6894,6 @@ HP:6000852	Megacolon	semapv:crossSpeciesExactMatch	UPHENO:0084121	dilated colon	
 HP:6000853	Thyroid cyst	semapv:crossSpeciesExactMatch	UPHENO:0083404	thyroid gland cyst	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:6000855	Cold intolerance	semapv:crossSpeciesExactMatch	UPHENO:7000003	cold intolerance; cold sensitivity	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MGPO:0001001		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
-MGPO:0002009	abnormal glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078623	glycosylation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MGPO:0002106		semapv:crossSpeciesExactMatch	UPHENO:0081780		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 MGPO:0002199	abnormal protein glycosylation	semapv:crossSpeciesExactMatch	UPHENO:7000937	protein glycosylation; protein glycosylation variant	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MGPO:0002201	abnormal protein N-linked glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078593	protein N-linked glycosylation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -15624,7 +15622,6 @@ PHIPO:0001120		semapv:crossSpeciesExactMatch	UPHENO:0052798		semapv:MappingInver
 PHIPO:0001134		semapv:crossSpeciesExactMatch	UPHENO:0076377		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 PHIPO:0001135		semapv:crossSpeciesExactMatch	UPHENO:0081751		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 PHIPO:0001137		semapv:crossSpeciesExactMatch	UPHENO:0080533		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-PHIPO:0001147		semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 PHIPO:0001149		semapv:crossSpeciesExactMatch	UPHENO:0082009		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 PHIPO:0001153	hyphal hyper branching	semapv:crossSpeciesExactMatch	UPHENO:7000128	hyphal hyper branching; increased hyphal branching	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 PHIPO:0001205	abnormal filament morphology	semapv:crossSpeciesExactMatch	UPHENO:7000030	filament morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -23101,6 +23098,7 @@ UPHENO:0049870	gene expression phenotype	semapv:crossSpeciesExactMatch	FYPO:0006
 UPHENO:0049872		semapv:crossSpeciesExactMatch	WBPhenotype:0000207		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0049873		semapv:crossSpeciesExactMatch	XPO:0141776		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0049873		semapv:crossSpeciesExactMatch	ZP:0101114		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
+UPHENO:0049873	metabolic process phenotype	semapv:crossSpeciesExactMatch	FYPO:0000140	cellular metabolism phenotype	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0049873	metabolic process phenotype	semapv:crossSpeciesExactMatch	FYPO:0000860	abnormal metabolic process	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0049874		semapv:crossSpeciesExactMatch	HP:0001507		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0049874		semapv:crossSpeciesExactMatch	WBPhenotype:0000030		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -23347,10 +23345,6 @@ UPHENO:0050111		semapv:crossSpeciesExactMatch	DDPHENO:0001225		semapv:LogicalRea
 UPHENO:0050111		semapv:crossSpeciesExactMatch	WBPhenotype:0000481		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050112		semapv:crossSpeciesExactMatch	DDPHENO:0001224		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050112		semapv:crossSpeciesExactMatch	WBPhenotype:0000635		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050113		semapv:crossSpeciesExactMatch	DDPHENO:0001005		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050113		semapv:crossSpeciesExactMatch	PHIPO:0001147		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050113		semapv:crossSpeciesExactMatch	XPO:0141790		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050113	cellular metabolic process phenotype	semapv:crossSpeciesExactMatch	FYPO:0000140	cellular metabolism phenotype	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0050116		semapv:crossSpeciesExactMatch	XPO:0141791		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050118		semapv:crossSpeciesExactMatch	DDPHENO:0001031		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050120		semapv:crossSpeciesExactMatch	WBPhenotype:0000815		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -30905,7 +30899,6 @@ UPHENO:0078617		semapv:crossSpeciesExactMatch	HP:0010989		semapv:LogicalReasonin
 UPHENO:0078619		semapv:crossSpeciesExactMatch	HP:0004370		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078619		semapv:crossSpeciesExactMatch	XPO:0141767		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078620		semapv:crossSpeciesExactMatch	HP:0100509		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0078623	glycosylation phenotype	semapv:crossSpeciesExactMatch	MGPO:0002009	abnormal glycosylation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0078624		semapv:crossSpeciesExactMatch	HP:0011023		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078625		semapv:crossSpeciesExactMatch	HP:0410035		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078625	T cell activation phenotype	semapv:crossSpeciesExactMatch	MP:0001828	abnormal T cell activation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -31730,6 +31723,7 @@ UPHENO:0080439		semapv:crossSpeciesExactMatch	HP:0041164		semapv:LogicalReasonin
 UPHENO:0080440		semapv:crossSpeciesExactMatch	HP:0041226		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080442		semapv:crossSpeciesExactMatch	HP:0041225		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080443		semapv:crossSpeciesExactMatch	HP:0041188		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
+UPHENO:0080444	fractured knee	semapv:crossSpeciesExactMatch	HP:0041064	obsolete Fractured knee	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0080445		semapv:crossSpeciesExactMatch	HP:0041082		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080446		semapv:crossSpeciesExactMatch	HP:0041144		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080447		semapv:crossSpeciesExactMatch	HP:0041165		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -35752,6 +35746,7 @@ UPHENO:0086095		semapv:crossSpeciesExactMatch	HP:0003083		semapv:LogicalReasonin
 UPHENO:0086095		semapv:crossSpeciesExactMatch	MP:0030883		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086096		semapv:crossSpeciesExactMatch	HP:0003994		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086097		semapv:crossSpeciesExactMatch	HP:0008141		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
+UPHENO:0086098	head of femur dislocation	semapv:crossSpeciesExactMatch	HP:0008826	obsolete Dislocation of the femoral head	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0086099		semapv:crossSpeciesExactMatch	HP:0003834		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086100		semapv:crossSpeciesExactMatch	HP:0002827		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086101		semapv:crossSpeciesExactMatch	HP:0004976		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -40054,7 +40049,6 @@ UPHENO:7000494	bilateral cryptorchidism; bilateral cryptorchism	semapv:crossSpec
 UPHENO:7000495	decreased width of the ureterovesical junction; ureterovesical stenosis	semapv:crossSpeciesExactMatch	HP:0008714	Ureterovesical stenosis	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000496	urethrovaginal fistula	semapv:crossSpeciesExactMatch	HP:0008716	Urethrovaginal fistula	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000496	urethrovaginal fistula	semapv:crossSpeciesExactMatch	MP:0003593	urethrovaginal fistula	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7000497	head of femur dislocation; obsolete dislocation of the femoral head	semapv:crossSpeciesExactMatch	HP:0008826	obsolete Dislocation of the femoral head	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000498	lipodystrophy	semapv:crossSpeciesExactMatch	HP:0009125	Lipodystrophy	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000498	lipodystrophy	semapv:crossSpeciesExactMatch	MP:0011174	lipodystrophy	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000499	cerebral artery morphology	semapv:crossSpeciesExactMatch	HP:0009145	Abnormal cerebral artery morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -40796,7 +40790,6 @@ UPHENO:7000865	mastitis	semapv:crossSpeciesExactMatch	HP:0040407	Mastitis	semapv
 UPHENO:7000865	mastitis	semapv:crossSpeciesExactMatch	MP:0013148	mastitis	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000866	ageusia	semapv:crossSpeciesExactMatch	HP:0041051	Ageusia	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000866	ageusia	semapv:crossSpeciesExactMatch	MP:0031090	ageusia	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7000867	fractured knee; obsolete fractured knee	semapv:crossSpeciesExactMatch	HP:0041064	obsolete Fractured knee	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000868	circulating lactate dehydrogenase concentration; lactate dehydrogenase level	semapv:crossSpeciesExactMatch	HP:0045040	Abnormal circulating lactate dehydrogenase concentration	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000868	circulating lactate dehydrogenase concentration; lactate dehydrogenase level	semapv:crossSpeciesExactMatch	MP:0002943	abnormal lactate dehydrogenase level	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000869	abnormality of body mass index; body mass index	semapv:crossSpeciesExactMatch	HP:0045081	Abnormality of body mass index	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -41206,13 +41199,6 @@ UPHENO:7001071	epidermal cell	semapv:crossSpeciesExactMatch	PLANP:0000582	abnorm
 UPHENO:7001071	epidermal cell	semapv:crossSpeciesExactMatch	XPO:0100714	abnormal epidermal cell	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001072	pigment cell	semapv:crossSpeciesExactMatch	PLANP:0000624	abnormal pigment cell	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001072	pigment cell	semapv:crossSpeciesExactMatch	XPO:0101278	abnormal pigment cell	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001073	regulation of telomerase activity phenotype; regulation of telomerase activity process quality	semapv:crossSpeciesExactMatch	ZP:0013206	regulation of telomerase activity process quality, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001074	decreased qualitatively planar cell polarity pathway involved in axon guidance; planar cell polarity pathway involved in axon guidance decreased process quality	semapv:crossSpeciesExactMatch	ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001075	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality; decreased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:crossSpeciesExactMatch	ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001076	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence; increased occurrence of activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:crossSpeciesExactMatch	ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001077	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality; increased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:crossSpeciesExactMatch	ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001078	5-methylcytosine metabolic process; 5-methylcytosine metabolic process phenotype	semapv:crossSpeciesExactMatch	XPO:0141864	abnormal 5-methylcytosine metabolic process	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001079	cellular lipid catabolic process increased occurrence; increased occurrence of cellular lipid catabolic process	semapv:crossSpeciesExactMatch	ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001080	egg morphology; egg morphology variant	semapv:crossSpeciesExactMatch	WBPhenotype:0000037	egg morphology variant	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001080	egg morphology; egg morphology variant	semapv:crossSpeciesExactMatch	XPO:0102648	abnormal egg morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001081	head morphology; head morphology variant	semapv:crossSpeciesExactMatch	WBPhenotype:0000071	head morphology variant	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -44464,7 +44450,6 @@ XPO:0141786		semapv:crossSpeciesExactMatch	UPHENO:0050766		semapv:MappingInversi
 XPO:0141787		semapv:crossSpeciesExactMatch	UPHENO:0050767		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141788		semapv:crossSpeciesExactMatch	UPHENO:0088255		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141789		semapv:crossSpeciesExactMatch	UPHENO:0088256		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141790		semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141791		semapv:crossSpeciesExactMatch	UPHENO:0050116		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141792		semapv:crossSpeciesExactMatch	UPHENO:0049618		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141793		semapv:crossSpeciesExactMatch	UPHENO:0050261		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44516,7 +44501,6 @@ XPO:0141860		semapv:crossSpeciesExactMatch	UPHENO:0088291		semapv:MappingInversi
 XPO:0141861		semapv:crossSpeciesExactMatch	UPHENO:0088260		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141862		semapv:crossSpeciesExactMatch	UPHENO:0088278		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141863		semapv:crossSpeciesExactMatch	UPHENO:0088224		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141864	abnormal 5-methylcytosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:7001078	5-methylcytosine metabolic process; 5-methylcytosine metabolic process phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 XPO:0141865		semapv:crossSpeciesExactMatch	UPHENO:0088289		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141866		semapv:crossSpeciesExactMatch	UPHENO:0078584		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141867		semapv:crossSpeciesExactMatch	UPHENO:0088247		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44698,7 +44682,6 @@ ZP:0000402		semapv:crossSpeciesExactMatch	UPHENO:0018553		semapv:MappingInversio
 ZP:0000404		semapv:crossSpeciesExactMatch	UPHENO:0081219		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000405		semapv:crossSpeciesExactMatch	UPHENO:0074120		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000406		semapv:crossSpeciesExactMatch	UPHENO:0004494		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001076	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence; increased occurrence of activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0000409		semapv:crossSpeciesExactMatch	UPHENO:0053178		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000413		semapv:crossSpeciesExactMatch	UPHENO:0002189		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000414		semapv:crossSpeciesExactMatch	UPHENO:0071482		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -47251,7 +47234,6 @@ ZP:0010689		semapv:crossSpeciesExactMatch	UPHENO:0070381		semapv:MappingInversio
 ZP:0010690		semapv:crossSpeciesExactMatch	UPHENO:0069904		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0010707		semapv:crossSpeciesExactMatch	UPHENO:0050989		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0010711		semapv:crossSpeciesExactMatch	UPHENO:0071499		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001077	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality; increased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0010717		semapv:crossSpeciesExactMatch	UPHENO:0078519		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0010720		semapv:crossSpeciesExactMatch	UPHENO:0014925		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0010722		semapv:crossSpeciesExactMatch	UPHENO:0046946		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -47733,7 +47715,6 @@ ZP:0013173		semapv:crossSpeciesExactMatch	UPHENO:0050596		semapv:MappingInversio
 ZP:0013176		semapv:crossSpeciesExactMatch	UPHENO:0051527		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013179	testis morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087973	testis morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0013205		semapv:crossSpeciesExactMatch	UPHENO:0011878		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0013206	regulation of telomerase activity process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001073	regulation of telomerase activity phenotype; regulation of telomerase activity process quality	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0013230		semapv:crossSpeciesExactMatch	UPHENO:0049624		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013235		semapv:crossSpeciesExactMatch	UPHENO:0080409		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013242		semapv:crossSpeciesExactMatch	UPHENO:0050361		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -48946,7 +48927,6 @@ ZP:0019450		semapv:crossSpeciesExactMatch	UPHENO:0009855		semapv:MappingInversio
 ZP:0019451		semapv:crossSpeciesExactMatch	UPHENO:0009854		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0019453		semapv:crossSpeciesExactMatch	UPHENO:0015070		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0019454		semapv:crossSpeciesExactMatch	UPHENO:0009612		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001074	decreased qualitatively planar cell polarity pathway involved in axon guidance; planar cell polarity pathway involved in axon guidance decreased process quality	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0019461		semapv:crossSpeciesExactMatch	UPHENO:0014519		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0019462		semapv:crossSpeciesExactMatch	UPHENO:0064204		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0019471		semapv:crossSpeciesExactMatch	UPHENO:0053788		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -50040,7 +50020,6 @@ ZP:0102972		semapv:crossSpeciesExactMatch	UPHENO:0077639		semapv:MappingInversio
 ZP:0102984		semapv:crossSpeciesExactMatch	UPHENO:0064277		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0102997		semapv:crossSpeciesExactMatch	UPHENO:0071944		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0103018		semapv:crossSpeciesExactMatch	UPHENO:0050526		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001075	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality; decreased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0103028		semapv:crossSpeciesExactMatch	UPHENO:0034389		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0103040		semapv:crossSpeciesExactMatch	UPHENO:0052749		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0103051		semapv:crossSpeciesExactMatch	UPHENO:0010479		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51441,7 +51420,6 @@ ZP:0149052		semapv:crossSpeciesExactMatch	UPHENO:0088498		semapv:MappingInversio
 ZP:0149053		semapv:crossSpeciesExactMatch	UPHENO:0089835		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0149065		semapv:crossSpeciesExactMatch	UPHENO:0090124		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0149074		semapv:crossSpeciesExactMatch	UPHENO:0090129		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001079	cellular lipid catabolic process increased occurrence; increased occurrence of cellular lipid catabolic process	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0149081		semapv:crossSpeciesExactMatch	UPHENO:0089690		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0149118		semapv:crossSpeciesExactMatch	UPHENO:0089777		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0149130		semapv:crossSpeciesExactMatch	UPHENO:0089319		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified

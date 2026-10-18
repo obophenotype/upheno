@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2026-10-17/patterns/definitions.owl>
-Annotation(owl:versionInfo "2026-10-17")
+<http://purl.obolibrary.org/obo/upheno/releases/2026-10-18/patterns/definitions.owl>
+Annotation(owl:versionInfo "2026-10-18")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -9110,7 +9110,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000923>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000924>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000925>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000926>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000927>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000928>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000929>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000930>))
@@ -11843,7 +11842,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005599>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005601>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005602>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005603>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005604>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005605>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0005606>))
@@ -17196,7 +17194,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0019180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0019181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0019182>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0019183>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0019184>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0019185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0019186>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0019187>))
@@ -22988,7 +22985,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049541>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049542>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049543>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049544>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049546>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049547>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0049549>))
@@ -23472,7 +23468,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050108>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050110>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050112>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050114>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050115>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0050116>))
@@ -25112,7 +25107,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052170>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052171>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052174>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0052175>))
@@ -27384,7 +27378,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055068>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0055073>))
@@ -27952,7 +27945,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059840>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059843>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059846>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059851>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059882>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059908>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0059928>))
@@ -31769,7 +31761,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071069>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071074>))
@@ -31828,7 +31819,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071151>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071154>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071155>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071157>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071158>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071159>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0071160>))
@@ -46648,12 +46638,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0000925> ObjectSomeValu
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0000926> "Delayed photoreceptor cell differentiation.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000926> "delayed photoreceptor cell differentiation")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0000926> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000502> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0046530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0000927> (delayed metabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0000927> "Delayed metabolic process.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0000927> "delayed metabolic process")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0000927> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000502> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0000928> (delayed primary metabolic process)
 
@@ -65312,12 +65296,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0005601> ObjectSomeValu
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0005602> "decreased peptide secretion.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0005602> "decreased peptide secretion")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0005602> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000911> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0002790>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0005603> (decreased metabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0005603> "decreased metabolic process.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0005603> "decreased metabolic process")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0005603> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000911> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0005604> (decreased negative regulation of hemostasis)
 
@@ -104758,16 +104736,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0019183> "photoreceptor cell differentiation arrest")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0019183> "arrested photoreceptor cell differentiation")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0019183> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000297> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0046530>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0019184> (arrested metabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0019184> "Arrested metabolic process.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0019184> "failed metabolic process")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0019184> "failure to complete metabolic process")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0019184> "incomplete metabolic process")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UPHENO_0019184> "metabolic process arrest")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0019184> "arrested metabolic process")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0019184> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000297> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0019185> (arrested protein autophosphorylation)
 
@@ -144793,12 +144761,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0049544> "premature cell surface receptor signaling pathway")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0049544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000694> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0007166>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0049545> (premature metabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0049545> "Early start time of metabolic process.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0049545> "premature metabolic process")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0049545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000694> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0049546> (premature enzyme-linked receptor protein signaling pathway)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0049546> "Early start time of enzyme-linked receptor protein signaling pathway.")
@@ -147696,12 +147658,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0050111> ObjectSomeValu
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0050112> "Changed positive chemotaxis.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0050112> "positive chemotaxis phenotype")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0050112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0050918>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0050113> (metabolic process phenotype)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0050113> "Changed metabolic process.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0050113> "metabolic process phenotype")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0050113> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0050114> (sister chromatid segregation phenotype)
 
@@ -157536,12 +157492,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0052168> ObjectSomeValu
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0052170> "Decreased qualitatively sulfur compound metabolic process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0052170> "decreased qualitatively sulfur compound metabolic process")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0052170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0006790>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0052171> (decreased qualitatively metabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0052171> "Decreased qualitatively metabolic process.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0052171> "decreased qualitatively metabolic process")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0052171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0052172> (decreased qualitatively amino acid metabolic process)
 
@@ -172262,12 +172212,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0055068> "increased peptide secretion")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0055068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000912> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0002790>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0055069> (increased metabolic process)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0055069> "Increased metabolic process.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0055069> "increased metabolic process")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0055069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000912> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0008152>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0055070> (increased energy reserve metabolic process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0055070> "Increased energy reserve metabolic process.")
@@ -176025,12 +175969,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0059845> ObjectSomeValu
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0059846> "A change of the tetrapyrrole metabolic process in blood.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0059846> "tetrapyrrole metabolic process in blood phenotype")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0059846> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0033013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0000178>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0059851> (metabolic process in blood phenotype)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0059851> "A change of the metabolic process in blood.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0059851> "metabolic process in blood phenotype")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0059851> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008152> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0000178>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0059882> (biological_process in endoplasmic reticulum phenotype)
 
@@ -202055,12 +201993,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0071069> "absent biological_process in interdigital region")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0071069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0006012>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0071070> (absent metabolic process in camera-type eye)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0071070> "Absent or undetectable metabolic process in camera-type eye.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0071070> "absent metabolic process in camera-type eye")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0071070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008152> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0000019>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0071071> (absent secretion in digestive system)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0071071> "Absent or undetectable secretion in digestive system.")
@@ -202408,12 +202340,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0071154> ObjectSomeValu
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0071155> "Absent or undetectable ossification in bony vertebral centrum.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0071155> "absent ossification in bony vertebral centrum")
 EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0071155> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0001503> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0001075>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0071157> (absent metabolic process in eyeball of camera-type eye)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UPHENO_0071157> "Absent or undetectable metabolic process in eyeball of camera-type eye.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0071157> "absent metabolic process in eyeball of camera-type eye")
-EquivalentClasses(<http://purl.obolibrary.org/obo/UPHENO_0071157> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000462> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008152> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0010230>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0071158> (absent multicellular organismal process in palatine bone)
 
