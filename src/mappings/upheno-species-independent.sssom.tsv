@@ -19,7 +19,7 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/7ecc5dcd-8761-4dbf-99f6-2c809dd08a6a
+# mapping_set_id: https://w3id.org/sssom/mappings/1ce638dd-52b5-44b4-a3a9-eb87a78f18fe
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	license
 APO:0000017		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
 APO:0000045		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
@@ -5085,6 +5085,7 @@ HP:0012332		semapv:crossSpeciesExactMatch	UPHENO:0002259		semapv:MappingInversio
 HP:0012334	Extrahepatic cholestasis	semapv:crossSpeciesExactMatch	UPHENO:7000629	extrahepatic cholestasis	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0012337	Abnormal homeostasis	semapv:crossSpeciesExactMatch	UPHENO:7000630	homeostasis	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0012338	Abnormal energy expenditure	semapv:crossSpeciesExactMatch	UPHENO:7000631	energy expenditure	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
+HP:0012345		semapv:crossSpeciesExactMatch	UPHENO:0078623		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0012347		semapv:crossSpeciesExactMatch	UPHENO:0078593		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0012358		semapv:crossSpeciesExactMatch	UPHENO:0078583		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0012359		semapv:crossSpeciesExactMatch	UPHENO:0078605		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -6892,6 +6893,7 @@ HP:6000852	Megacolon	semapv:crossSpeciesExactMatch	UPHENO:0084121	dilated colon	
 HP:6000853	Thyroid cyst	semapv:crossSpeciesExactMatch	UPHENO:0083404	thyroid gland cyst	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:6000855	Cold intolerance	semapv:crossSpeciesExactMatch	UPHENO:7000003	cold intolerance; cold sensitivity	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MGPO:0001001		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
+MGPO:0002009	abnormal glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078623	glycosylation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MGPO:0002106		semapv:crossSpeciesExactMatch	UPHENO:0081780		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 MGPO:0002199	abnormal protein glycosylation	semapv:crossSpeciesExactMatch	UPHENO:7000937	protein glycosylation; protein glycosylation variant	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MGPO:0002201	abnormal protein N-linked glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078593	protein N-linked glycosylation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -30897,6 +30899,9 @@ UPHENO:0078617		semapv:crossSpeciesExactMatch	HP:0010989		semapv:LogicalReasonin
 UPHENO:0078619		semapv:crossSpeciesExactMatch	HP:0004370		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078619		semapv:crossSpeciesExactMatch	XPO:0141767		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078620		semapv:crossSpeciesExactMatch	HP:0100509		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
+UPHENO:0078623		semapv:crossSpeciesExactMatch	HP:0012345		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
+UPHENO:0078623		semapv:crossSpeciesExactMatch	XPO:0141795		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
+UPHENO:0078623	glycosylation phenotype	semapv:crossSpeciesExactMatch	MGPO:0002009	abnormal glycosylation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0078624		semapv:crossSpeciesExactMatch	HP:0011023		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078625		semapv:crossSpeciesExactMatch	HP:0410035		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078625	T cell activation phenotype	semapv:crossSpeciesExactMatch	MP:0001828	abnormal T cell activation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -44450,6 +44455,7 @@ XPO:0141791		semapv:crossSpeciesExactMatch	UPHENO:0050116		semapv:MappingInversi
 XPO:0141792		semapv:crossSpeciesExactMatch	UPHENO:0049618		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141793		semapv:crossSpeciesExactMatch	UPHENO:0050261		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141794		semapv:crossSpeciesExactMatch	UPHENO:0088244		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
+XPO:0141795		semapv:crossSpeciesExactMatch	UPHENO:0078623		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141796		semapv:crossSpeciesExactMatch	UPHENO:0050860		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141797		semapv:crossSpeciesExactMatch	UPHENO:0088277		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141798		semapv:crossSpeciesExactMatch	UPHENO:0049723		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified

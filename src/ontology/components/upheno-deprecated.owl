@@ -15152,7 +15152,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078611>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078618>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078621>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078622>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078623>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078626>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078632>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0078643>))
@@ -94500,13 +94499,6 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_007862
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0078622> "http://purl.obolibrary.org/obo/NBO_0000403-abnormalBiologicalProcess.tsv")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0078622> "true"^^xsd:boolean)
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0078623> (obsolete glycosylation phenotype)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_0078623> <https://github.com/obophenotype/upheno/issues/1011>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0078623> "http://purl.obolibrary.org/obo/GO_0070085-abnormalBiologicalProcess-http://purl.obolibrary.org/obo/UPHENO_0078623")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_0078623> "obsolete glycosylation phenotype")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0078623> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0078626> (obsolete valine metabolic process phenotype)
 
