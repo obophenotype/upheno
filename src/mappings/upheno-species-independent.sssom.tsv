@@ -19,7 +19,7 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/4b4a9ed9-4607-424e-a042-cb7312cb5935
+# mapping_set_id: https://w3id.org/sssom/mappings/7ecc5dcd-8761-4dbf-99f6-2c809dd08a6a
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	license
 APO:0000017		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
 APO:0000045		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
@@ -3678,7 +3678,6 @@ HP:0008818		semapv:crossSpeciesExactMatch	UPHENO:0001558		semapv:MappingInversio
 HP:0008819		semapv:crossSpeciesExactMatch	UPHENO:0054645		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008823		semapv:crossSpeciesExactMatch	UPHENO:0081362		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008824		semapv:crossSpeciesExactMatch	UPHENO:0081377		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0008826	obsolete Dislocation of the femoral head	semapv:crossSpeciesExactMatch	UPHENO:0086098	head of femur dislocation	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0008828		semapv:crossSpeciesExactMatch	UPHENO:0084040		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008829		semapv:crossSpeciesExactMatch	UPHENO:0084023		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008830		semapv:crossSpeciesExactMatch	UPHENO:0081373		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -6060,7 +6059,6 @@ HP:0041051	Ageusia	semapv:crossSpeciesExactMatch	UPHENO:7000866	ageusia	semapv:L
 HP:0041052		semapv:crossSpeciesExactMatch	UPHENO:0080317		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041055		semapv:crossSpeciesExactMatch	UPHENO:0080515		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041061		semapv:crossSpeciesExactMatch	UPHENO:0080463		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0041064	obsolete Fractured knee	semapv:crossSpeciesExactMatch	UPHENO:0080444	fractured knee	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0041073		semapv:crossSpeciesExactMatch	UPHENO:0080529		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041080		semapv:crossSpeciesExactMatch	UPHENO:0080988		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041081		semapv:crossSpeciesExactMatch	UPHENO:0080518		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -31723,7 +31721,6 @@ UPHENO:0080439		semapv:crossSpeciesExactMatch	HP:0041164		semapv:LogicalReasonin
 UPHENO:0080440		semapv:crossSpeciesExactMatch	HP:0041226		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080442		semapv:crossSpeciesExactMatch	HP:0041225		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080443		semapv:crossSpeciesExactMatch	HP:0041188		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0080444	fractured knee	semapv:crossSpeciesExactMatch	HP:0041064	obsolete Fractured knee	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0080445		semapv:crossSpeciesExactMatch	HP:0041082		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080446		semapv:crossSpeciesExactMatch	HP:0041144		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080447		semapv:crossSpeciesExactMatch	HP:0041165		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -35746,7 +35743,6 @@ UPHENO:0086095		semapv:crossSpeciesExactMatch	HP:0003083		semapv:LogicalReasonin
 UPHENO:0086095		semapv:crossSpeciesExactMatch	MP:0030883		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086096		semapv:crossSpeciesExactMatch	HP:0003994		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086097		semapv:crossSpeciesExactMatch	HP:0008141		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0086098	head of femur dislocation	semapv:crossSpeciesExactMatch	HP:0008826	obsolete Dislocation of the femoral head	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0086099		semapv:crossSpeciesExactMatch	HP:0003834		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086100		semapv:crossSpeciesExactMatch	HP:0002827		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086101		semapv:crossSpeciesExactMatch	HP:0004976		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified

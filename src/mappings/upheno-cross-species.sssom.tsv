@@ -5786,7 +5786,6 @@ HP:0008818	Large iliac wing	semapv:crossSpeciesExactMatch	UPHENO:0001558		semapv
 HP:0008819	Narrow femoral neck	semapv:crossSpeciesExactMatch	UPHENO:0054645		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008823	Inferior pubic ramus hypoplasia	semapv:crossSpeciesExactMatch	UPHENO:0081362		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008824	Hypoplastic iliac body	semapv:crossSpeciesExactMatch	UPHENO:0081377		semapv:LogicalReasoning	obo:hp	obo:upheno
-HP:0008826	obsolete Dislocation of the femoral head	semapv:crossSpeciesExactMatch	UPHENO:0086098	head of femur dislocation	semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008828	Delayed proximal femoral epiphyseal ossification	semapv:crossSpeciesExactMatch	UPHENO:0084040		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008829	Delayed femoral head ossification	semapv:crossSpeciesExactMatch	UPHENO:0084023		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008830	Hypoplastic pubic ramus	semapv:crossSpeciesExactMatch	UPHENO:0081373		semapv:LogicalReasoning	obo:hp	obo:upheno
@@ -9227,7 +9226,6 @@ HP:0041051	Ageusia	semapv:crossSpeciesExactMatch	UPHENO:7000866		semapv:LogicalR
 HP:0041052	Agenesis of putamen	semapv:crossSpeciesExactMatch	UPHENO:0080317		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041055	Fractured humerus	semapv:crossSpeciesExactMatch	UPHENO:0080515		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041061	Fractured calcaneus	semapv:crossSpeciesExactMatch	UPHENO:0080463		semapv:LogicalReasoning	obo:hp	obo:upheno
-HP:0041064	obsolete Fractured knee	semapv:crossSpeciesExactMatch	UPHENO:0080444	fractured knee	semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041073	Fractured thoracic vertebra	semapv:crossSpeciesExactMatch	UPHENO:0080529		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041080	Abnormal proportion of exhausted T cells	semapv:crossSpeciesExactMatch	UPHENO:0080988		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041081	Fractured lower leg	semapv:crossSpeciesExactMatch	UPHENO:0080518		semapv:LogicalReasoning	obo:hp	obo:upheno
@@ -47055,7 +47053,6 @@ UPHENO:7000494		semapv:crossSpeciesExactMatch	MP:0031287	bilateral cryptorchism	
 UPHENO:7000495		semapv:crossSpeciesExactMatch	HP:0008714	Ureterovesical stenosis	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000496		semapv:crossSpeciesExactMatch	HP:0008716	Urethrovaginal fistula	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000496		semapv:crossSpeciesExactMatch	MP:0003593	urethrovaginal fistula	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:0086098		semapv:crossSpeciesExactMatch	HP:0008826	obsolete Dislocation of the femoral head	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000498		semapv:crossSpeciesExactMatch	HP:0009125	Lipodystrophy	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000498		semapv:crossSpeciesExactMatch	MP:0011174	lipodystrophy	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:7000499		semapv:crossSpeciesExactMatch	HP:0009145	Abnormal cerebral artery morphology	semapv:LogicalReasoning	obo:upheno	obo:hp
@@ -47797,7 +47794,6 @@ UPHENO:7000865		semapv:crossSpeciesExactMatch	HP:0040407	Mastitis	semapv:Logical
 UPHENO:7000865		semapv:crossSpeciesExactMatch	MP:0013148	mastitis	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:7000866		semapv:crossSpeciesExactMatch	HP:0041051	Ageusia	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000866		semapv:crossSpeciesExactMatch	MP:0031090	ageusia	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:0080444		semapv:crossSpeciesExactMatch	HP:0041064	obsolete Fractured knee	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000868		semapv:crossSpeciesExactMatch	HP:0045040	Abnormal circulating lactate dehydrogenase concentration	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000868		semapv:crossSpeciesExactMatch	MP:0002943	abnormal lactate dehydrogenase level	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:7000869		semapv:crossSpeciesExactMatch	HP:0045081	Abnormality of body mass index	semapv:LogicalReasoning	obo:upheno	obo:hp
