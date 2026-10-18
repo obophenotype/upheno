@@ -147,7 +147,7 @@ FYPO:0000121	abnormal sporulation	semapv:crossSpeciesExactMatch	UPHENO:0083215	s
 FYPO:0000128	auxotrophy	semapv:crossSpeciesExactMatch	UPHENO:7000002	auxotrophy	semapv:LogicalReasoning
 FYPO:0000131	abnormal mitotic spindle elongation	semapv:crossSpeciesExactMatch	UPHENO:0083169	mitotic spindle elongation phenotype	semapv:LogicalReasoning
 FYPO:0000138	localization phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049927	localization phenotype	semapv:LogicalReasoning
-FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0050113	cellular metabolic process phenotype	semapv:LogicalReasoning
+FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049873	metabolic process phenotype	semapv:LogicalReasoning
 FYPO:0000141	abnormal mitotic sister chromatid segregation	semapv:crossSpeciesExactMatch	UPHENO:0049680	mitotic sister chromatid segregation phenotype	semapv:LogicalReasoning
 FYPO:0000149	transport phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049724	transport phenotype	semapv:LogicalReasoning
 FYPO:0000151	abnormal meiotic chromosome segregation	semapv:crossSpeciesExactMatch	UPHENO:0049621	meiotic chromosome segregation phenotype	semapv:LogicalReasoning
@@ -955,7 +955,6 @@ HP:0008689	Bilateral cryptorchidism	semapv:crossSpeciesExactMatch	UPHENO:7000494
 HP:0008707	Absent scrotum	semapv:crossSpeciesExactMatch	UPHENO:0026575	absent scrotum in the reproductive system	semapv:LogicalReasoning
 HP:0008714	Ureterovesical stenosis	semapv:crossSpeciesExactMatch	UPHENO:7000495	decreased width of the ureterovesical junction; ureterovesical stenosis	semapv:LogicalReasoning
 HP:0008716	Urethrovaginal fistula	semapv:crossSpeciesExactMatch	UPHENO:7000496	urethrovaginal fistula	semapv:LogicalReasoning
-HP:0008826	obsolete Dislocation of the femoral head	semapv:crossSpeciesExactMatch	UPHENO:7000497	head of femur dislocation; obsolete dislocation of the femoral head	semapv:LogicalReasoning
 HP:0008887	Adipose tissue loss	semapv:crossSpeciesExactMatch	UPHENO:0035132	decreased number of adipose tissue in the multicellular organism	semapv:LogicalReasoning
 HP:0008897	Postnatal growth retardation	semapv:crossSpeciesExactMatch	UPHENO:0082952	decreased asexual reproduction	semapv:LogicalReasoning
 HP:0009121	Abnormal axial skeleton morphology	semapv:crossSpeciesExactMatch	UPHENO:0087089	axial skeleton plus cranial skeleton morphology phenotype	semapv:LogicalReasoning
@@ -1543,7 +1542,6 @@ HP:0040314	Blind vagina	semapv:crossSpeciesExactMatch	UPHENO:7000863	blind vagin
 HP:0040318	Red urine	semapv:crossSpeciesExactMatch	UPHENO:7000864	erythruria; red urine	semapv:LogicalReasoning
 HP:0040407	Mastitis	semapv:crossSpeciesExactMatch	UPHENO:7000865	mastitis	semapv:LogicalReasoning
 HP:0041051	Ageusia	semapv:crossSpeciesExactMatch	UPHENO:7000866	ageusia	semapv:LogicalReasoning
-HP:0041064	obsolete Fractured knee	semapv:crossSpeciesExactMatch	UPHENO:7000867	fractured knee; obsolete fractured knee	semapv:LogicalReasoning
 HP:0045040	Abnormal circulating lactate dehydrogenase concentration	semapv:crossSpeciesExactMatch	UPHENO:7000868	circulating lactate dehydrogenase concentration; lactate dehydrogenase level	semapv:LogicalReasoning
 HP:0045081	Abnormality of body mass index	semapv:crossSpeciesExactMatch	UPHENO:7000869	abnormality of body mass index; body mass index	semapv:LogicalReasoning
 HP:0045082	Decreased body mass index	semapv:crossSpeciesExactMatch	UPHENO:7000870	decreased body mass index	semapv:LogicalReasoning
@@ -3580,7 +3578,6 @@ XPO:0141662	paralysed forelimb	semapv:crossSpeciesExactMatch	UPHENO:0081706	para
 XPO:0141663	paralysed hindlimb	semapv:crossSpeciesExactMatch	UPHENO:0081704	paralysed hindlimb muscle	semapv:LogicalReasoning
 XPO:0141715	abnormal septum	semapv:crossSpeciesExactMatch	UPHENO:7000098	septum	semapv:LogicalReasoning
 XPO:0141748	abnormal gas homeostasis	semapv:crossSpeciesExactMatch	UPHENO:7000971	gas homeostasis	semapv:LogicalReasoning
-XPO:0141864	abnormal 5-methylcytosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:7001078	5-methylcytosine metabolic process; 5-methylcytosine metabolic process phenotype	semapv:LogicalReasoning
 XPO:0142058	abnormal cerebrospinal fluid morphology	semapv:crossSpeciesExactMatch	UPHENO:0088185	cerebrospinal fluid morphology phenotype	semapv:LogicalReasoning
 XPO:0142060	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:7000963	abdominal wall morphology	semapv:LogicalReasoning
 ZP:0000012	somite morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001111	somite morphology	semapv:LogicalReasoning
@@ -3589,7 +3586,6 @@ ZP:0000107	heart morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:00768
 ZP:0000168	neural tube morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087363	neural tube morphology phenotype	semapv:LogicalReasoning
 ZP:0000269	Meckel's cartilage morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087847	Meckel's cartilage morphology phenotype	semapv:LogicalReasoning
 ZP:0000379	intestine morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0076783	intestine morphology phenotype	semapv:LogicalReasoning
-ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001076	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence; increased occurrence of activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning
 ZP:0000420	lens morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001175	lens morphology	semapv:LogicalReasoning
 ZP:0000429	midbrain morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0076795	midbrain morphology phenotype	semapv:LogicalReasoning
 ZP:0000454	heart tube morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0076694	heart tube morphology phenotype	semapv:LogicalReasoning
@@ -3733,7 +3729,6 @@ ZP:0010377	rhombomere 1 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHEN
 ZP:0010594	cornea morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000168	cornea morphology	semapv:LogicalReasoning
 ZP:0010596	iris morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0088050	iris morphology phenotype	semapv:LogicalReasoning
 ZP:0010639	iridophore morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001198	iridophore morphology	semapv:LogicalReasoning
-ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001077	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality; increased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning
 ZP:0010789	caudal artery morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001162	caudal artery morphology	semapv:LogicalReasoning
 ZP:0010935	vein morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086792	vein morphology phenotype	semapv:LogicalReasoning
 ZP:0011219	thoracic duct morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000743	thoracic duct morphology	semapv:LogicalReasoning
@@ -3755,7 +3750,6 @@ ZP:0013009	regenerating fin morphology, abnormal	semapv:crossSpeciesExactMatch	U
 ZP:0013065	rhombomere 3 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087002	rhombomere 3 morphology phenotype	semapv:LogicalReasoning
 ZP:0013142	pharyngeal endoderm morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001134	pharyngeal endoderm morphology	semapv:LogicalReasoning
 ZP:0013179	testis morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087973	testis morphology phenotype	semapv:LogicalReasoning
-ZP:0013206	regulation of telomerase activity process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001073	regulation of telomerase activity phenotype; regulation of telomerase activity process quality	semapv:LogicalReasoning
 ZP:0013331	mesonephric duct morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086483	mesonephric duct morphology phenotype	semapv:LogicalReasoning
 ZP:0013406	nervous system morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001094	nervous system morphology	semapv:LogicalReasoning
 ZP:0013472	atrial myocardium morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087471	myocardium of atrium morphology phenotype	semapv:LogicalReasoning
@@ -3809,7 +3803,6 @@ ZP:0017906	lymphocyte morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:
 ZP:0018513	aortic arch 1 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001104	aortic arch 1 morphology	semapv:LogicalReasoning
 ZP:0018876	common bile duct morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086925	common bile duct morphology phenotype	semapv:LogicalReasoning
 ZP:0018989	postcranial axial skeleton morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001170	postcranial axial skeleton morphology	semapv:LogicalReasoning
-ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001074	decreased qualitatively planar cell polarity pathway involved in axon guidance; planar cell polarity pathway involved in axon guidance decreased process quality	semapv:LogicalReasoning
 ZP:0019987	neural tube closure, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000968	neural tube closure	semapv:LogicalReasoning
 ZP:0020091	blastomere morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001126	blastomere morphology	semapv:LogicalReasoning
 ZP:0020093	early embryonic cell morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001127	early embryonic cell morphology	semapv:LogicalReasoning
@@ -3839,7 +3832,6 @@ ZP:0102602	aortic arch 6 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHE
 ZP:0102648	maxilla morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000156	maxilla morphology	semapv:LogicalReasoning
 ZP:0102860	bone element morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001118	bone element morphology	semapv:LogicalReasoning
 ZP:0102968	taste bud morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001188	taste bud morphology	semapv:LogicalReasoning
-ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001075	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality; decreased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning
 ZP:0103103	nasal bone morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083645	nasal bone morphology phenotype	semapv:LogicalReasoning
 ZP:0103160	spleen structure, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0076790	spleen morphology phenotype	semapv:LogicalReasoning
 ZP:0103731	eye photoreceptor cell morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001153	eye photoreceptor cell morphology	semapv:LogicalReasoning
@@ -3881,5 +3873,4 @@ ZP:0147241	premaxilla morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:
 ZP:0147344	T cell morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000393	t cell morphology	semapv:LogicalReasoning
 ZP:0148007	female organism morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001185	female organism morphology	semapv:LogicalReasoning
 ZP:0149027	skeletal tissue morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001131	skeletal tissue morphology	semapv:LogicalReasoning
-ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001079	cellular lipid catabolic process increased occurrence; increased occurrence of cellular lipid catabolic process	semapv:LogicalReasoning
 ZP:0149279	liver weight, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010830	liver mass phenotype	semapv:LogicalReasoning
