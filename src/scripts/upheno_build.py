@@ -502,6 +502,27 @@ def add_cross_species_mappings(cross_species_mapping, extra_mapping, label_match
         df_extra = df_extra[label_match]
     df_extra = df_extra.assign(predicate_id="semapv:crossSpeciesExactMatch")
     df_extra = df_extra[[c for c in df_cross.columns if c in df_extra.columns]]
+
+    # The extra mappings are more targeted than our own purely lexical matches, so they
+    # replace them: a LexicalMatching edge that links a term from an extra pair to a term
+    # of the other ontology, other than its extra partner, is dropped. Edges backed by
+    # logic and edges to other ontologies are kept.
+    partner = defaultdict(set)
+    for s, o in zip(df_extra["subject_id"], df_extra["object_id"]):
+        partner[s].add(o)
+        partner[o].add(s)
+    prefix = lambda curie: curie.split(":")[0]
+    def supplanted(row):
+        if row["mapping_justification"] != "semapv:LexicalMatching":
+            return False
+        for a, b in ((row["subject_id"], row["object_id"]), (row["object_id"], row["subject_id"])):
+            if a in partner and b not in partner[a] and prefix(b) in {prefix(p) for p in partner[a]}:
+                return True
+        return False
+    dropped = df_cross.apply(supplanted, axis=1)
+    click.echo(f"Dropping {int(dropped.sum())} lexical cross-species matches that conflict with {extra_mapping}")
+    df_cross = df_cross[~dropped]
+
     known = set(zip(df_cross["subject_id"], df_cross["object_id"]))
     known |= {(o, s) for s, o in known}
     df_new = df_extra[[(s, o) not in known for s, o in zip(df_extra["subject_id"], df_extra["object_id"])]]
