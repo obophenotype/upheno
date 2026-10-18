@@ -127,9 +127,7 @@ DDPHENO:0000118	decreased substrate adhesion-dependent cell spreading	semapv:cro
 DDPHENO:0000119	increased substrate adhesion-dependent cell spreading	semapv:crossSpeciesExactMatch	UPHENO:0083825		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000120	aberrant cell-cell recognition	semapv:crossSpeciesExactMatch	UPHENO:0083206		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000122	aberrant cell-cell self recognition	semapv:crossSpeciesExactMatch	UPHENO:0083199		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
-DDPHENO:0000123	decreased cGMP-mediated signaling	semapv:crossSpeciesExactMatch	UPHENO:0084352		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000125	abolished cell-cell self recognition	semapv:crossSpeciesExactMatch	UPHENO:0083364		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
-DDPHENO:0000126	increased cGMP-mediated signaling	semapv:crossSpeciesExactMatch	UPHENO:0083844		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000127	aberrant socially cooperative development	semapv:crossSpeciesExactMatch	UPHENO:0083161		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000128	decreased socially cooperative development	semapv:crossSpeciesExactMatch	UPHENO:0084262		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000132	increased actin filament bundle assembly	semapv:crossSpeciesExactMatch	UPHENO:0083794		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
@@ -403,8 +401,6 @@ DDPHENO:0000550	abolished pinocytosis	semapv:crossSpeciesExactMatch	UPHENO:00833
 DDPHENO:0000551	increased pseudopodium formation	semapv:crossSpeciesExactMatch	UPHENO:0083837		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000552	abolished contractile vacuole organization	semapv:crossSpeciesExactMatch	UPHENO:0083302		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000553	aberrant contractile vacuole localization	semapv:crossSpeciesExactMatch	UPHENO:0083156		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
-DDPHENO:0000554	aberrant contractile vacuole tethering involved in discharge	semapv:crossSpeciesExactMatch	UPHENO:0083160		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
-DDPHENO:0000555	abolished contractile vacuole tethering involved in discharge	semapv:crossSpeciesExactMatch	UPHENO:0083392		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000556	aberrant contractile vacuole dissociation from plasma membrane	semapv:crossSpeciesExactMatch	UPHENO:0083155		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000557	abolished contractile vacuole dissociation from plasma membrane	semapv:crossSpeciesExactMatch	UPHENO:0083385		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000558	aberrant pore formation during contractile vacuole discharge	semapv:crossSpeciesExactMatch	UPHENO:0083157		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
@@ -551,7 +547,6 @@ DDPHENO:0000683	increased  protein localization to contractile vacuole membrane	
 DDPHENO:0000684	abolished vacuole organization	semapv:crossSpeciesExactMatch	UPHENO:0083383		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000689	aberrant G protein-coupled receptor signaling	semapv:crossSpeciesExactMatch	UPHENO:0083098		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000693	abolished response to biotic stimulus	semapv:crossSpeciesExactMatch	UPHENO:0083357		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
-DDPHENO:0000694	aberrant cGMP-mediated signaling	semapv:crossSpeciesExactMatch	UPHENO:0083159		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000698	aberrant epithelium-like organization	semapv:crossSpeciesExactMatch	UPHENO:0083126		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000699	decreased epithelium-like organization	semapv:crossSpeciesExactMatch	UPHENO:0084309		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0000700	abolished epithelium-like organization	semapv:crossSpeciesExactMatch	UPHENO:0083340		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
@@ -696,7 +691,7 @@ DDPHENO:0000838	abolished small GTPase mediated signal transduction	semapv:cross
 DDPHENO:0001002	aberrant organelle morphology	semapv:crossSpeciesExactMatch	UPHENO:0084004		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001003	aberrant response to stimulus	semapv:crossSpeciesExactMatch	UPHENO:0049586		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001005	aberrant cellular metabolic process	semapv:crossSpeciesExactMatch	MP:0005266	abnormal metabolism	semapv:LexicalMatching	obo:ddpheno	obo:mp
-DDPHENO:0001005	aberrant cellular metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
+DDPHENO:0001005	aberrant cellular metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0049873	metabolic process phenotype	semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001005	aberrant cellular metabolic process	semapv:crossSpeciesExactMatch	XPO:0141790	abnormal cellular metabolic process	semapv:LogicalReasoning	obo:ddpheno	obo:xpo
 DDPHENO:0001006	aberrant phagocytosis	semapv:crossSpeciesExactMatch	HP:0010977	Abnormal phagocytosis	semapv:LexicalAndLogicalMatching	obo:ddpheno	obo:hp
 DDPHENO:0001006	aberrant phagocytosis	semapv:crossSpeciesExactMatch	UPHENO:0051356		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
@@ -963,7 +958,6 @@ DDPHENO:0001295	abolished guanylyl cyclase activity	semapv:crossSpeciesExactMatc
 DDPHENO:0001297	abolished lysosomal protein degradation	semapv:crossSpeciesExactMatch	UPHENO:0083325		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001299	abolished guanyl-nucleotide exchange factor activity	semapv:crossSpeciesExactMatch	FYPO:0008290	abolished guanyl-nucleotide exchange factor activity	semapv:LexicalAndLogicalMatching	obo:ddpheno	obo:fypo
 DDPHENO:0001299	abolished guanyl-nucleotide exchange factor activity	semapv:crossSpeciesExactMatch	UPHENO:0083893		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
-DDPHENO:0001305	abolished cGMP-mediated signaling	semapv:crossSpeciesExactMatch	UPHENO:0083391		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001317	aberrant protein modification	semapv:crossSpeciesExactMatch	FYPO:0002494	abnormal protein modification	semapv:LogicalReasoning	obo:ddpheno	obo:fypo
 DDPHENO:0001317	aberrant protein modification	semapv:crossSpeciesExactMatch	PHIPO:0001118	abnormal protein modification	semapv:LogicalReasoning	obo:ddpheno	obo:phipo
 DDPHENO:0001317	aberrant protein modification	semapv:crossSpeciesExactMatch	UPHENO:0049744		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
@@ -1089,7 +1083,6 @@ DDPHENO:0001466	aberrant microtubule nucleation	semapv:crossSpeciesExactMatch	UP
 DDPHENO:0001466	aberrant microtubule nucleation	semapv:crossSpeciesExactMatch	WBPhenotype:0001589	microtubule nucleation variant	semapv:LexicalAndLogicalMatching	obo:ddpheno	obo:wbphenotype
 DDPHENO:0001467	decreased microtubule nucleation	semapv:crossSpeciesExactMatch	UPHENO:0084322		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001468	increased microtubule nucleation	semapv:crossSpeciesExactMatch	UPHENO:0083774		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
-DDPHENO:0001469	aberrant centromere complex assembly	semapv:crossSpeciesExactMatch	UPHENO:0083135		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001470	decreased response to lithium	semapv:crossSpeciesExactMatch	UPHENO:0084281		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001471	increased response to lithium	semapv:crossSpeciesExactMatch	UPHENO:0083800		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
 DDPHENO:0001472	aberrant inositol phosphate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0083100		semapv:LogicalReasoning	obo:ddpheno	obo:upheno
@@ -1508,7 +1501,7 @@ FYPO:0000131	abnormal mitotic spindle elongation	semapv:crossSpeciesExactMatch	U
 FYPO:0000138	localization phenotype	semapv:crossSpeciesExactMatch	PHIPO:0000235	localization phenotype	semapv:LexicalAndLogicalMatching	obo:fypo	obo:phipo
 FYPO:0000138	localization phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049927		semapv:LogicalReasoning	obo:fypo	obo:upheno
 FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	PHIPO:0001147	cellular metabolic process phenotype	semapv:LexicalAndLogicalMatching	obo:fypo	obo:phipo
-FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:LogicalReasoning	obo:fypo	obo:upheno
+FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049873	metabolic process phenotype	semapv:LogicalReasoning	obo:fypo	obo:upheno
 FYPO:0000141	abnormal mitotic sister chromatid segregation	semapv:crossSpeciesExactMatch	DDPHENO:0001422	aberrant mitotic sister chromatid segregation	semapv:LexicalAndLogicalMatching	obo:fypo	obo:ddpheno
 FYPO:0000141	abnormal mitotic sister chromatid segregation	semapv:crossSpeciesExactMatch	UPHENO:0049680		semapv:LogicalReasoning	obo:fypo	obo:upheno
 FYPO:0000149	transport phenotype	semapv:crossSpeciesExactMatch	PHIPO:0000256	transport phenotype	semapv:LexicalAndLogicalMatching	obo:fypo	obo:phipo
@@ -5793,7 +5786,6 @@ HP:0008818	Large iliac wing	semapv:crossSpeciesExactMatch	UPHENO:0001558		semapv
 HP:0008819	Narrow femoral neck	semapv:crossSpeciesExactMatch	UPHENO:0054645		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008823	Inferior pubic ramus hypoplasia	semapv:crossSpeciesExactMatch	UPHENO:0081362		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008824	Hypoplastic iliac body	semapv:crossSpeciesExactMatch	UPHENO:0081377		semapv:LogicalReasoning	obo:hp	obo:upheno
-HP:0008826	obsolete Dislocation of the femoral head	semapv:crossSpeciesExactMatch	UPHENO:7000497		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008828	Delayed proximal femoral epiphyseal ossification	semapv:crossSpeciesExactMatch	UPHENO:0084040		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008829	Delayed femoral head ossification	semapv:crossSpeciesExactMatch	UPHENO:0084023		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0008830	Hypoplastic pubic ramus	semapv:crossSpeciesExactMatch	UPHENO:0081373		semapv:LogicalReasoning	obo:hp	obo:upheno
@@ -6906,7 +6898,6 @@ HP:0011014	Abnormal glucose homeostasis	semapv:crossSpeciesExactMatch	UPHENO:005
 HP:0011015	Abnormal blood glucose concentration	semapv:crossSpeciesExactMatch	UPHENO:0051766		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0011018	Abnormality of the cell cycle	semapv:crossSpeciesExactMatch	UPHENO:0049952		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0011019	Abnormality of chromosome condensation	semapv:crossSpeciesExactMatch	UPHENO:0049918		semapv:LogicalReasoning	obo:hp	obo:upheno
-HP:0011020	Abnormality of mucopolysaccharide metabolism	semapv:crossSpeciesExactMatch	UPHENO:0050655		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0011022	Abnormal circulating unsaturated fatty acid concentration	semapv:crossSpeciesExactMatch	UPHENO:0089733		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0011023	Abnormal circulating prostaglandin circulation	semapv:crossSpeciesExactMatch	UPHENO:0078624		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0011024	Abnormality of the gastrointestinal tract	semapv:crossSpeciesExactMatch	UPHENO:0002725		semapv:LogicalReasoning	obo:hp	obo:upheno
@@ -7606,10 +7597,8 @@ HP:0012337	Abnormal homeostasis	semapv:crossSpeciesExactMatch	XPO:0141754	abnorm
 HP:0012338	Abnormal energy expenditure	semapv:crossSpeciesExactMatch	MP:0005450	abnormal energy expenditure	semapv:LogicalReasoning	obo:hp	obo:mp
 HP:0012338	Abnormal energy expenditure	semapv:crossSpeciesExactMatch	UPHENO:7000631		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0012338	Abnormal energy expenditure	semapv:crossSpeciesExactMatch	WBPhenotype:0001835	energy expenditure variant	semapv:LogicalReasoning	obo:hp	obo:wbphenotype
-HP:0012345	Abnormal glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078623		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0012345	Abnormal glycosylation	semapv:crossSpeciesExactMatch	XPO:0141795	abnormal glycosylation	semapv:LexicalAndLogicalMatching	obo:hp	obo:xpo
 HP:0012346	Abnormal protein glycosylation	semapv:crossSpeciesExactMatch	MGPO:0002199	abnormal protein glycosylation	semapv:LexicalAndLogicalMatching	obo:hp	obo:mgpo
-HP:0012346	Abnormal protein glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078594		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0012346	Abnormal protein glycosylation	semapv:crossSpeciesExactMatch	WBPhenotype:0002429	protein glycosylation variant	semapv:LogicalReasoning	obo:hp	obo:wbphenotype
 HP:0012347	Abnormal protein N-linked glycosylation	semapv:crossSpeciesExactMatch	MGPO:0002201	abnormal protein N-linked glycosylation	semapv:LexicalAndLogicalMatching	obo:hp	obo:mgpo
 HP:0012347	Abnormal protein N-linked glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078593		semapv:LogicalReasoning	obo:hp	obo:upheno
@@ -9237,7 +9226,6 @@ HP:0041051	Ageusia	semapv:crossSpeciesExactMatch	UPHENO:7000866		semapv:LogicalR
 HP:0041052	Agenesis of putamen	semapv:crossSpeciesExactMatch	UPHENO:0080317		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041055	Fractured humerus	semapv:crossSpeciesExactMatch	UPHENO:0080515		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041061	Fractured calcaneus	semapv:crossSpeciesExactMatch	UPHENO:0080463		semapv:LogicalReasoning	obo:hp	obo:upheno
-HP:0041064	obsolete Fractured knee	semapv:crossSpeciesExactMatch	UPHENO:7000867		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041073	Fractured thoracic vertebra	semapv:crossSpeciesExactMatch	UPHENO:0080529		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041080	Abnormal proportion of exhausted T cells	semapv:crossSpeciesExactMatch	UPHENO:0080988		semapv:LogicalReasoning	obo:hp	obo:upheno
 HP:0041081	Fractured lower leg	semapv:crossSpeciesExactMatch	UPHENO:0080518		semapv:LogicalReasoning	obo:hp	obo:upheno
@@ -10301,7 +10289,6 @@ MGPO:0001001	Phenotype	semapv:crossSpeciesExactMatch	FBcv:0001347	phenotype	sema
 MGPO:0001001	Phenotype	semapv:crossSpeciesExactMatch	FYPO:0000001	phenotype	semapv:LexicalAndLogicalMatching	obo:mgpo	obo:fypo
 MGPO:0001001	Phenotype	semapv:crossSpeciesExactMatch	PHIPO:0000505	phenotype	semapv:LogicalReasoning	obo:mgpo	obo:phipo
 MGPO:0001001	Phenotype	semapv:crossSpeciesExactMatch	UPHENO:0001003		semapv:LogicalReasoning	obo:mgpo	obo:upheno
-MGPO:0002009	abnormal glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078623		semapv:LogicalReasoning	obo:mgpo	obo:upheno
 MGPO:0002009	abnormal glycosylation	semapv:crossSpeciesExactMatch	XPO:0141795	abnormal glycosylation	semapv:LogicalReasoning	obo:mgpo	obo:xpo
 MGPO:0002106	abnormal glyco-amino acid level	semapv:crossSpeciesExactMatch	UPHENO:0081780		semapv:LogicalReasoning	obo:mgpo	obo:upheno
 MGPO:0002106	abnormal glycoaminoacid levels	semapv:crossSpeciesExactMatch	UPHENO:0081780		semapv:LogicalReasoning	obo:mgpo	obo:upheno
@@ -14219,7 +14206,6 @@ MP:0004655	absent thoracic vertebrae	semapv:crossSpeciesExactMatch	UPHENO:008622
 MP:0004657	small sacral vertebrae	semapv:crossSpeciesExactMatch	UPHENO:0068918		semapv:LogicalReasoning	obo:mp	obo:upheno
 MP:0004659	abnormal odontoid process morphology	semapv:crossSpeciesExactMatch	HP:0003310	Abnormal odontoid process morphology	semapv:LexicalAndLogicalMatching	obo:mp	obo:hp
 MP:0004659	abnormal odontoid process morphology	semapv:crossSpeciesExactMatch	UPHENO:0088174		semapv:LogicalReasoning	obo:mp	obo:upheno
-MP:0004660	absent thyroid follicular cells	semapv:crossSpeciesExactMatch	UPHENO:0085843		semapv:LogicalReasoning	obo:mp	obo:upheno
 MP:0004664	delayed inner ear development	semapv:crossSpeciesExactMatch	UPHENO:0000531		semapv:LogicalReasoning	obo:mp	obo:upheno
 MP:0004665	abnormal stapedial artery morphology	semapv:crossSpeciesExactMatch	UPHENO:0087276		semapv:LogicalReasoning	obo:mp	obo:upheno
 MP:0004666	absent stapedial artery	semapv:crossSpeciesExactMatch	UPHENO:0078443		semapv:LogicalReasoning	obo:mp	obo:upheno
@@ -22500,7 +22486,7 @@ PHIPO:0001135	sensitive to sorbitol	semapv:crossSpeciesExactMatch	FYPO:0000112	s
 PHIPO:0001135	sensitive to sorbitol	semapv:crossSpeciesExactMatch	UPHENO:0081751		semapv:LogicalReasoning	obo:phipo	obo:upheno
 PHIPO:0001137	increased number of hyphal septa	semapv:crossSpeciesExactMatch	UPHENO:0080533		semapv:LogicalReasoning	obo:phipo	obo:upheno
 PHIPO:0001147	cellular metabolic process phenotype	semapv:crossSpeciesExactMatch	FYPO:0000140	cellular metabolism phenotype	semapv:LexicalAndLogicalMatching	obo:phipo	obo:fypo
-PHIPO:0001147	cellular metabolic process phenotype	semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:LogicalReasoning	obo:phipo	obo:upheno
+PHIPO:0001147	cellular metabolic process phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049873	metabolic process phenotype	semapv:LogicalReasoning	obo:phipo	obo:upheno
 PHIPO:0001149	decreased reactive oxygen species production	semapv:crossSpeciesExactMatch	MP:0014607	decreased reactive oxygen species production	semapv:LexicalAndLogicalMatching	obo:phipo	obo:mp
 PHIPO:0001149	decreased reactive oxygen species production	semapv:crossSpeciesExactMatch	UPHENO:0082009		semapv:LogicalReasoning	obo:phipo	obo:upheno
 PHIPO:0001153	hyphal hyper branching	semapv:crossSpeciesExactMatch	FYPO:0007777	increased hyphal branching	semapv:LexicalAndLogicalMatching	obo:phipo	obo:fypo
@@ -25242,7 +25228,6 @@ UPHENO:0005706		semapv:crossSpeciesExactMatch	ZP:0009427	mesenchymal cell prolif
 UPHENO:0005708		semapv:crossSpeciesExactMatch	ZP:0007157	hematopoietic stem cell proliferation decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005723		semapv:crossSpeciesExactMatch	ZP:0002937	locomotion involved in locomotory behavior decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005726		semapv:crossSpeciesExactMatch	ZP:0002980	optokinetic behavior decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0005730		semapv:crossSpeciesExactMatch	ZP:0003620	glucose import decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005733		semapv:crossSpeciesExactMatch	ZP:0020060	neural crest cell migration involved in autonomic nervous system development decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005734		semapv:crossSpeciesExactMatch	ZP:0006156	visual behavior decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005763		semapv:crossSpeciesExactMatch	ZP:0000229	GTP biosynthetic process decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -25301,7 +25286,6 @@ UPHENO:0005931		semapv:crossSpeciesExactMatch	ZP:0000230	heart contraction decre
 UPHENO:0005933		semapv:crossSpeciesExactMatch	ZP:0015207	neurogenesis decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005937		semapv:crossSpeciesExactMatch	ZP:0020992	microtubule polymerization decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005941		semapv:crossSpeciesExactMatch	ZP:0004991	cell migration involved in heart development decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0005946		semapv:crossSpeciesExactMatch	ZP:0011261	NADH oxidation decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005947		semapv:crossSpeciesExactMatch	ZP:0017548	axis elongation decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005948		semapv:crossSpeciesExactMatch	ZP:0101388	cardiac muscle cell membrane repolarization decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0005949		semapv:crossSpeciesExactMatch	ZP:0101380	oxidative phosphorylation decreased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -30365,10 +30349,10 @@ UPHENO:0050111		semapv:crossSpeciesExactMatch	DDPHENO:0001225	aberrant negative 
 UPHENO:0050111		semapv:crossSpeciesExactMatch	WBPhenotype:0000481	negative chemotaxis variant	semapv:LogicalReasoning	obo:upheno	obo:wbphenotype
 UPHENO:0050112		semapv:crossSpeciesExactMatch	DDPHENO:0001224	aberrant positive chemotaxis	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0050112		semapv:crossSpeciesExactMatch	WBPhenotype:0000635	positive chemotaxis variant	semapv:LogicalReasoning	obo:upheno	obo:wbphenotype
-UPHENO:0050113		semapv:crossSpeciesExactMatch	DDPHENO:0001005	aberrant cellular metabolic process	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
-UPHENO:0050113		semapv:crossSpeciesExactMatch	FYPO:0000140	cellular metabolism phenotype	semapv:LogicalReasoning	obo:upheno	obo:fypo
-UPHENO:0050113		semapv:crossSpeciesExactMatch	PHIPO:0001147	cellular metabolic process phenotype	semapv:LogicalReasoning	obo:upheno	obo:phipo
-UPHENO:0050113		semapv:crossSpeciesExactMatch	XPO:0141790	abnormal cellular metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
+UPHENO:0049873		semapv:crossSpeciesExactMatch	DDPHENO:0001005	aberrant cellular metabolic process	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
+UPHENO:0049873		semapv:crossSpeciesExactMatch	FYPO:0000140	cellular metabolism phenotype	semapv:LogicalReasoning	obo:upheno	obo:fypo
+UPHENO:0049873		semapv:crossSpeciesExactMatch	PHIPO:0001147	cellular metabolic process phenotype	semapv:LogicalReasoning	obo:upheno	obo:phipo
+UPHENO:0049873		semapv:crossSpeciesExactMatch	XPO:0141790	abnormal cellular metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0050116		semapv:crossSpeciesExactMatch	XPO:0141791	abnormal primary metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0050118		semapv:crossSpeciesExactMatch	DDPHENO:0001031	aberrant response to abiotic stimulus	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0050120		semapv:crossSpeciesExactMatch	WBPhenotype:0000815	muscle cell development variant	semapv:LogicalReasoning	obo:upheno	obo:wbphenotype
@@ -30472,7 +30456,6 @@ UPHENO:0050243		semapv:crossSpeciesExactMatch	FYPO:0000163	abnormal macroautopha
 UPHENO:0050243		semapv:crossSpeciesExactMatch	ZP:0015658	macroautophagy process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050245		semapv:crossSpeciesExactMatch	XPO:0141781	abnormal secondary metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0050246		semapv:crossSpeciesExactMatch	ZP:0006971	respiratory electron transport chain process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0050249		semapv:crossSpeciesExactMatch	XPO:0141869	abnormal alpha-amino acid metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0050250		semapv:crossSpeciesExactMatch	XPO:0131713	abnormal establishment of epithelial cell polarity	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0050253		semapv:crossSpeciesExactMatch	ZP:0022772	larval feeding behavior process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050254		semapv:crossSpeciesExactMatch	ZP:0005390	chondrocyte differentiation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -30483,7 +30466,6 @@ UPHENO:0050262		semapv:crossSpeciesExactMatch	ZP:0008540	regulation of vascular 
 UPHENO:0050263		semapv:crossSpeciesExactMatch	XPO:0141975	abnormal cilium motility	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0050263		semapv:crossSpeciesExactMatch	ZP:0017830	cilium movement process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050265		semapv:crossSpeciesExactMatch	ZP:0005394	face morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0050266		semapv:crossSpeciesExactMatch	ZP:0000849	regulation of Rho-dependent protein serine/threonine kinase activity process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050269		semapv:crossSpeciesExactMatch	ZP:0013750	head morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050270		semapv:crossSpeciesExactMatch	ZP:0002896	Kupffer's vesicle development process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050278		semapv:crossSpeciesExactMatch	ZP:0011402	intracellular calcium ion homeostasis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -30690,7 +30672,6 @@ UPHENO:0050588		semapv:crossSpeciesExactMatch	XPO:0131405	abnormal optokinetic b
 UPHENO:0050588		semapv:crossSpeciesExactMatch	ZP:0008042	optokinetic behavior process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050592		semapv:crossSpeciesExactMatch	XPO:0131403	abnormal mechanosensory behavior	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0050592		semapv:crossSpeciesExactMatch	ZP:0001263	mechanosensory behavior process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0050593		semapv:crossSpeciesExactMatch	ZP:0142073	glucose import process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050594		semapv:crossSpeciesExactMatch	FBcv:0000395	abnormal locomotor rhythm	semapv:LogicalReasoning	obo:upheno	obo:fbcv
 UPHENO:0050594		semapv:crossSpeciesExactMatch	MP:0020477	abnormal locomotor circadian rhythm	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0050594		semapv:crossSpeciesExactMatch	ZP:0011149	locomotor rhythm process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -30737,7 +30718,6 @@ UPHENO:0050651		semapv:crossSpeciesExactMatch	ZP:0006572	embryonic camera-type e
 UPHENO:0050652		semapv:crossSpeciesExactMatch	ZP:0002941	camera-type eye morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050653		semapv:crossSpeciesExactMatch	ZP:0013278	cardiac chamber morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050654		semapv:crossSpeciesExactMatch	ZP:0014324	cardiac chamber formation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0050655		semapv:crossSpeciesExactMatch	HP:0011020	Abnormality of mucopolysaccharide metabolism	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0050656		semapv:crossSpeciesExactMatch	ZP:0010271	retinal rod cell differentiation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050657		semapv:crossSpeciesExactMatch	ZP:0022501	cardiac ventricle morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0050658		semapv:crossSpeciesExactMatch	ZP:0022502	cardiac atrium morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -31091,7 +31071,6 @@ UPHENO:0051221		semapv:crossSpeciesExactMatch	ZP:0018203	semicircular canal deve
 UPHENO:0051222		semapv:crossSpeciesExactMatch	ZP:0017923	locus ceruleus development process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051225		semapv:crossSpeciesExactMatch	ZP:0018192	cerebellar Purkinje cell differentiation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051226		semapv:crossSpeciesExactMatch	ZP:0007187	heparan sulfate proteoglycan biosynthetic process process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0051227		semapv:crossSpeciesExactMatch	ZP:0013433	chondroitin sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051232		semapv:crossSpeciesExactMatch	ZP:0010946	paraxial mesoderm development process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051233		semapv:crossSpeciesExactMatch	ZP:0010773	cone photoresponse recovery process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051234		semapv:crossSpeciesExactMatch	ZP:0016772	light adaption process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -31284,7 +31263,6 @@ UPHENO:0051519		semapv:crossSpeciesExactMatch	ZP:0004796	adenohypophysis morphog
 UPHENO:0051521		semapv:crossSpeciesExactMatch	ZP:0008322	brain morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051523		semapv:crossSpeciesExactMatch	ZP:0013419	hypophysis formation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051524		semapv:crossSpeciesExactMatch	ZP:0000179	forebrain morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0051525		semapv:crossSpeciesExactMatch	XPO:0141918	abnormal tyrosine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0051527		semapv:crossSpeciesExactMatch	ZP:0013176	peripheral nervous system development process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051531		semapv:crossSpeciesExactMatch	ZP:0013053	artery morphogenesis process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051532		semapv:crossSpeciesExactMatch	XPO:0131699	abnormal axon extension involved in axon guidance	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -31297,7 +31275,6 @@ UPHENO:0051538		semapv:crossSpeciesExactMatch	ZP:0012485	cardioblast migration t
 UPHENO:0051539		semapv:crossSpeciesExactMatch	ZP:0014573	mastication process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051541		semapv:crossSpeciesExactMatch	ZP:0007029	left/right pattern formation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051542		semapv:crossSpeciesExactMatch	ZP:0007028	embryonic heart tube left/right pattern formation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0051545		semapv:crossSpeciesExactMatch	ZP:0002317	chondroitin sulfate biosynthetic process process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051546		semapv:crossSpeciesExactMatch	ZP:0018248	oxidative phosphorylation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051552		semapv:crossSpeciesExactMatch	ZP:0015313	response to fungus process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0051554		semapv:crossSpeciesExactMatch	ZP:0014362	cell proliferation involved in pronephros development process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -31678,7 +31655,6 @@ UPHENO:0052236		semapv:crossSpeciesExactMatch	ZP:0009217	neuromuscular junction 
 UPHENO:0052237		semapv:crossSpeciesExactMatch	ZP:0000192	endocardium morphogenesis decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052239		semapv:crossSpeciesExactMatch	ZP:0016214	equilibrioception decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052242		semapv:crossSpeciesExactMatch	ZP:0007539	lens fiber cell differentiation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0052244		semapv:crossSpeciesExactMatch	ZP:0013486	fucosylation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052246		semapv:crossSpeciesExactMatch	ZP:0000942	optomotor response decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052249		semapv:crossSpeciesExactMatch	ZP:0009274	endocardium development decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052252		semapv:crossSpeciesExactMatch	ZP:0008064	skeletal muscle tissue development decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -31764,7 +31740,6 @@ UPHENO:0052475		semapv:crossSpeciesExactMatch	ZP:0020987	hematopoietic stem cell
 UPHENO:0052477		semapv:crossSpeciesExactMatch	ZP:0006979	vasculogenesis decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052478		semapv:crossSpeciesExactMatch	ZP:0102452	aerobic respiration decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052479		semapv:crossSpeciesExactMatch	ZP:0009479	hepaticobiliary system process decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0052480		semapv:crossSpeciesExactMatch	ZP:0148133	regulation of deoxyribonuclease activity decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052481		semapv:crossSpeciesExactMatch	ZP:0007799	regulation of dopamine receptor signaling pathway decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052486		semapv:crossSpeciesExactMatch	ZP:0007538	positive regulation of deoxyribonuclease activity decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052487		semapv:crossSpeciesExactMatch	ZP:0019935	supramolecular fiber organization decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -31827,7 +31802,6 @@ UPHENO:0052671		semapv:crossSpeciesExactMatch	ZP:0005066	forebrain neuron develo
 UPHENO:0052672		semapv:crossSpeciesExactMatch	ZP:0010785	posterior lateral line neuromast deposition decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052674		semapv:crossSpeciesExactMatch	ZP:0139800	positive regulation of DNA-templated transcription decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052675		semapv:crossSpeciesExactMatch	ZP:0009643	pigmentation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0052676		semapv:crossSpeciesExactMatch	ZP:0006833	protein glycosylation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052682		semapv:crossSpeciesExactMatch	ZP:0014521	neutrophil chemotaxis decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052686		semapv:crossSpeciesExactMatch	ZP:0007166	slow-twitch skeletal muscle fiber contraction decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052688		semapv:crossSpeciesExactMatch	ZP:0011822	nodal signaling pathway decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -31903,7 +31877,6 @@ UPHENO:0052887		semapv:crossSpeciesExactMatch	ZP:0014353	locomotion involved in 
 UPHENO:0052894		semapv:crossSpeciesExactMatch	ZP:0010998	optokinetic behavior decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052895		semapv:crossSpeciesExactMatch	ZP:0103224	skeletal muscle fiber development decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052897		semapv:crossSpeciesExactMatch	ZP:0016145	glucose import in response to insulin stimulus decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0052900		semapv:crossSpeciesExactMatch	ZP:0006748	glucose import decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052901		semapv:crossSpeciesExactMatch	ZP:0006017	locomotor rhythm decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052902		semapv:crossSpeciesExactMatch	ZP:0102801	defense response to Gram-negative bacterium decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0052903		semapv:crossSpeciesExactMatch	ZP:0005718	feeding behavior decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -32118,7 +32091,6 @@ UPHENO:0053448		semapv:crossSpeciesExactMatch	ZP:0014352	neuron projection regen
 UPHENO:0053450		semapv:crossSpeciesExactMatch	ZP:0014275	fin regeneration decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053451		semapv:crossSpeciesExactMatch	ZP:0019057	regulation of transcription of nucleolar large rRNA by RNA polymerase I decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053452		semapv:crossSpeciesExactMatch	ZP:0008110	brain morphogenesis decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0053457		semapv:crossSpeciesExactMatch	ZP:0005471	regulation of cellular pH reduction decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053458		semapv:crossSpeciesExactMatch	ZP:0145900	cell migration involved in gastrulation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053462		semapv:crossSpeciesExactMatch	ZP:0000792	xanthophore differentiation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053463		semapv:crossSpeciesExactMatch	ZP:0100885	brain development decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -32146,7 +32118,6 @@ UPHENO:0053521		semapv:crossSpeciesExactMatch	ZP:0017882	inner ear development d
 UPHENO:0053522		semapv:crossSpeciesExactMatch	ZP:0018181	leukocyte migration decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053526		semapv:crossSpeciesExactMatch	ZP:0014497	erythrocyte differentiation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053528		semapv:crossSpeciesExactMatch	ZP:0002884	detection of light stimulus involved in visual perception decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0053530		semapv:crossSpeciesExactMatch	ZP:0005469	regulation of proton-transporting ATPase activity, rotational mechanism decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053537		semapv:crossSpeciesExactMatch	ZP:0015149	olfactory behavior decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053538		semapv:crossSpeciesExactMatch	ZP:0008999	retina layer formation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0053541		semapv:crossSpeciesExactMatch	ZP:0012285	response to mechanical stimulus decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -36864,7 +36835,6 @@ UPHENO:0076936		semapv:crossSpeciesExactMatch	FBcv:0000363	increased cell size	s
 UPHENO:0076936		semapv:crossSpeciesExactMatch	FYPO:0008096	increased cell size	semapv:LogicalReasoning	obo:upheno	obo:fypo
 UPHENO:0076944		semapv:crossSpeciesExactMatch	MP:0008069	abnormal joint mobility	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0076946		semapv:crossSpeciesExactMatch	MP:0009656	delayed chorioallantoic fusion	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:0076947		semapv:crossSpeciesExactMatch	ZP:0105703	negative regulation of convergent extension involved in axis elongation delayed, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0076948		semapv:crossSpeciesExactMatch	MP:0031324	delayed liver regeneration	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0076948		semapv:crossSpeciesExactMatch	ZP:0106496	liver regeneration delayed, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0076949		semapv:crossSpeciesExactMatch	ZP:0106724	heart valve formation delayed, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -37191,7 +37161,6 @@ UPHENO:0077464		semapv:crossSpeciesExactMatch	ZP:0003568	sprouting angiogenesis 
 UPHENO:0077465		semapv:crossSpeciesExactMatch	ZP:0017640	behavior decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077466		semapv:crossSpeciesExactMatch	ZP:0020725	hemoglobin biosynthetic process decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077467		semapv:crossSpeciesExactMatch	ZP:0104637	involuntary skeletal muscle contraction decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0077468		semapv:crossSpeciesExactMatch	ZP:0003517	early endosome to recycling endosome transport decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077469		semapv:crossSpeciesExactMatch	ZP:0002705	muscle attachment decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077470		semapv:crossSpeciesExactMatch	ZP:0105832	motor behavior decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077471		semapv:crossSpeciesExactMatch	ZP:0003058	growth decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -37200,7 +37169,6 @@ UPHENO:0077473		semapv:crossSpeciesExactMatch	ZP:0006198	microtubule severing de
 UPHENO:0077474		semapv:crossSpeciesExactMatch	ZP:0010650	hematopoietic stem cell proliferation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077475		semapv:crossSpeciesExactMatch	ZP:0002319	sulfation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077476		semapv:crossSpeciesExactMatch	ZP:0019936	establishment of synaptic specificity at neuromuscular junction decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0077477		semapv:crossSpeciesExactMatch	ZP:0104642	RNA 3' uridylation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077478		semapv:crossSpeciesExactMatch	ZP:0004253	neuromuscular junction development decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077479		semapv:crossSpeciesExactMatch	ZP:0106530	endocardium morphogenesis decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077480		semapv:crossSpeciesExactMatch	ZP:0019182	hepatocyte cell migration decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -37430,7 +37398,6 @@ UPHENO:0077703		semapv:crossSpeciesExactMatch	ZP:0106385	auditory behavior decre
 UPHENO:0077704		semapv:crossSpeciesExactMatch	ZP:0007383	fin regeneration decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077705		semapv:crossSpeciesExactMatch	ZP:0106423	cleavage furrow ingression decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077706		semapv:crossSpeciesExactMatch	ZP:0010303	positive regulation of vascular endothelial growth factor signaling pathway decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0077707		semapv:crossSpeciesExactMatch	ZP:0007679	glycosylation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077708		semapv:crossSpeciesExactMatch	ZP:0104497	proteasome-mediated ubiquitin-dependent protein catabolic process decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077710		semapv:crossSpeciesExactMatch	ZP:0130690	atrioventricular valve morphogenesis decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0077711		semapv:crossSpeciesExactMatch	ZP:0004511	cell migration involved in gastrulation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -37920,21 +37887,17 @@ UPHENO:0078591		semapv:crossSpeciesExactMatch	HP:0004358	Abnormality of superoxi
 UPHENO:0078593		semapv:crossSpeciesExactMatch	HP:0012347	Abnormal protein N-linked glycosylation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078593		semapv:crossSpeciesExactMatch	MGPO:0002201	abnormal protein N-linked glycosylation	semapv:LogicalReasoning	obo:upheno	obo:mgpo
 UPHENO:0078593		semapv:crossSpeciesExactMatch	ZP:0137557	protein N-linked glycosylation process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0078594		semapv:crossSpeciesExactMatch	HP:0012346	Abnormal protein glycosylation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078595		semapv:crossSpeciesExactMatch	HP:0004341	Abnormality of vitamin B12 metabolism	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078597		semapv:crossSpeciesExactMatch	HP:0000140	Abnormality of the menstrual cycle	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078600		semapv:crossSpeciesExactMatch	HP:0031379	Abnormal T cell proliferation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078600		semapv:crossSpeciesExactMatch	MP:0005094	abnormal T cell proliferation	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0078601		semapv:crossSpeciesExactMatch	HP:0100831	Abnormality of vitamin K metabolism	semapv:LogicalReasoning	obo:upheno	obo:hp
-UPHENO:0078602		semapv:crossSpeciesExactMatch	XPO:0141896	abnormal lysine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078603		semapv:crossSpeciesExactMatch	HP:0002101	Abnormal lung lobation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078604		semapv:crossSpeciesExactMatch	HP:0031406	Abnormal cytokine signaling	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078605		semapv:crossSpeciesExactMatch	HP:0012359	Abnormal fucosylation of O-linked protein glycosylation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078606		semapv:crossSpeciesExactMatch	HP:0040012	Chromosome breakage	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078606		semapv:crossSpeciesExactMatch	MP:0004028	chromosome breakage	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:0078607		semapv:crossSpeciesExactMatch	XPO:0141887	abnormal L-histidine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078609		semapv:crossSpeciesExactMatch	XPO:0141857	abnormal glycine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0078610		semapv:crossSpeciesExactMatch	XPO:0141893	abnormal isoleucine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078612		semapv:crossSpeciesExactMatch	HP:0100514	Abnormal circulating vitamin E concentration	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078613		semapv:crossSpeciesExactMatch	HP:0010988	Abnormality of the extrinsic pathway	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078615		semapv:crossSpeciesExactMatch	HP:0012590	Abnormal urine output	semapv:LogicalReasoning	obo:upheno	obo:hp
@@ -37942,20 +37905,15 @@ UPHENO:0078617		semapv:crossSpeciesExactMatch	HP:0010989	Abnormality of the intr
 UPHENO:0078619		semapv:crossSpeciesExactMatch	HP:0004370	Abnormality of temperature regulation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078619		semapv:crossSpeciesExactMatch	XPO:0141767	abnormal temperature homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078620		semapv:crossSpeciesExactMatch	HP:0100509	Abnormality of vitamin C metabolism	semapv:LogicalReasoning	obo:upheno	obo:hp
-UPHENO:0078623		semapv:crossSpeciesExactMatch	HP:0012345	Abnormal glycosylation	semapv:LogicalReasoning	obo:upheno	obo:hp
-UPHENO:0078623		semapv:crossSpeciesExactMatch	MGPO:0002009	abnormal glycosylation	semapv:LogicalReasoning	obo:upheno	obo:mgpo
-UPHENO:0078623		semapv:crossSpeciesExactMatch	XPO:0141795	abnormal glycosylation	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078624		semapv:crossSpeciesExactMatch	HP:0011023	Abnormal circulating prostaglandin circulation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078625		semapv:crossSpeciesExactMatch	HP:0410035	Abnormal T cell activation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078625		semapv:crossSpeciesExactMatch	MP:0001828	abnormal T cell activation	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:0078626		semapv:crossSpeciesExactMatch	XPO:0141922	abnormal valine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078627		semapv:crossSpeciesExactMatch	HP:0003540	Impaired platelet aggregation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078627		semapv:crossSpeciesExactMatch	MP:0009549	decreased platelet aggregation	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0078628		semapv:crossSpeciesExactMatch	HP:0100511	Abnormality of vitamin D metabolism	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078629		semapv:crossSpeciesExactMatch	HP:0030082	Abnormal drinking behavior	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078629		semapv:crossSpeciesExactMatch	MP:0001422	abnormal drinking behavior	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0078630		semapv:crossSpeciesExactMatch	HP:0002024	Malabsorption	semapv:LogicalReasoning	obo:upheno	obo:hp
-UPHENO:0078632		semapv:crossSpeciesExactMatch	XPO:0141917	abnormal L-tryptophan metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078634		semapv:crossSpeciesExactMatch	XPO:0141888	abnormal threonine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078635		semapv:crossSpeciesExactMatch	XPO:0141844	abnormal long-chain fatty acid metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078636		semapv:crossSpeciesExactMatch	XPO:0141848	abnormal proline metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -37963,7 +37921,6 @@ UPHENO:0078637		semapv:crossSpeciesExactMatch	HP:0100755	Abnormality of salivati
 UPHENO:0078638		semapv:crossSpeciesExactMatch	HP:0031380	Abnormal B cell proliferation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078638		semapv:crossSpeciesExactMatch	MP:0005153	abnormal B cell proliferation	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0078639		semapv:crossSpeciesExactMatch	XPO:0141913	abnormal L-serine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0078643		semapv:crossSpeciesExactMatch	XPO:0141858	abnormal serine family amino acid metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078644		semapv:crossSpeciesExactMatch	XPO:0141905	abnormal ornithine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0078645		semapv:crossSpeciesExactMatch	HP:0031378	Abnormal lymphocyte proliferation	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0078646		semapv:crossSpeciesExactMatch	XPO:0141870	abnormal fatty acid metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -38158,7 +38115,6 @@ UPHENO:0079284		semapv:crossSpeciesExactMatch	ZP:0008804	branching morphogenesis
 UPHENO:0079285		semapv:crossSpeciesExactMatch	ZP:0104475	neuroblast proliferation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079286		semapv:crossSpeciesExactMatch	ZP:0100608	neutrophil apoptotic process increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079287		semapv:crossSpeciesExactMatch	ZP:0104219	behavioral fear response increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0079288		semapv:crossSpeciesExactMatch	ZP:0007646	RNA 3' uridylation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079289		semapv:crossSpeciesExactMatch	ZP:0009371	axonogenesis increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079290		semapv:crossSpeciesExactMatch	ZP:0005671	branching morphogenesis of an epithelial tube increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079291		semapv:crossSpeciesExactMatch	ZP:0015761	negative regulation of apoptotic process increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -38189,7 +38145,6 @@ UPHENO:0079316		semapv:crossSpeciesExactMatch	ZP:0022500	myeloid cell differenti
 UPHENO:0079318		semapv:crossSpeciesExactMatch	DDPHENO:0000768	increased cellular DNA damage response	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0079318		semapv:crossSpeciesExactMatch	ZP:0015589	DNA damage response increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079319		semapv:crossSpeciesExactMatch	ZP:0022092	startle response increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0079320		semapv:crossSpeciesExactMatch	ZP:0004635	DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079321		semapv:crossSpeciesExactMatch	ZP:0014820	generation of neurons increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079322		semapv:crossSpeciesExactMatch	ZP:0103161	fertilization increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079323		semapv:crossSpeciesExactMatch	ZP:0015869	cellular response to unfolded protein increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -38331,11 +38286,9 @@ UPHENO:0079457		semapv:crossSpeciesExactMatch	ZP:0021977	granuloma formation inc
 UPHENO:0079458		semapv:crossSpeciesExactMatch	DDPHENO:0000006	increased autophagy	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0079458		semapv:crossSpeciesExactMatch	MP:0030941	enhanced autophagy	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0079458		semapv:crossSpeciesExactMatch	ZP:0003435	autophagy increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0079459		semapv:crossSpeciesExactMatch	ZP:0007188	chondroitin sulfate biosynthetic process increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079460		semapv:crossSpeciesExactMatch	ZP:0014359	hyphal growth increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079461		semapv:crossSpeciesExactMatch	ZP:0015571	neural precursor cell proliferation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079462		semapv:crossSpeciesExactMatch	ZP:0101007	proton export across plasma membrane increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0079463		semapv:crossSpeciesExactMatch	ZP:0014523	protein kinase A signaling increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079464		semapv:crossSpeciesExactMatch	ZP:0015695	lymphocyte proliferation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079465		semapv:crossSpeciesExactMatch	ZP:0102351	calcium ion import increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079466		semapv:crossSpeciesExactMatch	DDPHENO:0001053	increased bleb assembly	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
@@ -38358,7 +38311,6 @@ UPHENO:0079481		semapv:crossSpeciesExactMatch	ZP:0001533	cardiac muscle cell pro
 UPHENO:0079482		semapv:crossSpeciesExactMatch	ZP:0014575	response to wounding increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079483		semapv:crossSpeciesExactMatch	ZP:0104544	glutamatergic neuron differentiation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079485		semapv:crossSpeciesExactMatch	XPO:0103884	decreased muscle cell differentiation	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0079486		semapv:crossSpeciesExactMatch	ZP:0105654	DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079487		semapv:crossSpeciesExactMatch	ZP:0106441	brain segmentation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079488		semapv:crossSpeciesExactMatch	ZP:0106445	fatty acid beta-oxidation decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0079489		semapv:crossSpeciesExactMatch	ZP:0106549	regulation of appetite decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -38412,7 +38364,6 @@ UPHENO:0080021		semapv:crossSpeciesExactMatch	WBPhenotype:0002351	hydrogen perox
 UPHENO:0080022		semapv:crossSpeciesExactMatch	WBPhenotype:0002349	phosphatidylinositol 3-phosphate levels reduced	semapv:LogicalReasoning	obo:upheno	obo:wbphenotype
 UPHENO:0080024		semapv:crossSpeciesExactMatch	XPO:0131692	abnormal MAP kinase activity	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0080025		semapv:crossSpeciesExactMatch	XPO:0133392	abnormal cysteine-type endopeptidase activity	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0080026		semapv:crossSpeciesExactMatch	XPO:0131694	obsolete abnormal RNA polymerase II activity	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0080027		semapv:crossSpeciesExactMatch	XPO:0133391	abnormal ribosomal protein S6 kinase activity	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0080028		semapv:crossSpeciesExactMatch	XPO:0131693	abnormal all-trans-retinol dehydrogenase (NAD+) activity	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0080029		semapv:crossSpeciesExactMatch	DDPHENO:0000294	aberrant protein binding	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
@@ -39002,7 +38953,6 @@ UPHENO:0080704		semapv:crossSpeciesExactMatch	ZP:0014471	paraxial mesodermal cel
 UPHENO:0080705		semapv:crossSpeciesExactMatch	ZP:0010806	microglial cell activation increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0080706		semapv:crossSpeciesExactMatch	ZP:0005589	signal transduction by p53 class mediator increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0080707		semapv:crossSpeciesExactMatch	ZP:0101067	thermotaxis increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0080708		semapv:crossSpeciesExactMatch	ZP:0014485	glucose import increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0080709		semapv:crossSpeciesExactMatch	ZP:0002977	feeding behavior increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0080711		semapv:crossSpeciesExactMatch	ZP:0003662	canonical Wnt signaling pathway increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0080712		semapv:crossSpeciesExactMatch	ZP:0003189	response to endoplasmic reticulum stress increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -40332,7 +40282,6 @@ UPHENO:0082838		semapv:crossSpeciesExactMatch	FBcv:0000425	increased cell death	
 UPHENO:0082838		semapv:crossSpeciesExactMatch	MP:0012556	increased cell death	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0082838		semapv:crossSpeciesExactMatch	WBPhenotype:0002620	cell death decreased	semapv:LogicalReasoning	obo:upheno	obo:wbphenotype
 UPHENO:0082840		semapv:crossSpeciesExactMatch	ZP:0138494	cellular response to glucose stimulus decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0082841		semapv:crossSpeciesExactMatch	ZP:0138681	clearance of damaged tissue involved in inflammatory response wound healing decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0082842		semapv:crossSpeciesExactMatch	ZP:0137398	fatty acid beta-oxidation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0082843		semapv:crossSpeciesExactMatch	ZP:0137791	multicellular organismal movement decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0082844		semapv:crossSpeciesExactMatch	ZP:0138010	angioblast cell migration from lateral mesoderm to midline decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -40555,7 +40504,6 @@ UPHENO:0083075		semapv:crossSpeciesExactMatch	ZP:0140389	behavioral defense resp
 UPHENO:0083076		semapv:crossSpeciesExactMatch	ZP:0140853	bone development process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083077		semapv:crossSpeciesExactMatch	ZP:0141871	response to hydroperoxide process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083078		semapv:crossSpeciesExactMatch	ZP:0141486	centriole replication process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0083079		semapv:crossSpeciesExactMatch	ZP:0142106	mitochondrial genome maintenance process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083080		semapv:crossSpeciesExactMatch	ZP:0141808	regulation of dopamine receptor signaling pathway process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083081		semapv:crossSpeciesExactMatch	MP:0005448	abnormal energy homeostasis	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0083081		semapv:crossSpeciesExactMatch	XPO:0141746	abnormal energy homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -40614,7 +40562,6 @@ UPHENO:0083132		semapv:crossSpeciesExactMatch	DDPHENO:0000358	aberrant response 
 UPHENO:0083133		semapv:crossSpeciesExactMatch	DDPHENO:0000563	aberrant endoplasmic reticulum organization	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083133		semapv:crossSpeciesExactMatch	FYPO:0000805	abnormal endoplasmic reticulum organization	semapv:LogicalReasoning	obo:upheno	obo:fypo
 UPHENO:0083134		semapv:crossSpeciesExactMatch	DDPHENO:0001262	aberrant adaptation of signaling pathway	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
-UPHENO:0083135		semapv:crossSpeciesExactMatch	DDPHENO:0001469	aberrant centromere complex assembly	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083136		semapv:crossSpeciesExactMatch	DDPHENO:0001170	aberrant mitotic actomyosin contractile ring contraction	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083138		semapv:crossSpeciesExactMatch	DDPHENO:0001168	aberrant chemotaxis to folate	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083139		semapv:crossSpeciesExactMatch	DDPHENO:0001167	aberrant chemotaxis to cAMP	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
@@ -40639,8 +40586,6 @@ UPHENO:0083155		semapv:crossSpeciesExactMatch	DDPHENO:0000556	aberrant contracti
 UPHENO:0083156		semapv:crossSpeciesExactMatch	DDPHENO:0000553	aberrant contractile vacuole localization	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083157		semapv:crossSpeciesExactMatch	DDPHENO:0000558	aberrant pore formation during contractile vacuole discharge	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083158		semapv:crossSpeciesExactMatch	DDPHENO:0000041	aberrant response to N-Phenylthiourea	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
-UPHENO:0083159		semapv:crossSpeciesExactMatch	DDPHENO:0000694	aberrant cGMP-mediated signaling	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
-UPHENO:0083160		semapv:crossSpeciesExactMatch	DDPHENO:0000554	aberrant contractile vacuole tethering involved in discharge	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083161		semapv:crossSpeciesExactMatch	DDPHENO:0000127	aberrant socially cooperative development	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083162		semapv:crossSpeciesExactMatch	DDPHENO:0000154	aberrant sorocarp development	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083163		semapv:crossSpeciesExactMatch	DDPHENO:0001203	aberrant response to nutrient	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
@@ -40814,8 +40759,6 @@ UPHENO:0083384		semapv:crossSpeciesExactMatch	DDPHENO:0001531	abolished negative
 UPHENO:0083385		semapv:crossSpeciesExactMatch	DDPHENO:0000557	abolished contractile vacuole dissociation from plasma membrane	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083388		semapv:crossSpeciesExactMatch	DDPHENO:0000559	abolished pore formation during contractile vacuole discharge	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083389		semapv:crossSpeciesExactMatch	DDPHENO:0001533	abolished positive regulation of vegetative growth	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
-UPHENO:0083391		semapv:crossSpeciesExactMatch	DDPHENO:0001305	abolished cGMP-mediated signaling	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
-UPHENO:0083392		semapv:crossSpeciesExactMatch	DDPHENO:0000555	abolished contractile vacuole tethering involved in discharge	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083394		semapv:crossSpeciesExactMatch	DDPHENO:0000424	abolished sporulation	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083394		semapv:crossSpeciesExactMatch	FYPO:0000583	abolished sporulation	semapv:LogicalReasoning	obo:upheno	obo:fypo
 UPHENO:0083395		semapv:crossSpeciesExactMatch	DDPHENO:0000550	abolished pinocytosis	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
@@ -41130,7 +41073,6 @@ UPHENO:0083767		semapv:crossSpeciesExactMatch	ZP:0142246	mitochondrial tyrosyl-t
 UPHENO:0083768		semapv:crossSpeciesExactMatch	ZP:0142245	mitochondrial tryptophanyl-tRNA aminoacylation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083769		semapv:crossSpeciesExactMatch	ZP:0140794	oxidative phosphorylation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083770		semapv:crossSpeciesExactMatch	ZP:0140426	fibrinolysis increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0083771		semapv:crossSpeciesExactMatch	ZP:0140059	regulation of cAMP-mediated signaling increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083772		semapv:crossSpeciesExactMatch	ZP:0141954	erythrocyte differentiation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083773		semapv:crossSpeciesExactMatch	ZP:0140795	aerobic respiration increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0083774		semapv:crossSpeciesExactMatch	DDPHENO:0001468	increased microtubule nucleation	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
@@ -41196,7 +41138,6 @@ UPHENO:0083840		semapv:crossSpeciesExactMatch	DDPHENO:0001265	increased autophag
 UPHENO:0083841		semapv:crossSpeciesExactMatch	DDPHENO:0000288	increased defence response to Gram-negative bacterium	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083842		semapv:crossSpeciesExactMatch	DDPHENO:0000602	increased intermediate filament bundle assembly	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083843		semapv:crossSpeciesExactMatch	DDPHENO:0000048	increased phosphatidylinositol synthesis	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
-UPHENO:0083844		semapv:crossSpeciesExactMatch	DDPHENO:0000126	increased cGMP-mediated signaling	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083846		semapv:crossSpeciesExactMatch	DDPHENO:0000032	increased sporulation	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083847		semapv:crossSpeciesExactMatch	DDPHENO:0001517	increased mitochondrial fusion	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0083847		semapv:crossSpeciesExactMatch	FYPO:0008122	increased mitochondrial fusion	semapv:LogicalReasoning	obo:upheno	obo:fypo
@@ -41457,7 +41398,6 @@ UPHENO:0084222		semapv:crossSpeciesExactMatch	MP:0021009	abnormal synaptic physi
 UPHENO:0084225		semapv:crossSpeciesExactMatch	MP:0031366	decreased prostate gland dorsolateral lobe weight	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0084226		semapv:crossSpeciesExactMatch	ZP:0140425	wound healing increased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0084227		semapv:crossSpeciesExactMatch	ZP:0140213	ammonium transmembrane transport increased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0084228		semapv:crossSpeciesExactMatch	ZP:0140322	glucose import increased rate, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0084229		semapv:crossSpeciesExactMatch	DDPHENO:0000171	increased growth rate	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0084230		semapv:crossSpeciesExactMatch	DDPHENO:0000528	increased rate of endocytosis	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0084234		semapv:crossSpeciesExactMatch	ZP:0140231	biological process involved in interaction with host decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -41573,7 +41513,6 @@ UPHENO:0084348		semapv:crossSpeciesExactMatch	FYPO:0006029	decreased actin filam
 UPHENO:0084349		semapv:crossSpeciesExactMatch	DDPHENO:0001201	decreased actin filament sliding	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0084350		semapv:crossSpeciesExactMatch	DDPHENO:0001097	decreased DIF-1 biosynthesis	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0084351		semapv:crossSpeciesExactMatch	DDPHENO:0001177	decreased pseudopodium formation	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
-UPHENO:0084352		semapv:crossSpeciesExactMatch	DDPHENO:0000123	decreased cGMP-mediated signaling	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0084354		semapv:crossSpeciesExactMatch	DDPHENO:0000504	decreased sporulation	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0084355		semapv:crossSpeciesExactMatch	DDPHENO:0000430	decreased pinocytosis	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
 UPHENO:0084356		semapv:crossSpeciesExactMatch	DDPHENO:0000594	decreased response to bacterium	semapv:LogicalReasoning	obo:upheno	obo:ddpheno
@@ -42033,7 +41972,6 @@ UPHENO:0085169		semapv:crossSpeciesExactMatch	MP:0006186	retina fibrosis	semapv:
 UPHENO:0085170		semapv:crossSpeciesExactMatch	HP:0032200	Perivascular fibrosis	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:0085170		semapv:crossSpeciesExactMatch	MP:0011749	perivascular fibrosis	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0085171		semapv:crossSpeciesExactMatch	MP:0014279	abnormal intestinal rotation	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:0085172		semapv:crossSpeciesExactMatch	ZP:0144797	palmitic acid catabolic process decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0085173		semapv:crossSpeciesExactMatch	ZP:0143358	proepicardium cell migration involved in pericardium morphogenesis decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0085174		semapv:crossSpeciesExactMatch	ZP:0143823	negative regulation of canonical Wnt signaling pathway decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0085175		semapv:crossSpeciesExactMatch	ZP:0143552	vestibular reflex decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -42043,7 +41981,6 @@ UPHENO:0085179		semapv:crossSpeciesExactMatch	ZP:0144512	female mating behavior 
 UPHENO:0085180		semapv:crossSpeciesExactMatch	ZP:0143937	odontogenesis decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0085182		semapv:crossSpeciesExactMatch	ZP:0142993	egg activation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0085183		semapv:crossSpeciesExactMatch	ZP:0143247	skeletal muscle cell differentiation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0085184		semapv:crossSpeciesExactMatch	ZP:0144857	protein glycosylation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0085185		semapv:crossSpeciesExactMatch	ZP:0143679	actomyosin contractile ring assembly decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0085186		semapv:crossSpeciesExactMatch	ZP:0143246	blood vessel endothelial cell differentiation decreased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0085197		semapv:crossSpeciesExactMatch	MP:0009118	increased white fat cell size	semapv:LogicalReasoning	obo:upheno	obo:mp
@@ -42631,7 +42568,6 @@ UPHENO:0085840		semapv:crossSpeciesExactMatch	MP:0000643	absent adrenal medulla	
 UPHENO:0085840		semapv:crossSpeciesExactMatch	XPO:0126063	absent adrenal medulla	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0085841		semapv:crossSpeciesExactMatch	MP:0003248	loss of glutamate neurons	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0085842		semapv:crossSpeciesExactMatch	MP:0008205	absent B-2 B cells	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:0085843		semapv:crossSpeciesExactMatch	MP:0004660	absent thyroid follicular cells	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0085844		semapv:crossSpeciesExactMatch	MP:0008203	absent B-1a cells	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0085845		semapv:crossSpeciesExactMatch	MP:0008204	absent B-1b cells	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0085847		semapv:crossSpeciesExactMatch	MP:0006095	absent amacrine cells	semapv:LogicalReasoning	obo:upheno	obo:mp
@@ -43002,9 +42938,7 @@ UPHENO:0086285		semapv:crossSpeciesExactMatch	ZP:0143001	response to auditory st
 UPHENO:0086286		semapv:crossSpeciesExactMatch	ZP:0144795	glucose catabolic process increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0086287		semapv:crossSpeciesExactMatch	ZP:0143068	alternative mRNA splicing, via spliceosome increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0086288		semapv:crossSpeciesExactMatch	ZP:0144854	pigment accumulation increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0086289		semapv:crossSpeciesExactMatch	ZP:0142690	positive regulation of NF-kappaB transcription factor activity increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0086290		semapv:crossSpeciesExactMatch	ZP:0143837	beta-catenin-TCF complex assembly increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0086291		semapv:crossSpeciesExactMatch	ZP:0145119	positive regulation of CREB transcription factor activity increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0086292		semapv:crossSpeciesExactMatch	ZP:0143513	spore germination increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0086293		semapv:crossSpeciesExactMatch	ZP:0145120	hypoxia-inducible factor-1alpha signaling pathway increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0086294		semapv:crossSpeciesExactMatch	ZP:0143000	non-canonical NF-kappaB signal transduction increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -45293,13 +45227,10 @@ UPHENO:0088213		semapv:crossSpeciesExactMatch	HP:0010791	Hyperplasia of the Leyd
 UPHENO:0088214		semapv:crossSpeciesExactMatch	MP:0004435	abnormal cochlear outer hair cell electromotility	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:0088215		semapv:crossSpeciesExactMatch	XPO:0141853	abnormal glutamate metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088216		semapv:crossSpeciesExactMatch	XPO:0141901	abnormal mannose to fructose-6-phosphate catabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088217		semapv:crossSpeciesExactMatch	XPO:0141843	abnormal alanine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088218		semapv:crossSpeciesExactMatch	XPO:0141909	abnormal ribonucleoside metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088219		semapv:crossSpeciesExactMatch	XPO:0141868	abnormal asparagine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088220		semapv:crossSpeciesExactMatch	XPO:0141891	abnormal inosine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088221		semapv:crossSpeciesExactMatch	XPO:0141890	abnormal hypoxanthine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088222		semapv:crossSpeciesExactMatch	XPO:0141740	abnormal cell volume homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088223		semapv:crossSpeciesExactMatch	XPO:0141906	abnormal palmitic acid metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088224		semapv:crossSpeciesExactMatch	XPO:0141863	abnormal lactate metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088225		semapv:crossSpeciesExactMatch	XPO:0141921	abnormal uridine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088226		semapv:crossSpeciesExactMatch	MP:0003383	abnormal gluconeogenesis	semapv:LogicalReasoning	obo:upheno	obo:mp
@@ -45307,7 +45238,6 @@ UPHENO:0088226		semapv:crossSpeciesExactMatch	XPO:0141851	abnormal gluconeogenes
 UPHENO:0088227		semapv:crossSpeciesExactMatch	XPO:0141752	abnormal homeostasis of number of cells within a tissue	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088228		semapv:crossSpeciesExactMatch	XPO:0141886	abnormal guanosine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088229		semapv:crossSpeciesExactMatch	XPO:0141760	abnormal multicellular organismal-level homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088230		semapv:crossSpeciesExactMatch	XPO:0141908	abnormal pyridine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088231		semapv:crossSpeciesExactMatch	XPO:0141920	abnormal urea metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088232		semapv:crossSpeciesExactMatch	XPO:0141919	abnormal uracil metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088233		semapv:crossSpeciesExactMatch	XPO:0141768	abnormal tissue homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -45316,7 +45246,6 @@ UPHENO:0088236		semapv:crossSpeciesExactMatch	XPO:0141874	abnormal creatinine me
 UPHENO:0088237		semapv:crossSpeciesExactMatch	XPO:0141785	abnormal thyroid hormone metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088238		semapv:crossSpeciesExactMatch	XPO:0141916	abnormal thymine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088239		semapv:crossSpeciesExactMatch	XPO:0141875	abnormal cytosine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088240		semapv:crossSpeciesExactMatch	XPO:0141773	obsolete abnormal NADH metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088241		semapv:crossSpeciesExactMatch	XPO:0141756	abnormal intracellular accumulation of glycerol	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088242		semapv:crossSpeciesExactMatch	XPO:0141907	abnormal putrescine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088243		semapv:crossSpeciesExactMatch	XPO:0141763	abnormal muscle cell cellular homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -45324,8 +45253,6 @@ UPHENO:0088244		semapv:crossSpeciesExactMatch	XPO:0141794	abnormal prosthetic gr
 UPHENO:0088245		semapv:crossSpeciesExactMatch	XPO:0141762	abnormal multicellular organismal-level water homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088246		semapv:crossSpeciesExactMatch	XPO:0141774	abnormal NADP+ metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088247		semapv:crossSpeciesExactMatch	XPO:0141867	abnormal arachidonate metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088248		semapv:crossSpeciesExactMatch	XPO:0141882	abnormal gamma-aminobutyric acid metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088249		semapv:crossSpeciesExactMatch	XPO:0141877	abnormal 2-deoxyribose 1-phosphate metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088250		semapv:crossSpeciesExactMatch	XPO:0141904	abnormal glucosamine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088251		semapv:crossSpeciesExactMatch	XPO:0141859	abnormal lactose catabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088252		semapv:crossSpeciesExactMatch	XPO:0141849	abnormal fatty acid biosynthetic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -45350,7 +45277,6 @@ UPHENO:0088269		semapv:crossSpeciesExactMatch	ZP:0149736	germ-line stem-cell nic
 UPHENO:0088270		semapv:crossSpeciesExactMatch	XPO:0141751	abnormal hepatocyte homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088271		semapv:crossSpeciesExactMatch	XPO:0141755	abnormal intestinal stem cell homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088272		semapv:crossSpeciesExactMatch	XPO:0141747	abnormal epidermal stem cell homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088273		semapv:crossSpeciesExactMatch	XPO:0141912	abnormal D-serine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088274		semapv:crossSpeciesExactMatch	XPO:0141780	abnormal NAD+ metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088275		semapv:crossSpeciesExactMatch	XPO:0141894	abnormal dicarboxylic acid transport	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088276		semapv:crossSpeciesExactMatch	XPO:0141902	abnormal D-methionine transmembrane transport	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -45364,7 +45290,6 @@ UPHENO:0088283		semapv:crossSpeciesExactMatch	XPO:0141783	abnormal collagen meta
 UPHENO:0088284		semapv:crossSpeciesExactMatch	XPO:0141739	abnormal cell redox homeostasis	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088285		semapv:crossSpeciesExactMatch	XPO:0141871	abnormal cadaverine transport	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088286		semapv:crossSpeciesExactMatch	XPO:0141876	abnormal deoxyinosine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0088287		semapv:crossSpeciesExactMatch	XPO:0141884	abnormal phosphagen metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088288		semapv:crossSpeciesExactMatch	XPO:0141885	abnormal guanine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088289		semapv:crossSpeciesExactMatch	XPO:0141865	abnormal adenine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:0088290		semapv:crossSpeciesExactMatch	XPO:0141914	abnormal succinate metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
@@ -45711,7 +45636,6 @@ UPHENO:0089390		semapv:crossSpeciesExactMatch	ZP:0147711	regulation of secondary
 UPHENO:0089391		semapv:crossSpeciesExactMatch	ZP:0148261	endothelial cell development increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089392		semapv:crossSpeciesExactMatch	ZP:0147510	skeletal muscle cell differentiation increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089393		semapv:crossSpeciesExactMatch	ZP:0147545	oxygen metabolic process increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0089394		semapv:crossSpeciesExactMatch	ZP:0145735	membrane lipid catabolic process increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089395		semapv:crossSpeciesExactMatch	ZP:0145507	regulation of non-canonical NF-kappaB signal transduction increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089396		semapv:crossSpeciesExactMatch	ZP:0148350	positive regulation of macrophage derived foam cell differentiation increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089397		semapv:crossSpeciesExactMatch	ZP:0146289	motor behavior increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -45856,7 +45780,6 @@ UPHENO:0089782		semapv:crossSpeciesExactMatch	ZP:0149589	regulation of cell prol
 UPHENO:0089783		semapv:crossSpeciesExactMatch	ZP:0145753	oxygen metabolic process decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089784		semapv:crossSpeciesExactMatch	ZP:0147441	renal absorption decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089785		semapv:crossSpeciesExactMatch	ZP:0145506	regulation of non-canonical NF-kappaB signal transduction decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0089786		semapv:crossSpeciesExactMatch	ZP:0148536	regulation of prostaglandin-E synthase activity decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089787		semapv:crossSpeciesExactMatch	ZP:0145895	regulation of mitochondrial ATP synthesis coupled proton transport decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089788		semapv:crossSpeciesExactMatch	ZP:0146239	Notch signaling involved in heart development decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089789		semapv:crossSpeciesExactMatch	ZP:0147513	bone development decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -45870,13 +45793,11 @@ UPHENO:0089796		semapv:crossSpeciesExactMatch	ZP:0148485	regulation of bone deve
 UPHENO:0089797		semapv:crossSpeciesExactMatch	ZP:0147938	ammonium excretion decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089798		semapv:crossSpeciesExactMatch	ZP:0145729	NADH dehydrogenase complex assembly decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089799		semapv:crossSpeciesExactMatch	ZP:0149214	positive regulation of RNA splicing decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0089800		semapv:crossSpeciesExactMatch	ZP:0145736	L-dopa biosynthetic process decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089801		semapv:crossSpeciesExactMatch	ZP:0145511	determination of adult lifespan decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089802		semapv:crossSpeciesExactMatch	ZP:0148136	regulation of smoothened signaling pathway decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089803		semapv:crossSpeciesExactMatch	ZP:0145869	adult locomotory behavior decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089804		semapv:crossSpeciesExactMatch	ZP:0148793	renal protein absorption decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089805		semapv:crossSpeciesExactMatch	ZP:0148281	regulation of synaptic transmission, GABAergic decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:0089806		semapv:crossSpeciesExactMatch	ZP:0145738	regulation of glutathione peroxidase activity decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089807		semapv:crossSpeciesExactMatch	ZP:0146370	regulation of fibroblast growth factor receptor signaling pathway decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089808		semapv:crossSpeciesExactMatch	ZP:0149165	otolith morphogenesis decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:0089809		semapv:crossSpeciesExactMatch	ZP:0145731	mitochondrial proton-transporting ATP synthase complex assembly decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
@@ -47132,7 +47053,6 @@ UPHENO:7000494		semapv:crossSpeciesExactMatch	MP:0031287	bilateral cryptorchism	
 UPHENO:7000495		semapv:crossSpeciesExactMatch	HP:0008714	Ureterovesical stenosis	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000496		semapv:crossSpeciesExactMatch	HP:0008716	Urethrovaginal fistula	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000496		semapv:crossSpeciesExactMatch	MP:0003593	urethrovaginal fistula	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:7000497		semapv:crossSpeciesExactMatch	HP:0008826	obsolete Dislocation of the femoral head	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000498		semapv:crossSpeciesExactMatch	HP:0009125	Lipodystrophy	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000498		semapv:crossSpeciesExactMatch	MP:0011174	lipodystrophy	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:7000499		semapv:crossSpeciesExactMatch	HP:0009145	Abnormal cerebral artery morphology	semapv:LogicalReasoning	obo:upheno	obo:hp
@@ -47874,7 +47794,6 @@ UPHENO:7000865		semapv:crossSpeciesExactMatch	HP:0040407	Mastitis	semapv:Logical
 UPHENO:7000865		semapv:crossSpeciesExactMatch	MP:0013148	mastitis	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:7000866		semapv:crossSpeciesExactMatch	HP:0041051	Ageusia	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000866		semapv:crossSpeciesExactMatch	MP:0031090	ageusia	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:7000867		semapv:crossSpeciesExactMatch	HP:0041064	obsolete Fractured knee	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000868		semapv:crossSpeciesExactMatch	HP:0045040	Abnormal circulating lactate dehydrogenase concentration	semapv:LogicalReasoning	obo:upheno	obo:hp
 UPHENO:7000868		semapv:crossSpeciesExactMatch	MP:0002943	abnormal lactate dehydrogenase level	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:7000869		semapv:crossSpeciesExactMatch	HP:0045081	Abnormality of body mass index	semapv:LogicalReasoning	obo:upheno	obo:hp
@@ -48284,13 +48203,6 @@ UPHENO:7001071		semapv:crossSpeciesExactMatch	PLANP:0000582	abnormal epidermal c
 UPHENO:7001071		semapv:crossSpeciesExactMatch	XPO:0100714	abnormal epidermal cell	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:7001072		semapv:crossSpeciesExactMatch	PLANP:0000624	abnormal pigment cell	semapv:LogicalReasoning	obo:upheno	obo:planp
 UPHENO:7001072		semapv:crossSpeciesExactMatch	XPO:0101278	abnormal pigment cell	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:7001073		semapv:crossSpeciesExactMatch	ZP:0013206	regulation of telomerase activity process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:7001074		semapv:crossSpeciesExactMatch	ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:7001075		semapv:crossSpeciesExactMatch	ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:7001076		semapv:crossSpeciesExactMatch	ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:7001077		semapv:crossSpeciesExactMatch	ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
-UPHENO:7001078		semapv:crossSpeciesExactMatch	XPO:0141864	obsolete abnormal 5-methylcytosine metabolic process	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:7001079		semapv:crossSpeciesExactMatch	ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	semapv:LogicalReasoning	obo:upheno	obo:zp
 UPHENO:7001080		semapv:crossSpeciesExactMatch	WBPhenotype:0000037	egg morphology variant	semapv:LogicalReasoning	obo:upheno	obo:wbphenotype
 UPHENO:7001080		semapv:crossSpeciesExactMatch	XPO:0102648	abnormal egg morphology	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:7001081		semapv:crossSpeciesExactMatch	WBPhenotype:0000071	head morphology variant	semapv:LogicalReasoning	obo:upheno	obo:wbphenotype
@@ -52881,7 +52793,6 @@ XPO:0131691	abnormal molecular function	semapv:crossSpeciesExactMatch	PHIPO:0000
 XPO:0131691	abnormal molecular function	semapv:crossSpeciesExactMatch	UPHENO:0031743		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0131692	abnormal MAP kinase activity	semapv:crossSpeciesExactMatch	UPHENO:0080024		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0131693	abnormal all-trans-retinol dehydrogenase (NAD+) activity	semapv:crossSpeciesExactMatch	UPHENO:0080028		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0131694	obsolete abnormal RNA polymerase II activity	semapv:crossSpeciesExactMatch	UPHENO:0080026		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0131695	decreased MAP kinase activity	semapv:crossSpeciesExactMatch	UPHENO:0077198		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0131696	decreased alpha-tubulin acetylation	semapv:crossSpeciesExactMatch	UPHENO:0076902		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0131697	increased MAP kinase activity	semapv:crossSpeciesExactMatch	UPHENO:0080005		semapv:LogicalReasoning	obo:xpo	obo:upheno
@@ -53099,7 +53010,6 @@ XPO:0141766	abnormal intracellular polyamine homeostasis	semapv:crossSpeciesExac
 XPO:0141767	abnormal temperature homeostasis	semapv:crossSpeciesExactMatch	UPHENO:0078619		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141768	abnormal tissue homeostasis	semapv:crossSpeciesExactMatch	UPHENO:0088233		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141769	abnormal ubiquitin recycling	semapv:crossSpeciesExactMatch	UPHENO:0088263		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141773	obsolete abnormal NADH metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088240		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141774	abnormal NADP+ metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088246		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141776	abnormal metabolic process	semapv:crossSpeciesExactMatch	FYPO:0000860	abnormal metabolic process	semapv:LogicalReasoning	obo:xpo	obo:fypo
 XPO:0141776	abnormal metabolic process	semapv:crossSpeciesExactMatch	HP:0032245	Abnormal metabolism	semapv:LexicalAndLogicalMatching	obo:xpo	obo:hp
@@ -53118,14 +53028,13 @@ XPO:0141787	abnormal hormone metabolic process	semapv:crossSpeciesExactMatch	UPH
 XPO:0141788	abnormal hormone biosynthetic process	semapv:crossSpeciesExactMatch	UPHENO:0088255		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141789	abnormal hormone catabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088256		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141790	abnormal cellular metabolic process	semapv:crossSpeciesExactMatch	DDPHENO:0001005	aberrant cellular metabolic process	semapv:LogicalReasoning	obo:xpo	obo:ddpheno
-XPO:0141790	abnormal cellular metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:LogicalReasoning	obo:xpo	obo:upheno
+XPO:0141790	abnormal cellular metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0049873	metabolic process phenotype	semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141791	abnormal primary metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0050116		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141792	abnormal small molecule metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0049618		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141793	abnormal ATP metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0050261		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141794	abnormal prosthetic group metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088244		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141795	abnormal glycosylation	semapv:crossSpeciesExactMatch	HP:0012345	Abnormal glycosylation	semapv:LexicalAndLogicalMatching	obo:xpo	obo:hp
 XPO:0141795	abnormal glycosylation	semapv:crossSpeciesExactMatch	MGPO:0002009	abnormal glycosylation	semapv:LogicalReasoning	obo:xpo	obo:mgpo
-XPO:0141795	abnormal glycosylation	semapv:crossSpeciesExactMatch	UPHENO:0078623		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141796	abnormal demethylation	semapv:crossSpeciesExactMatch	UPHENO:0050860		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141797	abnormal hydrogen metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088277		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141798	abnormal lipid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0049723		semapv:LogicalReasoning	obo:xpo	obo:upheno
@@ -53164,7 +53073,6 @@ XPO:0141830	increased width of mouth	semapv:crossSpeciesExactMatch	UPHENO:000647
 XPO:0141840	decreased whole organism mass	semapv:crossSpeciesExactMatch	UPHENO:0082794		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141841	abnormality of whole organism mass	semapv:crossSpeciesExactMatch	UPHENO:0010795		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141842	increased whole organism mass	semapv:crossSpeciesExactMatch	UPHENO:0008312		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141843	abnormal alanine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088217		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141844	abnormal long-chain fatty acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078635		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141845	abnormal alpha-linolenic acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088279		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141846	abnormal linoleic acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088254		semapv:LogicalReasoning	obo:xpo	obo:upheno
@@ -53180,18 +53088,14 @@ XPO:0141854	abnormal glutathione metabolic process	semapv:crossSpeciesExactMatch
 XPO:0141855	abnormal glycerol-3-phosphate shuttle	semapv:crossSpeciesExactMatch	UPHENO:0088265		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141856	abnormal glycerolipid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088253		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141857	abnormal glycine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078609		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141858	abnormal serine family amino acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078643		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141859	abnormal lactose catabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088251		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141860	abnormal malate-aspartate shuttle	semapv:crossSpeciesExactMatch	UPHENO:0088291		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141861	abnormal purine nucleoside metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088260		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141862	abnormal urea cycle	semapv:crossSpeciesExactMatch	UPHENO:0088278		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141863	abnormal lactate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088224		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141864	obsolete abnormal 5-methylcytosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:7001078		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141865	abnormal adenine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088289		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141866	abnormal dicarboxylic acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078584		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141867	abnormal arachidonate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088247		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141868	abnormal asparagine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088219		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141869	abnormal alpha-amino acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0050249		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141870	abnormal fatty acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078646		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141871	abnormal cadaverine transport	semapv:crossSpeciesExactMatch	UPHENO:0088285		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141872	abnormal cholesterol metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0050500		semapv:LogicalReasoning	obo:xpo	obo:upheno
@@ -53199,26 +53103,20 @@ XPO:0141873	abnormal tricarboxylic acid metabolic process	semapv:crossSpeciesExa
 XPO:0141874	abnormal creatinine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088236		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141875	abnormal cytosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088239		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141876	abnormal deoxyinosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088286		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141877	abnormal 2-deoxyribose 1-phosphate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088249		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141878	abnormal histamine oxidase activity	semapv:crossSpeciesExactMatch	UPHENO:0086367		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141879	abnormal oxalate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088292		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141880	abnormal ethanolamine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088293		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141881	abnormal fructose metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088268		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141882	abnormal gamma-aminobutyric acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088248		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141883	abnormal glycerol metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088257		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141884	abnormal phosphagen metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088287		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141885	abnormal guanine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088288		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141886	abnormal guanosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088228		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141887	abnormal L-histidine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078607		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141888	abnormal threonine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078634		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141889	abnormal homoserine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088262		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141890	abnormal hypoxanthine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088221		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141891	abnormal inosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088220		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141892	abnormal inositol metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088281		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141893	abnormal isoleucine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078610		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141894	abnormal dicarboxylic acid transport	semapv:crossSpeciesExactMatch	UPHENO:0088275		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141895	abnormal L-leucine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0051211		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141896	abnormal lysine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078602		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141897	abnormal malonic acid transport	semapv:crossSpeciesExactMatch	UPHENO:0088234		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141898	abnormal maltose metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088266		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141899	abnormal mandelate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088282		semapv:LogicalReasoning	obo:xpo	obo:upheno
@@ -53229,23 +53127,17 @@ XPO:0141903	abnormal inositol phosphate metabolic process	semapv:crossSpeciesExa
 XPO:0141903	abnormal inositol phosphate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0083100		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141904	abnormal glucosamine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088250		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141905	abnormal ornithine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078644		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141906	abnormal palmitic acid metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088223		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141907	abnormal putrescine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088242		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141908	abnormal pyridine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088230		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141909	abnormal ribonucleoside metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088218		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141910	abnormal D-ribose metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088258		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141911	abnormal ribose phosphate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0050826		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141912	abnormal D-serine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088273		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141913	abnormal L-serine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078639		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141914	abnormal succinate metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088290		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141915	abnormal taurine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088295		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141916	abnormal thymine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088238		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141917	abnormal L-tryptophan metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078632		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141918	abnormal tyrosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0051525		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141919	abnormal uracil metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088232		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141920	abnormal urea metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088231		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141921	abnormal uridine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0088225		semapv:LogicalReasoning	obo:xpo	obo:upheno
-XPO:0141922	abnormal valine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078626		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141923	abnormal xanthine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:0078582		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141957	abnormal histone kinase activity	semapv:crossSpeciesExactMatch	UPHENO:0086369		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0141975	abnormal cilium motility	semapv:crossSpeciesExactMatch	UPHENO:0050263		semapv:LogicalReasoning	obo:xpo	obo:upheno
@@ -53414,7 +53306,6 @@ ZP:0000402	eye decreased pigmentation, abnormal	semapv:crossSpeciesExactMatch	UP
 ZP:0000404	liver hypoplastic, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0081219		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000405	retinal pigmented epithelium degenerate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0074120		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000406	sensory system quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0004494		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001076		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000409	locomotion decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053178		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000413	ventricular system increased size, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0002189		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000414	ventral mandibular arch malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071482		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -53586,7 +53477,6 @@ ZP:0000833	larval locomotory behavior decreased occurrence, abnormal	semapv:cros
 ZP:0000834	neuron differentiation process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050408		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000847	syncytium formation by plasma membrane fusion increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079374		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000848	regulation of microtubule cytoskeleton organization process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050864		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0000849	regulation of Rho-dependent protein serine/threonine kinase activity process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050266		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000852	external yolk syncytial layer increased size, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0001991		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000854	semicircular canal malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071733		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0000856	whole organism curved ventral, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0031647		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -54086,7 +53976,6 @@ ZP:0002314	head shape, abnormal	semapv:crossSpeciesExactMatch	MP:0011495	abnorma
 ZP:0002314	head shape, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0041100		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0002315	ossification delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0000527		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0002316	heparan sulfate proteoglycan biosynthetic process decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077508		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0002317	chondroitin sulfate biosynthetic process process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051545		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0002318	chondroitin sulfate proteoglycan biosynthetic process decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077518		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0002319	sulfation decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077475		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0002320	endochondral bone morphogenesis delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0000707		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -54438,7 +54327,6 @@ ZP:0003507	intestinal epithelium degenerate, abnormal	semapv:crossSpeciesExactMa
 ZP:0003514	receptor recycling decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077435		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003515	germ cell migration decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053250		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003516	endosomal transport decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053414		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0003517	early endosome to recycling endosome transport decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077468		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003518	regulation of chemokine activity decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052378		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003521	pancreas development process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050175		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003525	pancreas increased length, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0072626		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -54481,7 +54369,6 @@ ZP:0003610	Meckel's cartilage increased thickness, abnormal	semapv:crossSpeciesE
 ZP:0003613	ceratohyal cartilage increased thickness, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0048298		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003615	trabecula cranii malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071395		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003616	pectoral fin fold decreased size, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0070176		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0003620	glucose import decreased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0005730		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003623	programmed cell death increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079367		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003627	segmental plate increased width, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0006566		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0003629	actinotrichium absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010258		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -54740,7 +54627,6 @@ ZP:0004623	convergent extension delayed, abnormal	semapv:crossSpeciesExactMatch	
 ZP:0004626	eye position, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0018418		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0004627	eye decreased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0064915		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0004634	mitotic G1 phase arrested, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0018795		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0004635	DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079320		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0004636	brain edematous, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0082513		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0004645	optic stalk decreased length, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0046843		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0004646	optic stalk increased thickness, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0048016		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -54981,9 +54867,7 @@ ZP:0005461	inner optic circle decreased amount, abnormal	semapv:crossSpeciesExac
 ZP:0005466	respiratory burst decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053290		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0005467	neuron-neuron synaptic transmission decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053262		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0005468	sensory perception of sound decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052970		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0005469	regulation of proton-transporting ATPase activity, rotational mechanism decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053530		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0005470	synaptic vesicle maturation decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053447		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0005471	regulation of cellular pH reduction decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053457		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0005472	synaptic vesicle lumen acidification decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052403		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0005475	dorsal telencephalon morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001216		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0005475	dorsal telencephalon morphology, abnormal	semapv:crossSpeciesExactMatch	XPO:0107380	abnormal dorsal telencephalon morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:xpo
@@ -55317,7 +55201,6 @@ ZP:0006726	myelination of posterior lateral line nerve axons decreased process q
 ZP:0006740	hindbrain degenerate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0074167		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006741	telencephalon degenerate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0074132		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006742	diencephalon degenerate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0074129		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0006748	glucose import decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052900		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006749	brain vasculature decreased functionality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0067001		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006755	cerebellar central artery absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010163		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006756	anterior mesencephalic central artery absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010015		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -55338,7 +55221,6 @@ ZP:0006811	mitotic metaphase chromosome alignment process quality, abnormal	sema
 ZP:0006814	spindle assembly checkpoint signaling increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079427		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006815	intrinsic apoptotic signaling pathway by p53 class mediator increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079425		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006824	blood vessel decreased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0065040		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0006833	protein glycosylation decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052676		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006834	myoseptum increased width, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0006542		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006839	prechordal plate mislocalised, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053787		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0006844	spinal cord curved, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0031482		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -55429,7 +55311,6 @@ ZP:0007176	melanosome transport decreased rate, abnormal	semapv:crossSpeciesExac
 ZP:0007177	startle response decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053249		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007178	cellular respiration decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053485		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007187	heparan sulfate proteoglycan biosynthetic process process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051226		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0007188	chondroitin sulfate biosynthetic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079459		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007189	tooth mineralization delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0000803		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007190	chondroitin sulfate proteoglycan biosynthetic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079327		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007191	sulfation increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079283		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -55542,7 +55423,6 @@ ZP:0007632	notochord absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:00086
 ZP:0007635	metabolic process increased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0054967		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007638	epithelial cell proliferation decreased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0005887		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007645	oocyte development delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0000690		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0007646	RNA 3' uridylation increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079288		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007647	embryonic pectoral fin morphogenesis arrested, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0018814		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007648	cell division decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077434		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007660	intersegmental vessel increased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0014812		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -55551,7 +55431,6 @@ ZP:0007662	embryonic camera-type eye morphogenesis decreased process quality, ab
 ZP:0007665	neurocranial trabecula absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010413		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007668	ventricular myocardium hypoplastic, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0081252		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007674	swimming process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050290		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0007679	glycosylation decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077707		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007686	sagitta malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071603		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007688	pronephric duct malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071435		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0007692	trunk vasculature malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071996		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -56258,7 +56137,6 @@ ZP:0010689	cranial nerve decreased size, abnormal	semapv:crossSpeciesExactMatch	
 ZP:0010690	lateral line nerve decreased size, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0069904		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0010707	pronephros morphogenesis process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050989		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0010711	centrum malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071499		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001077		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0010717	cardioblast migration to the midline involved in heart rudiment formation absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0078519		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0010720	heart rudiment increased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0014925		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0010722	pharyngeal arch 1 decreased length, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0046946		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -56396,7 +56274,6 @@ ZP:0011248	pectoral fin bud absent, abnormal	semapv:crossSpeciesExactMatch	UPHEN
 ZP:0011249	pectoral girdle absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0009823		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0011250	pharyngeal arch absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0008684		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0011256	pectoral fin cartilage absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010046		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0011261	NADH oxidation decreased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0005946		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0011268	epiphysis morphology, abnormal	semapv:crossSpeciesExactMatch	HP:0005930	Abnormal epiphysis morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:hp
 ZP:0011268	epiphysis morphology, abnormal	semapv:crossSpeciesExactMatch	MP:0000131	abnormal long bone epiphysis morphology	semapv:LogicalReasoning	obo:zp	obo:mp
 ZP:0011268	epiphysis morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087487		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -56790,7 +56667,6 @@ ZP:0013179	testis morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087
 ZP:0013179	testis morphology, abnormal	semapv:crossSpeciesExactMatch	WBPhenotype:0001357	male gonad morphology variant	semapv:LogicalReasoning	obo:zp	obo:wbphenotype
 ZP:0013179	testis morphology, abnormal	semapv:crossSpeciesExactMatch	XPO:0102046	abnormal testis morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:xpo
 ZP:0013205	axial blood vessel amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0011878		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0013206	regulation of telomerase activity process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001073		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013230	larval development process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0049624		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013235	developmental growth rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0080409		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013242	cellular response to absence of light process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050361		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -56828,7 +56704,6 @@ ZP:0013406	nervous system morphology, abnormal	semapv:crossSpeciesExactMatch	WBP
 ZP:0013406	nervous system morphology, abnormal	semapv:crossSpeciesExactMatch	XPO:0101664	abnormal nervous system morphology	semapv:LogicalReasoning	obo:zp	obo:xpo
 ZP:0013413	spinal cord motor neuron cell fate specification process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050783		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013419	hypophysis formation process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051523		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0013433	chondroitin sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051227		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013442	blood coagulation process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051131		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013448	melanosome transport rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0080384		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013449	hemoglobin biosynthetic process process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050415		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -56838,7 +56713,6 @@ ZP:0013472	atrial myocardium morphology, abnormal	semapv:crossSpeciesExactMatch	
 ZP:0013473	ventricular myocardium morphology, abnormal	semapv:crossSpeciesExactMatch	HP:0031316	Abnormal ventricular myocardium morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:hp
 ZP:0013473	ventricular myocardium morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000745		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013481	myofibril assembly process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051475		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0013486	fucosylation decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052244		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013487	heart field specification process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050955		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013488	embryonic heart tube development process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051257		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0013490	ventricular endocardium morphology, abnormal	semapv:crossSpeciesExactMatch	MP:0010494	abnormal ventricle endocardium morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:mp
@@ -57068,13 +56942,11 @@ ZP:0014471	paraxial mesodermal cell differentiation increased process quality, a
 ZP:0014472	tail bud malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071636		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014483	innate immune response process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0049755		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014484	innate immune response decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053041		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0014485	glucose import increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0080708		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014488	locomotor rhythm decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077496		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014496	hemopoiesis arrested, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0018978		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014497	erythrocyte differentiation decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053526		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014512	musculoskeletal movement increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079345		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014521	neutrophil chemotaxis decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052682		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0014523	protein kinase A signaling increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079463		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014530	median fin morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001204		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0014530	median fin morphology, abnormal	semapv:crossSpeciesExactMatch	XPO:0103051	abnormal median fin morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:xpo
 ZP:0014532	chondrocranium cartilage absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0009222		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -58112,7 +57984,6 @@ ZP:0019450	ovarian follicle stage II absent, abnormal	semapv:crossSpeciesExactMa
 ZP:0019451	ovarian follicle stage III absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0009854		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0019453	male organism increased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0015070		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0019454	brain absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0009612		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001074		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0019461	optic cup increased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0014519		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0019462	solid lens vesicle decreased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0064204		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0019471	blood island mislocalised, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053788		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -59265,7 +59136,6 @@ ZP:0102972	glomerular filtration decreased occurrence, abnormal	semapv:crossSpec
 ZP:0102984	corpuscles of Stannius decreased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0064277		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0102997	renal glomerulus malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071944		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0103018	neuromast hair cell differentiation involved in neuromast regeneration process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050526		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001075		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0103028	estradiol blood decreased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0034389		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0103040	flagellated sperm motility decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052749		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0103051	atrioventricular canal endocardium absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010479		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -59557,7 +59427,6 @@ ZP:0104589	sagitta increased size, abnormal	semapv:crossSpeciesExactMatch	UPHENO
 ZP:0104619	flagellated sperm motility process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051155		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0104623	mitotic S phase process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050967		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0104637	involuntary skeletal muscle contraction decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077467		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0104642	RNA 3' uridylation decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077477		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0104678	axial blood vessel absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010014		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0104685	mesencephalic artery absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010001		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0104687	posterior communicating artery morphology, abnormal	semapv:crossSpeciesExactMatch	MP:0014005	abnormal posterior communicating artery morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:mp
@@ -59579,12 +59448,10 @@ ZP:0104750	ovarian follicle stage I increased amount, abnormal	semapv:crossSpeci
 ZP:0104751	ovarian follicle stage II decreased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0064242		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0104784	thigmotaxis delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0000806		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0104795	skeletal muscle mislocalised, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0054008		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0105654	DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0079486		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0105672	snout morphology, abnormal	semapv:crossSpeciesExactMatch	MP:0000443	abnormal snout morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:mp
 ZP:0105672	snout morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087278		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0105681	enteric nervous system development decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0077638		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0105695	neural plate decreased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0064043		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0105703	negative regulation of convergent extension involved in axis elongation delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0076947		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0105738	neuromast malformed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0071557		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0105745	chromatin organization process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050845		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0105746	rhombomere 6 absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0009015		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60250,7 +60117,6 @@ ZP:0138574	pronephric tubule decreased size, abnormal	semapv:crossSpeciesExactMa
 ZP:0138609	muscle absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0008756		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0138611	embryonic liver development delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0080539		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0138673	oocyte maturation decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0082005		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0138681	clearance of damaged tissue involved in inflammatory response wound healing decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0082841		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0138693	hepatic duct absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0009803		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0139716	muscle cell development process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050120		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0139722	myelination decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0084250		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60271,7 +60137,6 @@ ZP:0139952	callus formation delayed, abnormal	semapv:crossSpeciesExactMatch	UPHE
 ZP:0139963	ammonium transmembrane transport decreased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0082951		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0139967	skeletal myofibril assembly delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083045		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140054	cortisol blood increased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0068531		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0140059	regulation of cAMP-mediated signaling increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083771		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140060	regulation of neurotrophin TRK receptor signaling pathway increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083740		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140074	cortisol blood amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051974		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140080	ovarian follicle decreased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0063803		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60295,7 +60160,6 @@ ZP:0140269	reproductive senescence premature, abnormal	semapv:crossSpeciesExactM
 ZP:0140295	bone remodeling decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0084258		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140316	embryo development ending in birth or egg hatching delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0000817		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140321	response to stimulus increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083263		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0140322	glucose import increased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0084228		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140326	adult feeding behavior decreased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0082949		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140327	intestinal villus atrophied, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0013958		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0140341	gut process quality peristalsis, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0081979		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60416,9 +60280,7 @@ ZP:0141954	erythrocyte differentiation increased occurrence, abnormal	semapv:cro
 ZP:0142058	oxygen metabolic process process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083074		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142062	heart valve morphogenesis process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0051151		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142072	type B pancreatic cell proliferation process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083084		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0142073	glucose import process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050593		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142100	retina vasculature development in camera-type eye decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083987		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0142106	mitochondrial genome maintenance process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083079		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142116	response to absence of light delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083043		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142136	skeletal muscle cell proliferation increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083743		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142148	turning behavior increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083755		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60451,7 +60313,6 @@ ZP:0142532	energy homeostasis process quality, abnormal	semapv:crossSpeciesExact
 ZP:0142574	mitotic prophase process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083073		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142575	mitotic metaphase process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083072		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142577	cell division delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0000671		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0142690	positive regulation of NF-kappaB transcription factor activity increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086289		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142703	embryonic structure absent, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0008950		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142794	epidermis decreased thickness, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0080831		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0142830	olfactory behavior process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0050130		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60548,12 +60409,10 @@ ZP:0144704	cornea decreased thickness, abnormal	semapv:crossSpeciesExactMatch	UP
 ZP:0144776	endothelial tube lumen extension involved in blood vessel lumen ensheathment delayed, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0085713		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144795	glucose catabolic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086286		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144796	amino acid catabolic process decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0085177		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0144797	palmitic acid catabolic process decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0085172		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144844	heart fibrotic, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0085168		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144850	lepidotrichium decreased length, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0047001		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144851	forebrain hypoplastic, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0081239		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144854	pigment accumulation increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086288		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0144857	protein glycosylation decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0085184		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144861	multicellular organismal locomotion decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0085669		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144900	inner ear mislocalised, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053707		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0144961	oculomotor nucleus morphology, abnormal	semapv:crossSpeciesExactMatch	MP:0004280	abnormal oculomotor nucleus morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:mp
@@ -60565,7 +60424,6 @@ ZP:0145040	urostyle morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:70
 ZP:0145040	urostyle morphology, abnormal	semapv:crossSpeciesExactMatch	XPO:0103111	abnormal urostyle morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:xpo
 ZP:0145098	optic cup formation involved in camera-type eye development process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0088298		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145116	bone mineralization arrested, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086182		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0145119	positive regulation of CREB transcription factor activity increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086291		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145120	hypoxia-inducible factor-1alpha signaling pathway increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086293		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145258	utricle decreased size, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0069374		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145339	muscle mislocalised, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0053684		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60588,9 +60446,6 @@ ZP:0145726	acetylcholine biosynthetic process increased process quality, abnorma
 ZP:0145729	NADH dehydrogenase complex assembly decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089798		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145731	mitochondrial proton-transporting ATP synthase complex assembly decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089809		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145733	mitochondrial cytochrome c oxidase assembly decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089810		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0145735	membrane lipid catabolic process increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089394		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0145736	L-dopa biosynthetic process decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089800		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0145738	regulation of glutathione peroxidase activity decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089806		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145739	regulation of glutathione biosynthetic process decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089794		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145741	mitochondrial tricarboxylic acid transmembrane transport decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089814		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0145746	lateral line primordium increased amount, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0015087		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60687,7 +60542,6 @@ ZP:0148007	female organism morphology, abnormal	semapv:crossSpeciesExactMatch	UP
 ZP:0148007	female organism morphology, abnormal	semapv:crossSpeciesExactMatch	XPO:0102789	abnormal female organism morphology	semapv:LexicalAndLogicalMatching	obo:zp	obo:xpo
 ZP:0148012	ovarian follicle decreased size, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0070371		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148132	regulation of cytoplasmic pattern recognition receptor signaling pathway increased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089834		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0148133	regulation of deoxyribonuclease activity decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0052480		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148136	regulation of smoothened signaling pathway decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089802		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148142	negative chemotaxis decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089823		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148143	regulation of negative chemotaxis decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089821		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60712,7 +60566,6 @@ ZP:0148493	circadian rhythm delayed, abnormal	semapv:crossSpeciesExactMatch	UPHE
 ZP:0148494	circadian sleep/wake cycle process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089687		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148501	cGAS/STING signaling pathway increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089427		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148519	endothelial to hematopoietic transition increased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089832		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0148536	regulation of prostaglandin-E synthase activity decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089786		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148552	musculoskeletal movement, spinal reflex action decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089778		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148591	glucose homeostasis increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089412		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0148721	heart contraction rate of continuous process, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0090153		semapv:LogicalReasoning	obo:zp	obo:upheno
@@ -60758,7 +60611,6 @@ ZP:0149052	response to silver ion decreased rate, abnormal	semapv:crossSpeciesEx
 ZP:0149053	response to cadmium ion increased rate, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089835		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0149065	skeletal muscle contraction increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0090124		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0149074	platelet aggregation increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0090129		semapv:LogicalReasoning	obo:zp	obo:upheno
-ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001079		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0149081	behavioral fear response process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089690		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0149118	neuromuscular process controlling balance decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089777		semapv:LogicalReasoning	obo:zp	obo:upheno
 ZP:0149130	macromolecule methylation decreased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0089319		semapv:LogicalReasoning	obo:zp	obo:upheno

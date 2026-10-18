@@ -19,7 +19,7 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/3e59a3bd-7601-42fa-9317-99b33b830ea5
+# mapping_set_id: https://w3id.org/sssom/mappings/1ce638dd-52b5-44b4-a3a9-eb87a78f18fe
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	license
 APO:0000017		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
 APO:0000045		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
@@ -90,9 +90,7 @@ DDPHENO:0000118		semapv:crossSpeciesExactMatch	UPHENO:0084299		semapv:MappingInv
 DDPHENO:0000119		semapv:crossSpeciesExactMatch	UPHENO:0083825		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000120		semapv:crossSpeciesExactMatch	UPHENO:0083206		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000122		semapv:crossSpeciesExactMatch	UPHENO:0083199		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0000123		semapv:crossSpeciesExactMatch	UPHENO:0084352		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000125		semapv:crossSpeciesExactMatch	UPHENO:0083364		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0000126		semapv:crossSpeciesExactMatch	UPHENO:0083844		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000127		semapv:crossSpeciesExactMatch	UPHENO:0083161		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000128		semapv:crossSpeciesExactMatch	UPHENO:0084262		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000132		semapv:crossSpeciesExactMatch	UPHENO:0083794		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -296,8 +294,6 @@ DDPHENO:0000550		semapv:crossSpeciesExactMatch	UPHENO:0083395		semapv:MappingInv
 DDPHENO:0000551		semapv:crossSpeciesExactMatch	UPHENO:0083837		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000552		semapv:crossSpeciesExactMatch	UPHENO:0083302		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000553		semapv:crossSpeciesExactMatch	UPHENO:0083156		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0000554		semapv:crossSpeciesExactMatch	UPHENO:0083160		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0000555		semapv:crossSpeciesExactMatch	UPHENO:0083392		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000556		semapv:crossSpeciesExactMatch	UPHENO:0083155		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000557		semapv:crossSpeciesExactMatch	UPHENO:0083385		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000558		semapv:crossSpeciesExactMatch	UPHENO:0083157		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -423,7 +419,6 @@ DDPHENO:0000683		semapv:crossSpeciesExactMatch	UPHENO:0083872		semapv:MappingInv
 DDPHENO:0000684		semapv:crossSpeciesExactMatch	UPHENO:0083383		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000689		semapv:crossSpeciesExactMatch	UPHENO:0083098		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000693		semapv:crossSpeciesExactMatch	UPHENO:0083357		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0000694		semapv:crossSpeciesExactMatch	UPHENO:0083159		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000698		semapv:crossSpeciesExactMatch	UPHENO:0083126		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000699		semapv:crossSpeciesExactMatch	UPHENO:0084309		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0000700		semapv:crossSpeciesExactMatch	UPHENO:0083340		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -552,7 +547,6 @@ DDPHENO:0000837		semapv:crossSpeciesExactMatch	UPHENO:0090136		semapv:MappingInv
 DDPHENO:0000838		semapv:crossSpeciesExactMatch	UPHENO:0089226		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001002		semapv:crossSpeciesExactMatch	UPHENO:0084004		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001003		semapv:crossSpeciesExactMatch	UPHENO:0049586		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0001005		semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001006		semapv:crossSpeciesExactMatch	UPHENO:0051356		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001007		semapv:crossSpeciesExactMatch	UPHENO:0083217		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001008		semapv:crossSpeciesExactMatch	UPHENO:0050121		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -737,7 +731,6 @@ DDPHENO:0001293		semapv:crossSpeciesExactMatch	UPHENO:0083901		semapv:MappingInv
 DDPHENO:0001295		semapv:crossSpeciesExactMatch	UPHENO:0083894		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001297		semapv:crossSpeciesExactMatch	UPHENO:0083325		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001299		semapv:crossSpeciesExactMatch	UPHENO:0083893		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0001305		semapv:crossSpeciesExactMatch	UPHENO:0083391		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001317		semapv:crossSpeciesExactMatch	UPHENO:0049744		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001319		semapv:crossSpeciesExactMatch	UPHENO:0089348		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001320		semapv:crossSpeciesExactMatch	UPHENO:0089901		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -828,7 +821,6 @@ DDPHENO:0001463		semapv:crossSpeciesExactMatch	UPHENO:0083194		semapv:MappingInv
 DDPHENO:0001466		semapv:crossSpeciesExactMatch	UPHENO:0049905		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001467		semapv:crossSpeciesExactMatch	UPHENO:0084322		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001468		semapv:crossSpeciesExactMatch	UPHENO:0083774		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-DDPHENO:0001469		semapv:crossSpeciesExactMatch	UPHENO:0083135		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001470		semapv:crossSpeciesExactMatch	UPHENO:0084281		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001471		semapv:crossSpeciesExactMatch	UPHENO:0083800		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 DDPHENO:0001472		semapv:crossSpeciesExactMatch	UPHENO:0083100		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -1060,7 +1052,7 @@ FYPO:0000121	abnormal sporulation	semapv:crossSpeciesExactMatch	UPHENO:0083215	s
 FYPO:0000128	auxotrophy	semapv:crossSpeciesExactMatch	UPHENO:7000002	auxotrophy	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000131	abnormal mitotic spindle elongation	semapv:crossSpeciesExactMatch	UPHENO:0083169	mitotic spindle elongation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000138	localization phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049927	localization phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
-FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0050113	cellular metabolic process phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
+FYPO:0000140	cellular metabolism phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049873	metabolic process phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000141	abnormal mitotic sister chromatid segregation	semapv:crossSpeciesExactMatch	UPHENO:0049680	mitotic sister chromatid segregation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000149	transport phenotype	semapv:crossSpeciesExactMatch	UPHENO:0049724	transport phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 FYPO:0000151	abnormal meiotic chromosome segregation	semapv:crossSpeciesExactMatch	UPHENO:0049621	meiotic chromosome segregation phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -3686,7 +3678,6 @@ HP:0008818		semapv:crossSpeciesExactMatch	UPHENO:0001558		semapv:MappingInversio
 HP:0008819		semapv:crossSpeciesExactMatch	UPHENO:0054645		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008823		semapv:crossSpeciesExactMatch	UPHENO:0081362		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008824		semapv:crossSpeciesExactMatch	UPHENO:0081377		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0008826	obsolete Dislocation of the femoral head	semapv:crossSpeciesExactMatch	UPHENO:7000497	head of femur dislocation; obsolete dislocation of the femoral head	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0008828		semapv:crossSpeciesExactMatch	UPHENO:0084040		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008829		semapv:crossSpeciesExactMatch	UPHENO:0084023		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0008830		semapv:crossSpeciesExactMatch	UPHENO:0081373		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -4672,7 +4663,6 @@ HP:0011014		semapv:crossSpeciesExactMatch	UPHENO:0050433		semapv:MappingInversio
 HP:0011015		semapv:crossSpeciesExactMatch	UPHENO:0051766		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0011018		semapv:crossSpeciesExactMatch	UPHENO:0049952		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0011019		semapv:crossSpeciesExactMatch	UPHENO:0049918		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0011020		semapv:crossSpeciesExactMatch	UPHENO:0050655		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0011022		semapv:crossSpeciesExactMatch	UPHENO:0089733		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0011023		semapv:crossSpeciesExactMatch	UPHENO:0078624		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0011024		semapv:crossSpeciesExactMatch	UPHENO:0002725		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -5096,7 +5086,6 @@ HP:0012334	Extrahepatic cholestasis	semapv:crossSpeciesExactMatch	UPHENO:7000629
 HP:0012337	Abnormal homeostasis	semapv:crossSpeciesExactMatch	UPHENO:7000630	homeostasis	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0012338	Abnormal energy expenditure	semapv:crossSpeciesExactMatch	UPHENO:7000631	energy expenditure	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0012345		semapv:crossSpeciesExactMatch	UPHENO:0078623		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0012346		semapv:crossSpeciesExactMatch	UPHENO:0078594		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0012347		semapv:crossSpeciesExactMatch	UPHENO:0078593		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0012358		semapv:crossSpeciesExactMatch	UPHENO:0078583		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0012359		semapv:crossSpeciesExactMatch	UPHENO:0078605		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -6071,7 +6060,6 @@ HP:0041051	Ageusia	semapv:crossSpeciesExactMatch	UPHENO:7000866	ageusia	semapv:L
 HP:0041052		semapv:crossSpeciesExactMatch	UPHENO:0080317		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041055		semapv:crossSpeciesExactMatch	UPHENO:0080515		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041061		semapv:crossSpeciesExactMatch	UPHENO:0080463		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-HP:0041064	obsolete Fractured knee	semapv:crossSpeciesExactMatch	UPHENO:7000867	fractured knee; obsolete fractured knee	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 HP:0041073		semapv:crossSpeciesExactMatch	UPHENO:0080529		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041080		semapv:crossSpeciesExactMatch	UPHENO:0080988		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 HP:0041081		semapv:crossSpeciesExactMatch	UPHENO:0080518		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -9376,7 +9364,6 @@ MP:0004653		semapv:crossSpeciesExactMatch	UPHENO:0086200		semapv:MappingInversio
 MP:0004655		semapv:crossSpeciesExactMatch	UPHENO:0086224		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 MP:0004657		semapv:crossSpeciesExactMatch	UPHENO:0068918		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 MP:0004659	abnormal odontoid process morphology	semapv:crossSpeciesExactMatch	UPHENO:0088174	odontoid process of cervical vertebra 2 morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
-MP:0004660		semapv:crossSpeciesExactMatch	UPHENO:0085843		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 MP:0004664		semapv:crossSpeciesExactMatch	UPHENO:0000531		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 MP:0004665		semapv:crossSpeciesExactMatch	UPHENO:0087276		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 MP:0004666		semapv:crossSpeciesExactMatch	UPHENO:0078443		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -15635,7 +15622,6 @@ PHIPO:0001120		semapv:crossSpeciesExactMatch	UPHENO:0052798		semapv:MappingInver
 PHIPO:0001134		semapv:crossSpeciesExactMatch	UPHENO:0076377		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 PHIPO:0001135		semapv:crossSpeciesExactMatch	UPHENO:0081751		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 PHIPO:0001137		semapv:crossSpeciesExactMatch	UPHENO:0080533		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-PHIPO:0001147		semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 PHIPO:0001149		semapv:crossSpeciesExactMatch	UPHENO:0082009		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 PHIPO:0001153	hyphal hyper branching	semapv:crossSpeciesExactMatch	UPHENO:7000128	hyphal hyper branching; increased hyphal branching	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 PHIPO:0001205	abnormal filament morphology	semapv:crossSpeciesExactMatch	UPHENO:7000030	filament morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -18235,7 +18221,6 @@ UPHENO:0005706		semapv:crossSpeciesExactMatch	ZP:0009427		semapv:LogicalReasonin
 UPHENO:0005708		semapv:crossSpeciesExactMatch	ZP:0007157		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005723		semapv:crossSpeciesExactMatch	ZP:0002937		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005726		semapv:crossSpeciesExactMatch	ZP:0002980		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0005730		semapv:crossSpeciesExactMatch	ZP:0003620		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005733		semapv:crossSpeciesExactMatch	ZP:0020060		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005734		semapv:crossSpeciesExactMatch	ZP:0006156		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005763		semapv:crossSpeciesExactMatch	ZP:0000229		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -18294,7 +18279,6 @@ UPHENO:0005931	decreased heart contraction	semapv:crossSpeciesExactMatch	MP:0006
 UPHENO:0005933		semapv:crossSpeciesExactMatch	ZP:0015207		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005937		semapv:crossSpeciesExactMatch	ZP:0020992		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005941		semapv:crossSpeciesExactMatch	ZP:0004991		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0005946		semapv:crossSpeciesExactMatch	ZP:0011261		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005947		semapv:crossSpeciesExactMatch	ZP:0017548		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005948		semapv:crossSpeciesExactMatch	ZP:0101388		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0005949		semapv:crossSpeciesExactMatch	ZP:0101380		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -23114,6 +23098,7 @@ UPHENO:0049870	gene expression phenotype	semapv:crossSpeciesExactMatch	FYPO:0006
 UPHENO:0049872		semapv:crossSpeciesExactMatch	WBPhenotype:0000207		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0049873		semapv:crossSpeciesExactMatch	XPO:0141776		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0049873		semapv:crossSpeciesExactMatch	ZP:0101114		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
+UPHENO:0049873	metabolic process phenotype	semapv:crossSpeciesExactMatch	FYPO:0000140	cellular metabolism phenotype	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0049873	metabolic process phenotype	semapv:crossSpeciesExactMatch	FYPO:0000860	abnormal metabolic process	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0049874		semapv:crossSpeciesExactMatch	HP:0001507		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0049874		semapv:crossSpeciesExactMatch	WBPhenotype:0000030		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -23360,10 +23345,6 @@ UPHENO:0050111		semapv:crossSpeciesExactMatch	DDPHENO:0001225		semapv:LogicalRea
 UPHENO:0050111		semapv:crossSpeciesExactMatch	WBPhenotype:0000481		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050112		semapv:crossSpeciesExactMatch	DDPHENO:0001224		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050112		semapv:crossSpeciesExactMatch	WBPhenotype:0000635		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050113		semapv:crossSpeciesExactMatch	DDPHENO:0001005		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050113		semapv:crossSpeciesExactMatch	PHIPO:0001147		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050113		semapv:crossSpeciesExactMatch	XPO:0141790		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050113	cellular metabolic process phenotype	semapv:crossSpeciesExactMatch	FYPO:0000140	cellular metabolism phenotype	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0050116		semapv:crossSpeciesExactMatch	XPO:0141791		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050118		semapv:crossSpeciesExactMatch	DDPHENO:0001031		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050120		semapv:crossSpeciesExactMatch	WBPhenotype:0000815		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -23467,7 +23448,6 @@ UPHENO:0050243		semapv:crossSpeciesExactMatch	ZP:0015658		semapv:LogicalReasonin
 UPHENO:0050243	macroautophagy phenotype	semapv:crossSpeciesExactMatch	FYPO:0000163	abnormal macroautophagy	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0050245		semapv:crossSpeciesExactMatch	XPO:0141781		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050246		semapv:crossSpeciesExactMatch	ZP:0006971		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050249		semapv:crossSpeciesExactMatch	XPO:0141869		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050250		semapv:crossSpeciesExactMatch	XPO:0131713		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050253		semapv:crossSpeciesExactMatch	ZP:0022772		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050254		semapv:crossSpeciesExactMatch	ZP:0005390		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -23478,7 +23458,6 @@ UPHENO:0050262		semapv:crossSpeciesExactMatch	ZP:0008540		semapv:LogicalReasonin
 UPHENO:0050263		semapv:crossSpeciesExactMatch	XPO:0141975		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050263		semapv:crossSpeciesExactMatch	ZP:0017830		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050265		semapv:crossSpeciesExactMatch	ZP:0005394		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050266		semapv:crossSpeciesExactMatch	ZP:0000849		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050269		semapv:crossSpeciesExactMatch	ZP:0013750		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050270		semapv:crossSpeciesExactMatch	ZP:0002896		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050278		semapv:crossSpeciesExactMatch	ZP:0011402		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -23685,7 +23664,6 @@ UPHENO:0050588		semapv:crossSpeciesExactMatch	XPO:0131405		semapv:LogicalReasoni
 UPHENO:0050588		semapv:crossSpeciesExactMatch	ZP:0008042		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050592		semapv:crossSpeciesExactMatch	XPO:0131403		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050592		semapv:crossSpeciesExactMatch	ZP:0001263		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050593		semapv:crossSpeciesExactMatch	ZP:0142073		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050594		semapv:crossSpeciesExactMatch	FBcv:0000395		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050594		semapv:crossSpeciesExactMatch	ZP:0011149		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050594	locomotor rhythm phenotype	semapv:crossSpeciesExactMatch	MP:0020477	abnormal locomotor circadian rhythm	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -23732,7 +23710,6 @@ UPHENO:0050651		semapv:crossSpeciesExactMatch	ZP:0006572		semapv:LogicalReasonin
 UPHENO:0050652		semapv:crossSpeciesExactMatch	ZP:0002941		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050653		semapv:crossSpeciesExactMatch	ZP:0013278		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050654		semapv:crossSpeciesExactMatch	ZP:0014324		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0050655		semapv:crossSpeciesExactMatch	HP:0011020		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050656		semapv:crossSpeciesExactMatch	ZP:0010271		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050657		semapv:crossSpeciesExactMatch	ZP:0022501		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0050658		semapv:crossSpeciesExactMatch	ZP:0022502		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -24086,7 +24063,6 @@ UPHENO:0051221		semapv:crossSpeciesExactMatch	ZP:0018203		semapv:LogicalReasonin
 UPHENO:0051222		semapv:crossSpeciesExactMatch	ZP:0017923		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051225		semapv:crossSpeciesExactMatch	ZP:0018192		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051226		semapv:crossSpeciesExactMatch	ZP:0007187		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0051227		semapv:crossSpeciesExactMatch	ZP:0013433		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051232		semapv:crossSpeciesExactMatch	ZP:0010946		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051233		semapv:crossSpeciesExactMatch	ZP:0010773		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051234		semapv:crossSpeciesExactMatch	ZP:0016772		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -24279,7 +24255,6 @@ UPHENO:0051519		semapv:crossSpeciesExactMatch	ZP:0004796		semapv:LogicalReasonin
 UPHENO:0051521		semapv:crossSpeciesExactMatch	ZP:0008322		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051523		semapv:crossSpeciesExactMatch	ZP:0013419		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051524		semapv:crossSpeciesExactMatch	ZP:0000179		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0051525		semapv:crossSpeciesExactMatch	XPO:0141918		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051527		semapv:crossSpeciesExactMatch	ZP:0013176		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051531		semapv:crossSpeciesExactMatch	ZP:0013053		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051532		semapv:crossSpeciesExactMatch	XPO:0131699		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -24292,7 +24267,6 @@ UPHENO:0051538		semapv:crossSpeciesExactMatch	ZP:0012485		semapv:LogicalReasonin
 UPHENO:0051539		semapv:crossSpeciesExactMatch	ZP:0014573		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051541		semapv:crossSpeciesExactMatch	ZP:0007029		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051542		semapv:crossSpeciesExactMatch	ZP:0007028		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0051545		semapv:crossSpeciesExactMatch	ZP:0002317		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051546		semapv:crossSpeciesExactMatch	ZP:0018248		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051552		semapv:crossSpeciesExactMatch	ZP:0015313		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0051554		semapv:crossSpeciesExactMatch	ZP:0014362		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -24673,7 +24647,6 @@ UPHENO:0052236		semapv:crossSpeciesExactMatch	ZP:0009217		semapv:LogicalReasonin
 UPHENO:0052237		semapv:crossSpeciesExactMatch	ZP:0000192		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052239		semapv:crossSpeciesExactMatch	ZP:0016214		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052242		semapv:crossSpeciesExactMatch	ZP:0007539		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0052244		semapv:crossSpeciesExactMatch	ZP:0013486		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052246		semapv:crossSpeciesExactMatch	ZP:0000942		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052249		semapv:crossSpeciesExactMatch	ZP:0009274		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052252		semapv:crossSpeciesExactMatch	ZP:0008064		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -24759,7 +24732,6 @@ UPHENO:0052475		semapv:crossSpeciesExactMatch	ZP:0020987		semapv:LogicalReasonin
 UPHENO:0052477		semapv:crossSpeciesExactMatch	ZP:0006979		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052478		semapv:crossSpeciesExactMatch	ZP:0102452		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052479		semapv:crossSpeciesExactMatch	ZP:0009479		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0052480		semapv:crossSpeciesExactMatch	ZP:0148133		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052481		semapv:crossSpeciesExactMatch	ZP:0007799		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052486		semapv:crossSpeciesExactMatch	ZP:0007538		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052487		semapv:crossSpeciesExactMatch	ZP:0019935		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -24822,7 +24794,6 @@ UPHENO:0052671		semapv:crossSpeciesExactMatch	ZP:0005066		semapv:LogicalReasonin
 UPHENO:0052672		semapv:crossSpeciesExactMatch	ZP:0010785		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052674		semapv:crossSpeciesExactMatch	ZP:0139800		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052675		semapv:crossSpeciesExactMatch	ZP:0009643		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0052676		semapv:crossSpeciesExactMatch	ZP:0006833		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052682		semapv:crossSpeciesExactMatch	ZP:0014521		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052686		semapv:crossSpeciesExactMatch	ZP:0007166		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052688		semapv:crossSpeciesExactMatch	ZP:0011822		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -24898,7 +24869,6 @@ UPHENO:0052887		semapv:crossSpeciesExactMatch	ZP:0014353		semapv:LogicalReasonin
 UPHENO:0052894		semapv:crossSpeciesExactMatch	ZP:0010998		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052895		semapv:crossSpeciesExactMatch	ZP:0103224		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052897		semapv:crossSpeciesExactMatch	ZP:0016145		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0052900		semapv:crossSpeciesExactMatch	ZP:0006748		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052901		semapv:crossSpeciesExactMatch	ZP:0006017		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052902		semapv:crossSpeciesExactMatch	ZP:0102801		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0052903		semapv:crossSpeciesExactMatch	ZP:0005718		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -25113,7 +25083,6 @@ UPHENO:0053448		semapv:crossSpeciesExactMatch	ZP:0014352		semapv:LogicalReasonin
 UPHENO:0053450		semapv:crossSpeciesExactMatch	ZP:0014275		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053451		semapv:crossSpeciesExactMatch	ZP:0019057		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053452		semapv:crossSpeciesExactMatch	ZP:0008110		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0053457		semapv:crossSpeciesExactMatch	ZP:0005471		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053458		semapv:crossSpeciesExactMatch	ZP:0145900		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053462		semapv:crossSpeciesExactMatch	ZP:0000792		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053463		semapv:crossSpeciesExactMatch	ZP:0100885		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -25141,7 +25110,6 @@ UPHENO:0053521		semapv:crossSpeciesExactMatch	ZP:0017882		semapv:LogicalReasonin
 UPHENO:0053522		semapv:crossSpeciesExactMatch	ZP:0018181		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053526		semapv:crossSpeciesExactMatch	ZP:0014497		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053528		semapv:crossSpeciesExactMatch	ZP:0002884		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0053530		semapv:crossSpeciesExactMatch	ZP:0005469		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053537		semapv:crossSpeciesExactMatch	ZP:0015149		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053538		semapv:crossSpeciesExactMatch	ZP:0008999		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0053541		semapv:crossSpeciesExactMatch	ZP:0012285		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -29861,7 +29829,6 @@ UPHENO:0076936		semapv:crossSpeciesExactMatch	FBcv:0000363		semapv:LogicalReason
 UPHENO:0076936	increased size of the cell	semapv:crossSpeciesExactMatch	FYPO:0008096	increased cell size	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0076944		semapv:crossSpeciesExactMatch	MP:0008069		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0076946		semapv:crossSpeciesExactMatch	MP:0009656		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0076947		semapv:crossSpeciesExactMatch	ZP:0105703		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0076948		semapv:crossSpeciesExactMatch	MP:0031324		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0076948		semapv:crossSpeciesExactMatch	ZP:0106496		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0076949		semapv:crossSpeciesExactMatch	ZP:0106724		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -30188,7 +30155,6 @@ UPHENO:0077464		semapv:crossSpeciesExactMatch	ZP:0003568		semapv:LogicalReasonin
 UPHENO:0077465		semapv:crossSpeciesExactMatch	ZP:0017640		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077466		semapv:crossSpeciesExactMatch	ZP:0020725		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077467		semapv:crossSpeciesExactMatch	ZP:0104637		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0077468		semapv:crossSpeciesExactMatch	ZP:0003517		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077469		semapv:crossSpeciesExactMatch	ZP:0002705		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077470		semapv:crossSpeciesExactMatch	ZP:0105832		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077471		semapv:crossSpeciesExactMatch	ZP:0003058		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -30197,7 +30163,6 @@ UPHENO:0077473		semapv:crossSpeciesExactMatch	ZP:0006198		semapv:LogicalReasonin
 UPHENO:0077474		semapv:crossSpeciesExactMatch	ZP:0010650		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077475		semapv:crossSpeciesExactMatch	ZP:0002319		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077476		semapv:crossSpeciesExactMatch	ZP:0019936		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0077477		semapv:crossSpeciesExactMatch	ZP:0104642		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077478		semapv:crossSpeciesExactMatch	ZP:0004253		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077479		semapv:crossSpeciesExactMatch	ZP:0106530		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077480		semapv:crossSpeciesExactMatch	ZP:0019182		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -30427,7 +30392,6 @@ UPHENO:0077703		semapv:crossSpeciesExactMatch	ZP:0106385		semapv:LogicalReasonin
 UPHENO:0077704		semapv:crossSpeciesExactMatch	ZP:0007383		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077705		semapv:crossSpeciesExactMatch	ZP:0106423		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077706		semapv:crossSpeciesExactMatch	ZP:0010303		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0077707		semapv:crossSpeciesExactMatch	ZP:0007679		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077708		semapv:crossSpeciesExactMatch	ZP:0104497		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077710		semapv:crossSpeciesExactMatch	ZP:0130690		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0077711		semapv:crossSpeciesExactMatch	ZP:0004511		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -30917,21 +30881,17 @@ UPHENO:0078591		semapv:crossSpeciesExactMatch	HP:0004358		semapv:LogicalReasonin
 UPHENO:0078593		semapv:crossSpeciesExactMatch	HP:0012347		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078593		semapv:crossSpeciesExactMatch	ZP:0137557		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078593	protein N-linked glycosylation phenotype	semapv:crossSpeciesExactMatch	MGPO:0002201	abnormal protein N-linked glycosylation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:0078594		semapv:crossSpeciesExactMatch	HP:0012346		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078595		semapv:crossSpeciesExactMatch	HP:0004341		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078597		semapv:crossSpeciesExactMatch	HP:0000140		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078600		semapv:crossSpeciesExactMatch	HP:0031379		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078600	T cell proliferation phenotype	semapv:crossSpeciesExactMatch	MP:0005094	abnormal T cell proliferation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0078601		semapv:crossSpeciesExactMatch	HP:0100831		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0078602		semapv:crossSpeciesExactMatch	XPO:0141896		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078603		semapv:crossSpeciesExactMatch	HP:0002101		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078604		semapv:crossSpeciesExactMatch	HP:0031406		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078605		semapv:crossSpeciesExactMatch	HP:0012359		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078606		semapv:crossSpeciesExactMatch	HP:0040012		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078606	programmed DNA elimination by chromosome breakage phenotype	semapv:crossSpeciesExactMatch	MP:0004028	chromosome breakage	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:0078607		semapv:crossSpeciesExactMatch	XPO:0141887		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078609		semapv:crossSpeciesExactMatch	XPO:0141857		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0078610		semapv:crossSpeciesExactMatch	XPO:0141893		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078612		semapv:crossSpeciesExactMatch	HP:0100514		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078613		semapv:crossSpeciesExactMatch	HP:0010988		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078615		semapv:crossSpeciesExactMatch	HP:0012590		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -30945,14 +30905,12 @@ UPHENO:0078623	glycosylation phenotype	semapv:crossSpeciesExactMatch	MGPO:000200
 UPHENO:0078624		semapv:crossSpeciesExactMatch	HP:0011023		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078625		semapv:crossSpeciesExactMatch	HP:0410035		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078625	T cell activation phenotype	semapv:crossSpeciesExactMatch	MP:0001828	abnormal T cell activation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:0078626		semapv:crossSpeciesExactMatch	XPO:0141922		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078627		semapv:crossSpeciesExactMatch	HP:0003540		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078627	platelet aggregation phenotype	semapv:crossSpeciesExactMatch	MP:0009549	decreased platelet aggregation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0078628		semapv:crossSpeciesExactMatch	HP:0100511		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078629		semapv:crossSpeciesExactMatch	HP:0030082		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078629	drinking behavior phenotype	semapv:crossSpeciesExactMatch	MP:0001422	abnormal drinking behavior	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0078630		semapv:crossSpeciesExactMatch	HP:0002024		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0078632		semapv:crossSpeciesExactMatch	XPO:0141917		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078634		semapv:crossSpeciesExactMatch	XPO:0141888		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078635		semapv:crossSpeciesExactMatch	XPO:0141844		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078636		semapv:crossSpeciesExactMatch	XPO:0141848		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -30960,7 +30918,6 @@ UPHENO:0078637		semapv:crossSpeciesExactMatch	HP:0100755		semapv:LogicalReasonin
 UPHENO:0078638		semapv:crossSpeciesExactMatch	HP:0031380		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078638	B cell proliferation phenotype	semapv:crossSpeciesExactMatch	MP:0005153	abnormal B cell proliferation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0078639		semapv:crossSpeciesExactMatch	XPO:0141913		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0078643		semapv:crossSpeciesExactMatch	XPO:0141858		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078644		semapv:crossSpeciesExactMatch	XPO:0141905		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078645		semapv:crossSpeciesExactMatch	HP:0031378		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0078646		semapv:crossSpeciesExactMatch	XPO:0141870		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -31155,7 +31112,6 @@ UPHENO:0079284		semapv:crossSpeciesExactMatch	ZP:0008804		semapv:LogicalReasonin
 UPHENO:0079285		semapv:crossSpeciesExactMatch	ZP:0104475		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079286		semapv:crossSpeciesExactMatch	ZP:0100608		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079287		semapv:crossSpeciesExactMatch	ZP:0104219		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0079288		semapv:crossSpeciesExactMatch	ZP:0007646		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079289		semapv:crossSpeciesExactMatch	ZP:0009371		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079290		semapv:crossSpeciesExactMatch	ZP:0005671		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079291		semapv:crossSpeciesExactMatch	ZP:0015761		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -31186,7 +31142,6 @@ UPHENO:0079316		semapv:crossSpeciesExactMatch	ZP:0022500		semapv:LogicalReasonin
 UPHENO:0079318		semapv:crossSpeciesExactMatch	DDPHENO:0000768		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079318		semapv:crossSpeciesExactMatch	ZP:0015589		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079319		semapv:crossSpeciesExactMatch	ZP:0022092		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0079320		semapv:crossSpeciesExactMatch	ZP:0004635		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079321		semapv:crossSpeciesExactMatch	ZP:0014820		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079322		semapv:crossSpeciesExactMatch	ZP:0103161		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079323		semapv:crossSpeciesExactMatch	ZP:0015869		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -31328,11 +31283,9 @@ UPHENO:0079457		semapv:crossSpeciesExactMatch	ZP:0021977		semapv:LogicalReasonin
 UPHENO:0079458		semapv:crossSpeciesExactMatch	DDPHENO:0000006		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079458		semapv:crossSpeciesExactMatch	ZP:0003435		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079458	increased occurrence of autophagy	semapv:crossSpeciesExactMatch	MP:0030941	enhanced autophagy	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:0079459		semapv:crossSpeciesExactMatch	ZP:0007188		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079460		semapv:crossSpeciesExactMatch	ZP:0014359		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079461		semapv:crossSpeciesExactMatch	ZP:0015571		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079462		semapv:crossSpeciesExactMatch	ZP:0101007		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0079463		semapv:crossSpeciesExactMatch	ZP:0014523		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079464		semapv:crossSpeciesExactMatch	ZP:0015695		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079465		semapv:crossSpeciesExactMatch	ZP:0102351		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079466		semapv:crossSpeciesExactMatch	DDPHENO:0001053		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -31355,7 +31308,6 @@ UPHENO:0079481		semapv:crossSpeciesExactMatch	ZP:0001533		semapv:LogicalReasonin
 UPHENO:0079482		semapv:crossSpeciesExactMatch	ZP:0014575		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079483		semapv:crossSpeciesExactMatch	ZP:0104544		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079485		semapv:crossSpeciesExactMatch	XPO:0103884		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0079486		semapv:crossSpeciesExactMatch	ZP:0105654		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079487		semapv:crossSpeciesExactMatch	ZP:0106441		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079488		semapv:crossSpeciesExactMatch	ZP:0106445		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0079489		semapv:crossSpeciesExactMatch	ZP:0106549		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -31409,7 +31361,6 @@ UPHENO:0080021		semapv:crossSpeciesExactMatch	WBPhenotype:0002351		semapv:Logica
 UPHENO:0080022		semapv:crossSpeciesExactMatch	WBPhenotype:0002349		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080024		semapv:crossSpeciesExactMatch	XPO:0131692		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080025		semapv:crossSpeciesExactMatch	XPO:0133392		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0080026		semapv:crossSpeciesExactMatch	XPO:0131694		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080027		semapv:crossSpeciesExactMatch	XPO:0133391		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080028		semapv:crossSpeciesExactMatch	XPO:0131693		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080029		semapv:crossSpeciesExactMatch	DDPHENO:0000294		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -31998,7 +31949,6 @@ UPHENO:0080704		semapv:crossSpeciesExactMatch	ZP:0014471		semapv:LogicalReasonin
 UPHENO:0080705		semapv:crossSpeciesExactMatch	ZP:0010806		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080706		semapv:crossSpeciesExactMatch	ZP:0005589		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080707		semapv:crossSpeciesExactMatch	ZP:0101067		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0080708		semapv:crossSpeciesExactMatch	ZP:0014485		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080709		semapv:crossSpeciesExactMatch	ZP:0002977		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080711		semapv:crossSpeciesExactMatch	ZP:0003662		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0080712		semapv:crossSpeciesExactMatch	ZP:0003189		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -33325,7 +33275,6 @@ UPHENO:0082838		semapv:crossSpeciesExactMatch	FBcv:0000425		semapv:LogicalReason
 UPHENO:0082838		semapv:crossSpeciesExactMatch	WBPhenotype:0002620		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0082838	decreased occurrence of cell death	semapv:crossSpeciesExactMatch	MP:0012556	increased cell death	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0082840		semapv:crossSpeciesExactMatch	ZP:0138494		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0082841		semapv:crossSpeciesExactMatch	ZP:0138681		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0082842		semapv:crossSpeciesExactMatch	ZP:0137398		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0082843		semapv:crossSpeciesExactMatch	ZP:0137791		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0082844		semapv:crossSpeciesExactMatch	ZP:0138010		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -33548,7 +33497,6 @@ UPHENO:0083075		semapv:crossSpeciesExactMatch	ZP:0140389		semapv:LogicalReasonin
 UPHENO:0083076		semapv:crossSpeciesExactMatch	ZP:0140853		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083077		semapv:crossSpeciesExactMatch	ZP:0141871		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083078		semapv:crossSpeciesExactMatch	ZP:0141486		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0083079		semapv:crossSpeciesExactMatch	ZP:0142106		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083080		semapv:crossSpeciesExactMatch	ZP:0141808		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083081		semapv:crossSpeciesExactMatch	XPO:0141746		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083081		semapv:crossSpeciesExactMatch	ZP:0142532		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -33607,7 +33555,6 @@ UPHENO:0083132		semapv:crossSpeciesExactMatch	DDPHENO:0000358		semapv:LogicalRea
 UPHENO:0083133		semapv:crossSpeciesExactMatch	DDPHENO:0000563		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083133	endoplasmic reticulum organization phenotype	semapv:crossSpeciesExactMatch	FYPO:0000805	abnormal endoplasmic reticulum organization	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0083134		semapv:crossSpeciesExactMatch	DDPHENO:0001262		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0083135		semapv:crossSpeciesExactMatch	DDPHENO:0001469		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083136		semapv:crossSpeciesExactMatch	DDPHENO:0001170		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083138		semapv:crossSpeciesExactMatch	DDPHENO:0001168		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083139		semapv:crossSpeciesExactMatch	DDPHENO:0001167		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -33632,8 +33579,6 @@ UPHENO:0083155		semapv:crossSpeciesExactMatch	DDPHENO:0000556		semapv:LogicalRea
 UPHENO:0083156		semapv:crossSpeciesExactMatch	DDPHENO:0000553		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083157		semapv:crossSpeciesExactMatch	DDPHENO:0000558		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083158		semapv:crossSpeciesExactMatch	DDPHENO:0000041		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0083159		semapv:crossSpeciesExactMatch	DDPHENO:0000694		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0083160		semapv:crossSpeciesExactMatch	DDPHENO:0000554		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083161		semapv:crossSpeciesExactMatch	DDPHENO:0000127		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083162		semapv:crossSpeciesExactMatch	DDPHENO:0000154		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083163		semapv:crossSpeciesExactMatch	DDPHENO:0001203		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -33807,8 +33752,6 @@ UPHENO:0083384		semapv:crossSpeciesExactMatch	DDPHENO:0001531		semapv:LogicalRea
 UPHENO:0083385		semapv:crossSpeciesExactMatch	DDPHENO:0000557		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083388		semapv:crossSpeciesExactMatch	DDPHENO:0000559		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083389		semapv:crossSpeciesExactMatch	DDPHENO:0001533		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0083391		semapv:crossSpeciesExactMatch	DDPHENO:0001305		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0083392		semapv:crossSpeciesExactMatch	DDPHENO:0000555		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083394		semapv:crossSpeciesExactMatch	DDPHENO:0000424		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083394	absent sporulation	semapv:crossSpeciesExactMatch	FYPO:0000583	abolished sporulation	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0083395		semapv:crossSpeciesExactMatch	DDPHENO:0000550		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -34123,7 +34066,6 @@ UPHENO:0083767		semapv:crossSpeciesExactMatch	ZP:0142246		semapv:LogicalReasonin
 UPHENO:0083768		semapv:crossSpeciesExactMatch	ZP:0142245		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083769		semapv:crossSpeciesExactMatch	ZP:0140794		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083770		semapv:crossSpeciesExactMatch	ZP:0140426		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0083771		semapv:crossSpeciesExactMatch	ZP:0140059		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083772		semapv:crossSpeciesExactMatch	ZP:0141954		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083773		semapv:crossSpeciesExactMatch	ZP:0140795		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083774		semapv:crossSpeciesExactMatch	DDPHENO:0001468		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -34189,7 +34131,6 @@ UPHENO:0083840		semapv:crossSpeciesExactMatch	DDPHENO:0001265		semapv:LogicalRea
 UPHENO:0083841		semapv:crossSpeciesExactMatch	DDPHENO:0000288		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083842		semapv:crossSpeciesExactMatch	DDPHENO:0000602		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083843		semapv:crossSpeciesExactMatch	DDPHENO:0000048		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0083844		semapv:crossSpeciesExactMatch	DDPHENO:0000126		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083846		semapv:crossSpeciesExactMatch	DDPHENO:0000032		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083847		semapv:crossSpeciesExactMatch	DDPHENO:0001517		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0083847	increased occurrence of mitochondrial fusion	semapv:crossSpeciesExactMatch	FYPO:0008122	increased mitochondrial fusion	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -34450,7 +34391,6 @@ UPHENO:0084222		semapv:crossSpeciesExactMatch	MP:0021009		semapv:LogicalReasonin
 UPHENO:0084225		semapv:crossSpeciesExactMatch	MP:0031366		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084226		semapv:crossSpeciesExactMatch	ZP:0140425		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084227		semapv:crossSpeciesExactMatch	ZP:0140213		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0084228		semapv:crossSpeciesExactMatch	ZP:0140322		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084229		semapv:crossSpeciesExactMatch	DDPHENO:0000171		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084230		semapv:crossSpeciesExactMatch	DDPHENO:0000528		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084234		semapv:crossSpeciesExactMatch	ZP:0140231		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -34566,7 +34506,6 @@ UPHENO:0084348	decreased occurrence of actin filament depolymerization	semapv:cr
 UPHENO:0084349		semapv:crossSpeciesExactMatch	DDPHENO:0001201		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084350		semapv:crossSpeciesExactMatch	DDPHENO:0001097		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084351		semapv:crossSpeciesExactMatch	DDPHENO:0001177		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0084352		semapv:crossSpeciesExactMatch	DDPHENO:0000123		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084354		semapv:crossSpeciesExactMatch	DDPHENO:0000504		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084355		semapv:crossSpeciesExactMatch	DDPHENO:0000430		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0084356		semapv:crossSpeciesExactMatch	DDPHENO:0000594		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -35026,7 +34965,6 @@ UPHENO:0085169		semapv:crossSpeciesExactMatch	MP:0006186		semapv:LogicalReasonin
 UPHENO:0085170		semapv:crossSpeciesExactMatch	MP:0011749		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085170	perivascular space fibrosis	semapv:crossSpeciesExactMatch	HP:0032200	Perivascular fibrosis	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0085171		semapv:crossSpeciesExactMatch	MP:0014279		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0085172		semapv:crossSpeciesExactMatch	ZP:0144797		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085173		semapv:crossSpeciesExactMatch	ZP:0143358		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085174		semapv:crossSpeciesExactMatch	ZP:0143823		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085175		semapv:crossSpeciesExactMatch	ZP:0143552		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -35036,7 +34974,6 @@ UPHENO:0085179		semapv:crossSpeciesExactMatch	ZP:0144512		semapv:LogicalReasonin
 UPHENO:0085180		semapv:crossSpeciesExactMatch	ZP:0143937		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085182		semapv:crossSpeciesExactMatch	ZP:0142993		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085183		semapv:crossSpeciesExactMatch	ZP:0143247		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0085184		semapv:crossSpeciesExactMatch	ZP:0144857		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085185		semapv:crossSpeciesExactMatch	ZP:0143679		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085186		semapv:crossSpeciesExactMatch	ZP:0143246		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085197		semapv:crossSpeciesExactMatch	MP:0009118		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -35624,7 +35561,6 @@ UPHENO:0085840		semapv:crossSpeciesExactMatch	MP:0000643		semapv:LogicalReasonin
 UPHENO:0085840	absent adrenal medulla chromaffin cell in the adrenal gland	semapv:crossSpeciesExactMatch	XPO:0126063	absent adrenal medulla	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0085841		semapv:crossSpeciesExactMatch	MP:0003248		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085842		semapv:crossSpeciesExactMatch	MP:0008205		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0085843		semapv:crossSpeciesExactMatch	MP:0004660		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085844		semapv:crossSpeciesExactMatch	MP:0008203		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085845		semapv:crossSpeciesExactMatch	MP:0008204		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0085847		semapv:crossSpeciesExactMatch	MP:0006095		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -35996,9 +35932,7 @@ UPHENO:0086285		semapv:crossSpeciesExactMatch	ZP:0143001		semapv:LogicalReasonin
 UPHENO:0086286		semapv:crossSpeciesExactMatch	ZP:0144795		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086287		semapv:crossSpeciesExactMatch	ZP:0143068		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086288		semapv:crossSpeciesExactMatch	ZP:0144854		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0086289		semapv:crossSpeciesExactMatch	ZP:0142690		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086290		semapv:crossSpeciesExactMatch	ZP:0143837		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0086291		semapv:crossSpeciesExactMatch	ZP:0145119		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086292		semapv:crossSpeciesExactMatch	ZP:0143513		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086293		semapv:crossSpeciesExactMatch	ZP:0145120		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0086294		semapv:crossSpeciesExactMatch	ZP:0143000		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38285,13 +38219,10 @@ UPHENO:0088213		semapv:crossSpeciesExactMatch	HP:0010791		semapv:LogicalReasonin
 UPHENO:0088214		semapv:crossSpeciesExactMatch	MP:0004435		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088215		semapv:crossSpeciesExactMatch	XPO:0141853		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088216		semapv:crossSpeciesExactMatch	XPO:0141901		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088217		semapv:crossSpeciesExactMatch	XPO:0141843		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088218		semapv:crossSpeciesExactMatch	XPO:0141909		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088219		semapv:crossSpeciesExactMatch	XPO:0141868		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088220		semapv:crossSpeciesExactMatch	XPO:0141891		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088221		semapv:crossSpeciesExactMatch	XPO:0141890		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088222		semapv:crossSpeciesExactMatch	XPO:0141740		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088223		semapv:crossSpeciesExactMatch	XPO:0141906		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088224		semapv:crossSpeciesExactMatch	XPO:0141863		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088225		semapv:crossSpeciesExactMatch	XPO:0141921		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088226		semapv:crossSpeciesExactMatch	XPO:0141851		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38299,7 +38230,6 @@ UPHENO:0088226	gluconeogenesis phenotype	semapv:crossSpeciesExactMatch	MP:000338
 UPHENO:0088227		semapv:crossSpeciesExactMatch	XPO:0141752		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088228		semapv:crossSpeciesExactMatch	XPO:0141886		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088229		semapv:crossSpeciesExactMatch	XPO:0141760		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088230		semapv:crossSpeciesExactMatch	XPO:0141908		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088231		semapv:crossSpeciesExactMatch	XPO:0141920		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088232		semapv:crossSpeciesExactMatch	XPO:0141919		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088233		semapv:crossSpeciesExactMatch	XPO:0141768		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38308,7 +38238,6 @@ UPHENO:0088236		semapv:crossSpeciesExactMatch	XPO:0141874		semapv:LogicalReasoni
 UPHENO:0088237		semapv:crossSpeciesExactMatch	XPO:0141785		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088238		semapv:crossSpeciesExactMatch	XPO:0141916		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088239		semapv:crossSpeciesExactMatch	XPO:0141875		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088240		semapv:crossSpeciesExactMatch	XPO:0141773		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088241		semapv:crossSpeciesExactMatch	XPO:0141756		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088242		semapv:crossSpeciesExactMatch	XPO:0141907		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088243		semapv:crossSpeciesExactMatch	XPO:0141763		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38316,8 +38245,6 @@ UPHENO:0088244		semapv:crossSpeciesExactMatch	XPO:0141794		semapv:LogicalReasoni
 UPHENO:0088245		semapv:crossSpeciesExactMatch	XPO:0141762		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088246		semapv:crossSpeciesExactMatch	XPO:0141774		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088247		semapv:crossSpeciesExactMatch	XPO:0141867		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088248		semapv:crossSpeciesExactMatch	XPO:0141882		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088249		semapv:crossSpeciesExactMatch	XPO:0141877		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088250		semapv:crossSpeciesExactMatch	XPO:0141904		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088251		semapv:crossSpeciesExactMatch	XPO:0141859		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088252		semapv:crossSpeciesExactMatch	XPO:0141849		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38342,7 +38269,6 @@ UPHENO:0088269		semapv:crossSpeciesExactMatch	ZP:0149736		semapv:LogicalReasonin
 UPHENO:0088270		semapv:crossSpeciesExactMatch	XPO:0141751		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088271		semapv:crossSpeciesExactMatch	XPO:0141755		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088272		semapv:crossSpeciesExactMatch	XPO:0141747		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088273		semapv:crossSpeciesExactMatch	XPO:0141912		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088274		semapv:crossSpeciesExactMatch	XPO:0141780		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088275		semapv:crossSpeciesExactMatch	XPO:0141894		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088276		semapv:crossSpeciesExactMatch	XPO:0141902		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38356,7 +38282,6 @@ UPHENO:0088283		semapv:crossSpeciesExactMatch	XPO:0141783		semapv:LogicalReasoni
 UPHENO:0088284		semapv:crossSpeciesExactMatch	XPO:0141739		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088285		semapv:crossSpeciesExactMatch	XPO:0141871		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088286		semapv:crossSpeciesExactMatch	XPO:0141876		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0088287		semapv:crossSpeciesExactMatch	XPO:0141884		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088288		semapv:crossSpeciesExactMatch	XPO:0141885		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088289		semapv:crossSpeciesExactMatch	XPO:0141865		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0088290		semapv:crossSpeciesExactMatch	XPO:0141914		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38704,7 +38629,6 @@ UPHENO:0089390		semapv:crossSpeciesExactMatch	ZP:0147711		semapv:LogicalReasonin
 UPHENO:0089391		semapv:crossSpeciesExactMatch	ZP:0148261		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089392		semapv:crossSpeciesExactMatch	ZP:0147510		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089393		semapv:crossSpeciesExactMatch	ZP:0147545		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0089394		semapv:crossSpeciesExactMatch	ZP:0145735		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089395		semapv:crossSpeciesExactMatch	ZP:0145507		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089396		semapv:crossSpeciesExactMatch	ZP:0148350		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089397		semapv:crossSpeciesExactMatch	ZP:0146289		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38849,7 +38773,6 @@ UPHENO:0089782		semapv:crossSpeciesExactMatch	ZP:0149589		semapv:LogicalReasonin
 UPHENO:0089783		semapv:crossSpeciesExactMatch	ZP:0145753		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089784		semapv:crossSpeciesExactMatch	ZP:0147441		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089785		semapv:crossSpeciesExactMatch	ZP:0145506		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0089786		semapv:crossSpeciesExactMatch	ZP:0148536		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089787		semapv:crossSpeciesExactMatch	ZP:0145895		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089788		semapv:crossSpeciesExactMatch	ZP:0146239		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089789		semapv:crossSpeciesExactMatch	ZP:0147513		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -38863,13 +38786,11 @@ UPHENO:0089796		semapv:crossSpeciesExactMatch	ZP:0148485		semapv:LogicalReasonin
 UPHENO:0089797		semapv:crossSpeciesExactMatch	ZP:0147938		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089798		semapv:crossSpeciesExactMatch	ZP:0145729		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089799		semapv:crossSpeciesExactMatch	ZP:0149214		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0089800		semapv:crossSpeciesExactMatch	ZP:0145736		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089801		semapv:crossSpeciesExactMatch	ZP:0145511		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089802		semapv:crossSpeciesExactMatch	ZP:0148136		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089803		semapv:crossSpeciesExactMatch	ZP:0145869		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089804		semapv:crossSpeciesExactMatch	ZP:0148793		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089805		semapv:crossSpeciesExactMatch	ZP:0148281		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0089806		semapv:crossSpeciesExactMatch	ZP:0145738		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089807		semapv:crossSpeciesExactMatch	ZP:0146370		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089808		semapv:crossSpeciesExactMatch	ZP:0149165		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0089809		semapv:crossSpeciesExactMatch	ZP:0145731		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -40129,7 +40050,6 @@ UPHENO:7000494	bilateral cryptorchidism; bilateral cryptorchism	semapv:crossSpec
 UPHENO:7000495	decreased width of the ureterovesical junction; ureterovesical stenosis	semapv:crossSpeciesExactMatch	HP:0008714	Ureterovesical stenosis	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000496	urethrovaginal fistula	semapv:crossSpeciesExactMatch	HP:0008716	Urethrovaginal fistula	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000496	urethrovaginal fistula	semapv:crossSpeciesExactMatch	MP:0003593	urethrovaginal fistula	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7000497	head of femur dislocation; obsolete dislocation of the femoral head	semapv:crossSpeciesExactMatch	HP:0008826	obsolete Dislocation of the femoral head	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000498	lipodystrophy	semapv:crossSpeciesExactMatch	HP:0009125	Lipodystrophy	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000498	lipodystrophy	semapv:crossSpeciesExactMatch	MP:0011174	lipodystrophy	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000499	cerebral artery morphology	semapv:crossSpeciesExactMatch	HP:0009145	Abnormal cerebral artery morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -40871,7 +40791,6 @@ UPHENO:7000865	mastitis	semapv:crossSpeciesExactMatch	HP:0040407	Mastitis	semapv
 UPHENO:7000865	mastitis	semapv:crossSpeciesExactMatch	MP:0013148	mastitis	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000866	ageusia	semapv:crossSpeciesExactMatch	HP:0041051	Ageusia	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000866	ageusia	semapv:crossSpeciesExactMatch	MP:0031090	ageusia	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7000867	fractured knee; obsolete fractured knee	semapv:crossSpeciesExactMatch	HP:0041064	obsolete Fractured knee	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000868	circulating lactate dehydrogenase concentration; lactate dehydrogenase level	semapv:crossSpeciesExactMatch	HP:0045040	Abnormal circulating lactate dehydrogenase concentration	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000868	circulating lactate dehydrogenase concentration; lactate dehydrogenase level	semapv:crossSpeciesExactMatch	MP:0002943	abnormal lactate dehydrogenase level	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000869	abnormality of body mass index; body mass index	semapv:crossSpeciesExactMatch	HP:0045081	Abnormality of body mass index	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -41281,13 +41200,6 @@ UPHENO:7001071	epidermal cell	semapv:crossSpeciesExactMatch	PLANP:0000582	abnorm
 UPHENO:7001071	epidermal cell	semapv:crossSpeciesExactMatch	XPO:0100714	abnormal epidermal cell	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001072	pigment cell	semapv:crossSpeciesExactMatch	PLANP:0000624	abnormal pigment cell	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001072	pigment cell	semapv:crossSpeciesExactMatch	XPO:0101278	abnormal pigment cell	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001073	regulation of telomerase activity phenotype; regulation of telomerase activity process quality	semapv:crossSpeciesExactMatch	ZP:0013206	regulation of telomerase activity process quality, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001074	decreased qualitatively planar cell polarity pathway involved in axon guidance; planar cell polarity pathway involved in axon guidance decreased process quality	semapv:crossSpeciesExactMatch	ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001075	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality; decreased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:crossSpeciesExactMatch	ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001076	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence; increased occurrence of activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:crossSpeciesExactMatch	ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001077	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality; increased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:crossSpeciesExactMatch	ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001078	5-methylcytosine metabolic process; 5-methylcytosine metabolic process phenotype	semapv:crossSpeciesExactMatch	XPO:0141864	abnormal 5-methylcytosine metabolic process	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:7001079	cellular lipid catabolic process increased occurrence; increased occurrence of cellular lipid catabolic process	semapv:crossSpeciesExactMatch	ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001080	egg morphology; egg morphology variant	semapv:crossSpeciesExactMatch	WBPhenotype:0000037	egg morphology variant	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001080	egg morphology; egg morphology variant	semapv:crossSpeciesExactMatch	XPO:0102648	abnormal egg morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7001081	head morphology; head morphology variant	semapv:crossSpeciesExactMatch	WBPhenotype:0000071	head morphology variant	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -44369,7 +44281,6 @@ XPO:0131667	abnormal actin cytoskeleton	semapv:crossSpeciesExactMatch	UPHENO:700
 XPO:0131691		semapv:crossSpeciesExactMatch	UPHENO:0031743		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0131692		semapv:crossSpeciesExactMatch	UPHENO:0080024		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0131693		semapv:crossSpeciesExactMatch	UPHENO:0080028		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0131694		semapv:crossSpeciesExactMatch	UPHENO:0080026		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0131695		semapv:crossSpeciesExactMatch	UPHENO:0077198		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0131696		semapv:crossSpeciesExactMatch	UPHENO:0076902		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0131697		semapv:crossSpeciesExactMatch	UPHENO:0080005		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44526,7 +44437,6 @@ XPO:0141766		semapv:crossSpeciesExactMatch	UPHENO:0088267		semapv:MappingInversi
 XPO:0141767		semapv:crossSpeciesExactMatch	UPHENO:0078619		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141768		semapv:crossSpeciesExactMatch	UPHENO:0088233		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141769		semapv:crossSpeciesExactMatch	UPHENO:0088263		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141773		semapv:crossSpeciesExactMatch	UPHENO:0088240		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141774		semapv:crossSpeciesExactMatch	UPHENO:0088246		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141776		semapv:crossSpeciesExactMatch	UPHENO:0049873		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141777		semapv:crossSpeciesExactMatch	UPHENO:0049836		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44541,7 +44451,6 @@ XPO:0141786		semapv:crossSpeciesExactMatch	UPHENO:0050766		semapv:MappingInversi
 XPO:0141787		semapv:crossSpeciesExactMatch	UPHENO:0050767		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141788		semapv:crossSpeciesExactMatch	UPHENO:0088255		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141789		semapv:crossSpeciesExactMatch	UPHENO:0088256		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141790		semapv:crossSpeciesExactMatch	UPHENO:0050113		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141791		semapv:crossSpeciesExactMatch	UPHENO:0050116		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141792		semapv:crossSpeciesExactMatch	UPHENO:0049618		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141793		semapv:crossSpeciesExactMatch	UPHENO:0050261		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44575,7 +44484,6 @@ XPO:0141830		semapv:crossSpeciesExactMatch	UPHENO:0006476		semapv:MappingInversi
 XPO:0141840		semapv:crossSpeciesExactMatch	UPHENO:0082794		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141841		semapv:crossSpeciesExactMatch	UPHENO:0010795		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141842		semapv:crossSpeciesExactMatch	UPHENO:0008312		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141843		semapv:crossSpeciesExactMatch	UPHENO:0088217		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141844		semapv:crossSpeciesExactMatch	UPHENO:0078635		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141845		semapv:crossSpeciesExactMatch	UPHENO:0088279		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141846		semapv:crossSpeciesExactMatch	UPHENO:0088254		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44590,18 +44498,14 @@ XPO:0141854		semapv:crossSpeciesExactMatch	UPHENO:0078709		semapv:MappingInversi
 XPO:0141855		semapv:crossSpeciesExactMatch	UPHENO:0088265		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141856		semapv:crossSpeciesExactMatch	UPHENO:0088253		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141857		semapv:crossSpeciesExactMatch	UPHENO:0078609		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141858		semapv:crossSpeciesExactMatch	UPHENO:0078643		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141859		semapv:crossSpeciesExactMatch	UPHENO:0088251		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141860		semapv:crossSpeciesExactMatch	UPHENO:0088291		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141861		semapv:crossSpeciesExactMatch	UPHENO:0088260		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141862		semapv:crossSpeciesExactMatch	UPHENO:0088278		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141863		semapv:crossSpeciesExactMatch	UPHENO:0088224		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141864	abnormal 5-methylcytosine metabolic process	semapv:crossSpeciesExactMatch	UPHENO:7001078	5-methylcytosine metabolic process; 5-methylcytosine metabolic process phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 XPO:0141865		semapv:crossSpeciesExactMatch	UPHENO:0088289		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141866		semapv:crossSpeciesExactMatch	UPHENO:0078584		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141867		semapv:crossSpeciesExactMatch	UPHENO:0088247		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141868		semapv:crossSpeciesExactMatch	UPHENO:0088219		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141869		semapv:crossSpeciesExactMatch	UPHENO:0050249		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141870		semapv:crossSpeciesExactMatch	UPHENO:0078646		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141871		semapv:crossSpeciesExactMatch	UPHENO:0088285		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141872		semapv:crossSpeciesExactMatch	UPHENO:0050500		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44609,26 +44513,20 @@ XPO:0141873		semapv:crossSpeciesExactMatch	UPHENO:0078590		semapv:MappingInversi
 XPO:0141874		semapv:crossSpeciesExactMatch	UPHENO:0088236		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141875		semapv:crossSpeciesExactMatch	UPHENO:0088239		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141876		semapv:crossSpeciesExactMatch	UPHENO:0088286		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141877		semapv:crossSpeciesExactMatch	UPHENO:0088249		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141878		semapv:crossSpeciesExactMatch	UPHENO:0086367		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141879		semapv:crossSpeciesExactMatch	UPHENO:0088292		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141880		semapv:crossSpeciesExactMatch	UPHENO:0088293		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141881		semapv:crossSpeciesExactMatch	UPHENO:0088268		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141882		semapv:crossSpeciesExactMatch	UPHENO:0088248		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141883		semapv:crossSpeciesExactMatch	UPHENO:0088257		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141884		semapv:crossSpeciesExactMatch	UPHENO:0088287		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141885		semapv:crossSpeciesExactMatch	UPHENO:0088288		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141886		semapv:crossSpeciesExactMatch	UPHENO:0088228		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141887		semapv:crossSpeciesExactMatch	UPHENO:0078607		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141888		semapv:crossSpeciesExactMatch	UPHENO:0078634		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141889		semapv:crossSpeciesExactMatch	UPHENO:0088262		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141890		semapv:crossSpeciesExactMatch	UPHENO:0088221		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141891		semapv:crossSpeciesExactMatch	UPHENO:0088220		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141892		semapv:crossSpeciesExactMatch	UPHENO:0088281		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141893		semapv:crossSpeciesExactMatch	UPHENO:0078610		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141894		semapv:crossSpeciesExactMatch	UPHENO:0088275		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141895		semapv:crossSpeciesExactMatch	UPHENO:0051211		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141896		semapv:crossSpeciesExactMatch	UPHENO:0078602		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141897		semapv:crossSpeciesExactMatch	UPHENO:0088234		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141898		semapv:crossSpeciesExactMatch	UPHENO:0088266		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141899		semapv:crossSpeciesExactMatch	UPHENO:0088282		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44638,23 +44536,17 @@ XPO:0141902		semapv:crossSpeciesExactMatch	UPHENO:0088276		semapv:MappingInversi
 XPO:0141903		semapv:crossSpeciesExactMatch	UPHENO:0083100		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141904		semapv:crossSpeciesExactMatch	UPHENO:0088250		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141905		semapv:crossSpeciesExactMatch	UPHENO:0078644		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141906		semapv:crossSpeciesExactMatch	UPHENO:0088223		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141907		semapv:crossSpeciesExactMatch	UPHENO:0088242		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141908		semapv:crossSpeciesExactMatch	UPHENO:0088230		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141909		semapv:crossSpeciesExactMatch	UPHENO:0088218		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141910		semapv:crossSpeciesExactMatch	UPHENO:0088258		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141911		semapv:crossSpeciesExactMatch	UPHENO:0050826		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141912		semapv:crossSpeciesExactMatch	UPHENO:0088273		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141913		semapv:crossSpeciesExactMatch	UPHENO:0078639		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141914		semapv:crossSpeciesExactMatch	UPHENO:0088290		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141915		semapv:crossSpeciesExactMatch	UPHENO:0088295		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141916		semapv:crossSpeciesExactMatch	UPHENO:0088238		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141917		semapv:crossSpeciesExactMatch	UPHENO:0078632		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141918		semapv:crossSpeciesExactMatch	UPHENO:0051525		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141919		semapv:crossSpeciesExactMatch	UPHENO:0088232		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141920		semapv:crossSpeciesExactMatch	UPHENO:0088231		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141921		semapv:crossSpeciesExactMatch	UPHENO:0088225		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-XPO:0141922		semapv:crossSpeciesExactMatch	UPHENO:0078626		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141923		semapv:crossSpeciesExactMatch	UPHENO:0078582		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141957		semapv:crossSpeciesExactMatch	UPHENO:0086369		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141975		semapv:crossSpeciesExactMatch	UPHENO:0050263		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44792,7 +44684,6 @@ ZP:0000402		semapv:crossSpeciesExactMatch	UPHENO:0018553		semapv:MappingInversio
 ZP:0000404		semapv:crossSpeciesExactMatch	UPHENO:0081219		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000405		semapv:crossSpeciesExactMatch	UPHENO:0074120		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000406		semapv:crossSpeciesExactMatch	UPHENO:0004494		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001076	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence; increased occurrence of activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0000409		semapv:crossSpeciesExactMatch	UPHENO:0053178		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000413		semapv:crossSpeciesExactMatch	UPHENO:0002189		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000414		semapv:crossSpeciesExactMatch	UPHENO:0071482		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -44944,7 +44835,6 @@ ZP:0000833		semapv:crossSpeciesExactMatch	UPHENO:0077536		semapv:MappingInversio
 ZP:0000834		semapv:crossSpeciesExactMatch	UPHENO:0050408		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000847		semapv:crossSpeciesExactMatch	UPHENO:0079374		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000848		semapv:crossSpeciesExactMatch	UPHENO:0050864		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0000849		semapv:crossSpeciesExactMatch	UPHENO:0050266		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000852		semapv:crossSpeciesExactMatch	UPHENO:0001991		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000854		semapv:crossSpeciesExactMatch	UPHENO:0071733		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000856		semapv:crossSpeciesExactMatch	UPHENO:0031647		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -45374,7 +45264,6 @@ ZP:0002307		semapv:crossSpeciesExactMatch	UPHENO:0051282		semapv:MappingInversio
 ZP:0002314	head shape, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0041100	shape of head phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0002315		semapv:crossSpeciesExactMatch	UPHENO:0000527		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0002316		semapv:crossSpeciesExactMatch	UPHENO:0077508		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0002317		semapv:crossSpeciesExactMatch	UPHENO:0051545		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0002318		semapv:crossSpeciesExactMatch	UPHENO:0077518		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0002319		semapv:crossSpeciesExactMatch	UPHENO:0077475		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0002320		semapv:crossSpeciesExactMatch	UPHENO:0000707		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -45690,7 +45579,6 @@ ZP:0003507		semapv:crossSpeciesExactMatch	UPHENO:0074182		semapv:MappingInversio
 ZP:0003514		semapv:crossSpeciesExactMatch	UPHENO:0077435		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003515		semapv:crossSpeciesExactMatch	UPHENO:0053250		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003516		semapv:crossSpeciesExactMatch	UPHENO:0053414		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0003517		semapv:crossSpeciesExactMatch	UPHENO:0077468		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003518		semapv:crossSpeciesExactMatch	UPHENO:0052378		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003521		semapv:crossSpeciesExactMatch	UPHENO:0050175		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003525		semapv:crossSpeciesExactMatch	UPHENO:0072626		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -45730,7 +45618,6 @@ ZP:0003610		semapv:crossSpeciesExactMatch	UPHENO:0048242		semapv:MappingInversio
 ZP:0003613		semapv:crossSpeciesExactMatch	UPHENO:0048298		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003615		semapv:crossSpeciesExactMatch	UPHENO:0071395		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003616		semapv:crossSpeciesExactMatch	UPHENO:0070176		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0003620		semapv:crossSpeciesExactMatch	UPHENO:0005730		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003623		semapv:crossSpeciesExactMatch	UPHENO:0079367		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003627		semapv:crossSpeciesExactMatch	UPHENO:0006566		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0003629		semapv:crossSpeciesExactMatch	UPHENO:0010258		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -45969,7 +45856,6 @@ ZP:0004623		semapv:crossSpeciesExactMatch	UPHENO:0000733		semapv:MappingInversio
 ZP:0004626		semapv:crossSpeciesExactMatch	UPHENO:0018418		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0004627		semapv:crossSpeciesExactMatch	UPHENO:0064915		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0004634		semapv:crossSpeciesExactMatch	UPHENO:0018795		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0004635		semapv:crossSpeciesExactMatch	UPHENO:0079320		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0004636		semapv:crossSpeciesExactMatch	UPHENO:0082513		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0004645		semapv:crossSpeciesExactMatch	UPHENO:0046843		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0004646		semapv:crossSpeciesExactMatch	UPHENO:0048016		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -46178,9 +46064,7 @@ ZP:0005461		semapv:crossSpeciesExactMatch	UPHENO:0064441		semapv:MappingInversio
 ZP:0005466		semapv:crossSpeciesExactMatch	UPHENO:0053290		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0005467		semapv:crossSpeciesExactMatch	UPHENO:0053262		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0005468		semapv:crossSpeciesExactMatch	UPHENO:0052970		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0005469		semapv:crossSpeciesExactMatch	UPHENO:0053530		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0005470		semapv:crossSpeciesExactMatch	UPHENO:0053447		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0005471		semapv:crossSpeciesExactMatch	UPHENO:0053457		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0005472		semapv:crossSpeciesExactMatch	UPHENO:0052403		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0005475	dorsal telencephalon morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001216	dorsal telencephalon morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0005484		semapv:crossSpeciesExactMatch	UPHENO:0077449		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -46481,7 +46365,6 @@ ZP:0006726		semapv:crossSpeciesExactMatch	UPHENO:0052655		semapv:MappingInversio
 ZP:0006740		semapv:crossSpeciesExactMatch	UPHENO:0074167		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006741		semapv:crossSpeciesExactMatch	UPHENO:0074132		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006742		semapv:crossSpeciesExactMatch	UPHENO:0074129		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0006748		semapv:crossSpeciesExactMatch	UPHENO:0052900		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006749		semapv:crossSpeciesExactMatch	UPHENO:0067001		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006755		semapv:crossSpeciesExactMatch	UPHENO:0010163		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006756		semapv:crossSpeciesExactMatch	UPHENO:0010015		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -46500,7 +46383,6 @@ ZP:0006811		semapv:crossSpeciesExactMatch	UPHENO:0051412		semapv:MappingInversio
 ZP:0006814		semapv:crossSpeciesExactMatch	UPHENO:0079427		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006815		semapv:crossSpeciesExactMatch	UPHENO:0079425		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006824		semapv:crossSpeciesExactMatch	UPHENO:0065040		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0006833		semapv:crossSpeciesExactMatch	UPHENO:0052676		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006834		semapv:crossSpeciesExactMatch	UPHENO:0006542		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006839		semapv:crossSpeciesExactMatch	UPHENO:0053787		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0006844		semapv:crossSpeciesExactMatch	UPHENO:0031482		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -46578,7 +46460,6 @@ ZP:0007176		semapv:crossSpeciesExactMatch	UPHENO:0005850		semapv:MappingInversio
 ZP:0007177		semapv:crossSpeciesExactMatch	UPHENO:0053249		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007178		semapv:crossSpeciesExactMatch	UPHENO:0053485		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007187		semapv:crossSpeciesExactMatch	UPHENO:0051226		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0007188		semapv:crossSpeciesExactMatch	UPHENO:0079459		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007189		semapv:crossSpeciesExactMatch	UPHENO:0000803		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007190		semapv:crossSpeciesExactMatch	UPHENO:0079327		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007191		semapv:crossSpeciesExactMatch	UPHENO:0079283		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -46689,7 +46570,6 @@ ZP:0007632		semapv:crossSpeciesExactMatch	UPHENO:0008631		semapv:MappingInversio
 ZP:0007635		semapv:crossSpeciesExactMatch	UPHENO:0054967		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007638		semapv:crossSpeciesExactMatch	UPHENO:0005887		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007645		semapv:crossSpeciesExactMatch	UPHENO:0000690		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0007646		semapv:crossSpeciesExactMatch	UPHENO:0079288		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007647		semapv:crossSpeciesExactMatch	UPHENO:0018814		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007648		semapv:crossSpeciesExactMatch	UPHENO:0077434		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007660		semapv:crossSpeciesExactMatch	UPHENO:0014812		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -46698,7 +46578,6 @@ ZP:0007662		semapv:crossSpeciesExactMatch	UPHENO:0053042		semapv:MappingInversio
 ZP:0007665		semapv:crossSpeciesExactMatch	UPHENO:0010413		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007668		semapv:crossSpeciesExactMatch	UPHENO:0081252		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007674		semapv:crossSpeciesExactMatch	UPHENO:0050290		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0007679		semapv:crossSpeciesExactMatch	UPHENO:0077707		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007686		semapv:crossSpeciesExactMatch	UPHENO:0071603		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007688		semapv:crossSpeciesExactMatch	UPHENO:0071435		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0007692		semapv:crossSpeciesExactMatch	UPHENO:0071996		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -47357,7 +47236,6 @@ ZP:0010689		semapv:crossSpeciesExactMatch	UPHENO:0070381		semapv:MappingInversio
 ZP:0010690		semapv:crossSpeciesExactMatch	UPHENO:0069904		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0010707		semapv:crossSpeciesExactMatch	UPHENO:0050989		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0010711		semapv:crossSpeciesExactMatch	UPHENO:0071499		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001077	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality; increased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0010717		semapv:crossSpeciesExactMatch	UPHENO:0078519		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0010720		semapv:crossSpeciesExactMatch	UPHENO:0014925		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0010722		semapv:crossSpeciesExactMatch	UPHENO:0046946		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -47489,7 +47367,6 @@ ZP:0011248		semapv:crossSpeciesExactMatch	UPHENO:0008532		semapv:MappingInversio
 ZP:0011249		semapv:crossSpeciesExactMatch	UPHENO:0009823		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0011250		semapv:crossSpeciesExactMatch	UPHENO:0008684		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0011256		semapv:crossSpeciesExactMatch	UPHENO:0010046		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0011261		semapv:crossSpeciesExactMatch	UPHENO:0005946		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0011268	epiphysis morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087487	epiphysis morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0011275		semapv:crossSpeciesExactMatch	UPHENO:0071834		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0011278		semapv:crossSpeciesExactMatch	UPHENO:0050566		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -47840,7 +47717,6 @@ ZP:0013173		semapv:crossSpeciesExactMatch	UPHENO:0050596		semapv:MappingInversio
 ZP:0013176		semapv:crossSpeciesExactMatch	UPHENO:0051527		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013179	testis morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087973	testis morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0013205		semapv:crossSpeciesExactMatch	UPHENO:0011878		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0013206	regulation of telomerase activity process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001073	regulation of telomerase activity phenotype; regulation of telomerase activity process quality	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0013230		semapv:crossSpeciesExactMatch	UPHENO:0049624		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013235		semapv:crossSpeciesExactMatch	UPHENO:0080409		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013242		semapv:crossSpeciesExactMatch	UPHENO:0050361		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -47871,7 +47747,6 @@ ZP:0013391		semapv:crossSpeciesExactMatch	UPHENO:0050381		semapv:MappingInversio
 ZP:0013406	nervous system morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001094	nervous system morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0013413		semapv:crossSpeciesExactMatch	UPHENO:0050783		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013419		semapv:crossSpeciesExactMatch	UPHENO:0051523		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0013433		semapv:crossSpeciesExactMatch	UPHENO:0051227		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013442		semapv:crossSpeciesExactMatch	UPHENO:0051131		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013448		semapv:crossSpeciesExactMatch	UPHENO:0080384		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013449		semapv:crossSpeciesExactMatch	UPHENO:0050415		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -47879,7 +47754,6 @@ ZP:0013465		semapv:crossSpeciesExactMatch	UPHENO:0050369		semapv:MappingInversio
 ZP:0013472	atrial myocardium morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087471	myocardium of atrium morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0013473	ventricular myocardium morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000745	ventricular myocardium morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0013481		semapv:crossSpeciesExactMatch	UPHENO:0051475		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0013486		semapv:crossSpeciesExactMatch	UPHENO:0052244		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013487		semapv:crossSpeciesExactMatch	UPHENO:0050955		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013488		semapv:crossSpeciesExactMatch	UPHENO:0051257		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0013490	ventricular endocardium morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087310	endocardium of ventricle morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -48080,13 +47954,11 @@ ZP:0014471		semapv:crossSpeciesExactMatch	UPHENO:0080704		semapv:MappingInversio
 ZP:0014472		semapv:crossSpeciesExactMatch	UPHENO:0071636		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014483		semapv:crossSpeciesExactMatch	UPHENO:0049755		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014484		semapv:crossSpeciesExactMatch	UPHENO:0053041		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0014485		semapv:crossSpeciesExactMatch	UPHENO:0080708		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014488		semapv:crossSpeciesExactMatch	UPHENO:0077496		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014496		semapv:crossSpeciesExactMatch	UPHENO:0018978		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014497		semapv:crossSpeciesExactMatch	UPHENO:0053526		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014512		semapv:crossSpeciesExactMatch	UPHENO:0079345		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014521		semapv:crossSpeciesExactMatch	UPHENO:0052682		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0014523		semapv:crossSpeciesExactMatch	UPHENO:0079463		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014530	median fin morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001204	median fin morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0014532		semapv:crossSpeciesExactMatch	UPHENO:0009222		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0014535		semapv:crossSpeciesExactMatch	UPHENO:0080698		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -49057,7 +48929,6 @@ ZP:0019450		semapv:crossSpeciesExactMatch	UPHENO:0009855		semapv:MappingInversio
 ZP:0019451		semapv:crossSpeciesExactMatch	UPHENO:0009854		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0019453		semapv:crossSpeciesExactMatch	UPHENO:0015070		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0019454		semapv:crossSpeciesExactMatch	UPHENO:0009612		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001074	decreased qualitatively planar cell polarity pathway involved in axon guidance; planar cell polarity pathway involved in axon guidance decreased process quality	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0019461		semapv:crossSpeciesExactMatch	UPHENO:0014519		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0019462		semapv:crossSpeciesExactMatch	UPHENO:0064204		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0019471		semapv:crossSpeciesExactMatch	UPHENO:0053788		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -50151,7 +50022,6 @@ ZP:0102972		semapv:crossSpeciesExactMatch	UPHENO:0077639		semapv:MappingInversio
 ZP:0102984		semapv:crossSpeciesExactMatch	UPHENO:0064277		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0102997		semapv:crossSpeciesExactMatch	UPHENO:0071944		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0103018		semapv:crossSpeciesExactMatch	UPHENO:0050526		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001075	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality; decreased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0103028		semapv:crossSpeciesExactMatch	UPHENO:0034389		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0103040		semapv:crossSpeciesExactMatch	UPHENO:0052749		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0103051		semapv:crossSpeciesExactMatch	UPHENO:0010479		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -50422,7 +50292,6 @@ ZP:0104589		semapv:crossSpeciesExactMatch	UPHENO:0001973		semapv:MappingInversio
 ZP:0104619		semapv:crossSpeciesExactMatch	UPHENO:0051155		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0104623		semapv:crossSpeciesExactMatch	UPHENO:0050967		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0104637		semapv:crossSpeciesExactMatch	UPHENO:0077467		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0104642		semapv:crossSpeciesExactMatch	UPHENO:0077477		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0104678		semapv:crossSpeciesExactMatch	UPHENO:0010014		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0104685		semapv:crossSpeciesExactMatch	UPHENO:0010001		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0104687	posterior communicating artery morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086805	posterior communicating artery morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -50442,11 +50311,9 @@ ZP:0104750		semapv:crossSpeciesExactMatch	UPHENO:0014654		semapv:MappingInversio
 ZP:0104751		semapv:crossSpeciesExactMatch	UPHENO:0064242		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0104784		semapv:crossSpeciesExactMatch	UPHENO:0000806		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0104795		semapv:crossSpeciesExactMatch	UPHENO:0054008		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0105654		semapv:crossSpeciesExactMatch	UPHENO:0079486		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0105672	snout morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087278	snout morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0105681		semapv:crossSpeciesExactMatch	UPHENO:0077638		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0105695		semapv:crossSpeciesExactMatch	UPHENO:0064043		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0105703		semapv:crossSpeciesExactMatch	UPHENO:0076947		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0105738		semapv:crossSpeciesExactMatch	UPHENO:0071557		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0105745		semapv:crossSpeciesExactMatch	UPHENO:0050845		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0105746		semapv:crossSpeciesExactMatch	UPHENO:0009015		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51094,7 +50961,6 @@ ZP:0138574		semapv:crossSpeciesExactMatch	UPHENO:0069651		semapv:MappingInversio
 ZP:0138609		semapv:crossSpeciesExactMatch	UPHENO:0008756		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0138611		semapv:crossSpeciesExactMatch	UPHENO:0080539		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0138673		semapv:crossSpeciesExactMatch	UPHENO:0082005		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0138681		semapv:crossSpeciesExactMatch	UPHENO:0082841		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0138693		semapv:crossSpeciesExactMatch	UPHENO:0009803		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0139716		semapv:crossSpeciesExactMatch	UPHENO:0050120		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0139722		semapv:crossSpeciesExactMatch	UPHENO:0084250		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51115,7 +50981,6 @@ ZP:0139952		semapv:crossSpeciesExactMatch	UPHENO:0083042		semapv:MappingInversio
 ZP:0139963		semapv:crossSpeciesExactMatch	UPHENO:0082951		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0139967		semapv:crossSpeciesExactMatch	UPHENO:0083045		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140054		semapv:crossSpeciesExactMatch	UPHENO:0068531		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0140059		semapv:crossSpeciesExactMatch	UPHENO:0083771		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140060		semapv:crossSpeciesExactMatch	UPHENO:0083740		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140074		semapv:crossSpeciesExactMatch	UPHENO:0051974		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140080		semapv:crossSpeciesExactMatch	UPHENO:0063803		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51139,7 +51004,6 @@ ZP:0140269		semapv:crossSpeciesExactMatch	UPHENO:0083017		semapv:MappingInversio
 ZP:0140295		semapv:crossSpeciesExactMatch	UPHENO:0084258		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140316		semapv:crossSpeciesExactMatch	UPHENO:0000817		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140321		semapv:crossSpeciesExactMatch	UPHENO:0083263		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0140322		semapv:crossSpeciesExactMatch	UPHENO:0084228		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140326		semapv:crossSpeciesExactMatch	UPHENO:0082949		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140327		semapv:crossSpeciesExactMatch	UPHENO:0013958		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0140341		semapv:crossSpeciesExactMatch	UPHENO:0081979		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51254,9 +51118,7 @@ ZP:0141954		semapv:crossSpeciesExactMatch	UPHENO:0083772		semapv:MappingInversio
 ZP:0142058		semapv:crossSpeciesExactMatch	UPHENO:0083074		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142062		semapv:crossSpeciesExactMatch	UPHENO:0051151		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142072		semapv:crossSpeciesExactMatch	UPHENO:0083084		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0142073		semapv:crossSpeciesExactMatch	UPHENO:0050593		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142100		semapv:crossSpeciesExactMatch	UPHENO:0083987		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0142106		semapv:crossSpeciesExactMatch	UPHENO:0083079		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142116		semapv:crossSpeciesExactMatch	UPHENO:0083043		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142136		semapv:crossSpeciesExactMatch	UPHENO:0083743		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142148		semapv:crossSpeciesExactMatch	UPHENO:0083755		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51282,7 +51144,6 @@ ZP:0142532		semapv:crossSpeciesExactMatch	UPHENO:0083081		semapv:MappingInversio
 ZP:0142574		semapv:crossSpeciesExactMatch	UPHENO:0083073		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142575		semapv:crossSpeciesExactMatch	UPHENO:0083072		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142577		semapv:crossSpeciesExactMatch	UPHENO:0000671		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0142690		semapv:crossSpeciesExactMatch	UPHENO:0086289		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142703		semapv:crossSpeciesExactMatch	UPHENO:0008950		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142794		semapv:crossSpeciesExactMatch	UPHENO:0080831		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0142830		semapv:crossSpeciesExactMatch	UPHENO:0050130		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51373,12 +51234,10 @@ ZP:0144704		semapv:crossSpeciesExactMatch	UPHENO:0080805		semapv:MappingInversio
 ZP:0144776		semapv:crossSpeciesExactMatch	UPHENO:0085713		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144795		semapv:crossSpeciesExactMatch	UPHENO:0086286		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144796		semapv:crossSpeciesExactMatch	UPHENO:0085177		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0144797		semapv:crossSpeciesExactMatch	UPHENO:0085172		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144844		semapv:crossSpeciesExactMatch	UPHENO:0085168		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144850		semapv:crossSpeciesExactMatch	UPHENO:0047001		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144851		semapv:crossSpeciesExactMatch	UPHENO:0081239		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144854		semapv:crossSpeciesExactMatch	UPHENO:0086288		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0144857		semapv:crossSpeciesExactMatch	UPHENO:0085184		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144861		semapv:crossSpeciesExactMatch	UPHENO:0085669		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144900		semapv:crossSpeciesExactMatch	UPHENO:0053707		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0144961	oculomotor nucleus morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0088103	oculomotor nuclear complex morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -51388,7 +51247,6 @@ ZP:0145022		semapv:crossSpeciesExactMatch	UPHENO:0050214		semapv:MappingInversio
 ZP:0145040	urostyle morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001206	urostyle morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0145098		semapv:crossSpeciesExactMatch	UPHENO:0088298		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145116		semapv:crossSpeciesExactMatch	UPHENO:0086182		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0145119		semapv:crossSpeciesExactMatch	UPHENO:0086291		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145120		semapv:crossSpeciesExactMatch	UPHENO:0086293		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145258		semapv:crossSpeciesExactMatch	UPHENO:0069374		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145339		semapv:crossSpeciesExactMatch	UPHENO:0053684		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51410,9 +51268,6 @@ ZP:0145726		semapv:crossSpeciesExactMatch	UPHENO:0089409		semapv:MappingInversio
 ZP:0145729		semapv:crossSpeciesExactMatch	UPHENO:0089798		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145731		semapv:crossSpeciesExactMatch	UPHENO:0089809		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145733		semapv:crossSpeciesExactMatch	UPHENO:0089810		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0145735		semapv:crossSpeciesExactMatch	UPHENO:0089394		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0145736		semapv:crossSpeciesExactMatch	UPHENO:0089800		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0145738		semapv:crossSpeciesExactMatch	UPHENO:0089806		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145739		semapv:crossSpeciesExactMatch	UPHENO:0089794		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145741		semapv:crossSpeciesExactMatch	UPHENO:0089814		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0145746		semapv:crossSpeciesExactMatch	UPHENO:0015087		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51499,7 +51354,6 @@ ZP:0147945		semapv:crossSpeciesExactMatch	UPHENO:0089400		semapv:MappingInversio
 ZP:0148007	female organism morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001185	female organism morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0148012		semapv:crossSpeciesExactMatch	UPHENO:0070371		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148132		semapv:crossSpeciesExactMatch	UPHENO:0089834		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0148133		semapv:crossSpeciesExactMatch	UPHENO:0052480		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148136		semapv:crossSpeciesExactMatch	UPHENO:0089802		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148142		semapv:crossSpeciesExactMatch	UPHENO:0089823		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148143		semapv:crossSpeciesExactMatch	UPHENO:0089821		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51524,7 +51378,6 @@ ZP:0148493		semapv:crossSpeciesExactMatch	UPHENO:0000569		semapv:MappingInversio
 ZP:0148494		semapv:crossSpeciesExactMatch	UPHENO:0089687		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148501		semapv:crossSpeciesExactMatch	UPHENO:0089427		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148519		semapv:crossSpeciesExactMatch	UPHENO:0089832		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0148536		semapv:crossSpeciesExactMatch	UPHENO:0089786		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148552		semapv:crossSpeciesExactMatch	UPHENO:0089778		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148591		semapv:crossSpeciesExactMatch	UPHENO:0089412		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0148721		semapv:crossSpeciesExactMatch	UPHENO:0090153		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
@@ -51569,7 +51422,6 @@ ZP:0149052		semapv:crossSpeciesExactMatch	UPHENO:0088498		semapv:MappingInversio
 ZP:0149053		semapv:crossSpeciesExactMatch	UPHENO:0089835		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0149065		semapv:crossSpeciesExactMatch	UPHENO:0090124		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0149074		semapv:crossSpeciesExactMatch	UPHENO:0090129		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
-ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001079	cellular lipid catabolic process increased occurrence; increased occurrence of cellular lipid catabolic process	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0149081		semapv:crossSpeciesExactMatch	UPHENO:0089690		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0149118		semapv:crossSpeciesExactMatch	UPHENO:0089777		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0149130		semapv:crossSpeciesExactMatch	UPHENO:0089319		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified

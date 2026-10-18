@@ -305,7 +305,7 @@ MP:0009450	abnormal axon fasciculation	UPHENO:0050083	axonal fasciculation pheno
 MP:0002961	abnormal axon guidance	UPHENO:0050092	axon guidance phenotype
 HP:0012244	Abnormal sex determination	UPHENO:0050096	sex determination phenotype
 WBPhenotype:0001864	protein transport variant	UPHENO:0050102	protein transport phenotype
-FYPO:0000140	cellular metabolism phenotype	UPHENO:0050113	obsolete cellular metabolic process phenotype
+FYPO:0000140	cellular metabolism phenotype	UPHENO:0049873	metabolic process phenotype
 MP:0002211	abnormal primary sex determination	UPHENO:0050123	gonad development phenotype
 FYPO:0002677	abnormal protein phosphorylation	UPHENO:0050125	protein phosphorylation phenotype
 MP:0020852	abnormal olfactory behavior	UPHENO:0050130	olfactory behavior phenotype
@@ -617,7 +617,6 @@ MP:0001378	abnormal ejaculation	UPHENO:0078585	sperm ejaculation phenotype
 MGPO:0002201	abnormal protein N-linked glycosylation	UPHENO:0078593	protein N-linked glycosylation phenotype
 MP:0005094	abnormal T cell proliferation	UPHENO:0078600	T cell proliferation phenotype
 MP:0004028	chromosome breakage	UPHENO:0078606	programmed DNA elimination by chromosome breakage phenotype
-MGPO:0002009	abnormal glycosylation	UPHENO:0078623	glycosylation phenotype
 MP:0001828	abnormal T cell activation	UPHENO:0078625	T cell activation phenotype
 MP:0009549	decreased platelet aggregation	UPHENO:0078627	platelet aggregation phenotype
 MP:0001422	abnormal drinking behavior	UPHENO:0078629	drinking behavior phenotype
@@ -1854,7 +1853,6 @@ HP:0000037	Male pseudohermaphroditism	UPHENO:7000138	male pseudohermaphroditism
 HP:0008714	Ureterovesical stenosis	UPHENO:7000495	decreased width of the ureterovesical junction; ureterovesical stenosis
 MP:0002789	male pseudohermaphroditism	UPHENO:7000138	male pseudohermaphroditism
 HP:0000039	Epispadias	UPHENO:7000139	epispadia; epispadias
-HP:0008826	obsolete Dislocation of the femoral head	UPHENO:7000497	head of femur dislocation; obsolete dislocation of the femoral head
 MP:0003598	epispadia	UPHENO:7000139	epispadia; epispadias
 HP:0009125	Lipodystrophy	UPHENO:7000498	lipodystrophy
 MP:0011174	lipodystrophy	UPHENO:7000498	lipodystrophy
@@ -2334,7 +2332,6 @@ MP:0010519	atrioventricular block	UPHENO:7000279	atrioventricular block
 MP:0011414	erythruria	UPHENO:7000864	erythruria; red urine
 HP:0040407	Mastitis	UPHENO:7000865	mastitis
 MP:0013148	mastitis	UPHENO:7000865	mastitis
-HP:0041064	obsolete Fractured knee	UPHENO:7000867	fractured knee; obsolete fractured knee
 HP:0001683	Ectopia cordis	UPHENO:7000282	ectopia cordis
 HP:0046507	Bradypnea	UPHENO:7000871	bradypnea; decreased pulmonary respiratory rate
 MP:0005574	decreased pulmonary respiratory rate	UPHENO:7000871	bradypnea; decreased pulmonary respiratory rate
@@ -2515,23 +2512,16 @@ HP:0002110	Bronchiectasis	UPHENO:7000332	bronchiectasis
 MP:0011012	bronchiectasis	UPHENO:7000332	bronchiectasis
 PLANP:0000575	abnormal commissure	UPHENO:7001069	commissure; commissure variant
 WBPhenotype:0001226	commissure variant	UPHENO:7001069	commissure; commissure variant
-ZP:0013206	regulation of telomerase activity process quality, abnormal	UPHENO:7001073	regulation of telomerase activity phenotype; regulation of telomerase activity process quality
-ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	UPHENO:7001074	decreased qualitatively planar cell polarity pathway involved in axon guidance; planar cell polarity pathway involved in axon guidance decreased process quality
 HP:0002170	Intracranial hemorrhage	UPHENO:7000335	intracranial hemorrhage
 MP:0001915	intracranial hemorrhage	UPHENO:7000335	intracranial hemorrhage
-ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	UPHENO:7001075	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality; decreased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process
 HP:0002179	Opisthotonus	UPHENO:7000336	opisthotonus
 MP:0002880	opisthotonus	UPHENO:7000336	opisthotonus
-ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	UPHENO:7001076	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence; increased occurrence of activation of cysteine-type endopeptidase activity involved in apoptotic process
 HP:0002185	Neurofibrillary tangles	UPHENO:7000337	neurofibrillary tangles
 MP:0003214	neurofibrillary tangles	UPHENO:7000337	neurofibrillary tangles
-ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	UPHENO:7001077	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality; increased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process
 HP:0002204	Pulmonary embolism	UPHENO:7000338	pulmonary embolism
 MP:0031080	pulmonary embolism	UPHENO:7000338	pulmonary embolism
-XPO:0141864	abnormal 5-methylcytosine metabolic process	UPHENO:7001078	5-methylcytosine metabolic process; 5-methylcytosine metabolic process phenotype
 HP:0002208	Coarse hair	UPHENO:7000339	coarse hair
 MP:0002832	coarse hair	UPHENO:7000339	coarse hair
-ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	UPHENO:7001079	cellular lipid catabolic process increased occurrence; increased occurrence of cellular lipid catabolic process
 HP:0002239	Gastrointestinal hemorrhage	UPHENO:7000340	gastrointestinal hemorrhage
 MP:0000465	gastrointestinal hemorrhage	UPHENO:7000340	gastrointestinal hemorrhage
 WBPhenotype:0000037	egg morphology variant	UPHENO:7001080	egg morphology; egg morphology variant
@@ -3777,7 +3767,6 @@ XPO:0126241	absent carpus	UPHENO:0026144	absent carpal bone in the limb
 MP:0001431	abnormal eating behavior	UPHENO:0049664	feeding behavior phenotype
 FYPO:0000138	localization phenotype	UPHENO:0049927	localization phenotype
 PHIPO:0000235	localization phenotype	UPHENO:0049927	localization phenotype
-FYPO:0000140	cellular metabolism phenotype	UPHENO:0050113	obsolete cellular metabolic process phenotype
 FYPO:0000114	cellular process phenotype	UPHENO:0050121	cellular process phenotype
 PHIPO:0000930	cellular process phenotype	UPHENO:0050121	cellular process phenotype
 HP:0000752	Hyperactivity	UPHENO:0054937	increased locomotion
@@ -4798,7 +4787,6 @@ MP:0031287	bilateral cryptorchism	UPHENO:7000494	bilateral cryptorchidism; bilat
 HP:0008714	Ureterovesical stenosis	UPHENO:7000495	decreased width of the ureterovesical junction; ureterovesical stenosis
 HP:0008716	Urethrovaginal fistula	UPHENO:7000496	urethrovaginal fistula
 MP:0003593	urethrovaginal fistula	UPHENO:7000496	urethrovaginal fistula
-HP:0008826	obsolete Dislocation of the femoral head	UPHENO:7000497	head of femur dislocation; obsolete dislocation of the femoral head
 HP:0009125	Lipodystrophy	UPHENO:7000498	lipodystrophy
 MP:0011174	lipodystrophy	UPHENO:7000498	lipodystrophy
 HP:0009145	Abnormal cerebral artery morphology	UPHENO:7000499	cerebral artery morphology
@@ -5540,7 +5528,6 @@ HP:0040407	Mastitis	UPHENO:7000865	mastitis
 MP:0013148	mastitis	UPHENO:7000865	mastitis
 HP:0041051	Ageusia	UPHENO:7000866	ageusia
 MP:0031090	ageusia	UPHENO:7000866	ageusia
-HP:0041064	obsolete Fractured knee	UPHENO:7000867	fractured knee; obsolete fractured knee
 HP:0045040	Abnormal circulating lactate dehydrogenase concentration	UPHENO:7000868	circulating lactate dehydrogenase concentration; lactate dehydrogenase level
 MP:0002943	abnormal lactate dehydrogenase level	UPHENO:7000868	circulating lactate dehydrogenase concentration; lactate dehydrogenase level
 HP:0045081	Abnormality of body mass index	UPHENO:7000869	abnormality of body mass index; body mass index
@@ -5950,13 +5937,6 @@ PLANP:0000582	abnormal epidermal cell	UPHENO:7001071	epidermal cell
 XPO:0100714	abnormal epidermal cell	UPHENO:7001071	epidermal cell
 PLANP:0000624	abnormal pigment cell	UPHENO:7001072	pigment cell
 XPO:0101278	abnormal pigment cell	UPHENO:7001072	pigment cell
-ZP:0013206	regulation of telomerase activity process quality, abnormal	UPHENO:7001073	regulation of telomerase activity phenotype; regulation of telomerase activity process quality
-ZP:0019459	planar cell polarity pathway involved in axon guidance decreased process quality, abnormal	UPHENO:7001074	decreased qualitatively planar cell polarity pathway involved in axon guidance; planar cell polarity pathway involved in axon guidance decreased process quality
-ZP:0103026	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality, abnormal	UPHENO:7001075	activation of cysteine-type endopeptidase activity involved in apoptotic process decreased process quality; decreased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process
-ZP:0000408	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence, abnormal	UPHENO:7001076	activation of cysteine-type endopeptidase activity involved in apoptotic process increased occurrence; increased occurrence of activation of cysteine-type endopeptidase activity involved in apoptotic process
-ZP:0010716	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality, abnormal	UPHENO:7001077	activation of cysteine-type endopeptidase activity involved in apoptotic process increased process quality; increased qualitatively activation of cysteine-type endopeptidase activity involved in apoptotic process
-XPO:0141864	abnormal 5-methylcytosine metabolic process	UPHENO:7001078	5-methylcytosine metabolic process; 5-methylcytosine metabolic process phenotype
-ZP:0149079	cellular lipid catabolic process increased occurrence, abnormal	UPHENO:7001079	cellular lipid catabolic process increased occurrence; increased occurrence of cellular lipid catabolic process
 WBPhenotype:0000037	egg morphology variant	UPHENO:7001080	egg morphology; egg morphology variant
 XPO:0102648	abnormal egg morphology	UPHENO:7001080	egg morphology; egg morphology variant
 WBPhenotype:0000071	head morphology variant	UPHENO:7001081	head morphology; head morphology variant
