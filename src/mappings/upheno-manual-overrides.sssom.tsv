@@ -1,0 +1,9 @@
+# Hand-curated overrides: a row assigns a species phenotype (subject_id) to a uPheno class
+# (object_id) and replaces every other uPheno mapping and no-EQ alignment of that subject.
+# The pipeline reads this file but never writes it.
+# curie_map:
+#   HP: http://purl.obolibrary.org/obo/HP_
+#   MP: http://purl.obolibrary.org/obo/MP_
+#   UPHENO: http://purl.obolibrary.org/obo/UPHENO_
+#   semapv: https://w3id.org/semapv/vocab/
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
