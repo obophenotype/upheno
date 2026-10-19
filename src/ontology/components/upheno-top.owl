@@ -7,11 +7,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-top.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2025-10-08/components/upheno-top.owl>
-Annotation(owl:versionInfo "2025-10-08")
+<http://purl.obolibrary.org/obo/upheno/releases/2026-10-19/components/upheno-top.owl>
+Annotation(owl:versionInfo "2026-10-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0001002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002635>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002642>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0002816>))
@@ -53,10 +52,6 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inS
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_0001002> (<http://purl.obolibrary.org/obo/UPHENO_0001002>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/UPHENO_0001002> <http://purl.obolibrary.org/obo/UPHENO_0001001>)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_0002635> (<http://purl.obolibrary.org/obo/UPHENO_0002635>)
 
