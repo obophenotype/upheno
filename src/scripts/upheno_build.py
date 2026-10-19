@@ -259,7 +259,9 @@ def generate_upheno_label(group, labels):
 @click.option("--non-eq-groupings", type=click.Path())
 @click.option("--non-eq-alignments", type=click.Path())
 @click.option("--non-eq-species-independent-mapping", type=click.Path())
-def create_upheno_groupings(cross_species_mapping, species_independent_mapping, upheno_subclasses, start_id, non_eq_groupings, non_eq_alignments, non_eq_species_independent_mapping):
+@click.option("--overrides", type=click.Path(), default=None,
+              help="Hand-curated overrides (species term -> uPheno class), applied last")
+def create_upheno_groupings(cross_species_mapping, species_independent_mapping, upheno_subclasses, start_id, non_eq_groupings, non_eq_alignments, non_eq_species_independent_mapping, overrides):
     # 1. Read both as dataframes
     df_cross_species = pd.read_csv(cross_species_mapping, sep="\t", dtype=str, comment="#")
     df_meta = pd.read_csv(upheno_subclasses, dtype=str)
@@ -320,6 +322,9 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
             map_species_independent[row["subject_id"]] = row["object_id"]
         elif not row["object_id"].startswith("UPHENO:") and row["subject_id"].startswith("UPHENO:"):
             map_species_independent[row["object_id"]] = row["subject_id"]
+    # Curated overrides win over everything derived above
+    override = read_overrides(overrides)
+    map_species_independent.update(override)
 
     # 5-7. Process groups
     
@@ -349,10 +354,12 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
 
         phenotypes = [f"  {pid} ({map_labels.get(pid, pid)})\n" for pid in group]
         mappings = []
+        pairs = set()
         for pid in group:
             for subj, obj in mapping_index.get(pid, []):
                 pair = tuple(sorted([subj, obj]))
-                if pair not in mappings:
+                if pair not in pairs:
+                    pairs.add(pair)
                     pair_1 = pair[0]
                     pair_2 = pair[1]
                     pair_1_label = map_labels.get(pair_1, "")
@@ -369,7 +376,7 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
 
         mappings_str = [
             f"    {a} ({map_labels.get(a, '')}) <-> {b} ({map_labels.get(b, '')})\n"
-            for a, b in sorted(mappings)
+            for a, b in sorted(pairs)
         ]
 
         warning_str = (
@@ -389,7 +396,6 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
     conflicts_manual_resolution = []
     for group in groups:
         generated = False
-        conflict = False
         upheno_ids = set(map_species_independent.get(x) for x in group if x in map_species_independent)
         non_upheno_ids = set(x for x in group if not x.startswith("UPHENO:"))
         upheno_ids.discard(None)
@@ -416,7 +422,12 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
         elif len(upheno_ids) > 1:
             group_str = ", ".join([f"{x} ({map_labels.get(x, '')})" for x in group])
             click.echo(f"Warning: multiple UPHENO IDs found for group {group_str}", err=True)
-            conflict = True
+            # Left for manual resolution. Don't align the group: upheno_id is unset here
+            # (or still holds the previous group's ID).
+            warning_str, mappings = generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent)
+            conflicts_manual_resolution.extend(mappings)
+            logger.warning(warning_str)
+            continue
         else:
             upheno_id = list(upheno_ids)[0]
 
@@ -434,12 +445,7 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
                     "comment": comment
                 })
             map_labels_reverse[upheno_label] = upheno_id
-        
-        if conflict:
-            warning_str, mappings = generate_warning_for_group(group, map_labels, df_cross_species, df_species_independent)
-            conflicts_manual_resolution.extend(mappings)
-            logger.warning(warning_str)
-        
+
         for phenotype_id in non_upheno_ids:
             phenotype_label = map_labels.get(phenotype_id, phenotype_id)
             if phenotype_id not in map_species_independent:
@@ -465,14 +471,26 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
     else:
         click.echo("No new groupings were generated.")
         
-    if new_alignments:
-        df_new_alignments = pd.DataFrame(new_alignments).drop_duplicates().sort_values(by=["upheno_id", "phenotype_id"])
-        df_manual_alignments = pd.concat([df_manual_alignments, df_new_alignments]).drop_duplicates()
+    # Earlier runs' alignments and mappings of an overridden term point at the class the
+    # override replaces, so they go.
+    if override:
+        overridden = df_manual_alignments["phenotype_id"].isin(override.keys())
+        df_manual_alignments = df_manual_alignments[~overridden]
+        stale = (df_manual_species_independent["subject_id"].isin(override.keys())
+                 & df_manual_species_independent["object_id"].str.startswith("UPHENO:", na=False))
+        df_manual_species_independent = df_manual_species_independent[~stale]
+        click.echo(f"Overrides: dropped {int(overridden.sum())} alignments and {int(stale.sum())} mappings")
+
+    if new_alignments or override:
+        if new_alignments:
+            df_new_alignments = pd.DataFrame(new_alignments).drop_duplicates().sort_values(by=["upheno_id", "phenotype_id"])
+            df_manual_alignments = pd.concat([df_manual_alignments, df_new_alignments]).drop_duplicates()
         df_manual_alignments.to_csv(non_eq_alignments, sep="\t", index=False)
-    
-    if new_mappings:
-        df_new_mappings = pd.DataFrame(new_mappings).drop_duplicates().sort_values(by=["subject_id", "object_id"])
-        df_manual_species_independent = pd.concat([df_manual_species_independent, df_new_mappings]).drop_duplicates()
+
+    if new_mappings or override:
+        if new_mappings:
+            df_new_mappings = pd.DataFrame(new_mappings).drop_duplicates().sort_values(by=["subject_id", "object_id"])
+            df_manual_species_independent = pd.concat([df_manual_species_independent, df_new_mappings]).drop_duplicates()
         df_manual_species_independent.to_csv(non_eq_species_independent_mapping, sep="\t", index=False)
     
     if conflicts_manual_resolution:
@@ -480,6 +498,210 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
         file_conflicts_manual_resolution = os.path.join(directory, "conflicts_manual_resolution.tsv")
         df_conflicts_manual_resolution = pd.DataFrame(conflicts_manual_resolution).drop_duplicates().sort_values(by=["subject_id", "object_id"])
         df_conflicts_manual_resolution.to_csv(file_conflicts_manual_resolution, sep="\t", index=False)
+
+def read_external_exact_matches(path, label_matches_only):
+    """Exact matches of an external SSSOM set (src/mappings/external), as
+    semapv:crossSpeciesExactMatch rows."""
+    df = pd.read_csv(path, sep="\t", dtype=str, comment="#")
+    df = df[df["predicate_id"] == "skos:exactMatch"]
+    if label_matches_only and {"subject_match_field", "object_match_field"} <= set(df.columns):
+        # MGI's match field columns say which label or synonym matched on either side (#1013)
+        df = df[df["subject_match_field"].str.endswith("term label")
+                & df["object_match_field"].str.endswith("term label")]
+    return df.assign(predicate_id="semapv:crossSpeciesExactMatch", source=os.path.basename(path))
+
+
+def lexical_matches_supplanted_by(df_cross, df_extra):
+    """Mask of our purely lexical (semapv:LexicalMatching) cross-species edges that link a
+    term from an external pair to a different term of the partner's ontology."""
+    partner = defaultdict(set)
+    for s, o in zip(df_extra["subject_id"], df_extra["object_id"]):
+        partner[s].add(o)
+        partner[o].add(s)
+    prefix = lambda curie: curie.split(":")[0]
+    def supplanted(row):
+        if row["mapping_justification"] != "semapv:LexicalMatching":
+            return False
+        for a, b in ((row["subject_id"], row["object_id"]), (row["object_id"], row["subject_id"])):
+            if a in partner and b not in partner[a] and prefix(b) in {prefix(p) for p in partner[a]}:
+                return True
+        return False
+    return df_cross.apply(supplanted, axis=1)
+
+
+def read_overrides(path):
+    """subject_id -> uPheno class from the hand-curated overrides file."""
+    if not path or not os.path.exists(path):
+        return {}
+    df = pd.read_csv(path, sep="\t", dtype=str, comment="#").dropna(subset=["subject_id", "object_id"])
+    return dict(zip(df["subject_id"], df["object_id"]))
+
+
+@upheno.command()
+@click.option("--cross-species-mapping", type=click.Path(exists=True), required=True)
+@click.option("--extra-mapping", type=click.Path(exists=True), multiple=True, required=True,
+              help="External SSSOM mapping set (src/mappings/external); repeatable")
+@click.option("--label-matches-only/--all-exact-matches", default=True,
+              help="Only use exact matches between two term labels (not synonyms), where the set records it")
+@click.option("--output", type=click.Path(), required=True)
+def add_cross_species_mappings(cross_species_mapping, extra_mapping, label_matches_only, output):
+    """Add the exact matches of external mapping sets to the cross-species mappings that
+    create-upheno-groupings reads. External matches are more targeted than our own purely
+    lexical ones, so they replace those where they conflict; logically backed edges and
+    edges to other ontologies are kept."""
+    df_cross = pd.read_csv(cross_species_mapping, sep="\t", dtype=str, comment="#")
+    for path in extra_mapping:
+        df_extra = read_external_exact_matches(path, label_matches_only)
+        dropped = lexical_matches_supplanted_by(df_cross, df_extra)
+        click.echo(f"Dropping {int(dropped.sum())} lexical cross-species matches that conflict with {path}")
+        df_cross = df_cross[~dropped]
+        df_extra = df_extra[[c for c in df_cross.columns if c in df_extra.columns]]
+        known = set(zip(df_cross["subject_id"], df_cross["object_id"]))
+        known |= {(o, s) for s, o in known}
+        df_new = df_extra[[(s, o) not in known for s, o in zip(df_extra["subject_id"], df_extra["object_id"])]]
+        df_new = df_new.drop_duplicates(subset=["subject_id", "object_id"])
+        click.echo(f"Adding {len(df_new)} of {len(df_extra)} exact matches from {path}")
+        df_cross = pd.concat([df_cross, df_new])
+    df_cross.to_csv(output, sep="\t", index=False)
+
+
+@upheno.command()
+@click.option("--mapping", type=click.Path(exists=True), required=True,
+              help="Species-independent SSSOM mapping set (species term <-> uPheno)")
+@click.option("--overrides", type=click.Path(exists=True), required=True)
+@click.option("--output", type=click.Path(), required=True)
+def apply_mapping_overrides(mapping, overrides, output):
+    """Replace every uPheno mapping of an overridden species term with the curated one."""
+    override = read_overrides(overrides)
+    header = [l for l in open(mapping) if l.startswith("#")]
+    df = pd.read_csv(mapping, sep="\t", dtype=str, comment="#")
+    if override:
+        hit = [(s in override and o.startswith("UPHENO:")) or (o in override and s.startswith("UPHENO:"))
+               for s, o in zip(df["subject_id"], df["object_id"])]
+        df = df[[not h for h in hit]]
+        rows = [{"subject_id": s, "predicate_id": "semapv:crossSpeciesExactMatch", "object_id": o,
+                 "mapping_justification": "semapv:ManualMappingCuration"} for s, o in override.items()]
+        rows += [{"subject_id": o, "predicate_id": "semapv:crossSpeciesExactMatch", "object_id": s,
+                  "mapping_justification": "semapv:ManualMappingCuration"} for s, o in override.items()]
+        df = pd.concat([df, pd.DataFrame(rows)]).sort_values(by=["subject_id", "object_id"])
+        click.echo(f"Applied {len(override)} overrides, replacing {sum(hit)} mapping rows")
+    with open(output, "w") as f:
+        f.writelines(header)
+        df.to_csv(f, sep="\t", index=False)
+
+
+@upheno.command()
+@click.option("--cross-species-mapping", type=click.Path(exists=True), required=True)
+@click.option("--extra-mapping", type=click.Path(exists=True), multiple=True)
+@click.option("--species-independent-mapping", type=click.Path(exists=True), required=True)
+@click.option("--dosdp-data-directory", type=click.Path(exists=True), required=True,
+              help="src/patterns/data, with one subdirectory per pattern pipeline")
+@click.option("--patterns-directory", type=click.Path(exists=True), multiple=True, required=True)
+@click.option("--labels-ontology", type=click.Path(exists=True), multiple=True,
+              help="OFN files to take labels from (merged import, definitions, components)")
+@click.option("--label-matches-only/--all-exact-matches", default=True)
+@click.option("--output", type=click.Path(), required=True)
+def report_harmonisation(cross_species_mapping, extra_mapping, species_independent_mapping,
+                         dosdp_data_directory, patterns_directory, labels_ontology,
+                         label_matches_only, output):
+    """Report harmonisation opportunities between species phenotype ontologies: exact
+    cross-species pairs (ours and external) whose two terms sit under different uPheno
+    classes, with how their EQs differ, and external matches that contradict our own
+    lexical matches."""
+    import glob
+    import yaml
+    OBO = "http://purl.obolibrary.org/obo/"
+    curie = lambda iri: iri.replace(OBO, "").replace("_", ":", 1)
+
+    # uPheno class -> (pattern, {variable: filler}); pattern -> PATO qualities it fixes
+    fills = {}
+    for f in glob.glob(os.path.join(dosdp_data_directory, "*", "*.tsv")):
+        pattern = os.path.basename(f)[:-4]
+        for _, r in pd.read_csv(f, sep="\t", dtype=str).fillna("").iterrows():
+            if r.get("defined_class"):
+                fills[curie(r["defined_class"])] = (pattern, {k: curie(v) for k, v in r.items()
+                    if k not in ("defined_class", "defined_class_name") and v})
+    fixed_pato = {}
+    for d in patterns_directory:
+        for f in glob.glob(os.path.join(d, "*.yaml")):
+            try:
+                y = yaml.safe_load(open(f)) or {}
+            except yaml.YAMLError:
+                continue
+            fixed_pato[os.path.basename(f)[:-5]] = [v for v in (y.get("classes") or {}).values()
+                                                    if str(v).startswith("PATO:") and v != "PATO:0000460"]
+
+    labels = {}
+    label_line = re.compile(r'^AnnotationAssertion\(rdfs:label <http://purl\.obolibrary\.org/obo/([A-Za-z]+_\w+)> "(.*?)"')
+    for f in labels_ontology:
+        for line in open(f):
+            m = label_line.match(line)
+            if m:
+                labels.setdefault(curie(OBO + m.group(1)), m.group(2))
+    lab = lambda c: f"{c} {labels.get(c, '')}".strip()
+
+    # Root-level placements (phenotype, taxon specific phenotype) say nothing about harmonisation
+    roots = {"UPHENO:0001001", "UPHENO:0001003"}
+    to_upheno = defaultdict(set)
+    df_si = pd.read_csv(species_independent_mapping, sep="\t", dtype=str, comment="#")
+    for s, o in zip(df_si["subject_id"], df_si["object_id"]):
+        if o.startswith("UPHENO:") and not s.startswith("UPHENO:") and o not in roots:
+            to_upheno[s].add(o)
+
+    pairs = {}  # (a, b) -> source
+    df_cross = pd.read_csv(cross_species_mapping, sep="\t", dtype=str, comment="#")
+    for s, o, j in zip(df_cross["subject_id"], df_cross["object_id"], df_cross["mapping_justification"]):
+        if not s.startswith("UPHENO:") and not o.startswith("UPHENO:"):
+            pairs.setdefault(tuple(sorted((s, o))), f"upheno:{j.replace('semapv:', '')}")
+    rows = []
+    for path in extra_mapping:
+        df_extra = read_external_exact_matches(path, label_matches_only)
+        for s, o in zip(df_extra["subject_id"], df_extra["object_id"]):
+            pairs[tuple(sorted((s, o)))] = os.path.basename(path)
+        for _, r in df_cross[lexical_matches_supplanted_by(df_cross, df_extra)].iterrows():
+            rows.append({"type": "conflicting_match", "source": os.path.basename(path),
+                         "term_a": lab(r["subject_id"]), "term_b": lab(r["object_id"]),
+                         "note": "our lexical match is replaced by an external match for one of the terms"})
+
+    def side(classes):
+        kinds, pats, quals, others = [], [], [], []
+        for c in sorted(classes):
+            if c.startswith("UPHENO:7"):
+                kinds.append("grouping")
+                continue
+            if c not in fills:
+                kinds.append("other")
+                continue
+            kinds.append("defined")
+            p, fs = fills[c]
+            pats.append(p)
+            quals += [lab(q) for q in fixed_pato.get(p, [])]
+            for var, v in fs.items():
+                (quals if v.startswith("PATO:") else others).append(lab(v) if v.startswith("PATO:") else f"{var}={lab(v)}")
+        return "+".join(sorted(set(kinds))), "; ".join(pats), "; ".join(quals), "; ".join(others)
+
+    for (a, b), source in sorted(pairs.items()):
+        ua, ub = to_upheno.get(a, set()), to_upheno.get(b, set())
+        if not ua or not ub or ua & ub:
+            continue
+        sa, sb = side(ua), side(ub)
+        case = f"{sa[0]}/{sb[0]}"
+        if case == "defined/defined":
+            differs = [n for n, x, y in (("pattern", sa[1], sb[1]), ("PATO", sa[2], sb[2]), ("filler", sa[3], sb[3])) if x != y]
+            kind, note = "unharmonised_eq", "differs in " + (", ".join(differs) or "nothing visible")
+        else:
+            kind, note = "split_placement", case
+        rows.append({"type": kind, "source": source, "term_a": lab(a),
+                     "upheno_a": "|".join(lab(c) for c in sorted(ua)), "pattern_a": sa[1], "pato_a": sa[2], "fillers_a": sa[3],
+                     "term_b": lab(b), "upheno_b": "|".join(lab(c) for c in sorted(ub)),
+                     "pattern_b": sb[1], "pato_b": sb[2], "fillers_b": sb[3], "note": note})
+
+    cols = ["type", "source", "term_a", "upheno_a", "pattern_a", "pato_a", "fillers_a",
+            "term_b", "upheno_b", "pattern_b", "pato_b", "fillers_b", "note"]
+    pd.DataFrame(rows, columns=cols).to_csv(output, sep="\t", index=False)
+    summary = pd.DataFrame(rows, columns=cols).groupby(["type", "source"]).size()
+    click.echo(f"Wrote {len(rows)} harmonisation opportunities to {output}:\n{summary.to_string()}")
+
 
 # Subcommand: help
 @upheno.command()
