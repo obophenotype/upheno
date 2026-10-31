@@ -41,9 +41,12 @@ jobs:
         run: cd src/ontology && make prepare_dosdp_patterns_for_generation
 
       - name: Run ontology QC checks
+        # The ODK v1.6 Makefile ignores ROBOT_ENV, so the heap has to be set in the environment;
+        # without it ROBOT gets the JVM default (a quarter of the runner's memory).
         env:
           DEFAULT_BRANCH: master
+          ROBOT_JAVA_ARGS: -Xmx12G
         # QC runs on the edit file only (see robot_report in upheno-odk.yaml); release
         # assets like upheno-base.owl are too big to build on a standard runner.
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx12G' IMP=false MIR=false test
+        run: cd src/ontology && make IMP=false MIR=false test
 
