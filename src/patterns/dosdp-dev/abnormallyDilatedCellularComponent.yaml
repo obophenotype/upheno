@@ -1,0 +1,59 @@
+---
+pattern_name: abnormallyDilatedCellularComponent
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDilatedCellularComponent.yaml
+
+description: 'Use this phenotype pattern when a cellular component is wider,
+  larger or further open than usual in all dimensions. In contrast to a
+  "PATO:0001851 swollen" entity, the size increase is not transient.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/MP_0004089  # dilated sarcoplasmic reticulum
+#    - http://purl.obolibrary.org/obo/MP_0011632  # dilated mitochondrion
+#    - http://purl.obolibrary.org/obo/HP_0030774  # Mitochondrial swelling
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+
+classes:
+  dilated: PATO:0001571
+  abnormal: PATO:0000460
+  cellular_component: GO:0005575
+
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+
+vars:
+  cellular_component: "'cellular_component'"
+
+name:
+  text: "dilated %s"
+  vars:
+    - cellular_component
+
+annotations:
+  - annotationProperty: related_synonym
+    text: "swollen %s"
+    vars:
+      - cellular_component
+
+def:
+  text: "A dilated %s that is wider or larger in all dimensions."
+  vars:
+    - cellular_component
+
+equivalentTo:
+  text: "'has_part' some (
+    'dilated' and
+    ('characteristic_of' some %s) and
+    ('has_modifier' some 'abnormal')
+    )"
+  vars:
+    - cellular_component
+...
