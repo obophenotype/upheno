@@ -293,10 +293,15 @@ $(COMPONENTSDIR)/upheno-bridge.owl: $(COMPONENTSDIR)/upheno-mappings.owl $(MAPPI
 ###### Import preparation ##########
 ####################################
 
-# go has to be relaxed before it can be merged
-mirror-go: | $(TMPDIR)
-	curl -L $(OBOBASE)/go/go-base.owl --create-dirs -o $(TMPDIR)/go-download.owl --retry 4 --max-time 400 && \
-	$(ROBOT) relax -i $(TMPDIR)/go-download.owl convert -o $(TMPDIR)/$@.owl
+# go has to be relaxed before it can be merged. Overrides the ODK rule, which only converts;
+# the download itself is still ODK's download-mirror-go, which only exists with MIR=true.
+ifeq ($(MIR),true)
+$(MIRRORDIR)/go.owl: download-mirror-go
+	@if [ -f $(TMPDIR)/download-mirror-go.owl ]; then \
+	        $(ROBOT) relax --input $(TMPDIR)/download-mirror-go.owl \
+	                 convert --format ofn --output $@ ; \
+	fi
+endif
 
 
 $(IMPORTDIR)/all_phenotype_terms.txt: mirror/merged.owl
