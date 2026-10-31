@@ -135,6 +135,18 @@ update_manual_alignments: $(TMPDIR)/upheno-subclasses.csv
 		--non-eq-groupings $(TEMPLATEDIR)/upheno-ssspo-groupings-no-eq.tsv \
 		--non-eq-alignments $(TEMPLATEDIR)/upheno-ssspo-alignments-no-eq.tsv \
 		--non-eq-species-independent-mapping $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
+	$(MAKE) place_groupings
+
+# Re-place grouping classes that only sit under the root (#1053), using the inferred hierarchy
+# of the last build. No prerequisite on upheno.obo on purpose (same as upheno-subclasses.csv
+# above): we want the existing build, not a rebuild.
+.PHONY: place_groupings
+place_groupings:
+	test -f upheno.obo
+	python3 ../scripts/upheno_build.py place-upheno-groupings \
+		--ontology upheno.obo \
+		--mappings $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv \
+		--groupings $(TEMPLATEDIR)/upheno-ssspo-groupings-no-eq.tsv
 
 # $(MAPPINGDIR)/upheno-cross-species.sssom.tsv is a dependency here because that goal
 # is responsible for generating $(TMPDIR)/cross-species/upheno_lexical_mapping.robot.template.tsv as well
