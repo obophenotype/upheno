@@ -7,10 +7,12 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-axiom-injections.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2025-10-08/components/upheno-axiom-injections.owl>
-Annotation(owl:versionInfo "2025-10-08")
+<http://purl.obolibrary.org/obo/upheno/releases/2026-10-31/components/upheno-axiom-injections.owl>
+Annotation(owl:versionInfo "2026-10-31")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000018263>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001009>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
 
@@ -31,6 +33,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000066> "occ
 # Class: <http://purl.obolibrary.org/obo/GO_0003013> (<http://purl.obolibrary.org/obo/GO_0003013>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/UBERON_0001009>))
+
+# Class: <http://purl.obolibrary.org/obo/PR_000018263> (<http://purl.obolibrary.org/obo/PR_000018263>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/PR_000018263> <http://purl.obolibrary.org/obo/CHEBI_23367>)
 
 
 )
