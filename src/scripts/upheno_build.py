@@ -6,6 +6,8 @@ import logging
 import pandas as pd
 import re
 from typing import List
+from oaklib import get_adapter
+from oaklib.datamodels.vocabulary import IS_A
 from lib import (
     uPhenoConfig,
     copy_patterns as cp_patterns,
@@ -490,24 +492,13 @@ def _is_grouping(curie):
     return curie.startswith("UPHENO:7")
 
 
-def _read_obo_isa(obo_file):
-    """Return (is_a parents, obsolete ids) for all [Term] stanzas of an OBO file."""
+def _isa_parents(ontology_file):
+    """Return (is_a parents, obsolete ids) for an ontology, read with OAK."""
+    adapter = get_adapter(f"simpleobo:{ontology_file}")
     parents = defaultdict(set)
-    obsolete = set()
-    current = None
-    with open(obo_file) as f:
-        for line in f:
-            if line.startswith("["):
-                current = "" if line.startswith("[Term]") else None
-            elif current is None:
-                continue
-            elif line.startswith("id: "):
-                current = line[4:].strip()
-            elif line.startswith("is_a: "):
-                parents[current].add(line.split()[1])
-            elif line.startswith("is_obsolete: true"):
-                obsolete.add(current)
-    return parents, obsolete
+    for subject, _, obj in adapter.relationships(predicates=[IS_A]):
+        parents[subject].add(obj)
+    return parents, set(adapter.obsoletes())
 
 
 @upheno.command()
@@ -523,7 +514,7 @@ def place_upheno_groupings(ontology, mappings, groupings):
     whose parent is the root or 'taxon specific phenotype' are re-placed; the latter is dropped
     everywhere, because grouping classes are cross-species by construction.
     """
-    parents, obsolete = _read_obo_isa(ontology)
+    parents, obsolete = _isa_parents(ontology)
 
     df_mappings = pd.read_csv(mappings, sep="\t", dtype=str, comment="#")
     members = defaultdict(set)
