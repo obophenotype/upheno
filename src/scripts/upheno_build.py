@@ -6,6 +6,8 @@ import logging
 import pandas as pd
 import re
 from typing import List
+from oaklib import get_adapter
+from oaklib.datamodels.vocabulary import IS_A
 from lib import (
     uPhenoConfig,
     copy_patterns as cp_patterns,
@@ -480,6 +482,85 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
         file_conflicts_manual_resolution = os.path.join(directory, "conflicts_manual_resolution.tsv")
         df_conflicts_manual_resolution = pd.DataFrame(conflicts_manual_resolution).drop_duplicates().sort_values(by=["subject_id", "object_id"])
         df_conflicts_manual_resolution.to_csv(file_conflicts_manual_resolution, sep="\t", index=False)
+
+
+UPHENO_ROOT = "UPHENO:0001001"
+UPHENO_TAXON_SPECIFIC = "UPHENO:0001003"
+
+
+def _is_grouping(curie):
+    return curie.startswith("UPHENO:7")
+
+
+def _isa_parents(ontology_file):
+    """Return (is_a parents, obsolete ids) for an ontology, read with OAK."""
+    adapter = get_adapter(f"simpleobo:{ontology_file}")
+    parents = defaultdict(set)
+    for subject, _, obj in adapter.relationships(predicates=[IS_A]):
+        parents[subject].add(obj)
+    return parents, set(adapter.obsoletes())
+
+
+@upheno.command()
+@click.option("--ontology", type=click.Path(exists=True), required=True, help="Reasoned uPheno with SSPOs, in OBO format (e.g. upheno.obo).")
+@click.option("--mappings", type=click.Path(exists=True), required=True, help="SSSOM file mapping species phenotypes to grouping classes.")
+@click.option("--groupings", type=click.Path(exists=True), required=True, help="Grouping template, updated in place.")
+def place_upheno_groupings(ontology, mappings, groupings):
+    """Give grouping classes without a real parent the most specific uPheno classes shared by all their members.
+
+    A grouping class is exact-matched to each member, so a uPheno class that subsumes every member
+    also subsumes the grouping. Ancestors are collected without passing through grouping classes, so a
+    grouping's own (possibly wrong) parents never confirm themselves on the next run. Only groupings
+    whose parent is the root or 'taxon specific phenotype' are re-placed; the latter is dropped
+    everywhere, because grouping classes are cross-species by construction.
+    """
+    parents, obsolete = _isa_parents(ontology)
+
+    df_mappings = pd.read_csv(mappings, sep="\t", dtype=str, comment="#")
+    members = defaultdict(set)
+    for _, row in df_mappings.iterrows():
+        if _is_grouping(row["object_id"]) and row["subject_id"] not in obsolete and row["subject_id"] in parents:
+            members[row["object_id"]].add(row["subject_id"])
+
+    memo = {}
+
+    def upheno_ancestors(curie):
+        if curie not in memo:
+            memo[curie] = set()
+            found = set()
+            for p in parents.get(curie, ()):
+                if _is_grouping(p):
+                    continue
+                found |= upheno_ancestors(p)
+                if p.startswith("UPHENO:"):
+                    found.add(p)
+            memo[curie] = found
+        return memo[curie]
+
+    excluded = {UPHENO_ROOT, UPHENO_TAXON_SPECIFIC}
+    df_groupings = pd.read_csv(groupings, sep="\t", dtype=str, keep_default_na=False)
+    replaced = dropped = 0
+    for i, row in df_groupings.iterrows():
+        if i == 0:  # ROBOT template row
+            continue
+        current = set(row["parent"].split("|"))
+        if current <= excluded:
+            shared = None
+            for member in members.get(row["upheno_id"], ()):
+                ancestors = upheno_ancestors(member) - excluded
+                shared = ancestors if shared is None else shared & ancestors
+            if len(members.get(row["upheno_id"], ())) >= 2 and shared:
+                most_specific = {c for c in shared if not any(c in upheno_ancestors(o) for o in shared if o != c)}
+                df_groupings.at[i, "parent"] = "|".join(sorted(most_specific))
+                replaced += 1
+            elif current == {UPHENO_TAXON_SPECIFIC}:
+                df_groupings.at[i, "parent"] = UPHENO_ROOT
+        elif UPHENO_TAXON_SPECIFIC in current:
+            df_groupings.at[i, "parent"] = "|".join(sorted(current - {UPHENO_TAXON_SPECIFIC}))
+            dropped += 1
+
+    df_groupings.to_csv(groupings, sep="\t", index=False)
+    click.echo(f"Placed {replaced} grouping classes, dropped 'taxon specific phenotype' from {dropped} more.")
 
 # Subcommand: help
 @upheno.command()
