@@ -274,11 +274,6 @@ $(TEMPLATEDIR)/root-alignments.tsv:
 $(TEMPLATEDIR)/axiom-injections.tsv:
 	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vRx0gi2I-Ks14LGNibiy6YzW-3A45_jZOnYsBNmaIjF3M8vrXboJwBYle525RXVscXhGGlOzGe05VhX/pub?gid=1825106877&single=true&output=tsv" -O $@
 
-$(COMPONENTSDIR)/upheno-species-neutral.owl:
-	$(ROBOT) merge -i ../curation/upheno-release-prepare/all/upheno_layer.owl \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
-		convert -f ofn -o $@
-
 ## Something in the dependency chain is still broken here.
 ## This component depends on the mappings which depend on other components
 $(COMPONENTSDIR)/upheno-mappings.owl: $(SRC) $(MAPPINGDIR)/upheno-species-independent.sssom.owl $(MAPPINGDIR)/upheno-cross-species.sssom.owl

@@ -70,7 +70,6 @@ These are cross-species grouping classes that don't have an EQ (equivalence axio
 - `upheno-alignments.owl`: Built from `upheno-ssspo-alignments-no-eq.tsv`, contains SubClassOf axioms mapping species-specific phenotypes to UPHENO grouping classes
 - `upheno-mappings.owl`: Built from SSSOM mapping files, contains cross-species mapping annotations
 - `upheno-bridge.owl`: Derived from species-independent mappings via SPARQL construct
-- `upheno-species-neutral.owl`: Built from the pattern-based pipeline output (`upheno_layer.owl`)
 
 ## DOSDP Patterns
 
@@ -112,7 +111,6 @@ All OWL files in `src/ontology/components/` are **generated** — never edit the
 | `upheno-top.owl` | `src/templates/phenotype-top-level.tsv` (ROBOT template) |
 | `upheno-manual-curation.owl` | `src/templates/upheno-ssspo-groupings-no-eq.tsv` + `phenotypes-without-patterns.tsv` |
 | `upheno-alignments.owl` | `src/templates/upheno-ssspo-alignments-no-eq.tsv` + `phenotype-alignments.tsv` + `root-alignments.tsv` |
-| `upheno-species-neutral.owl` | DOSDP pipeline output (`upheno_layer.owl`) |
 | `upheno-mappings.owl` | SSSOM mapping files in `src/mappings/` |
 | `upheno-bridge.owl` | SPARQL construct over species-independent mappings |
 | `upheno-deprecated.owl` | `src/templates/obsolete.tsv` |
