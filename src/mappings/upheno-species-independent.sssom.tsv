@@ -19,7 +19,8 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://w3id.org/sssom/license/unspecified
-# mapping_set_id: https://w3id.org/sssom/mappings/1ce638dd-52b5-44b4-a3a9-eb87a78f18fe
+# mapping_set_description: The official uPheno species independent mappings.
+# mapping_set_id: https://data.monarchinitiative.org/mappings/upheno-species-independent.sssom.tsv
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	license
 APO:0000017		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
 APO:0000045		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
