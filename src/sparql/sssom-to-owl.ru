@@ -12,4 +12,13 @@ INSERT {
 }
 WHERE {
     ?pheno_id1 semapv:crossSpeciesExactMatch ?pheno_id2 .
+} ;
+
+# Drop the mapping set node and its sssom:mappings links. They are blank nodes whose generated ids
+# change for every row added or removed, so they turned each rebuild of upheno-mappings.owl into a
+# 100k+ line diff (#1045). Nothing reads them: the bridge only uses crossSpeciesExactMatch.
+DELETE { ?set ?p ?o }
+WHERE {
+    ?set a <https://w3id.org/sssom/MappingSet> ;
+         ?p ?o .
 }
