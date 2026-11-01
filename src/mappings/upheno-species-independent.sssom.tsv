@@ -8480,7 +8480,7 @@ MP:0003253		semapv:crossSpeciesExactMatch	UPHENO:0084128		semapv:MappingInversio
 MP:0003254	bile duct inflammation	semapv:crossSpeciesExactMatch	UPHENO:0074605	increased inflammatory response in biliary tree	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MP:0003255		semapv:crossSpeciesExactMatch	UPHENO:0014246		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 MP:0003256	biliary cirrhosis	semapv:crossSpeciesExactMatch	UPHENO:7000366	biliary cirrhosis	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
-MP:0003257	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:0075843	abdominal wall phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
+MP:0003257	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:7000963	abdominal wall morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MP:0003258	hiatal hernia	semapv:crossSpeciesExactMatch	UPHENO:7000324	hiatal hernia; hiatus hernia	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MP:0003259	nausea	semapv:crossSpeciesExactMatch	UPHENO:7000320	nausea	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 MP:0003260	vomiting	semapv:crossSpeciesExactMatch	UPHENO:7000318	vomiting	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
@@ -29083,8 +29083,6 @@ UPHENO:0075838		semapv:crossSpeciesExactMatch	HP:0009542		semapv:LogicalReasonin
 UPHENO:0075839		semapv:crossSpeciesExactMatch	HP:0100623		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0075840		semapv:crossSpeciesExactMatch	HP:0100253		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0075843		semapv:crossSpeciesExactMatch	HP:0004298		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
-UPHENO:0075843	abdominal wall phenotype	semapv:crossSpeciesExactMatch	MP:0003257	abnormal abdominal wall morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
-UPHENO:0075843	abdominal wall phenotype	semapv:crossSpeciesExactMatch	XPO:0142060	abnormal abdominal wall morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:0075844		semapv:crossSpeciesExactMatch	HP:0001443		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0075847		semapv:crossSpeciesExactMatch	HP:0010758		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
 UPHENO:0075847		semapv:crossSpeciesExactMatch	ZP:0108787		semapv:LogicalReasoning	https://w3id.org/sssom/license/unspecified
@@ -40985,6 +40983,8 @@ UPHENO:7000961	anterior semicircular canal; superior semicircular canal morpholo
 UPHENO:7000961	anterior semicircular canal; superior semicircular canal morphology	semapv:crossSpeciesExactMatch	XPO:0101383	abnormal anterior semicircular canal	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000962	sinus venosus morphology	semapv:crossSpeciesExactMatch	MP:0003228	abnormal sinus venosus morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000962	sinus venosus morphology	semapv:crossSpeciesExactMatch	XPO:0103024	abnormal sinus venosus morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
+UPHENO:7000963	abdominal wall morphology	semapv:crossSpeciesExactMatch	MP:0003257	abnormal abdominal wall morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
+UPHENO:7000963	abdominal wall morphology	semapv:crossSpeciesExactMatch	XPO:0142060	abnormal abdominal wall morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000964	locomotor coordination; locomotor coordination variant	semapv:crossSpeciesExactMatch	MP:0003312	abnormal locomotor coordination	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000964	locomotor coordination; locomotor coordination variant	semapv:crossSpeciesExactMatch	WBPhenotype:0004017	locomotor coordination variant	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
 UPHENO:7000965	radial glial cell morphology	semapv:crossSpeciesExactMatch	MP:0003648	abnormal radial glial cell morphology	semapv:MappingInversion	https://creativecommons.org/publicdomain/zero/1.0/
@@ -44552,7 +44552,7 @@ XPO:0141923		semapv:crossSpeciesExactMatch	UPHENO:0078582		semapv:MappingInversi
 XPO:0141957		semapv:crossSpeciesExactMatch	UPHENO:0086369		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0141975		semapv:crossSpeciesExactMatch	UPHENO:0050263		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 XPO:0142058	abnormal cerebrospinal fluid morphology	semapv:crossSpeciesExactMatch	UPHENO:0088185	cerebrospinal fluid morphology phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
-XPO:0142060	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:0075843	abdominal wall phenotype	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
+XPO:0142060	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:7000963	abdominal wall morphology	semapv:LogicalReasoning	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0000000		semapv:crossSpeciesExactMatch	UPHENO:0001003	phenotype	semapv:ManualMappingCuration	https://creativecommons.org/publicdomain/zero/1.0/
 ZP:0000009		semapv:crossSpeciesExactMatch	UPHENO:0064258		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified
 ZP:0000011		semapv:crossSpeciesExactMatch	UPHENO:0004545		semapv:MappingInversion	https://w3id.org/sssom/license/unspecified

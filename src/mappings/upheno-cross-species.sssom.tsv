@@ -12890,7 +12890,7 @@ MP:0003255	bile duct proliferation	semapv:crossSpeciesExactMatch	HP:0001408	Bile
 MP:0003255	bile duct proliferation	semapv:crossSpeciesExactMatch	UPHENO:0014246		semapv:LogicalReasoning	obo:mp	obo:upheno
 MP:0003256	biliary cirrhosis	semapv:crossSpeciesExactMatch	HP:0002613	Biliary cirrhosis	semapv:LexicalAndLogicalMatching	obo:mp	obo:hp
 MP:0003256	biliary cirrhosis	semapv:crossSpeciesExactMatch	UPHENO:7000366		semapv:LogicalReasoning	obo:mp	obo:upheno
-MP:0003257	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:0075843		semapv:LogicalReasoning	obo:mp	obo:upheno
+MP:0003257	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:7000963		semapv:LogicalReasoning	obo:mp	obo:upheno
 MP:0003257	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	XPO:0142060	abnormal abdominal wall morphology	semapv:LexicalAndLogicalMatching	obo:mp	obo:xpo
 MP:0003258	hiatal hernia	semapv:crossSpeciesExactMatch	HP:0002036	Hiatus hernia	semapv:LexicalAndLogicalMatching	obo:mp	obo:hp
 MP:0003258	hiatal hernia	semapv:crossSpeciesExactMatch	UPHENO:7000324		semapv:LogicalReasoning	obo:mp	obo:upheno
@@ -47985,8 +47985,8 @@ UPHENO:7000961		semapv:crossSpeciesExactMatch	MP:0003069	abnormal superior semic
 UPHENO:7000961		semapv:crossSpeciesExactMatch	XPO:0101383	abnormal anterior semicircular canal	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:7000962		semapv:crossSpeciesExactMatch	MP:0003228	abnormal sinus venosus morphology	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:7000962		semapv:crossSpeciesExactMatch	XPO:0103024	abnormal sinus venosus morphology	semapv:LogicalReasoning	obo:upheno	obo:xpo
-UPHENO:0075843		semapv:crossSpeciesExactMatch	MP:0003257	abnormal abdominal wall morphology	semapv:LogicalReasoning	obo:upheno	obo:mp
-UPHENO:0075843		semapv:crossSpeciesExactMatch	XPO:0142060	abnormal abdominal wall morphology	semapv:LogicalReasoning	obo:upheno	obo:xpo
+UPHENO:7000963		semapv:crossSpeciesExactMatch	MP:0003257	abnormal abdominal wall morphology	semapv:LogicalReasoning	obo:upheno	obo:mp
+UPHENO:7000963		semapv:crossSpeciesExactMatch	XPO:0142060	abnormal abdominal wall morphology	semapv:LogicalReasoning	obo:upheno	obo:xpo
 UPHENO:7000964		semapv:crossSpeciesExactMatch	MP:0003312	abnormal locomotor coordination	semapv:LogicalReasoning	obo:upheno	obo:mp
 UPHENO:7000964		semapv:crossSpeciesExactMatch	WBPhenotype:0004017	locomotor coordination variant	semapv:LogicalReasoning	obo:upheno	obo:wbphenotype
 UPHENO:7000965		semapv:crossSpeciesExactMatch	MP:0003648	abnormal radial glial cell morphology	semapv:LogicalReasoning	obo:upheno	obo:mp
@@ -53144,7 +53144,7 @@ XPO:0141975	abnormal cilium motility	semapv:crossSpeciesExactMatch	UPHENO:005026
 XPO:0142058	abnormal cerebrospinal fluid morphology	semapv:crossSpeciesExactMatch	HP:0002921	Abnormal cerebrospinal fluid morphology	semapv:LexicalAndLogicalMatching	obo:xpo	obo:hp
 XPO:0142058	abnormal cerebrospinal fluid morphology	semapv:crossSpeciesExactMatch	UPHENO:0088185		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0142060	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	MP:0003257	abnormal abdominal wall morphology	semapv:LexicalAndLogicalMatching	obo:xpo	obo:mp
-XPO:0142060	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:0075843		semapv:LogicalReasoning	obo:xpo	obo:upheno
+XPO:0142060	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:7000963		semapv:LogicalReasoning	obo:xpo	obo:upheno
 XPO:0142500	abnormal granulocyte morphology	semapv:crossSpeciesExactMatch	ZP:0016386	granulocyte morphology, abnormal	semapv:LexicalMatching	obo:xpo	obo:zp
 XPO:0142816	abnormal degree of pigmentation of the head	semapv:crossSpeciesExactMatch	PLANP:0000810	abnormal pigmentation of the head	semapv:LexicalMatching	obo:xpo	obo:planp
 XPO:0142823	abnormal degree of pigmentation of the epidermis	semapv:crossSpeciesExactMatch	PLANP:0000535	abnormal pigmentation of the epidermis	semapv:LexicalMatching	obo:xpo	obo:planp

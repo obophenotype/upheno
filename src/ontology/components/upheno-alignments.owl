@@ -3400,7 +3400,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075189>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075791>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075843>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075866>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075901>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0075911>))
@@ -5211,6 +5210,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000959>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000960>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000961>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000962>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000963>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000964>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000965>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000966>))
@@ -13954,7 +13954,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/MP_0003256> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/MP_0003257> (<http://purl.obolibrary.org/obo/MP_0003257>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/MP_0003257> <http://purl.obolibrary.org/obo/UPHENO_0075843>)
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0003257> <http://purl.obolibrary.org/obo/UPHENO_7000963>)
 
 # Class: <http://purl.obolibrary.org/obo/MP_0003258> (<http://purl.obolibrary.org/obo/MP_0003258>)
 
@@ -20723,7 +20723,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/XPO_0142058> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/XPO_0142060> (<http://purl.obolibrary.org/obo/XPO_0142060>)
 
-SubClassOf(<http://purl.obolibrary.org/obo/XPO_0142060> <http://purl.obolibrary.org/obo/UPHENO_0075843>)
+SubClassOf(<http://purl.obolibrary.org/obo/XPO_0142060> <http://purl.obolibrary.org/obo/UPHENO_7000963>)
 
 # Class: <http://purl.obolibrary.org/obo/ZP_0000000> (<http://purl.obolibrary.org/obo/ZP_0000000>)
 

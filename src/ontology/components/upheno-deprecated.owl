@@ -17480,7 +17480,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000855>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000867>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000916>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000956>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000963>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001075>))
@@ -107041,14 +107040,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000956> "Merged into UPHENO:0088163 'macrophage morphology phenotype': MGI matches the HP and MP terms label-for-label.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000956> "obsolete macrophage morphology phenotype")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000956> "true"^^xsd:boolean)
-
-# Class: <http://purl.obolibrary.org/obo/UPHENO_7000963> (obsolete abdominal wall morphology phenotype)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000963> <https://github.com/obophenotype/upheno/issues/1047>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000963> <http://purl.obolibrary.org/obo/UPHENO_0075843>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000963> "Merged into UPHENO:0075843 'abdominal wall phenotype': MGI matches the HP and MP terms label-for-label.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000963> "obsolete abdominal wall morphology phenotype")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000963> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_7001073> (obsolete regulation of telomerase activity phenotype; regulation of telomerase activity process quality (phenotype grouping))
 
