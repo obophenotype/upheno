@@ -1543,9 +1543,9 @@ MP:0021164	oral cleft	UPHENO:7000149	oral cleft; orofacial cleft
 HP:0000214	Lip telangiectasia	UPHENO:7000151	lip telangiectasia
 MP:0003778	lip telangiectasia	UPHENO:7000151	lip telangiectasia
 FYPO:0000702	protein-protein interaction phenotype	UPHENO:7000046	protein-protein interaction phenotype
-HP:0000326	Abnormal maxilla morphology	UPHENO:7000156	maxilla morphology
+HP:0000326	Abnormal maxilla morphology	UPHENO:0087341	maxilla morphology phenotype
 PHIPO:0000132	protein-protein interaction phenotype	UPHENO:7000046	protein-protein interaction phenotype
-ZP:0102648	maxilla morphology, abnormal	UPHENO:7000156	maxilla morphology
+ZP:0102648	maxilla morphology, abnormal	UPHENO:0087341	maxilla morphology phenotype
 FYPO:0000703	normal protein-protein interaction	UPHENO:7000047	normal protein-protein interaction
 HP:0000358	Posteriorly rotated ears	UPHENO:7000157	posteriorly rotated ears
 MP:0003715	posteriorly rotated ears	UPHENO:7000157	posteriorly rotated ears
@@ -1579,8 +1579,8 @@ HP:0031786	Cogan lid twitch	UPHENO:7000193	blepharospasm; cogan lid twitch; eyel
 MP:0006244	eyelid muscle spasm	UPHENO:7000193	blepharospasm; cogan lid twitch; eyelid muscle spasm
 HP:0000651	Diplopia	UPHENO:7000196	diplopia; double vision
 MP:0006150	double vision	UPHENO:7000196	diplopia; double vision
-HP:0000782	Abnormal scapula morphology	UPHENO:7000204	scapula morphology
-XPO:0102865	abnormal scapula morphology	UPHENO:7000204	scapula morphology
+HP:0000782	Abnormal scapula morphology	UPHENO:0086964	scapula morphology phenotype
+XPO:0102865	abnormal scapula morphology	UPHENO:0086964	scapula morphology phenotype
 HP:0000811	Abnormal external genitalia morphology	UPHENO:7000206	external genitalia morphology; external genitalia phenotype
 FYPO:0000980	normal growth on amphotericin B	UPHENO:7000057	normal growth on amphotericin b
 HP:0000843	Hyperparathyroidism	UPHENO:7000211	hyperparathyroidism; increased activity of parathyroid
@@ -1734,8 +1734,8 @@ MP:0005338	atherosclerotic lesions	UPHENO:7000370	atherosclerosis; atherosclerot
 MP:0014242	abnormal ribosome biogenesis	UPHENO:7000101	ribosome biogenesis
 HP:0002623	Overriding aorta	UPHENO:7000371	overriding aorta; overriding aortic valve
 MP:0000273	overriding aortic valve	UPHENO:7000371	overriding aorta; overriding aortic valve
-HP:0002696	Abnormal parietal bone morphology	UPHENO:7000378	parietal bone morphology
-ZP:0106640	parietal bone morphology, abnormal	UPHENO:7000378	parietal bone morphology
+HP:0002696	Abnormal parietal bone morphology	UPHENO:0087146	tetrapod parietal bone morphology phenotype
+ZP:0106640	parietal bone morphology, abnormal	UPHENO:0087146	tetrapod parietal bone morphology phenotype
 FYPO:0005502	abnormal transcription	UPHENO:7000104	dna-templated transcription; transcription
 HP:0002714	Downturned corners of mouth	UPHENO:7000379	down-turned corners of mouth; downturned corners of mouth
 MP:0003749	down-turned corners of mouth	UPHENO:7000379	down-turned corners of mouth; downturned corners of mouth
@@ -1856,8 +1856,8 @@ HP:0000039	Epispadias	UPHENO:7000139	epispadia; epispadias
 MP:0003598	epispadia	UPHENO:7000139	epispadia; epispadias
 HP:0009125	Lipodystrophy	UPHENO:7000498	lipodystrophy
 MP:0011174	lipodystrophy	UPHENO:7000498	lipodystrophy
-HP:0009145	Abnormal cerebral artery morphology	UPHENO:7000499	cerebral artery morphology
-XPO:0102225	abnormal cerebral artery morphology	UPHENO:7000499	cerebral artery morphology
+HP:0009145	Abnormal cerebral artery morphology	UPHENO:0087835	cerebral artery morphology phenotype
+XPO:0102225	abnormal cerebral artery morphology	UPHENO:0087835	cerebral artery morphology phenotype
 HP:0000070	Ureterocele	UPHENO:7000142	ureterocele
 HP:0009722	Dental enamel pits	UPHENO:7000500	dental enamel pits; enamel pits
 MP:0011767	ureterocele	UPHENO:7000142	ureterocele
@@ -1872,8 +1872,8 @@ HP:0000099	Glomerulonephritis	UPHENO:7000145	glomerulonephritis
 HP:0010648	Dermal translucency	UPHENO:7000514	dermal translucency; translucent skin
 MP:0001201	translucent skin	UPHENO:7000514	dermal translucency; translucent skin
 MP:0002743	glomerulonephritis	UPHENO:7000145	glomerulonephritis
-HP:0010663	Abnormal thalamus morphology	UPHENO:7000515	thalamus morphology
-ZP:0146393	thalamus morphology, abnormal	UPHENO:7000515	thalamus morphology
+HP:0010663	Abnormal thalamus morphology	UPHENO:0087517	dorsal plus ventral thalamus morphology phenotype
+ZP:0146393	thalamus morphology, abnormal	UPHENO:0087517	dorsal plus ventral thalamus morphology phenotype
 HP:0000125	Pelvic kidney	UPHENO:7000146	pelvic kidney
 HP:0010701	Abnormal circulating immunoglobulin concentration	UPHENO:7000518	circulating immunoglobulin concentration; immunoglobulin level
 MP:0002490	abnormal immunoglobulin level	UPHENO:7000518	circulating immunoglobulin concentration; immunoglobulin level
@@ -1950,10 +1950,10 @@ HP:0000480	Retinal coloboma	UPHENO:7000167	retina coloboma; retinal coloboma
 HP:0011608	Type II truncus arteriosus	UPHENO:7000564	persistent truncus arteriosus type ii; type ii truncus arteriosus
 MP:0010715	retina coloboma	UPHENO:7000167	retina coloboma; retinal coloboma
 MP:0011662	persistent truncus arteriosus type ii	UPHENO:7000564	persistent truncus arteriosus type ii; type ii truncus arteriosus
-HP:0000481	Abnormal cornea morphology	UPHENO:7000168	cornea morphology
+HP:0000481	Abnormal cornea morphology	UPHENO:0087577	cornea morphology phenotype
 HP:0011609	Type III truncus arteriosus	UPHENO:7000565	persistent truncus arteriosus type iii; type iii truncus arteriosus
 MP:0011663	persistent truncus arteriosus type iii	UPHENO:7000565	persistent truncus arteriosus type iii; type iii truncus arteriosus
-ZP:0010594	cornea morphology, abnormal	UPHENO:7000168	cornea morphology
+ZP:0010594	cornea morphology, abnormal	UPHENO:0087577	cornea morphology phenotype
 HP:0000486	Strabismus	UPHENO:7000169	strabismus
 HP:0011612	Interrupted aortic arch type A	UPHENO:7000568	interrupted aortic arch type a; interrupted aortic arch, type a
 MP:0005254	strabismus	UPHENO:7000169	strabismus
@@ -2040,9 +2040,9 @@ MP:0020220	decreased tear production	UPHENO:7000192	decreased lacrimation; decre
 HP:0012245	Sex reversal	UPHENO:7000620	sex reversal
 MP:0005652	sex reversal	UPHENO:7000620	sex reversal
 HP:0000647	Sclerocornea	UPHENO:7000194	sclerocornea
-HP:0012252	Abnormal respiratory system morphology	UPHENO:7000623	respiratory system morphology
+HP:0012252	Abnormal respiratory system morphology	UPHENO:0087433	respiratory system morphology phenotype
 MP:0012121	sclerocornea	UPHENO:7000194	sclerocornea
-XPO:0101949	abnormal respiratory system morphology	UPHENO:7000623	respiratory system morphology
+XPO:0101949	abnormal respiratory system morphology	UPHENO:0087433	respiratory system morphology phenotype
 HP:0000649	Abnormality of visual evoked potentials	UPHENO:7000195	abnormality of visual evoked potentials; visual evoked potential
 HP:0012280	Hepatic amyloidosis	UPHENO:7000625	hepatic amyloidosis
 MP:0010748	abnormal visual evoked potential	UPHENO:7000195	abnormality of visual evoked potentials; visual evoked potential
@@ -2188,9 +2188,9 @@ HP:0031266	Podocyte foot process effacement	UPHENO:7000742	podocyte foot process
 MP:0002794	lenticonus	UPHENO:7000237	lenticonus
 MP:0008140	podocyte foot process effacement	UPHENO:7000742	podocyte foot process effacement
 HP:0001254	Lethargy	UPHENO:7000238	lethargy
-HP:0031278	Abnormal thoracic duct morphology	UPHENO:7000743	thoracic duct morphology
+HP:0031278	Abnormal thoracic duct morphology	UPHENO:0086801	thoracic duct morphology phenotype
 MP:0005202	lethargy	UPHENO:7000238	lethargy
-ZP:0011219	thoracic duct morphology, abnormal	UPHENO:7000743	thoracic duct morphology
+ZP:0011219	thoracic duct morphology, abnormal	UPHENO:0086801	thoracic duct morphology phenotype
 HP:0001257	Spasticity	UPHENO:7000239	muscle hypertonia; spasticity
 HP:0031348	Dextrotransposition of the great arteries	UPHENO:7000747	d-loop transposition of the great arteries; dextrotransposition of the great arteries
 MP:0004143	muscle hypertonia	UPHENO:7000239	muscle hypertonia; spasticity
@@ -2310,9 +2310,9 @@ HP:0034609	Polychromasia	UPHENO:7000850	polychromasia; polychromatophilia
 MP:0000644	dextrocardia	UPHENO:7000271	dextrocardia
 MP:0005097	polychromatophilia	UPHENO:7000850	polychromasia; polychromatophilia
 HP:0001653	Mitral regurgitation	UPHENO:7000272	mitral regurgitation; mitral valve regurgitation
-HP:0040109	Abnormal utricle morphology	UPHENO:7000855	utricle morphology
+HP:0040109	Abnormal utricle morphology	UPHENO:0087538	utricle of membranous labyrinth morphology phenotype
 MP:0006045	mitral valve regurgitation	UPHENO:7000272	mitral regurgitation; mitral valve regurgitation
-ZP:0015512	utricle morphology, abnormal	UPHENO:7000855	utricle morphology
+ZP:0015512	utricle morphology, abnormal	UPHENO:0087538	utricle of membranous labyrinth morphology phenotype
 HP:0001657	Prolonged QT interval	UPHENO:7000273	prolonged qt interval
 HP:0040129	Abnormal nerve conduction velocity	UPHENO:7000856	nerve conduction; nerve conduction velocity
 MP:0003233	prolonged QT interval	UPHENO:7000273	prolonged qt interval
@@ -2418,8 +2418,8 @@ MP:0012551	metabolic acidosis	UPHENO:7000306	metabolic acidosis
 WBPhenotype:0000900	germ cell morphology variant	UPHENO:7000954	germ cell morphology; germ cell morphology variant
 HP:0001943	Hypoglycemia	UPHENO:7000307	hypoglycemia
 MP:0000189	hypoglycemia	UPHENO:7000307	hypoglycemia
-MP:0002446	abnormal macrophage morphology	UPHENO:7000956	macrophage morphology
-XPO:0102848	abnormal macrophage morphology	UPHENO:7000956	macrophage morphology
+MP:0002446	abnormal macrophage morphology	UPHENO:0088163	macrophage morphology phenotype
+XPO:0102848	abnormal macrophage morphology	UPHENO:0088163	macrophage morphology phenotype
 HP:0001944	Dehydration	UPHENO:7000308	dehydration
 MP:0001429	dehydration	UPHENO:7000308	dehydration
 MP:0002882	abnormal neuron morphology	UPHENO:7000960	neuron morphology; neuron morphology variant
@@ -2836,8 +2836,8 @@ HP:0011276	Vascular skin abnormality	UPHENO:7000539	skin vasculature morphology;
 MP:0014273	abnormal skin vasculature morphology	UPHENO:7000539	skin vasculature morphology; vascular skin abnormality
 HP:0011332	Hemifacial hypoplasia	UPHENO:7000540	hemifacial hypoplasia
 MP:0030100	hemifacial hypoplasia	UPHENO:7000540	hemifacial hypoplasia
-HP:0011390	Abnormal inner ear morphology	UPHENO:7000541	inner ear morphology
-XPO:0102168	abnormal inner ear morphology	UPHENO:7000541	inner ear morphology
+HP:0011390	Abnormal inner ear morphology	UPHENO:0087541	internal ear morphology phenotype
+XPO:0102168	abnormal inner ear morphology	UPHENO:0087541	internal ear morphology phenotype
 HP:0011480	Unilateral microphthalmos	UPHENO:7000543	unilateral microphthalmia; unilateral microphthalmos
 MP:0031289	unilateral microphthalmia	UPHENO:7000543	unilateral microphthalmia; unilateral microphthalmos
 HP:0011488	Abnormal corneal endothelium morphology	UPHENO:7000545	corneal endothelium morphology
@@ -2938,8 +2938,8 @@ HP:0012330	Pyelonephritis	UPHENO:7000628	pyelonephritis
 MP:0011403	pyelonephritis	UPHENO:7000628	pyelonephritis
 HP:0012334	Extrahepatic cholestasis	UPHENO:7000629	extrahepatic cholestasis
 MP:0005414	extrahepatic cholestasis	UPHENO:7000629	extrahepatic cholestasis
-HP:0012372	Abnormal eye morphology	UPHENO:7000632	eye morphology
-ZP:0000943	eye morphology, abnormal	UPHENO:7000632	eye morphology
+HP:0012372	Abnormal eye morphology	UPHENO:0087924	camera-type eye morphology phenotype
+ZP:0000943	eye morphology, abnormal	UPHENO:0087924	camera-type eye morphology phenotype
 HP:0012378	Fatigue	UPHENO:7000633	fatigue
 MP:0002899	fatigue	UPHENO:7000633	fatigue
 HP:0012384	Rhinitis	UPHENO:7000635	rhinitis
@@ -3034,8 +3034,8 @@ HP:0025722	Cerebral infarct	UPHENO:7000694	cerebral infarct
 MP:0021003	cerebral infarct	UPHENO:7000694	cerebral infarct
 HP:0030010	Hydrometrocolpos	UPHENO:7000696	hydrometrocolpos
 MP:0003537	hydrometrocolpos	UPHENO:7000696	hydrometrocolpos
-HP:0030321	Abnormal vertebral artery morphology	UPHENO:7000703	vertebral artery morphology
-ZP:0021380	vertebral artery morphology, abnormal	UPHENO:7000703	vertebral artery morphology
+HP:0030321	Abnormal vertebral artery morphology	UPHENO:0087150	vertebral artery morphology phenotype
+ZP:0021380	vertebral artery morphology, abnormal	UPHENO:0087150	vertebral artery morphology phenotype
 HP:0030329	Retinal thinning	UPHENO:7000704	decreased total retina thickness; retinal thinning
 MP:0011965	decreased total retina thickness	UPHENO:7000704	decreased total retina thickness; retinal thinning
 HP:0030333	Abnormal alpha-beta T cell morphology	UPHENO:7000705	alpha-beta t cell morphology
@@ -3060,8 +3060,8 @@ HP:0030770	Craniorachischisis	UPHENO:7000718	craniorachischisis
 MP:0008784	craniorachischisis	UPHENO:7000718	craniorachischisis
 HP:0030779	Ethmocephaly	UPHENO:7000719	ethmocephaly
 MP:0014061	ethmocephaly	UPHENO:7000719	ethmocephaly
-HP:0030809	Abnormal tongue morphology	UPHENO:7000720	tongue morphology
-XPO:0103199	abnormal tongue morphology	UPHENO:7000720	tongue morphology
+HP:0030809	Abnormal tongue morphology	UPHENO:0088098	tongue morphology phenotype
+XPO:0103199	abnormal tongue morphology	UPHENO:0088098	tongue morphology phenotype
 HP:0030828	Wheezing	UPHENO:7000721	wheezing
 MP:0031086	wheezing	UPHENO:7000721	wheezing
 HP:0030830	Crackles	UPHENO:7000722	crackles
@@ -3396,8 +3396,8 @@ MP:0002877	abnormal melanocyte morphology	UPHENO:7000959	melanocyte morphology
 ZP:0001260	melanocyte morphology, abnormal	UPHENO:7000959	melanocyte morphology
 MP:0003228	abnormal sinus venosus morphology	UPHENO:7000962	sinus venosus morphology
 XPO:0103024	abnormal sinus venosus morphology	UPHENO:7000962	sinus venosus morphology
-MP:0003257	abnormal abdominal wall morphology	UPHENO:7000963	abdominal wall morphology
-XPO:0142060	abnormal abdominal wall morphology	UPHENO:7000963	abdominal wall morphology
+MP:0003257	abnormal abdominal wall morphology	UPHENO:0075843	abdominal wall phenotype
+XPO:0142060	abnormal abdominal wall morphology	UPHENO:0075843	abdominal wall phenotype
 MP:0003648	abnormal radial glial cell morphology	UPHENO:7000965	radial glial cell morphology
 XPO:0102757	abnormal radial glial cell morphology	UPHENO:7000965	radial glial cell morphology
 MP:0003719	abnormal pericyte morphology	UPHENO:7000967	pericyte morphology
@@ -3602,8 +3602,8 @@ XPO:0101744	abnormal fin vasculature morphology	UPHENO:7001103	fin vasculature m
 ZP:0015449	fin vasculature morphology, abnormal	UPHENO:7001103	fin vasculature morphology
 XPO:0101748	abnormal aortic arch 1 morphology	UPHENO:7001104	aortic arch 1 morphology
 ZP:0018513	aortic arch 1 morphology, abnormal	UPHENO:7001104	aortic arch 1 morphology
-HP:0410043	Abnormal neural tube morphology	UPHENO:7000916	neural tube morphology
-XPO:0101768	abnormal neural tube morphology	UPHENO:7000916	neural tube morphology
+HP:0410043	Abnormal neural tube morphology	UPHENO:0087363	neural tube morphology phenotype
+XPO:0101768	abnormal neural tube morphology	UPHENO:0087363	neural tube morphology phenotype
 XPO:0101770	abnormal trunk vasculature morphology	UPHENO:7001107	trunk vasculature morphology
 ZP:0000456	trunk vasculature morphology, abnormal	UPHENO:7001107	trunk vasculature morphology
 XPO:0101772	abnormal intermediate mesoderm morphology	UPHENO:7001108	intermediate mesoderm morphology
@@ -4099,8 +4099,8 @@ MP:0004282	retrognathia	UPHENO:7000154	mandibular retrognathia; retrognathia
 MP:0030273	mandibular retrognathia	UPHENO:7000154	mandibular retrognathia; retrognathia
 HP:0000280	Coarse facial features	UPHENO:7000155	coarse facial features
 MP:0030074	coarse facial features	UPHENO:7000155	coarse facial features
-HP:0000326	Abnormal maxilla morphology	UPHENO:7000156	maxilla morphology
-ZP:0102648	maxilla morphology, abnormal	UPHENO:7000156	maxilla morphology
+HP:0000326	Abnormal maxilla morphology	UPHENO:0087341	maxilla morphology phenotype
+ZP:0102648	maxilla morphology, abnormal	UPHENO:0087341	maxilla morphology phenotype
 HP:0000358	Posteriorly rotated ears	UPHENO:7000157	posteriorly rotated ears
 MP:0003715	posteriorly rotated ears	UPHENO:7000157	posteriorly rotated ears
 HP:0000360	Tinnitus	UPHENO:7000158	tinnitus
@@ -4123,8 +4123,8 @@ HP:0000473	Torticollis	UPHENO:7000166	torticollis
 MP:0030126	torticollis	UPHENO:7000166	torticollis
 HP:0000480	Retinal coloboma	UPHENO:7000167	retina coloboma; retinal coloboma
 MP:0010715	retina coloboma	UPHENO:7000167	retina coloboma; retinal coloboma
-HP:0000481	Abnormal cornea morphology	UPHENO:7000168	cornea morphology
-ZP:0010594	cornea morphology, abnormal	UPHENO:7000168	cornea morphology
+HP:0000481	Abnormal cornea morphology	UPHENO:0087577	cornea morphology phenotype
+ZP:0010594	cornea morphology, abnormal	UPHENO:0087577	cornea morphology phenotype
 HP:0000486	Strabismus	UPHENO:7000169	strabismus
 MP:0005254	strabismus	UPHENO:7000169	strabismus
 HP:0000490	Deeply set eye	UPHENO:7000170	deeply set eye; enophthalmos
@@ -4196,8 +4196,8 @@ HP:0000689	Dental malocclusion	UPHENO:7000202	dental malocclusion; malocclusion
 MP:0000120	malocclusion	UPHENO:7000202	dental malocclusion; malocclusion
 HP:0000762	Decreased nerve conduction velocity	UPHENO:7000203	decreased nerve conduction velocity
 MP:0008814	decreased nerve conduction velocity	UPHENO:7000203	decreased nerve conduction velocity
-HP:0000782	Abnormal scapula morphology	UPHENO:7000204	scapula morphology
-XPO:0102865	abnormal scapula morphology	UPHENO:7000204	scapula morphology
+HP:0000782	Abnormal scapula morphology	UPHENO:0086964	scapula morphology phenotype
+XPO:0102865	abnormal scapula morphology	UPHENO:0086964	scapula morphology phenotype
 HP:0000787	Nephrolithiasis	UPHENO:7000205	nephrolithiasis
 MP:0002708	nephrolithiasis	UPHENO:7000205	nephrolithiasis
 HP:0000811	Abnormal external genitalia morphology	UPHENO:7000206	external genitalia morphology; external genitalia phenotype
@@ -4545,8 +4545,8 @@ HP:0002650	Scoliosis	UPHENO:7000376	scoliosis
 MP:0000161	scoliosis	UPHENO:7000376	scoliosis
 HP:0002659	Increased susceptibility to fractures	UPHENO:7000377	fragile skeleton; increased susceptibility to fractures
 MP:0000061	fragile skeleton	UPHENO:7000377	fragile skeleton; increased susceptibility to fractures
-HP:0002696	Abnormal parietal bone morphology	UPHENO:7000378	parietal bone morphology
-ZP:0106640	parietal bone morphology, abnormal	UPHENO:7000378	parietal bone morphology
+HP:0002696	Abnormal parietal bone morphology	UPHENO:0087146	tetrapod parietal bone morphology phenotype
+ZP:0106640	parietal bone morphology, abnormal	UPHENO:0087146	tetrapod parietal bone morphology phenotype
 HP:0002714	Downturned corners of mouth	UPHENO:7000379	down-turned corners of mouth; downturned corners of mouth
 MP:0003749	down-turned corners of mouth	UPHENO:7000379	down-turned corners of mouth; downturned corners of mouth
 HP:0002745	Oral leukoplakia	UPHENO:7000380	oral leukoplakia
@@ -4789,8 +4789,8 @@ HP:0008716	Urethrovaginal fistula	UPHENO:7000496	urethrovaginal fistula
 MP:0003593	urethrovaginal fistula	UPHENO:7000496	urethrovaginal fistula
 HP:0009125	Lipodystrophy	UPHENO:7000498	lipodystrophy
 MP:0011174	lipodystrophy	UPHENO:7000498	lipodystrophy
-HP:0009145	Abnormal cerebral artery morphology	UPHENO:7000499	cerebral artery morphology
-XPO:0102225	abnormal cerebral artery morphology	UPHENO:7000499	cerebral artery morphology
+HP:0009145	Abnormal cerebral artery morphology	UPHENO:0087835	cerebral artery morphology phenotype
+XPO:0102225	abnormal cerebral artery morphology	UPHENO:0087835	cerebral artery morphology phenotype
 HP:0009722	Dental enamel pits	UPHENO:7000500	dental enamel pits; enamel pits
 MP:0030460	enamel pits	UPHENO:7000500	dental enamel pits; enamel pits
 HP:0009741	Nephrosclerosis	UPHENO:7000501	nephrosclerosis
@@ -4821,8 +4821,8 @@ HP:0010459	True hermaphroditism	UPHENO:7000513	true hermaphroditism
 MP:0002213	true hermaphroditism	UPHENO:7000513	true hermaphroditism
 HP:0010648	Dermal translucency	UPHENO:7000514	dermal translucency; translucent skin
 MP:0001201	translucent skin	UPHENO:7000514	dermal translucency; translucent skin
-HP:0010663	Abnormal thalamus morphology	UPHENO:7000515	thalamus morphology
-ZP:0146393	thalamus morphology, abnormal	UPHENO:7000515	thalamus morphology
+HP:0010663	Abnormal thalamus morphology	UPHENO:0087517	dorsal plus ventral thalamus morphology phenotype
+ZP:0146393	thalamus morphology, abnormal	UPHENO:0087517	dorsal plus ventral thalamus morphology phenotype
 HP:0010695	Sutural cataract	UPHENO:7000516	sutural cataract
 MP:0010261	sutural cataract	UPHENO:7000516	sutural cataract
 HP:0010696	Polar cataract	UPHENO:7000517	polar cataract
@@ -4873,8 +4873,8 @@ HP:0011276	Vascular skin abnormality	UPHENO:7000539	skin vasculature morphology;
 MP:0014273	abnormal skin vasculature morphology	UPHENO:7000539	skin vasculature morphology; vascular skin abnormality
 HP:0011332	Hemifacial hypoplasia	UPHENO:7000540	hemifacial hypoplasia
 MP:0030100	hemifacial hypoplasia	UPHENO:7000540	hemifacial hypoplasia
-HP:0011390	Abnormal inner ear morphology	UPHENO:7000541	inner ear morphology
-XPO:0102168	abnormal inner ear morphology	UPHENO:7000541	inner ear morphology
+HP:0011390	Abnormal inner ear morphology	UPHENO:0087541	internal ear morphology phenotype
+XPO:0102168	abnormal inner ear morphology	UPHENO:0087541	internal ear morphology phenotype
 HP:0011468	Facial tics	UPHENO:7000542	facial muscle spasm; facial tics
 MP:0030143	facial muscle spasm	UPHENO:7000542	facial muscle spasm; facial tics
 HP:0011480	Unilateral microphthalmos	UPHENO:7000543	unilateral microphthalmia; unilateral microphthalmos
@@ -5036,8 +5036,8 @@ HP:0012248	Prolonged PR interval	UPHENO:7000621	prolonged pr interval
 MP:0003896	prolonged PR interval	UPHENO:7000621	prolonged pr interval
 HP:0012249	Abnormal ST segment	UPHENO:7000622	st segment
 MP:0003897	abnormal ST segment	UPHENO:7000622	st segment
-HP:0012252	Abnormal respiratory system morphology	UPHENO:7000623	respiratory system morphology
-XPO:0101949	abnormal respiratory system morphology	UPHENO:7000623	respiratory system morphology
+HP:0012252	Abnormal respiratory system morphology	UPHENO:0087433	respiratory system morphology phenotype
+XPO:0101949	abnormal respiratory system morphology	UPHENO:0087433	respiratory system morphology phenotype
 HP:0012261	Abnormal respiratory motile cilium physiology	UPHENO:7000624	respiratory motile cilium physiology
 MP:0011055	abnormal respiratory motile cilium physiology	UPHENO:7000624	respiratory motile cilium physiology
 HP:0012280	Hepatic amyloidosis	UPHENO:7000625	hepatic amyloidosis
@@ -5054,8 +5054,8 @@ HP:0012337	Abnormal homeostasis	UPHENO:7000630	homeostasis
 MP:0001764	abnormal homeostasis	UPHENO:7000630	homeostasis
 HP:0012338	Abnormal energy expenditure	UPHENO:7000631	energy expenditure
 MP:0005450	abnormal energy expenditure	UPHENO:7000631	energy expenditure
-HP:0012372	Abnormal eye morphology	UPHENO:7000632	eye morphology
-ZP:0000943	eye morphology, abnormal	UPHENO:7000632	eye morphology
+HP:0012372	Abnormal eye morphology	UPHENO:0087924	camera-type eye morphology phenotype
+ZP:0000943	eye morphology, abnormal	UPHENO:0087924	camera-type eye morphology phenotype
 HP:0012378	Fatigue	UPHENO:7000633	fatigue
 MP:0002899	fatigue	UPHENO:7000633	fatigue
 HP:0012382	Left-to-right shunt	UPHENO:7000634	left-to-right shunt
@@ -5130,8 +5130,8 @@ HP:0025021	Abnormal erythrocyte sedimentation rate	UPHENO:7000668	erythrocyte se
 MP:0031061	abnormal erythrocyte sedimentation rate	UPHENO:7000668	erythrocyte sedimentation rate
 HP:0025022	Decreased erythrocyte sedimentation rate	UPHENO:7000669	decreased erythrocyte sedimentation rate
 MP:0031062	decreased erythrocyte sedimentation rate	UPHENO:7000669	decreased erythrocyte sedimentation rate
-HP:0025028	Abnormal enteric nervous system morphology	UPHENO:7000670	enteric nervous system morphology
-XPO:0107340	abnormal enteric nervous system morphology	UPHENO:7000670	enteric nervous system morphology
+HP:0025028	Abnormal enteric nervous system morphology	UPHENO:0086978	enteric nervous system morphology phenotype
+XPO:0107340	abnormal enteric nervous system morphology	UPHENO:0086978	enteric nervous system morphology phenotype
 HP:0025065	Abnormal mean corpuscular volume	UPHENO:7000671	mean corpuscular volume
 MP:0000226	abnormal mean corpuscular volume	UPHENO:7000671	mean corpuscular volume
 HP:0025074	Abnormal QRS complex	UPHENO:7000672	qrs complex
@@ -5196,8 +5196,8 @@ HP:0030187	Titubation	UPHENO:7000701	titubation
 MP:0009514	titubation	UPHENO:7000701	titubation
 HP:0030191	Abnormal peripheral nervous system synaptic transmission	UPHENO:7000702	peripheral nervous system synaptic transmission; pns synaptic transmission
 MP:0002913	abnormal PNS synaptic transmission	UPHENO:7000702	peripheral nervous system synaptic transmission; pns synaptic transmission
-HP:0030321	Abnormal vertebral artery morphology	UPHENO:7000703	vertebral artery morphology
-ZP:0021380	vertebral artery morphology, abnormal	UPHENO:7000703	vertebral artery morphology
+HP:0030321	Abnormal vertebral artery morphology	UPHENO:0087150	vertebral artery morphology phenotype
+ZP:0021380	vertebral artery morphology, abnormal	UPHENO:0087150	vertebral artery morphology phenotype
 HP:0030329	Retinal thinning	UPHENO:7000704	decreased total retina thickness; retinal thinning
 MP:0011965	decreased total retina thickness	UPHENO:7000704	decreased total retina thickness; retinal thinning
 HP:0030333	Abnormal alpha-beta T cell morphology	UPHENO:7000705	alpha-beta t cell morphology
@@ -5230,8 +5230,8 @@ HP:0030770	Craniorachischisis	UPHENO:7000718	craniorachischisis
 MP:0008784	craniorachischisis	UPHENO:7000718	craniorachischisis
 HP:0030779	Ethmocephaly	UPHENO:7000719	ethmocephaly
 MP:0014061	ethmocephaly	UPHENO:7000719	ethmocephaly
-HP:0030809	Abnormal tongue morphology	UPHENO:7000720	tongue morphology
-XPO:0103199	abnormal tongue morphology	UPHENO:7000720	tongue morphology
+HP:0030809	Abnormal tongue morphology	UPHENO:0088098	tongue morphology phenotype
+XPO:0103199	abnormal tongue morphology	UPHENO:0088098	tongue morphology phenotype
 HP:0030828	Wheezing	UPHENO:7000721	wheezing
 MP:0031086	wheezing	UPHENO:7000721	wheezing
 HP:0030830	Crackles	UPHENO:7000722	crackles
@@ -5276,8 +5276,8 @@ HP:0031265	Abnormal glomerular visceral epithelial cell morphology	UPHENO:700074
 ZP:0002656	podocyte morphology, abnormal	UPHENO:7000741	glomerular visceral epithelial cell morphology; podocyte morphology
 HP:0031266	Podocyte foot process effacement	UPHENO:7000742	podocyte foot process effacement
 MP:0008140	podocyte foot process effacement	UPHENO:7000742	podocyte foot process effacement
-HP:0031278	Abnormal thoracic duct morphology	UPHENO:7000743	thoracic duct morphology
-ZP:0011219	thoracic duct morphology, abnormal	UPHENO:7000743	thoracic duct morphology
+HP:0031278	Abnormal thoracic duct morphology	UPHENO:0086801	thoracic duct morphology phenotype
+ZP:0011219	thoracic duct morphology, abnormal	UPHENO:0086801	thoracic duct morphology phenotype
 HP:0031281	Sialadenitis	UPHENO:7000744	salivary gland inflammation; sialadenitis
 MP:0001870	salivary gland inflammation	UPHENO:7000744	salivary gland inflammation; sialadenitis
 HP:0031316	Abnormal ventricular myocardium morphology	UPHENO:7000745	ventricular myocardium morphology
@@ -5505,8 +5505,8 @@ HP:0040107	Abnormal posterior semicircular canal morphology	UPHENO:7000853	poste
 MP:0002858	abnormal posterior semicircular canal morphology	UPHENO:7000853	posterior semicircular canal morphology
 HP:0040108	Abnormal anterior semicircular canal morphology	UPHENO:7000854	anterior semicircular canal morphology
 XPO:0103015	abnormal anterior semicircular canal morphology	UPHENO:7000854	anterior semicircular canal morphology
-HP:0040109	Abnormal utricle morphology	UPHENO:7000855	utricle morphology
-ZP:0015512	utricle morphology, abnormal	UPHENO:7000855	utricle morphology
+HP:0040109	Abnormal utricle morphology	UPHENO:0087538	utricle of membranous labyrinth morphology phenotype
+ZP:0015512	utricle morphology, abnormal	UPHENO:0087538	utricle of membranous labyrinth morphology phenotype
 HP:0040129	Abnormal nerve conduction velocity	UPHENO:7000856	nerve conduction; nerve conduction velocity
 MP:0005403	abnormal nerve conduction	UPHENO:7000856	nerve conduction; nerve conduction velocity
 HP:0040145	Dicarboxylic acidemia	UPHENO:7000857	dicarboxylic acidemia; increased level of dicarboxylic acid in blood
@@ -5624,8 +5624,8 @@ HP:0200123	Chronic hepatitis	UPHENO:7000914	chronic hepatitis; chronic liver inf
 MP:0031301	chronic liver inflammation	UPHENO:7000914	chronic hepatitis; chronic liver inflammation
 HP:0200151	Cutaneous mastocytosis	UPHENO:7000915	cutaneous mastocytosis
 MP:0031395	cutaneous mastocytosis	UPHENO:7000915	cutaneous mastocytosis
-HP:0410043	Abnormal neural tube morphology	UPHENO:7000916	neural tube morphology
-XPO:0101768	abnormal neural tube morphology	UPHENO:7000916	neural tube morphology
+HP:0410043	Abnormal neural tube morphology	UPHENO:0087363	neural tube morphology phenotype
+XPO:0101768	abnormal neural tube morphology	UPHENO:0087363	neural tube morphology phenotype
 HP:0410204	Increased intestinal transit time	UPHENO:7000917	increased intestinal transit time
 MP:0014575	increased intestinal transit time	UPHENO:7000917	increased intestinal transit time
 HP:0410246	Increased circulating IgD concentration	UPHENO:7000918	increased circulating igd concentration; increased igd level
@@ -5705,8 +5705,8 @@ MP:0002208	abnormal germ cell morphology	UPHENO:7000954	germ cell morphology; ge
 WBPhenotype:0000900	germ cell morphology variant	UPHENO:7000954	germ cell morphology; germ cell morphology variant
 MP:0002418	increased susceptibility to viral infection	UPHENO:7000955	increased susceptibility to viral infection
 WBPhenotype:0002252	increased susceptibility to viral infection	UPHENO:7000955	increased susceptibility to viral infection
-MP:0002446	abnormal macrophage morphology	UPHENO:7000956	macrophage morphology
-XPO:0102848	abnormal macrophage morphology	UPHENO:7000956	macrophage morphology
+MP:0002446	abnormal macrophage morphology	UPHENO:0088163	macrophage morphology phenotype
+XPO:0102848	abnormal macrophage morphology	UPHENO:0088163	macrophage morphology phenotype
 MP:0002651	abnormal sciatic nerve morphology	UPHENO:7000957	sciatic nerve morphology
 XPO:0102464	abnormal sciatic nerve morphology	UPHENO:7000957	sciatic nerve morphology
 MP:0002786	abnormal Leydig cell morphology	UPHENO:7000958	leydig cell morphology
@@ -5719,8 +5719,8 @@ MP:0003069	abnormal superior semicircular canal morphology	UPHENO:7000961	anteri
 XPO:0101383	abnormal anterior semicircular canal	UPHENO:7000961	anterior semicircular canal; superior semicircular canal morphology
 MP:0003228	abnormal sinus venosus morphology	UPHENO:7000962	sinus venosus morphology
 XPO:0103024	abnormal sinus venosus morphology	UPHENO:7000962	sinus venosus morphology
-MP:0003257	abnormal abdominal wall morphology	UPHENO:7000963	abdominal wall morphology
-XPO:0142060	abnormal abdominal wall morphology	UPHENO:7000963	abdominal wall morphology
+MP:0003257	abnormal abdominal wall morphology	UPHENO:0075843	abdominal wall phenotype
+XPO:0142060	abnormal abdominal wall morphology	UPHENO:0075843	abdominal wall phenotype
 MP:0003312	abnormal locomotor coordination	UPHENO:7000964	locomotor coordination; locomotor coordination variant
 WBPhenotype:0004017	locomotor coordination variant	UPHENO:7000964	locomotor coordination; locomotor coordination variant
 MP:0003648	abnormal radial glial cell morphology	UPHENO:7000965	radial glial cell morphology

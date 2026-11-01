@@ -521,7 +521,7 @@ HP:0000270	Delayed cranial suture closure	semapv:crossSpeciesExactMatch	UPHENO:7
 HP:0000278	Retrognathia	semapv:crossSpeciesExactMatch	UPHENO:7000154	mandibular retrognathia; retrognathia	semapv:LogicalReasoning
 HP:0000280	Coarse facial features	semapv:crossSpeciesExactMatch	UPHENO:7000155	coarse facial features	semapv:LogicalReasoning
 HP:0000325	Triangular face	semapv:crossSpeciesExactMatch	UPHENO:0041119	triangular face	semapv:LogicalReasoning
-HP:0000326	Abnormal maxilla morphology	semapv:crossSpeciesExactMatch	UPHENO:7000156	maxilla morphology	semapv:LogicalReasoning
+HP:0000326	Abnormal maxilla morphology	semapv:crossSpeciesExactMatch	UPHENO:0087341	maxilla morphology phenotype	semapv:LogicalReasoning
 HP:0000358	Posteriorly rotated ears	semapv:crossSpeciesExactMatch	UPHENO:7000157	posteriorly rotated ears	semapv:LogicalReasoning
 HP:0000360	Tinnitus	semapv:crossSpeciesExactMatch	UPHENO:7000158	tinnitus	semapv:LogicalReasoning
 HP:0000362	Otosclerosis	semapv:crossSpeciesExactMatch	UPHENO:7000159	otosclerosis	semapv:LogicalReasoning
@@ -535,7 +535,7 @@ HP:0000458	Anosmia	semapv:crossSpeciesExactMatch	UPHENO:7000164	anosmia	semapv:L
 HP:0000465	Webbed neck	semapv:crossSpeciesExactMatch	UPHENO:7000165	webbed neck	semapv:LogicalReasoning
 HP:0000473	Torticollis	semapv:crossSpeciesExactMatch	UPHENO:7000166	torticollis	semapv:LogicalReasoning
 HP:0000480	Retinal coloboma	semapv:crossSpeciesExactMatch	UPHENO:7000167	retina coloboma; retinal coloboma	semapv:LogicalReasoning
-HP:0000481	Abnormal cornea morphology	semapv:crossSpeciesExactMatch	UPHENO:7000168	cornea morphology	semapv:LogicalReasoning
+HP:0000481	Abnormal cornea morphology	semapv:crossSpeciesExactMatch	UPHENO:0087577	cornea morphology phenotype	semapv:LogicalReasoning
 HP:0000483	Astigmatism	semapv:crossSpeciesExactMatch	UPHENO:0041079	asymmetrically curved cornea	semapv:LogicalReasoning
 HP:0000486	Strabismus	semapv:crossSpeciesExactMatch	UPHENO:7000169	strabismus	semapv:LogicalReasoning
 HP:0000490	Deeply set eye	semapv:crossSpeciesExactMatch	UPHENO:7000170	deeply set eye; enophthalmos	semapv:LogicalReasoning
@@ -577,7 +577,7 @@ HP:0000689	Dental malocclusion	semapv:crossSpeciesExactMatch	UPHENO:7000202	dent
 HP:0000752	Hyperactivity	semapv:crossSpeciesExactMatch	UPHENO:0054937	increased locomotion	semapv:LogicalReasoning
 HP:0000762	Decreased nerve conduction velocity	semapv:crossSpeciesExactMatch	UPHENO:7000203	decreased nerve conduction velocity	semapv:LogicalReasoning
 HP:0000776	Congenital diaphragmatic hernia	semapv:crossSpeciesExactMatch	UPHENO:0086120	herniated diaphragm	semapv:LogicalReasoning
-HP:0000782	Abnormal scapula morphology	semapv:crossSpeciesExactMatch	UPHENO:7000204	scapula morphology	semapv:LogicalReasoning
+HP:0000782	Abnormal scapula morphology	semapv:crossSpeciesExactMatch	UPHENO:0086964	scapula morphology phenotype	semapv:LogicalReasoning
 HP:0000787	Nephrolithiasis	semapv:crossSpeciesExactMatch	UPHENO:7000205	nephrolithiasis	semapv:LogicalReasoning
 HP:0000789	Infertility	semapv:crossSpeciesExactMatch	UPHENO:7000013	infertility; sterile	semapv:LogicalReasoning
 HP:0000796	Urethral obstruction	semapv:crossSpeciesExactMatch	UPHENO:0085682	urethra obstruction	semapv:LogicalReasoning
@@ -797,7 +797,7 @@ HP:0002645	Wormian bones	semapv:crossSpeciesExactMatch	UPHENO:7000375	wormian bo
 HP:0002647	Aortic dissection	semapv:crossSpeciesExactMatch	UPHENO:0041198	split aorta	semapv:LogicalReasoning
 HP:0002650	Scoliosis	semapv:crossSpeciesExactMatch	UPHENO:7000376	scoliosis	semapv:LogicalReasoning
 HP:0002659	Increased susceptibility to fractures	semapv:crossSpeciesExactMatch	UPHENO:7000377	fragile skeleton; increased susceptibility to fractures	semapv:LogicalReasoning
-HP:0002696	Abnormal parietal bone morphology	semapv:crossSpeciesExactMatch	UPHENO:7000378	parietal bone morphology	semapv:LogicalReasoning
+HP:0002696	Abnormal parietal bone morphology	semapv:crossSpeciesExactMatch	UPHENO:0087146	tetrapod parietal bone morphology phenotype	semapv:LogicalReasoning
 HP:0002714	Downturned corners of mouth	semapv:crossSpeciesExactMatch	UPHENO:7000379	down-turned corners of mouth; downturned corners of mouth	semapv:LogicalReasoning
 HP:0002745	Oral leukoplakia	semapv:crossSpeciesExactMatch	UPHENO:7000380	oral leukoplakia	semapv:LogicalReasoning
 HP:0002748	Rickets	semapv:crossSpeciesExactMatch	UPHENO:7000381	rickets	semapv:LogicalReasoning
@@ -959,7 +959,7 @@ HP:0008887	Adipose tissue loss	semapv:crossSpeciesExactMatch	UPHENO:0035132	decr
 HP:0008897	Postnatal growth retardation	semapv:crossSpeciesExactMatch	UPHENO:0082952	decreased asexual reproduction	semapv:LogicalReasoning
 HP:0009121	Abnormal axial skeleton morphology	semapv:crossSpeciesExactMatch	UPHENO:0087089	axial skeleton plus cranial skeleton morphology phenotype	semapv:LogicalReasoning
 HP:0009125	Lipodystrophy	semapv:crossSpeciesExactMatch	UPHENO:7000498	lipodystrophy	semapv:LogicalReasoning
-HP:0009145	Abnormal cerebral artery morphology	semapv:crossSpeciesExactMatch	UPHENO:7000499	cerebral artery morphology	semapv:LogicalReasoning
+HP:0009145	Abnormal cerebral artery morphology	semapv:crossSpeciesExactMatch	UPHENO:0087835	cerebral artery morphology phenotype	semapv:LogicalReasoning
 HP:0009722	Dental enamel pits	semapv:crossSpeciesExactMatch	UPHENO:7000500	dental enamel pits; enamel pits	semapv:LogicalReasoning
 HP:0009741	Nephrosclerosis	semapv:crossSpeciesExactMatch	UPHENO:7000501	nephrosclerosis	semapv:LogicalReasoning
 HP:0009776	Adactyly	semapv:crossSpeciesExactMatch	UPHENO:0008668	absent digit	semapv:LogicalReasoning
@@ -983,7 +983,7 @@ HP:0010497	Sirenomelia	semapv:crossSpeciesExactMatch	UPHENO:0078158	fused hindli
 HP:0010605	Chalazion	semapv:crossSpeciesExactMatch	UPHENO:0083430	tarsal gland cyst	semapv:LogicalReasoning
 HP:0010633	Partial anosmia	semapv:crossSpeciesExactMatch	UPHENO:7000434	hyposmia; impaired olfaction; partial anosmia	semapv:LogicalReasoning
 HP:0010648	Dermal translucency	semapv:crossSpeciesExactMatch	UPHENO:7000514	dermal translucency; translucent skin	semapv:LogicalReasoning
-HP:0010663	Abnormal thalamus morphology	semapv:crossSpeciesExactMatch	UPHENO:7000515	thalamus morphology	semapv:LogicalReasoning
+HP:0010663	Abnormal thalamus morphology	semapv:crossSpeciesExactMatch	UPHENO:0087517	dorsal plus ventral thalamus morphology phenotype	semapv:LogicalReasoning
 HP:0010695	Sutural cataract	semapv:crossSpeciesExactMatch	UPHENO:7000516	sutural cataract	semapv:LogicalReasoning
 HP:0010696	Polar cataract	semapv:crossSpeciesExactMatch	UPHENO:7000517	polar cataract	semapv:LogicalReasoning
 HP:0010701	Abnormal circulating immunoglobulin concentration	semapv:crossSpeciesExactMatch	UPHENO:7000518	circulating immunoglobulin concentration; immunoglobulin level	semapv:LogicalReasoning
@@ -1026,7 +1026,7 @@ HP:0011314	Abnormal long bone morphology	semapv:crossSpeciesExactMatch	UPHENO:00
 HP:0011330	Metopic synostosis	semapv:crossSpeciesExactMatch	UPHENO:0084634	premature frontal suture closure	semapv:LogicalReasoning
 HP:0011332	Hemifacial hypoplasia	semapv:crossSpeciesExactMatch	UPHENO:7000540	hemifacial hypoplasia	semapv:LogicalReasoning
 HP:0011359	Dry hair	semapv:crossSpeciesExactMatch	UPHENO:0089291	decreased surface wetness of strand of hair	semapv:LogicalReasoning
-HP:0011390	Abnormal inner ear morphology	semapv:crossSpeciesExactMatch	UPHENO:7000541	inner ear morphology	semapv:LogicalReasoning
+HP:0011390	Abnormal inner ear morphology	semapv:crossSpeciesExactMatch	UPHENO:0087541	internal ear morphology phenotype	semapv:LogicalReasoning
 HP:0011457	Loss of eyelashes	semapv:crossSpeciesExactMatch	UPHENO:0026167	absent eyelash in the eyelid	semapv:LogicalReasoning
 HP:0011468	Facial tics	semapv:crossSpeciesExactMatch	UPHENO:7000542	facial muscle spasm; facial tics	semapv:LogicalReasoning
 HP:0011472	Abnormal small intestinal villus morphology	semapv:crossSpeciesExactMatch	UPHENO:0086703	intestinal villus morphology phenotype	semapv:LogicalReasoning
@@ -1129,7 +1129,7 @@ HP:0012244	Abnormal sex determination	semapv:crossSpeciesExactMatch	UPHENO:00500
 HP:0012245	Sex reversal	semapv:crossSpeciesExactMatch	UPHENO:7000620	sex reversal	semapv:LogicalReasoning
 HP:0012248	Prolonged PR interval	semapv:crossSpeciesExactMatch	UPHENO:7000621	prolonged pr interval	semapv:LogicalReasoning
 HP:0012249	Abnormal ST segment	semapv:crossSpeciesExactMatch	UPHENO:7000622	st segment	semapv:LogicalReasoning
-HP:0012252	Abnormal respiratory system morphology	semapv:crossSpeciesExactMatch	UPHENO:7000623	respiratory system morphology	semapv:LogicalReasoning
+HP:0012252	Abnormal respiratory system morphology	semapv:crossSpeciesExactMatch	UPHENO:0087433	respiratory system morphology phenotype	semapv:LogicalReasoning
 HP:0012253	Abnormal respiratory epithelium morphology	semapv:crossSpeciesExactMatch	UPHENO:0088030	respiratory tract epithelium morphology phenotype	semapv:LogicalReasoning
 HP:0012261	Abnormal respiratory motile cilium physiology	semapv:crossSpeciesExactMatch	UPHENO:7000624	respiratory motile cilium physiology	semapv:LogicalReasoning
 HP:0012280	Hepatic amyloidosis	semapv:crossSpeciesExactMatch	UPHENO:7000625	hepatic amyloidosis	semapv:LogicalReasoning
@@ -1144,7 +1144,7 @@ HP:0012331	Abnormal autonomic nervous system morphology	semapv:crossSpeciesExact
 HP:0012334	Extrahepatic cholestasis	semapv:crossSpeciesExactMatch	UPHENO:7000629	extrahepatic cholestasis	semapv:LogicalReasoning
 HP:0012337	Abnormal homeostasis	semapv:crossSpeciesExactMatch	UPHENO:7000630	homeostasis	semapv:LogicalReasoning
 HP:0012338	Abnormal energy expenditure	semapv:crossSpeciesExactMatch	UPHENO:7000631	energy expenditure	semapv:LogicalReasoning
-HP:0012372	Abnormal eye morphology	semapv:crossSpeciesExactMatch	UPHENO:7000632	eye morphology	semapv:LogicalReasoning
+HP:0012372	Abnormal eye morphology	semapv:crossSpeciesExactMatch	UPHENO:0087924	camera-type eye morphology phenotype	semapv:LogicalReasoning
 HP:0012376	Microphakia	semapv:crossSpeciesExactMatch	UPHENO:0069422	decreased size of the lens of camera-type eye	semapv:LogicalReasoning
 HP:0012378	Fatigue	semapv:crossSpeciesExactMatch	UPHENO:7000633	fatigue	semapv:LogicalReasoning
 HP:0012382	Left-to-right shunt	semapv:crossSpeciesExactMatch	UPHENO:7000634	left-to-right shunt	semapv:LogicalReasoning
@@ -1208,7 +1208,7 @@ HP:0025006	Abnormal glomerular capillary morphology	semapv:crossSpeciesExactMatc
 HP:0025011	Pyriform aperture stenosis	semapv:crossSpeciesExactMatch	UPHENO:7000667	piriform aperture stenosis; pyriform aperture stenosis	semapv:LogicalReasoning
 HP:0025021	Abnormal erythrocyte sedimentation rate	semapv:crossSpeciesExactMatch	UPHENO:7000668	erythrocyte sedimentation rate	semapv:LogicalReasoning
 HP:0025022	Decreased erythrocyte sedimentation rate	semapv:crossSpeciesExactMatch	UPHENO:7000669	decreased erythrocyte sedimentation rate	semapv:LogicalReasoning
-HP:0025028	Abnormal enteric nervous system morphology	semapv:crossSpeciesExactMatch	UPHENO:7000670	enteric nervous system morphology	semapv:LogicalReasoning
+HP:0025028	Abnormal enteric nervous system morphology	semapv:crossSpeciesExactMatch	UPHENO:0086978	enteric nervous system morphology phenotype	semapv:LogicalReasoning
 HP:0025057	Abnormal olfactory lobe morphology	semapv:crossSpeciesExactMatch	UPHENO:0087712	olfactory lobe morphology phenotype	semapv:LogicalReasoning
 HP:0025065	Abnormal mean corpuscular volume	semapv:crossSpeciesExactMatch	UPHENO:7000671	mean corpuscular volume	semapv:LogicalReasoning
 HP:0025066	Decreased mean corpuscular volume	semapv:crossSpeciesExactMatch	UPHENO:0085909	decreased volume of the erythrocyte	semapv:LogicalReasoning
@@ -1268,7 +1268,7 @@ HP:0030191	Abnormal peripheral nervous system synaptic transmission	semapv:cross
 HP:0030261	Absent penis	semapv:crossSpeciesExactMatch	UPHENO:0008782	absent penis	semapv:LogicalReasoning
 HP:0030277	Abnormal vertebral pedicle morphology	semapv:crossSpeciesExactMatch	UPHENO:0087329	pedicle of vertebra morphology phenotype	semapv:LogicalReasoning
 HP:0030304	Abnormal number of vertebrae	semapv:crossSpeciesExactMatch	UPHENO:0011522	number of anatomical enitites of type vertebra phenotype	semapv:LogicalReasoning
-HP:0030321	Abnormal vertebral artery morphology	semapv:crossSpeciesExactMatch	UPHENO:7000703	vertebral artery morphology	semapv:LogicalReasoning
+HP:0030321	Abnormal vertebral artery morphology	semapv:crossSpeciesExactMatch	UPHENO:0087150	vertebral artery morphology phenotype	semapv:LogicalReasoning
 HP:0030329	Retinal thinning	semapv:crossSpeciesExactMatch	UPHENO:7000704	decreased total retina thickness; retinal thinning	semapv:LogicalReasoning
 HP:0030333	Abnormal alpha-beta T cell morphology	semapv:crossSpeciesExactMatch	UPHENO:7000705	alpha-beta t cell morphology	semapv:LogicalReasoning
 HP:0030334	Abnormal CD4-positive, CD25-positive, alpha-beta regulatory T cell morphology	semapv:crossSpeciesExactMatch	UPHENO:7000706	cd4-positive, cd25-positive, alpha-beta regulatory t cell morphology	semapv:LogicalReasoning
@@ -1294,7 +1294,7 @@ HP:0030779	Ethmocephaly	semapv:crossSpeciesExactMatch	UPHENO:7000719	ethmocephal
 HP:0030781	Increased circulating free fatty acid level	semapv:crossSpeciesExactMatch	UPHENO:0068330	increased level of fatty acid in blood	semapv:LogicalReasoning
 HP:0030789	Excessive cerumen	semapv:crossSpeciesExactMatch	UPHENO:0014365	increased number of cerumen	semapv:LogicalReasoning
 HP:0030791	Abnormal jaw morphology	semapv:crossSpeciesExactMatch	UPHENO:0088116	jaw skeleton morphology phenotype	semapv:LogicalReasoning
-HP:0030809	Abnormal tongue morphology	semapv:crossSpeciesExactMatch	UPHENO:7000720	tongue morphology	semapv:LogicalReasoning
+HP:0030809	Abnormal tongue morphology	semapv:crossSpeciesExactMatch	UPHENO:0088098	tongue morphology phenotype	semapv:LogicalReasoning
 HP:0030828	Wheezing	semapv:crossSpeciesExactMatch	UPHENO:7000721	wheezing	semapv:LogicalReasoning
 HP:0030830	Crackles	semapv:crossSpeciesExactMatch	UPHENO:7000722	crackles	semapv:LogicalReasoning
 HP:0030831	Rhonchi	semapv:crossSpeciesExactMatch	UPHENO:7000723	rhonchi	semapv:LogicalReasoning
@@ -1334,7 +1334,7 @@ HP:0031263	Abnormal renal corpuscle morphology	semapv:crossSpeciesExactMatch	UPH
 HP:0031264	Abnormal Bowman capsule morphology	semapv:crossSpeciesExactMatch	UPHENO:0086671	glomerular capsule morphology phenotype	semapv:LogicalReasoning
 HP:0031265	Abnormal glomerular visceral epithelial cell morphology	semapv:crossSpeciesExactMatch	UPHENO:7000741	glomerular visceral epithelial cell morphology; podocyte morphology	semapv:LogicalReasoning
 HP:0031266	Podocyte foot process effacement	semapv:crossSpeciesExactMatch	UPHENO:7000742	podocyte foot process effacement	semapv:LogicalReasoning
-HP:0031278	Abnormal thoracic duct morphology	semapv:crossSpeciesExactMatch	UPHENO:7000743	thoracic duct morphology	semapv:LogicalReasoning
+HP:0031278	Abnormal thoracic duct morphology	semapv:crossSpeciesExactMatch	UPHENO:0086801	thoracic duct morphology phenotype	semapv:LogicalReasoning
 HP:0031281	Sialadenitis	semapv:crossSpeciesExactMatch	UPHENO:7000744	salivary gland inflammation; sialadenitis	semapv:LogicalReasoning
 HP:0031316	Abnormal ventricular myocardium morphology	semapv:crossSpeciesExactMatch	UPHENO:7000745	ventricular myocardium morphology	semapv:LogicalReasoning
 HP:0031318	Myofiber disarray	semapv:crossSpeciesExactMatch	UPHENO:0088203	disorganized cardiac muscle cell	semapv:LogicalReasoning
@@ -1528,7 +1528,7 @@ HP:0040078	Axonal degeneration	semapv:crossSpeciesExactMatch	UPHENO:0090166	axon
 HP:0040086	Abnormal prolactin level	semapv:crossSpeciesExactMatch	UPHENO:0046365	prolactin level phenotype	semapv:LogicalReasoning
 HP:0040107	Abnormal posterior semicircular canal morphology	semapv:crossSpeciesExactMatch	UPHENO:7000853	posterior semicircular canal morphology	semapv:LogicalReasoning
 HP:0040108	Abnormal anterior semicircular canal morphology	semapv:crossSpeciesExactMatch	UPHENO:7000854	anterior semicircular canal morphology	semapv:LogicalReasoning
-HP:0040109	Abnormal utricle morphology	semapv:crossSpeciesExactMatch	UPHENO:7000855	utricle morphology	semapv:LogicalReasoning
+HP:0040109	Abnormal utricle morphology	semapv:crossSpeciesExactMatch	UPHENO:0087538	utricle of membranous labyrinth morphology phenotype	semapv:LogicalReasoning
 HP:0040129	Abnormal nerve conduction velocity	semapv:crossSpeciesExactMatch	UPHENO:7000856	nerve conduction; nerve conduction velocity	semapv:LogicalReasoning
 HP:0040145	Dicarboxylic acidemia	semapv:crossSpeciesExactMatch	UPHENO:7000857	dicarboxylic acidemia; increased level of dicarboxylic acid in blood	semapv:LogicalReasoning
 HP:0040213	Hypopnea	semapv:crossSpeciesExactMatch	UPHENO:7000858	hypopnea	semapv:LogicalReasoning
@@ -1603,7 +1603,7 @@ HP:0200111	Absent stapes head	semapv:crossSpeciesExactMatch	UPHENO:7000913	absen
 HP:0200123	Chronic hepatitis	semapv:crossSpeciesExactMatch	UPHENO:7000914	chronic hepatitis; chronic liver inflammation	semapv:LogicalReasoning
 HP:0200151	Cutaneous mastocytosis	semapv:crossSpeciesExactMatch	UPHENO:7000915	cutaneous mastocytosis	semapv:LogicalReasoning
 HP:0410042	Abnormal liver morphology	semapv:crossSpeciesExactMatch	UPHENO:0086622	liver morphology phenotype	semapv:LogicalReasoning
-HP:0410043	Abnormal neural tube morphology	semapv:crossSpeciesExactMatch	UPHENO:7000916	neural tube morphology	semapv:LogicalReasoning
+HP:0410043	Abnormal neural tube morphology	semapv:crossSpeciesExactMatch	UPHENO:0087363	neural tube morphology phenotype	semapv:LogicalReasoning
 HP:0410204	Increased intestinal transit time	semapv:crossSpeciesExactMatch	UPHENO:7000917	increased intestinal transit time	semapv:LogicalReasoning
 HP:0410246	Increased circulating IgD concentration	semapv:crossSpeciesExactMatch	UPHENO:7000918	increased circulating igd concentration; increased igd level	semapv:LogicalReasoning
 HP:0410397	Bronchiolectasis	semapv:crossSpeciesExactMatch	UPHENO:7000919	bronchiolectasis	semapv:LogicalReasoning
@@ -1835,7 +1835,7 @@ MP:0002417	abnormal megakaryocyte morphology	semapv:crossSpeciesExactMatch	UPHEN
 MP:0002418	increased susceptibility to viral infection	semapv:crossSpeciesExactMatch	UPHENO:7000955	increased susceptibility to viral infection	semapv:LogicalReasoning
 MP:0002422	abnormal basophil morphology	semapv:crossSpeciesExactMatch	UPHENO:0088173	basophil morphology phenotype	semapv:LogicalReasoning
 MP:0002424	abnormal reticulocyte morphology	semapv:crossSpeciesExactMatch	UPHENO:0088148	enucleated reticulocyte morphology phenotype	semapv:LogicalReasoning
-MP:0002446	abnormal macrophage morphology	semapv:crossSpeciesExactMatch	UPHENO:7000956	macrophage morphology	semapv:LogicalReasoning
+MP:0002446	abnormal macrophage morphology	semapv:crossSpeciesExactMatch	UPHENO:0088163	macrophage morphology phenotype	semapv:LogicalReasoning
 MP:0002447	abnormal erythrocyte morphology	semapv:crossSpeciesExactMatch	UPHENO:0088162	erythrocyte morphology phenotype	semapv:LogicalReasoning
 MP:0002460	decreased immunoglobulin level	semapv:crossSpeciesExactMatch	UPHENO:7000428	decreased circulating antibody concentration; decreased immunoglobulin level	semapv:LogicalReasoning
 MP:0002461	increased immunoglobulin level	semapv:crossSpeciesExactMatch	UPHENO:7000519	increased circulating antibody concentration; increased immunoglobulin level	semapv:LogicalReasoning
@@ -1919,7 +1919,7 @@ MP:0003228	abnormal sinus venosus morphology	semapv:crossSpeciesExactMatch	UPHEN
 MP:0003233	prolonged QT interval	semapv:crossSpeciesExactMatch	UPHENO:7000273	prolonged qt interval	semapv:LogicalReasoning
 MP:0003254	bile duct inflammation	semapv:crossSpeciesExactMatch	UPHENO:0074605	increased inflammatory response in biliary tree	semapv:LogicalReasoning
 MP:0003256	biliary cirrhosis	semapv:crossSpeciesExactMatch	UPHENO:7000366	biliary cirrhosis	semapv:LogicalReasoning
-MP:0003257	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:7000963	abdominal wall morphology	semapv:LogicalReasoning
+MP:0003257	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:0075843	abdominal wall phenotype	semapv:LogicalReasoning
 MP:0003258	hiatal hernia	semapv:crossSpeciesExactMatch	UPHENO:7000324	hiatal hernia; hiatus hernia	semapv:LogicalReasoning
 MP:0003259	nausea	semapv:crossSpeciesExactMatch	UPHENO:7000320	nausea	semapv:LogicalReasoning
 MP:0003260	vomiting	semapv:crossSpeciesExactMatch	UPHENO:7000318	vomiting	semapv:LogicalReasoning
@@ -3104,7 +3104,7 @@ XPO:0101752	abnormal genital system morphology	semapv:crossSpeciesExactMatch	UPH
 XPO:0101759	abnormal tail tip morphology	semapv:crossSpeciesExactMatch	UPHENO:0086719	post-anal tail tip morphology phenotype	semapv:LogicalReasoning
 XPO:0101764	abnormal cranium morphology	semapv:crossSpeciesExactMatch	UPHENO:7001106	cranium morphology	semapv:LogicalReasoning
 XPO:0101766	abnormal neural plate morphology	semapv:crossSpeciesExactMatch	UPHENO:0086485	neural plate morphology phenotype	semapv:LogicalReasoning
-XPO:0101768	abnormal neural tube morphology	semapv:crossSpeciesExactMatch	UPHENO:7000916	neural tube morphology	semapv:LogicalReasoning
+XPO:0101768	abnormal neural tube morphology	semapv:crossSpeciesExactMatch	UPHENO:0087363	neural tube morphology phenotype	semapv:LogicalReasoning
 XPO:0101769	abnormal cardinal vein morphology	semapv:crossSpeciesExactMatch	UPHENO:0086553	cardinal vein morphology phenotype	semapv:LogicalReasoning
 XPO:0101770	abnormal trunk vasculature morphology	semapv:crossSpeciesExactMatch	UPHENO:7001107	trunk vasculature morphology	semapv:LogicalReasoning
 XPO:0101772	abnormal intermediate mesoderm morphology	semapv:crossSpeciesExactMatch	UPHENO:7001108	intermediate mesoderm morphology	semapv:LogicalReasoning
@@ -3159,7 +3159,7 @@ XPO:0101937	abnormal fin morphology	semapv:crossSpeciesExactMatch	UPHENO:7001125
 XPO:0101939	abnormal blastomere morphology	semapv:crossSpeciesExactMatch	UPHENO:7001126	blastomere morphology	semapv:LogicalReasoning
 XPO:0101940	abnormal early embryonic cell morphology	semapv:crossSpeciesExactMatch	UPHENO:7001127	early embryonic cell morphology	semapv:LogicalReasoning
 XPO:0101947	abnormal neurohypophysis morphology	semapv:crossSpeciesExactMatch	UPHENO:0086513	neurohypophysis morphology phenotype	semapv:LogicalReasoning
-XPO:0101949	abnormal respiratory system morphology	semapv:crossSpeciesExactMatch	UPHENO:7000623	respiratory system morphology	semapv:LogicalReasoning
+XPO:0101949	abnormal respiratory system morphology	semapv:crossSpeciesExactMatch	UPHENO:0087433	respiratory system morphology phenotype	semapv:LogicalReasoning
 XPO:0101952	abnormal lateral line morphology	semapv:crossSpeciesExactMatch	UPHENO:7001128	lateral line morphology	semapv:LogicalReasoning
 XPO:0101953	abnormal eye muscle morphology	semapv:crossSpeciesExactMatch	UPHENO:0086856	eye muscle morphology phenotype	semapv:LogicalReasoning
 XPO:0101955	abnormal intersomitic artery morphology	semapv:crossSpeciesExactMatch	UPHENO:0087063	intersomitic artery morphology phenotype	semapv:LogicalReasoning
@@ -3227,7 +3227,7 @@ XPO:0102156	abnormal intestine morphology	semapv:crossSpeciesExactMatch	UPHENO:0
 XPO:0102162	abnormal ciliary marginal zone morphology	semapv:crossSpeciesExactMatch	UPHENO:7001145	ciliary marginal zone morphology	semapv:LogicalReasoning
 XPO:0102165	abnormal melanoblast morphology	semapv:crossSpeciesExactMatch	UPHENO:7001007	melanoblast morphology	semapv:LogicalReasoning
 XPO:0102167	abnormal cerebral vein morphology	semapv:crossSpeciesExactMatch	UPHENO:0081593	cerebral vein morphology phenotype	semapv:LogicalReasoning
-XPO:0102168	abnormal inner ear morphology	semapv:crossSpeciesExactMatch	UPHENO:7000541	inner ear morphology	semapv:LogicalReasoning
+XPO:0102168	abnormal inner ear morphology	semapv:crossSpeciesExactMatch	UPHENO:0087541	internal ear morphology phenotype	semapv:LogicalReasoning
 XPO:0102174	abnormal pallium morphology	semapv:crossSpeciesExactMatch	UPHENO:0081603	cerebral cortex morphology phenotype	semapv:LogicalReasoning
 XPO:0102176	abnormal neuromast support cell morphology	semapv:crossSpeciesExactMatch	UPHENO:7001146	neuromast support cell morphology	semapv:LogicalReasoning
 XPO:0102177	abnormal male organism morphology	semapv:crossSpeciesExactMatch	UPHENO:7001147	male organism morphology	semapv:LogicalReasoning
@@ -3240,7 +3240,7 @@ XPO:0102207	abnormal diencephalon morphology	semapv:crossSpeciesExactMatch	UPHEN
 XPO:0102215	abnormal mandibular arch skeleton morphology	semapv:crossSpeciesExactMatch	UPHENO:7001150	mandibular arch skeleton morphology	semapv:LogicalReasoning
 XPO:0102218	abnormal thyroid primordium morphology	semapv:crossSpeciesExactMatch	UPHENO:7001151	thyroid primordium morphology	semapv:LogicalReasoning
 XPO:0102222	abnormal hypothalamus morphology	semapv:crossSpeciesExactMatch	UPHENO:7001152	hypothalamus morphology	semapv:LogicalReasoning
-XPO:0102225	abnormal cerebral artery morphology	semapv:crossSpeciesExactMatch	UPHENO:7000499	cerebral artery morphology	semapv:LogicalReasoning
+XPO:0102225	abnormal cerebral artery morphology	semapv:crossSpeciesExactMatch	UPHENO:0087835	cerebral artery morphology phenotype	semapv:LogicalReasoning
 XPO:0102226	abnormal Jacobson's organ morphology	semapv:crossSpeciesExactMatch	UPHENO:0087855	vomeronasal organ morphology phenotype	semapv:LogicalReasoning
 XPO:0102232	abnormal eye photoreceptor cell morphology	semapv:crossSpeciesExactMatch	UPHENO:7001153	eye photoreceptor cell morphology	semapv:LogicalReasoning
 XPO:0102233	abnormal vascular endothelium morphology	semapv:crossSpeciesExactMatch	UPHENO:7001154	vascular endothelium morphology	semapv:LogicalReasoning
@@ -3394,11 +3394,11 @@ XPO:0102826	abnormal anterior commissure morphology	semapv:crossSpeciesExactMatc
 XPO:0102831	abnormal optic disc morphology	semapv:crossSpeciesExactMatch	UPHENO:0088020	optic disc morphology phenotype	semapv:LogicalReasoning
 XPO:0102834	abnormal thymus morphology	semapv:crossSpeciesExactMatch	UPHENO:7001187	thymus morphology	semapv:LogicalReasoning
 XPO:0102839	abnormal glossopharyngeal nerve morphology	semapv:crossSpeciesExactMatch	UPHENO:0003582	glossopharyngeal nerve phenotype	semapv:LogicalReasoning
-XPO:0102848	abnormal macrophage morphology	semapv:crossSpeciesExactMatch	UPHENO:7000956	macrophage morphology	semapv:LogicalReasoning
+XPO:0102848	abnormal macrophage morphology	semapv:crossSpeciesExactMatch	UPHENO:0088163	macrophage morphology phenotype	semapv:LogicalReasoning
 XPO:0102851	abnormal retinal rod cell morphology	semapv:crossSpeciesExactMatch	UPHENO:7000946	retina rod cell morphology; retinal rod cell morphology	semapv:LogicalReasoning
 XPO:0102863	abnormal taste bud morphology	semapv:crossSpeciesExactMatch	UPHENO:7001188	taste bud morphology	semapv:LogicalReasoning
 XPO:0102864	abnormal female genitalia morphology	semapv:crossSpeciesExactMatch	UPHENO:0087806	female reproductive organ morphology phenotype	semapv:LogicalReasoning
-XPO:0102865	abnormal scapula morphology	semapv:crossSpeciesExactMatch	UPHENO:7000204	scapula morphology	semapv:LogicalReasoning
+XPO:0102865	abnormal scapula morphology	semapv:crossSpeciesExactMatch	UPHENO:0086964	scapula morphology phenotype	semapv:LogicalReasoning
 XPO:0102866	abnormal gasserian ganglion morphology	semapv:crossSpeciesExactMatch	UPHENO:0086744	trigeminal ganglion morphology phenotype	semapv:LogicalReasoning
 XPO:0102867	abnormal lagena morphology	semapv:crossSpeciesExactMatch	UPHENO:7001189	lagena morphology	semapv:LogicalReasoning
 XPO:0102873	abnormal nucleate erythrocyte morphology	semapv:crossSpeciesExactMatch	UPHENO:7001190	nucleate erythrocyte morphology	semapv:LogicalReasoning
@@ -3479,7 +3479,7 @@ XPO:0103188	abnormal post-anal gut morphology	semapv:crossSpeciesExactMatch	UPHE
 XPO:0103193	abnormal adrenal cortex morphology	semapv:crossSpeciesExactMatch	UPHENO:0086661	adrenal cortex morphology phenotype	semapv:LogicalReasoning
 XPO:0103195	abnormal epicardium morphology	semapv:crossSpeciesExactMatch	UPHENO:0087103	visceral serous pericardium morphology phenotype	semapv:LogicalReasoning
 XPO:0103198	abnormal posterior lateral line morphology	semapv:crossSpeciesExactMatch	UPHENO:7001211	posterior lateral line morphology	semapv:LogicalReasoning
-XPO:0103199	abnormal tongue morphology	semapv:crossSpeciesExactMatch	UPHENO:7000720	tongue morphology	semapv:LogicalReasoning
+XPO:0103199	abnormal tongue morphology	semapv:crossSpeciesExactMatch	UPHENO:0088098	tongue morphology phenotype	semapv:LogicalReasoning
 XPO:0103206	abnormal oligodendrocyte morphology	semapv:crossSpeciesExactMatch	UPHENO:7001212	oligodendrocyte morphology	semapv:LogicalReasoning
 XPO:0103210	abnormal pupil morphology	semapv:crossSpeciesExactMatch	UPHENO:7001213	pupil morphology	semapv:LogicalReasoning
 XPO:0103211	abnormal urethra morphology	semapv:crossSpeciesExactMatch	UPHENO:0087871	urethra morphology phenotype	semapv:LogicalReasoning
@@ -3502,7 +3502,7 @@ XPO:0107270	abnormal proximal-distal axis	semapv:crossSpeciesExactMatch	UPHENO:7
 XPO:0107276	abnormal dorsal region	semapv:crossSpeciesExactMatch	UPHENO:7001064	dorsal region	semapv:LogicalReasoning
 XPO:0107286	abnormal efferent neuron	semapv:crossSpeciesExactMatch	UPHENO:7001040	efferent neuron	semapv:LogicalReasoning
 XPO:0107287	abnormal afferent neuron	semapv:crossSpeciesExactMatch	UPHENO:7001056	afferent neuron	semapv:LogicalReasoning
-XPO:0107340	abnormal enteric nervous system morphology	semapv:crossSpeciesExactMatch	UPHENO:7000670	enteric nervous system morphology	semapv:LogicalReasoning
+XPO:0107340	abnormal enteric nervous system morphology	semapv:crossSpeciesExactMatch	UPHENO:0086978	enteric nervous system morphology phenotype	semapv:LogicalReasoning
 XPO:0107341	abnormal neutrophil morphology	semapv:crossSpeciesExactMatch	UPHENO:0088175	neutrophil morphology phenotype	semapv:LogicalReasoning
 XPO:0107343	abnormal cardiac atrium morphology	semapv:crossSpeciesExactMatch	UPHENO:0086863	cardiac atrium morphology phenotype	semapv:LogicalReasoning
 XPO:0107370	abnormal otic capsule morphology	semapv:crossSpeciesExactMatch	UPHENO:0087352	bony otic capsule morphology phenotype	semapv:LogicalReasoning
@@ -3579,7 +3579,7 @@ XPO:0141663	paralysed hindlimb	semapv:crossSpeciesExactMatch	UPHENO:0081704	para
 XPO:0141715	abnormal septum	semapv:crossSpeciesExactMatch	UPHENO:7000098	septum	semapv:LogicalReasoning
 XPO:0141748	abnormal gas homeostasis	semapv:crossSpeciesExactMatch	UPHENO:7000971	gas homeostasis	semapv:LogicalReasoning
 XPO:0142058	abnormal cerebrospinal fluid morphology	semapv:crossSpeciesExactMatch	UPHENO:0088185	cerebrospinal fluid morphology phenotype	semapv:LogicalReasoning
-XPO:0142060	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:7000963	abdominal wall morphology	semapv:LogicalReasoning
+XPO:0142060	abnormal abdominal wall morphology	semapv:crossSpeciesExactMatch	UPHENO:0075843	abdominal wall phenotype	semapv:LogicalReasoning
 ZP:0000012	somite morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001111	somite morphology	semapv:LogicalReasoning
 ZP:0000023	hindbrain morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001110	hindbrain morphology	semapv:LogicalReasoning
 ZP:0000107	heart morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0076810	heart morphology phenotype	semapv:LogicalReasoning
@@ -3597,7 +3597,7 @@ ZP:0000618	axial chorda mesoderm morphology, abnormal	semapv:crossSpeciesExactMa
 ZP:0000624	notochord morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001136	notochord morphology	semapv:LogicalReasoning
 ZP:0000639	neuroectoderm morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001159	neuroectoderm morphology	semapv:LogicalReasoning
 ZP:0000645	chondrocranium morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001097	chondrocranium morphology	semapv:LogicalReasoning
-ZP:0000943	eye morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000632	eye morphology	semapv:LogicalReasoning
+ZP:0000943	eye morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087924	camera-type eye morphology phenotype	semapv:LogicalReasoning
 ZP:0001052	mandibular arch skeleton morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001150	mandibular arch skeleton morphology	semapv:LogicalReasoning
 ZP:0001106	intrahepatic bile duct morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087160	intrahepatic bile duct morphology phenotype	semapv:LogicalReasoning
 ZP:0001151	aortic arch morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001105	aortic arch morphology	semapv:LogicalReasoning
@@ -3726,12 +3726,12 @@ ZP:0010007	anterior cerebral vein morphology, abnormal	semapv:crossSpeciesExactM
 ZP:0010162	dorsal root ganglion morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087889	dorsal root ganglion morphology phenotype	semapv:LogicalReasoning
 ZP:0010197	rhombomere 4 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086991	rhombomere 4 morphology phenotype	semapv:LogicalReasoning
 ZP:0010377	rhombomere 1 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087275	rhombomere 1 morphology phenotype	semapv:LogicalReasoning
-ZP:0010594	cornea morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000168	cornea morphology	semapv:LogicalReasoning
+ZP:0010594	cornea morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087577	cornea morphology phenotype	semapv:LogicalReasoning
 ZP:0010596	iris morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0088050	iris morphology phenotype	semapv:LogicalReasoning
 ZP:0010639	iridophore morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001198	iridophore morphology	semapv:LogicalReasoning
 ZP:0010789	caudal artery morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001162	caudal artery morphology	semapv:LogicalReasoning
 ZP:0010935	vein morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086792	vein morphology phenotype	semapv:LogicalReasoning
-ZP:0011219	thoracic duct morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000743	thoracic duct morphology	semapv:LogicalReasoning
+ZP:0011219	thoracic duct morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086801	thoracic duct morphology phenotype	semapv:LogicalReasoning
 ZP:0011268	epiphysis morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087487	epiphysis morphology phenotype	semapv:LogicalReasoning
 ZP:0011326	cloaca morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001142	cloaca morphology	semapv:LogicalReasoning
 ZP:0011591	motor neuron morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000354	motor neuron morphology	semapv:LogicalReasoning
@@ -3779,7 +3779,7 @@ ZP:0015323	anterior crista morphology, abnormal	semapv:crossSpeciesExactMatch	UP
 ZP:0015449	fin vasculature morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001103	fin vasculature morphology	semapv:LogicalReasoning
 ZP:0015510	lagena morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001189	lagena morphology	semapv:LogicalReasoning
 ZP:0015511	saccule morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087536	saccule of membranous labyrinth morphology phenotype	semapv:LogicalReasoning
-ZP:0015512	utricle morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000855	utricle morphology	semapv:LogicalReasoning
+ZP:0015512	utricle morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087538	utricle of membranous labyrinth morphology phenotype	semapv:LogicalReasoning
 ZP:0015605	pericardium morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0076763	pericardium morphology phenotype	semapv:LogicalReasoning
 ZP:0016131	neuromast support cell morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001146	neuromast support cell morphology	semapv:LogicalReasoning
 ZP:0016203	periderm morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086499	periderm morphology phenotype	semapv:LogicalReasoning
@@ -3811,7 +3811,7 @@ ZP:0020437	neural arch morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO
 ZP:0020628	microglial cell morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000940	microglial cell morphology	semapv:LogicalReasoning
 ZP:0020978	proximal convoluted tubule morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086585	proximal convoluted tubule morphology phenotype	semapv:LogicalReasoning
 ZP:0021048	basilar artery morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086803	basilar artery morphology phenotype	semapv:LogicalReasoning
-ZP:0021380	vertebral artery morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000703	vertebral artery morphology	semapv:LogicalReasoning
+ZP:0021380	vertebral artery morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087150	vertebral artery morphology phenotype	semapv:LogicalReasoning
 ZP:0021523	acinar cell morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001130	acinar cell morphology	semapv:LogicalReasoning
 ZP:0021708	third ventricle morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0081559	third ventricle morphology phenotype	semapv:LogicalReasoning
 ZP:0021744	cystic duct morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0086975	cystic duct morphology phenotype	semapv:LogicalReasoning
@@ -3829,7 +3829,7 @@ ZP:0102599	aortic arch 3 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHE
 ZP:0102600	aortic arch 4 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001121	aortic arch 4 morphology	semapv:LogicalReasoning
 ZP:0102601	aortic arch 5 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001205	aortic arch 5 morphology	semapv:LogicalReasoning
 ZP:0102602	aortic arch 6 morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001129	aortic arch 6 morphology	semapv:LogicalReasoning
-ZP:0102648	maxilla morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000156	maxilla morphology	semapv:LogicalReasoning
+ZP:0102648	maxilla morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087341	maxilla morphology phenotype	semapv:LogicalReasoning
 ZP:0102860	bone element morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001118	bone element morphology	semapv:LogicalReasoning
 ZP:0102968	taste bud morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001188	taste bud morphology	semapv:LogicalReasoning
 ZP:0103103	nasal bone morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0083645	nasal bone morphology phenotype	semapv:LogicalReasoning
@@ -3845,7 +3845,7 @@ ZP:0104687	posterior communicating artery morphology, abnormal	semapv:crossSpeci
 ZP:0104711	barbel morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001165	barbel morphology	semapv:LogicalReasoning
 ZP:0105672	snout morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087278	snout morphology phenotype	semapv:LogicalReasoning
 ZP:0106607	skeletal element morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001096	skeletal element morphology	semapv:LogicalReasoning
-ZP:0106640	parietal bone morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000378	parietal bone morphology	semapv:LogicalReasoning
+ZP:0106640	parietal bone morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087146	tetrapod parietal bone morphology phenotype	semapv:LogicalReasoning
 ZP:0107282	oocyte morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001087	oocyte morphology; oocyte morphology variant	semapv:LogicalReasoning
 ZP:0131122	muscle cell morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001085	muscle cell morphology; muscle cell morphology variant	semapv:LogicalReasoning
 ZP:0131179	trigeminal motor nucleus morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0088015	motor nucleus of trigeminal nerve morphology phenotype	semapv:LogicalReasoning
@@ -3867,7 +3867,7 @@ ZP:0143748	subcommissural organ morphology, abnormal	semapv:crossSpeciesExactMat
 ZP:0144961	oculomotor nucleus morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0088103	oculomotor nuclear complex morphology phenotype	semapv:LogicalReasoning
 ZP:0145040	urostyle morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001206	urostyle morphology	semapv:LogicalReasoning
 ZP:0146382	male organism morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7001147	male organism morphology	semapv:LogicalReasoning
-ZP:0146393	thalamus morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000515	thalamus morphology	semapv:LogicalReasoning
+ZP:0146393	thalamus morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087517	dorsal plus ventral thalamus morphology phenotype	semapv:LogicalReasoning
 ZP:0146735	heart weight, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0010859	heart mass phenotype	semapv:LogicalReasoning
 ZP:0147241	premaxilla morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:0087863	premaxilla morphology phenotype	semapv:LogicalReasoning
 ZP:0147344	T cell morphology, abnormal	semapv:crossSpeciesExactMatch	UPHENO:7000393	t cell morphology	semapv:LogicalReasoning
