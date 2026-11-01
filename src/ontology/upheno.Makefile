@@ -96,7 +96,10 @@ $(MAPPINGDIR)/upheno-species-independent.sssom.tsv: $(MAPPINGDIR)/upheno-species
 	sssom parse $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv -I tsv --metadata config/upheno-species-independent.sssom.yml -o $(TMPDIR)/upheno-species-independent-with-meta.sssom.tsv
 	sssom merge $(MAPPINGDIR)/upheno-species-independent-eq.sssom.tsv $(TMPDIR)/upheno-species-independent-with-meta.sssom.tsv  -o $(TMPDIR)/upheno-species-independent-merged.sssom.tsv
 	sssom invert $(TMPDIR)/upheno-species-independent-merged.sssom.tsv -o $(TMPDIR)/upheno-species-independent-inverted.sssom.tsv
-	sssom sort $(TMPDIR)/upheno-species-independent-inverted.sssom.tsv -o $@
+	sssom sort $(TMPDIR)/upheno-species-independent-inverted.sssom.tsv -o $(TMPDIR)/upheno-species-independent-sorted.sssom.tsv
+	# sssom merge mints a random mapping_set_id; drop it so the fixed one from the metadata file applies (#1045)
+	grep -v '^# mapping_set_id:' $(TMPDIR)/upheno-species-independent-sorted.sssom.tsv > $(TMPDIR)/upheno-species-independent-noid.sssom.tsv
+	sssom parse $(TMPDIR)/upheno-species-independent-noid.sssom.tsv -I tsv --metadata config/upheno-species-independent.sssom.yml -C merged -o $@
 
 $(MAPPINGDIR)/upheno-cross-species.sssom.tsv: $(TMPDIR)/upheno-species-lexical.csv $(TMPDIR)/upheno-mapping-logical.csv
 	mkdir -p $(TMPDIR)/cross-species/
