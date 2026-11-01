@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-deprecated.owl>
-<http://purl.obolibrary.org/obo/upheno/releases/2026-10-18/components/upheno-deprecated.owl>
-Annotation(owl:versionInfo "2026-10-18")
+<http://purl.obolibrary.org/obo/upheno/releases/2026-11-01/components/upheno-deprecated.owl>
+Annotation(owl:versionInfo "2026-11-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0000579>))
@@ -17462,8 +17462,25 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0090131>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0090183>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0090185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_0090187>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000156>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000168>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000378>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000497>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000499>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000515>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000541>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000632>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000670>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000703>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000720>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000743>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000855>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000867>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000916>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000956>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7000963>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UPHENO_7001075>))
@@ -106881,6 +106898,38 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_0090187> "http://purl.obolibrary.org/obo/GO_0001750-abnormalSizeOfAnatomicalEntity.tsv")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_0090187> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000156> (obsolete maxilla morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000156> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000156> <http://purl.obolibrary.org/obo/UPHENO_0087341>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000156> "Merged into UPHENO:0087341 'maxilla morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000156> "obsolete maxilla morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000156> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000168> (obsolete cornea morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000168> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000168> <http://purl.obolibrary.org/obo/UPHENO_0087577>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000168> "Merged into UPHENO:0087577 'cornea morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000168> "obsolete cornea morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000168> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000204> (obsolete scapula morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000204> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000204> <http://purl.obolibrary.org/obo/UPHENO_0086964>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000204> "Merged into UPHENO:0086964 'scapula morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000204> "obsolete scapula morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000204> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000378> (obsolete parietal bone morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000378> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000378> <http://purl.obolibrary.org/obo/UPHENO_0087146>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000378> "Merged into UPHENO:0087146 'tetrapod parietal bone morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000378> "obsolete parietal bone morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000378> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_7000497> (obsolete head of femur dislocation; dislocation of the femoral head (phenotype grouping))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000497> <https://github.com/obophenotype/upheno/issues/1011>)
@@ -106889,6 +106938,86 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000497>
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000497> "obsolete head of femur dislocation; dislocation of the femoral head (phenotype grouping)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000497> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000499> (obsolete cerebral artery morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000499> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000499> <http://purl.obolibrary.org/obo/UPHENO_0087835>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000499> "Merged into UPHENO:0087835 'cerebral artery morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000499> "obsolete cerebral artery morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000499> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000515> (obsolete thalamus morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000515> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000515> <http://purl.obolibrary.org/obo/UPHENO_0087517>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000515> "Merged into UPHENO:0087517 'dorsal plus ventral thalamus morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000515> "obsolete thalamus morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000515> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000541> (obsolete inner ear morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000541> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000541> <http://purl.obolibrary.org/obo/UPHENO_0087541>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000541> "Merged into UPHENO:0087541 'internal ear morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000541> "obsolete inner ear morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000541> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000623> (obsolete respiratory system morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000623> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000623> <http://purl.obolibrary.org/obo/UPHENO_0087433>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000623> "Merged into UPHENO:0087433 'respiratory system morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000623> "obsolete respiratory system morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000623> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000632> (obsolete eye morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000632> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000632> <http://purl.obolibrary.org/obo/UPHENO_0087924>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000632> "Merged into UPHENO:0087924 'camera-type eye morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000632> "obsolete eye morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000632> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000670> (obsolete enteric nervous system morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000670> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000670> <http://purl.obolibrary.org/obo/UPHENO_0086978>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000670> "Merged into UPHENO:0086978 'enteric nervous system morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000670> "obsolete enteric nervous system morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000670> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000703> (obsolete vertebral artery morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000703> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000703> <http://purl.obolibrary.org/obo/UPHENO_0087150>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000703> "Merged into UPHENO:0087150 'vertebral artery morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000703> "obsolete vertebral artery morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000703> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000720> (obsolete tongue morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000720> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000720> <http://purl.obolibrary.org/obo/UPHENO_0088098>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000720> "Merged into UPHENO:0088098 'tongue morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000720> "obsolete tongue morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000720> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000743> (obsolete thoracic duct morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000743> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000743> <http://purl.obolibrary.org/obo/UPHENO_0086801>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000743> "Merged into UPHENO:0086801 'thoracic duct morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000743> "obsolete thoracic duct morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000743> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000855> (obsolete utricle morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000855> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000855> <http://purl.obolibrary.org/obo/UPHENO_0087538>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000855> "Merged into UPHENO:0087538 'utricle of membranous labyrinth morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000855> "obsolete utricle morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000855> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/UPHENO_7000867> (obsolete fractured knee; fractured knee (phenotype grouping))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000867> <https://github.com/obophenotype/upheno/issues/1011>)
@@ -106896,6 +107025,30 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000867> "Grouped a single uPheno class with an obsolete HP term; use UPHENO:0080444.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000867> "obsolete fractured knee; fractured knee (phenotype grouping)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000867> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000916> (obsolete neural tube morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000916> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000916> <http://purl.obolibrary.org/obo/UPHENO_0087363>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000916> "Merged into UPHENO:0087363 'neural tube morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000916> "obsolete neural tube morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000916> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000956> (obsolete macrophage morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000956> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000956> <http://purl.obolibrary.org/obo/UPHENO_0088163>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000956> "Merged into UPHENO:0088163 'macrophage morphology phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000956> "obsolete macrophage morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000956> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/UPHENO_7000963> (obsolete abdominal wall morphology phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/UPHENO_7000963> <https://github.com/obophenotype/upheno/issues/1047>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/UPHENO_7000963> <http://purl.obolibrary.org/obo/UPHENO_0075843>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UPHENO_7000963> "Merged into UPHENO:0075843 'abdominal wall phenotype': MGI matches the HP and MP terms label-for-label.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UPHENO_7000963> "obsolete abdominal wall morphology phenotype")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UPHENO_7000963> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/UPHENO_7001073> (obsolete regulation of telomerase activity phenotype; regulation of telomerase activity process quality (phenotype grouping))
 
