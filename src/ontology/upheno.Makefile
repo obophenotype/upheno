@@ -166,8 +166,13 @@ upheno-equivalence-model.owl: $(TMPDIR)/upheno-incl-lexical-match-equivalencies.
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 	    --output $@
 
+# The old model is frozen: the metazoa.owl PURL it was built from is dead and no release ever
+# shipped metazoa.owl (#1050), so rebuild it from a pinned release copy of itself. Every release
+# since 2025-08-16 ships the same old model, re-filtering it below is idempotent.
+UPHENO_OLD_MODEL_SOURCE = https://github.com/obophenotype/upheno/releases/download/v2025-08-16/upheno-old-model.owl
+
 $(TMPDIR)/upheno-old-metazoa.owl:
-	$(ROBOT) merge --input-iri http://purl.obolibrary.org/obo/upheno/metazoa.owl -o $@
+	curl -fsSL $(UPHENO_OLD_MODEL_SOURCE) -o $@
 .PRECIOUS: $(TMPDIR)/upheno-old-metazoa.owl
 
 $(EDIT_PREPROCESSED): $(SRC)
