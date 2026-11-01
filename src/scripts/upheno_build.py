@@ -506,13 +506,15 @@ def _isa_parents(ontology_file):
 @click.option("--mappings", type=click.Path(exists=True), required=True, help="SSSOM file mapping species phenotypes to grouping classes.")
 @click.option("--groupings", type=click.Path(exists=True), required=True, help="Grouping template, updated in place.")
 def place_upheno_groupings(ontology, mappings, groupings):
-    """Give grouping classes without a real parent the most specific uPheno classes shared by all their members.
+    """Place grouping classes under the most specific uPheno classes shared by all their members.
 
     A grouping class is exact-matched to each member, so a uPheno class that subsumes every member
     also subsumes the grouping. Ancestors are collected without passing through grouping classes, so a
-    grouping's own (possibly wrong) parents never confirm themselves on the next run. Only groupings
-    whose parent is the root or 'taxon specific phenotype' are re-placed; the latter is dropped
-    everywhere, because grouping classes are cross-species by construction.
+    grouping's own (possibly wrong) parents never confirm themselves on the next run. Groupings whose
+    parent is the root or 'taxon specific phenotype' get the shared classes as their parents; groupings
+    that already have real parents keep them and get any shared class added that their parents don't
+    already imply. 'Taxon specific phenotype' is dropped everywhere, because grouping classes are
+    cross-species by construction.
     """
     parents, obsolete = _isa_parents(ontology)
 
@@ -538,29 +540,45 @@ def place_upheno_groupings(ontology, mappings, groupings):
         return memo[curie]
 
     excluded = {UPHENO_ROOT, UPHENO_TAXON_SPECIFIC}
+
+    def shared_parents(grouping):
+        """Most specific uPheno classes that subsume every member (needs at least two members)."""
+        if len(members.get(grouping, ())) < 2:
+            return set()
+        shared = None
+        for member in members[grouping]:
+            ancestors = upheno_ancestors(member) - excluded
+            shared = ancestors if shared is None else shared & ancestors
+        return {c for c in shared if not any(c in upheno_ancestors(o) for o in shared if o != c)}
+
     df_groupings = pd.read_csv(groupings, sep="\t", dtype=str, keep_default_na=False)
-    replaced = dropped = 0
+    replaced = dropped = extended = added = 0
     for i, row in df_groupings.iterrows():
         if i == 0:  # ROBOT template row
             continue
         current = set(row["parent"].split("|"))
+        shared = shared_parents(row["upheno_id"])
         if current <= excluded:
-            shared = None
-            for member in members.get(row["upheno_id"], ()):
-                ancestors = upheno_ancestors(member) - excluded
-                shared = ancestors if shared is None else shared & ancestors
-            if len(members.get(row["upheno_id"], ())) >= 2 and shared:
-                most_specific = {c for c in shared if not any(c in upheno_ancestors(o) for o in shared if o != c)}
-                df_groupings.at[i, "parent"] = "|".join(sorted(most_specific))
+            if shared:
+                df_groupings.at[i, "parent"] = "|".join(sorted(shared))
                 replaced += 1
             elif current == {UPHENO_TAXON_SPECIFIC}:
                 df_groupings.at[i, "parent"] = UPHENO_ROOT
-        elif UPHENO_TAXON_SPECIFIC in current:
-            df_groupings.at[i, "parent"] = "|".join(sorted(current - {UPHENO_TAXON_SPECIFIC}))
+            continue
+        # keep the existing order so rows only change when a parent is actually dropped or added
+        kept = [p for p in row["parent"].split("|") if p != UPHENO_TAXON_SPECIFIC]
+        if len(kept) < len(current):
             dropped += 1
+        implied = set(kept).union(*(upheno_ancestors(p) for p in kept))
+        new = sorted(shared - implied)
+        if new:
+            extended += 1
+            added += len(new)
+        df_groupings.at[i, "parent"] = "|".join(kept + new)
 
     df_groupings.to_csv(groupings, sep="\t", index=False)
-    click.echo(f"Placed {replaced} grouping classes, dropped 'taxon specific phenotype' from {dropped} more.")
+    click.echo(f"Placed {replaced} grouping classes, dropped 'taxon specific phenotype' from {dropped} more, "
+               f"added {added} shared parents to {extended} groupings that already had parents.")
 
 # Subcommand: help
 @upheno.command()
