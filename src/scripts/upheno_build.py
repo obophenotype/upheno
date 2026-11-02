@@ -486,6 +486,7 @@ def create_upheno_groupings(cross_species_mapping, species_independent_mapping, 
 
 UPHENO_ROOT = "UPHENO:0001001"
 UPHENO_TAXON_SPECIFIC = "UPHENO:0001003"
+COMPUTED_PARENT = "computed_parent"
 
 
 def _is_grouping(curie):
@@ -506,15 +507,13 @@ def _isa_parents(ontology_file):
 @click.option("--mappings", type=click.Path(exists=True), required=True, help="SSSOM file mapping species phenotypes to grouping classes.")
 @click.option("--groupings", type=click.Path(exists=True), required=True, help="Grouping template, updated in place.")
 def place_upheno_groupings(ontology, mappings, groupings):
-    """Place grouping classes under the most specific uPheno classes shared by all their members.
+    """Write the most specific uPheno classes shared by all members of each grouping to `computed_parent`.
 
     A grouping class is exact-matched to each member, so a uPheno class that subsumes every member
     also subsumes the grouping. Ancestors are collected without passing through grouping classes, so a
-    grouping's own (possibly wrong) parents never confirm themselves on the next run. Groupings whose
-    parent is the root or 'taxon specific phenotype' get the shared classes as their parents; groupings
-    that already have real parents keep them and get any shared class added that their parents don't
-    already imply. 'Taxon specific phenotype' is dropped everywhere, because grouping classes are
-    cross-species by construction.
+    grouping's computed parents never confirm themselves on the next run. The `parent` column is left
+    alone; `computed_parent` holds the shared classes it doesn't already imply and is overwritten
+    completely on every run.
     """
     parents, obsolete = _isa_parents(ontology)
 
@@ -552,33 +551,26 @@ def place_upheno_groupings(ontology, mappings, groupings):
         return {c for c in shared if not any(c in upheno_ancestors(o) for o in shared if o != c)}
 
     df_groupings = pd.read_csv(groupings, sep="\t", dtype=str, keep_default_na=False)
-    replaced = dropped = extended = added = 0
+    if COMPUTED_PARENT not in df_groupings.columns:
+        df_groupings.insert(df_groupings.columns.get_loc("parent") + 1, COMPUTED_PARENT, "")
+        df_groupings.at[0, COMPUTED_PARENT] = "SC % SPLIT=|"
+    # `parent` is curated (or from create-upheno-groupings) and never touched here. The computed
+    # parents live in their own column and are recomputed from scratch on every run, so a wrong one
+    # disappears again once the member hierarchy that produced it is fixed.
+    groupings_with = added = 0
     for i, row in df_groupings.iterrows():
         if i == 0:  # ROBOT template row
             continue
-        current = set(row["parent"].split("|"))
-        shared = shared_parents(row["upheno_id"])
-        if current <= excluded:
-            if shared:
-                df_groupings.at[i, "parent"] = "|".join(sorted(shared))
-                replaced += 1
-            elif current == {UPHENO_TAXON_SPECIFIC}:
-                df_groupings.at[i, "parent"] = UPHENO_ROOT
-            continue
-        # keep the existing order so rows only change when a parent is actually dropped or added
-        kept = [p for p in row["parent"].split("|") if p != UPHENO_TAXON_SPECIFIC]
-        if len(kept) < len(current):
-            dropped += 1
-        implied = set(kept).union(*(upheno_ancestors(p) for p in kept))
-        new = sorted(shared - implied)
-        if new:
-            extended += 1
-            added += len(new)
-        df_groupings.at[i, "parent"] = "|".join(kept + new)
+        curated = [p for p in row["parent"].split("|") if p and p not in excluded]
+        implied = set(curated).union(*(upheno_ancestors(p) for p in curated))
+        computed = sorted(shared_parents(row["upheno_id"]) - implied)
+        df_groupings.at[i, COMPUTED_PARENT] = "|".join(computed)
+        if computed:
+            groupings_with += 1
+            added += len(computed)
 
     df_groupings.to_csv(groupings, sep="\t", index=False)
-    click.echo(f"Placed {replaced} grouping classes, dropped 'taxon specific phenotype' from {dropped} more, "
-               f"added {added} shared parents to {extended} groupings that already had parents.")
+    click.echo(f"{added} computed parents on {groupings_with} grouping classes.")
 
 # Subcommand: help
 @upheno.command()
