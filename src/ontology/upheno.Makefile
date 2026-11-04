@@ -140,14 +140,22 @@ update_manual_alignments: $(TMPDIR)/upheno-subclasses.csv
 		--non-eq-species-independent-mapping $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv
 	$(MAKE) place_groupings
 
-# Re-place grouping classes that only sit under the root (#1053), using the inferred hierarchy
-# of the last build. No prerequisite on upheno.obo on purpose (same as upheno-subclasses.csv
-# above): we want the existing build, not a rebuild.
+# Compute grouping parents (#1053) from the last build with the grouping classes taken out and
+# re-reasoned. The released hierarchy is reduced: once a grouping G sits under X, the members'
+# direct is_a X is gone (M -> G -> X), so computing from upheno.obo itself would flip X on every
+# other run. Without G, ELK reconnects the members to X. No prerequisite on upheno.owl on
+# purpose (same as upheno-subclasses.csv above): we want the existing build, not a rebuild.
+$(TMPDIR)/upheno-without-groupings.obo: $(TEMPLATEDIR)/upheno-ssspo-groupings-no-eq.tsv
+	test -f upheno.owl
+	tail -n +3 $< | cut -f1 > $(TMPDIR)/grouping-ids.txt
+	$(ROBOT) remove -i upheno.owl --term-file $(TMPDIR)/grouping-ids.txt \
+		reason --reasoner ELK --equivalent-classes-allowed all --exclude-tautologies structural \
+		convert --check false -f obo -o $@
+
 .PHONY: place_groupings
-place_groupings:
-	test -f upheno.obo
+place_groupings: $(TMPDIR)/upheno-without-groupings.obo
 	python3 ../scripts/upheno_build.py place-upheno-groupings \
-		--ontology upheno.obo \
+		--ontology $< \
 		--mappings $(MAPPINGDIR)/upheno-species-independent-manual.sssom.tsv \
 		--groupings $(TEMPLATEDIR)/upheno-ssspo-groupings-no-eq.tsv
 
