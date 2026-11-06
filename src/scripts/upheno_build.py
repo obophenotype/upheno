@@ -503,7 +503,7 @@ def _isa_parents(ontology_file):
 
 
 @upheno.command()
-@click.option("--ontology", type=click.Path(exists=True), required=True, help="Reasoned uPheno with SSPOs, grouping classes removed, in OBO format (make tmp/upheno-without-groupings.obo).")
+@click.option("--ontology", type=click.Path(exists=True), required=True, help="Reasoned uPheno with SSPOs, grouping classes removed, in OBO format (built by make place_groupings).")
 @click.option("--mappings", type=click.Path(exists=True), required=True, help="SSSOM file mapping species phenotypes to grouping classes.")
 @click.option("--groupings", type=click.Path(exists=True), required=True, help="Grouping template, updated in place.")
 def place_upheno_groupings(ontology, mappings, groupings):
