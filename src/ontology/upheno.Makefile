@@ -146,6 +146,10 @@ update_manual_alignments: $(TMPDIR)/upheno-subclasses.csv
 # merge the components back in (restores the asserted uPheno edges, e.g. from upheno-alignments),
 # drop every grouping class without bridging its edges (--preserve-structure false, otherwise
 # M -> G -> X becomes an asserted M -> X and computed parents confirm themselves), and re-reason.
+# OTHER_SRC includes upheno-manual-curation.owl, which is built from computed_parent. That is only
+# safe because the UPHENO_7* remove drops every axiom mentioning a grouping class (all but its 8
+# root-level UPHENO_3000xxx axioms). Don't narrow the selector (e.g. to template ids): it makes
+# this circular again.
 # Rebuilt on every run, because the inputs change outside make. No prerequisite on upheno.owl
 # on purpose (same as upheno-subclasses.csv above): we want the existing build, not a rebuild.
 .PHONY: place_groupings
