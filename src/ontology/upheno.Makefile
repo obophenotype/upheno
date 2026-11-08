@@ -281,19 +281,19 @@ upheno_create_profiles: ../curation/upheno-config.yaml
 ############################
 
 $(TEMPLATEDIR)/phenotypes-without-patterns.tsv:
-	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1901003626&single=true&output=tsv" -O $@
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1901003626&single=true&output=tsv" -O $@.tmp && tr -d '\r' < $@.tmp > $@ && rm $@.tmp
 
 $(TEMPLATEDIR)/phenotype-alignments.tsv:
-	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1305526284&single=true&output=tsv" -O $@
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1305526284&single=true&output=tsv" -O $@.tmp && tr -d '\r' < $@.tmp > $@ && rm $@.tmp
 
 $(TEMPLATEDIR)/phenotype-top-level.tsv:
-	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=627170903&single=true&output=tsv" -O $@
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=627170903&single=true&output=tsv" -O $@.tmp && tr -d '\r' < $@.tmp > $@ && rm $@.tmp
 
 $(TEMPLATEDIR)/root-alignments.tsv:
-	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1260598340&single=true&output=tsv" -O $@
+	wget "https://docs.google.com/spreadsheets/d/1TDDGUKLME28ZLE5YayXNOwAkBD7jDoAgLPuTkYoMAs0/pub?gid=1260598340&single=true&output=tsv" -O $@.tmp && tr -d '\r' < $@.tmp > $@ && rm $@.tmp
 
 $(TEMPLATEDIR)/axiom-injections.tsv:
-	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vRx0gi2I-Ks14LGNibiy6YzW-3A45_jZOnYsBNmaIjF3M8vrXboJwBYle525RXVscXhGGlOzGe05VhX/pub?gid=1825106877&single=true&output=tsv" -O $@
+	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vRx0gi2I-Ks14LGNibiy6YzW-3A45_jZOnYsBNmaIjF3M8vrXboJwBYle525RXVscXhGGlOzGe05VhX/pub?gid=1825106877&single=true&output=tsv" -O $@.tmp && tr -d '\r' < $@.tmp > $@ && rm $@.tmp
 
 ## Something in the dependency chain is still broken here.
 ## This component depends on the mappings which depend on other components
@@ -440,7 +440,7 @@ base_report:
 abnormalCellularComponent=https://docs.google.com/spreadsheets/d/e/2PACX-1vRx0gi2I-Ks14LGNibiy6YzW-3A45_jZOnYsBNmaIjF3M8vrXboJwBYle525RXVscXhGGlOzGe05VhX/pub?gid=1218954488&single=true&output=tsv
 
 $(PATTERNDIR)/data/automatic/abnormalCellularComponent.tsv:
-	wget "$(abnormalCellularComponent)" -O $@
+	wget "$(abnormalCellularComponent)" -O $@.tmp && tr -d '\r' < $@.tmp > $@ && rm $@.tmp
 
 prepare_release:
 	@echo "WARNING WARNING WARNING: DO NOT USE THIS COMMAND, use sh prepare_release.sh instead!"
