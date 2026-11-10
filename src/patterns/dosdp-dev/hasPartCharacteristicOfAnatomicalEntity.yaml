@@ -1,0 +1,32 @@
+---
+pattern_name: hasPartCharacteristicOfAnatomicalEntity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/hasPartCharacteristicOfAnatomicalEntity.yaml
+
+description: 'Partial phenotype pattern documenting the subClassOf axiom used to link
+  an existing phenotype term to an anatomical entity when the term has no full EQ
+  definition, for example to enrich the anatomy links of MP terms. This pattern is
+  not meant for creating new terms, so it has no name, definition or synonym templates.'
+
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0003-4606-0597  # Susan Bello
+  - https://orcid.org/0000-0002-6490-7723  # Anna V. Anagnostopoulos
+
+classes:
+  anatomical_entity: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  has_part: BFO:0000051
+
+vars:
+  anatomical_entity: "'anatomical_entity'"  # "'variable_range'"
+
+subClassOf:
+  text: "'has_part' some ('characteristic_of' some %s)"
+  vars:
+    - anatomical_entity
+...
