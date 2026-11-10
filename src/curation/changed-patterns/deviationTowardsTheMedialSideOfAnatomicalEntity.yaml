@@ -1,0 +1,41 @@
+annotationProperties:
+  broad_synonym: oio:hasBroadSynonym
+annotations:
+- annotationProperty: broad_synonym
+  text: shift of %s towards the middle
+  vars:
+  - anatomical_entity
+- annotationProperty: broad_synonym
+  text: permanent bending of %s
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+  deviation_towards_the_medial_side: PATO:0002177
+contributors:
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0003-4606-0597
+- https://orcid.org/0000-0002-9900-7880
+def:
+  text: A changed direction of position or shift towards the middle of %s.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some ( ''deviation_towards_the_medial_side'' and (''characteristic_of''
+    some %s) and (''has_modifier'' some ''abnormal'') )'
+  vars:
+  - anatomical_entity
+name:
+  text: deviation of %s towards the middle
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/deviationTowardsTheMedialSideOfAnatomicalEntity.yaml
+pattern_name: deviationTowardsTheMedialSideOfAnatomicalEntity
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+vars:
+  anatomical_entity: '''anatomical_entity'''

@@ -1,0 +1,35 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: small %s
+  vars:
+  - entity
+classes:
+  abnormal: PATO:0000460
+  cellular component: GO:0005575
+  decreased size: PATO:0000587
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: A reduction in the size of the %s.
+  vars:
+  - entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''decreased size'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - entity
+name:
+  text: decreased size of the %s
+  vars:
+  - entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedSizeOfCellularComponent.yaml
+pattern_name: abnormallyDecreasedSizeOfCellularComponent
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  entity: '''cellular component'''

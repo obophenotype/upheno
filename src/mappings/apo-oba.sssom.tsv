@@ -1,0 +1,189 @@
+subject_id	subject_label	predicate_id	object_id	object_label	go	go_label	observable
+APO:0000050	cellular morphology	skos:exactMatch	OBA:1001065				1
+APO:0000057	nuclear morphology	skos:exactMatch	OBA:1000019				1
+APO:0000054	cytoskeleton morphology	skos:exactMatch	OBA:1000013	cytoskeleton morphology			1
+APO:0000058	peroxisomal morphology	skos:exactMatch	OBA:0005997				1
+APO:0000144	telomere length	skos:exactMatch	OBA:0003784				1
+APO:0000055	mitochondrial morphology	skos:exactMatch	OBA:0002821				1
+APO:0000119	size of nucleus	skos:exactMatch	OBA:0000117	nuclear size			1
+APO:0000052	cell size	skos:exactMatch	OBA:0000055	cell size			1
+APO:0000141	critical cell size at START (G1 cell-size checkpoint)	skos:broadMatch	OBA:0000055				1
+APO:0000051	cell shape	skos:exactMatch	OBA:0000052				1
+APO:0000275	prion inheritance	skos:broadMatch	OBA:0100002	biological process attribute			1
+APO:0000276	prion formation	skos:broadMatch	OBA:0100002	biological process attribute			1
+APO:0000277	prion loss	skos:broadMatch	OBA:0100002	biological process attribute			1
+APO:0000053	cell wall morphology	skos:exactMatch	OBA:2045461	cell wall morphology	GO:0005618		1
+APO:0000056	bud neck morphology	skos:exactMatch	OBA:2045462	bud neck morphology	GO:0005935		1
+APO:0000212	bud morphology	skos:exactMatch	OBA:2045463	bud morphology	GO:0005933		1
+APO:0000059	vacuolar morphology	skos:exactMatch	OBA:2045464	vacuolar morphology	GO:0005773		1
+APO:0000120	actin cytoskeleton morphology	skos:exactMatch	OBA:2045465	actin cytoskeleton morphology	GO:0015629		1
+APO:0000213	spindle morphology	skos:exactMatch	OBA:2045466	spindle morphology	GO:0005819		1
+APO:0000118	nuclear position	skos:exactMatch	OBA:2045467	nuclear position	GO:0005634		1
+APO:0000214	position of spindle pole body	skos:exactMatch	OBA:2045468	position of spindle pole body	GO:0005816		1
+APO:0000193	resistance to enzymatic treatment	skos:broadMatch	OBA:2045469	response to external stimulus trait	GO:0009605		1
+APO:0000104	mitochondrial rho- mutation frequency	skos:broadMatch	OBA:2045470	mitochondrial genome maintenance trait	GO:0000002		1
+APO:0000089	budding index	skos:exactMatch	OBA:2045471	cell budding trait	GO:0007114		1
+APO:0000256	cell cycle passage through START	skos:exactMatch	OBA:2045472	traversing start control point of mitotic cell cycle trait	GO:0007089	traversing start control point of mitotic cell cycle	1
+APO:0000257	cell cycle progression through the G2/M phase transition	skos:exactMatch	OBA:2045473	G2/M transition of mitotic cell cycle trait	GO:0000086	G2/M transition of mitotic cell cycle	1
+APO:0000259	cell cycle passage through the metaphase-anaphase transition	skos:exactMatch	OBA:2045474	metaphase/anaphase transition of mitotic cell cycle trait	GO:0007091	metaphase/anaphase transition of mitotic cell cycle	1
+APO:0000253	cell cycle progression	skos:exactMatch	OBA:2045475	cell cycle trait	GO:0007049	cell cycle	1
+APO:0000254	cell cycle progression in G2 phase	skos:exactMatch	OBA:2045476	mitotic G2 phase trait	GO:0000085	mitotic G2 phase	1
+APO:0000255	cell cycle progression in G1 phase	skos:exactMatch	OBA:2045477	mitotic G1 phase trait	GO:0000080	mitotic G1 phase	1
+APO:0000258	cell cycle progression in M phase	skos:exactMatch	OBA:2045478	mitotic M phase trait	GO:0000087	mitotic M phase	1
+APO:0000260	cell cycle progression in anaphase	skos:exactMatch	OBA:2045479	mitotic anaphase trait	GO:0000090	mitotic anaphase	1
+APO:0000262	cell cycle progression in mid anaphase	skos:exactMatch	OBA:2045480	mitotic anaphase A trait	GO:0000091	mitotic anaphase A	1
+APO:0000263	cell cycle progression in late anaphase	skos:exactMatch	OBA:2045481	mitotic anaphase B trait	GO:0000092	mitotic anaphase B	1
+APO:0000264	cell cycle progression in metaphase	skos:exactMatch	OBA:2045482	mitotic metaphase trait	GO:0000089	mitotic metaphase	1
+APO:0000265	cell cycle progression in telophase	skos:exactMatch	OBA:2045483	mitotic telophase trait	GO:0000093	mitotic telophase	1
+APO:0000266	cell cycle progression in S phase	skos:exactMatch	OBA:2045484	mitotic S phase trait	GO:0000084	mitotic S phase	1
+APO:0000267	entry into G0 (stationary phase)	skos:exactMatch	OBA:2045485	G1 to G0 transition trait	GO:0070314	G1 to G0 transition	1
+APO:0000268	exit from G0 (stationary phase)	skos:exactMatch	OBA:2045486	G0 to G1 transition trait	GO:0045023	G0 to G1 transition	1
+APO:0000269	cell cycle progression through the G1/S phase transition	skos:exactMatch	OBA:2045487	cell cycle G1/S phase transition trait	GO:0044843	cell cycle G1/S phase transition	1
+APO:0000102	respiratory metabolism	skos:exactMatch	OBA:2045488	cellular respiration trait	GO:0045333	cellular respiration	1
+APO:0000043	spore wall formation	skos:exactMatch	OBA:2045489	ascospore wall assembly trait	GO:0030476	ascospore wall assembly	1
+APO:0000310	growth in exponential phase	skos:broadMatch	OBA:2045490	cell growth trait	GO:0016049	cell growth	1
+APO:0000076	mitochondrial transport	skos:exactMatch	OBA:2045491	mitochondrial transport trait	GO:0006839	mitochondrial transport	1
+APO:0000101	fermentative metabolism	skos:broadMatch	OBA:2045492	fermentation trait	GO:0006113	fermentation	1
+APO:0000022	protein activity	skos:narrowMatch	OBA:2045493	catalytic activity trait	GO:0003824	catalytic activity	1
+APO:0000024	budding	skos:exactMatch	OBA:2045471	cell budding trait	GO:0007114	cell budding	1
+APO:0000027	filamentous growth	skos:exactMatch	OBA:2045494	filamentous growth trait	GO:0030447	filamentous growth	1
+APO:0000028	invasive growth	skos:exactMatch	OBA:2045495	invasive filamentous growth trait	GO:0036267	invasive filamentous growth	1
+APO:0000029	pseudohyphal growth	skos:exactMatch	OBA:2045496	pseudohyphal growth trait	GO:0007124	pseudohyphal growth	1
+APO:0000032	mating response	skos:broadMatch	OBA:2045497	response to pheromone trait	GO:0019236	response to pheromone	1
+APO:0000033	cell fusion	skos:exactMatch	OBA:2045498	cell-cell fusion trait	GO:0140253	cell-cell fusion	1
+APO:0000035	nuclear fusion during mating	skos:exactMatch	OBA:2045499	nuclear membrane fusion involved in karyogamy trait	GO:0048288	nuclear membrane fusion involved in karyogamy	1
+APO:0000036	pheromone production	skos:exactMatch	OBA:2045500	pheromone biosynthetic process trait	GO:0042811	pheromone biosynthetic process	1
+APO:0000037	pheromone sensitivity	skos:broadMatch	OBA:2045497	response to pheromone trait	GO:0019236	response to pheromone	1
+APO:0000038	shmoo formation	skos:exactMatch	OBA:2045501	mating projection formation trait	GO:0031382	mating projection formation	1
+APO:0000039	meiosis	skos:exactMatch	OBA:2045502	meiotic cell cycle trait	GO:0051321	meiotic cell cycle	1
+APO:0000040	meiotic recombination	skos:exactMatch	OBA:2045503	reciprocal meiotic recombination trait	GO:0007131	reciprocal meiotic recombination	1
+APO:0000041	sporulation	skos:exactMatch	OBA:2045504	sporulation trait	GO:0043934	sporulation	1
+APO:0000042	spore germination	skos:exactMatch	OBA:2045505	spore germination trait	GO:0009847	spore germination	1
+APO:0000046	silencing	skos:exactMatch	OBA:2045506	heterochromatin formation trait	GO:0031507	heterochromatin formation	1
+APO:0000047	transposable element transposition	skos:exactMatch	OBA:2045507	DNA transposition trait	GO:0006313	DNA transposition	1
+APO:0000065	flocculation	skos:exactMatch	OBA:2045508	flocculation trait	GO:0000128	flocculation	1
+APO:0000071	cytokinesis	skos:exactMatch	OBA:2045509	cytokinesis trait	GO:0000910	cytokinesis	1
+APO:0000072	mitotic cell cycle	skos:exactMatch	OBA:2045510	mitotic cell cycle trait	GO:0000278	mitotic cell cycle	1
+APO:0000073	intracellular transport	skos:exactMatch	OBA:2045511	intracellular transport trait	GO:0046907	intracellular transport	1
+APO:0000074	autophagy	skos:exactMatch	OBA:2045512	autophagy trait	GO:0006914	autophagy	1
+APO:0000075	endocytosis	skos:exactMatch	OBA:2045513	endocytosis trait	GO:0006897	endocytosis	1
+APO:0000077	nuclear transport	skos:exactMatch	OBA:2045514	nuclear transport trait	GO:0051169	nuclear transport	1
+APO:0000078	protein secretion	skos:exactMatch	OBA:2045515	protein secretion trait	GO:0009306	protein secretion	1
+APO:0000079	vacuolar transport	skos:exactMatch	OBA:2045516	vacuolar transport trait	GO:0007034	vacuolar transport	1
+APO:0000096	nutrient utilization	skos:exactMatch	OBA:2045517	response to nutrient levels trait	GO:0031667	response to nutrient levels	1
+APO:0000098	utilization of carbon source	skos:exactMatch	OBA:2045518	carbon utilization trait	GO:0015976	carbon utilization	1
+APO:0000099	utilization of nitrogen source	skos:exactMatch	OBA:2045519	nitrogen utilization trait	GO:0019740	nitrogen utilization	1
+APO:0000100	nutrient uptake	skos:broadMatch	OBA:2045520	import across plasma membrane trait	GO:0098739	import across plasma membrane	1
+APO:0000105	mitochondrial genome maintenance	skos:exactMatch	OBA:2045470	mitochondrial genome maintenance trait	GO:0000002	mitochondrial genome maintenance	1
+APO:0000123	recovery from pheromone-induced cell cycle arrest	skos:exactMatch	OBA:2045521	re-entry into mitotic cell cycle after pheromone arrest trait	GO:0000321	re-entry into mitotic cell cycle after pheromone arrest	1
+APO:0000124	pheromone-induced cell cycle arrest	skos:exactMatch	OBA:2045522	mitotic cell cycle G1 arrest in response to pheromone trait	GO:0000751	mitotic cell cycle G1 arrest in response to pheromone	1
+APO:0000125	utilization of phosphorus source	skos:exactMatch	OBA:2045523	phosphorus utilization trait	GO:0006794	phosphorus utilization	1
+APO:0000126	nuclear import	skos:exactMatch	OBA:2045524	import into nucleus trait	GO:0051170	import into nucleus	1
+APO:0000127	nuclear export	skos:exactMatch	OBA:2045525	nuclear export trait	GO:0051168	nuclear export	1
+APO:0000128	peroxisomal transport	skos:exactMatch	OBA:2045526	peroxisomal transport trait	GO:0043574	peroxisomal transport	1
+APO:0000129	protein transport	skos:exactMatch	OBA:2045527	intracellular protein transport trait	GO:0006886	intracellular protein transport	1
+APO:0000130	small molecule transport	skos:broadMatch	OBA:2045528	transport trait	GO:0006810	transport	1
+APO:0000131	protein/peptide modification	skos:exactMatch	OBA:2045529	protein modification process trait	GO:0036211	protein modification process	1
+APO:0000132	RNA localization	skos:exactMatch	OBA:2045530	RNA localization trait	GO:0006403	RNA localization	1
+APO:0000143	chromosome/plasmid maintenance	skos:relatedMatch	OBA:2045531	chromosome organization trait	GO:0051276	chromosome organization	1
+APO:0000145	oxidative phosphorylation	skos:exactMatch	OBA:2045532	oxidative phosphorylation trait	GO:0006119	oxidative phosphorylation	1
+APO:0000155	apoptosis	skos:exactMatch	OBA:2045533	apoptotic process trait	GO:0006915	apoptotic process	1
+APO:0000157	utilization of iron source	skos:broadMatch	OBA:2045517	response to nutrient levels trait	GO:0031667	response to nutrient levels	1
+APO:0000159	biofilm formation	skos:exactMatch	OBA:2045534	biofilm formation trait	GO:0042710	biofilm formation	1
+APO:0000196	mating type switching	skos:exactMatch	OBA:2045535	mating type switching trait	GO:0007533	mating type switching	1
+APO:0000208	chromosome segregation	skos:exactMatch	OBA:2045536	chromosome segregation trait	GO:0007059	chromosome segregation	1
+APO:0000219	utilization of sulfur source	skos:exactMatch	OBA:2045537	sulfur utilization trait	GO:0006791	sulfur utilization	1
+APO:0000220	necrotic cell death	skos:exactMatch	OBA:2045538	programmed necrotic cell death trait	GO:0097300	programmed necrotic cell death	1
+APO:0000221	septum formation	skos:exactMatch	OBA:2045539	septin ring assembly trait	GO:0000921	septin ring assembly	1
+APO:0000222	chemical compound excretion	skos:broadMatch	OBA:2045540	excretion trait	GO:0007588	excretion	1
+APO:0000225	mitotic recombination	skos:exactMatch	OBA:2045541	mitotic recombination trait	GO:0006312	mitotic recombination	1
+APO:0000239	pexophagy	skos:exactMatch	OBA:2045542	pexophagy trait	GO:0000425	pexophagy	1
+APO:0000240	mitophagy	skos:exactMatch	OBA:2045543	mitophagy trait	GO:0000423	mitophagy	1
+APO:0000271	RNA modification	skos:exactMatch	OBA:2045544	RNA modification trait	GO:0009451	RNA modification	1
+APO:0000288	adhesion	skos:exactMatch	OBA:2045545	cell adhesion trait	GO:0007155	cell adhesion	1
+APO:0000312	cell death	skos:exactMatch	OBA:2045546	cell death trait	GO:0008219	cell death	1
+APO:0000338	micronucleophagy	skos:broadMatch	OBA:2045547	nucleophagy trait	GO:0044804	nucleophagy	1
+APO:0000339	ribophagy	skos:exactMatch	OBA:2045548	ribophagy trait	GO:0034517	ribophagy	1
+APO:0000340	reticulophagy	skos:exactMatch	OBA:2045549	reticulophagy trait	GO:0061709	reticulophagy	1
+APO:0000341	nucleophagy	skos:exactMatch	OBA:2045547	nucleophagy trait	GO:0044804	nucleophagy	1
+APO:0000342	late nucleophagy	skos:broadMatch	OBA:2045547	nucleophagy trait	GO:0044804	nucleophagy	1
+							
+APO:0000200	budding pattern	skos:exactMatch					1
+APO:0000025	axial budding pattern	skos:exactMatch					1
+APO:0000026	bipolar budding pattern	skos:exactMatch					1
+							
+APO:0000223	mating projection morphology	skos:exactMatch					1
+APO:0000226	subcellular morphology	skos:exactMatch					1
+APO:0000243	Golgi morphology	skos:exactMatch					1
+APO:0000270	endoplasmic reticulum morphology	skos:exactMatch					1
+APO:0000273	nucleolar morphology	skos:exactMatch					1
+APO:0000335	size of nucleolus	skos:exactMatch					1
+APO:0000044	sporulation efficiency	skos:exactMatch					1
+APO:0000111	viability	skos:exactMatch					1
+APO:0000048	virulence	skos:exactMatch					1
+APO:0000216	fitness	skos:exactMatch					1
+APO:0000218	redox state	skos:exactMatch					1
+APO:0000297	mitochondrial distribution	skos:exactMatch					1
+APO:0000298	peroxisomal distribution	skos:exactMatch					1
+APO:0000299	vacuolar distribution	skos:exactMatch					1
+APO:0000300	endoplasmic reticulum distribution	skos:exactMatch					1
+APO:0000301	Golgi distribution	skos:exactMatch					1
+APO:0000302	vesicle distribution	skos:exactMatch					1
+APO:0000327	hydrostatic pressure resistance	skos:exactMatch					1
+APO:0000034	mating efficiency	skos:exactMatch					1
+APO:0000110	competitive fitness	skos:exactMatch					1
+APO:0000315	plasma membrane morphology	skos:exactMatch					1
+APO:0000242	lipid particle morphology	skos:exactMatch					1
+APO:0000303	endomembrane system morphology	skos:exactMatch					1
+APO:0000316	chronological lifespan	skos:exactMatch					1
+APO:0000030	lifespan	skos:exactMatch					1
+APO:0000317	replicative lifespan	skos:exactMatch					1
+APO:0000307	anaerobic growth	skos:exactMatch					1
+APO:0000308	fermentative growth	skos:exactMatch					1
+APO:0000309	respiratory growth	skos:exactMatch					1
+APO:0000095	chemical compound accumulation	skos:exactMatch					1
+APO:0000109	survival rate in stationary phase	skos:exactMatch					1
+APO:0000209	protein/peptide distribution	skos:exactMatch					1
+							
+APO:0000149	protein/peptide accumulation	skos:exactMatch					1
+APO:0000224	RNA accumulation	skos:exactMatch					1
+APO:0000274	prion state	skos:exactMatch					1
+							
+APO:0000197	colony sectoring	skos:exactMatch					1
+APO:0000060	colony appearance	skos:exactMatch					1
+APO:0000061	colony color	skos:exactMatch					1
+APO:0000062	colony shape	skos:exactMatch					1
+APO:0000063	colony size	skos:exactMatch					1
+APO:0000064	liquid culture appearance	skos:exactMatch					1
+							
+APO:0000092	temperature sensitive growth	skos:exactMatch					1
+APO:0000093	thermotolerance	skos:exactMatch					1
+APO:0000333	acquired thermotolerance	skos:exactMatch					1
+APO:0000334	innate thermotolerance	skos:exactMatch					1
+APO:0000199	chitin deposition	skos:exactMatch					1
+APO:0000106	vegetative growth	skos:exactMatch					1
+							
+							1
+APO:0000194	ionizing radiation resistance	skos:exactMatch					1
+APO:0000195	gamma ray resistance	skos:exactMatch					1
+APO:0000198	mutation frequency	skos:exactMatch					1
+APO:0000080	stress resistance	skos:exactMatch					1
+APO:0000081	killer toxin resistance	skos:exactMatch					1
+APO:0000082	osmotic stress resistance	skos:exactMatch					1
+APO:0000083	oxidative stress resistance	skos:exactMatch					1
+APO:0000084	radiation resistance	skos:exactMatch					1
+APO:0000085	UV resistance	skos:exactMatch					1
+APO:0000086	X ray resistance	skos:exactMatch					1
+APO:0000087	resistance to chemicals	skos:exactMatch					1
+APO:0000090	metal resistance	skos:exactMatch					1
+APO:0000091	starvation resistance	skos:exactMatch					1
+APO:0000201	acid pH resistance	skos:exactMatch					1
+APO:0000202	alkaline pH resistance	skos:exactMatch					1
+APO:0000203	hypoosmotic stress resistance	skos:exactMatch					1
+APO:0000204	hyperosmotic stress resistance	skos:exactMatch					1
+APO:0000205	ionic stress resistance	skos:exactMatch					1
+APO:0000147	heat sensitivity	skos:exactMatch					1
+APO:0000148	cold sensitivity	skos:exactMatch					1
+APO:0000326	desiccation resistance	skos:exactMatch					1
+APO:0000241	freeze-thaw resistance	skos:exactMatch					1
+APO:0000215	toxin resistance	skos:exactMatch					1

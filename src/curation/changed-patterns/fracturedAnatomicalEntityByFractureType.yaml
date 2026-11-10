@@ -1,0 +1,34 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  fractured: PATO:0040034
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: A %s that is %s.
+  vars:
+  - anatomical_entity
+  - fractured
+description: ''
+equivalentTo:
+  text: '''has_part'' some (%s and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - fractured
+  - anatomical_entity
+name:
+  text: '%s %s'
+  vars:
+  - fractured
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/fracturedAnatomicalEntityByFractureType.yaml
+pattern_name: fracturedAnatomicalEntityByFractureType
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  anatomical_entity: '''anatomical entity'''
+  fractured: fractured

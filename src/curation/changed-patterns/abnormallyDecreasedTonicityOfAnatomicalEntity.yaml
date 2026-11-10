@@ -1,0 +1,31 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  decreased tonicity: PATO:0001619
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: Decreased tonicity of %s.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''decreased tonicity'' and (''inheres_in'' some %s) and
+    (''has_modifier'' some ''abnormal''))'
+  vars:
+  - anatomical_entity
+name:
+  text: decreased %s tone
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedStrengthOfAnatomicalEntity.yaml
+pattern_name: abnormallyDecreasedTonicityOfAnatomicalEntity
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  anatomical_entity: '''anatomical entity'''

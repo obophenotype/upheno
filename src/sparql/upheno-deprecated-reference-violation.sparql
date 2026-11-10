@@ -1,0 +1,24 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# A live class that points at a deprecated class, where one of the two is a uPheno class:
+# a uPheno class defined with an obsolete filler, or anything kept under an obsolete uPheno class (#1011).
+SELECT DISTINCT ?cls ?deprecated WHERE {
+  ?cls a owl:Class .
+  FILTER(isIRI(?cls))
+  FILTER NOT EXISTS { ?cls owl:deprecated ?d0 . FILTER(STR(?d0) = "true") }
+  {
+    ?cls rdfs:subClassOf ?deprecated .
+  } UNION {
+    ?cls owl:equivalentClass|rdfs:subClassOf ?expr .
+    FILTER(isBlank(?expr))
+    ?expr (owl:intersectionOf|owl:unionOf|owl:someValuesFrom|owl:allValuesFrom|rdf:first|rdf:rest)+ ?deprecated .
+  }
+  FILTER(isIRI(?deprecated))
+  ?deprecated owl:deprecated ?d1 .
+  FILTER(STR(?d1) = "true")
+  FILTER(STRSTARTS(STR(?cls), "http://purl.obolibrary.org/obo/UPHENO_") ||
+         STRSTARTS(STR(?deprecated), "http://purl.obolibrary.org/obo/UPHENO_"))
+}
+ORDER BY ?cls

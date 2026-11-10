@@ -1,0 +1,35 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: Reduced number of %s
+  vars:
+  - cellular_component
+classes:
+  abnormal: PATO:0000460
+  cellular component: GO:0005575
+  decreased amount: PATO:0001997
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: The presence of a reduced number of %s.
+  vars:
+  - cellular_component
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''decreased amount'' and (''inheres_in'' some %s) and
+    (''has_modifier'' some ''abnormal''))'
+  vars:
+  - cellular_component
+name:
+  text: decreased number of %s
+  vars:
+  - cellular_component
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedNumberOfCellularComponent.yaml
+pattern_name: abnormallyDecreasedNumberOfCellularComponent
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  cellular_component: '''cellular component'''

@@ -1,0 +1,36 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  chemical: CHEBI:24431
+  concentration of: PATO:0000033
+  independent continuant: BFO:0000004
+contributors:
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: A changed concentration of %s in %s.
+  vars:
+  - chemical
+  - location
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''concentration of'' and (''inheres_in'' some (%s and
+    (''part_of'' some %s))) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - chemical
+  - location
+name:
+  text: '%s concentration in %s phenotype'
+  vars:
+  - chemical
+  - location
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalConcentrationOfChemicalEntityInLocation.yaml
+pattern_name: abnormalConcentrationOfChemicalEntityInLocation
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  part_of: BFO:0000050
+vars:
+  chemical: chemical
+  location: '''independent continuant'''

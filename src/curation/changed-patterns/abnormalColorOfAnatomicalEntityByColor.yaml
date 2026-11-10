@@ -1,0 +1,49 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: '%s type changed %s color'
+  vars:
+  - color
+  - entity
+- annotationProperty: exact_synonym
+  text: changed %s color of %s
+  vars:
+  - color
+  - entity
+classes:
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+  color: PATO:0000014
+contributors:
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0002-7073-9172
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0003-4606-0597
+- https://orcid.org/0000-0002-9900-7880
+def:
+  text: '%s %s.'
+  vars:
+  - color
+  - entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (%s and (''characteristic_of'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - color
+  - entity
+name:
+  text: '%s %s color'
+  vars:
+  - color
+  - entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalColorOfAnatomicalEntityByColor.yaml
+pattern_name: abnormalColorOfAnatomicalEntityByColor
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+vars:
+  color: '''color'''
+  entity: '''anatomical_entity'''

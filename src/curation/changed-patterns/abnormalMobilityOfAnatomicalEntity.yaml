@@ -1,0 +1,28 @@
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  mobility: PATO:0000004
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: anomaly in the ability to move %s.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''mobility'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - anatomical_entity
+name:
+  text: '%s mobility phenotype'
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMobilityOfAnatomicalEntity.yaml
+pattern_name: abnormalMobilityOfAnatomicalEntity
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  anatomical_entity: '''anatomical entity'''

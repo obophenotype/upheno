@@ -1,0 +1,38 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: Extra %s
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  increased amount: PATO:0000470
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0001-9076-6015
+- https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0002-7356-1779
+def:
+  text: The presence of an increased number of %s.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''increased amount'' and (''inheres_in'' some %s) and
+    (''has_modifier'' some ''abnormal''))'
+  vars:
+  - anatomical_entity
+name:
+  text: increased number of %s
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedNumberOfAnatomicalEntity.yaml
+pattern_name: abnormallyIncreasedNumberOfAnatomicalEntity
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  anatomical_entity: '''anatomical entity'''

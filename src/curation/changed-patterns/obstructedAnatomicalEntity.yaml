@@ -1,0 +1,45 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+annotations:
+- annotationProperty: exact_synonym
+  text: obstruction of %s
+  vars:
+  - anatomical_space
+- annotationProperty: exact_synonym
+  text: obstructed %s
+  vars:
+  - anatomical_space
+classes:
+  abnormal: PATO:0000460
+  anatomical_entity: UBERON:0001062
+  obstructed: PATO:0000648
+contributors:
+- https://orcid.org/0000-0001-8314-2140
+- https://orcid.org/0000-0003-4606-0597
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0002-7073-9172
+- https://orcid.org/0000-0002-6490-7723
+def:
+  text: Obstructed %s due to it being blocked or filled with one or more obstacles.
+  vars:
+  - anatomical_space
+description: ''
+equivalentTo:
+  text: '''has_part'' some ( ''obstructed'' and (''characteristic_of'' some %s) and
+    (''has_modifier'' some ''abnormal'') )'
+  vars:
+  - anatomical_space
+name:
+  text: '%s obstruction'
+  vars:
+  - anatomical_space
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/obstructedAnatomicalEntity.yaml
+pattern_name: obstructedAnatomicalEntity
+relations:
+  characteristic_of: RO:0000052
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+vars:
+  anatomical_space: '''anatomical_entity'''

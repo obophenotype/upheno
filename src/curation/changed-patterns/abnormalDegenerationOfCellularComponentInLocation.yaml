@@ -1,0 +1,42 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: degeneration of the %s in %s
+  vars:
+  - cellular_component
+  - location
+classes:
+  abnormal: PATO:0000460
+  cellular component: GO:0005575
+  degenerate: PATO:0000639
+  independent continuant: BFO:0000004
+contributors:
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: Partial or complete degeneration of %s tissue in the %s that was once present.
+  vars:
+  - cellular_component
+  - location
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''degenerate'' and (''inheres_in'' some (%s and (''part_of''
+    some %s))) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - cellular_component
+  - location
+name:
+  text: '%s degeneration in %s'
+  vars:
+  - cellular_component
+  - location
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalDegenerationOfCellularComponentInLocation.yaml
+pattern_name: abnormalDegenerationOfCellularComponentInLocation
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  part_of: BFO:0000050
+vars:
+  cellular_component: '''cellular component'''
+  location: '''independent continuant'''
