@@ -1,0 +1,49 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?class_id_curie ?class_label ?ancestor_curie ?ancestor_label
+WHERE {
+  ?class_id a owl:Class ;
+        rdfs:label ?class_label .
+
+  FILTER(isIRI(?class_id))
+  #FILTER(!STRSTARTS(STR(?class_id), "http://purl.obolibrary.org/obo/UPHENO_"))
+
+  OPTIONAL { 
+  ?class_id rdfs:subClassOf ?parent1 . 
+  FILTER(isIRI(?parent1))
+  OPTIONAL { 
+    ?parent1 rdfs:subClassOf ?parent2 . 
+    FILTER(isIRI(?parent2))
+    OPTIONAL {
+      ?parent2 rdfs:subClassOf ?parent3 . 
+      FILTER(isIRI(?parent3))
+    }
+  }
+}
+
+  # Determine the ancestor, preferring the closest
+  BIND(
+    IF(BOUND(?parent1) 
+        && STRSTARTS(
+            STR(?parent1), "http://purl.obolibrary.org/obo/UPHENO_"), ?parent1,
+    IF(BOUND(?parent2)
+        && STRSTARTS(
+            STR(?parent2), "http://purl.obolibrary.org/obo/UPHENO_"), ?parent2,
+    IF(BOUND(?parent3)        
+        && STRSTARTS(
+            STR(?parent3), "http://purl.obolibrary.org/obo/UPHENO_"), ?parent3,
+    ?class_id)))
+     AS ?ancestor)
+
+    OPTIONAL {
+        ?ancestor rdfs:label ?ancestor_label .
+        BIND(REPLACE(STR(?ancestor), "http://purl.obolibrary.org/obo/", "") AS ?ancestor_local)
+        BIND(REPLACE(?ancestor_local, "_", ":") AS ?ancestor_curie)
+        FILTER(?ancestor != ?class_id)
+    }
+
+  # Convert to CURIEs
+  BIND(REPLACE(STR(?class_id), "http://purl.obolibrary.org/obo/", "") AS ?class_id_local)
+  BIND(REPLACE(?class_id_local, "_", ":") AS ?class_id_curie) 
+}

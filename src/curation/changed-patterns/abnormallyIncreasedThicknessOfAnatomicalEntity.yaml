@@ -1,0 +1,36 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+annotations:
+- annotationProperty: exact_synonym
+  text: thickened %s
+  vars:
+  - anatomical_entity
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  increased thickness: PATO:0000591
+contributors:
+- https://orcid.org/0000-0002-7356-1779
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: An increase in the thickness of the %s.
+  vars:
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''increased thickness'' and (''inheres_in'' some %s) and
+    (''has_modifier'' some ''abnormal''))'
+  vars:
+  - anatomical_entity
+name:
+  text: increased thickness of the %s
+  vars:
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedThicknessOfAnatomicalEntity.yaml
+pattern_name: abnormallyIncreasedThicknessOfAnatomicalEntity
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  anatomical_entity: '''anatomical entity'''

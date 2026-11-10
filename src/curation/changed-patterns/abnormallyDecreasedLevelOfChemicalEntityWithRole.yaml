@@ -1,0 +1,33 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  chemical entity: CHEBI:24431
+  decreased amount: PATO:0001997
+  role: CHEBI:50906
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-3528-5267
+def:
+  text: Decreased level of %s.
+  vars:
+  - role
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''decreased amount'' and (''inheres_in'' some (''chemical
+    entity'' and (''has_role'' some %s))) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - role
+name:
+  text: decreased %s level
+  vars:
+  - role
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntityWithRole.yaml
+pattern_name: abnormallyDecreasedLevelOfChemicalEntityWithRole
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  has_role: RO:0000087
+  inheres_in: RO:0000052
+vars:
+  role: role

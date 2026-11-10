@@ -1,6 +1,1 @@
-# SSSOM mapping directory
-
-Do not overwrite, contents will be generated automatically.
-
-
-
+# Directory for managing SSSOM mappings files

@@ -1,0 +1,18 @@
+Prefix(:=<http://purl.obolibrary.org/obo/x-bfo.owl#>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/upheno/components/upheno-haspart-characteristicofpartof-chain.owl>
+Annotation(rdfs:comment "This file contains a role chain that is generally wrong but useful for uPheno -> OBA inference.")
+
+Declaration(ObjectProperty(obo:BFO_0000051))
+Declaration(ObjectProperty(obo:RO_0002314))
+
+SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 obo:RO_0002314) obo:BFO_0000051)
+)

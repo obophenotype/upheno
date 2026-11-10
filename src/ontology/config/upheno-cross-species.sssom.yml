@@ -1,0 +1,24 @@
+mapping_set_id: https://data.monarchinitiative.org/mappings/upheno-cross-species.sssom.tsv
+license: https://creativecommons.org/publicdomain/zero/1.0/
+mapping_set_description: The official uPheno cross-species mappings.
+curie_map:
+  obo: http://purl.obolibrary.org/obo/
+  APO: http://purl.obolibrary.org/obo/APO_
+  DDPHENO: http://purl.obolibrary.org/obo/DDPHENO_
+  FBcv: http://purl.obolibrary.org/obo/FBcv_
+  FYPO: http://purl.obolibrary.org/obo/FYPO_
+  HP: http://purl.obolibrary.org/obo/HP_
+  MGPO: http://purl.obolibrary.org/obo/MGPO_
+  MP: http://purl.obolibrary.org/obo/MP_
+  PHIPO: http://purl.obolibrary.org/obo/PHIPO_
+  PLANP: http://purl.obolibrary.org/obo/PLANP_
+  UPHENO: http://purl.obolibrary.org/obo/UPHENO_
+  WBPhenotype: http://purl.obolibrary.org/obo/WBPhenotype_
+  XPO: http://purl.obolibrary.org/obo/XPO_
+  ZP: http://purl.obolibrary.org/obo/ZP_
+  owl: http://www.w3.org/2002/07/owl#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  semapv: https://w3id.org/semapv/vocab/
+  skos: http://www.w3.org/2004/02/skos/core#
+  sssom: https://w3id.org/sssom/

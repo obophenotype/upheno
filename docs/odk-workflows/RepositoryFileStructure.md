@@ -24,7 +24,7 @@ These are the current imports in UPHENO
 | mpath | http://purl.obolibrary.org/obo/mpath.owl | None |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
 | omo | http://purl.obolibrary.org/obo/omo.owl | None |
-| chebi | https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl | None |
+| chebi | http://purl.obolibrary.org/obo/upheno/chebi_slim.owl | None |
 | oba | http://purl.obolibrary.org/obo/oba.owl | None |
 | ncbitaxon | http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl | None |
 | pr | https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl | None |

@@ -1,0 +1,31 @@
+classes:
+  abnormal: PATO:0000460
+  cellular component: GO:0005575
+  movement of cell or subcellular component: GO:0006928
+  process quality: PATO:0001236
+contributors:
+- https://orcid.org/0000-0002-7356-1779
+def:
+  text: Ability to move %s.
+  vars:
+  - cellular_component
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''process quality'' and (''inheres_in'' some (''movement
+    of cell or subcellular component'' and (''results_in_movement_of'' some %s)))
+    and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - cellular_component
+name:
+  text: '%s motility phenotype'
+  vars:
+  - cellular_component
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMotilityOfCellularComponent.yaml
+pattern_name: abnormalMotilityOfCellularComponent
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  results_in_movement_of: RO:0002565
+vars:
+  cellular_component: '''cellular component'''

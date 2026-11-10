@@ -1,0 +1,20 @@
+PREFIX semapv: <https://w3id.org/semapv/vocab/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+CONSTRUCT {
+  ?sspo_id rdfs:subClassOf ?upheno_id .
+  # Massive hack for
+  semapv:crossSpeciesExactMatch a owl:AnnotationProperty .
+}
+WHERE {
+  {
+    ?upheno_id semapv:crossSpeciesExactMatch ?sspo_id .
+    FILTER(STRSTARTS(STR(?upheno_id), "http://purl.obolibrary.org/obo/UPHENO_"))
+    FILTER(!STRSTARTS(STR(?sspo_id), "http://purl.obolibrary.org/obo/UPHENO_"))
+  } UNION {
+    ?sspo_id semapv:crossSpeciesExactMatch ?upheno_id .
+    FILTER(STRSTARTS(STR(?upheno_id), "http://purl.obolibrary.org/obo/UPHENO_"))
+    FILTER(!STRSTARTS(STR(?sspo_id), "http://purl.obolibrary.org/obo/UPHENO_"))
+  }
+}

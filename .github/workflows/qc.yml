@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+# Basic ODK workflow
 
 name: CI
 
@@ -19,14 +19,34 @@ jobs:
   ontology_qc:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.3.0
+    container: obolibrary/odkfull:v1.6
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
+      # merged_import.owl is ~200MB and gitignored, so we use the one attached to the
+      # latest release instead of rebuilding it (which would pull all mirrors).
+      - name: Download merged import from latest release
+        run: |
+          curl -fsSL https://github.com/obophenotype/upheno/releases/latest/download/merged_import.owl.gz \
+            -o src/ontology/imports/merged_import.owl.gz \
+            || { echo "::error::merged_import.owl.gz is missing from the latest release, attach it (see docs/pipeline.md)"; exit 1; }
+          gunzip -f src/ontology/imports/merged_import.owl.gz
+
+      # dosdp-patterns/ is gitignored; assemble it from the tracked curated patterns.
+      # Separate make call, because the pattern file lists are wildcards evaluated at parse time.
+      - name: Assemble DOSDP patterns
+        run: cd src/ontology && make prepare_dosdp_patterns_for_generation
 
       - name: Run ontology QC checks
+        # The ODK v1.6 Makefile ignores ROBOT_ENV, so the heap has to be set in the environment;
+        # without it ROBOT gets the JVM default (a quarter of the runner's memory).
         env:
           DEFAULT_BRANCH: master
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' upheno_test IMP=false PAT=true
+          ROBOT_JAVA_ARGS: -Xmx12G
+        # QC runs on the edit file only (see robot_report in upheno-odk.yaml); release
+        # assets like upheno-base.owl are too big to build on a standard runner.
+        run: cd src/ontology && make IMP=false MIR=false test
+

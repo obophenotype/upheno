@@ -1,0 +1,33 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  behavior process: NBO:0000313
+  decreased rate: PATO:0000911
+contributors:
+- https://orcid.org/0000-0002-3528-5267
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-1373-1705
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: Decrease in rate (amount or occurrence per unit of time) of %s.
+  vars:
+  - behavior_process
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''decreased rate'' and (''inheres_in'' some %s) and (''has_modifier''
+    some ''abnormal''))'
+  vars:
+  - behavior_process
+name:
+  text: decreased rate of %s
+  vars:
+  - behavior_process
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedRateOfBehavior.yaml
+pattern_name: abnormallyDecreasedRateOfBehavior
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  behavior_process: '''behavior process'''

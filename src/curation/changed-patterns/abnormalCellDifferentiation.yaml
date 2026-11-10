@@ -1,0 +1,33 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  cell type: CL:0000003
+  cellular developmental process: GO:0048869
+  process quality: PATO:0001236
+contributors:
+- https://orcid.org/0000-0002-7356-1779
+def:
+  text: A change in the cell differentiation of the %s.
+  vars:
+  - celltype
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''process quality'' and (''inheres_in'' some (''cellular
+    developmental process'' and (''results_in_acquisition_of_features_of'' some %s)))
+    and  (''has_modifier'' some ''abnormal''))'
+  vars:
+  - celltype
+name:
+  text: '%s cell differentiation phenotype'
+  vars:
+  - celltype
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellDifferentiation.yaml
+pattern_name: abnormalCellDifferentiation
+relations:
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  results_in_acquisition_of_features_of: RO:0002315
+vars:
+  celltype: '''cell type'''

@@ -1,0 +1,37 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  biological_process: GO:0008150
+  life_cycle_stage: UBERON:0000105
+  rate: PATO:0000161
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+- https://orcid.org/0000-0002-1373-1705
+def:
+  text: Changed rate of %s before the %s.
+  vars:
+  - biological_process
+  - stage
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''rate'' and (''inheres_in'' some (%s and (''before''
+    some %s))) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - biological_process
+  - stage
+name:
+  text: '%s rate before %s phenotype'
+  vars:
+  - biological_process
+  - stage
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalRateOfBiologicalProcessBeforeStage.yaml
+pattern_name: abnormalRateOfBiologicalProcessBeforeStage
+relations:
+  before: RO:0002083
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+vars:
+  biological_process: '''biological_process'''
+  stage: '''life_cycle_stage'''

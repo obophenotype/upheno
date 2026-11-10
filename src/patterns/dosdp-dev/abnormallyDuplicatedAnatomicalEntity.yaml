@@ -25,10 +25,6 @@ name:
 
 annotations:
 - annotationProperty: exact_synonym
-  text: "abnormal duplication of %s"
-  vars:
-  - anatomical_entity
-- annotationProperty: exact_synonym
   text: "abnormally duplicated %s"
   vars:
   - anatomical_entity

@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.obolibrary.org/obo/upheno/patterns-dev", "http://purl.obolibrary.org/obo", "http://www.w3.org/2002/07/owl", "http://purl.obolibrary.org/obo/caro", "http://www.w3.org/2000/01/rdf-schema", "http://purl.obolibrary.org/obo/pato", "http://www.w3.org/2001/XMLSchema", "http://purl.obolibrary.org/obo/upheno/patterns", "http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.obolibrary.org/obo/upheno/patterns-dev", "http://purl.obolibrary.org/obo", "http://www.w3.org/2002/07/owl", "http://purl.obolibrary.org/obo/caro", "http://www.w3.org/2000/01/rdf-schema", "http://purl.obolibrary.org/obo/pato", "http://www.w3.org/2001/XMLSchema", "http://purl.obolibrary.org/obo/upheno/patterns" ],
     "prefixList" : {
       "owl" : "http://www.w3.org/2002/07/owl#",
       "terms" : "http://purl.org/dc/terms/",
@@ -3124,8 +3124,8 @@
     "id" : "158",
     "superClasses" : [ "19" ]
   }, {
-    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml",
-    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns/dosdp-dev",
+    "iri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalNumberOfAnatomicalEntityInLocation.yaml",
+    "baseIri" : "http://purl.obolibrary.org/obo/upheno/patterns-dev",
     "instances" : 0,
     "annotations" : {
       "IAO_0000115" : [ {

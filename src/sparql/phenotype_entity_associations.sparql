@@ -1,0 +1,12 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?s ?y WHERE 
+{
+  ?s rdfs:subClassOf* <http://purl.obolibrary.org/obo/UPHENO_0001001> . 
+	?s rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty <http://purl.obolibrary.org/obo/UPHENO_0000001> ;
+    owl:someValuesFrom ?y ]  .
+	 FILTER(isIRI(?y))
+}

@@ -1,0 +1,39 @@
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+classes:
+  abnormal: PATO:0000460
+  anatomical entity: UBERON:0001062
+  cell: CL:0000003
+  cell population proliferation: GO:0008283
+  process quality: PATO:0001236
+contributors:
+- https://orcid.org/0000-0001-5208-3432
+def:
+  text: Proliferation of %s in %s.
+  vars:
+  - cell
+  - anatomical_entity
+description: ''
+equivalentTo:
+  text: '''has_part'' some (''process quality'' and (''inheres_in'' some (''cell population
+    proliferation'' and (''acts_on_population_of'' some %s) and (''occurs_in'' some
+    %s))) and (''has_modifier'' some ''abnormal''))'
+  vars:
+  - cell
+  - anatomical_entity
+name:
+  text: '%s proliferation in %s phenotype'
+  vars:
+  - cell
+  - anatomical_entity
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellProliferationActingOnCellsOfTypeInLocation.yaml
+pattern_name: abnormalCellProliferationActingOnCellsOfTypeInLocation
+relations:
+  acts_on_population_of: obo:GOREL_0001006
+  has_modifier: RO:0002573
+  has_part: BFO:0000051
+  inheres_in: RO:0000052
+  occurs_in: BFO:0000066
+vars:
+  anatomical_entity: '''anatomical entity'''
+  cell: '''cell'''
