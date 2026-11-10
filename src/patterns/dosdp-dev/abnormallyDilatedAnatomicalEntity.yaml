@@ -1,12 +1,8 @@
-pattern_name: abnormallyDilatedImmaterialAnatomicalEntity
+pattern_name: abnormallyDilatedAnatomicalEntity
 
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDilatedAnatomicalEntity.yaml
 
 description: 'An abnormally dilated immaterial anatomical entity, for example, an abnormally dilated cavity of a cardiac ventricle. This pattern should be used when there is a term for the lumen/cavity/space within the anatomical entity. If no space term exists use the abnormallyDilatedAnatomicalEntityLumen pattern.'
-
-# examples:
-#  - http://purl.obolibrary.org/obo/HP_0010955
-#  - http://purl.obolibrary.org/obo/MP_0001123
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140
@@ -27,30 +23,30 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
 
 vars:
-  immaterial_anatomical_entity: "'immaterial_anatomical_entity'"
+  anatomical_entity: "'immaterial_anatomical_entity'"
 
 name:
   text: "abnormally dilated %s"
   vars:
-    - immaterial_anatomical_entity
+    - anatomical_entity
 
 annotations:
   - annotationProperty: exact_synonym
     text: "abnormal %s dilation"
     vars:
-      - immaterial_anatomical_entity
+      - anatomical_entity
 
   - annotationProperty: exact_synonym
     text: "dilated %s"
     vars:
-      - immaterial_anatomical_entity
+      - anatomical_entity
 
 def:
   text: "Abnormal dilation of %s."
   vars:
-    - immaterial_anatomical_entity
+    - anatomical_entity
 
 equivalentTo:
   text: "'has_part' some ('dilated' and ('characteristic_of' some %s) and ('has_modifier' some 'abnormal'))"
   vars:
-    - immaterial_anatomical_entity
+    - anatomical_entity
