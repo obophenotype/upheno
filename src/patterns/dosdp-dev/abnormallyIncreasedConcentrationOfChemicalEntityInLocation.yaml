@@ -1,6 +1,10 @@
 pattern_name: abnormallyIncreasedConcentrationOfChemicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedConcentrationOfChemicalEntityInLocation.yaml
-description: "An abnormal increase in concentration of a chemical, like sodium, in a location, like the blood."
+description: "An abnormal increase in concentration of a chemical, like sodium, in a location, like the blood. Use only when the source explicitly reports a concentration (amount per volume); otherwise use abnormallyIncreasedLevelOfChemicalEntityInLocation. Increased concentration is a subclass of increased amount in PATO, so terms from this pattern are inferred under the corresponding level terms."
+
+# examples:
+#  - http://purl.obolibrary.org/obo/HP_0003228 # Hypernatremia
+#  - http://purl.obolibrary.org/obo/ZP_0146097 # blood increased concentration glucose blood, abnormal
 
 classes:
   increased concentration: PATO:0001162

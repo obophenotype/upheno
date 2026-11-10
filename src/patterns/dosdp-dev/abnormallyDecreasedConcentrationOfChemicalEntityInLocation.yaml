@@ -1,6 +1,9 @@
 pattern_name: abnormallyDecreasedConcentrationOfChemicalEntityInLocation
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedConcentrationOfChemicalEntityInLocation.yaml
-description: "An abnormal decrease in concentration of a chemical, like sodium, in a location, like the blood."
+description: "An abnormal decrease in concentration of a chemical, like sodium, in a location, like the blood. Use only when the source explicitly reports a concentration (amount per volume); otherwise use abnormallyDecreasedLevelOfChemicalEntityInLocation. Decreased concentration is a subclass of decreased amount in PATO, so terms from this pattern are inferred under the corresponding level terms."
+
+# examples:
+#  - http://purl.obolibrary.org/obo/HP_0002902 # Hyponatremia
 
 classes:
   decreased concentration: PATO:0001163
