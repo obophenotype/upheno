@@ -1,6 +1,10 @@
 pattern_name: abnormallyDisruptedBiologicalProcess
 pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDisruptedBiologicalProcess.yaml
-description: "An interruption of a biological process of its normal course, such as disrupted plasminogen activation."
+description: "A biological process that is abnormally interrupted in its normal course, such as disrupted plasminogen activation or disrupted heme biosynthetic process."
+
+# examples:
+#  - http://purl.obolibrary.org/obo/ZP_0000950 # heme biosynthetic process disrupted, abnormal
+#  - http://purl.obolibrary.org/obo/ZP_0003868 # rRNA processing disrupted, abnormal
 
 contributors:
   - https://orcid.org/0000-0002-9611-1279
