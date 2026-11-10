@@ -27,12 +27,17 @@ vars:
   location: "'independent continuant'"
 
 name:
-  text: "increased number of %s in %s"
+  text: "abnormally increased number of %s in %s"
   vars:
    - cellular_component
    - location
 
 annotations:
+  - annotationProperty: exact_synonym
+    text: "increased number of %s in %s"
+    vars:
+     - cellular_component
+     - location
   - annotationProperty: exact_synonym
     text: "extra %s in %s"
     vars:
